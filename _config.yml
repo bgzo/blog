@@ -1,18 +1,12 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-# Site
+
 title: DandelionFs'Blog
 subtitle: '"And never have I felt so deeply at one and the same time so detached from myself and so present in the world" ——Albert Camus'
-#  #(¦3[▓▓] & Have a code day!
 keywords: Dandelion-Flower,DandelionFlowers,DandelionFlower
 author: Dandelion-Flowers
 language: en
 timezone: Asia/Shanghai
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dandelionflowers.github.io
+url: http://dandelionfs.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -20,52 +14,17 @@ pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-# Site settings
-# 网站综合内容设置：
 SEOTitle: DandelionFs'Blog
 email: lfh010618@gmail.com
 description: "DandelionFs‘ space"
 keyword: "DandelionFlowers" 
 
-# SNS settings
-# 一些社交平台地址，支持以下几种：
-#zhihu_username: DandelionFlowers
-#facebook_username: DandelionFlowers
-#github_username: DandelionFlowers
-#twitter_username:   iconie_alloy
-#linkedin_username:  小涛-聂-80964aba
-
 # Build settings
-anchorjs: true                          
+# anchorjs: true                          
 # if you want to customize anchor. check out line:181 of `post.html`
-sidebar-avatar: "//dfslfh.cn/cf/avatar.jpg"
+# sidebar-avatar: "//dfslfh.cn/cf/avatar.jpg"
 # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# Friends
-# 友情链接
-#friends: [
-#    {
-#        title: "MainStation",
-#        href: "//dandelionflowers.xyz"
-#    }
-#]
-#comment:
-#  type: gitment
-#  id: your-id-created-by-https://github.com/settings/applications/new
-#  secret: your-secret-created-by-https://github.com/settings/applications/new
-#  owner: aircloud
-#  repo: hexo-aircloud-blog
-
-# comment:
-#   type: disqus
-#   script: '//lfhdfs.disqus.com/count.js'
-
-#donate:
-#  img: img/donate.jpg
-#  content: 感谢鼓励
-
-# The following content is not recommended to modify
-# 搜索数据文件路径设置，不建议改动：
 search:
   path: search.json
   field: post
@@ -136,12 +95,10 @@ use_date_for_updated: false
 include:
 exclude:
 ignore:
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aircloud
-#archer
+theme: Wikitten
 
 # Deployment
 deploy:
@@ -151,24 +108,48 @@ deploy:
   # coding: git@e.coding.net:dandelionflowers/DandelionFs.coding.me.git
   branch: master
 
+# Hexo Configuration
+# URL
+# permalink: wiki/:title/
 
+# Directory
+# skip_render:
+#  - README.md
+#  - '_posts/**/embed_page/**'
 
-# 添加支持archer
-#jsonContent:
-#  meta: true
-#  pages: false
-# posts:
-#    title: true
-#    date: true
-#    path: true
-#    text: false
-#    raw: false
-#    content: false
-#    slug: false
-#    updated: false
-#    comments: false
-#    link: false
-#    permalink: true
-#    excerpt: false
-#   categories: true
-#    tags: true
+# Writing
+# new_post_name: :title.md # File name of new posts
+
+## Markdown
+## https://github.com/hexojs/hexo-renderer-marked
+marked:
+  gfm: true
+  
+## Plugins: https://hexo.io/plugins/
+### JsonContent
+jsonContent:
+  meta: false
+  pages:
+    title: true
+    date: true
+    path: true
+    text: true
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    tags: true
+    categories: true
+  ignore:
+    - 404.html
+    
+### Creat sitemap
+#sitemap:
+#  path: sitemap.xml
+
+### Adds nofollow attribute to all external links in your hexo blog posts automatically.
+nofollow:
+  enable: true
+  exclude: 
+    - hexo.dfslfh.cn # eg: zthxxx.me

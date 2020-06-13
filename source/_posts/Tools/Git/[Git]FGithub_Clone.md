@@ -1,6 +1,7 @@
 ---
 title: '[Git] F* Github Clone'
 date: 2020-03-24 21:14:22
+toc: true
 ---
 
 
@@ -17,7 +18,7 @@ date: 2020-03-24 21:14:22
 
 用SSh无用，对比如下，可能是我的SS不太好用……
 
-![](http://img.dandelionflowers.xyz/comper_github.png)
+![](http://i.dfslfh.cn/comper_github.png)
 
 
 
@@ -38,7 +39,7 @@ git config --global --unset http.https://github.com.proxy # 取消代理
 
 速度你根本无法想象，工具人[码云](https://gitee.com)了解一下
 
-![](http://img.dandelionflowers.xyz/gitee.png)
+![](http://i.dfslfh.cn/gitee.png)
 
 </br>
 

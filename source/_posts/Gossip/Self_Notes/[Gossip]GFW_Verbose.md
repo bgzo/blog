@@ -1,6 +1,7 @@
 ---
 title: '[GFW] Verbose'
 date: 2020-04-11 17:18:59
+toc: true
 ---
 
 <center><font size =2 color=grey>Create Date:2020-01-30 20:39:47</font></center>

@@ -1,6 +1,7 @@
 ---
 title: '[Gossip] Net Story'
 date: 2020-04-14 03:03:00
+toc: true
 ---
 
 </br>

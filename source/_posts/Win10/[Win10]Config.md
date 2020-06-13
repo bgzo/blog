@@ -1,6 +1,7 @@
 ---
 title: '[Win10] Config'
-date: 2020-04-03 10:21:21 
+date: 2020-04-03 10:21:21
+toc: true
 ---
 
 <center><font size =2 color=grey>Create Date: 2020-02-05 04:22:00</font></center>

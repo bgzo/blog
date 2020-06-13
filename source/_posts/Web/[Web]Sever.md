@@ -1,6 +1,7 @@
 ---
 title: '[Web] Sever'
-date: 2020-04-16 15:15:00 
+date: 2020-04-16 15:15:00
+toc: true
 ---
 
 <center><font size=2 color=grey>CD : 2020‎.02‎.02‎ 21:43:43</font></center>
@@ -93,7 +94,7 @@ RPS=requests per second
 
 **Linux** **发行套件系统**全球有上百款，主要的如下：
 
-<img src="http://img.dandelionflowers.xyz/LINUX.png"  style="zoom:33%;"  >
+<img src="http://i.dfslfh.cn/LINUX.png"  style="zoom:33%;"  >
 
 
 

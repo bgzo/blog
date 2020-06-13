@@ -1,0 +1,138 @@
+# Menus
+menu:
+  首页: /
+  归档: /archives
+  分类: /categories
+  标签: /tags
+  关于: /about
+
+# Customize
+customize:
+    logo:
+        enabled: true
+        width: 40
+        height: 40
+        url: /logo.png
+    profile:
+        enabled: false # Whether to show profile bar
+        avatar: # css/images/avatar.png
+        gravatar: lfh010618@gmail.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        author: DandelionFs
+        author_title: Designer & Programmer
+        location: Huhhot, China
+        follow: https://github.com/dandelionfs/
+    highlight: monokai
+    sidebar: left # sidebar position, options: left, right
+    category_perExpand: false # enable article categories list per expanding
+    thumbnail: true # enable posts thumbnail, options: true, false
+    favicon: /favicon.ico # path to favicon
+    default_index_file: index.md # if this, it will display at site index instead of default index page
+    social_links:
+        github: https://github.com/dandelionfs/dandelionfs.github.io
+        stack-overflow: http://stackoverflow.com/users/7277090/dandelionfs?tab=profile
+        codepen: http://codepen.io/dandelionfs/
+        rss: /atom.xml
+    social_link_tooltip: true # enable the social link tooltip, options: true, false
+
+# Widgets
+widgets: # default use category only
+    - category
+    # - recent_posts
+    # - archive
+    # - tag
+    # - tagcloud
+    # - links
+    
+# Excerpt 
+## Auto creat excerpt with not <!--more-->
+## Enable will truncate auto_excerpt.lines rows in post head to replace excerpt.
+auto_excerpt:
+    enable: true
+    lines: 5
+
+# Search
+search:
+    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+    swiftype: # enter swiftype install key here
+    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# History version 
+history_control: # make you wiki has history version control in page
+    enable: true
+    server_link: https://github.com  # recommend use GitHub https://github.com
+    user: Dandelionfs
+    repertory: git@github.com:DandelionFs/DandelionFs.github.io.git
+    branch: master
+
+# Comment
+comment:
+    disqus: # enter disqus shortname here
+    duoshuo: # enter duoshuo shortname here
+    youyan: # enter youyan uid here
+
+# Share
+share: default # options: jiathis, bdshare, addtoany, default
+
+# Plugins
+plugins:
+    lightgallery: true # options: true, false
+    justifiedgallery: true # options: true, false
+    mathjax: true # options: true, false - to enable use Mathjax in your article
+    google_analytics: # enter the tracking ID for your Google Analytics
+    google_site_verification: # enter Google site verification code
+    baidu_analytics: # enter Baidu Analytics hash key
+    busuanzi_count: true # options: true, false - to enable busuanzi site pv statistics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
+    links:
+      
+# Hexo Configuration
+# URL
+permalink: wiki/:title/
+# Directory
+skip_render:
+  - README.md
+  - '_posts/**/embed_page/**'
+
+# Writing
+new_post_name: :title.md # File name of new posts
+
+## Markdown
+## https://github.com/hexojs/hexo-renderer-marked
+marked:
+  gfm: true
+  
+## Plugins: https://hexo.io/plugins/
+### JsonContent
+jsonContent:
+  meta: false
+  pages:
+    title: true
+    date: true
+    path: true
+    text: true
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    tags: true
+    categories: true
+  ignore:
+    - 404.html
+    
+### Creat sitemap
+sitemap:
+  path: sitemap.xml
+
+### Adds nofollow attribute to all external links in your hexo blog posts automatically.
+nofollow:
+  enable: true
+  exclude:
+    - <your site url domain> # eg: zthxxx.me

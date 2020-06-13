@@ -1,6 +1,7 @@
 ---
 title: '[Deepin] Install NVIDIA' 
 date: 2020-04-05 02:58:00
+toc: true
 ---
 
 ### Install Deepin 

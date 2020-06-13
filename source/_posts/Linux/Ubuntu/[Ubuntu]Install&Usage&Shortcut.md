@@ -1,6 +1,7 @@
 ---
 title: '[Ubuntu] Install&Usage&Shortcut'
 date: 2020-04-16 11:00:00
+toc: true
 ---
 
 <center><font color=grey size=2>Create Date: 2020-03-25 21:09:05</font></center>
