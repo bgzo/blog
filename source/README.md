@@ -1,4 +1,4 @@
-<center>Something About Me.</center>
+<center><font size=8>Hello Wiki!</font></center>
 
 </br>
 </br>
@@ -11,4 +11,6 @@
 </br>
 </br>
 </br>
+
+Powered  By  [Hexo](http://hexo.io/)!  Theme By  [Wikitten](https://github.com/zthxxx/hexo-theme-Wikitten)!  Thanks!
 
