@@ -1,6 +1,7 @@
 ---
 title: '[Wordpress] FAQ'
 date: 2020-02-14 06:53:42
+toc: true
 ---
 
 ### FAQ
