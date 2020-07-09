@@ -7,8 +7,11 @@ title: Wiki Logs
 
 
 <center><font size=8>Helllo Wiki !</font></center>
+<br><br>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+![](../img/2012px-Unix_history-simple.svg.png)
+
+<br><br><br><br><br><br><br><br><br><br><br>
 
 + <font color="red">**20年06月13日**</font>：换成Wiki类主题，修改若干。
 + <font color="red">**20年06月02日**</font>：找到其他的替代博客，可是大多数被墙。
