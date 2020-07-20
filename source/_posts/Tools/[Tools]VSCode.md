@@ -120,10 +120,6 @@ toc: true
 
 当然，你也可以选择菜单栏「偏好设置 --> 键盘快捷方式」，进入快捷键的设置：
 
-
-
-
-
 ## 0x03 Plugin
 
 **[Theme] :** Community Material Theme
@@ -144,11 +140,6 @@ pip install yapf # “python.formatting.provider”
 pip intssll jupyter
 # ......
 ```
-
-
-
-
-
 ### C++
 
 1. C/C++
@@ -176,14 +167,6 @@ pip intssll jupyter
 11. Code runner
 12. Auto Close Tag
 
-
-
-
-
-
-
-
-
 ## Config
 
 ### Cpp
@@ -192,13 +175,7 @@ pip intssll jupyter
 
 [来源] : https://zhuanlan.zhihu.com/p/87864677
 
-
-
-
-
 ## Bugs
-
-
 
 ### 无法在只读文本中编辑
 
@@ -207,20 +184,10 @@ pip intssll jupyter
 1. 在终端编译: https://blog.csdn.net/weixin_41594045/article/details/86568571
 2. 修改 JavaScript 验证: https://blog.csdn.net/qq_38774121/article/details/100123956
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## 0xff 参考资料
 
-1. VSCode 官网: https://code.visualstudio.com/
-2. https://juejin.im/post/5cb87c6e6fb9a068a03af93a
+[1]. VSCode Docs: https://code.visualstudio.com/docs
+[2]. VSCode ShortCUt For Window: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+[3].VSCode ShortCut For Linux: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf 
+[4]. https://juejin.im/post/5cb87c6e6fb9a068a03af93a
 

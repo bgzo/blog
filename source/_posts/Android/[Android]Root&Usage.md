@@ -24,7 +24,7 @@ MIUI Root的两个条件：**BL锁** + 开发版及以上（系统支持 —— 
 
 ### 0x01 Rec
 
-**[MI FLash]：**https://lanzous.com/id0jgad
+**[MI FLash]：** https://lanzous.com/id0jgad
 
 **[Magisk]（Android Root）：**
 
@@ -40,15 +40,11 @@ MIUI Root的两个条件：**BL锁** + 开发版及以上（系统支持 —— 
 
 **[KWGT]：**
 
-**[网络速度]：**https://lanzous.com/ibskluf
+**[网络速度]：** https://lanzous.com/ibskluf
 
 **[全局负一屏]：**
 
-
-
-</br>
-
-</br>
+<br><br>
 
 ### 0x02 Usage
 
@@ -60,7 +56,7 @@ MIUI Root的两个条件：**BL锁** + 开发版及以上（系统支持 —— 
 
 #### 2.2 刷第三方Recovery
 
-**[来源]：**http://www.oneplusbbs.com/thread-942394-1-1.html
+**[来源]：** http://www.oneplusbbs.com/thread-942394-1-1.html
 
 网上查了一圈，一致地推荐第三方Recovery —— **TWRP**（TeamWin Recovery Project）
 
@@ -86,7 +82,7 @@ MIUI Root的两个条件：**BL锁** + 开发版及以上（系统支持 —— 
 
 #### Termux
 
-**[Github-Address]：**https://github.com/termux/termux-app
+**[Github-Address]：** https://github.com/termux/termux-app
 
 **0.90及以上** 版本需要 **Android7.0 及以上版本的系统**。此安装包由 **F-Droid 编译并签名**，且**保证与此源代码 tarball 保持一致**。
 
@@ -175,6 +171,4 @@ Sig
 
 
 
-</br>
-
-</br>
+<br><br>

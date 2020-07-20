@@ -1,0 +1,55 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+class test{
+    char *a;
+    int len;
+public:
+    test(int n=26){
+       a=new char[n+1];
+       strcpy(a,"");
+       len=n;
+       for(int i=0,count=0;i<len;i++){
+           a[i]='a'+count;
+           if(i%27==0)
+              count=0;
+           count++;
+       }
+    }
+    test(test &c1){
+//    	delete[]a; ??????????
+    	a=new char[c1.len];
+    	strcpy(a,c1.a);
+    	len=c1.len;
+    }
+    test &operator=(const test &obj){
+    	delete[]a;
+    	a=new char[obj.len];
+    	strcpy(a,obj.a);
+    	len=obj.len;
+    	return *this;
+    }
+    ~test(){delete []a;len=0;}
+    friend ostream&operator<<(ostream &output,test &obj);
+};
+ostream &operator<<(ostream &output,test &obj){
+    int step=0;
+    for(int i=0;i<obj.len;i++){
+    	output<<obj.a[i]<<" ";
+    	step++;
+    	if(step%10==0 && i<obj.len-1)output<<endl;
+	}
+	return output;
+ 
+}
+int main(){
+    int k,l;
+    cin>>k>>l;
+    test a(k);
+    test c(a);
+    test b(l);
+    c=b;
+    cout<<"a="<<endl<<a<<endl;
+    cout<<"b="<<endl<<b<<endl;
+    cout<<"c="<<endl<<c<<endl;
+}

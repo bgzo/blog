@@ -10,7 +10,7 @@ toc: true
 
 明明Git提交分支的时候速度可以上2Mib/s，但是Clone的时候就奇慢无比……佛了
 
-![](http://img.dandelionflowers.xyz/commit.png)
+![](/img/tool/comper_github.png)
 
 </br>
 
