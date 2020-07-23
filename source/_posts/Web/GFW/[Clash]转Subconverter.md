@@ -1,15 +1,9 @@
 ---
 title: '[Clash]Subconverter'
 ---
-#### Subconverter
+#### Subconverter[^1] [^2]
 
 借助 subconverter 对机场的节点进行挑选以满足需求。
-
-**参考资料**：
-
-
-
-## Clash Proxy Provider
 
 Clash `Dev` 分支增加了 proxy-provider 功能，可以通过托管链接获取节点信息，类似于 Surge 的 node list。
 
@@ -228,3 +222,9 @@ Proxy Group:
       - 🇺🇸Spartan
       - DIRECT
 ```
+
+
+**参考资料**：
+
+[^1]:https://www.notion.so/Clash-Proxy-Provider-ff8d1955f6234ad3a779fecd3b3ea007
+[^2]:https://10101.io/2020/02/12/use-clash-proxy-provider-with-subconverter

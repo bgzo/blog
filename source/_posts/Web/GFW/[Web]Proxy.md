@@ -4,13 +4,21 @@ date: 2020-07-14 09:18:00
 toc: true
 ---
 
+### Preface
 
+收录 Ubuntu 需要规则条件下无法实现的地方.
 
-### Git
+### Git[^1] [^2] [^3]
+
+Git SSH 提交分支的时候速度可以上2Mib/s，但是Clone的时候就奇慢无比……离谱
+
+![http://i.dfslfh.cn/comper_github.png](/img/tool/comper_github.png)
 
 ```bash
 git config --global https.proxy  http://127.0.0.1:1087
 git config --global http.proxy  http://127.0.0.1:1087
+git config --global http.https://github.com.proxy socks5://127.0.0.1:1080 # 只对 github.com
+git config --global --unset http.https://github.com.proxy # 取消代理
 
 #ss
 git config --global http.proxy 'socks5://127.0.0.1:1087'
@@ -23,8 +31,19 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+#### 再次码云导入Github
 
+无脑关联Github，然后导入自己的仓库，从Github下面直接Clone ; 速度你根本无法想象，工具人[码云](https://gitee.com)了解一下
 
+![](http://i.dfslfh.cn/gitee.png)
+
+#### 后记
+
+在Clone一个300+M的项目的时候，出现了`git clone: error: RPC failed;The remote end hung up unexpectedlyfatal: The remote end hung up unexpectedly Everything up-to-dat`的错误，好像是因为curl的postBuffer 默认值较小的原因,配置下个这个值,就不会出现该错误了.
+
+```nginx
+git config http.postBuffer 524288000
+```
 
 
 ### Yarn
@@ -116,5 +135,34 @@ export https_proxy=socks5://10.0.0.52:1080
 curl -I http://www.fackbook.com # 测试代理
 ```
 
+### 基于 Electronjs[^4] 开发应用的通解
 
+You could see that Doc[^5]: 
 
+```
+# Disable proxy
+--no-proxy-server
+
+# Manual proxy address
+--proxy-server=<scheme>=<uri>[:<port>][;...] | <uri>[:<port>] | "direct://"
+
+# Manual PAC address
+--proxy-pac-url=<pac-file-url>
+
+# Disable proxy per host
+--proxy-bypass-list=(<trailing_domain>|<ip-address>)[:<port>][;...]
+```
+So you should execute follow command:
+```
+ao --proxy-pac-url=xxx
+```
+Nice!!!
+<br>
+
+### Reference
+
+[^1]:https://www.zhihu.com/question/27159393).
+[^2]:https://www.v2ex.com/t/574303).
+[^3]:https://blog.51cto.com/11887934/2051323)
+[^4]:https://www.electronjs.org/
+[^5]:https://code.visualstudio.com/docs/setup/network

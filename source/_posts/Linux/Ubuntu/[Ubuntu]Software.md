@@ -4,18 +4,16 @@ date: 2020-04-16 11:00:00
 toc: true
 ---
 
-### 0x03 Install Bugs
+### 0x03 Install Bugs[^1]
 
 #### Boot
 
 由于 Ubuntu(Linux) 并不是内置N卡驱动，所以如果有 N卡独显 笔记本会发生在 Ufi模式 下启动U盘进入系统的时候卡死。应该先用 `e` 进去 Boot 设置，在末尾 quiet splash 的后面先空一格再加上下面的字符串，F10保存退出：
 
-[提示] : 如果quiet splash后面发现有- - -这串符号，直接删了就是，只要保证上述添加的参数在splash后面即可
-
 ```shell
 acpi_osi=linux nomodeset
 ```
-<br>
+[Tip] : 如果quiet splash后面发现有- - -这串符号，直接删了就是，只要保证上述添加的参数在splash后面即可
 
 #### N卡驱动
 
@@ -33,13 +31,11 @@ blacklist nvidiafb
 
 sudo update-initramfs -u &&  reboot # 刷新重启
 ```
-更多情况请参考: [解决Nvidia显卡的电脑安装Ubuntu及驱动的各种坑](https://blog.csdn.net/ysy950803/article/details/78507892).
 
-<br>
 
 #### **亮度异常**
 
-安装完成之后发现亮度是不可以调节 ???
+安装完成之后发现亮度是不可以调节 :
 
 ```bash
 # edit by nano, choose one between vim and nano. 
@@ -61,28 +57,22 @@ sudo update-grub && reboot
 
 补充一个小小的建议：语言设置这是用拖动的(笑) 。
 
-<br>
-
 #### dpkg：错误：另外一个进程已经为 dpkg 状态数据库 加锁
 
 可能是开机自动更新会占用一会儿这个进程，要么PS kill 他，要么等一会就可以。
-
-<br>
 
 #### 安装deb 包缺少以来关系，仍未被处理的时候
 
 ```shell
 sudo apt install -f
 ```
-<br><br>
+<br>
 
 ### 0x04 Ubuntu Config
 
 ~~暂时不考虑，浪费时间……~~
 
 **[打脸]**: 使用的原理是Ubuntu的 GNAME 插件，需要Ubuntu系统和浏览器共同安装即可运行
-
-<br>
 
 #### 4.2 窗口管理移左
 
@@ -107,7 +97,7 @@ gnome-tweaks
 1. ~~在Ubuntu软件仓库里，搜索“ibus”，安装其中的“ibus font setting”。~~
 2. ~~打开这个插件后就可以设置输入法候选字体的大小了。~~
 
-**Fcitx**
+**Fcitx**[^2]
 可使用插件实现云输入
 
 ~~Google 拼音 &~~ fcitx-pinyin
@@ -120,8 +110,8 @@ sudo apt install fcitx-pinyin && sudo apt install fcitx-cloudpinyin
 
 #### 4.4 双Dock修改 
 
-+ 禁用 Ubuntu Dock 的方法:  https://zhuanlan.zhihu.com/p/48078003
-+ 为什么会有两个 Dock 的贴: https://qastack.cn/ubuntu/975387/why-do-i-have-two-docks-in-ubuntu-17-10-desktop.
++ 禁用 Ubuntu Dock 的方法 ->  https://zhuanlan.zhihu.com/p/48078003
++ 为什么会有两个 Dock 的贴 -> https://qastack.cn/ubuntu/975387/why-do-i-have-two-docks-in-ubuntu-17-10-desktop.
 
 我采用的是移除 Gnome Shell Ubuntu Dock 包 , 后果是 有的时候开机亮度无法调节, 设置里面的Dock 失效, 前者可以重启解决, 总之问题不大.
 ```
@@ -143,7 +133,7 @@ gsettings set org.gnome.desktop.wm.preferences theme "XXX"
 
 <br>
 
-#### 4.6 使用跨系统字体
+#### 4.6 使用跨系统字体[^3]
 
 **单系统:** https://zhuanlan.zhihu.com/p/40434062
 
@@ -194,9 +184,7 @@ tar -xzvf file.tar.gz
   sudo make # make and install
   sudo make instal l# 如果没有配置环境，先用apt安装build-essential
 ```
-**忽略某些依赖安装(Wechat Failure)**:
-
-[Ori] : https://qastack.cn/server/250224/how-do-i-get-apt-to-ignore-some-dependencies
+**忽略某些依赖安装(Wechat Failure)**:[^4]
 
 ```bash
 # Check Depend
@@ -206,21 +194,13 @@ sudo apt install XXX.deb-
 # dpkg
 sudo dpkg -i --ignore-depends=<--->  XXX.deb
 ```
-<br>
-
 简化版命令
 ```bash
 sudo apt update -y && sudo apt upgrade -y && sudo apt install git && sudo  apt install python3 && sudo apt install python3-pip && sudo apt install node.js && sudo apt install flameshot && sudo apt install kchmviewer && sudo apt install && sudo apt install gthumb  && sudo apt install audacity 
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add - && sudo add-apt-repository 'deb https://typora.io/linux ./' && sudo apt-get update && sudo apt-get install typora && sudo apt install wget g++ git &&git clone "https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu.git" && cd deepin-wine && sudo ./install.sh &&sudo wget "https://gitee.com/wszqkzqk/deepin-wine-containers-for-ubuntu/raw/master/deepin.com.wechat_2.6.8.65deepin0_i386.deb"  && sudo dpkg -i *wechat*deb && apt install libjpeg62:i386 && sudo wget "https://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.im/deepin.com.qq.im_9.1.8deepin0_i386.deb"  && sudo  dpkg -i *qq.im*deb &&  sudo apt install firefox && sudo apt install ubuntu-restricted-extras
+# 配合使用 网易云 & XMind & VSCode & WPS & Mircosoft To Do & 福昕阅读 & Okular & Wine & Abdroid Studio & Clash & JDK & SDK & CPP
+# 配合修改 : QQ修改IPV6
 ```
-
-以下软件需要去官网下载: 
-
-网易云 & XMind & VSCode & WPS & Mircosoft To Do & 福昕阅读 & Okular & Wine & Abdroid Studio & Clash & JDK & SDK & CPP
-
-还有配置: 
-
- QQ修改IPV6
 
 #### 5.1 Typora 
 
@@ -228,13 +208,9 @@ wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add - && sudo a
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
 sudo add-apt-repository 'deb https://typora.io/linux ./' && sudo apt update && sudo apt install typora
 ```
-<br>
+#### 5.2 Deepin QQ && Deepin Wechat [^5]
 
-#### 5.2 Deepin QQ && Deepin Wechat
-
-[Ori] : https://zhuanlan.zhihu.com/p/144286142
-
-Deepin-wine 项目地址: https://github.com/wszqkzqk/deepin-wine-ubuntu
+Deepin-wine: https://github.com/wszqkzqk/deepin-wine-ubuntu
 
 因为采用Deepin前缀, 所以不会和 Wine 产生冲突
 
@@ -259,7 +235,7 @@ sudo wget "https://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.offic
 QQ Image Question
 
 ```bash
- sudo  vim /etc/sysctl.conf
+sudo  vim /etc/sysctl.conf
 
 # Add IPv6 disabled
 net.ipv6.conf.all.disable_ipv6 =1
@@ -268,7 +244,6 @@ net.ipv6.conf.lo.disable_ipv6 =1
 
 sudo sysctl -p && sudo touch /etc/rc.local && sudo chmod 755 /etc/rc.local
 
-
 #!/bin/bash
 # /etc/rc.local
 /etc/sysctl.d
@@ -276,45 +251,30 @@ sudo sysctl -p && sudo touch /etc/rc.local && sudo chmod 755 /etc/rc.local
 exit 0
 ```
 
-<br>
-
-
 #### 5.3 网易云音乐
 
-Ubuntu的deb包： https://music.163.com/#/download
-
-</br>
+Debian： https://music.163.com/#/download
 
 #### ~~5.4 flash插件(卒)-见下一条~~
 
 ~~注意：如b站会发现是没有H5播放的，但是同等条件下Chromium是有的，执行下面的代码~~
 
-</br>
-
 #### 5.5  Browser 
 
-~~**Chromium**~~转Chrome
-```bash
-sudo apt install chromium-browser
-```
+**~~Chromium~~**
+自定义 Chrome 的部分设置(chrome://flags/):
+ + Extensions Toolbar Menu -> Dis
+ + Font Access APIs -> En
 
 **Firefox**
 
 ```bash
  sudo apt update && sudo apt install firefox && sudo apt install ubuntu-restricted-extras
 ```
- 
- 自定义 Chrome 的部分设置(chrome://flags/):
 
- + Extensions Toolbar Menu -> Dis
- + Font Access APIs -> En
+#### ~~5.6 electron_ssr~~[^6] [^7] [^8]
 
-
-<br>
-
-#### 5.6 electron_ssr
-
-找包(或者软件商店???), 之后拿到了他的deb包，然后顺着安装会发现没有他的依赖包，提前到设置里面打开网络代理～
+~~找包(或者软件商店???), 之后拿到了他的deb包，然后顺着安装会发现没有他的依赖包，提前到设置里面打开网络代理~~
 
 ```bash
 sudo dpkg -i ...  #这里会提示你缺少一些必要的依赖包，跟着安装
@@ -325,19 +285,10 @@ sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-ser
 # sudo apt install libsodium-dev
 sudo apt install python
 ```
-1. Ubuntu[SSR](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md)报错
-2. 其他linux的[SSR](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md)报错
-3.  [Ubuntu 上使用 SSR 梯子](https://alanlee.fun/2018/05/18/ubuntu-ssr/#%E5%90%AF%E5%8A%A8-SSR).
-
-<br>
 
 #### 5.7 Xmind 
 
-去官方下载一个deb包: https://www.xmind.net/
-
-去果壳里面找到破解版文件即可.
-
-<br>
+去官方下载: https://www.xmind.net/ +果壳里面找到破解版文件.
 
 #### 5.8 VS code
 
@@ -345,20 +296,16 @@ sudo apt install python
 
 记得区设置里面把代理选项勾上.
 
-<br>
+### 5.9 ShortCut
 
-+ 在 Linux 下[截屏](https://zhuanlan.zhihu.com/p/45919661)并编辑的最佳工具
-
-</br>
+采用Flameshot[^9] 配合自定义快捷键即可使用
 
 #### 5.10 WPS
 
 官网地址: https://linux.wps.cn/
 
-<br>
 
-#### 5.11 Flameshot & Node.js & Python & pip & Git &  kchmviewer & gthumb/feh & audacity 
-
+#### 5.11 Node.js & Python & pip & Git &  kchmviewer & gthumb/feh & audacity 
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y && sudo apt install git && sudo  apt install python3 && sudo apt install python3-pip && sudo apt install node.js && sudo apt install flameshot && sudo apt install kchmviewer && sudo apt install && sudo apt install feh  && sudo apt install audacity 
@@ -385,9 +332,6 @@ gnome-session-properties
 sudo apt install okular   # F6开启注释功能，如果出现乱码问题，查看原地址
 ```
 
-
-</br>
-
 #### 5.13 Wine(慎重)
 
 [ori] [Wine](https://wiki.winehq.org/Ubuntu_zhcn)官方网站（上面失效走这）
@@ -408,19 +352,14 @@ sudo apt install --install-recommends winehq-devel#开发分支
 sudo apt install --install-recommends winehq-staging#Staging 分支 	
 ```
 
-
-
 #### 5.14 百度网盘
 
 [Ori] : https://pan.baidu.com/download).
 
-<br>
 
 #### 5.15 Android Studio
 
 参见Ubuntu 软件商店的直接下载方式.
-
-<br>
 
 #### 5.16 Clash
 
@@ -457,8 +396,6 @@ vim Clash.desktop
 ＃Categories  应用的类型（内容相关）
 ```
 
-<br>
-
 #### 5.17 Fusuma & Touchegg
 
 一个控制触控板的命令行程序, 原理是将触控板的手势传到命令行映射到快捷键, 所以不如快捷键来的好, 最后被我卸载了, 但是有两个命令我不知道要怎么恢复, 先放在这里.
@@ -474,7 +411,7 @@ gsettings set org.gnome.desktop.peripherals.touchpad send-events enabled
 
 #### 5.19 JDK
 
-[Ori]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+[Ori] : http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 ```bash
 # Win10 bin/jlink.exe --module-path jmods --add-modules java.desktop --output jre
@@ -492,22 +429,15 @@ sudo source ~/.bashrc && java --version
 
 ```
 
-#### 5.20 SDK 
+#### 5.20 SDK [^10] [^11] [^12] [^13] [^14]
 
-我好想是进取之后配置的???某个版本已经不支持了？？？
+[Ori] : https://developer.android.com/studio#downloads
 
-+ https://developer.android.com/studio#downloads
-+ https://developer.android.com/studio/intro/update#sdk-manager
-+ https://developer.android.com/studio#cmdline-tools
-+ https://stackoverflow.com/questions/34556884/how-to-install-android-sdk-on-ubuntu
-+ https://www.jianshu.com/p/8a2fad182168
-+ https://blog.csdn.net/x199699/article/details/82354051
+我记得自己是挂了代理进去设置的, 一直在Download T_T
 
 #### 5.21 CPP
 
-[Ori] : https://code.visualstudio.com/docs/cpp/config-linux
-
-[Ori]: gcc , g++ , (c)make
+[Need] : gcc , g++ , (c)make [^15]
 
 Diff between cmake and make 
 [Ori] : https://stackoverflow.com/qu  estions/25789644/difference-between-using-makefile-and-cmake-to-compile-the-code/25790020#25790020
@@ -517,9 +447,7 @@ Diff between cmake and make
 > I would always recommend using CMake (or another buildsystem generator, but CMake is my personal preference) if you intend your project to be multi-platform or widely usable. CMake itself also provides some nice features like dependency detection, library interface management, or integration with CTest, CDash and CPack.
 > Using a buildsystem generator makes your project more future-proof. Even if you're GNU-Make-only now, what if you later decide to expand to other platforms (be it Windows or something embedded), or just want to use an IDE?
 
-#### 5.24 Android & Ubuntu PC Transform Films
-
-[Ori] : https://www.ifanr.com/app/668324
+#### 5.24 Android & Ubuntu PC Transform Films[^16]
 
 + Xender : http://www.xender.com/
 + Send-anywhere : https://send-anywhere.com/
@@ -532,39 +460,17 @@ Diff between cmake and make
 +  Pushbullet: https://www.pushbullet.com/
 +   Telegram
 
-
-
-#### 5.23  ZSH 
-[Ori] : 
-1. https://www.sysgeek.cn/install-zsh-shell-ubuntu-18-04/
-2. https://my.oschina.net/u/2266513/blog/3103451
-3. https://zhuanlan.zhihu.com/p/37195261
-4. 切换: https://www.jianshu.com/p/b61473e22c8b
-
+#### 5.23  ZSH [^17] [^18] [^19] [^20]
 
 #### 5.24 Mircosoft To do
 
 [Github Ori] : https://github.com/klaussinani/ao
 
-原理是采用和VSCode 相同的技术: Electronjs. 
-
-[修复走了代理之后无法登录微软账户的问题]:
-
-根据 项目的 ISSUE [https://github.com/klaussinani/ao/issues/94] 可以定位
-
+采用和VSCode 相同的技术开发--> Electronjs. 安装完成之后, 自然在走系统代理的时候出现了问题, 如无法登录微软账户的问题；根据 项目的 ISSUE [^21] 可以执行以修复登录问题.
 ```bash
---proxy-pac-url= XXXXX
+ao --proxy-pac-url= XXXXX
 ```
-
-electronjs 官网: https://www.electronjs.org/
-
-参考VSCode 的代理文档: https://code.visualstudio.com/docs/setup/network
-
 <br>
-
-[其他设置延拓] : https://zhuanlan.zhihu.com/p/139305626
-<br>
-
 
 ### 0x06 Uninstall && Clean
 
@@ -586,15 +492,13 @@ sudo apt autoremove
 
 dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P 
 ```
-
-
-
+<br>
 
 ### 0x07 Afterwrads
 
-#### 7.1 APT & APT-GET
+#### 7.1 APT & APT-GET[^22]
 
-[Ori] : https://www.sysgeek.cn/apt-vs-apt-get/
+[Ori] : 
 
  **APT**
 
@@ -630,7 +534,7 @@ To Be Continued......
 [参考] : https://www.jianshu.com/p/99d3eebcf17f
 
 
-#### 7.3 Gedit Namo Vim Vi
+#### 7.3 Gedit Namo Vim Vi [^23][^24]
 
 linux下有很多文本编辑器，其中系统都会自带nano和vi这两个最基本的编辑器。
 
@@ -653,6 +557,31 @@ linux下有很多文本编辑器，其中系统都会自带nano和vi这两个最
 
 **Reference**
 
-[1]. https://developer.aliyun.com/article/309383
+[More] -> https://zhuanlan.zhihu.com/p/139305626
 
-[2]. https://ubuntuqa.com/zh-tw/article/1230.html
+[^1]: https://blog.csdn.net/ysy950803/article/details/78507892 
+[^2]: https://www.zhihu.com/question/20432630/answer/161256076
+[^3]: https://zhuanlan.zhihu.com/p/40434062
+[^4]: https://qastack.cn/server/250224/how-do-i-get-apt-to-ignore-some-dependencies
+[^5]: https://zhuanlan.zhihu.com/p/144286142
+[^6]: https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md
+[^7]: https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md
+[^8]: https://alanlee.fun/2018/05/18/ubuntu-ssr/#%E5%90%AF%E5%8A%A8-SSR
+[^9]: https://zhuanlan.zhihu.com/p/45919661
+[^10]: https://developer.android.com/studio/intro/update#sdk-manager 
+[^11]: https://developer.android.com/studio#cmdline-tools
+[^12]: https://stackoverflow.com/questions/34556884/how-to-install-android-sdk-on-ubuntu
+[^13]: https://www.jianshu.com/p/8a2fad182168
+[^14]: https://blog.csdn.net/x199699/article/details/82354051
+[^15]: https://code.visualstudio.com/docs/cpp/config-linux
+[^16]: https://www.ifanr.com/app/668324
+[^17]: https://www.sysgeek.cn/install-zsh-shell-ubuntu-18-04/
+[^18]: https://my.oschina.net/u/2266513/blog/3103451
+[^19]: https://zhuanlan.zhihu.com/p/37195261
+[^20]: https://www.jianshu.com/p/b61473e22c8b
+[^21]: https://github.com/klaussinani/ao/issues/94
+[^22]: https://www.sysgeek.cn/apt-vs-apt-get/
+[^23]:  https://developer.aliyun.com/article/309383
+[^24]:  https://ubuntuqa.com/zh-tw/article/1230.html
+
+

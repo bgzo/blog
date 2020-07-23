@@ -6,87 +6,90 @@ toc: true
 
 ### Preface
 
-+ CCCAT: cccat.io
-+ 召唤师: zhs.today/auth/register?code=ILoveMask | `优惠码: xhJWj507`
-+ 蓝岸: my.v2fly.club/#/register?code=1bzRvUqk
+**一些机场:**[^1]
++ [CCCAT](//cccat.io)
++ [召唤师](//zhs.today/auth/register?code=ILoveMask)
++ [蓝岸](//my.v2fly.club/#/register?code=1bzRvUqk)
    - 2020-04-23  最近蓝岸被“脱裤”，大家注意风险；
-   - 2020-05-30  基本已经完成转移，全部接入中转；
-+  极游: jiyou.world/
++  [极游](//jiyou.world)
    - 2020-05-18  最近缺少维护，可用性低，据说机场主忙于高考，购买需谨慎；
-+ Catchflying: www.catchflying.network/auth/register?code=5ATO
-+ 咸鱼: salty-tuna.link/
-+ NFNF
-+ YTOO: ytoo.li/clientarea.php
----
++ [Catchflying](//catchflying.network/auth/register?code=5ATO)
++ [咸鱼](salty-tuna.link)
++ NFNF: 见Twitter
++ [YTOO](//ytoo.li/clientarea.php)
++ [魅影](//maying.co)
+
+**VPS脚本** [^2][^3] [^4] [^5] [^6] 
 + VPS综合性能测试脚本
-  + Bench.sh: https://teddysun.com/444.html / https://github.com/oooldking/script/blob/master/superbench.sh
-  +  SuperBench.sh: https://www.oldking.net/350.html
-  + UnixBench.sh: https://teddysun.com/245.html
-  + LemonBench: https://blog.ilemonrain.com/linux/LemonBench.html
+  + [Bench.sh](//teddysun.com/444.html)[^7]
+    ```bash
+    wget -qO- bench.sh | bash
+    ```
+  + [SuperBench.sh](//www.oldking.net/350.html)
+    ```bash
+    wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
+     ```
+  + [UnixBench.sh](//teddysun.com/245.html)
+    ```bash
+    wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
+    chmod +x unixbench.sh
+    ./unixbench.sh
+    ```
+  + [LemonBench](//blog.ilemonrain.com/linux/LemonBench.html)
+    ```bash
+    curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast # 快速测试
+    curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s full # 完整测试
+    ```
 + VPS网络测试脚本
-  + speedtest-cli
-  + Superspeed: https://github.com/ernisn/superspeed
-  + MTR
-
-对应的命令:
-
-```bash
-wget -qO- bench.sh | bash
-
-wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
-
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
-chmod +x unixbench.sh
-./unixbench.sh
-
-curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast # 快速测试
-curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s full # 完整测试
-
-wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-chmod +x speedtest-cli
-mv speedtest-cli /usr/bin/
-# `speedtest-cli`
-#`speedtest-cli --bytes` 以字节计算的方式来测试
-# `speedtest-cli --share` 生成图片分享
-# `speedtest-cli --simple` 只显示ping和上下行速度
-# `speedtest-cli --help` 显示可用命令
-
-bash <(curl -Lso- https://git.io/superspeed)
-
-apt install mtr-tiny
-mtr -rw ip # `ip` 自己替换成本地地址；参数设定可以通过`mtr -h` 查看；更详细解释请看[这篇文章](https://zhuanlan.zhihu.com/p/30591816)
-```
+  + [speedtest-cli](//raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py)
+    ```bash
+    wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+    chmod +x speedtest-cli
+    mv speedtest-cli /usr/bin/
+    # speedtest-cli
+    #`peedtest-cli --bytes 以字节计算的方式来测试
+    # speedtest-cli --share 生成图片分享
+    # speedtest-cli --simple 只显示ping和上下行速度
+     # speedtest-cli --help 显示可用命令
+    ``` 
+  + [Superspeed](//github.com/ernisn/superspeed)
+    ```bash
+    bash <(curl -Lso- https://git.io/superspeed)
+    ```
+  + [MTR](https://zhuanlan.zhihu.com/p/30591816)
+    ```bash
+    apt install mtr-tiny
+    mtr -rw ip # `ip` 自己替换成本地地址；参数设定可以通过`mtr -h` 查看；
+    ```
 + 梯子搭建脚本
-  + Shadowsocks：https://teddysun.com/486.html
-  + ShadowsocksR：https://doub.io/ss-jc42/
-  + V2Ray：https://v2ray666.com/post/1/
+  + [Shadowsocks](https://teddysun.com/486.html)
+  + [ShadowsocksR](//doub.io/ss-jc42)
+  + [V2Ray](//v2ray666.com/post/1/)
 + 梯子优化脚本
   + Debain 9+ 开启 BBR 等
-```bash
-echo "vm.swappiness = 10" >> /etc/sysctl.conf
-echo "net.core.default_qdisc = fq" >> /etc/sysctl.conf
-echo "net.ipv4.tcp_congestion_control = bbr" >> /etc/sysctl.conf
-echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
-sed -i '$a root hard nofile 1024000\nroot soft nofile 1024000' /etc/security/limits.conf
-sed -i '$a * hard nofile 1024000\n* soft nofile 1024000' /etc/security/limits.conf
-ulimit -n 1024000
-sysctl -p
-```
-  + BBR脚本：https://doub.io/wlzy-16/
+  ```bash
+  echo "vm.swappiness = 10" >> /etc/sysctl.conf
+  echo "net.core.default_qdisc = fq" >> /etc/sysctl.conf
+  echo "net.ipv4.tcp_congestion_control = bbr" >> /etc/sysctl.conf
+  echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
+  sed -i '$a root hard nofile 1024000\nroot soft nofile 1024000' /etc/security/limits.conf
+  sed -i '$a * hard nofile 1024000\n* soft nofile 1024000' /etc/security/limits.conf
+  ulimit -n 1024000
+  sysctl -p
+  ```
+  + [BBR脚本](https://doub.io/wlzy-16/)
+  ```bash
+  wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 
-```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
-
-# 备用地址
-wget -N --no-check-certificate https://raw.githubusercontent.com/WithdewHua/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
-```
-  +  暴力BBR脚本：https://www.moerats.com/archives/523/
-
-```bash
-wget https://raw.githubusercontent.com/iiiiiii1/tcp_nanqinlang-test/master/tcp_nanqinlang-test.sh
-bash tcp_nanqinlang-test.sh
-```
-
+  # 备用地址
+  wget -N --no-check-certificate https://raw.githubusercontent.com/WithdewHua/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+  ```
+  +  [暴力BBR脚本](https://www.moerats.com/archives/523/)
+  ```bash
+  wget https://raw.githubusercontent.com/iiiiiii1/tcp_nanqinlang-test/master/tcp_nanqinlang-test.sh
+  bash tcp_nanqinlang-test.sh
+  ```
+<br>
 
 ### Noun
 
@@ -97,9 +100,11 @@ bash tcp_nanqinlang-test.sh
 
 + 隧道
 
-### SS
+<br>
 
-+ Shadowsocks脚本：https://teddysun.com/486.html
+### SS[^8] [^9]
+
++ [Shadowsocks脚本](https://teddysun.com/486.html)
 
 ```bash
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
@@ -123,10 +128,11 @@ chmod +x shadowsocks-all.sh
 >
 > from: https://github.com/shadowsocks/shadowsocks-iOS/issues/124
 
+<br>
 
 ### SSR
 
-+ ShadowsocksR脚本：https://doub.io/ss-jc42/
++ [ShadowsocksR脚本](https://doub.io/ss-jc42/)
 
 以teddysun的一键安装为例，如果遇到安装失败或安装后无法正常使用的情况，可以尝试另一个版本：逗比SSR一键安装脚本
 
@@ -150,8 +156,7 @@ apt -y install wget
 ```
 SSR的相关配置文件位置在：/etc/shadowsocks-r/config.json
 
----
-
++ 第二种方法
 ```bash
 wget -N --no-check-certificate https://softs.wtf/Bash/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 # 备用地址
@@ -164,8 +169,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/WithdewHua/doub
 
 ### V2ray
 
-+ V2Ray脚本：https://v2ray666.com/post/1/
-+ V2ray软件: https://github.com/vkuajing/v2ray
++ [V2Ray脚本](https://v2ray666.com/post/1/)
++ [V2ray软件](https://github.com/vkuajing/v2ray)
 
 1. 避免VPS没装Curl，保险起见运行一下 Curl的安装命令, 两种系统下随便用一个命令就可以。
 2. 命令` bash <(curl -s -L https://git.io/v2ray.sh)
@@ -194,12 +199,11 @@ v2ray update.sh#更新V2Ray管理脚本
 v2ray uninstall#卸载V2Ray
 #配置文件：/etc/v2ray/config.json
 ```
+<br>
 
-
-### Clash
+### Clash [^10]
 
 `Clash`是一款用`Go`开发的支持多平台的代理工具，支持`ss`/`v2ray`/`snell`（不支持`ssr`），支持规则分流（类似于 Surge 的配置）。
-
 + Clash: https://github.com/Dreamacro/clash
 + ClashX For Mac: https://github.com/yichengchen/clashX/
 + Clash for Windows By [Fndroid](https://github.com/Fndroid): https://github.com/Fndroid/clash_for_windows_pkg
@@ -241,6 +245,7 @@ v2ray uninstall#卸载V2Ray
 - `Connections (连接)`: 显示当前的 TCP 连接，可对某个具体连接执行关闭操作；
 - `Feedback（反馈）`：显示软件、作者相关信息，内含捐赠码，欢迎打赏[Fndroid](https://github.com/Fndroid)
 
+<br>
 
 #### 添加配置文件
 
@@ -250,6 +255,7 @@ v2ray uninstall#卸载V2Ray
 - 如果拥有 Surge 托管，可以使用大佬提供的接口转换 Surge 配置为 Clash 可用配置。  
   **接口使用方法**：`https://tgbot.lbyczf.com/surge2clash?url=Surge托管地址`；例：托管地址为`http://example.com`, 那么使用接口后的远端配置地址为`https://tgbot.lbyczf.com/surge2clash?url=http://example.com`。
 
+<br>
 
 #### 具体步骤
 
@@ -273,7 +279,7 @@ v2ray uninstall#卸载V2Ray
 3. 例如，点击"飞机"图案进入节点和策略组编辑界面（添加规则同理），完成后点击`Save`保存;
 4. 在`Proxies`中为各个策略组选择节点使用；
 5. 点击`General`, 勾选`System Proxy（系统代理）`。（可选，建议勾选）
----
+
 + 方法二：直接修改配置文件
 
 有以下两种方式，推荐使用第二种方式，编辑器推荐使用 [Notepad++](https://notepad-plus-plus.org/download/v7.5.9.html)，配置格式请参考 [神机规则](https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml)
@@ -288,10 +294,9 @@ v2ray uninstall#卸载V2Ray
 - General 部分信息由`config.yml`中对应部分决定，与`Profiles`中的配置文件无关；
 - 可以直接拖拽`yml`格式的配置文件到`Profiles`面板中快速导入，详见操作示例（来自 Fndroid 大佬的 [GitHub](https://github.com/Fndroid/clash_for_windows_pkg)
 
----
 + 方法三：利用 JSBox 脚本
 
-iOS 用户可以利用大佬的 [JSBox](https://itunes.apple.com/us/app/jsbox-learn-to-code/id1312014438?mt=8) 脚本—— [lhie1 规则生成](https://xteko.com/install?id=77&lang=zh-Hans)——添加节点，然后将脚本目录下的`data.js`发送给托管机器人 [rules_lhie1_bot](https://telegram.me/rules_lhie1_bot)即可获取 Surge 托管链接，再按照以上[有托管 / 订阅链接情况](https://10101.io/2018/10/27/how-to-use-clash-for-windows#有托管+%2f+订阅情况)操作。
+iOS 用户可以利用大佬的 [JSBox](https://itunes.apple.com/us/app/jsbox-learn-to-code/id1312014438?mt=8) 脚本—— [lhie1 规则生成](https://xteko.com/install?id=77&lang=zh-Hans)——添加节点，然后将脚本目录下的`data.js`发送给托管机器人 [rules_lhie1_bot](https://telegram.me/rules_lhie1_bot)即可获取 Surge 托管链接，再按照以上[有托管 / 订阅链接情况](https://10101.io/2018/10/27/how-to-use-clash-for-windows#有托管+%2f+订阅情况)操作。[^11]
 
 #### 自定义字段
 
@@ -328,30 +333,15 @@ iOS 用户可以利用大佬的 [JSBox](https://itunes.apple.com/us/app/jsbox-le
 
 ### Reference:
 
-VPS 推荐
 
-[1]. https://10101.io/2019/10/30/my-vps
-
-[2]. https://10101.io/2019/10/27/internet-provider
-
-脚本
-
-[3].秋水逸冰 https://teddysun.com
-
-[4]. Toyo233 https://doub.io
-
-[5]. OldKing https://www.oldking.net
-
-[6]. 南琴浪 https://github.com/tcp-nanqinlang
-
-[7]. AI https://v2ray666.com
-
-[8]. Clash Doc:https://docs.cfw.lbyczf.com/
-
-[9].  https://vpsland.xyz/
-
-[10]. https://233v2.com/
-
-[11]. Clash Proxy Provider https://www.notion.so/Clash-Proxy-Provider-ff8d1955f6234ad3a779fecd3b3ea007
-
-[12]. subconverter README https://github.com/tindy2013/subconverter/blob/master/README-cn.md
+[^1]:https://10101.io/2019/10/27/internet-provider
+[^2]:https://teddysun.com
+[^3]:https://doub.io
+[^4]:https://www.oldking.net
+[^5]:https://github.com/tcp-nanqinlang
+[^6]:https://v2ray666.com
+[^7]:https://github.com/oooldking/script/blob/master/superbench.sh
+[^8]:https://233v2.com/
+[^9]:https://vpsland.xyz/
+[^10]:https://docs.cfw.lbyczf.com/
+[^11]:https://github.com/tindy2013/subconverter/blob/master/README-cn.md
