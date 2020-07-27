@@ -85,9 +85,11 @@ include:
 exclude:
 ignore:
 # Extensions
-## Plugins: https://hexo.io/plugins/
+#plugins:
 ## Themes: https://hexo.io/themes/
 theme: Wikitten
+#aircloud
+#archer
 
 # Deployment
 deploy:
