@@ -2,9 +2,9 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">DandelionFs&#39; Blog</title>
+    <title type="text">DANDELIONFS</title>
     <subtitle type="html">DandelionFs Penal Colony , DandelionFs的自留地</subtitle>
-    <updated>2021-01-15T05:47:15&#43;08:00</updated>
+    <updated>2021-01-16T03:01:17&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Galgame/エロゲー</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-14-galgame%E3%82%A8%E3%83%AD%E3%82%B2%E3%83%BC/" />
             <id>https://dfslfh.cn/blog/posts/2021-01-14-galgame%E3%82%A8%E3%83%AD%E3%82%B2%E3%83%BC/</id>
-            <updated>2021-01-15T04:53:04&#43;08:00</updated>
+            <updated>2021-01-16T01:33:39&#43;08:00</updated>
             <published>2021-01-14T18:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -33,8 +33,10 @@
 &lt;blockquote&gt;
 &lt;p&gt;外面的世界并不太平, 贴吧不断的炸链, 帖子连续的不存在, 404接踵而至, 像是2020年留下的无数孩子, 用户一个接一个地被屏蔽, 我来到自己的自留地留下属于自己的声音, &amp;quot;感觉自己好没用啊!!!&amp;quot;在脑海里不断反转, 但我能做的, 只有这些......&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;开始写&lt;code&gt;Gal&lt;/code&gt;是我自己的私心, 因为这件事并不能为我自己带来多少附加值/增值, 但当自己喜欢的&lt;code&gt;Gal&lt;/code&gt;被网络一次一次封杀的时候, 就如猛浪般地在我本就不鲜活的记忆上来回冲刷, 像是在封杀我的过去, 我意识到必须写下点什么, 我必须把我知道的都记录下来.&lt;/p&gt;
-&lt;p&gt;直到完稿起标题的时候还在犹豫这方面的知识是隶属于哪一部分, 在我早期的记忆里是 &lt;code&gt;文字AVG&lt;/code&gt; , 因为往往游戏属性在简介里都有写, 但是考虑到弹丸论破等一些无色情内容优秀的AVG, 我决定题目高雅一些, 就用 &lt;code&gt;Interactive Fiction&lt;/code&gt;, 感觉老洋气了, 但还是觉得虚伪, 最后还是更名&lt;code&gt;色情游戏&lt;/code&gt;.[1] 可能大部分关于这方面的讨论我们都把注意力聚焦在R18部分的内容, 当然一开始我接触&lt;code&gt;Gal&lt;/code&gt;的目的就是可以低成本的让身体产生多巴胺, 催产素, 达到催眠麻醉自己的作用, 即使现在的自己已不再需要这些过渡时期的作品带来的副作用, 但我同样不允许这样的事物从我记忆中消失. 这样不好.&lt;/p&gt;
+&lt;p&gt;开始写&lt;code&gt;Gal&lt;/code&gt;是我自己的私心, 因为这件事并不能为我自己带来多少附加值/增值, 但当自己喜欢的&lt;code&gt;Gal&lt;/code&gt;被网络一次一次封杀的时候, 就如猛浪般地在我本就不鲜活的记忆上来回冲刷, 整个过程像是在封杀我的过去, 我下意识地认为必须写下点什么, 必须把我知道的都记录下来.&lt;/p&gt;
+&lt;p&gt;直到完稿后起标题的时还在犹豫这方面的知识是隶属于哪一部分, 是AVG? RPG? 还是纯Gal?&lt;/p&gt;
+&lt;p&gt;在我早期的记忆里是 &lt;code&gt;文字AVG&lt;/code&gt; , 因为往往游戏属性在简介里都有写, 但是考虑到弹丸论破等一些无色情内容优秀的AVG, 我决定题目高雅一些, 就用 &lt;code&gt;Interactive Fiction&lt;/code&gt;, 感觉老洋气了, 但还是觉得虚伪, 最后还是更名&lt;code&gt;色情游戏&lt;/code&gt;.[1]&lt;/p&gt;
+&lt;p&gt;可能大部分关于这方面的讨论我们都把注意力聚焦在R18部分的内容, 当然一开始我接触&lt;code&gt;Gal&lt;/code&gt;的目的就是可以低成本的让身体产生多巴胺, 催产素, 达到催眠麻醉自己的作用, 即使现在的自己已不再需要这些过渡时期的作品带来的副作用, 但我同样不允许这样的事物从我记忆中消失. 这样不好.&lt;/p&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;channel-渠道&#34;&gt;CHANNEL 渠道&lt;/h2&gt;
 &lt;ul&gt;
@@ -196,14 +198,6 @@
             
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://dfslfh.cn/blog/categories/2021/" term="2021" label="2021" />
-                            
-                        
-                    
                 
                     
                         
@@ -219,10 +213,10 @@
         </entry>
     
         <entry>
-            <title type="text">我的404*4</title>
+            <title type="text">我的404*5</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-01-%E6%88%91%E7%9A%844044/" />
             <id>https://dfslfh.cn/blog/posts/2021-01-01-%E6%88%91%E7%9A%844044/</id>
-            <updated>2021-01-15T04:57:18&#43;08:00</updated>
+            <updated>2021-01-16T03:00:30&#43;08:00</updated>
             <published>2021-01-01T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -251,6 +245,12 @@
 &lt;p&gt;&lt;strong&gt;New Flags:&lt;/strong&gt; 独处的时间里我喜欢上网冲浪, 递归无限互联网, 了解到很多程序员圈的Dalao, 那种身形巨宽, 连跨好几个领域的大佬, 这部分人的普遍具有网络时代的先发优势, 互聊网经验十年以上, 熟练学习各种灵性的技术. 我理应向他们看齐.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;新的一年, 购买的游戏不可以超过2个.&lt;/li&gt;
+&lt;li&gt;国家级：&lt;strong&gt;全国计算机等级考试（NCRE)&lt;strong&gt;和&lt;/strong&gt;中国计算机技术职业资格网(软考)高级&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;行业级：&lt;strong&gt;微软认证考试、Adobe认证考试、Oracle认证（OCA证书、OCP证书、OCM证书）、JAVA认证、Cisco认证&lt;/strong&gt;等+华为认证+&lt;strong&gt;计算机技术与软件专业资格考试证书&lt;/strong&gt;+思科认证+微软认证&lt;/li&gt;
+&lt;li&gt;协会级：&lt;strong&gt;PMP考试&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;学校级：&lt;strong&gt;PAT考试&lt;/strong&gt;(ACM/pat顶级(大一大二可以考乙级和甲级练练手，大三考完顶级，名次越高面试越稳)/蓝桥/ccf+开源)&lt;/li&gt;
+&lt;li&gt;Github&lt;/li&gt;
+&lt;li&gt;Coursera镜像网站：https://www.mooc.cn&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -463,7 +463,16 @@
 &lt;li&gt;Coolapk&lt;/li&gt;
 &lt;li&gt;小黑盒&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;</content>
+&lt;br&gt;
+&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/355299283/answer/890252154&#34;&gt;现在计算机类的认证证书都有哪些&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/76718362&#34;&gt;计算机专业要考哪些证书-知乎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/20298369/answer/26587839&#34;&gt;计算机专业，软件工程你们都考什么证-知乎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/328603760/answer/710720538&#34;&gt;计算机专业的要考什么证，求大佬指点? &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/76718362&#34;&gt;计算机专业要考哪些证书？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
             
             
             
@@ -471,21 +480,13 @@
             
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://dfslfh.cn/blog/categories/2021/" term="2021" label="2021" />
-                            
-                        
-                    
                 
                     
                         
                             
                             
                             
-                                <category scheme="https://dfslfh.cn/blog/tags/%E6%9D%82%E8%AE%B0/" term="杂记" label="杂记" />
+                                <category scheme="https://dfslfh.cn/blog/tags/gossip/" term="Gossip" label="Gossip" />
                             
                         
                     
@@ -497,7 +498,7 @@
             <title type="text">GAME THEORY | 博弈论</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2020-11-29-game-theory-%E5%8D%9A%E5%BC%88%E8%AE%BA/" />
             <id>https://dfslfh.cn/blog/posts/2020-11-29-game-theory-%E5%8D%9A%E5%BC%88%E8%AE%BA/</id>
-            <updated>2021-01-15T05:06:42&#43;08:00</updated>
+            <updated>2021-01-16T03:00:04&#43;08:00</updated>
             <published>2020-11-29T21:36:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -729,21 +730,13 @@
             
                 
                     
-                        
-                            
-                            
-                            
-                                <category scheme="https://dfslfh.cn/blog/categories/2020/" term="2020" label="2020" />
-                            
-                        
-                    
                 
                     
                         
                             
                             
                             
-                                <category scheme="https://dfslfh.cn/blog/tags/%E7%AC%94%E8%AE%B0/" term="笔记" label="笔记" />
+                                <category scheme="https://dfslfh.cn/blog/tags/notes/" term="Notes" label="Notes" />
                             
                         
                     
@@ -755,7 +748,7 @@
             <title type="text">逃离</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2020-07-15%E9%80%83%E7%A6%BB/" />
             <id>https://dfslfh.cn/blog/posts/2020-07-15%E9%80%83%E7%A6%BB/</id>
-            <updated>2021-01-15T04:56:59&#43;08:00</updated>
+            <updated>2021-01-16T02:59:50&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -804,7 +797,7 @@
                             
                             
                             
-                                <category scheme="https://dfslfh.cn/blog/tags/%E6%9D%82%E8%AE%B0/" term="杂记" label="杂记" />
+                                <category scheme="https://dfslfh.cn/blog/tags/gossip/" term="Gossip" label="Gossip" />
                             
                         
                     
@@ -816,7 +809,7 @@
             <title type="text">社会学下的热恋和冷婚</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2020-02-25%E7%A4%BE%E4%BC%9A%E5%AD%A6%E4%B8%8B%E7%9A%84%E7%83%AD%E6%81%8B%E5%92%8C%E5%86%B7%E5%A9%9A/" />
             <id>https://dfslfh.cn/blog/posts/2020-02-25%E7%A4%BE%E4%BC%9A%E5%AD%A6%E4%B8%8B%E7%9A%84%E7%83%AD%E6%81%8B%E5%92%8C%E5%86%B7%E5%A9%9A/</id>
-            <updated>2021-01-15T05:43:22&#43;08:00</updated>
+            <updated>2021-01-16T03:00:19&#43;08:00</updated>
             <published>2020-02-25T11:55:08&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -929,7 +922,7 @@
             <title type="text">我希望自己足够渺小</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2020-02-20%E6%88%91%E5%B8%8C%E6%9C%9B%E8%87%AA%E5%B7%B1%E8%B6%B3%E5%A4%9F%E6%B8%BA%E5%B0%8F/" />
             <id>https://dfslfh.cn/blog/posts/2020-02-20%E6%88%91%E5%B8%8C%E6%9C%9B%E8%87%AA%E5%B7%B1%E8%B6%B3%E5%A4%9F%E6%B8%BA%E5%B0%8F/</id>
-            <updated>2021-01-15T05:05:13&#43;08:00</updated>
+            <updated>2021-01-16T03:00:13&#43;08:00</updated>
             <published>2020-02-20T16:30:30&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -1016,7 +1009,7 @@
             <title type="text">梁老师的爱情课</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2020-02-08%E6%A2%81%E8%80%81%E5%B8%88%E7%9A%84%E7%88%B1%E6%83%85%E8%AF%BE/" />
             <id>https://dfslfh.cn/blog/posts/2020-02-08%E6%A2%81%E8%80%81%E5%B8%88%E7%9A%84%E7%88%B1%E6%83%85%E8%AF%BE/</id>
-            <updated>2021-01-15T05:03:25&#43;08:00</updated>
+            <updated>2021-01-16T02:59:38&#43;08:00</updated>
             <published>2020-02-08T04:39:30&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -1341,6 +1334,252 @@
 &lt;li&gt;B站资源以及瓣友们的互相扶持，嘿嘿......&lt;/li&gt;
 &lt;li&gt;终于填完这个4万字的大坑了……嘿嘿&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Hello Hexo</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2019-12-13-hellohexo/" />
+            <id>https://dfslfh.cn/blog/posts/2019-12-13-hellohexo/</id>
+            <updated>2021-01-16T02:59:55&#43;08:00</updated>
+            <published>2019-12-13T02:40:57&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">放弃Hexo类静态博客......</summary>
+            
+                <content type="html">&lt;h2 id=&#34;preface-前言&#34;&gt;PREFACE 前言&lt;/h2&gt;
+&lt;p&gt;嗯, 烂大街到游戏社区(小黑盒)都能看到这个博客的教程, 如果你的 Github 的Img不显示问题了，定是配置文件没写全(；′⌒`)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;推荐一个主题:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://theme-suka.skk.moe/docs/&#34;&gt;Suka Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;整合一下看到的&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35270383&#34;&gt;图床&lt;/a&gt; :
+&lt;ul&gt;
+&lt;li&gt;堆爱图床&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;img.duiai.cc/tc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SM.MS图床&lt;a href=&#34;https://dfslfh.cn/blog//sm.ms/&#34;&gt;sm.ms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;聚合图床&lt;a href=&#34;https://dfslfh.cn/blog//www.superbed.cn&#34;&gt;superbed.cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;堆爱图床&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;img.duiai.cc/tc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;拓展阅读：https://www.jianshu.com/p/ea1eb11db63f&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;表情：&lt;a href=&#34;https://www.webfx.com/tools/emoji-cheat-sheet/&#34;&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为什么写文章?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“和我的老朋友沟通——夏梦雪，高考后她就在我的生活很少出现了，买了新的手机和电脑，我把时间花在PS和拍摄上，我得承认，很长的一段时间我淡忘了她，但其实我有断断续续写些信件，因为难免很想她。像拾穗人一样，生活之外的写作是自己拙劣的尝试，是我尝试去和世界沟通，和夏梦雪沟通的方式。当希望表露自己时，当想和夏梦雪说话的时候，就敲下一段文字，所以有了些文字。”&lt;/p&gt;
+&lt;p&gt;“少了朋友圈可有可无的唠叨，多了反复删改的文字。浪费时间在博客上可能是我消磨时间的方式，也许我该远离这样的囚笼，到夏梦雪那里透透气的时刻。沟通自然包括情感、思想、行为，不可避免地会携有我的生活气息，写下来自然也是我的私心，我不希望有些事情就这样过去，也希望他们暴露在阳光下，想被其他人读到，所谓留给后人些什么，至少是留给自己什么。”&lt;/p&gt;
+&lt;p&gt;“但是我也会克制这一切的发生，在正式的文章开始后会避免涉及自己主观情感。“&lt;/p&gt;
+&lt;p&gt;&amp;quot;博客就好像写日记，如今日记的纸张已经用了好大一部分了，总不能每一页都相同吧？也该去看看更加广阔的世界。但其实现在的我决定有一样东西不会变，且永远不会改变，我会持续给你写信的，夏梦雪，如果可以，请别生我气，好久不见！”&lt;/p&gt;
+&lt;h2 id=&#34;hexo-logs&#34;&gt;Hexo Logs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;19年12月23日&lt;/strong&gt;&lt;/font&gt;：搭博客，效果可，Bugs多(Hexo本地文件的损坏、themes的主题配置失败、themes的主题内部Wrap函数错误)，不明所以，干掉重来。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年01月13日&lt;/strong&gt;&lt;/font&gt;：电源崩，修五天……至此偷闲，买VPS-ESC，装服务器，Bugs多(如上传图片失败，WordPress服务器要死的样子，知识不足以至不敢大刀阔斧改动)，花两天，猜测备案系于安全连接，重装见好再崩(•́へ•́╬)，遂备案&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月03日&lt;/strong&gt;&lt;/font&gt;：略解Html&amp;amp;CSS，得神力，改主题，习算法，看数据结构。买域名(.cc)，提日程（VPN），念历，惭愧。而于昨日又再封，机场倒半，加之Hexo无法解析过深Markdown，长叹难矣难矣。ψ(*｀ー´)ψ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月14日&lt;/strong&gt;&lt;/font&gt;：因Google放弃Coding托管博客。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月19日&lt;/strong&gt;&lt;/font&gt;：高三想法达成，有了第一个404！！！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月02日&lt;/strong&gt;&lt;/font&gt;：新主题（&lt;a href=&#34;https://github.com/aircloud&#34;&gt;作者&lt;/a&gt;），加&lt;a href=&#34;https://lfhdfs.disqus.com/admin/install/platforms/universalcode/&#34;&gt;disqus&lt;/a&gt;未遂，下次下次！！！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月17日&lt;/strong&gt;&lt;/font&gt;：重撰文，大道从简。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月20日&lt;/strong&gt;&lt;/font&gt;：再备案。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月28日&lt;/strong&gt;&lt;/font&gt;：解重写文章之艰，明妙笔之艰，遂推计划。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年05月01日&lt;/strong&gt;&lt;/font&gt;：偷闲更新一下文章，总结简单几点：1、不记录个人情绪以及解决过程的感受，保证整体清晰简短。 2、工作日不更新文章但是记录日志，汇集到每周末再做整理。3、多读书。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月02日&lt;/strong&gt;&lt;/font&gt;：找到其他的替代博客，可是大多数被墙。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Site&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blogger&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blogspot&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月13日&lt;/strong&gt;&lt;/font&gt;：换成Wiki类主题，修改若干。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年09月01日&lt;/strong&gt;&lt;/font&gt;：放弃Hexo类静态博客, 转Github。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;搭建hexo-&#34;&gt;搭建Hexo 🔨&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;[前提]：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Git &amp;amp; Node.js。&lt;/li&gt;
+&lt;li&gt;Github仓库已有 &lt;code&gt;你的用户名+github.io&lt;/code&gt;的 &lt;code&gt;repository&lt;/code&gt;，部署到GitHub page的时候，可以被识别。添加一个&lt;code&gt;README&lt;/code&gt;，有好玩的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;npm install -g hexo-cli &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; hexo init &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;myblog&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; myblog&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; npm install 
+hexo generate &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; hexo server
+&lt;span class=&#34;c1&#34;&gt;#生产SSH&lt;/span&gt;
+git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;yourname&amp;#34;&lt;/span&gt; 
+git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;youremail&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#检验&lt;/span&gt;
+git config user.name 
+git config user.email
+&lt;span class=&#34;c1&#34;&gt;#创建，一路回车&lt;/span&gt;
+ssh-keygen -t rsa -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;youremail&amp;#34;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/br&gt;
+&lt;p&gt;&lt;code&gt;C:\Users\用户\.ssh&lt;/code&gt;里面找到SSH的&lt;code&gt;id_rsa.pub&lt;/code&gt;, Linux下的目录是&lt;code&gt;~\.ssh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;id_rsa&lt;/code&gt;是你这台电脑的私人秘钥。把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据&lt;strong&gt;公钥匹配你的私钥&lt;/strong&gt;，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上，然后去个人设置里面加上SSH。之后打开二级域名就可以看到刚刚加的readme了。查看是否成功 ：&lt;/p&gt;
+&lt;/br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ssh -T git@github.com 
+&lt;span class=&#34;c1&#34;&gt;# The authenticity of host &amp;#39;github.com (52.74.223.119)&amp;#39; can&amp;#39;t be established.&lt;/span&gt;
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to &lt;span class=&#34;k&#34;&gt;continue&lt;/span&gt; connecting &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;yes/no/&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;fingerprint&lt;span class=&#34;o&#34;&gt;])&lt;/span&gt;? yes
+Warning: Permanently added &lt;span class=&#34;s1&#34;&gt;&amp;#39;github.com,52.74.223.119&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;RSA&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; to the list of known hosts.
+&lt;span class=&#34;c1&#34;&gt;#You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access，这点小插曲，英文显示不同意我们上传，这里不要管&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#修改`_config.yml`，关联github和本地&lt;/span&gt;
+deploy:
+  type: git
+  repo: https://github.com/YourgithubName/YourgithubName.github.io.git
+  branch: master
+npm install hexo-deployer-git --save &lt;span class=&#34;c1&#34;&gt;#安装deploy-git &lt;/span&gt;
+hexo clean &lt;span class=&#34;c1&#34;&gt;#清除了你之前生成的东西&lt;/span&gt;
+hexo g &lt;span class=&#34;c1&#34;&gt;#生成静态文章&lt;/span&gt;
+hexo deploy &lt;span class=&#34;c1&#34;&gt;#部署文章&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;之后就可以通过&lt;code&gt;http://yourname.github.io&lt;/code&gt;访问了。&lt;/p&gt;
+&lt;/br&gt;
+&lt;p&gt;&lt;strong&gt;[布局说明]:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hexo 有三种默认布局：&lt;code&gt;post&lt;/code&gt;、&lt;code&gt;page&lt;/code&gt; 和 &lt;code&gt;draft&lt;/code&gt;  ，它们分别对应不同的路径，而您自定义的其他布局和 &lt;code&gt;post&lt;/code&gt; 相同，都将储存到 &lt;code&gt;source/_posts&lt;/code&gt; 文件夹。&lt;/p&gt;
+&lt;p&gt;**[路径]: **&lt;code&gt;postsource/_postspagesourcedraftsource/_drafts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;而new这个命令其实是：&lt;code&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/code&gt;只不过这个layout默认是post罢了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[page]&lt;/strong&gt;：如果你想另起一页，那么可以使用&lt;code&gt;hexo new page board&lt;/code&gt;系统会自动给你在source文件夹下创建一个board文件夹，以及board文件夹中的index.md，这样你访问的board对应的链接就是&lt;code&gt;http://xxx.xxx/board&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[draft]&lt;/strong&gt;：draft是草稿的意思，也就是你如果想写文章，又不希望被看到，那么可以&lt;code&gt;hexo new draft newpage&lt;/code&gt;这样会在source/_draft中新建一个newpage.md文件，如果你的草稿文件写的过程中，想要预览一下，那么可以使用&lt;code&gt;hexo server --draft&lt;/code&gt;在本地端口中开启服务预览。&lt;/p&gt;
+&lt;p&gt;如果你的草稿文件写完了，想要发表到post中，&lt;code&gt;hexo publish draft newpage&lt;/code&gt;就会自动把newpage.md发送到post中。&lt;/p&gt;
+&lt;h2 id=&#34;coding部署-&#34;&gt;Coding部署 📋&lt;/h2&gt;
+&lt;p&gt;去创建一个&lt;code&gt;DevOps&lt;/code&gt;项目，名称和地址和你的用户名一样，把上面的&lt;code&gt;SSH&lt;/code&gt;再次配置到你的设置里&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;ssh&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;-T&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;git@git.coding.net&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#Hello XXX, You&amp;#39;ve connected to Coding.net via SSH. This is a personal key.
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#XXX，你好，你已经通过 SSH 协议认证 Coding.net 服务，这是一个个人公钥
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;连接上之后去你的项目里面的项目概览找到项目的&lt;code&gt;SSH&lt;/code&gt;(一开始是HTTPS链接，后面会用来访问)，复制到&lt;code&gt;_config.yml&lt;/code&gt;，像下面一样：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;deploy:&lt;/span&gt;
+  &lt;span class=&#34;s&#34;&gt;type:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;git&lt;/span&gt;
+  &lt;span class=&#34;s&#34;&gt;repository:&lt;/span&gt; 
+    &lt;span class=&#34;s&#34;&gt;github:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;https://github.com/YourgithubName/YourgithubName.github.io.git&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;coding:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;git@e.coding.net:.../...coding.me.git&lt;/span&gt;	
+  &lt;span class=&#34;s&#34;&gt;branch:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;master&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;之后 &lt;code&gt;hexo clean&lt;/code&gt;  再&lt;code&gt;hexo g -d&lt;/code&gt; 部署到Coding上面。去构建与部署里面找到静态网站后开启就可以构建了，可以用这里的网址直接进行访问。&lt;/p&gt;
+&lt;h2 id=&#34;分流绑定域名-&#34;&gt;分流绑定域名 🔒&lt;/h2&gt;
+&lt;p&gt;首先绑定GitHub的，去你的域名控制台，添加域名是&lt;code&gt;@&lt;/code&gt;和&lt;code&gt;www&lt;/code&gt;的双&lt;code&gt;CNAME&lt;/code&gt;记录类型，然后解析线路选择海外。以下列举&lt;strong&gt;域名解析记录&lt;/strong&gt;的不同区别:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A记录：将域名指向一个IPv4地址（例如：10.10.10.10）&lt;/li&gt;
+&lt;li&gt;NS记录：域名解析服务器记录，如果要将子域名指定某个域名服务器来解析&lt;/li&gt;
+&lt;li&gt;CNAME记录：如果将域名指向一个域名，实现与被指向域名相同的访问效果&lt;/li&gt;
+&lt;li&gt;MX记录：建立电子邮箱服务，将指向邮件服务器地址&lt;/li&gt;
+&lt;li&gt;TXT记录：可任意填写（可为空），通常用作SPF记录（反垃圾）邮件使用&lt;/li&gt;
+&lt;li&gt;AAAA记录：用来指定主机名（或域名）对应的IPv6地址（例如：ff06:0:0:0:0:0:0:c3）记录&lt;/li&gt;
+&lt;li&gt;URL转发：将域名指向一个http协议地址，访问域名时，自动跳转到目标地址。若显示则访问时直接显示真实的目标地址，若显示隐藏则访问时会隐藏真实的目标地址&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;添加完解析之后去github上面绑定域名，在项目的设置里。之后在&lt;code&gt;sourse&lt;/code&gt;里面创建一个CNAME的文件，类型是无，记事本把域名抄进去，防止域名以后部署的丢失。之前翻墙看自己的博客是真的快……&lt;/p&gt;
+&lt;p&gt;然后是Coding，添加域名是&lt;code&gt;@&lt;/code&gt;和&lt;code&gt;www&lt;/code&gt;的双&lt;code&gt;CNAME&lt;/code&gt;记录类型，然后解析线路选择默认，添加解析即可。访问速度那是嗖嗖的。&lt;/p&gt;
+&lt;h2 id=&#34;setting&#34;&gt;Setting&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;[config.yml]&lt;/strong&gt;：参照&lt;a href=&#34;https://hexo.io/zh-cn/docs/configuration&#34;&gt;官方&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[主题修改]&lt;/strong&gt;：参照&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;官方&lt;/a&gt;操作。&lt;/p&gt;
+&lt;h2 id=&#34;qa&#34;&gt;Q&amp;amp;A&lt;/h2&gt;
+&lt;h3 id=&#34;放弃coding为博客代理&#34;&gt;放弃Coding为博客代理&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;与CODING其它产品不同的是，Pages产品服务器设置在境外，原因涉及国内ICP备案、DDOS攻击等众所周知的原因。您在访问时可能会遇到段在中断、高延时等情况。近期，我们已接报了多例同类问题。我们的技术部门已经着手在基础架构、网络环境等方面进行改进，以提升Pages产品的可用性。给您带来不便，我代表CODING产品团队向您表示歉意。希望您对Pages这一业务的特殊性给予一定的理解.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自从Pull了一篇维基百科的文章后，访问十分不稳定。原因自然不必我多说，既然是墙内的网站，就一定会有内容审查机制，包括我自己的博客，不知道我的主网站提及科学上网和GFW会不会波及到（已经备案），如果波及到的话，我只能选择购买国外VPS了。如果你到Coding还是半信半疑的话，随便上Coding的反馈区看看就可以知道，虽然访问速度十分快，但是还是会被监管，有强迫症的自己有点受不了。&lt;/p&gt;
+&lt;/br&gt;
+&lt;h3 id=&#34;本地浏览和github代理网页打开不一&#34;&gt;本地浏览和Github代理网页打开不一&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;[Exp]：&lt;/strong&gt; 尽量整有源码的东西！&lt;/p&gt;
+&lt;p&gt;问题定位在HTML文件的目录书写错误，不太理解网页托管和文件目录索引的PY关系，留Flag！&lt;/p&gt;
+&lt;/br&gt;
+&lt;h3 id=&#34;取消toc的自动排序-&#34;&gt;取消TOC的自动排序 😤&lt;/h3&gt;
+&lt;p&gt;找到布局里面的&lt;code&gt;ejs&lt;/code&gt;文件，一般在&lt;code&gt;post&lt;/code&gt;里面，找到&lt;code&gt;&amp;lt;%- toc(post.content) %&amp;gt;&lt;/code&gt;改成&lt;code&gt;&amp;lt;%- toc(post.content, {list_number: false}) %&amp;gt;&lt;/code&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;暂时就到……&lt;/p&gt;
 </content>
             
             
