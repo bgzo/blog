@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>DANDELIONFS</title>
+        <title>BLOG</title>
         <link>https://dfslfh.cn/blog/</link>
         <description>DandelionFs Penal Colony , DandelionFs的自留地</description>
         <generator>Hugo 0.80.0 https://gohugo.io/</generator>
@@ -23,10 +23,120 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 17 Jan 2021 04:26:29 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 17 Jan 2021 18:09:18 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
+        
+            <item>
+                <title>End to End 端对端</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-17-end-to-end/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-17-end-to-end/</guid>
+                <pubDate>Sun, 17 Jan 2021 17:33:21 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.&lt;/p&gt;
+&lt;p&gt;一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;DETAILS&lt;/h2&gt;
+&lt;p&gt;A basic premise of the principle is that the payoffs from adding features to a simple network quickly diminish, especially in cases in which the end hosts have to implement those functions only for reasons of conformance, i.e. completeness and correctness based on a specification. Implementing a specific function incurs some resource penalties regardless of whether the function is used or not, and implementing a specific function in the network distributes these penalties among all clients.&lt;/p&gt;
+&lt;p&gt;基本前提是，将特征添加到简单网络的收益会迅速减少，尤其是在最终主机仅出于一致性（即基于规范的完整性和正确性）的原因而必须实现这些功能的情况下。不管是否使用该功能，实现特定功能都会招致一些资源损失，并且在网络中实现特定功能会将这些损失分配给所有客户端。&lt;/p&gt;
+&lt;p&gt;Internet Protocol (IP) is a connectionless datagram service with no delivery guarantees. On the internet, IP is used for nearly all communications. End-to-end acknowledgment and retransmission is the responsibility of the connection-oriented Transmission Control Protocol (TCP) which sits on top of IP. The functional split between IP and TCP exemplifies the proper application of the end-to-end principle to transport protocol design.&lt;/p&gt;
+&lt;p&gt;IP几乎用于所有通信。端到端的确认和重传是IP之上的面向连接的传输控制协议（TCP）的职责。IP和TCP之间的功能划分体现了端到端原理在传输协议设计中的正确应用。&lt;/p&gt;
+&lt;h2 id=&#34;limit&#34;&gt;LIMIT&lt;/h2&gt;
+&lt;p&gt;The most important limitation of the end-to-end principle is that its basic premise, placing functions in the application endpoints rather than in the intermediary nodes, is not trivial to implement.&lt;/p&gt;
+&lt;p&gt;An example of the limitations of the end-to-end principle exists in mobile devices, for instance with mobile IPv6. Pushing service-specific complexity to the endpoints can cause issues with mobile devices if the device has unreliable access to network channels.&lt;/p&gt;
+&lt;p&gt;Further problems can be seen with a decrease in network transparency from the addition of network address translation (NAT), which IPv4 relies on to combat address exhaustion. With the introduction of IPv6, users once again have unique identifiers, allowing for true end-to-end connectivity. Unique identifiers may be based on a physical address, or can be generated randomly by the host.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将功能置于应用程序端点而不是中间节点中的基本前提是不容易实现的。&lt;/li&gt;
+&lt;li&gt;存在于移动设备（例如，移动IPv6）中。如果设备对网络通道的访问不可靠，则将特定于服务的复杂性推向端点可能会导致&lt;strong&gt;移动设备出现问题&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;通过添加网络地址转换（NAT）可以看到网络透明度降低带来的其他问题，而IPv4依赖于它来对抗地址耗尽。随着IPv6的推出，用户再次拥有唯一的标识符，从而实现了真正的端到端连接。唯一标识符可以基于物理地址，也可以由主机随机生成。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;REFERENCES&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/End-to-end_principle&#34;&gt;End-to-end_principle&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/networks/">Networks</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Why home address is prefixed with 192.168?</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-17-whats-192-168/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-17-whats-192-168/</guid>
+                <pubDate>Sun, 17 Jan 2021 14:44:52 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;A Internet spec called  &lt;a href=&#34;http://www.ietf.org/rfc/rfc1918.txt&#34;&gt;RFC 1918&lt;/a&gt; (Request For Comments) reserved a few blocks of addressnss for &amp;quot;private&amp;quot; network. 192.168/16 was one of those blocks.&lt;/p&gt;
+&lt;h2 id=&#34;longly&#34;&gt;LONGLY&lt;/h2&gt;
+&lt;p&gt;Origin text is following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Internet Assigned Numbers Authority (IANA) has reserved the following three blocks of the IP address space for private internets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10.0.0.0        -   10.255.255.255  (10/8 prefix)&lt;/li&gt;
+&lt;li&gt;172.16.0.0      -   172.31.255.255  (172.16/12 prefix)&lt;/li&gt;
+&lt;li&gt;192.168.0.0     -   192.168.255.255 (192.168/16 prefix)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;256*256*256*256 = 4294967296&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Old time dont warry about NAT(Network Address Translation) port forwarding/mapping or ALGs or DMZs or trigger ports or hairpinning. To handle the problem runing out of addresses too quickly, IANA ( &lt;a href=&#34;http://iana.org/&#34;&gt;Internet Assigned Numbers Authority&lt;/a&gt; ) made ISPs to get address. By the time home boardband and network really start.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HOW WORKS&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So if you wanted to get more than one machine in your household onto the Internet, you had to run a NAT gateway that fakes like all the machines on your home network are actually sharing the same single public IP address. But all those other machines on your home network needed their own private IP addresses to use to talk to the NAT gateway.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;link&#34;&gt;LINK&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ietf.org/&#34;&gt;IETF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/End-to-end_principle&#34;&gt;End To End&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://superuser.com/questions/146194/why-are-home-networks-prefixed-with-192-168&#34;&gt;Why are home networks prefixed with 192.168? - Stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/networks/">Networks</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Galgame/エロゲー</title>
