@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">BLOG</title>
     <subtitle type="html">DandelionFs Penal Colony , DandelionFs的自留地</subtitle>
-    <updated>2021-01-20T23:44:01&#43;08:00</updated>
+    <updated>2021-01-21T00:01:54&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Photography Notes</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-19-photography/" />
             <id>https://dfslfh.cn/blog/posts/2021-01-19-photography/</id>
-            <updated>2021-01-20T23:43:26&#43;08:00</updated>
+            <updated>2021-01-20T23:59:46&#43;08:00</updated>
             <published>2021-01-20T21:58:28&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -108,7 +108,7 @@
 &lt;li&gt;APS—C相机：佳能/索尼为实际焦距x1.6，尼康为实际焦距x1.5.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/camera-focus-range.webp?Expires=1611131736&amp;amp;OSSAccessKeyId=TMP.3KiodB1ERZpt3bjqZ5oAqewFZEmp8NgkpHRde27wzqmFDcJJpqg3944RBPsHtygZGeHBPQS3FQTisJG6C2hdd3WwnxuH48&amp;amp;Signature=vARNuxMZV8xzQ5EMoAZKEgaIRdE%3D&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/camera-focus-range.webp&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;li&gt;自拍到相片, 从瘦到胖.
 &lt;ul&gt;
 &lt;li&gt;广角拍摄大气庞博的物体, 有一种变形的感觉&lt;/li&gt;
@@ -140,7 +140,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;余弦误差: 对焦好移动&lt;/li&gt;
-&lt;li&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/af-angle.webp?Expires=1611157540&amp;amp;OSSAccessKeyId=TMP.3KgwZs8vffM8WtE1K6ptrGgbVJTf8kyRwMTEU4sCtUbjSL77FeRSgg7sAmCyQ5Jq7LqGCXjgB98D6HrE6mszpfWpWqzTPr&amp;amp;Signature=9IQShnHYyQNCLp64B6ITqWwFfvs%3D&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/af-angle.webp&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -202,8 +202,8 @@
 &lt;ul&gt;
 &lt;li&gt;相机的ccd/cmos大小比较相机的选购&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/ccd-cmos-comp.webp?Expires=1611157653&amp;amp;OSSAccessKeyId=TMP.3KgwZs8vffM8WtE1K6ptrGgbVJTf8kyRwMTEU4sCtUbjSL77FeRSgg7sAmCyQ5Jq7LqGCXjgB98D6HrE6mszpfWpWqzTPr&amp;amp;Signature=Er3Fy5ZfWIAKBcXh3rpnx7ylxQw%3D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/full-img.webp?Expires=1611157696&amp;amp;OSSAccessKeyId=TMP.3KgwZs8vffM8WtE1K6ptrGgbVJTf8kyRwMTEU4sCtUbjSL77FeRSgg7sAmCyQ5Jq7LqGCXjgB98D6HrE6mszpfWpWqzTPr&amp;amp;Signature=TAgTEgrvFw8qnti9bWf%2BLzHkTUo%3D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/ccd-cmos-comp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/full-img.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;mobile-手机&#34;&gt;MOBILE 手机&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;相较于单反
@@ -244,7 +244,7 @@
             <title type="text">Ubuntu All in One | 我的 Ubuntu 合集</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/" />
             <id>https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</id>
-            <updated>2021-01-20T16:27:07&#43;08:00</updated>
+            <updated>2021-01-20T23:54:09&#43;08:00</updated>
             <published>2021-01-19T18:11:54&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -815,7 +815,7 @@ snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=
 &lt;/table&gt;
 &lt;p&gt;使用 &lt;code&gt;ctrl + ;&lt;/code&gt;（此为 fcitx 自带剪贴板插件） ：查看粘贴板的内容，此时显示的就不只有一条内容，一般而言是最近的五次复制的内容。使用数字键进行选择。&lt;/p&gt;
 &lt;h2 id=&#34;bugs&#34;&gt;BUGS&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp?Expires=1611131391&amp;amp;OSSAccessKeyId=TMP.3KiodB1ERZpt3bjqZ5oAqewFZEmp8NgkpHRde27wzqmFDcJJpqg3944RBPsHtygZGeHBPQS3FQTisJG6C2hdd3WwnxuH48&amp;amp;Signature=WJt3%2FD%2BxUJUh7UQ0gyEOmBZkLYs%3D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;boot-无法进去系统花屏&#34;&gt;Boot 无法进去系统(花屏)&lt;/h3&gt;
 &lt;p&gt;由于 Ubuntu(Linux) 并不是内置N卡驱动，所以如果有 N卡独显 笔记本会发生在 Ufi模式 下启动U盘进入系统的时候卡死。应该先用 &lt;code&gt;e&lt;/code&gt; 进去 Boot 设置，在末尾 quiet splash 的后面先空一格再加上&lt;code&gt;acpi_osi=linux nomodeset&lt;/code&gt;，F10保存退出,&lt;/p&gt;
 &lt;p&gt;[Tip] : 如果quiet splash后面发现有- - -这串符号，直接删了就是，只要保证上述添加的参数在splash后面即可&lt;/p&gt;
