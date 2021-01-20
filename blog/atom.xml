@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">BLOG</title>
     <subtitle type="html">DandelionFs Penal Colony , DandelionFs的自留地</subtitle>
-    <updated>2021-01-20T21:22:48&#43;08:00</updated>
+    <updated>2021-01-20T23:44:01&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -16,6 +16,230 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
+        <entry>
+            <title type="text">Photography Notes</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-19-photography/" />
+            <id>https://dfslfh.cn/blog/posts/2021-01-19-photography/</id>
+            <updated>2021-01-20T23:43:26&#43;08:00</updated>
+            <published>2021-01-20T21:58:28&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;其实摄影和绘画、文字、音乐一样，都是一个载体，一个将创作者的思想或意图传达给读者（观众、听众）的载体。&lt;/p&gt;
+&lt;p&gt;好照片:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有一个鲜明的主题&lt;/li&gt;
+&lt;li&gt;把注意力引向被摄主体&lt;/li&gt;
+&lt;li&gt;尽量简洁&lt;/li&gt;
+&lt;/ol&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;其实摄影和绘画、文字、音乐一样，都是一个载体，一个将创作者的思想或意图传达给读者（观众、听众）的载体。&lt;/p&gt;
+&lt;p&gt;好照片:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有一个鲜明的主题&lt;/li&gt;
+&lt;li&gt;把注意力引向被摄主体&lt;/li&gt;
+&lt;li&gt;尽量简洁&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;channels-渠道&#34;&gt;CHANNELS 渠道&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ippawards.com/the-competition/&#34;&gt;IPPAWARDS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mobilephotoawards.com/&#34;&gt;MPA(Mobile Photography Awards)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://gallery.consumer.huawei.com/&#34;&gt;HUAWEI IMAGES AWARDS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;teacher-老师&#34;&gt;TEACHER 老师&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;原画册韩松&lt;/li&gt;
+&lt;li&gt;Overwater&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notes-笔记&#34;&gt;NOTES 笔记&lt;/h2&gt;
+&lt;h3 id=&#34;camera-相机&#34;&gt;CAMERA 相机&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;单反/微单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;镜头&#34;&gt;镜头&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;光圈&lt;/strong&gt;: 一个用来控制光线透过镜头，进入机身内感光面光量的装置，它通常是在镜头内。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;num + f&lt;/code&gt; : num 越大, 光圈越小.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大光圈, 进光量多, 主体背景虚化明显.
+- 小光圈, 进光量少, 主体前后清晰.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;人像: &lt;code&gt;1.2 - 3.5 f&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;风景: &lt;code&gt;2.8 - 5 f&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;星空: &lt;code&gt;11 f&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;景深: 对焦点放在某处以后，你能以此为中心，看到前后左右的清晰物品的大小范围。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;焦距(焦段)&lt;/strong&gt; : 焦点到光心的中心点之间的距离, mm表示。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分类[个性]&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;鱼眼镜头：焦距15mm以下&lt;/li&gt;
+&lt;li&gt;广角镜头：焦距18—28mm&lt;/li&gt;
+&lt;li&gt;小广角定焦镜头：焦距35mm&lt;/li&gt;
+&lt;li&gt;标准镜头：焦距50mm [接近肉眼]&lt;/li&gt;
+&lt;li&gt;长焦镜头：焦距150mm以上 [望远镜]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;APS—C和全画幅的等效焦距换算问题
+&lt;ul&gt;
+&lt;li&gt;全画幅相机：镜头上标的多少就是多少。&lt;/li&gt;
+&lt;li&gt;APS—C相机：佳能/索尼为实际焦距x1.6，尼康为实际焦距x1.5.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/camera-focus-range.webp?Expires=1611131736&amp;amp;OSSAccessKeyId=TMP.3KiodB1ERZpt3bjqZ5oAqewFZEmp8NgkpHRde27wzqmFDcJJpqg3944RBPsHtygZGeHBPQS3FQTisJG6C2hdd3WwnxuH48&amp;amp;Signature=vARNuxMZV8xzQ5EMoAZKEgaIRdE%3D&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;自拍到相片, 从瘦到胖.
+&lt;ul&gt;
+&lt;li&gt;广角拍摄大气庞博的物体, 有一种变形的感觉&lt;/li&gt;
+&lt;li&gt;中画副 长画幅&lt;/li&gt;
+&lt;li&gt;长焦压缩感, 拍扁的效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;相机&#34;&gt;相机&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;对焦&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自动对焦AF
+&lt;ul&gt;
+&lt;li&gt;自动对焦时焦点的选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;手动对焦MP
+&lt;ul&gt;
+&lt;li&gt;手动对焦的操作演示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;多重对焦
+&lt;ul&gt;
+&lt;li&gt;多重对焦的操作演示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;余弦误差: 对焦好移动&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/af-angle.webp?Expires=1611157540&amp;amp;OSSAccessKeyId=TMP.3KgwZs8vffM8WtE1K6ptrGgbVJTf8kyRwMTEU4sCtUbjSL77FeRSgg7sAmCyQ5Jq7LqGCXjgB98D6HrE6mszpfWpWqzTPr&amp;amp;Signature=9IQShnHYyQNCLp64B6ITqWwFfvs%3D&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;快门: 控制开启时间&amp;quot;装置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;快门用秒来表示，比如1/60 1/125 1/500 1/1600.高速快门，可以拍摄高速运动的物体的清晰定格，&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;低速快门，可以拍摄水流的梦幻效果，星空的流星等等.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ISO&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;相机的感光度，能帮助你提高照片亮度，不至于欠曝。IsO越高，照片就越亮。&lt;/li&gt;
+&lt;li&gt;iso越高，越容易有噪点。当然，这也取决于你的相机素质，不能一概而论。&lt;/li&gt;
+&lt;li&gt;&amp;lt; 800: 比较细腻&lt;/li&gt;
+&lt;li&gt;&amp;gt;3200: 可能噪点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;白平衡: 数码相机对白色物体的还原。在拍摄时应用白平衡来还原拍摄物体本来的颜色，纠正相机可能在色温影响下产生的色彩偏差。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择:
+&lt;ul&gt;
+&lt;li&gt;自动白平衡日光白平衡（5200k）&lt;/li&gt;
+&lt;li&gt;阴影白平衡（7000k）&lt;/li&gt;
+&lt;li&gt;阴天白平衡（6000k）&lt;/li&gt;
+&lt;li&gt;钨丝灯白平衡（7000k）&lt;/li&gt;
+&lt;li&gt;白色荧光灯白平衡（4000k）&lt;/li&gt;
+&lt;li&gt;闪光灯白平衡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;拍照模式&#34;&gt;拍照模式&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A+ / Auto&lt;/strong&gt;: 全自动模式，光圈快门ISO全部由相机按测光设定。只要半按快门对焦拍照就可以。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: 半自动模式, 智能自动，半自动模式，自由的调整光图快门的曝光组合，可以手动调整ISO/白平衡等功能。&lt;/p&gt;
+&lt;p&gt;在调节光圈的时候系统会自动匹配一个快门数值；同样在调节快门速度的时候系统也会自动匹配一个光围数值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A(V)&lt;/strong&gt;: 光圈优先模式, 光圈优先模式，拍照的时候调节光圈和iso，快门速度是自动匹配的。景深&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;TV/S&lt;/strong&gt;: 快门优先模式, 快门优先模式下，快门的数值是被预先锁定的，我们先设好快门速度，光圈值是相机根据测光给出的数值。快门优先，可以设置一个安全快门（速度） ，一般是1/焦段，拍照的时候调节快门速度和ISO，光圈是自动匹配的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M&lt;/strong&gt;: 手动模式&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;ccdcmos的大小比较&#34;&gt;ccd/cmos的大小比较&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;相机的ccd/cmos大小比较相机的选购&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/ccd-cmos-comp.webp?Expires=1611157653&amp;amp;OSSAccessKeyId=TMP.3KgwZs8vffM8WtE1K6ptrGgbVJTf8kyRwMTEU4sCtUbjSL77FeRSgg7sAmCyQ5Jq7LqGCXjgB98D6HrE6mszpfWpWqzTPr&amp;amp;Signature=Er3Fy5ZfWIAKBcXh3rpnx7ylxQw%3D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/full-img.webp?Expires=1611157696&amp;amp;OSSAccessKeyId=TMP.3KgwZs8vffM8WtE1K6ptrGgbVJTf8kyRwMTEU4sCtUbjSL77FeRSgg7sAmCyQ5Jq7LqGCXjgB98D6HrE6mszpfWpWqzTPr&amp;amp;Signature=TAgTEgrvFw8qnti9bWf%2BLzHkTUo%3D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mobile-手机&#34;&gt;MOBILE 手机&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;相较于单反
+&lt;ul&gt;
+&lt;li&gt;手机便携带来的人际间的传达意义远超传统相机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;美学规律
+&lt;ul&gt;
+&lt;li&gt;某方面趋于统一&lt;/li&gt;
+&lt;li&gt;特征结构 清晰，明快&lt;/li&gt;
+&lt;li&gt;对比冲突&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/theory/" term="Theory" label="Theory" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Ubuntu All in One | 我的 Ubuntu 合集</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/" />
@@ -1118,7 +1342,7 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
             <title type="text">My Earphone</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/" />
             <id>https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/</id>
-            <updated>2021-01-19T21:50:07&#43;08:00</updated>
+            <updated>2021-01-20T22:03:03&#43;08:00</updated>
             <published>2021-01-18T16:43:20&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -1198,33 +1422,37 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
 &lt;h3 id=&#34;category-分类&#34;&gt;Category 分类&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;佩戴&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;佩戴&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;头戴式&lt;/li&gt;
-&lt;li&gt;入耳式&lt;/li&gt;
-&lt;li&gt;压耳式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;头戴式(AE)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;入耳式(IE)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;压耳式(OE)&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;平头塞/半入耳&lt;/li&gt;
 &lt;li&gt;项圈式&lt;/li&gt;
 &lt;li&gt;TWS&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;是否有线&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;是否有线&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;有线&lt;/li&gt;
-&lt;li&gt;(真)无线&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;按换能原理（Transducer）&lt;/p&gt;
+&lt;p&gt;(真)无线&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;按换能原理（Transducer）&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;动圈耳机（Dynamic）：目前绝大多数（大约99%以上）的耳机耳塞都属此类，原理类似于普通音箱，处于永磁场中的线圈与振膜相连，线圈在信号电流驱动下带动振膜发声&lt;/li&gt;
 &lt;li&gt;静电耳机（Electrostatic）：振膜处于变化的电场中，振膜极薄、精确到几微米级（目前STAX新一代的静电耳机振膜已精确到1.35微米），线圈在电场力的驱动下带动振膜发声&lt;/li&gt;
-&lt;li&gt;虽然除这二类之外尚有等磁式等数种，但或是已被淘汰或是用于专业用途市场占有量极少，在此不做讨论。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;按开放程度&lt;/p&gt;
+&lt;p&gt;虽然除这二类之外尚有等磁式等数种，但或是已被淘汰或是用于专业用途市场占有量极少，在此不做讨论。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;按开放程度&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;开放式的耳机一般听感自然，佩带舒适，常见于家用欣赏的HIFI耳机，声音可以泄露、反之同样也可以听到外界的声音，耳机对耳朵的压迫较小&lt;/li&gt;
 &lt;li&gt;半开放式：没有严格的规定，声音可以只进不出亦可以只出不进，根据需要而做出相应的调整&lt;/li&gt;
@@ -1232,7 +1460,7 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;按用途&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;按用途&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;家用（Home）&lt;/li&gt;
 &lt;li&gt;便携（Portable）&lt;/li&gt;
@@ -1304,12 +1532,6 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
 &lt;li&gt;&lt;strong&gt;CD转盘&lt;/strong&gt;：将CD机的机械传动部分独立出来的机器。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;D/A转换器&lt;/strong&gt;：数码音响产品(例如CD、DVD) 中将数字音频信号转换为模拟音频信号的装置。D/A转换器可以做成独立的机器，以配合CD转盘使用，此时常常称为解码器（DAC）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;效果对比&#34;&gt;效果对比&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=hK424E2hxGkmc7IDQNeLO8uINmg&amp;amp;data=Rz0-HsGQTVomQpq4ENPM-tjiuKh1txDKIPCnzDN_pYzYum0ptvtBIWt5FXPvRjN7LwgVKThC6syuKrWoLj6s9XW0drqj2wxH6AcWIpPxOazY7A_TlaJZaWs8SqpRr6ln_ISh-U0cRMraX1t_7RRqx3QC1uewFagW0SHAaEG0Q4XvB0ETRafXRB1mIMPnBnosmUY6MUj9EbLnGnghUuNY3V06letlM4NGVJFK9y-C4_Bs6Vzw4CK2dH3lSgICTBCHa0DdCOdM40Ye_IGBSsf3ZhcV0qZV7Ckatbf0ExRV3fkYd4FfOoFrykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=554d2e7f93b4daf08dad477d654dcfe3&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=tNoJ86c2ysbz91fp_r6XAn-OAX4&amp;amp;data=Rz0-zjXqq4MwpHIXtYGCqtgoD2ttBphTLhuTXwWso2ihR4Mptk0qtFl4AFnt03k47sGd9I5C6syuKrWoAK8ePn6pXorCCDMHgv_lizKknVvY7OIPuV0viCyMC_lvQAaxlrChyzI3RMr2Oi19ughCoVpjieewFXjiq8cZfqdc7CC9SRETjxAUXKzuuc0MMukaSkDeSLUTEbJRce0TU_Zy38hw1iqsu17wVJFK9y-NR1zzxP_g8GppQ8GvB8z4TBCHa0DdCOdM40Yezv6qSsfZ96Xe2bt93EjJivee6-f8fKy8gIFaRVhrykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=dbd43ea03aa9c330db2a2ce4d2807c73&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://kssh2thumb.xmssdn.micloud.mi.com/2/1595215017082/get_thumbnail?sig=wHtz3YKdjrxNMdVA_-UKp0yuD40&amp;amp;data=cLPBu56hAIcB6uWX1WXE6TQaFPpg8XyM6pAZUVV5w175ZHQIDRniH_NN_SvImphPJpDToFiI9oP4ROniehf3qmWzZ_-u9T5ScBD_G79MnrHYpK0iyeAob33lINLKggWQaKCUiqTxr9FzwgTIPj_QcJJDTTbWF36adACpU1aHk_tex5bmX6pfroNfGFagGGuN8m1g4JP59ndW03_Yqj4-ky_0pp29GJ2t3zeXJku_cSl8i6_afM9u6sJ358d0qsa_yFqSyt-Mt-oLpgjUTRkt24UVPBgdk3vGxfm2FC8GZDMHyxHiZqhQ4Vcg4LK0cDELiOqC4y5VwvE&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=4a5ba3f33eab78ee9df7dde443dde677&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=umzCKoUiQfNoBY3-_74bpfbZEIs&amp;amp;data=Rz0-yLylFzrs_3-i9q_1BKI54c8ZTPTi2rf545RGioXAibkptr5KLMbVmxAhKUQ8Cnf_F_dC6syuKrWoVfvo3raA81uMNoJP5osWpHR2A3zY7Nvys0hVewrXCimlrjs1vxCh-343RMrhH1FG7zRgpn1gr-ewFX5r5HugovxRWWOTPr9pnv6wKOaCCDmgWFWLoGkzKXspEbKiEXWM_m07EzJN0s4a2b2JVJFK9y_ub450ydkgeJqhACwuixcjTBCHa0DdCOdM40Ye_rKqSseMo1M-EZLQDQb3O7_6nxTTOn4ip4FaVkBrykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=23ea34c9b309af0af31a3ed132a46540&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=perMIWAyJ0yV_XMaGWFX4kzXh8c&amp;amp;data=Rz0-3BrC42E-NIy5nfiB9A2TCjbfzOfUNycdAXToVbb2-ikpthQIbfYKLIOr7eVe7jk1dUBC6syuKrWoToFw04d8ixiAxeIlnkLxWPgXRbLY7C_-8s4SFMfNgBmbyXerTmuhr1A1RMqZInV2sxQF0kpzv-ewFWrNg4_7cDeiQgjESk_GNBVJ7maRPtQwvLdrDrYAHwi5EbIIUzS8IdqomfbssCpUE98-VJFK9y-hQwQExoA8B1MLw4lWosf1TBCHa0DdCOdM40YeqpyoSseX2cszIG6oTgoEW9WCVvMvth9kaYFaHeprykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=88a0bd9d1980c309036db55662d90b82&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;wiki-维基&#34;&gt;Wiki 维基&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
