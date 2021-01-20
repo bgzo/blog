@@ -23,10 +23,1426 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 17 Jan 2021 18:09:18 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 20 Jan 2021 21:22:48 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
+        
+            <item>
+                <title>Ubuntu All in One | 我的 Ubuntu 合集</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</guid>
+                <pubDate>Tue, 19 Jan 2021 18:11:54 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;&lt;strong&gt;[声明]&lt;/strong&gt;： &lt;strong&gt;该 BLOG 只针对 UEFI+GPT 的 Win10 电脑, 此外, 我的分区形式是 Ubuntu Ext2. 不保证通用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;200125我开坑Ubuntu, 被其简单的系统占用所折服, 我开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;https://dfslfh.cn/blog//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;多说一句: 在用完 Win10 后有感, &lt;strong&gt;在没有深入了解人类设计的技术前，永远不要过分相信他&lt;/strong&gt;，就像是你的电脑，在你真正摸清楚他的操作原理和操作逻辑之前，不要过分依赖他，在他面前，你可能就是赤裸的，而我所真正担心的是我没有足够的时间和精力去见证世间的一切，害怕的是自己不能静下心来慢慢的学习起来，对那些Fast Learner肃然起敬，但同时我始终都不了解真正的自己，永远在以伤害自己的方式来逼迫自己努力，而不是全身心的投入到自己的学习生涯中，这又是多么的可悲……&lt;/p&gt;
+&lt;h2 id=&#34;install-ubuntu&#34;&gt;INSTALL UBUNTU&lt;/h2&gt;
+&lt;p&gt;下载官方的镜像（国内有大量的开源镜像网站），然后用&lt;code&gt;Ultralso&lt;/code&gt;烧录到一个8G（4G）大小的U盘。重启机器开到BIOS界面，把BOOT里面的``BOOT Security`关掉，重启进入系统UEFI的U盘启动的模式，先进入Ubuntu里面体验一下，不要直接安装。&lt;/p&gt;
+&lt;p&gt;去找系统的安装源list文件，在&lt;code&gt;/etc/apt/sources.list&lt;/code&gt;里，用管理员的权限修改下载源地址（提前查到自己对应版本的源地址）。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo vi /etc/apt/sources.list
+sudo apt update
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;分盘的时候还请参考最下面的地址，但是值得注意一下&lt;code&gt;boot&lt;/code&gt;不要太小气，就我的话, 我给他2G，主分区32G，交换空间8G( 貌似和Win10虚存类似, 太大也不必 )，/home 60G，共100G, 不再赘述，分区仅供参考。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;换源&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;高校镜像源:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mirrors.ustc.edu.cn/help/ubuntu.html&#34;&gt;&lt;strong&gt;USTC Ubuntu Mirror&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/&#34;&gt;&lt;strong&gt;Tinghua Ubuntu Mirror&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.aliyun.com/mirror/ubuntu&#34;&gt;&lt;strong&gt;Ali Ubuntu Mirror&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;企业镜像源:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mirrors.aliyun.com/help/ubuntu&#34;&gt;&lt;strong&gt;Ali Baba Ubuntu Mirror&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mirrors.163.com/.help/ubuntu.htmll&#34;&gt;&lt;strong&gt;Netease Ubuntu Mirror&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mirrors.huaweicloud.com/&#34;&gt;&lt;strong&gt;Huawei Mirrors&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;更详细的可以查看 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/27187622&#34;&gt;Ubuntu 换源，安装&amp;amp;卸载软件&lt;/a&gt;, 简单来说:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#backup your old sourse &lt;/span&gt;
+sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
+&lt;span class=&#34;c1&#34;&gt;# open sources.list &lt;/span&gt;
+sudo gedit /etc/apt/sources.list
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;sys-update&#34;&gt;SYS UPDATE&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo update-manager -c -d
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;apt-manage&#34;&gt;APT MANAGE&lt;/h2&gt;
+&lt;p&gt;一般来说, 安装命令有：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 使用apt安装软件,譬如安装tree,这里的 -y 参数是为了在安装的时候默认选择yes&lt;/span&gt;
+sudo apt install tree -y
+&lt;span class=&#34;c1&#34;&gt;# deb包安装&lt;/span&gt;
+sudo dpkg -i xxx.deb
+sudo apt install gdebi
+sudo gdebi netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
+&lt;span class=&#34;c1&#34;&gt;#安装依赖（如果提示需要的话）&lt;/span&gt;
+sudo apt install -f
+&lt;span class=&#34;c1&#34;&gt;#另一种deb包安装方式&lt;/span&gt;
+sudo apt install ./xxxx.deb 
+&lt;span class=&#34;c1&#34;&gt;#安装filename.tar.gz软件,然后在解压目录或者bin文件夹中执行setup.sh文件&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;源码安装&lt;/strong&gt;: 有些软件没有被收录进软件镜像源，或者说开发者需要去使用他们最新的版本，这时候就要自己去他们的官网或者是代码托管平台下载最新的Linux源码，自己来build。这种方式安装需要解决很多的依赖，安装前多Google。此处还是以tree为例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先下载最新的源码包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  tar zxf tree-1.7.0.tgz &lt;span class=&#34;c1&#34;&gt;#解压&lt;/span&gt;
+  &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt;  tree-1.7.0/
+  
+  sudo make &lt;span class=&#34;c1&#34;&gt;# make and install&lt;/span&gt;
+  sudo make instal l# 如果没有配置环境，先用apt安装build-essential
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://qastack.cn/server/250224/how-do-i-get-apt-to-ignore-some-dependencies&#34;&gt;忽略某些依赖安装(Wechat Failure)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Check Depend&lt;/span&gt;
+dpkg --info XXX.deb &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep Depends
+&lt;span class=&#34;c1&#34;&gt;# Apt-get&lt;/span&gt;
+sudo apt install XXX.deb-
+&lt;span class=&#34;c1&#34;&gt;# dpkg&lt;/span&gt;
+sudo dpkg -i --ignore-depends&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;lt;---&amp;gt;  XXX.deb
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;uninstall&#34;&gt;Uninstall&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt remove --purge XXX
+sudo apt autoremove --purge XXX
+
+dpkg --get-selections &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep XXX
+sudo apt purge XXX  &lt;span class=&#34;c1&#34;&gt;#一个带core的package，如果没有带core的package，则是情况而定。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;clean&#34;&gt;Clean&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt autoclean &lt;span class=&#34;c1&#34;&gt;# 只删除过时的软件包，例如最近更新所取代的软件包，就完全不需要它们。&lt;/span&gt;
+sudo apt autoremove
+
+dpkg -l &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;grep ^rc&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $2}&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;sudo xargs dpkg -P 
+
+&lt;span class=&#34;c1&#34;&gt;# 清理日志问题.&lt;/span&gt;
+sudo &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &amp;gt; /var/log/syslog
+sudo &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &amp;gt; /var/log/kern.log
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果出现zsh/bash权限不足的情况, 使用&lt;code&gt;sudo -i&lt;/code&gt;临时切换到&lt;code&gt;Root&lt;/code&gt;用户的模式下进行操作. 操作完&lt;code&gt;exit&lt;/code&gt;退出即可.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;清理SNAP&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;执行脚本:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# Removes old revisions of snaps&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# CLOSE ALL SNAPS BEFORE RUNNING THIS&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -eu
+snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;/disabled/{print $1, $3}&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;read&lt;/span&gt; snapname revision&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+        snap remove &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$snapname&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; --revision&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$revision&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;run-appimage&#34;&gt;Run AppImage&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AppImage 是一种把应用打包成单一文件的格式，允许在各种不同的目标系统（基础系统(Debian、RHEL等)，发行版(Ubuntu、Deepin等)）上运行，无需进一步修改。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;简而言之就是绿色通用版本.&lt;/p&gt;
+&lt;p&gt;下载好程序的时候选择[属性]-&amp;gt; 可执行文件. 点击即可, 一般我习惯放在 &lt;code&gt;/home/usrname/opt/&lt;/code&gt;下, 也可以节省下根目录的空间内存......&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd /usr/share/applications
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;创建一个&lt;code&gt;.desktop&lt;/code&gt;文件. 然后编辑以下内容即可创建图标, 值得注意的是程序运行的图标的是包自带的, 这里定义的只能是应用菜单的.[^14][^15]&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1.0	
+&lt;span class=&#34;nv&#34;&gt;Encoding&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;UTF-8			&lt;span class=&#34;c1&#34;&gt;# 字符编码  &lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; XXX 
+&lt;span class=&#34;nv&#34;&gt;Comment&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; XXX			&lt;span class=&#34;c1&#34;&gt;# 鼠标经上提示名称 也可国际化&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Exec&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;XXX 				&lt;span class=&#34;c1&#34;&gt;# 菜单执行的命令或程序路径&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Terminal&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Icon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;XXX 				&lt;span class=&#34;c1&#34;&gt;# 图标路径&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Application
+&lt;span class=&#34;nv&#34;&gt;Categories&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Development
+&lt;span class=&#34;nv&#34;&gt;StartupNotify&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;false；	&lt;span class=&#34;c1&#34;&gt;#设置软件启动是不通知&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;Hidden&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;			&lt;span class=&#34;c1&#34;&gt;#菜单是否隐藏，类似NoDisplay属性&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;binary-file&#34;&gt;BINARY FILE&lt;/h3&gt;
+&lt;p&gt;直接编译好的包可以&lt;code&gt;./x&lt;/code&gt;运行即可, 方便的话就打包一个&lt;code&gt;desktop&lt;/code&gt;文件.&lt;/p&gt;
+&lt;h3 id=&#34;knowledge-for-apt--apt-get&#34;&gt;Knowledge For APT &amp;amp; APT-GET&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;APT&lt;/strong&gt;的其它命令选项可以实现与使用 apt-get 时相同的操作。虽然 apt 与 apt-get 有一些类似的命令选项，但它并不能完全向下兼容 apt-get 命令。也就是说，可以用 apt 替换部分 apt-get 系列命令，但不是全部。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;apt 命令&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;取代的命令&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;命令的功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt install&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get install&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;安装软件包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt remove&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get remove&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;移除软件包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt purge&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get purge&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;移除软件包及配置文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt update&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get update&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;刷新存储库索引&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt upgrade&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get upgrade&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;升级所有可升级的软件包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt autoremove&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get autoremove&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;自动删除不需要的包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt full-upgrade&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-get dist-upgrade&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;在升级软件包时自动处理依赖关系&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt search&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-cache search&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索应用程序&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt show&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt-cache show&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;显示装细节&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;当然，apt 还有一些自己的命令：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;新的apt命令&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;命令的功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt list&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;列出包含条件的包（已安装，可升级等）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;apt edit-sources&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;编辑源列表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;To Be Continued......&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;APT-GET&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对于低级操作，仍然需要 apt-get。&lt;/p&gt;
+&lt;h2 id=&#34;shortcut&#34;&gt;SHORTCUT&lt;/h2&gt;
+&lt;h3 id=&#34;desktop-shortcut&#34;&gt;Desktop Shortcut&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Operation&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Effects&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Operation&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Effects&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + F1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;聚焦到桌面左侧任务导航栏，可按上下键进行导航&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + F2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;运行命令&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + F4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关闭当前窗口&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + Tab&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;切换程序窗口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + 空格&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开窗口菜单&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PrtSc&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;桌面截图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Win + A&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索/浏览程序&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Win&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索/浏览程序、文件、音乐文件等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Win + F&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索/浏览文件&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Win + M&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索/浏览音乐文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;terminal-shortcut&#34;&gt;Terminal Shortcut&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Operation&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Effects&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Operation&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Effects&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Alt + T&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开终端&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Tab&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;命令或文件名自动补全&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + C&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;复制&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + V&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;粘贴&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + T&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;在同一个窗口新建终端标签页&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关闭标签页&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + N&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;新建终端窗口&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + Q&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关闭终端窗口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + PageUp&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;标签页左移&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + PageDown&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;标签页右移&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + D&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关闭标签页&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + C&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;终止当前任务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + L&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;清除屏幕&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + P&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;显示上一条历史命令&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + N&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;显示下一条历史命令&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + R&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;反向搜索历史命令&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + J/M&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;回车（同enter键功能）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + A&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;光标移动到行首&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + E&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;光标移动到行尾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + B&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关闭想后移动一个位置（backward）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Z&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;把当前任务放到后台运行&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + PageUp&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;前一个终端标签页&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + PageDown&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;下一个终端标签页&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;F1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开帮助指南&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Win + W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;展示所有窗口&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Win + T&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开回收站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Win + ↓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;还原/最小化当前窗口&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Win + D&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;最小化所有窗口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + &amp;amp;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;恢复Ctrl + H/D/W删除的内容&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Win + ↑&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;最大化当前窗口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + D&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;删除光标位置的一个字符（delete键功能）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;删除光标位置的前一个单词（Alt + Backspace组合键功能）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + K&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剪切从光标位置到行末的所有字符&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Y&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;粘贴Ctrl + U/Ctrl + K剪切的内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + U&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剪切从行的开头到光标前一个位置的所有字符&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + H/*&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;删除光标位置的前一个字符（backspace键功能）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + ←&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;光标移动到下一个单词的词尾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + →&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;光标移动到上一个单词的词首&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开“帮助”菜单（help）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + T&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;将光标位置的字符和前一个字符进行位置交换&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + V&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开“查看“菜单（view）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + T&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开“终端”菜单（terminal）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + E&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开“编辑”菜单（edit）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + S&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开“搜索”菜单（search）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;F11&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;全屏切换&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Alt + F&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打开“文件”菜单（file）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;补充：&lt;/p&gt;
+&lt;p&gt;2次连续Tab/4次连续Esc/2次连续Ctrl + I|将显示所有命令和工具名称&lt;/p&gt;
+&lt;h3 id=&#34;gedit-shortcut&#34;&gt;Gedit Shortcut&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Operation&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Effects&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Operation&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Effects&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + N&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;新建文档&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关闭文档&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + S&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;保存文档&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Shift + S&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;另存为&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + F&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;搜索并替换&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + I&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;跳到某一行&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + C&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;复制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + V&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;粘贴&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + X&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;剪切&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ctrl + Q&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;退出&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;使用 &lt;code&gt;ctrl + ;&lt;/code&gt;（此为 fcitx 自带剪贴板插件） ：查看粘贴板的内容，此时显示的就不只有一条内容，一般而言是最近的五次复制的内容。使用数字键进行选择。&lt;/p&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;BUGS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp?Expires=1611131391&amp;amp;OSSAccessKeyId=TMP.3KiodB1ERZpt3bjqZ5oAqewFZEmp8NgkpHRde27wzqmFDcJJpqg3944RBPsHtygZGeHBPQS3FQTisJG6C2hdd3WwnxuH48&amp;amp;Signature=WJt3%2FD%2BxUJUh7UQ0gyEOmBZkLYs%3D&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;boot-无法进去系统花屏&#34;&gt;Boot 无法进去系统(花屏)&lt;/h3&gt;
+&lt;p&gt;由于 Ubuntu(Linux) 并不是内置N卡驱动，所以如果有 N卡独显 笔记本会发生在 Ufi模式 下启动U盘进入系统的时候卡死。应该先用 &lt;code&gt;e&lt;/code&gt; 进去 Boot 设置，在末尾 quiet splash 的后面先空一格再加上&lt;code&gt;acpi_osi=linux nomodeset&lt;/code&gt;，F10保存退出,&lt;/p&gt;
+&lt;p&gt;[Tip] : 如果quiet splash后面发现有- - -这串符号，直接删了就是，只要保证上述添加的参数在splash后面即可&lt;/p&gt;
+&lt;h3 id=&#34;n卡驱动&#34;&gt;N卡驱动&lt;/h3&gt;
+&lt;p&gt;进去之后要换aliyun的源, 进去发现分辨率是锁死的(反正不是1080P)，&lt;del&gt;是Ubuntu自带的显卡驱动背的锅&lt;/del&gt;(好像Ubuntu20.04LTS 已经自带 N卡 驱动了......)，更新N卡驱动:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo ubuntu-drivers autoinstall &lt;span class=&#34;c1&#34;&gt;# 自动安装&lt;/span&gt;
+
+sudo gedit /etc/modprobe.d/blacklist.conf &lt;span class=&#34;c1&#34;&gt;# 黑名单&lt;/span&gt;
+blacklist vga16fb &lt;span class=&#34;c1&#34;&gt;# for nvidia display device install&lt;/span&gt;
+blacklist nouveau
+blacklist rivafb
+blacklist rivatv
+blacklist nvidiafb
+
+sudo update-initramfs -u &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;  reboot &lt;span class=&#34;c1&#34;&gt;# 刷新重启&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;touchpad&#34;&gt;Touchpad&lt;/h3&gt;
+&lt;p&gt;下面是一段脚本&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 保存&lt;code&gt;sh&lt;/code&gt;文件后运行.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;72
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Gestures install &lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# version 1.3&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# &lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# by The Fan Club 2020&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# NOTE: run as sudo&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Remove if selected &lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;--remove&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt; 
+	&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Gestures uninstall started...&amp;#34;&lt;/span&gt;
+	python3 -m pip uninstall gestures
+	rm /usr/local/bin/gestures
+	rm /usr/share/applications/org.cunidev.gestures.desktop
+	rm /usr/share/metainfo/org.cunidev.gestures.appdata.xml
+	rm /usr/share/icons/hicolor/scalable/apps/org.cunidev.gestures.svg
+	&lt;span class=&#34;c1&#34;&gt;# remove libinput-gestures&lt;/span&gt;
+	su &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; libinput-gestures-setup stop
+	su &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; libinput-gestures-setup autostop
+	libinput-gestures-setup uninstall	
+	&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Gestures removal complete.&amp;#34;&lt;/span&gt;
+	&lt;span class=&#34;nb&#34;&gt;exit&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Install libinput-gestures - https://github.com/bulletmark/libinput-gestures&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Gestures install started...&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Add user to input group&lt;/span&gt;
+gpasswd -a &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; input
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; added to input user group&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Install prerequisites&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Install all depedencies&amp;#34;&lt;/span&gt;
+apt-get install xdotool wmctrl libinput-tools python3 python3-setuptools python3-gi python-gobject python3-pip build-essential git 
+&lt;span class=&#34;c1&#34;&gt;# Install/Update&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; -d libinput-gestures &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+	rm -r libinput-gestures 
+&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Downloading libinput-gestures from GitHub...&amp;#34;&lt;/span&gt;
+git clone https://github.com/bulletmark/libinput-gestures.git
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; libinput-gestures
+make install
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ..
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] libinput-gestures installed&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Install Gestures - https://gitlab.com/cunidev/gestures&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Install &lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; -d gestures &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+	rm -r gestures 
+&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Downloading Gestures from GitLab...&amp;#34;&lt;/span&gt;
+git clone https://gitlab.com/cunidev/gestures
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; gestures
+python3 setup.py install
+&lt;span class=&#34;c1&#34;&gt;# Cleanup&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ..
+rm -r gestures 
+rm -r libinput-gestures 
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Gestures installation complete&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Autostart libinput-gestures at boot and start now for current user&lt;/span&gt;
+su &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; libinput-gestures-setup stop
+su &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; libinput-gestures-setup autostart
+su &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; libinput-gestures-setup start
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] libinput-gestures started for &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Autostart Gestures &lt;/span&gt;
+cp /usr/share/applications/org.cunidev.gestures.desktop /home/&lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;/.config/autostart/
+sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/=gestures/=gestures\&amp;amp;/g&amp;#39;&lt;/span&gt; /home/&lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;/.config/autostart/org.cunidev.gestures.desktop
+chown &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;:&lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt; /home/&lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;/.config/autostart/org.cunidev.gestures.desktop
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;[Gestures] Reboot to complete the installation&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;解决无法支持三指和四指的遗憾.&lt;/p&gt;
+&lt;h3 id=&#34;亮度异常&#34;&gt;亮度异常&lt;/h3&gt;
+&lt;p&gt;安装完成之后发现亮度是不可以调节 :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# edit by nano, choose one between vim and nano. &lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# 按 Ctrl+O 保存、按 Ctrl+X 退出编辑&lt;/span&gt;
+sudo nano /etc/default/grub
+
+&lt;span class=&#34;c1&#34;&gt;# edit by vim/vi&lt;/span&gt;
+sudo apt
+sudo vim /etc/default/grub
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;将&lt;code&gt; GRUB_CMDLINE_LINEX_DEFAULT&lt;/code&gt;那一行改成：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nv&#34;&gt;GRUB_CMDLINE_LINUX_DEFAULT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;quiet splash acpi_backlight=vendor acpi_osi=Linux&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# 更新后重启 (重启可能时间比较长)&lt;/span&gt;
+sudo update-grub &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;语言设置&#34;&gt;语言设置&lt;/h3&gt;
+&lt;p&gt;一个小小的建议：语言设置这是用拖动的 [笑] 。&lt;/p&gt;
+&lt;h3 id=&#34;dpkg错误另外一个进程已经为-dpkg-状态数据库-加锁&#34;&gt;dpkg:错误：另外一个进程已经为 dpkg 状态数据库 加锁&lt;/h3&gt;
+&lt;p&gt;可能是开机自动更新会占用一会儿这个进程，要么PS kill 他，要么等一会就可以。&lt;/p&gt;
+&lt;h3 id=&#34;安装deb-包缺少以来关系仍未被处理的时候&#34;&gt;安装deb 包缺少以来关系，仍未被处理的时候&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install -f
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ubuntu-1804无法从fwupd下载固件&#34;&gt;ubuntu 18.04无法从fwupd下载固件&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通常是更新BIOS、更新网卡之类的需要fwupd。Android手机的bootloader就相当于电脑BIOS，所以Android更容易刷成砖。电脑重装系统是不会碰BIOS的，所以特殊情况才会成砖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;双系统的时间不统一&#34;&gt;双系统的时间不统一&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#这个是Bios里面的 Boot Secury 的问题, 但是关闭之后在进入Ubuntu后又会出现一系列问题.&lt;/span&gt;
+sudo hwclock -w --localtime
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;initramfs-tools报错&#34;&gt;initramfs-tools报错&lt;/h3&gt;
+&lt;p&gt;当初分盘的时候太小气，看见别人&lt;code&gt;/boot&lt;/code&gt;分区给了200M，但是太小了，以后给大点就不会有这问题了。解决方法是删掉多余的内核。dpkg命令是Debian Linux系统用来安装、创建和管理软件包的实用工具。查看自己的linux内核和正使用的内核，然后选择性删除。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo dpkg --get-selections &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;grep linux-image
+sudo uname -a
+sudo apt purge 内核名称
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后清理/usr/src目录,删除你已经卸载的内核目录&lt;/p&gt;
+&lt;p&gt;内核版本显示为&lt;strong&gt;install，表示系统已经安装了相应的内核，使用purge命令删除相应的内核。&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt purge linux-image-4.4.0-130-generic
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;deinstall&lt;/strong&gt;，表示系统没有安装此内核，但是在配置文件中还残留它的信息，也有可能是以前卸载的时候不彻底。 正常情况下，就已经清理完成辣。输入&lt;code&gt;df&lt;/code&gt;查看/boot的已用百分比。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt; sudo dpkg -P linux-image-extra-4.4.0-128-generic
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;更换介质请把标有&#34;&gt;更换介质：请把标有……&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“更换介质：请把标有…… DVD 的盘片插入驱动器“/media/cdrom/”再按回车键，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 修改`/etc/apt/sources.list`文件，注释掉`deb cdrom:`开头的一行（第一行）&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
+vim /etc/apt/sources.list
+apt update
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ubuntu支持exfat方法&#34;&gt;ubuntu支持&lt;code&gt;exfat&lt;/code&gt;方法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;推荐u盘使用exfat格式，为什么呢？两个原因：
+1、三大主流操作系统（Linux、Mac、Windows）都支持exfat格式。
+2、exfat支持大于4G的文件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在ubuntu下，由于版权的原因（据说），默认不支持exfat格式的u盘，对于ubuntu 14.04以上版本，直接运行下面的命令就可以了：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install exfat-utils
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ubuntu的在线账户&#34;&gt;Ubuntu的在线账户&lt;/h3&gt;
+&lt;p&gt;及时获取Ubuntu社区的更新.&lt;/p&gt;
+&lt;h3 id=&#34;snap错误has-install-snap-change-in-progress&#34;&gt;snap错误has install-snap change in progress&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;snap changes &lt;span class=&#34;c1&#34;&gt;# 获取任务Id&lt;/span&gt;
+sudo snap abort &lt;span class=&#34;m&#34;&gt;14&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ubuntu-永久挂载win10磁盘&#34;&gt;Ubuntu 永久挂载Win10磁盘&lt;/h3&gt;
+&lt;p&gt;实际挂载前，D盘为 &lt;code&gt;/dev/XX&lt;/code&gt;，E盘为 &lt;code&gt;/dev/XXX&lt;/code&gt;（&lt;strong&gt;注意！这里 sd 后面的不一定和 Windows 一样，图里 Windows 和 Ubuntu 同处于 SSD 上，而 D 和 E 盘均位于 HDD 上，所以从 &lt;code&gt;a&lt;/code&gt; 变成了 &lt;code&gt;b&lt;/code&gt;&lt;/strong&gt;）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;接下来，我们假设你要挂载的分区地址为 &lt;code&gt;/dev/XX&lt;/code&gt;（原 Windows 中的非系统文件目录，即通常意义上的 Windows 分区），要挂载到地址为 &lt;code&gt;/mnt/windows/d&lt;/code&gt;（Ubuntu 中的非系统文件目录，即 Linux 中的一个目录）&lt;/strong&gt;
+你当然可以（而且必须）根据你的实际情况修改分区地址&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo mkdir /mnt/windows/d# 然后关闭 WIndows 的**快速启动**，临时挂载，重启失效，适用于偶尔需要一次的：
+sudo mount /dev/XX  /mnt/windows/d
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在执行完成后，访问你的 &lt;code&gt;/mnt/windows/d&lt;/code&gt; 应该就能看到原盘符中的文件了，没有文件显示请重启电脑查看第二种方式——永久挂载。&lt;/p&gt;
+&lt;p&gt;我们需要修改系统文件 &lt;code&gt;/etc/fstab&lt;/code&gt;，在此之前，我们需要先获得 &lt;code&gt;/dev/XX&lt;/code&gt; 的 &lt;code&gt;UUID&lt;/code&gt;，执行指令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo blkid /dev/XX
+sudo apt install vim
+sudo vim /etc/fstab
+&lt;span class=&#34;c1&#34;&gt;#插入形如 UUID=XXXXXXXXXX   /mnt/windows/d   ntfs  defaults   0   2的字段; 其中第一列为UUID, 第二列为挂载目录（该目录必须为空目录），第三列为文件系统类型，第四列为参数，第五列0表示不备份，最后一列必须为２或0(除非引导分区为1)，如果你是grub引导的话，你会注意到boot分区是1.&lt;/span&gt;
+sudo mount -a#检查一下，发现还是报错，The disk contains an unclean file system，执行下面：
+sudo apt install ntfs-3g
+sudo ntfsfix /dev/XX
+sudo mount -a#再检查一下，发现全是OK，哈哈
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;上面流程走一遍发现该目录下没有文件，可以右键属性检查一下，如果确实存在，那么重启电脑就OK了，我只挂载了我win的数据盘，系统盘还是不要动的好……&lt;/p&gt;
+&lt;h3 id=&#34;grub-wifi&#34;&gt;Grub Wifi&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;909778&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; iwlwifi 0000: 00: 14.3: BIOS contains HGDS but no HRDS
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;暂时无解, 不影响使用...&lt;/p&gt;
+&lt;h3 id=&#34;root模式-部分命令找不到&#34;&gt;Root模式 部分命令找不到&lt;/h3&gt;
+&lt;p&gt;因为系统变量和用户变量不一样, 所以需要将用户变量配置到系统变量里.&lt;/p&gt;
+&lt;h3 id=&#34;没有批量操作的压缩命令&#34;&gt;没有批量操作的压缩命令&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;写 Shell/Python 脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;fileName&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+    xxx -x &lt;span class=&#34;nv&#34;&gt;$i&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;使用gnome的右键压缩指令.&lt;/li&gt;
+&lt;li&gt;Other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ubuntu-utf-8-和-win-gbk-的转化&#34;&gt;Ubuntu Utf-8 和 Win GBK 的转化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用&lt;code&gt;unar&lt;/code&gt;命令: &lt;code&gt;unar (-o (GBK)) xx.zip&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;binbashm-bad-interpreter-no-such-file-or-directory&#34;&gt;/bin/bash^M: bad interpreter: No such file or directory&lt;/h3&gt;
+&lt;p&gt;[Cause] : 脚本文件是DOS格式的, 即每一行的行尾以\r\n来标识&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;:set ff? &lt;span class=&#34;c1&#34;&gt;# 如果显示是DOS/UNIX&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ff&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;unix
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;hang-up-bug&#34;&gt;Hang Up Bug&lt;/h3&gt;
+&lt;p&gt;长时间挂起会导致显示出现问题, 我自己遇到的是 GUI页面崩溃. 可以进入tty2 输入 r 来重启 GUI页面, 但是声卡出现问题[输出显示伪输出]暂时没有什么有效的解决方法,&lt;/p&gt;
+&lt;h4 id=&#34;挂起后花屏&#34;&gt;挂起后花屏？&lt;/h4&gt;
+&lt;p&gt;挂起时间和导致的问题相关, 短时间内挂机不会产生什么作用, 但是长时间就会导致 Preface 里面的问题.&lt;/p&gt;
+&lt;p&gt;挂起:Suspend To RAM(STR)&lt;/p&gt;
+&lt;p&gt;休眠: Suspend To Disk(STD)&lt;/p&gt;
+&lt;p&gt;一种可能是设备的驱动问题不支持挂起, 但是短时间却可以这是什么鬼???&lt;/p&gt;
+&lt;h4 id=&#34;伪输出undo&#34;&gt;伪输出[Undo]&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;把你当前的用户加入audio组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo usermod -a -G audio &lt;span class=&#34;nv&#34;&gt;$USER&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;更加详细的可以参考&lt;a href=&#34;https://zhuanlan.zhihu.com/p/122887848&#34;&gt;这个&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可能是内核的问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;暂无解决方法, TO BE CONTINUED...&lt;/p&gt;
+&lt;h3 id=&#34;输出文件中带有-3442m-00m-等乱码字符&#34;&gt;输出文件中带有&lt;code&gt; [34;42m&lt;/code&gt; &lt;code&gt;[00m&lt;/code&gt; 等乱码字符&lt;/h3&gt;
+&lt;p&gt;这个是因为输入的文件带有颜色转义符号引起的, 所以想办法临时禁用颜色即可.&lt;/p&gt;
+&lt;h3 id=&#34;su提示认证失败&#34;&gt;su提示认证失败&lt;/h3&gt;
+&lt;p&gt;Ubuntu安装后，root用户默认是被锁定了的，不允许登录，也不允许 su 到 root ，对于桌面用户来说这个可能是为了增强安全性&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo passwd &lt;span class=&#34;c1&#34;&gt;# 输入安装时那个用户的密码 , 新的Root用户密码&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;扩展触摸屏触控错位&#34;&gt;扩展触摸屏触控错位&lt;/h3&gt;
+&lt;p&gt;造成的原因是 触控的驱动进程的端口是自己的主显示器/旋转自己的显示器但是触控没有跟着旋转, 所以需要用命令让进程的端口开放给显示器 &lt;code&gt;HDMI接口&lt;/code&gt; 上. 具体如下:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xrandr &lt;span class=&#34;c1&#34;&gt;# primitive command line interface to RandR extension&lt;/span&gt;
+xinput &lt;span class=&#34;c1&#34;&gt;# utility to configure and test X input devices&lt;/span&gt;
+xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; HDMI-0
+&lt;span class=&#34;c1&#34;&gt;# Restricts the movements of the absolute device to  the  RandR  crtc.  The output  name  must match a currently connected output (see xrandr(1)). If the NVIDIA binary driver is detected or RandR 1.2 or later is not  avail‐able,  a  Xinerama  output may be specified as &amp;#34;HEAD-N&amp;#34;, with N being the Xinerama screen number. This option has no effect on relative devices.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;但是关于显示器用来画画那种需要频繁切换的用户, 建议走:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://all2h.com/post/2011/01/08/%E8%BF%99%E5%A4%A9%E6%9D%80%E7%9A%84web-qq-2-0-6&#34;&gt;Ubuntu下触摸屏校准及自动旋转屏幕&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/u013491946/article/details/79895853&#34;&gt;树莓派(Linux 系统)触摸屏翻转显示以及触摸翻转&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;libinput&#34;&gt;libinput&lt;/h3&gt;
+&lt;p&gt;一个触控屏驱动, 更多参考:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wayland.freedesktop.org/libinput/doc/latest/what-is-libinput.html&#34;&gt;What is libinput&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;auto-run&#34;&gt;AUTO RUN&lt;/h2&gt;
+&lt;h3 id=&#34;指定运行级别&#34;&gt;指定运行级别&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;/etc/inittab&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0：关机&lt;/li&gt;
+&lt;li&gt;1：单用户【找回丢失密码】&lt;/li&gt;
+&lt;li&gt;2：多用户状态没有网络服务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt;：多用户状态有网络服务&lt;/li&gt;
+&lt;li&gt;4：系统未使用保留给用户&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5&lt;/strong&gt;：图形界面&lt;/li&gt;
+&lt;li&gt;6：系统重启&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如何找回 root 密码，如果我们不小心，忘记 root  密码，怎么找回。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;思路： 进入到 单用户模式，然后修改 root 密码。因为进入单用户模式，root 不需要密码就可以登录。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;uninstall-ubuntu&#34;&gt;UNINSTALL UBUNTU&lt;/h2&gt;
+&lt;p&gt;用的不习惯当然先卸载了，Emmmmm，哈哈哈哈，卸载比较简单，大家都知道如果你按照下面的链接安装无误的话，启动引导用的是Ubuntu自带的的 &lt;code&gt;GUN GRUB&lt;/code&gt;，如果你分盘的时候没有选择下面的启动引导设置，那么你第一次启动的时候一定不会进入Ubuntu的系统。&lt;/p&gt;
+&lt;p&gt;综上所述，我们把 &lt;code&gt;GUN GRUB&lt;/code&gt;干掉，然后选择磁盘分区的删除卷即可，软件的话，用EasyUEFI，官网下载的话需要梯子，然后我这里如果有时间会给出下载链接，去网上随便下载一个就好了。&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://www.thefanclub.co.za/how-to/ubuntu-touchpad-gestures-install&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/linux/">linux</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>My Earphone</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/</guid>
+                <pubDate>Mon, 18 Jan 2021 16:43:20 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;写写耳机的笔记, 坑点, 信息的获取 以及 主观的感受. 先看看我用过的耳机:&lt;/p&gt;
+&lt;br&gt;
+&lt;table&gt;
+   &lt;tr&gt;
+       &lt;td&gt;&lt;center&gt;&lt;b&gt;牌子&lt;/b&gt;&lt;/center&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;center&gt;&lt;b&gt;型号&lt;/b&gt;&lt;/center&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;center&gt;&lt;b&gt;感受&lt;/b&gt;&lt;/center&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Apple&lt;/td&gt;
+      &lt;td&gt;EarPods&lt;/td&gt;
+      &lt;td&gt;[漏电已坏] 耳机其实蛮良心的, 声音什么的都很正, 线很容易黄&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;2&#34;&gt;Edifier&lt;/td&gt;
+      &lt;td&gt;H295P&lt;/td&gt;
+      &lt;td&gt;[丢失] 和苹果的相似, 多了一些入耳式的封闭的特点&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+   &lt;td&gt;SHP9500&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt; 
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Vido&lt;/td&gt;
+      &lt;td&gt;MX500&lt;/td&gt;
+      &lt;td&gt;左右耳分离有时候听不出来. 暂时不知道原因&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;水月雨&lt;/td&gt;
+      &lt;td&gt;SSR&lt;/td&gt;
+      &lt;td&gt;[换线已丢] 人声太澄澈了, 声场略窄&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;notes-笔记&#34;&gt;Notes 笔记&lt;/h2&gt;
+&lt;h3 id=&#34;category-分类&#34;&gt;Category 分类&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;佩戴&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;头戴式&lt;/li&gt;
+&lt;li&gt;入耳式&lt;/li&gt;
+&lt;li&gt;压耳式&lt;/li&gt;
+&lt;li&gt;平头塞/半入耳&lt;/li&gt;
+&lt;li&gt;项圈式&lt;/li&gt;
+&lt;li&gt;TWS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;是否有线&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有线&lt;/li&gt;
+&lt;li&gt;(真)无线&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按换能原理（Transducer）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动圈耳机（Dynamic）：目前绝大多数（大约99%以上）的耳机耳塞都属此类，原理类似于普通音箱，处于永磁场中的线圈与振膜相连，线圈在信号电流驱动下带动振膜发声&lt;/li&gt;
+&lt;li&gt;静电耳机（Electrostatic）：振膜处于变化的电场中，振膜极薄、精确到几微米级（目前STAX新一代的静电耳机振膜已精确到1.35微米），线圈在电场力的驱动下带动振膜发声&lt;/li&gt;
+&lt;li&gt;虽然除这二类之外尚有等磁式等数种，但或是已被淘汰或是用于专业用途市场占有量极少，在此不做讨论。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按开放程度&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开放式的耳机一般听感自然，佩带舒适，常见于家用欣赏的HIFI耳机，声音可以泄露、反之同样也可以听到外界的声音，耳机对耳朵的压迫较小&lt;/li&gt;
+&lt;li&gt;半开放式：没有严格的规定，声音可以只进不出亦可以只出不进，根据需要而做出相应的调整&lt;/li&gt;
+&lt;li&gt;封闭式：耳罩对耳朵压迫较大以防止声音出入，声音正确定位清晰，专业监听领域中多见此类，但这类耳机有一个缺点就是低音音染严重，W100就是一个明显的例子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按用途&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;家用（Home）&lt;/li&gt;
+&lt;li&gt;便携（Portable）&lt;/li&gt;
+&lt;li&gt;监听（Monitor）&lt;/li&gt;
+&lt;li&gt;混音（Mix）&lt;/li&gt;
+&lt;li&gt;人头唱片（Binaural　Recording）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;耳机相关参数&#34;&gt;耳机相关参数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;阻抗（Impedance）&lt;/strong&gt;：注意与电阻含义的区别，在直流电（DC）的世界中，物体对电流阻碍的作用叫做电阻，但是在交流电（AC）的领域中则除了电阻会阻碍电流以外，电容及电感也会阻碍电流的流动，这种作用就称之为电抗，而我们日常所说的阻抗是电阻与电抗在向量上的和。高阻抗耳机的设计，最主要的作用就是对于音质的追求，但阻抗的高低并不能够决定音质的好坏。现在很多高端发烧级耳机也采用了低阻抗的设计；同时也有一些售价在几百元的高阻抗耳机，音质也就不用多说什么了。高阻抗的耳机，最主要是对音乐的还原，毕竟阻抗越大，音源输出影响越小，一定程度上提高了信噪比，也就是降低了噪音的相对功率，真实程度就越高；还能够通过阻抗的不同来改变听音的风格，以至于我们看到现在一些经典的高端耳机，都会有不同阻抗的版本来适应不同用户喜爱的音乐风格。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;信噪比&lt;/strong&gt;高。任何放大电路都有本底噪声，即输入端短路后，在输出端用仪器测到的噪声，它基本上不随音量旋钮钟点位置改变而改变，换句话说，这是一个固定的电压值。这样，根据欧姆定律就可以简单地得出结果：高阻：噪声功率小；低阻：噪声功率大。所以高阻抗的耳机声底更加的纯净。&lt;/li&gt;
+&lt;li&gt;最大程度上避免放大器中点直流偏移电位的负面影响。OCL电路是功率放大器的主流结构，而任何一个OCL在输入为零时，其输出端都不是绝对的零。细心的朋友会发现，当你把耳机插头插入打开电源的耳放时，会听到电流冲击声。放大器存在的这个中点偏移表现形式为电压，通常大小为几个毫伏，例外也有几十个毫伏的。耳机的音圈在这个电压的作用下，会稍稍偏移它在磁隙中的初始位置，这导致耳机的有效冲程缩小，和失真加大。在相同的偏移电压下，高阻耳机的音圈偏移相对小。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动态好&lt;/strong&gt;，同系列耳机的高阻版本，音圈匝数相同，但线更细，振动系统的质量，也就是惯性降低，对微弱和快速的信号的跟随能力增加。所以不容易受到杂讯干扰，如果能有足够的功率推动，就能呈现出震撼的动态效果和宽广的频响。这种效果尤其是在一些大制作编曲中，如交响乐、舞台剧等，则可以把音乐的气势完全展现出来。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;失真低&lt;/strong&gt;。 高阻系统的作用就是在实现高解析的情况下尽可能的减少动态失真度。从放大器失真角度，高阻耳机负载轻，放大器相对工作在失真较低的状态下，保证回放效果整体的平衡性，所以失真相对低阻耳机更低。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;耐受性&lt;/strong&gt;更好。 当出现某些极端、意外状况时，比如放大器故障、音量旋钮突然开大等，高阻耳机有更好的耐受性，不会被烧毁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵敏度（Sensitivity）&lt;/strong&gt;：指向耳机输入1毫瓦的功率时耳机所能发出的声压级（声压的单位是分贝，声压越大音量越大），所以一般灵敏度越高、阻抗越小，耳机越容易出声、越容易驱动。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;频率响应（Frequency Response）&lt;/strong&gt;：频率所对应的灵敏度数值就是频率响应，绘制成图象就是频率响应曲线，人类听觉所能达到的范围大约在20Hz-20000Hz，目前成熟的耳机工艺都已达到了这种要求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;音质评价术语&#34;&gt;音质评价术语&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;音域&lt;/strong&gt;：乐器或人声所能达到最高音与最低音之间的范围&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音色&lt;/strong&gt;：又称音品，声音的基本属性之一，比如二胡、琵琶就是不同的音色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音染&lt;/strong&gt;：音乐自然中性的对立面，即声音染上了节目本身没有的一些特性，例如对着一个罐子讲话得到的那种声音就是典型的-音染。音染表明重放的信号中多出了（或者是减少了）某些成分，这显然是一种失真。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;失真&lt;/strong&gt;：设备的输出不能完全复现其输入，产生了波形的畸变或者信号成分的增减。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;动态&lt;/strong&gt;：允许记录最大信息与最小信息的比值&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;瞬态响应&lt;/strong&gt;：器材对音乐中突发信号的跟随能力。瞬态响应好的器材应当是信号一来就立即响应，信号一停就嘎然而止，决不拖泥带水。（典型乐器：钢琴）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;信噪比&lt;/strong&gt;：又称为讯噪比，信号的有用成份与杂音的强弱对比，常常用分贝数表示。设备的信噪比越高表明它产生的杂音越少。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;空气感&lt;/strong&gt;：用于表示高音的开阔，或是声场中在乐器之间有空间间隔的声学术语。此时，高频响应可延伸到15kHz-20kHz。反义词有“灰暗（dull）”和“厚重（thick）”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;低频延伸&lt;/strong&gt;：指音响器材所能重放的最低频率。系用于测定在重放低音时音响系统或音箱所能下潜到什么程度的尺度。比方说，小型超低音音箱的低频延伸可以到40Hz，而大型超低音音箱则下潜到16Hz。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;明亮&lt;/strong&gt;：指突出4kHz-8kHz的高频段，此时谐波相对强于基波。明亮本身并没什么问题，现场演奏的音乐会皆有明亮的声音，问题是明亮得掌握好分寸，过于明亮（甚至啸叫）便让人讨厌。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;放大器&#34;&gt;放大器&lt;/h3&gt;
+&lt;p&gt;一般的放大器可分为晶体管（石机）和电子管（胆机）放大器两类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;放大器&lt;/strong&gt;: 前置放大器和功率放大器的统称。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;功率放大器: 简称功放，用于增强信号功率以驱动音箱发声的一种电子装置。不带信号源选择、音量控制等附属功能的功率放大器称为后级。&lt;/li&gt;
+&lt;li&gt;前置放大器: 功放之前的预放大和控制部分，用于增强信号的电压幅度，提供输入信号选择，音调调整和音量控制等功能。前置放大器也称为前级。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;甲类放大（class-A）(A类放大)&lt;/strong&gt;: 为放大器的一种工作状态。此时晶体管或电子管放大器将会对整个的音频信号进行放大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;乙类放大（class-B）(B类放大)&lt;/strong&gt;: 为放大器的一种工作状态。此时一路晶体管或电子管放大器将会放大音频信号的正半部分，而另一路晶体管或电子管放大器则放大信号的负半部分。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;甲乙类放大（class AB）(AB类放大)&lt;/strong&gt;: 放大器的一种工作状态。此时放大器的输出级在输出功率为低电平时便按甲类放大状态，而在输出功率为高电平时便转换为乙类放大。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;线材&#34;&gt;线材&lt;/h3&gt;
+&lt;p&gt;大多数耳机线都以铜为原料，一般的纯度(一般用几N表示，比如4N、6N……）越高导电性越好，信号失真越小，常见的有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TPC（电解铜）&lt;/strong&gt;：纯度为99.5%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OFC（无氧铜）&lt;/strong&gt;：纯度为99.995%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LC-OFC（线形结晶无氧铜或结晶无氧铜）&lt;/strong&gt;：纯度在99.995%以上&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OCC（单晶无氧铜）&lt;/strong&gt;：纯度最高，在99.996%以上，又分为PC-OCC和UP-OCC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;前端器材&#34;&gt;前端器材&lt;/h3&gt;
+&lt;p&gt;许多HIFI发烧友习惯将唱机分离成转盘和解码器两部分以得到音质更好的音乐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;前端&lt;/strong&gt;：多指声频系统中的信号源，如LP密纹慢转唱机或CD唱机，有时也指调谐器（收音头）中处理从无线接收到的信号的前级。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CD转盘&lt;/strong&gt;：将CD机的机械传动部分独立出来的机器。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;D/A转换器&lt;/strong&gt;：数码音响产品(例如CD、DVD) 中将数字音频信号转换为模拟音频信号的装置。D/A转换器可以做成独立的机器，以配合CD转盘使用，此时常常称为解码器（DAC）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;效果对比&#34;&gt;效果对比&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=hK424E2hxGkmc7IDQNeLO8uINmg&amp;amp;data=Rz0-HsGQTVomQpq4ENPM-tjiuKh1txDKIPCnzDN_pYzYum0ptvtBIWt5FXPvRjN7LwgVKThC6syuKrWoLj6s9XW0drqj2wxH6AcWIpPxOazY7A_TlaJZaWs8SqpRr6ln_ISh-U0cRMraX1t_7RRqx3QC1uewFagW0SHAaEG0Q4XvB0ETRafXRB1mIMPnBnosmUY6MUj9EbLnGnghUuNY3V06letlM4NGVJFK9y-C4_Bs6Vzw4CK2dH3lSgICTBCHa0DdCOdM40Ye_IGBSsf3ZhcV0qZV7Ckatbf0ExRV3fkYd4FfOoFrykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=554d2e7f93b4daf08dad477d654dcfe3&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=tNoJ86c2ysbz91fp_r6XAn-OAX4&amp;amp;data=Rz0-zjXqq4MwpHIXtYGCqtgoD2ttBphTLhuTXwWso2ihR4Mptk0qtFl4AFnt03k47sGd9I5C6syuKrWoAK8ePn6pXorCCDMHgv_lizKknVvY7OIPuV0viCyMC_lvQAaxlrChyzI3RMr2Oi19ughCoVpjieewFXjiq8cZfqdc7CC9SRETjxAUXKzuuc0MMukaSkDeSLUTEbJRce0TU_Zy38hw1iqsu17wVJFK9y-NR1zzxP_g8GppQ8GvB8z4TBCHa0DdCOdM40Yezv6qSsfZ96Xe2bt93EjJivee6-f8fKy8gIFaRVhrykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=dbd43ea03aa9c330db2a2ce4d2807c73&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kssh2thumb.xmssdn.micloud.mi.com/2/1595215017082/get_thumbnail?sig=wHtz3YKdjrxNMdVA_-UKp0yuD40&amp;amp;data=cLPBu56hAIcB6uWX1WXE6TQaFPpg8XyM6pAZUVV5w175ZHQIDRniH_NN_SvImphPJpDToFiI9oP4ROniehf3qmWzZ_-u9T5ScBD_G79MnrHYpK0iyeAob33lINLKggWQaKCUiqTxr9FzwgTIPj_QcJJDTTbWF36adACpU1aHk_tex5bmX6pfroNfGFagGGuN8m1g4JP59ndW03_Yqj4-ky_0pp29GJ2t3zeXJku_cSl8i6_afM9u6sJ358d0qsa_yFqSyt-Mt-oLpgjUTRkt24UVPBgdk3vGxfm2FC8GZDMHyxHiZqhQ4Vcg4LK0cDELiOqC4y5VwvE&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=4a5ba3f33eab78ee9df7dde443dde677&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=umzCKoUiQfNoBY3-_74bpfbZEIs&amp;amp;data=Rz0-yLylFzrs_3-i9q_1BKI54c8ZTPTi2rf545RGioXAibkptr5KLMbVmxAhKUQ8Cnf_F_dC6syuKrWoVfvo3raA81uMNoJP5osWpHR2A3zY7Nvys0hVewrXCimlrjs1vxCh-343RMrhH1FG7zRgpn1gr-ewFX5r5HugovxRWWOTPr9pnv6wKOaCCDmgWFWLoGkzKXspEbKiEXWM_m07EzJN0s4a2b2JVJFK9y_ub450ydkgeJqhACwuixcjTBCHa0DdCOdM40Ye_rKqSseMo1M-EZLQDQb3O7_6nxTTOn4ip4FaVkBrykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=23ea34c9b309af0af31a3ed132a46540&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ali.xmssdn.micloud.mi.com/2/1566455553514/get_thumbnail?sig=perMIWAyJ0yV_XMaGWFX4kzXh8c&amp;amp;data=Rz0-3BrC42E-NIy5nfiB9A2TCjbfzOfUNycdAXToVbb2-ikpthQIbfYKLIOr7eVe7jk1dUBC6syuKrWoToFw04d8ixiAxeIlnkLxWPgXRbLY7C_-8s4SFMfNgBmbyXerTmuhr1A1RMqZInV2sxQF0kpzv-ewFWrNg4_7cDeiQgjESk_GNBVJ7maRPtQwvLdrDrYAHwi5EbIIUzS8IdqomfbssCpUE98-VJFK9y-hQwQExoA8B1MLw4lWosf1TBCHa0DdCOdM40YeqpyoSseX2cszIG6oTgoEW9WCVvMvth9kaYFaHeprykxLMlDxk2yCu3-5wkzmEcY&amp;amp;ts=1611066892741&amp;amp;w=1080&amp;amp;h=1080&amp;amp;r=0&amp;amp;_cachekey=88a0bd9d1980c309036db55662d90b82&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;wiki-维基&#34;&gt;Wiki 维基&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Info Chennel:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;贴吧&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.erji.net/&#34;&gt;耳机大家坛&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;民间 QQ 友.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;flag:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;振膜材料&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;音圈&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;声学滤波器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;磁路&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;低电平高Q谐振&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;信噪比（SNR）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;频响（fr）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;动态范围（DNR）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;哈曼曲线&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输出负载&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输出功率&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DCM解码力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DSD解码力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;thd&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;人声 2-4k&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;32ohm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;纵深&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;推力 失真&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拥趸 宵小&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;KoL 小九九&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;footvar2000&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ABX Comporvotor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;微动圈&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ri-Res&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ODM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;外产&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;总锴波失真&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;相位失真&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;结像 分离&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;前端友好的灵敏度十阻抗&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;频域响应&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;信噪&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hd频码线？&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如何迅速判断你的耳机易不易推……需要结合两个参数：&lt;/p&gt;
+&lt;p&gt;一，看耳机灵敏度——对于100ohm以下的耳机（lgZ&amp;lt;2），105-108dB/mW以上的灵敏度为易推。或者无视阻抗下，120-123dB/V以上灵敏度则为易推。&lt;/p&gt;
+&lt;p&gt;二，看前端最大不失真输出——这个比较难，你哪怕知道了前端的最大输出功率，但并不能确定这个功率范围内是否仍有较好的指标。如我店realtek单晶铜连接线满血版在输出24mW-28mW@32ohm时指标仍旧相对良好，超过则迅速劣化。但其它调教的5686在超过10mW时thd就高于-85dB。&lt;/p&gt;
+&lt;p&gt;在24mW这个水平只要耳机在32欧灵敏度在105dB/mW以上时就可以将耳机推到足以爆炸鼓膜的115dB以上，满足一切音源欣赏所需动态范围，绰绰有余。&lt;/p&gt;
+&lt;p&gt;然而大部分手机哪怕是带运放的hifi手机并没有这类音频解码线有单独稳定的的供电和独占屏蔽，信噪比和谐波失真远远达不到所使用dac的理论性能，如xplay6，部分笔记本台式机的板载声卡也极为一般。所以现在的直推，更多的是建立在单独的usb音频线去考虑，而不是现今极为少见的耳机孔。&lt;/p&gt;
+&lt;p&gt;然而能不能听出来指标劣化就是另一回事了，比如我理想情况下最多听到-60dB，5686 -80dB的thd对我来说已完全足够，大家也可以去实测一下。&lt;/p&gt;
+&lt;h2 id=&#34;dreams-理想&#34;&gt;DREAMS 理想&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;DREAM&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;64Audio U18tzar 18单元动铁¥14999&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Softears Turii 单动圈 ¥ 8999&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;link-链接&#34;&gt;LINK 链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/c_1040294912280887296&#34;&gt;理性派HiFi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.erji.net/forum.php?mod=viewthread&amp;amp;tid=862&amp;amp;extra=pageD1&amp;amp;page=&#34;&gt;HIFI耳机基础知识入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/336368739/answer/758999039&#34;&gt;为什么有的发烧耳机阻抗那么高，到600欧，而最小的才16，32Ω？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/20141968/answer/687146102&#34;&gt;如何选购适合自己的耳机？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/hardware/">Hardware</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>End to End 端对端</title>
@@ -4360,7 +5776,11 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;li&gt;OBS&lt;/li&gt;
 &lt;li&gt;TeamViewer&lt;/li&gt;
 &lt;li&gt;Mypainter&lt;/li&gt;
-&lt;li&gt;Krita&lt;/li&gt;
+&lt;li&gt;Krita
+&lt;ul&gt;
+&lt;li&gt;krita-l10n&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Proxy&lt;/strong&gt;
