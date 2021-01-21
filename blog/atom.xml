@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">BLOG</title>
     <subtitle type="html">DandelionFs Penal Colony , DandelionFs的自留地</subtitle>
-    <updated>2021-01-22T03:29:42&#43;08:00</updated>
+    <updated>2021-01-22T03:43:37&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -266,14 +266,21 @@
             <title type="text">Stackover Top Questions Notes</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/" />
             <id>https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/</id>
-            <updated>2021-01-21T16:15:01&#43;08:00</updated>
+            <updated>2021-01-22T03:43:30&#43;08:00</updated>
             <published>2021-01-21T14:31:44&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">问题皆来源于下面的两个链接1： https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes https://stackoverflow.com/questions/tagged/c?tab=Votes 注：001 - 117 基本符合 votes 排序（从高到低）；从 118 开始，只挑选有意义的…
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;问题皆来源于下面的两个链接&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c?tab=Votes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：001 - 117 基本符合 votes 排序（从高到低）；从 118 开始，只挑选有意义的问题翻译，不再遵循 votes 排序高低依次翻译。&lt;/p&gt;
+&lt;/blockquote&gt;…
     
     </summary>
             
