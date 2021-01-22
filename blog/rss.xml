@@ -23,10 +23,130 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 22 Jan 2021 03:43:37 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 23 Jan 2021 01:19:16 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
+        
+            <item>
+                <title>Machine Learning Notes</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes1/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes1/</guid>
+                <pubDate>Fri, 22 Jan 2021 19:52:50 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;机器学习最重要的是“预测”，因此“机器学习”包含两个部分:&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;训练&lt;/strong&gt;：比如提供大量的汽车图片给机器“学习”，教会机器什么是车，这就是训练&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;预测&lt;/strong&gt;：训练结束后，我们需要机器可以对没有见过的图片进行判断，并且要保证一定的正确率，这就是预测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;机器学习适用于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要解决的问题中存在&lt;strong&gt;某种模式&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;这种模式&lt;strong&gt;不容易直接定义&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;有&lt;strong&gt;足够的数据&lt;/strong&gt;可以帮助我们找出该模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;分类sup1j1sup&#34;&gt;分类&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes1/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;监督式学习&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;手写识别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无监督学习&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;每日推荐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强化学习&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;AlphaGo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深度学习&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;感知机&#34;&gt;感知机&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;感知机:&lt;/strong&gt; 对神经元 (neuron) 的简单抽象
+&lt;ul&gt;
+&lt;li&gt;通过该历史数据训练之后，就可以判断某件事情&lt;/li&gt;
+&lt;li&gt;分界线总是直线, 属于&lt;strong&gt;线性分类模型&lt;/strong&gt;的一种&lt;/li&gt;
+&lt;li&gt;感知机是分类中最简单的算法，实用性并不高（能用直线分开的数据集在现实中几乎没有），但它很适合用于教学，并且也是后面复杂算法的基础。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;寻找分界线 -&amp;gt;  决策边界&lt;/strong&gt;: 通过学习历史数据找到了一条将这两类客户分开的直线&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特征&lt;/strong&gt;: 自变量
+&lt;ul&gt;
+&lt;li&gt;特征向量: 特征组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标签&lt;/strong&gt;: 因变量&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;乳腺癌实例&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;scikit learn库（后面简称为sklearn）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;监督式学习&lt;/strong&gt;: 如果提供的数据集有标签，并且在学习过程中用到了标签的算法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;线性分类模型&lt;/strong&gt;: 通过特征向量的个数建立不同维数上的平面.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;二分类线性模型&lt;/strong&gt;: 只能将数据分为两类，并且分界线是直线.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;多分类线性模型&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;决策边界&#34;&gt;决策边界&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分类和回归&lt;/strong&gt;: 监督式学习的应用场景总共有两个&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;感知机的思路&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;权重&lt;/strong&gt;：分别给这两个特征乘上不同的权重W1,W2. 最终表示为WnXn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阈值(threshold)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发放&lt;/strong&gt;: 权重和大于阈值&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不发放&lt;/strong&gt;: 权重和小于阈值&lt;/li&gt;
+&lt;li&gt;定义最终结果: &lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/ml-result-formual.webp&#34; alt=&#34;&#34;&gt;, 其中b表示阈值的负数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;决策边界&lt;/strong&gt;: &lt;code&gt;d==0&lt;/code&gt;时就是是n维空间中的超平面.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用点积来简化&lt;/strong&gt;: &lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/ml-perceptron-simply.webp&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;感知机的暴力实现&#34;&gt;感知机的暴力实现&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;寻找合适的w和b&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点积的正负和夹角的大小&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;法向量&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;超平面的两侧&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对错的判断&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;错误的纠正&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;错误纠正的例子&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;找到决策边界&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;算法规范化&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://www.matongxue.com/&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/ml/">ML</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Font</title>
@@ -215,7 +335,7 @@
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install webp
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-img/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;Wallhaven&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pixiv.net/&#34;&gt;Pixiv （18年关被墙/同人、插画）&lt;/a&gt;&lt;/li&gt;
@@ -239,10 +359,10 @@
 &lt;li&gt;&lt;a href=&#34;http://topology.le5le.com/&#34;&gt;topology&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
-&lt;div class=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html &lt;/div&gt;
-&lt;div class=&#34;j2&#34;&gt;[2]. https://developers.google.com/speed/webp&lt;/div&gt;
-&lt;div class=&#34;j3&#34;&gt;[3]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
-&lt;div class=&#34;j4&#34;&gt;[4]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;</description>
+&lt;div id=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html &lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://developers.google.com/speed/webp&lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
+&lt;div id=&#34;j4&#34;&gt;[4]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;</description>
                 
                 
                 
@@ -279,9 +399,6 @@
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c?tab=Votes&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注：001 - 117 基本符合 votes 排序（从高到低）；从 118 开始，只挑选有意义的问题翻译，不再遵循 votes 排序高低依次翻译。&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;h2 id=&#34;questions-问题&#34;&gt;QUESTIONS 问题&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;分支预测（Branch Prediction）导致有序数的效率提高.&lt;/li&gt;
@@ -478,9 +595,9 @@
 &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;explicit&lt;/code&gt;: 拒绝隐式转换（implicit conversion）.  添加的位置在 &lt;strong&gt;构造函数前面&lt;/strong&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;隐式转化:&lt;/strong&gt; 在面向对象中, 可以从基本类型通过 构造函数 转化为对应的函数类型.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;隐式转化:&lt;/strong&gt; 在面向对象中, 可以从基本类型通过 构造函数 转化为对应的函数类型.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;using namespace std&lt;/code&gt;: 命名冲突有关，与性能是没有关系。两个库函数重名问题.&lt;/p&gt;
@@ -537,20 +654,250 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;三法則: C++里三个成员函数缺一不可:&lt;/p&gt;
+&lt;p&gt;三法則: 简单来说, 为了日后维护方便, C++里三个成员函数缺一不可:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;析构函数&lt;/li&gt;
-&lt;li&gt;复制构造函数&lt;/li&gt;
-&lt;li&gt;赋值运算符 (C++)
+&lt;li&gt;
+&lt;p&gt;析构函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;复制构造函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;赋值运算符 (C++)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;C++ 会以值语义处理用户自定义类型的对象，这就是说在不同的上下文环境中,&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C++ 会以值语义处理用户自定义类型的对象，这就是说在不同的上下文环境中,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于构造赋值函数 (copy constructor) 的编写**[手动管理资源]**, 国内的教材一般说明是 **开辟额外内存空间**, 其实一般更好的方式是 **在构造函数(constructor)中创建资源，并在析构函数释放资源。** 对于忘记写构造赋值函数 (copy constructor)的后果就是 **析构野指针, 引发 &lt;a href=&#34;https://stackoverflow.com/questions/2397984/undefined-unspecified-and-implementation-defined-behavior&#34;&gt;未定义行为错误&lt;/a&gt;**.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;  &lt;span class=&#34;c1&#34;&gt;// 1. copy constructor
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+      &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;strlen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+      &lt;span class=&#34;n&#34;&gt;strcpy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+      &lt;span class=&#34;n&#34;&gt;age&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+            
+  &lt;span class=&#34;c1&#34;&gt;// 2. copy assignment operator
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+      &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+          &lt;span class=&#34;k&#34;&gt;delete&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+          &lt;span class=&#34;c1&#34;&gt;// This is a dangerous point in the flow of execution!
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;          &lt;span class=&#34;c1&#34;&gt;// We have temporarily invalidated the class invariants,
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;          &lt;span class=&#34;c1&#34;&gt;// and the next statement might throw an exception,
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;          &lt;span class=&#34;c1&#34;&gt;// leaving the object in an invalid state :(
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;          &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;strlen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+          &lt;span class=&#34;n&#34;&gt;strcpy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+          &lt;span class=&#34;n&#34;&gt;age&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+      &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注意，初始化构造和赋值的区别是：在对&lt;code&gt;name&lt;/code&gt;赋值前需要先释放其内存。同时也需要自检查，如果没有自检查，&lt;code&gt;delete[] name&lt;/code&gt;会将&lt;code&gt;that&lt;/code&gt;对象的字符串也析构掉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;异常安全: 然而，在因为内存耗尽&lt;code&gt;new char[...]&lt;/code&gt;抛出异常的时候，赋值运算符就无法保持 &lt;a href=&#34;https://en.wikipedia.org/wiki/Exception_safety&#34;&gt;强异常安全保证&lt;/a&gt;。可以利用一个局部变量来解决这个问题，&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 2. copy assignment operator
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;local_name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;strlen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// If the above statement throws,
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// the object is still in the same state as before.
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;// None of the following statements will throw an exception :)
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;strcpy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;local_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;delete&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;local_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;age&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这同时也解决了自赋值的问题，不需要显示检查是否是自身赋值。其实，还有一个更好的办法可以解决这个问题：&lt;a href=&#34;https://github.com/EthsonLiu/stackoverflow-top-cpp/blob/master/question/016%20-%20copy-and-swap%20%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F.md&#34;&gt;copy-and-swap&lt;/a&gt;，不过不在这里作深入讨论，读者可以跟随链接具体了解。&lt;/p&gt;
+&lt;p&gt;我之所以在此处提及异常，是想说：手写一个管理资源的类并不是我们想象中的那么容易。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C++11 以来特殊成员函数大家庭又新加入了两名成员：移动构造函数和移动赋值运算符。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+          
+&lt;span class=&#34;k&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;age&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;        &lt;span class=&#34;c1&#34;&gt;// Ctor
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;                &lt;span class=&#34;c1&#34;&gt;// Copy Ctor
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;person&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;noexcept&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;            &lt;span class=&#34;c1&#34;&gt;// Move Ctor
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;     &lt;span class=&#34;c1&#34;&gt;// Copy Assignment
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;person&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;noexcept&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Move Assignment
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;o&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;person&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;noexcept&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;                    &lt;span class=&#34;c1&#34;&gt;// Dtor
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;智能指针管理类???&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[运算符重载.](&amp;lt;https://stackoverflow.com/questions/4421706/what-are-the-basic-rules-and-idioms-for-operator-overloading)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;??!??!&lt;/code&gt;符号: &lt;code&gt;??!&lt;/code&gt;是一个 &lt;a href=&#34;https://zh.wikipedia.org/wiki/%E4%B8%89%E5%AD%97%E7%AC%A6%E7%BB%84%E4%B8%8E%E5%8F%8C%E5%AD%97%E7%AC%A6%E7%BB%84&#34;&gt;三字符组&lt;/a&gt;，编译器会自动翻译成&lt;code&gt;|&lt;/code&gt;, &lt;code&gt;{ | } ~ &lt;/code&gt; 都有这样的转化.[历史原因&lt;a href=&#34;https://zh.wikipedia.org/wiki/EBCDIC&#34;&gt;-EBCDIC&lt;/a&gt;]&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ErrorHasOccured&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;??!??!&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HandleError&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内存模型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C++ 的标准输入流慢于 Python&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;默认情况下，cin 与 stdin 总是保持同步的，也就是说这两种方法可以混用，而不必担心文件指针混乱，同时 cout 和 stdout 也一样，两者混用不会输出顺序错乱。正因为这个兼容性的特性，导致 cin 有许多额外的开销，如何禁用这个特性呢&lt;code&gt;std::ios_base::sync_with_stdio(false);&lt;/code&gt; 这样就可以取消 cin 于 stdin 的同步了。但是会导致&lt;code&gt;scanf&lt;/code&gt;&amp;amp;&lt;code&gt;cin&lt;/code&gt;混用缓冲区冲突的问题.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/375913/how-can-i-profile-c-code-running-on-linux&#34;&gt;Linux分析C++性能?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one&#34;&gt;智能指针&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;利用了 RAII（资源获取即初始化）技术对普通的指针进行封装，这使得智能指针实质是一个对象，行为表现的却像一个指针。C++ 标准一共有四种智能指针：auto_ptr、unique_ptr、shared_ptr 和 weak_ptr。其中 auto_ptr 在 C++11 已被摒弃，C++17 中被移除不可用了。&lt;/li&gt;
+&lt;li&gt;作用:
+&lt;ul&gt;
+&lt;li&gt;防止忘记调用 delete。&lt;/li&gt;
+&lt;li&gt;异常安全&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;主要是&lt;strong&gt;从 value 语义转化为 reference 语义&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/495021/why-can-templates-only-be-implemented-in-the-header-file&#34;&gt;目前使用模板的唯一方法就是在头文件中实现为内联。&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;:-!!&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/* Force a compilation error if condition is true, but also produce a
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;   result (of value 0 and type size_t), so the expression can be used
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;   e.g. in a structure initializer (or where-ever else comma expressions
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;   aren&amp;#39;t permitted). */&lt;/span&gt;
+&lt;span class=&#34;cp&#34;&gt;#define BUILD_BUG_ON_ZERO(e) (sizeof(struct { int:-!!(e); }))
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#define BUILD_BUG_ON_NULL(e) ((void *)sizeof(struct { int:-!!(e); }))
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;(e)&lt;/code&gt;：计算 e 表达式&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;!!(e)&lt;/code&gt;：两次逻辑否操作。也就是，如果 e == 0，就返回 0，否则返回 1&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-!!(e)&lt;/code&gt;：对上面的第 2 步得到的值置负。也就是，0 的负数还是 0，1 的负数为 -1&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;struct{int: -!!(0);} --&amp;gt; struct{int: 0;}&lt;/code&gt;：根据第 3 步，如果是 0，那么就声明一个结构体，里边定义了一个位域长度为 0 的匿名位域变量，此时编译正常通过&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;struct{int: -!!(1);} --&amp;gt; struct{int: -1;}&lt;/code&gt;：但如果是 -1 的话，位域长度为负数，那编译器就会报错了&lt;/li&gt;
+&lt;li&gt;因为&lt;code&gt;assert&lt;/code&gt;是运行期判断，上面的宏是编译期。不过自 C++ 11 起，也支持静态断言了，可以参考 &lt;a href=&#34;https://zh.cppreference.com/w/cpp/language/static_assert&#34;&gt;static_assert&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;移动语义（move semantics）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在函数嵌套写法中, 会造成同一个变量的数据从运算结果到匿名变量再到指定变量中 (如&lt;code&gt;string b(x + y);&lt;/code&gt;, &lt;code&gt;x+y&lt;/code&gt;-&amp;gt;&lt;code&gt;匿名变量&lt;/code&gt;-&amp;gt;&lt;code&gt;b&lt;/code&gt;), 这个时候如果用移动构造函数, 把匿名函数的内存空间拿给指定变量中, 时间复杂度就可以降下来.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;写法:&lt;/strong&gt; 右值引用&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;    &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 这个叫做移动构造函数
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;that&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;nullptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
-&lt;div class=&#34;j1&#34;&gt; [1]. https://github.com/ethsonliu/stackoverflow-top-cpp &lt;/div&gt;</description>
+&lt;div id=&#34;j1&#34;&gt; [1]. https://github.com/ethsonliu/stackoverflow-top-cpp &lt;/div&gt;</description>
                 
                 
                 
@@ -763,6 +1110,10 @@
 &lt;li&gt;对比冲突&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;link-链接&#34;&gt;LINK 链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://daily.zhihu.com/story/9729225&#34;&gt;手机街道摄影：街道美学和场景事件&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
                 
                 
@@ -1102,9 +1453,9 @@ snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;To Be Continued......&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;APT-GET&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;对于低级操作，仍然需要 apt-get。&lt;/p&gt;
+&lt;h3 id=&#34;deb-managesup4j45j5sup&#34;&gt;Deb Manage&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;shortcut&#34;&gt;SHORTCUT&lt;/h2&gt;
 &lt;h3 id=&#34;desktop-shortcut&#34;&gt;Desktop Shortcut&lt;/h3&gt;
 &lt;table&gt;
@@ -1834,6 +2185,12 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://wayland.freedesktop.org/libinput/doc/latest/what-is-libinput.html&#34;&gt;What is libinput&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;linux-下蓝牙鼠标连接几秒后自动断开&#34;&gt;Linux 下蓝牙鼠标连接几秒后自动断开&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.v2ex.com/t/399966&#34;&gt;https://www.v2ex.com/t/399966&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unix.stackexchange.com/questions/91027/how-to-disable-usb-autosuspend-on-kernel-3-7-10-or-above%E3%80%82&#34;&gt;https://unix.stackexchange.com/questions/91027/how-to-disable-usb-autosuspend-on-kernel-3-7-10-or-above%E3%80%82&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.it-swarm.asia/zh/usb/%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8%e7%89%b9%e5%ae%9a%e8%ae%be%e5%a4%87%e7%9a%84usbautosuspend%ef%bc%9f/959819442/&#34;&gt;https://www.it-swarm.asia/zh/usb/%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8%e7%89%b9%e5%ae%9a%e8%ae%be%e5%a4%87%e7%9a%84usbautosuspend%ef%bc%9f/959819442/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;beautify&#34;&gt;BEAUTIFY&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1902,8 +2259,10 @@ $ vim Clash.desktop
 &lt;p&gt;综上所述，我们把 &lt;code&gt;GUN GRUB&lt;/code&gt;干掉，然后选择磁盘分区的删除卷即可，软件的话，用EasyUEFI，官网下载的话需要梯子，然后我这里如果有时间会给出下载链接，去网上随便下载一个就好了。&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
 &lt;div id=&#34;j1&#34;&gt;[1]. https://www.thefanclub.co.za/how-to/ubuntu-touchpad-gestures-install&lt;/div&gt;
-&lt;div class=&#34;j2&#34;&gt;[2]. https://zhuanlan.zhihu.com/p/40434062&lt;/div&gt;
-&lt;div class = &#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/99d3eebcf17f&lt;/div&gt;</description>
+&lt;div id=&#34;j2&#34;&gt;[2]. https://zhuanlan.zhihu.com/p/40434062&lt;/div&gt;
+&lt;div id = &#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/99d3eebcf17f&lt;/div&gt;
+&lt;div id=&#34;j4&#34;&gt;[4]. https://blog.csdn.net/gatieme/article/details/52829907&lt;/div&gt;
+&lt;div id=&#34;j5&#34;&gt;[5]. https://blog.csdn.net/u010648555/article/details/88542150&lt;/div&gt;</description>
                 
                 
                 
@@ -6731,13 +7090,9 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt install language-pack-zh-hans
-sudo apt-get install fcitx-googlepinyin
-sudo apt install fcitx-pinyin &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt install fcitx-cloudpinyin
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&amp;lt;div &lt;span class=&#34;nv&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;j1&amp;#34;&lt;/span&gt;&amp;gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;1&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;. https://github.com/ethsonliu/stackoverflow-top-cpp &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;双拼&#34;&gt;双拼&lt;/h3&gt;
@@ -6942,7 +7297,7 @@ sudo add-apt-repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;deb https://typo
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/24605584/answer/112250597&#34;&gt;Exchange Server&lt;/a&gt;是微软公司邮件服务组件。加入了一系列辅助功能(语音邮件、邮件过滤筛选、OWA(基于Web的电子邮件存取))&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_36731677/article/details/82956977&#34;&gt;CardDAV/CalDAV&lt;/a&gt;: 前者是 远程地址簿信息访问（共享）协议, 用于客户端访问共享服务器上的联系人数据。后者是 允许客户端访问共享服务器上的日程信息。两者扩展了WebDav协议的规范， 并使用iCalendar格式的数据, 但是，国内的邮件系统基本不支持日程或者联系人的订阅服务.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;deepin-qq--wechat-sup4j4sup&#34;&gt;Deepin QQ &amp;amp; Wechat &lt;sup&gt;&lt;a href=&#34;j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;deepin-qq--wechat-sup4j4sup&#34;&gt;Deepin QQ &amp;amp; Wechat &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wszqkzqk/deepin-wine-ubuntu&#34;&gt;Deepin-wine Github&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -7038,7 +7393,7 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;li&gt;Pushbullet: &lt;a href=&#34;https://www.pushbullet.com/&#34;&gt;https://www.pushbullet.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ao&#34;&gt;Ao&lt;/h2&gt;
-&lt;h3 id=&#34;proxysup5j5sup&#34;&gt;Proxy&lt;sup&gt;&lt;a href=&#34;j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;proxysup5j5sup&#34;&gt;Proxy&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;采用和VSCode 相同的技术开发--&amp;gt; Electronjs. 安装完成之后, 自然在走系统代理的时候出现了问题, 如无法登录微软账户的问题；根据 项目的 ISSUE [^21] 可以执行以修复登录问题.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7067,14 +7422,14 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;h2 id=&#34;terimal&#34;&gt;Terimal&lt;/h2&gt;
 &lt;h3 id=&#34;powershell&#34;&gt;Powershell&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;PowerShell 的 pipe 传递的是 .net object，而不是 raw 字符串，于是这就打开了一扇神奇的大门，因为 PowerShell 的一切组件都可以和谐地共存，彼此不用互相猜忌，不用猜你喂给我的数据合不合法，也不用担心我喂给你的参数格式对不对。大家共享一个 CLR，拥有丰富的 metadata，自由自在地在 .net 的世界里徜徉和探索......&lt;sup&gt;&lt;a href=&#34;j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;PowerShell 的 pipe 传递的是 .net object，而不是 raw 字符串，于是这就打开了一扇神奇的大门，因为 PowerShell 的一切组件都可以和谐地共存，彼此不用互相猜忌，不用猜你喂给我的数据合不合法，也不用担心我喂给你的参数格式对不对。大家共享一个 CLR，拥有丰富的 metadata，自由自在地在 .net 的世界里徜徉和探索......&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;[More]:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;www.pstips.net&#34;&gt;收集和分享 Windows PowerShell 相关教程,技术和最新动态&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;www.chocolatey.org&#34;&gt;Chocolatey Packages Manager&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;命令行全局快捷键设置sup7j7sup&#34;&gt;命令行全局快捷键设置&lt;sup&gt;&lt;a href=&#34;j7&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;命令行全局快捷键设置sup7j7sup&#34;&gt;命令行全局快捷键设置&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j7&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;Win+R -&amp;gt; &lt;code&gt;comtrol&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;管理工具中加入想要添加应用的快捷方式, 然后右键属性设置全局快捷键.&lt;/li&gt;
@@ -7206,13 +7561,13 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;refernece&#34;&gt;REFERNECE&lt;/h2&gt;
-&lt;div class = &#34;j1&#34;&gt; [1]. https://stackoverflow.com/questions/21597536/pybluez-installation-in-linux &lt;/div&gt;
-&lt;div class = &#34;j2&#34;&gt; [2]. http://www.keyxl.com/aaa4cff/235/VLC-keyboard-shortcuts.htm &lt;/div&gt;
-&lt;div class=&#34;j3&#34;&gt;[3]. https://www.zhihu.com/question/20432630/answer/161256076 &lt;/div&gt;
-&lt;div class=&#34;j4&#34;&gt;[4]. https://zhuanlan.zhihu.com/p/144286142 &lt;/div&gt; 
-&lt;div class =&#34;j5&#34;&gt;[5]. https://github.com/klaussinani/ao/issues/94&lt;/div&gt;
-&lt;div class =&#34;j6&#34;&gt;[6]. https://www.zhihu.com/question/22611859/answer/28897482&lt;/div&gt;
-&lt;div class=&#34;j7&#34;&gt;[7]. https://www.jianshu.com/p/545e3f76eece&lt;/div&gt;</description>
+&lt;div id = &#34;j1&#34;&gt; [1]. https://stackoverflow.com/questions/21597536/pybluez-installation-in-linux &lt;/div&gt;
+&lt;div id = &#34;j2&#34;&gt; [2]. http://www.keyxl.com/aaa4cff/235/VLC-keyboard-shortcuts.htm &lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://www.zhihu.com/question/20432630/answer/161256076 &lt;/div&gt;
+&lt;div id=&#34;j4&#34;&gt;[4]. https://zhuanlan.zhihu.com/p/144286142 &lt;/div&gt; 
+&lt;div id =&#34;j5&#34;&gt;[5]. https://github.com/klaussinani/ao/issues/94&lt;/div&gt;
+&lt;div id =&#34;j6&#34;&gt;[6]. https://www.zhihu.com/question/22611859/answer/28897482&lt;/div&gt;
+&lt;div id=&#34;j7&#34;&gt;[7]. https://www.jianshu.com/p/545e3f76eece&lt;/div&gt;</description>
                 
                 
                 
