@@ -21,7 +21,7 @@ else if(queuedTerm){queuedTerm=term;queuedDoNotAddState=doNotAddState;}
 else{queuedTerm=term;queuedDoNotAddState=doNotAddState;initIndex();}}
 function searchDone(){form.removeAttribute("data-running");const header=document.querySelector('.header');if(header&&header.classList.contains('fade')){input.blur();}
 queuedTerm=null;queuedDoNotAddState=false;}
-function initIndex(){let request=new XMLHttpRequest();request.open("GET","../../blog/search.json");request.responseType="json";request.addEventListener("load",function(event){let documents=request.response;if(!documents)
+function initIndex(){let request=new XMLHttpRequest();request.open("GET","../../../blog/search.json");request.responseType="json";request.addEventListener("load",function(event){let documents=request.response;if(!documents)
 {console.error("Search index could not be downloaded, was it generated?");searchDone();return;}
 lookup={};index=lunr(function(){const language="en";if(language!="en"&&lunr.hasOwnProperty(language)){this.use(lunr[language]);}
 this.ref("uri");this.field("title");this.field("subtitle");this.field("content");this.field("description");this.field("categories");this.field("tags");for(let document of documents){this.add(document);lookup[document.uri]=document;}});search(queuedTerm,queuedDoNotAddState);},false);request.addEventListener("error",searchDone,false);request.send(null);}
