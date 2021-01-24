@@ -1320,12 +1320,12 @@ git push origin :refs/tags/v0.9
             var disqus_config = function() {
                 this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/2020-11-16-git\/';
                 this.page.identifier = '\/blog\/posts\/2020-11-16-git\/';
-                this.page.title = 'Git';
+                
             };
             (function() {
                 var d = document, s = d.createElement('script'); s.async = true;
                 s.src = 'https://dandelionfs.disqus.com/embed.js';
-                
+                s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
         } else {

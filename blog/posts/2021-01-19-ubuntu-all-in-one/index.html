@@ -1665,12 +1665,12 @@ $ vim Clash.desktop
             var disqus_config = function() {
                 this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/2021-01-19-ubuntu-all-in-one\/';
                 this.page.identifier = '\/blog\/posts\/2021-01-19-ubuntu-all-in-one\/';
-                this.page.title = 'Ubuntu All in One | 我的 Ubuntu 合集';
+                
             };
             (function() {
                 var d = document, s = d.createElement('script'); s.async = true;
                 s.src = 'https://dandelionfs.disqus.com/embed.js';
-                
+                s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
         } else {

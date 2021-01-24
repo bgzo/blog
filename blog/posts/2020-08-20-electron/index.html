@@ -780,12 +780,12 @@ npm config delete proxy
             var disqus_config = function() {
                 this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/2020-08-20-electron\/';
                 this.page.identifier = '\/blog\/posts\/2020-08-20-electron\/';
-                this.page.title = 'Electron';
+                
             };
             (function() {
                 var d = document, s = d.createElement('script'); s.async = true;
                 s.src = 'https://dandelionfs.disqus.com/embed.js';
-                
+                s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
         } else {
