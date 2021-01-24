@@ -738,7 +738,7 @@ hexo deploy <span class="c1">#部署文章</span>
         
             <script>
     function loadComments() {
-        
+        if (typeof DISQUS === 'undefined') {
             var disqus_config = function() {
                 this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/2019-12-13-hellohexo\/';
                 this.page.identifier = '\/blog\/posts\/2019-12-13-hellohexo\/';
@@ -747,19 +747,19 @@ hexo deploy <span class="c1">#部署文章</span>
             (function() {
                 var d = document, s = d.createElement('script'); s.async = true;
                 s.src = 'https://dandelionfs.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
+                
                 (d.head || d.body).appendChild(s);
             })();
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        } else {
+            DISQUS.reset({
+                reload: true,
+                config: function() {
+                    this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/2019-12-13-hellohexo\/';
+                    this.page.identifier = '\/blog\/posts\/2019-12-13-hellohexo\/';
+                    this.page.title = 'Hello Hexo';
+                }
+            });
+        }
     }
 </script>
         
