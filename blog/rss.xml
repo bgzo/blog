@@ -21,12 +21,284 @@
             <webMaster>lfh010618@gmail.com (DandelionFs)</webMaster>
         
         
-            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+            <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 26 Jan 2021 01:18:48 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 26 Jan 2021 23:43:42 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
+        
+            <item>
+                <title>GTD Time Manage</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-26-gtd-time-manage/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-26-gtd-time-manage/</guid>
+                <pubDate>Tue, 26 Jan 2021 19:57:30 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;Getting Things Done, 直接翻译为“把事情做完”，本身就很可能让人误解成——你必须做完所有的事情。但其实，“&lt;strong&gt;把你需要做的事情列出来，并处理它&lt;/strong&gt;” 和“把事情做完”是两件完全不同的事情。而 GTD 所强调的，是前者。&lt;/p&gt;
+&lt;p&gt;本文源于 &lt;a href=&#34;https://dfslfh.cn/blog//topcook.cc/&#34;&gt;Topbook&lt;/a&gt; 的免费公开课, 课程的名称是 &lt;a href=&#34;https://topbook.cc/course/detail/153&#34;&gt;重新认识 GTD，把事情做好，而不是把事情做完&lt;/a&gt;, 写作的目的是落实到自己身上. 所以只截取有用的部分.&lt;/p&gt;
+&lt;h2 id=&#34;gtd&#34;&gt;GTD&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;GTD &lt;strong&gt;实践&lt;/strong&gt;为:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;收集箱（Inbox）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;执行清单（”Context” task）&lt;/strong&gt;: 短时间内定能干掉.
+&lt;ul&gt;
+&lt;li&gt;你不可能完成所有事情&lt;/li&gt;
+&lt;li&gt;要事第一（First Things First）：尽可能做离你目标更近的事情&lt;/li&gt;
+&lt;li&gt;为特别事件预留时间：每天预留半个钟消灭执行清单的其他事情&lt;/li&gt;
+&lt;li&gt;番茄钟提高短期效率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;等待清单（”Waiting for“ task）&lt;/strong&gt;: 等待客观条件允许
+&lt;ul&gt;
+&lt;li&gt;提前准备提醒对方&lt;/li&gt;
+&lt;li&gt;临近时间督促对方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;项目清单（“Plan project“ task）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;同步更新到执行清单。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可能清单（Someday / maybe）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;你要专门为它做计划，而不是想想就做。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;参考资料（Reference）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Info Channels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;回收箱（Trash）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;也可能变成可以做的事情&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GTD的&lt;strong&gt;原理&lt;/strong&gt;为:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;捕获（Capture）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;明晰（Clarify）&lt;/strong&gt;: 主要思考的流程图如下:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/gtd-thing-to-do-line-full.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;组织（Organize）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;回顾（Reflect）&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-gtd-time-manage/#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;从收集箱出去的项目永远不要再放回收集箱。&lt;/li&gt;
+&lt;li&gt;项目清单中的事项需要你主动将其拆解，步骤，并为其谋划执行方案，把大项目拆解成小步骤，并分解到其他清单当中。&lt;/li&gt;
+&lt;li&gt;主动确定等待清单是否被完成，回收箱和可能清单中的事项是否有变动（变成可执行或其他）。&lt;/li&gt;
+&lt;li&gt;日历或提醒事项应用中的提醒是否恰当，是否要流出裕量时间。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;执行（Engage）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;全局复盘&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/gtd-thing-time-manage.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://tingtalk.me/gtd/&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/tool/">Tool</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Open Source Licence</title>
+                <link>https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/</guid>
+                <pubDate>Tue, 26 Jan 2021 16:50:29 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;世界上现在有 60 多种被开源促进组织（ Open Source Initiative）认可的开源许可协议来保证开源工作者的权益. 本文涉及的协议有: AL, CC, GPL, LGPL, BSD等协议.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;开源共享精神:&lt;/strong&gt; 软件程序与源代码文件一起打包提供给用户, 让用户在不受限制地使用某个软件功能的基础上还可以按需进行修改, 或编制成衍生产品再发布出去. 用户具有使用自由、修改自由、重新发布自由以及创建衍生品的自由.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特点:&lt;/strong&gt; 低风险、高品质、低成本、更透明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;稻盛和夫 在《活法》中有这样一段话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;**“工作马马虎虎, 只想在兴趣和游戏中寻觅快活, 充其量只能获得一时的快感, 绝不能尝到从心底涌出的惊喜和快乐, 但来自工作的喜悦并不像糖果那样放进嘴里說甜味十足, 而是需要从苦劳与艰辛中渗出, 因此当我们聚精会神, 孜孜不倦, 克服艰辛后的成就感, 世上没有哪种喜悦可以类比”. **&lt;/p&gt;
+&lt;p&gt;**“更何况人类生活中工作占据了较大的比重, 如果不能从劳动中、工作中获得充实感, 那么即使从别的地方找到快乐, 最终我们仍然会感到空虚和缺憾”. **&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;al&#34;&gt;AL&lt;/h2&gt;
+&lt;p&gt;即 &lt;strong&gt;Apache License&lt;/strong&gt;. 在为开发人员提供版权及专利许可的同时, 允许用户拥有修改代码及再发布的自由. 该许可协议适用于商业软件, 现在热门的 Hadoop、 Apache HTTP Server、 MongoDB 等项目都是基于该许可协议研发的,程序开发人员在开发遵循该协议的软件时, 要严格遵守下面的 4 个条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;该软件及其衍生品必须继续使用 Apache 许可协议.&lt;/li&gt;
+&lt;li&gt;如果修改了程序源代码, 需要在文档中进行声明.&lt;/li&gt;
+&lt;li&gt;若软件是基于他人的源代码编写而成的, 则需要保留原始代码的协议、商标、专利声明及其他原作者声明的内容信息.&lt;/li&gt;
+&lt;li&gt;如果再发布的软件中有声明文件, 则需在此文件中标注 Apache 许可协议及其他许可协议.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;使用协议的产品&#34;&gt;使用协议的产品&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;我下载了apache的一个jar包, 在我自己的盈利性公司的产品里用上了&lt;/strong&gt;. 我没有更改任何下载下来的东西, 只是用了它. 之后我可以发布我自己的新产品了. 那么我要向apache交费么？&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;  可以商用不需要交费. 要带license. &lt;strong&gt;作者有权利控告你&lt;/strong&gt;, 虽然&lt;strong&gt;你有使用权, 然而你没有拥有权&lt;/strong&gt;, &lt;strong&gt;你必须在你的产品中注明第三方的代码来源&lt;/strong&gt;；另外, 虽然&lt;strong&gt;你有商业使用权, 然而你无法阻止别人使用相同的源码&lt;/strong&gt;（包括原作者）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grant of Patent License. 专利许可的授予&lt;/li&gt;
+&lt;li&gt;Grant of Copyright License. 版权许可的授予&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apache.org/licenses/LICENSE-2.0.html&#34;&gt;Apache Licence 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cc&#34;&gt;CC&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;即Creative Commons licenses&lt;/strong&gt;, &lt;strong&gt;一系列许可证的总称&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;起源&#34;&gt;起源&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自从版权制度（copyright）确立以后, 很多人感到, 虽然它&lt;strong&gt;保护了作者的利益, 但是却剥夺了使用者的自由&lt;/strong&gt;. 除了费用以外, 一个主要的问题是, &lt;strong&gt;通行的版权协议是一种限制性的协议, 就是说, 只有它明文许可你可以做的事, 你才能做, 否则就是侵权行为&lt;/strong&gt;. 这样不仅很不方便, 而且阻碍了作品的传播, 违背社会公共利益, 尤其是在新传播方式层出不穷的网络时代. 因此, 一些有识之士决定找到一种新的方法, 在&lt;strong&gt;版权制度的合法框架下, 使得人们可以自由使用他人的作品&lt;/strong&gt;. 这种新方法就是**&amp;quot;开放内容许可证&amp;quot;（open content licenses）**. 简单说, 就是作者为自己的作品选择一种许可证一起发布, 然后这些许可证本身都是开放式协议, 就是说, 它只明文禁止使用者不能做的事, 除此以外, 可以随意使用这些作品.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;创作共用许可证（Creative Commons licenses, 简称cc）&lt;/strong&gt;, 就是这样一种许可证. 它是由成立于2001年的美国&lt;a href=&#34;http://creativecommons.org/&#34;&gt;Creative Commons基金会&lt;/a&gt;, 在2002年12月16日提出的.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;quot;保留所有权利&amp;quot;（all rights reserved）&lt;/strong&gt; 是 &lt;strong&gt;一般的版权协议（full copyright）&lt;/strong&gt; 的基本内容, &lt;strong&gt;即所有与作品有关的权利都归版权持有人所有&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;公共领域&lt;/strong&gt;（public domain）的作品是没有版权的, &lt;strong&gt;所有权利都归使用者&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;创作共用许可证&lt;/strong&gt;, 则是在两个极端之间. 它&lt;strong&gt;只保留几种了权利&lt;/strong&gt;（some rights reserved）, &lt;strong&gt;除此以外的权利全部放弃&lt;/strong&gt;. 当你在网上（或者其他地方）发布自己的作品时, 如果允许他人自由使用, 那么最好选择一种许可证一起发布. 因为,  **如果你不同时发布许可证的话, 根据版权法, 你的作品就拥有完全的版权, 默认保留所有权利, 即便这不是你的意愿. ** 从小处说, 这阻碍了作品的传播. 从大处说, 这限制了他人的自由, 最终也会限制你自己的自由. 所以, 尽可能为作品选择一种许可证一起发布, 这是很重要的.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;基本权利baseline-rights&#34;&gt;基本权利（Baseline Rights）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;一旦选择了一种许可证, 并且公开发布以后, 就不能够收回了&lt;/strong&gt;. 这个许可证在整个&lt;a href=&#34;http://www.ruanyifeng.com/blog/2007/06/history_of_copyright_term_extension_part_i.html&#34;&gt;版权保护期&lt;/a&gt;内, 对全世界的使用者都是有效的.  对应不同的司法管辖区, 创作共用许可证有不同的地区版本. 另外, 创作共用许可证一直在修订, 最新的是4.0版, 但是一部分地区还在使用3.0版. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下面这些权利是你自动让渡给使用者的：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;复制&lt;/strong&gt;作品；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;散发&lt;/strong&gt;作品；&lt;/li&gt;
+&lt;li&gt;公开&lt;strong&gt;展示或表演&lt;/strong&gt;作品；&lt;/li&gt;
+&lt;li&gt;将作品完全一致地&lt;strong&gt;转化&lt;/strong&gt;成另一种格式.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;使用者来说, 必须遵守一些许可证设置的前提条件:
+&lt;ul&gt;
+&lt;li&gt;没有得到许可, 不得实施许可证中禁止的行为；&lt;/li&gt;
+&lt;li&gt;所有的复制件上, 都必须保留原始的版权说明和许可证的链接；&lt;/li&gt;
+&lt;li&gt;不得更改许可证的内容；&lt;/li&gt;
+&lt;li&gt;不得用技术手段限制其他人合法使用作品.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;使用创作共用许可证, 作者可以选择保留四种权利.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;署名&lt;/strong&gt;（Attribution, 简写为by）：必须提到原作者.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非商业用途&lt;/strong&gt;（Noncommercial, 简写为nc）：不得用于盈利性目的.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;禁止演绎&lt;/strong&gt;（No Derivative Works, 简写为nd）：不得修改原作品.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相同方式共享&lt;/strong&gt;（Share Alike, 简写为sa）： 如果允许修改原作品, 那么必须使用相同的许可证发布.&lt;/li&gt;
+&lt;li&gt;16种组合中, 有&lt;strong&gt;5种是无效的&lt;/strong&gt;：&lt;strong&gt;1种是4种权利都放弃&lt;/strong&gt;（公共领域作品）；&lt;strong&gt;另外4种是不能同时选择禁止演绎和相同方式共享, 这两种权利&lt;/strong&gt;.  &lt;strong&gt;在剩下的11种组合中, 由于绝大多数人都要求保留署名权, 因此又可以排除5种&lt;/strong&gt;. 最终只留下了6种组合, 绝大多数创作共用许可证都属于这6种组合之一：
+&lt;ul&gt;
+&lt;li&gt;署名（by license）——最宽松&lt;/li&gt;
+&lt;li&gt;署名-非商业用途（by-nc license）&lt;/li&gt;
+&lt;li&gt;署名-禁止演绎（by-nd license）&lt;/li&gt;
+&lt;li&gt;署名-非商业用途-禁止演绎（by-nc-nd license）——限制最&lt;/li&gt;
+&lt;li&gt;署名-非商业用途-相同方式共享（by-nc-sa license）&lt;/li&gt;
+&lt;li&gt;署名-相同方式共享（by-sa license）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;link-1&#34;&gt;LINK&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://creativecommons.org/&#34;&gt;Creative Commons Org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://creativecommons.org.tw/&#34;&gt;Creative Commons TW&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gpl&#34;&gt;GPL&lt;/h2&gt;
+&lt;p&gt;即GNU General Public License .&lt;/p&gt;
+&lt;p&gt;只要软件中包含了遵循 GPL 协议的产品或代码, 该软件就必须也遵循 GPL 许可协议且开源、 免费, 因此这个协议并不适合商用软件. 遵循该协议的开源软件数量极其庞大, 包括 Linux系统在内的大多数的开源软件都是基于这个协议的.  GPL 开源许可协议最大的 4 个特点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;复制自由&lt;/strong&gt;：允许把软件复制到任何人的电脑中, 并且不限制复制的数量.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;传播自由&lt;/strong&gt;： 允许软件以各种形式进行传播.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;收费传播&lt;/strong&gt;：允许在各种媒介上出售该软件, 但必须提前让买家知道这个软件是可以免费获得的；因此, 一般来讲,  开源软件都是通过为用户提供有偿服务的形式来盈利的.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修改自由&lt;/strong&gt;：允许开发人员增加或删除软件的功能, 但软件修改后必须依然基于GPL 许可协议授权.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;lgpl&#34;&gt;LGPL&lt;/h2&gt;
+&lt;p&gt;即GNU Lesser General Public License. 是GPL的一个为主要为类库使用设计的开源协议.&lt;/p&gt;
+&lt;p&gt;主要区别在于&lt;strong&gt;LGPL允许将作品与非（L）GPL程序（如果是“使用”的库）链接在一起, 无论它是自由软件还是 专有软件&lt;/strong&gt;. 在LGPL 2.1中, 如果非（L）GPLed程序不是派生作品, 则可以按照任何条款进行分发.  如果是衍生作品, 则程序的条款必须允许“对作品进行修改以供客户自己使用, 并进行逆向工程以调试此类修改. ” 使用LGPL程序的作品是否为衍生作品是一个法律问题.  通过.so, .dll或类似媒体动态链接到库的独立可执行文件通常被认为不是LGPL定义的衍生作品.  它将属于“使用图书馆的作品”的定义.  LGPL 2.1版的第5段规定：&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A program that contains no derivative of any portion of the Library, but is designed to work with the Library by being compiled or linked with it, is called a &amp;quot;work that uses the Library&amp;quot;. Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;bsd&#34;&gt;BSD&lt;/h2&gt;
+&lt;p&gt;即 &lt;strong&gt;Berkeley Software Distribution&lt;/strong&gt;.  由于允许使用者修改和重新发布代码, 也允许使用或在BSD代码上开发商业软件发布和销 售, 因此是&lt;strong&gt;对商业集成很友好的协议&lt;/strong&gt;, 因为公司企业可以完全控制这些第三方的代码, 在必要的时候可以修改或者 二次开发.&lt;/p&gt;
+&lt;p&gt;用户可以使用、修改和重新发布遵循该许可的软件, 并且可以将软件作为商业软件发布和销售, 前提是需要满足下面 3 个条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果再发布的软件中包含源代码, 则源代码必须继续遵循 BSD 许可协议.&lt;/li&gt;
+&lt;li&gt;如果再发布的软件中只有二进制程序, 则需要在相关文档或版权文件中声明原始代码遵循了 BSD 协议.&lt;/li&gt;
+&lt;li&gt;不允许用原始软件的名字、作者名字或机构名称进行市场推广.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当你发布使用了BSD协议的代码, 或者以BSD协议代码为基础做二次开发自己的产品时, 需要满足三个条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果再发布的产品中包含源代码, 则在源代码中必须带有原来代码中的BSD协议.&lt;/li&gt;
+&lt;li&gt;如果再发布的只是二进制类库/软件, 则需要在类库/软件的文档和版权声明中包含原来代码中的BSD协议.&lt;/li&gt;
+&lt;li&gt;不可以用开源代码的作者/机构名字和原来产品的名字做市场推广.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;mpl&#34;&gt;MPL&lt;/h2&gt;
+&lt;p&gt;即 &lt;strong&gt;Mozilla Public License Mozilla&lt;/strong&gt; , 相较于 GPL 许可协议, MPL &lt;strong&gt;更加注重对开发者的源代码需求和收益之间的平衡&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;不受专利的限制，其可以自由使用，出售，并可自由的重新发布。带有专利代码的版本仍然可以使用，转让，甚至出售，但&lt;strong&gt;未经许可则不能修改代码&lt;/strong&gt;。此外，MPL并不授予用户对于开发者商标的使用权. 用户必须负担一些“责任”，主要是关于散发使用MPL许可的软件。用户必须确保重新散发的软件所有源代码均以MPL许可，即使是以可执行文件的方式提供或是与其他使用专有软件许可的源代码结合也一样。但若跟以GNU通用公共许可协议、GNU宽通用公共许可证、Affero通用公共许可证许可的源代码结合则是例外。此时开发者则可选用以上三种更加严格的条款来许可. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mit&#34;&gt;MIT&lt;/h2&gt;
+&lt;p&gt;即 &lt;strong&gt;Massachusetts Institute of Technology&lt;/strong&gt;. 目前限制最少的开源许可协议之一, 只要程序的开发者在修改后的源代码中保留原作者的许可信息即可, 因此普遍被商业软件所使用.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;被许可人权利&lt;/strong&gt;: 被许可人有权利使用、复制、修改、合并、出版发行、散布、再许可和/或贩售软件及软件的副本，及授予被供应人同等权利，惟服从以下义务。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;被许可人义务&lt;/strong&gt;: 在软件和软件的所有副本中都必须包含以上著作权声明和本许可声明。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;其他重要特性&lt;/strong&gt;: 此许可协议并非属copyleft的自由软件许可协议条款，允许在自由及开放源代码软件或非自由软件（proprietary software）所使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;MIT的内容可依照程序著作权者的需求更改内容。此亦为MIT与BSD（The BSD license, 3-clause BSD license）本质上不同处。另外，MIT条款也是自由软件基金会（FSF）所认可的自由软件许可协议条款，与&lt;a href=&#34;https://zh.wikipedia.org/wiki/GPL&#34;&gt;GPL&lt;/a&gt;兼容。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id =&#34;j1&#34;&gt;[1]. https://www.cnblogs.com/Renyi-Fan/p/8148658.html &lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. http://www.ruanyifeng.com/blog/2008/04/creative_commons_licenses.html &lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License&lt;/div&gt;
+&lt;div id = &#34;j4&#34;&gt;[4]. https://en.wikipedia.org/wiki/Mozilla_Public_License&lt;/div&gt;
+&lt;div id = &#34;j5&#34;&gt;[5]. https://en.wikipedia.org/wiki/MIT_License&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/tool/">Tool</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Machine Learning Notes--Logistic regression</title>
@@ -36,14 +308,13 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;ul&gt;
 &lt;li&gt;线性分类和线性回归&lt;/li&gt;
 &lt;li&gt;最小二乘法是无偏估计，并且是最佳线性无偏估计，因此可以处理噪音问题&lt;/li&gt;
 &lt;li&gt;口袋算法实现的线性二分类（即感知机）没有办法处理噪音问题，因此需要引入另外一种线性二分类 逻辑回归&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
                 
                 
@@ -74,7 +345,7 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;机器学习最重要的是“预测”，因此“机器学习”包含两个部分:&lt;/p&gt;
 &lt;ul&gt;
@@ -1898,7 +2169,7 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;使用&lt;strong&gt;微软雅黑&lt;/strong&gt;(&lt;strong&gt;方正兰亭黑&lt;/strong&gt;)需&lt;strong&gt;购买授权&lt;/strong&gt;!&lt;strong&gt;当年微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了这套字体&lt;/strong&gt;（平均一个字100美金），&lt;strong&gt;微软公司只拥有微软雅黑的使用权，而真正的版权在方正手中。&lt;/strong&gt; 我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为，都属于侵权行为，同时在Windows系统下，商业行为也不被允许，包括网页设计中，主动调用微软雅黑字体（用户显示中将默认字体转换为微软雅黑属于用户行为，不归类为侵权），更不可以以图片的形式在网页中用到微软雅黑！方正重金聘请了庞大的维权小组&lt;/p&gt;
 &lt;h2 id=&#34;free&#34;&gt;FREE&lt;/h2&gt;
@@ -2030,7 +2301,7 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;关于图片.&lt;/p&gt;
 &lt;h2 id=&#34;public-公共&#34;&gt;PUBLIC 公共&lt;/h2&gt;
@@ -2134,7 +2405,7 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;问题皆来源于下面的两个链接&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;：&lt;/p&gt;
 &lt;ol&gt;
@@ -2805,7 +3076,7 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;其实摄影和绘画、文字、音乐一样，都是一个载体，一个将创作者的思想或意图传达给读者（观众、听众）的载体。&lt;/p&gt;
 &lt;p&gt;好照片:&lt;/p&gt;
@@ -3022,7 +3293,7 @@
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;&lt;strong&gt;[声明]&lt;/strong&gt;： &lt;strong&gt;该 BLOG 只针对 UEFI+GPT 的 Win10 电脑, 此外, 我的分区形式是 Ubuntu Ext2. 不保证通用&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;200125我开坑Ubuntu, 被其简单的系统占用所折服, 我开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;https://dfslfh.cn/blog//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;
@@ -4135,6 +4406,36 @@ $ vim Clash.desktop
 &lt;h2 id=&#34;uninstall-ubuntu&#34;&gt;UNINSTALL UBUNTU&lt;/h2&gt;
 &lt;p&gt;用的不习惯当然先卸载了，Emmmmm，哈哈哈哈，卸载比较简单，大家都知道如果你按照下面的链接安装无误的话，启动引导用的是Ubuntu自带的的 &lt;code&gt;GUN GRUB&lt;/code&gt;，如果你分盘的时候没有选择下面的启动引导设置，那么你第一次启动的时候一定不会进入Ubuntu的系统。&lt;/p&gt;
 &lt;p&gt;综上所述，我们把 &lt;code&gt;GUN GRUB&lt;/code&gt;干掉，然后选择磁盘分区的删除卷即可，软件的话，用EasyUEFI，官网下载的话需要梯子，然后我这里如果有时间会给出下载链接，去网上随便下载一个就好了。&lt;/p&gt;
+&lt;h2 id=&#34;link&#34;&gt;LINK&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.debian.org/&#34;&gt;Debain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiki.ubuntu.com/&#34;&gt;Wiki_Ubuntu_En&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;site&#34;&gt;Site&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://launchpad.net/ubuntu&#34;&gt;ubutntu_launchpad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linustechtips.com&#34;&gt;linux_forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.org.cn/%E9%A6%96%E9%A1%B5&#34;&gt;cn-wiki ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//linux.zone/&#34;&gt;lulinux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linux.cn/&#34;&gt;linux_cn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linuxidc.com/&#34;&gt;linux dir&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ywnz.com/&#34;&gt;linux ywnz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxhint.com/&#34;&gt;linux_hint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linuxprobe.com&#34;&gt;linux_probe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wangchujiang.com/linux-command/&#34;&gt;Linux Command Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mirrors.kernel.org/&#34;&gt;Mirrors Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;guidences&#34;&gt;Guidences&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.ubuntu.org.cn/viewtopic.php?f=120&amp;amp;t=35100&amp;amp;sid=dedd568ab12c1f6937889c57562b7476&#34;&gt;ubuntu常见问题指南 新手发问前必看&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.ubuntu.org.cn/viewtopic.php?t=105237#p628762&#34;&gt;ubuntu安装好之后，怎样再重新分区？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/code_segment/article/details/79237500&#34;&gt;ubuntu系统重新分区、根目录扩容&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
 &lt;div id=&#34;j1&#34;&gt;[1]. https://www.thefanclub.co.za/how-to/ubuntu-touchpad-gestures-install&lt;/div&gt;
 &lt;div id=&#34;j2&#34;&gt;[2]. https://zhuanlan.zhihu.com/p/40434062&lt;/div&gt;
@@ -4170,7 +4471,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;说说耳机的 坑点, 信息获取 及 主观感受. 先看看我用过的耳机:&lt;/p&gt;
 &lt;table&gt;
@@ -4538,7 +4839,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.&lt;/p&gt;
 &lt;p&gt;一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。&lt;/p&gt;
@@ -4589,7 +4890,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;A Internet spec called  &lt;a href=&#34;http://www.ietf.org/rfc/rfc1918.txt&#34;&gt;RFC 1918&lt;/a&gt; (Request For Comments) reserved a few blocks of addressnss for &amp;quot;private&amp;quot; network. 192.168/16 was one of those blocks.&lt;/p&gt;
 &lt;h2 id=&#34;longly&#34;&gt;LONGLY&lt;/h2&gt;
@@ -4648,7 +4949,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;blockquote&gt;
 &lt;p&gt;外面的世界并不太平, 贴吧不断的炸链, 帖子连续的不存在, 404接踵而至, 像是2020年留下的无数孩子, 用户一个接一个地被屏蔽, 我来到自己的自留地留下属于自己的声音, &amp;quot;感觉自己好没用啊!!!&amp;quot;在脑海里不断反转, 但我能做的, 只有这些......&lt;/p&gt;
@@ -4839,7 +5140,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;像大多数人一样, 我也要象征性地写一份年终报告, 我正从下午的美梦的挣扎起来, 揉搓着疲惫的眼睛, 拿着几条咖啡, 我不知道这样子挥霍午觉的日子还有多少, 至少在上半年的时间里我是不怎么睡午觉的, 靠着大量的咖啡因和可乐度过了在家的漫长的假期. 最后的后果就是牙裂了, 幸好没有伤害到牙神经, 还发现自己的牙齿蛀掉5颗, 哭死啦!!! 以后&lt;strong&gt;一定一定一定要定期去看牙齿, 这是一个必须养成的好习惯&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;高考已过去两年, 自己身边的人来来去去, 有的悬崖百丈, 有的已是生再难逢, 我感叹时光飞逝, 也感叹自己画地为牢, 为买不起门票而懊恼不已, 不过应该这所有的一切, 都是合理的吧, 我想在总结完这边文章后重新开始一些东西, 即使什么都改变不了, 但是好的态度是成功的一半, 对吧? 那些真真切切的东西, 热泪的东西, 永远都是真的,  &lt;strong&gt;等我攒够六便士, 我就去寻找我的月亮&lt;/strong&gt;.&lt;/p&gt;
@@ -5116,7 +5417,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;主要内核有两种:&lt;/p&gt;
 &lt;ul&gt;
@@ -5184,7 +5485,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;专门研究多个独立个体之间的竞争行为（对抗行为）。在某些中文书籍里面，它又被称作“对策论 or 赛局理论”。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;THX FOR:&lt;/strong&gt;&lt;/p&gt;
@@ -5425,7 +5726,7 @@ $ vim Clash.desktop
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;版本控制系统 —— 记录每次文件的改动，协作编辑，避免管理一堆类似的文件了，也不需要把文件传来传去。&lt;/p&gt;
 &lt;p&gt;如果想查看某次改动，只需要在软件里瞄一眼就可以，能记录每次文件的改动：&lt;/p&gt;
@@ -6231,7 +6532,7 @@ git push origin :refs/tags/v0.9
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;其实在现在的我来看, 生产环境配置都很简单, 只需要两个步骤 :&lt;/p&gt;
 &lt;ul&gt;
@@ -6350,7 +6651,7 @@ bin/jlink --module-path jmods --add-modules java.desktop --output jre &lt;span c
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;h2 id=&#34;version-01---10&#34;&gt;Version 0.1 -&amp;gt; 1.0&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -6644,7 +6945,7 @@ npm config delete proxy
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;blockquote&gt;
 &lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript&lt;/p&gt;
@@ -7183,7 +7484,7 @@ npm config delete proxy
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;夜色正浓，他再一次被热醒，有点迷糊，侧过身子，他看向周围的一切，远处灯光平静地打在课桌上，书本试卷被卷在他的身后，褶皱书本已被汗渍浸湿，那些断断续续失色的黑字让他感到厌倦，起身，他静静地注视着周遭的一切，书本像行星围绕在他周围，他自己仿佛就是一个巨大的黑洞，会吸引吞噬并摧毁周围的一切。一只蚊子飞过，起飞，着陆，起飞，再着陆，他感到厌烦，用拳头握住头顶的蚊子，草草结束了蚊子的一生。&lt;/p&gt;
 &lt;p&gt;顿时间房间里没了声，他有点受不了，他渴望逃离。&lt;/p&gt;
@@ -7240,7 +7541,7 @@ npm config delete proxy
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;主讲人：&lt;a href=&#34;https://baike.baidu.com/item/%E6%B2%88%E5%A5%95%E6%96%90/4232616&#34;&gt;沈弈斐&lt;/a&gt;副教授&lt;/p&gt;
 &lt;blockquote&gt;
@@ -7357,7 +7658,7 @@ npm config delete proxy
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;文字选自拾穗人的画集《我希望自己足够渺小》。有趣的是，不足1100的文字却足够让我震撼。在高三那段一个人的时间里，情感堆积，这本书成为了我短暂的情绪宣泄的出口，坐在图书书架下埋头一个小时看完总是让人浮想联翩。和往日看到的画作不同，他讲的是一个个个人的悲剧，将视角拉近，一个人内心的私欲被揭而讽刺。看完之后自然很是压抑，但是我们还是必须相信美好的事情即将发生，因为真的有源源不断的希望等着我们。祝福你我。 🎈&lt;/p&gt;
 &lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
@@ -7446,7 +7747,7 @@ npm config delete proxy
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。&lt;/p&gt;
 &lt;p&gt;其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。&lt;/p&gt;
@@ -8285,7 +8586,7 @@ npm config delete proxy
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;blockquote&gt;
 &lt;p&gt;Q：无法上传图片，提示信息“无法创建目录”。&lt;/p&gt;
@@ -8438,7 +8739,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;高三乍见，甚是欢喜, 刷音乐时看到他人关于课程的截图，感觉讲的很通透，遂找来细品.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：梁永安，⽂学博⼠，复旦⼤学⽐较⽂学与⽐较⽂化专业副教授，韩国梨花⼥⼦⼤学⼤学客座教授 ，⽇本神户外国语⼤学客座教授 ，⽇本冈⼭⼤学客座教授 美国波⼠顿⼤学客座教授 长期从事⽐较⽂学与⽐较⽂化研究，主要研究领域为： 中国近代教会⼤学与中外⽂学关系 景观社会中的⼩说与电影 城市化与中国多元⽂化资源的再⽣性聚合 。&lt;/p&gt;
@@ -8783,7 +9084,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;不要忘记优化Pc的主要目的是提高自己的工作效率, 如果自己因为寻找工具而惶惶不可终日, 那么一定是磨刀反误砍柴工了, 是很不值得的事情, 因为你的目的已经不是解决需求, 而是不断的创造需求, 无穷递归的时间复杂度很大的噢!&lt;/p&gt;
 &lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
@@ -9582,7 +9883,7 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
                     <description>&lt;p&gt;放弃Hexo类静态博客, 江湖路远, 有缘再见. 一款烂大街到游戏社区(小黑盒)都能看到这个博客的教程, 如果你的 Github 的Img不显示问题了，定是配置文件没写全(；′⌒`)&lt;/p&gt;
 &lt;ul&gt;
