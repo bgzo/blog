@@ -23,13 +23,13 @@
         
             <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 02 Feb 2021 17:54:55 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 11 Feb 2021 02:01:41 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
         
             <item>
-                <title>Book Summary</title>
+                <title>Book Format Notes</title>
                 <link>https://dfslfh.cn/blog/posts/2021-01-30-book-summary/</link>
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-30-book-summary/</guid>
                 <pubDate>Sat, 30 Jan 2021 15:58:30 &#43;0800</pubDate>
@@ -38,17 +38,22 @@
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;总结一下获取书的渠道, 整理总结心得.&lt;/p&gt;
+                    <description>&lt;p&gt;总结一下获取书的格式与区别, 整理总结心得.&lt;/p&gt;
 &lt;h2 id=&#34;format-格式&#34;&gt;FORMAT 格式&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 打开口令无法解除，编辑限制可以移除；打开密码、远程认证很难破解，编辑、打印等权限密码相对容易破解. 利用 PDF文档 zd的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权。一般存在于低专版本Acrobat 生成的pdf文件中，比如Acrobat X 生成的PDF文件就很困难了，所以基本上也只是9.0版本以前的加密破解&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 利用 PDF文档的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权, 一般存在于低专版本Acrobat 生成的pdf文件中, 9.0后漏洞消失. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;口令无法解除&lt;/li&gt;
+&lt;li&gt;编辑限制可以&lt;/li&gt;
+&lt;li&gt;密码, 远程认证很难破解&lt;/li&gt;
+&lt;li&gt;编辑、打印等权限密码相对容易破解&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;: 主推是 &lt;code&gt;Amazon&lt;/code&gt;，同属亚马逊的私有格式，无本质区别, &lt;code&gt;azw&lt;/code&gt; 只是亚马逊利用它对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护。目前市面上的 &lt;code&gt;mobi&lt;/code&gt; 文件大部分是来自两种途径：&lt;/p&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;: 主推是 &lt;code&gt;Amazon&lt;/code&gt;，同属亚马逊的私有格式，无本质区别, &lt;code&gt;azw&lt;/code&gt; 只是亚马逊利用它对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护。目前市面上的 &lt;code&gt;mobi&lt;/code&gt; 文件大部分是来自两种途径：
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;epub&lt;/code&gt;、&lt;code&gt;pdf&lt;/code&gt; 或者 &lt;code&gt;txt&lt;/code&gt; 转换成的 &lt;code&gt;mobi&lt;/code&gt;，&lt;/li&gt;
 &lt;li&gt;从 &lt;code&gt;Amazon&lt;/code&gt; 商店流出来的  &lt;code&gt;mobi&lt;/code&gt;。
@@ -59,26 +64,15 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: 本质是 &lt;code&gt;KF8&lt;/code&gt;(2011), 填补了 &lt;code&gt;Mobi&lt;/code&gt;  对于复杂排版支持的缺陷，支持很多 HTML5（目前尚不支持 HTML5 的视频和音频标签）和 CSS3 的语法，这就大大改善了原来 mobi 或 azw 内容排版上的一些缺陷，单纯从读者的角度来讲，是不输 epub 格式的。目前从 Amazon 购买的书，大部分已经是 azw3  格式了，而以前主流的 mobi 格式则越来越少，它正逐渐取代 mobi 成为 Kindle 电子书的主流格式。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: 本质是 &lt;code&gt;KF8&lt;/code&gt;(2011), 填补了 &lt;code&gt;Mobi&lt;/code&gt;  对于复杂排版支持的缺陷，支持很多 HTML5（目前尚不支持 HTML5 的视频和音频标签）和 CSS3 的语法，这就大大改善了原来 mobi 或 azw 内容排版上的一些缺陷，单纯从读者的角度来讲，是不输 epub 格式的。目前从 Amazon 购买的书，大部分已经是 azw3  格式了，而以前主流的 mobi 格式则越来越少，它正逐渐取代 mobi 成为 Kindle 电子书的主流格式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
 &lt;blockquote&gt;
 &lt;p&gt;EPUB（Electronic Publication 的缩写，电子出版）是一种电子图书标准，由国际数字出版论坛（IDPF）提出；其中包括 3 种文件格式标准（文件的附文件名为 .epub），这个格式已取代了先前的 Open eBook 开放电子书标准。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
+- pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
+- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;convert-转化&#34;&gt;CONVERT 转化&lt;/h2&gt;
 &lt;ul&gt;
@@ -2798,250 +2792,6 @@ user当前连接用户&lt;/p&gt;
             </item>
         
             <item>
-                <title>Font</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-22-font-recommend/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-22-font-recommend/</guid>
-                <pubDate>Fri, 22 Jan 2021 02:24:39 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;**微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了微软雅黑(方正兰亭黑), **微软公司只拥有微软雅黑的使用权，而真正的版权在方正手中。&lt;/p&gt;
-&lt;p&gt;我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为，都属于侵权行为，同时在Windows系统下，商业行为也不被允许，包括网页设计中，主动调用微软雅黑字体（用户显示中将默认字体转换为微软雅黑属于用户行为，不归类为侵权），更不可以以图片的形式在网页中用到微软雅黑！&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-font-recommend/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h2 id=&#34;free-font&#34;&gt;FREE FONT&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;方正黑体&lt;/li&gt;
-&lt;li&gt;方正楷体&lt;/li&gt;
-&lt;li&gt;方正书宋&lt;/li&gt;
-&lt;li&gt;方正仿宋&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;庞门正道标题体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;思源字体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;王漢宗自由字型48款&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;文泉驿字体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;站酷字体&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;recommend&#34;&gt;RECOMMEND&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/specimen/Press+Start+2P#standard-styles&#34;&gt;Press Start 2P&lt;/a&gt;: 一个像素风格的字体.&lt;/li&gt;
-&lt;li&gt;Lato Regular&lt;/li&gt;
-&lt;li&gt;华文黑体&lt;/li&gt;
-&lt;li&gt;Lato light&lt;/li&gt;
-&lt;li&gt;思源黑体旧字形Extralight&lt;/li&gt;
-&lt;li&gt;mono...&lt;/li&gt;
-&lt;li&gt;Yu Gothic UI&lt;/li&gt;
-&lt;li&gt;Verdana&lt;/li&gt;
-&lt;li&gt;Roboto Slab&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;size&#34;&gt;Size&lt;/h2&gt;
-&lt;p&gt;Word 中对字体的大小同时采用了两种不同的度量单位, 在Autocad中，我们用“字高”来作为文字的度量单位，CAD中的“字高”的数值约等于字体的实际高度。在WORD中，1磅&lt;a href=&#34;https://baike.baidu.com/item/%E7%BA%A6%E7%AD%89%E4%BA%8E/4888813&#34;&gt;约等于&lt;/a&gt;0.35毫米，即一个10磅的文字，其高度约等于3.5毫米, 参考表如下：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;磅（1-1638）&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;字号&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;42&lt;/td&gt;
-&lt;td&gt;初号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;36&lt;/td&gt;
-&lt;td&gt;小初&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;td&gt;一号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;24&lt;/td&gt;
-&lt;td&gt;小一号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;td&gt;二号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;td&gt;小二号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;三号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;小三号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;四号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;小四号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;10.5&lt;/td&gt;
-&lt;td&gt;五号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;小五号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;六号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;小六号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5.5&lt;/td&gt;
-&lt;td&gt;七号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;八号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;microsoft-yahei&#34;&gt;Microsoft YaHei&lt;/h2&gt;
-&lt;p&gt;微软雅黑默认状态下部分字符显示为日文字符, 如&lt;code&gt;门&lt;/code&gt;就会显示 &#39;中间一竖的&lt;code&gt;门&lt;/code&gt;&#39;. 纠正方法换字体 --&lt;code&gt;文泉译米&lt;/code&gt; 即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/japan-men.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Profromence differences are related with &lt;a href=&#34;https://en.wikipedia.org/wiki/CJK_Unified_Ideographs&#34;&gt;&lt;strong&gt;CJK Unified Ideographs&lt;/strong&gt;&lt;/a&gt;, and relating to &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_CJK_fonts&#34;&gt;CJK Font&lt;/a&gt;. And Some Font display the Japan Font as default pattern, such this &lt;code&gt;Mircosoft YaHei&lt;/code&gt; in ubuntu when the sys encoding is &lt;code&gt;US_Utf-8&lt;/code&gt;, but why the window is not such situation?&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-font-recommend/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Some more details &lt;a href=&#34;https://www.unicode.org/faq/han_cjk.html&#34;&gt;FAQ&lt;/a&gt; with it. By th way, Japan encodes CIJ and Chinese encodes GB.&lt;/p&gt;
-&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
-&lt;div id=&#34;j1&#34;&gt;[1]. https://zhuanlan.zhihu.com/p/49049779 &lt;/div&gt;
-&lt;div id=&#34;j2&#34;&gt;[2].  http://jedi.org/opera/FontTest/&lt;/div&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/tool/">Tool</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>Imgs / Host</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-22-img/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-22-img/</guid>
-                <pubDate>Fri, 22 Jan 2021 01:14:42 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;关于图片.&lt;/p&gt;
-&lt;h2 id=&#34;public-公共&#34;&gt;PUBLIC 公共&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;堆爱&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//sm.ms/&#34;&gt;SM.MS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//www.superbed.cn&#34;&gt;聚合&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgchr.com/&#34;&gt;路过&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;pay-付费&#34;&gt;PAY 付费&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Oss:
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;Aliyun&lt;/code&gt; 唯一局限如下:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-img/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;third-party-为爱发电-font-size1不保证长期有效font&#34;&gt;THIRD PARTY 为爱发电 &lt;font size=1&gt;不保证长期有效&lt;/font&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://upload.likeyunba.com/&#34;&gt;里客云 - 聚合图床&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://my.imgbed.org/&#34;&gt;My Img&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/Wikiworker&#34;&gt;@Wikiworker&lt;/a&gt; &lt;a href=&#34;https://v2ex.com/t/743502&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgbed.cn&#34;&gt;Img Bed&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/imgbed&#34;&gt;@imgbed&lt;/a&gt;/&lt;a href=&#34;https://www.v2ex.com/member/OldActorsSmile&#34;&gt;@OldActorsSmile&lt;/a&gt;  &lt;a href=&#34;https://www.v2ex.com/t/716071&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Molunerfinn/PicGo&#34;&gt;Picgo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;imgs-compression-图片压缩&#34;&gt;IMGS COMPRESSION 图片压缩&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Webp
-&lt;ul&gt;
-&lt;li&gt;Industrution&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-img/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;li&gt;Downolad&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-img/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install webp
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-22-img/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;Wallhaven&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pixiv.net/&#34;&gt;Pixiv （18年关被墙/同人、插画）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.netbian.com/&#34;&gt;彼岸桌面（已备）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cgwallpapers.com/&#34;&gt;CG Wallpaper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://unsplash.com/t/wallpapers&#34;&gt;https://unsplash.com/t/wallpapers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.desktopnexus.com/&#34;&gt;Desktop Nexus&lt;/a&gt;；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://wallpaperim.net/&#34;&gt;WallPaperim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pexels.com/&#34;&gt;pexels&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.iconfont.cn/&#34;&gt;iconfont&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.60logo.com/&#34;&gt;60logo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://draw.io/&#34;&gt;draw.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.processon.com/&#34;&gt;processon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://carbon.now.sh/&#34;&gt;carbon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ctimbai/awesome-things/blob/master/remove.bg&#34;&gt;抠图神器&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://818ps.com/&#34;&gt;图怪兽&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.yasuotu.com/shuiyin&#34;&gt;压缩图&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.fonts.net.cn/&#34;&gt;字体天下&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://topology.le5le.com/&#34;&gt;topology&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
-&lt;div id=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html &lt;/div&gt;
-&lt;div id=&#34;j2&#34;&gt;[2]. https://developers.google.com/speed/webp&lt;/div&gt;
-&lt;div id=&#34;j3&#34;&gt;[3]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
-&lt;div id=&#34;j4&#34;&gt;[4]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/tool/">Tool</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>Stackover Cpp Top Questions Notes</title>
                 <link>https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/</link>
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/</guid>
@@ -5317,7 +5067,7 @@ sizeof(long long) &amp;gt;= 8
             </item>
         
             <item>
-                <title>Ubuntu All in One | 我的 Ubuntu 合集</title>
+                <title>Ubuntu All in One</title>
                 <link>https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</link>
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</guid>
                 <pubDate>Tue, 19 Jan 2021 18:11:54 &#43;0800</pubDate>
@@ -6973,197 +6723,6 @@ $ vim Clash.desktop
             </item>
         
             <item>
-                <title>Galgame/エロゲー</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-14-galgame-sex-game/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-14-galgame-sex-game/</guid>
-                <pubDate>Thu, 14 Jan 2021 18:00:00 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;blockquote&gt;
-&lt;p&gt;外面的世界并不太平, 贴吧不断的炸链, 帖子连续的不存在, 404接踵而至, 像是2020年留下的无数孩子, 用户一个接一个地被屏蔽, 我来到自己的自留地留下属于自己的声音, &amp;quot;感觉自己好没用啊!!!&amp;quot;在脑海里不断反转, 但我能做的, 只有这些......&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;开始写&lt;code&gt;Gal&lt;/code&gt;是我自己的私心, 因为这件事并不能为我自己带来多少附加值/增值, 但当自己喜欢的&lt;code&gt;Gal&lt;/code&gt;被网络一次一次封杀的时候, 就如猛浪般地在我本就不鲜活的记忆上来回冲刷, 整个过程像是在封杀我的过去, 我下意识地认为必须写下点什么, 必须把我知道的都记录下来.&lt;/p&gt;
-&lt;p&gt;直到完稿后起标题的时还在犹豫这方面的知识是隶属于哪一部分, 是AVG? RPG? 还是纯Gal?&lt;/p&gt;
-&lt;p&gt;在我早期的记忆里是 &lt;code&gt;文字AVG&lt;/code&gt; , 因为往往游戏属性在简介里都有写, 但是考虑到弹丸论破等一些无色情内容优秀的AVG, 我决定题目高雅一些, 就用 &lt;code&gt;Interactive Fiction&lt;/code&gt;, 感觉老洋气了, 但还是觉得虚伪, 最后还是更名&lt;code&gt;色情游戏&lt;/code&gt;.[1]&lt;/p&gt;
-&lt;p&gt;可能大部分关于这方面的讨论我们都把注意力聚焦在R18部分的内容, 当然一开始我接触&lt;code&gt;Gal&lt;/code&gt;的目的就是可以低成本的让身体产生多巴胺, 催产素, 达到催眠麻醉自己的作用, 即使现在的自己已不再需要这些过渡时期的作品带来的副作用, 但我同样不允许这样的事物从我记忆中消失. 这样不好.&lt;/p&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;channel-渠道&#34;&gt;CHANNEL 渠道&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dlsite.com/home/&#34;&gt;DLsite&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;forum-论坛&#34;&gt;FORUM 论坛&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://bangumi.tv/game/tag/galgame/?sort=rank&#34;&gt;Bangumi &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://galge.fun/&#34;&gt;2DFun&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://dfslfh.cn/blog//bbs.kforz.com&#34;&gt;K.F. 绯月&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.liuli.app/wp/&#34;&gt;琉璃&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog//hacg.me&#34;&gt;神社&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.kkgal.com/&#34;&gt;忧郁的弟弟&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://luoli.io/&#34;&gt;快乐屋&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.macgn.cc/&#34;&gt;萌站-ACGN &lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tianshie.com/&#34;&gt;天使二次元&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://bbs.sumisora.net/&#34;&gt;澄空学院&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://acgaa.cyou/&#34;&gt;次元の物语&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://bbs.acg-moe.com/&#34;&gt;御宅同萌&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://e-hentai.org/&#34;&gt;E-Hentai Galleries&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;translational-groups-汉化组&#34;&gt;TRANSLATIONAL GROUPS 汉化组&lt;/h2&gt;
-&lt;p&gt;有一段时间总是看到为汉化组打报不平的帖子, 评论区里吃瓜观众隔岸观火, 看两位作者左右撕扯, 好不痛快, 最后观众哗然而消散, 只剩一片死寂. 我对那些混乱的, 复杂的, 难堪的争论感到疲惫, 我不喜欢这样过分问候彼此家属的方式, 我想咒骂那些肮脏的, 从不回报的, 永远在伸手讨饭还出手打人的流氓, 我发誓不做这样的人. 我选择铭记:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv5275470/&#34;&gt;3月24日弥生月汉化组举报事件始末 我们究竟还要迫害为我们默默奉献的人多久&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/382070522/answer/1101695673&#34;&gt;如何评价b站up主终焉无脑韛-单推水巴到柚子社官推举报某汉化组，导致汉化组终止原有计划并提前解散?&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;......&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;为了不再忘记, 我穷举一下我知道的为数不多的汉化组. 不知道会不会引来危险, 暂复议.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;极影字幕组&lt;/li&gt;
-&lt;li&gt;澄空字幕组&lt;/li&gt;
-&lt;li&gt;动漫国字字幕组&lt;/li&gt;
-&lt;li&gt;默示汉化组&lt;/li&gt;
-&lt;li&gt;ACG汉化组&lt;/li&gt;
-&lt;li&gt;萌你妹汉化组&lt;/li&gt;
-&lt;li&gt;弥生月汉化组&lt;/li&gt;
-&lt;li&gt;独占汉化组&lt;/li&gt;
-&lt;li&gt;巴比伦汉化组&lt;/li&gt;
-&lt;li&gt;杏爱会&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;played-game-玩过&#34;&gt;PLAYED GAME 玩过&lt;/h2&gt;
-&lt;p&gt;大多数情况下都是奔着R18去的... 但还是希望在其中收获一些意外的东西, 下面是我玩过的一些&lt;code&gt;GAL&lt;/code&gt; 以及本分 &lt;code&gt;AVG&lt;/code&gt; :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;《 G弦上的魔王 》 &lt;a href=&#34;douban.com/game/10794139/&#34;&gt;豆&lt;/a&gt; &lt;a href=&#34;http://bangumi.tv/subject/1385&#34;&gt;Bang&lt;/a&gt; &lt;a href=&#34;https://galge.fun/subjects/538&#34;&gt;2D&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;个人只喜欢水羽, 只认认真真通了一遍水羽线, 其他也只是匆匆过去了. 因为是初中玩的, 具体是什么情节已经忘记得差不多了, 当时也只是奔着CG去的. 总体还不错.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 美少女万华镜5 (天)道与轮回的少女  》 &lt;a href=&#34;https://www.douban.com/game/34905629/&#34;&gt;豆&lt;/a&gt; &lt;a href=&#34;http://bangumi.tv/subject/295320&#34;&gt;Bang&lt;/a&gt; &lt;a href=&#34;https://galge.fun/subjects/8613&#34;&gt;2D&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这次不仅下面哭了, 上面也哭了.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 兰斯  》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我太喜欢兰斯的世界观了, 虽然作品完结了, 但是还是有一番韵味.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 DARK BLUE  》 &lt;a href=&#34;https://www.douban.com/game/26587623/&#34;&gt;豆&lt;/a&gt; &lt;a href=&#34;http://bangumi.tv/subject/7149&#34;&gt;Bang&lt;/a&gt; &lt;a href=&#34;https://galge.fun/subjects/1268&#34;&gt;2D&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;本来是去救妹妹的, 结果妹必挂&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 与奴隶的生活 -Teaching Feeling- 奴隷との生活 -Teaching Feeling  》 &lt;a href=&#34;https://www.douban.com/game/26680865/&#34;&gt;豆&lt;/a&gt; &lt;a href=&#34;http://bangumi.tv/subject/151833&#34;&gt;Bang&lt;/a&gt; &lt;a href=&#34;https://galge.fun/subjects/2983&#34;&gt;2D&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;大多数时候还是希望女儿过得好&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 euphoria  》 &lt;a href=&#34;https://www.douban.com/game/34438581/&#34;&gt;豆&lt;/a&gt; &lt;a href=&#34;http://bangumi.tv/subject/19385&#34;&gt;Bang&lt;/a&gt; &lt;a href=&#34;https://galge.fun/subjects/1237&#34;&gt;2D&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;最后也没有玩懂, 在指头缝中推完了本作.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 恋爱活动/恋活  》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我还记得我推的第一个女孩是有点男孩子气的, 一身长发的女孩, 我忘记电脑给她的随机姓名, 但是在玩的时候有那么几个小时我是真的很幸福.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 PlayClub プレイクラブ  》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我记得网上总是有一个人在倒卖这一部作品的合集, 最后被人分享在百度知道里, 我十分感谢哪位老哥, 再也没有比那个Mod更全的版本, 我也再也没有找回来.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 3D定制女仆2 》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;家里电脑带不动, 我只是匆匆的把32G的游戏删掉罢了...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 AI少女 》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这次是换我的电脑带不动了(CPU), 我还是匆匆的删掉了.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《 人工学院 》/ 《 同校生》/《 尾行 》/《 御宅伴侣 》/《 性感沙滩 》/《 セクロスフィア/Secrosphere  》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;匆匆......比较无趣 [提裤ing]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;look-forward-看好&#34;&gt;LOOK FORWARD 看好&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.alicesoft.com/dohnadohna/&#34;&gt;《 Donna Dona让我们一起做坏事  》&lt;/a&gt; &lt;a href=&#34;https://www.douban.com/game/35191354/&#34;&gt;豆&lt;/a&gt; &lt;a href=&#34;http://bangumi.tv/subject/297734&#34;&gt;Bang&lt;/a&gt; &lt;a href=&#34;https://galge.fun/subjects/8657&#34;&gt;2D&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/286784507&#34;&gt;知乎 - 文字AVG游戏与galgame有什么区别？&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/galgame/">Galgame</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>我的404*5</title>
                 <link>https://dfslfh.cn/blog/posts/2021-01-01-my404-5/</link>
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-01-my404-5/</guid>
@@ -7327,6 +6886,23 @@ $ vim Clash.desktop
 &lt;li&gt;&lt;a href=&#34;https://ctext.org/zh&#34;&gt;中国哲学书电子化计划&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
+&lt;h2 id=&#34;我要感谢的人平台&#34;&gt;我要感谢的人/平台&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/517327498/&#34;&gt;B站 - 罗翔&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/301717426/&#34;&gt;B站 - 周扒片&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/10466825/&#34;&gt;B站 - 我是张英坤&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/450946369/&#34;&gt;B站 - 熊浩bearhow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/102984190/&#34;&gt;B站 - 独立菌儿&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;V2ex&lt;/li&gt;
+&lt;li&gt;Tweet&lt;/li&gt;
+&lt;li&gt;Weibo&lt;/li&gt;
+&lt;li&gt;Telegram&lt;/li&gt;
+&lt;li&gt;One&lt;/li&gt;
+&lt;li&gt;Zhihu&lt;/li&gt;
+&lt;li&gt;Coolapk&lt;/li&gt;
+&lt;li&gt;小黑盒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
 &lt;h2 id=&#34;我的刷剧清单&#34;&gt;我的刷剧清单&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -7393,22 +6969,212 @@ $ vim Clash.desktop
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
-&lt;h2 id=&#34;我要感谢的人平台&#34;&gt;我要感谢的人/平台&lt;/h2&gt;
+&lt;h2 id=&#34;博弈论&#34;&gt;博弈论&lt;/h2&gt;
+&lt;p&gt;专门研究多个独立个体之间的竞争行为（对抗行为）。在某些中文书籍里面，它又被称作“对策论 or 赛局理论”。&lt;/p&gt;
+&lt;h3 id=&#34;历史-history&#34;&gt;历史 HISTORY&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/517327498/&#34;&gt;B站 - 罗翔&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/301717426/&#34;&gt;B站 - 周扒片&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/10466825/&#34;&gt;B站 - 我是张英坤&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/450946369/&#34;&gt;B站 - 熊浩bearhow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/102984190/&#34;&gt;B站 - 独立菌儿&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;V2ex&lt;/li&gt;
-&lt;li&gt;Tweet&lt;/li&gt;
-&lt;li&gt;Weibo&lt;/li&gt;
-&lt;li&gt;Telegram&lt;/li&gt;
-&lt;li&gt;One&lt;/li&gt;
-&lt;li&gt;Zhihu&lt;/li&gt;
-&lt;li&gt;Coolapk&lt;/li&gt;
-&lt;li&gt;小黑盒&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%86%AF%C2%B7%E8%AF%BA%E4%BC%8A%E6%9B%BC&#34;&gt;约翰·冯·诺伊曼&lt;/a&gt;（John von Neumann）
+&lt;ul&gt;
+&lt;li&gt;《&lt;a href=&#34;https://docs.google.com/document/d/1rV8OFkInke6MJul6uKd8utuDViBJbph11PmpvNMIyCU/&#34;&gt;博弈论与经济行为&lt;/a&gt;》（“Theory of Games and Economic Behavior”）&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%B7%E7%BB%B4%E5%B8%8C%C2%B7%E5%86%AF%C2%B7%E7%B1%B3%E5%A1%9E%E6%96%AF&#34;&gt;路德维希·冯·米塞斯&lt;/a&gt;是&lt;strong&gt;摩根斯坦&lt;/strong&gt;的博士生导师&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;类型&#34;&gt;类型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;合作博弈（cooperative game） VS 非合作博弈（non-cooperative game）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;区别在 某种&lt;strong&gt;外部约束力&lt;/strong&gt;与&lt;strong&gt;博弈过程的其它参与者&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;同时博弈（simultaneous game） VS 顺序博弈（sequential game）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否&lt;strong&gt;已知其它参与者的行为信息&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;棋牌类游戏都属于这种&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;零和博弈（zero-sum game） VS 非零和博弈, 变和博弈（non-zero-sum game）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;区别在参与各方的利益总和为&lt;strong&gt;常量&lt;/strong&gt;还是&lt;strong&gt;变量&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;变和博弈存在可以使得参与各方利益最大的可能, 所以产生了合作.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;非重复博弈, 单次博弈（non-repeated game） VS 重复博弈, 多次博弈（repeated game）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;博弈的次数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;收益矩阵-normal-form-vs-决策树extensive-form&#34;&gt;收益矩阵( normal-form) VS 决策树(extensive-form)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;描述博弈过程
+&lt;ul&gt;
+&lt;li&gt;收益矩阵特指“静态博弈”（同时博弈）, 类似离散数学的关系矩阵.&lt;code&gt;1&lt;/code&gt; 表示赢；&lt;code&gt;-1&lt;/code&gt; 表示输；&lt;code&gt;0&lt;/code&gt; 表示平局。&lt;/li&gt;
+&lt;li&gt;决策树（decision tree） 两者均可.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;策略--策略集合&#34;&gt;策略 ＆ 策略集合&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;决策选项（move） VS 策略（strategy）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;策略（strategy）是决策选项（move）的总和.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;策略集合（strategy set）: 所有可能的策略&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;纯策略pure-strategy-vs-混合策略mixed-strategyvs-完全混合策略totally-mixed-strategy&#34;&gt;纯策略（pure strategy） VS 混合策略（mixed strategy）VS 完全混合策略（totally mixed strategy）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;是否总是【固定选择】“策略集合”中的某【一个】策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;支配策略优势策略&#34;&gt;支配策略（优势策略）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;策略之间的【支配性】(优先性)(dominated by)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;支配策略/优势策略（dominant strategy）: 某个策略能够支配【所有】其它策略&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;强支配策略（strictly dominant strategy） VS 弱支配策略（weakly dominant strategy）: 评价策略的好坏.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;支配策略 VS 制胜策略（winning strategy）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“制胜策略”也称“必胜策略”，它通常只用于“零和博弈”&lt;/li&gt;
+&lt;li&gt;“制胜策略”肯定是“支配策略”（最起码是“弱支配策略”）；但“支配策略”不一定是“制胜策略”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实例：（二战中）新几内亚的航路作战&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如何发现“支配策略”？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;逐步删除【被】支配的策略（“Iterated Elimination of Strictly Dominated Strategies”，简称 IESDS）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;罕见性&lt;/strong&gt;: 只存在有极其简单的博弈&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;乏味性&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为啥绝大部分棋牌类游戏都【没有】“支配策略”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;最小最大定理minimax&#34;&gt;最小最大定理(Minimax)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在最坏情况下最小化损失。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;举例：动态博弈——切蛋糕博弈&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;反向归纳法backward-induction&#34;&gt;反向归纳法(backward induction)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;决策树的展开一直推演到【最后一步】（也就是决策树的叶子节点）。此时你就可以看清双方在最后一步各自的最优选择；然后再反向回推到第一步。&lt;/li&gt;
+&lt;li&gt;**局限性: **充分的信息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重复博弈中的“囚徒困境”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;海盗博弈（海盗分金问题）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;纳什均衡nash-equilibrium&#34;&gt;纳什均衡（Nash equilibrium）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在多人的“非合作博弈”中，如果每个博弈者都无法【单方面】改善自己的境地，此时的局面称作“纳什均衡”。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“纳什均衡”的前提是【非合作博弈】。不要望文生义，把“非合作博弈”误解为“没有合作的博弈”。请参见本文开头章节对“博弈类型”的解释。&lt;/li&gt;
+&lt;li&gt;【单方面】指的是——在其他博弈者都没有改变策略的情况下，自己改变策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;稳定性&lt;/strong&gt;: 如果每个博弈者都足够理性，他们都【不愿意】主动改变当前的策略。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;实例：囚徒困境&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;对“纳什均衡”的【误解】&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;把“纳什均衡”误解为“各方利益总和最大化”。&lt;/li&gt;
+&lt;li&gt;认为“纳什均衡点”是唯一的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;局限性&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;非建设性&lt;/li&gt;
+&lt;li&gt;依赖于非常非常多的约束条件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博弈中的信息因素&#34;&gt;博弈中的【信息】因素&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;“perfect information” VS “imperfect information”&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否知道已经发生的每个事件&lt;/li&gt;
+&lt;li&gt;大部分棋类游戏（围棋、象棋、跳棋...）属于前者；某些军棋游戏（只能看到己方的棋子）属于后者；大部分扑克游戏（比如：桥牌、拱猪...）属于后者。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;“complete information” VS “incomplete information”&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否每个博弈者的特征都是公开的&lt;/li&gt;
+&lt;li&gt;【棋牌类游戏】属于“complete information”;【拍卖】则属于“incomplete information”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;贝叶斯博弈（Bayesian game）＆ 贝叶斯纳什均衡（Bayesian Nash equilibrium）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;概率分析，从而猜测其它对手的特征。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;实例分析：FQ VS GFW&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博弈中的心理因素&#34;&gt;博弈中的【心理】因素&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;换位思考&lt;/strong&gt;: 通过某些复杂的博弈游戏，进行练习。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;早期经济学的“理性人假设”&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设定市场的行为主体全都是充分理性的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;装疯策略&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北朝鲜的金三胖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博弈论对其它领域的影响&#34;&gt;“博弈论”对其它领域的影响&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;对【经济学理论】的影响&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;对【金融、投资、营销】的影响&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;对【军事＆外交】的影响&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;对【生物学】的影响&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 &lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
@@ -7418,6 +7184,7 @@ $ vim Clash.desktop
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/20298369/answer/26587839&#34;&gt;计算机专业，软件工程你们都考什么证-知乎&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/328603760/answer/710720538&#34;&gt;计算机专业的要考什么证，求大佬指点? &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/76718362&#34;&gt;计算机专业要考哪些证书？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://feedproxy.google.com/~r/programthink/~3/C3hVY1iB-DU/Game-Theory.html&#34;&gt;博弈论入门教程——从基本概念到具体案例&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
                 
                 
@@ -7501,247 +7268,6 @@ $ vim Clash.desktop
                                 
                                 
                                     <category domain="https://dfslfh.cn/blog/tags/system/">System</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>GAME THEORY | 博弈论</title>
-                <link>https://dfslfh.cn/blog/posts/2020-11-29-game-theory/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-11-29-game-theory/</guid>
-                <pubDate>Sun, 29 Nov 2020 21:36:00 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;专门研究多个独立个体之间的竞争行为（对抗行为）。在某些中文书籍里面，它又被称作“对策论 or 赛局理论”。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;THX FOR:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://feedproxy.google.com/~r/programthink/~3/C3hVY1iB-DU/Game-Theory.html&#34;&gt;博弈论入门教程——从基本概念到具体案例&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;历史-history&#34;&gt;历史 HISTORY&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%86%AF%C2%B7%E8%AF%BA%E4%BC%8A%E6%9B%BC&#34;&gt;约翰·冯·诺伊曼&lt;/a&gt;（John von Neumann）
-&lt;ul&gt;
-&lt;li&gt;《&lt;a href=&#34;https://docs.google.com/document/d/1rV8OFkInke6MJul6uKd8utuDViBJbph11PmpvNMIyCU/&#34;&gt;博弈论与经济行为&lt;/a&gt;》（“Theory of Games and Economic Behavior”）&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%B7%E7%BB%B4%E5%B8%8C%C2%B7%E5%86%AF%C2%B7%E7%B1%B3%E5%A1%9E%E6%96%AF&#34;&gt;路德维希·冯·米塞斯&lt;/a&gt;是&lt;strong&gt;摩根斯坦&lt;/strong&gt;的博士生导师&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;类型&#34;&gt;类型&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;合作博弈（cooperative game） VS 非合作博弈（non-cooperative game）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;区别在 某种&lt;strong&gt;外部约束力&lt;/strong&gt;与&lt;strong&gt;博弈过程的其它参与者&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;同时博弈（simultaneous game） VS 顺序博弈（sequential game）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;是否&lt;strong&gt;已知其它参与者的行为信息&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;棋牌类游戏都属于这种&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;零和博弈（zero-sum game） VS 非零和博弈, 变和博弈（non-zero-sum game）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;区别在参与各方的利益总和为&lt;strong&gt;常量&lt;/strong&gt;还是&lt;strong&gt;变量&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;变和博弈存在可以使得参与各方利益最大的可能, 所以产生了合作.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;非重复博弈, 单次博弈（non-repeated game） VS 重复博弈, 多次博弈（repeated game）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;博弈的次数&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;收益矩阵-normal-form-vs-决策树extensive-form&#34;&gt;收益矩阵( normal-form) VS 决策树(extensive-form)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;描述博弈过程
-&lt;ul&gt;
-&lt;li&gt;收益矩阵特指“静态博弈”（同时博弈）, 类似离散数学的关系矩阵.&lt;code&gt;1&lt;/code&gt; 表示赢；&lt;code&gt;-1&lt;/code&gt; 表示输；&lt;code&gt;0&lt;/code&gt; 表示平局。&lt;/li&gt;
-&lt;li&gt;决策树（decision tree） 两者均可.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;策略--策略集合&#34;&gt;策略 ＆ 策略集合&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;决策选项（move） VS 策略（strategy）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;策略（strategy）是决策选项（move）的总和.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;策略集合（strategy set）: 所有可能的策略&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;纯策略pure-strategy-vs-混合策略mixed-strategyvs-完全混合策略totally-mixed-strategy&#34;&gt;纯策略（pure strategy） VS 混合策略（mixed strategy）VS 完全混合策略（totally mixed strategy）&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;是否总是【固定选择】“策略集合”中的某【一个】策略&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;支配策略优势策略&#34;&gt;支配策略（优势策略）&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;策略之间的【支配性】(优先性)(dominated by)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;支配策略/优势策略（dominant strategy）: 某个策略能够支配【所有】其它策略&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;强支配策略（strictly dominant strategy） VS 弱支配策略（weakly dominant strategy）: 评价策略的好坏.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;支配策略 VS 制胜策略（winning strategy）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“制胜策略”也称“必胜策略”，它通常只用于“零和博弈”&lt;/li&gt;
-&lt;li&gt;“制胜策略”肯定是“支配策略”（最起码是“弱支配策略”）；但“支配策略”不一定是“制胜策略”。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;实例：（二战中）新几内亚的航路作战&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如何发现“支配策略”？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;逐步删除【被】支配的策略（“Iterated Elimination of Strictly Dominated Strategies”，简称 IESDS）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;罕见性&lt;/strong&gt;: 只存在有极其简单的博弈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;乏味性&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;为啥绝大部分棋牌类游戏都【没有】“支配策略”。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;最小最大定理minimax&#34;&gt;最小最大定理(Minimax)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在最坏情况下最小化损失。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;举例：动态博弈——切蛋糕博弈&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;反向归纳法backward-induction&#34;&gt;反向归纳法(backward induction)&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;决策树的展开一直推演到【最后一步】（也就是决策树的叶子节点）。此时你就可以看清双方在最后一步各自的最优选择；然后再反向回推到第一步。&lt;/li&gt;
-&lt;li&gt;**局限性: **充分的信息&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;重复博弈中的“囚徒困境”&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;海盗博弈（海盗分金问题）&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;纳什均衡nash-equilibrium&#34;&gt;纳什均衡（Nash equilibrium）&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;在多人的“非合作博弈”中，如果每个博弈者都无法【单方面】改善自己的境地，此时的局面称作“纳什均衡”。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“纳什均衡”的前提是【非合作博弈】。不要望文生义，把“非合作博弈”误解为“没有合作的博弈”。请参见本文开头章节对“博弈类型”的解释。&lt;/li&gt;
-&lt;li&gt;【单方面】指的是——在其他博弈者都没有改变策略的情况下，自己改变策略。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;稳定性&lt;/strong&gt;: 如果每个博弈者都足够理性，他们都【不愿意】主动改变当前的策略。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;实例：囚徒困境&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;对“纳什均衡”的【误解】&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;把“纳什均衡”误解为“各方利益总和最大化”。&lt;/li&gt;
-&lt;li&gt;认为“纳什均衡点”是唯一的。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;局限性&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;非建设性&lt;/li&gt;
-&lt;li&gt;依赖于非常非常多的约束条件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;博弈中的信息因素&#34;&gt;博弈中的【信息】因素&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;“perfect information” VS “imperfect information”&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;是否知道已经发生的每个事件&lt;/li&gt;
-&lt;li&gt;大部分棋类游戏（围棋、象棋、跳棋...）属于前者；某些军棋游戏（只能看到己方的棋子）属于后者；大部分扑克游戏（比如：桥牌、拱猪...）属于后者。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;“complete information” VS “incomplete information”&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;是否每个博弈者的特征都是公开的&lt;/li&gt;
-&lt;li&gt;【棋牌类游戏】属于“complete information”;【拍卖】则属于“incomplete information”。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;贝叶斯博弈（Bayesian game）＆ 贝叶斯纳什均衡（Bayesian Nash equilibrium）&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;概率分析，从而猜测其它对手的特征。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;实例分析：FQ VS GFW&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;博弈中的心理因素&#34;&gt;博弈中的【心理】因素&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;换位思考&lt;/strong&gt;: 通过某些复杂的博弈游戏，进行练习。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;早期经济学的“理性人假设”&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;设定市场的行为主体全都是充分理性的&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;装疯策略&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;北朝鲜的金三胖&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;博弈论对其它领域的影响&#34;&gt;“博弈论”对其它领域的影响&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;对【经济学理论】的影响&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;对【金融、投资、营销】的影响&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;对【军事＆外交】的影响&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;对【生物学】的影响&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/theory/">Theory</category>
                                 
                             
                         
@@ -10610,159 +10136,6 @@ npm config delete proxy
             </item>
         
             <item>
-                <title>Wordpress FAQ</title>
-                <link>https://dfslfh.cn/blog/posts/2020-02-14-wordpress-faq/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-02-14-wordpress-faq/</guid>
-                <pubDate>Fri, 14 Feb 2020 06:53:42 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;blockquote&gt;
-&lt;p&gt;Q：无法上传图片，提示信息“无法创建目录”。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：&lt;font color=&#34;grey&#34;&gt;方法一：定位&lt;code&gt;wordpress/wp-contect/uploads&lt;/code&gt;的文件夹，更改权限为&lt;code&gt;777&lt;/code&gt;.&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;方法二：参考下述修改用户属性的的方法。（安全）&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：填写主机名称，无法进行下一步操作&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：  &lt;font color=&#34;grey&#34;&gt;方法一：填写&lt;code&gt;localhost&lt;/code&gt;或者&lt;code&gt;www.yoursite.com&lt;/code&gt;.&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;​		&lt;font color=&#34;grey&#34;&gt;方法二： 修改wp-config.php文件（来自老蒋部落） &lt;/font&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;FS_METHOD&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;direct&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
-&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;FS_CHMOD_DIR&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;0777&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
-&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;FS_CHMOD_FILE&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;0777&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：发布失败。错误信息：此响应不是合法的JSON响应。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：在写文章的时候出现的Bug，目前定位是WordPress的5.0版本和 Gutenberg古腾堡编辑器 有点不兼容。&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;​	  &lt;font color=&#34;grey&#34;&gt;一种是禁用Gutenberg古腾堡编辑器，然后有插件禁用和代码禁用。代码禁用的话是在主题的 functions.php 文件添加下面的代码：&lt;/font&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;//Wordpress 5.0+ 禁用 Gutenberg 编辑器
-add_filter(&#39;use_block_editor_for_post&#39;, &#39;__return_false&#39;);
-remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_styles&#39; );
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;​	 &lt;font color=&#34;grey&#34;&gt; 	插件禁用的话是下载Classic Editor的编辑器即可。&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;​		 &lt;font color=&#34;grey&#34;&gt; 另外一种是继续使用Gutenberg古腾堡编辑器，但是方法还没找到，听说是因为网站没有配置&lt;a href=&#34;https://baike.baidu.com/item/%E4%BC%AA%E9%9D%99%E6%80%81&#34;&gt;伪静态&lt;/a&gt;的原因，于是自己又跑去配置伪静态，顺便百科、维基了一下。&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：woc，WordPress官网那么垃圾我怎么才能从官网索取主题以及插件呢？？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：直接去插件和主题的控制面板搜&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://imgchr.com/i/3ioI1J&#34;&gt;&lt;img src=&#34;https://s2.ax1x.com/2020/02/18/3ioI1J.th.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Q: 文章粘过来发现不支持Markdown&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：去搜&lt;code&gt; WP Githuber MD&lt;/code&gt;插件，网上一边倒另一款编辑器&lt;code&gt;[WP Editor.md &lt;/code&gt;但是不可用果断放弃。&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;但是有一个缺点，就是如果字数太多的话，实时预览的速度会有点慢，我直接把它关掉了。&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：我的代码不可以高亮，怎么半？装什么代码高亮的插件到没有用&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A： Markdown姿势，找到&lt;a href=&#34;https://terryl.in/en/highlight-js-html-code-language-list-for-syntax-highlighting/#how-it-works&#34;&gt;规范&lt;/a&gt;！&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：Warning: ftp fget() expects parameter 1 to be resource, null iven n w/wwmoot/www. dandelionflowers. xz/wordpress/p-admin/includes/class-wp-filesystem-ftpext. php on line 143&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：一般（插件&lt;code&gt;WPForms Lite&lt;/code&gt;）是WordPress不兼容报错，禁掉就好了。&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：Wordpress伪静态规则的配置以及原理？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：参考配置&lt;a href=&#34;https://themebetter.com/wp-url-rewrite.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;http://dreamkeeper.com.cn/2009/03/how-to-build-the-html-page-in-wordpress.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;https://www.uoo2.com/wordpress-rewriterule.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;https://www.cnblogs.com/zxlovenet/archive/2013/05/05/3061030.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;https://www.likole.com/2019/12/nginx-%e9%9a%90%e8%97%8findex-php-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99/&#34;&gt;伪静态隐藏&lt;/a&gt;。&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;这个又和古腾堡编辑器的使用息息相关，留作日后开发使用。&lt;/font&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q：WordPress 常使用的插件？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：&lt;a href=&#34;https://www.wpdaxue.com/recommend-wordpress-plugins.html&#34;&gt;爬了爬常用的插件：留作日后使用。&lt;/a&gt;：留作日后使用。&lt;/p&gt;
-&lt;p&gt;​	&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34314017&#34;&gt;插件&lt;/a&gt;.&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q : 出现无法创建文件夹需要修改文件夹权限的问题&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：之前为了解决升级主题的缘故，所以将好多文件的权限改成了777(wp-content下的文件)，有的是644，有的是755，现在希望研习一下这个的修改的操作。&lt;/p&gt;
-&lt;p&gt;这里先贴出这样做的原因吧：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;所有的人都可以来这里随便指点一下，随便来删除一下啊。 记得当初一个兄弟的遭遇：刚进一间公司不久，然后执行了一下删除命令，没想到把该公司的一个项目的所有上传的资源全部删掉了～悲催！此处先不讨论做该项目的人的部署问题。如果操作得当，大家都可以避免。既然可以在开始就避免，何乐而不为呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;出现无法创建目录的确是权限的问题，但是，不是目录读写的权限，而是用户组的问题。&lt;/strong&gt;（这里回去温习一下Linux的用户组知识……） **想要下载插件的用户组为web用户组，用户名组名为 www（ lnmp环境——ngnix.conf中第一行查看，可以用&lt;code&gt;locate nginx.conf&lt;/code&gt;的操作搜索一下） **&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://s2.ax1x.com/2020/02/18/3FFaMn.png&#34; alt=&#34;3FFaMn.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;读写的权利全是&lt;code&gt;1006&lt;/code&gt;，自然不可以成功，所以目标是把读写权利交给&lt;code&gt;www&lt;/code&gt;.退出wordpress的目录运行&lt;code&gt; chown -R www:www wordpress&lt;/code&gt;,发现报错&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;chown:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;changing&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;ownership&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;‘wordpress/.user.ini’:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;Operation&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;not&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;permitted&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;如果你没有root账户，就是上面的情况：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;chown&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;www&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;wordpress&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;发现什么都没有，发现成了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://s2.ax1x.com/2020/02/18/3FYJBV.png&#34; alt=&#34;3FYJBV.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;(注意：还有一个版本，用户不是&lt;code&gt;www&lt;/code&gt;,而是&lt;code&gt;apache&lt;/code&gt;，这个我还没有搞清楚，留下坑日后再改，如果哪位知道还劳烦指点一下。)&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q : 添加网络搜索引擎的索引&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：让自己的站点可以增加更多的曝光机会。在上面的危险操作完成之后就可以操作了。&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q : 备份自己的WordPress，腾挪更加方便&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：&lt;a href=&#34;https://www.wopus.org/wordpress-deepin/tech/1009.html&#34;&gt;方法&lt;/a&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q : 添加自己网站的留言板&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A：&lt;a href=&#34;https://www.boke8.net/wordpress-page-for-guestbook.html&#34;&gt;方法&lt;/a&gt;&lt;/p&gt;
-&lt;/br&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Q:官网访问429&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A: WP-China-Yes 插件，&lt;a href=&#34;https://github.com/wp-china-yes/wp-china-yes&#34;&gt;Github&lt;/a&gt;源码&lt;/p&gt;
-&lt;p&gt;[参考]：https://www.imahui.com/resource/2326.html&lt;/p&gt;
-&lt;/br&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/tool/">Tool</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>梁老师的爱情课</title>
                 <link>https://dfslfh.cn/blog/posts/2020-02-08-mr-liang-love-course/</link>
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-02-08-mr-liang-love-course/</guid>
@@ -11028,7 +10401,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;p&gt;凯伦：你是对的，那个农场从来不属于我。
 丹尼斯：也许是我错了。
 凯伦：……
-丹尼斯：你毁了我，你知道吗？ 
+丹尼斯：你毁了我，你知道吗？
 凯伦：毁了什么？
 丹尼斯：独处的自由。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -12105,98 +11478,58 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
             </item>
         
             <item>
-                <title>Hello Hexo</title>
-                <link>https://dfslfh.cn/blog/posts/2019-12-13-hellohexo/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2019-12-13-hellohexo/</guid>
+                <title>Hello Blog</title>
+                <link>https://dfslfh.cn/blog/posts/2019-12-13-helloblog/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2019-12-13-helloblog/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;放弃Hexo类静态博客, 江湖路远, 有缘再见. 一款烂大街到游戏社区(小黑盒)都能看到这个博客的教程, 如果你的 Github 的Img不显示问题了，定是配置文件没写全(；′⌒`)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;推荐一个主题:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://theme-suka.skk.moe/docs/&#34;&gt;Suka Theme&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;整合一下看到的&lt;a href=&#34;https://zhuanlan.zhihu.com/p/35270383&#34;&gt;图床&lt;/a&gt; :
-&lt;ul&gt;
-&lt;li&gt;堆爱图床&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;img.duiai.cc/tc/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;SM.MS图床&lt;a href=&#34;https://dfslfh.cn/blog//sm.ms/&#34;&gt;sm.ms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;聚合图床&lt;a href=&#34;https://dfslfh.cn/blog//www.superbed.cn&#34;&gt;superbed.cn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;堆爱图床&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;img.duiai.cc/tc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;拓展阅读：https://www.jianshu.com/p/ea1eb11db63f&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;表情：&lt;a href=&#34;https://www.webfx.com/tools/emoji-cheat-sheet/&#34;&gt;Emoji&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+                    <description>&lt;p&gt;记录整理了我所知道博客的一切, 包括 &lt;strong&gt;图片 / 字体&lt;/strong&gt; 的获取, 存储, 优化思路, 涉及到的博客有 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;为什么写文章?&lt;/p&gt;
+&lt;p&gt;写文? 记录? 装X?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;“和我的老朋友沟通——夏梦雪，高考后她就在我的生活很少出现了，买了新的手机和电脑，我把时间花在PS和拍摄上，我得承认，很长的一段时间我淡忘了她，但其实我有断断续续写些信件，因为难免很想她。像拾穗人一样，生活之外的写作是自己拙劣的尝试，是我尝试去和世界沟通，和夏梦雪沟通的方式。当希望表露自己时，当想和夏梦雪说话的时候，就敲下一段文字，所以有了些文字。”&lt;/p&gt;
-&lt;p&gt;“少了朋友圈可有可无的唠叨，多了反复删改的文字。浪费时间在博客上可能是我消磨时间的方式，也许我该远离这样的囚笼，到夏梦雪那里透透气的时刻。沟通自然包括情感、思想、行为，不可避免地会携有我的生活气息，写下来自然也是我的私心，我不希望有些事情就这样过去，也希望他们暴露在阳光下，想被其他人读到，所谓留给后人些什么，至少是留给自己什么。”&lt;/p&gt;
-&lt;p&gt;“但是我也会克制这一切的发生，在正式的文章开始后会避免涉及自己主观情感。“&lt;/p&gt;
-&lt;p&gt;&amp;quot;博客就好像写日记，如今日记的纸张已经用了好大一部分了，总不能每一页都相同吧？也该去看看更加广阔的世界。但其实现在的我决定有一样东西不会变，且永远不会改变，我会持续给你写信的，夏梦雪，如果可以，请别生我气，好久不见！”&lt;/p&gt;
-&lt;h2 id=&#34;hexo-logs&#34;&gt;Hexo Logs&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;19年12月23日&lt;/strong&gt;&lt;/font&gt;：搭博客，效果可，Bugs多(Hexo本地文件的损坏、themes的主题配置失败、themes的主题内部Wrap函数错误)，不明所以，干掉重来。&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我的那位朋友叫夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 最近她越来越少出现了, 同时, 她也带走了我自我的一部分, 我明显的感到自己失去了什么, 但是无可挽回. 高考后我买了新手机和梦寐以求的电脑, 并把时间全数花在PS和拍摄上, 不得不承认, 很长的一段时间我淡忘了她，断断续续写的信件得不到回应，难免很想她.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来自然是我的私心, 我不希望有些事情就这样过去, 也希望他们暴露在阳光下, 想被一样的人读到, 减少个体的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;批注&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;博客就像日记，如果你发现用于记录的纸张已经用了好大一部分了, 但每一页几乎都相同, 那么你就该去看看更加广阔的世界了。如果顺利的话, 期待下次与你的 &amp;quot;好久不见&amp;quot; !&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年01月13日&lt;/strong&gt;&lt;/font&gt;：电源崩，修五天……至此偷闲，买VPS-ESC，装服务器，Bugs多(如上传图片失败，WordPress服务器要死的样子，知识不足以至不敢大刀阔斧改动)，花两天，猜测备案系于安全连接，重装见好再崩(•́へ•́╬)，遂备案&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月03日&lt;/strong&gt;&lt;/font&gt;：略解Html&amp;amp;CSS，得神力，改主题，习算法，看数据结构。买域名(.cc)，提日程（VPN），念历，惭愧。而于昨日又再封，机场倒半，加之Hexo无法解析过深Markdown，长叹难矣难矣。ψ(*｀ー´)ψ&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月14日&lt;/strong&gt;&lt;/font&gt;：因Google放弃Coding托管博客。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月19日&lt;/strong&gt;&lt;/font&gt;：高三想法达成，有了第一个404！！！&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月02日&lt;/strong&gt;&lt;/font&gt;：新主题（&lt;a href=&#34;https://github.com/aircloud&#34;&gt;作者&lt;/a&gt;），加&lt;a href=&#34;https://lfhdfs.disqus.com/admin/install/platforms/universalcode/&#34;&gt;disqus&lt;/a&gt;未遂，下次下次！！！&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月17日&lt;/strong&gt;&lt;/font&gt;：重撰文，大道从简。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月20日&lt;/strong&gt;&lt;/font&gt;：再备案。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月28日&lt;/strong&gt;&lt;/font&gt;：解重写文章之艰，明妙笔之艰，遂推计划。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年05月01日&lt;/strong&gt;&lt;/font&gt;：偷闲更新一下文章，总结简单几点：1、不记录个人情绪以及解决过程的感受，保证整体清晰简短。 2、工作日不更新文章但是记录日志，汇集到每周末再做整理。3、多读书。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月02日&lt;/strong&gt;&lt;/font&gt;：找到其他的替代博客，可是大多数被墙。&lt;/p&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;logs&#34;&gt;LOGS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;b&gt;19年12月23日&lt;/b&gt;&lt;/font&gt;：搭博客，效果可，Bugs多(Hexo本地文件的损坏、themes的主题配置失败、themes的主题内部Wrap函数错误)，不明所以，干掉重来。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年01月13日&lt;/strong&gt;&lt;/font&gt;：电源崩，修五天……至此偷闲，买VPS-ESC，装服务器，Bugs多(如上传图片失败，WordPress服务器要死的样子，知识不足以至不敢大刀阔斧改动)，花两天，猜测备案系于安全连接，重装见好再崩(•́へ•́╬)，遂备案&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月03日&lt;/strong&gt;&lt;/font&gt;：略解Html&amp;amp;CSS，得神力，改主题，习算法，看数据结构。买域名(.cc)，提日程（VPN），念历，惭愧。而于昨日又再封，机场倒半，加之Hexo无法解析过深Markdown，长叹难矣难矣。ψ(*｀ー´)ψ&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月14日&lt;/strong&gt;&lt;/font&gt;：因Google放弃Coding托管博客。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年02月19日&lt;/strong&gt;&lt;/font&gt;：高三想法达成，有了第一个404！！！&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月02日&lt;/strong&gt;&lt;/font&gt;：新主题（&lt;a href=&#34;https://github.com/aircloud&#34;&gt;作者&lt;/a&gt;），加&lt;a href=&#34;https://lfhdfs.disqus.com/admin/install/platforms/universalcode/&#34;&gt;disqus&lt;/a&gt;未遂，下次下次！！！&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月17日&lt;/strong&gt;&lt;/font&gt;：重撰文，大道从简。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月20日&lt;/strong&gt;&lt;/font&gt;：再备案。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年04月28日&lt;/strong&gt;&lt;/font&gt;：解重写文章之艰，明妙笔之艰，遂推计划。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年05月01日&lt;/strong&gt;&lt;/font&gt;：偷闲更新一下文章，总结简单几点：1、不记录个人情绪以及解决过程的感受，保证整体清晰简短。 2、工作日不更新文章但是记录日志，汇集到每周末再做整理。3、多读书。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月02日&lt;/strong&gt;&lt;/font&gt;：找到其他的替代博客，可是大多数被墙。
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Google Site&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Blogger&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Blogspot&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月13日&lt;/strong&gt;&lt;/font&gt;：换成Wiki类主题，修改若干。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年09月01日&lt;/strong&gt;&lt;/font&gt;：放弃Hexo类静态博客, 转Github。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;21年01月12日&lt;/strong&gt;&lt;/font&gt;:   注销备案, 开始转移Hugo.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月13日&lt;/strong&gt;&lt;/font&gt;：换成Wiki类主题，修改若干。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年09月01日&lt;/strong&gt;&lt;/font&gt;：放弃Hexo类静态博客, 转Github。&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;21年01月12日&lt;/strong&gt;&lt;/font&gt;:   注销备案, 开始转移Hugo, 不再想用学生特惠买的服务器了. 因为 &lt;del&gt;(没钱)&lt;/del&gt; 察觉自己也是浪费资源, 既没有办法全身心的维护服务器, 又在自动化层面做得不好. 与此同时, 我也失去了七牛云的图片加速服务. 为了略表遗憾, &amp;quot;稳定第一, 稳定第一&amp;quot;. 我如是说.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本网站是个人网站，不含有企业、单位等非个人网站的信息，不涉及企业及互联网金融内容，若在核实中发现网站中含有企业、单位等信息，本人愿接受以虚假信息进行备案，注销网站，并将主体和域名加入黑名单的处罚。我的网站内容是：记录自己学习服务器过程中遇到的问题与相应的解决办法，上传个人编写的文章，图片，内容基本为原创。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;自2020年4月20日, 我再一次地注销了个人备案, 不再想用学生特惠买的服务器了. 因为 &lt;del&gt;(没钱)&lt;/del&gt; 察觉自己也是浪费资源, 既没有办法全身心的维护服务器, 又在自动化层面做得不好. 与此同时, 我也失去了七牛云的图片加速服务. 为了略表遗憾, &amp;quot;稳定第一, 稳定第一&amp;quot;. 我如是说.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;搭建hexo-&#34;&gt;搭建Hexo 🔨&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;[前提]：&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hexo&#34;&gt;HEXO&lt;/h2&gt;
+&lt;p&gt;放弃Hexo类静态博客, 江湖路远, 有缘再见. 一款烂大街到游戏社区(小黑盒)都能看到这个博客的教程, 如果你的 Github 的Img不显示问题了，定是配置文件没写全(；′⌒`)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[准备]&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Git &amp;amp; Node.js。&lt;/li&gt;
 &lt;li&gt;Github仓库已有 &lt;code&gt;你的用户名+github.io&lt;/code&gt;的 &lt;code&gt;repository&lt;/code&gt;，部署到GitHub page的时候，可以被识别。添加一个&lt;code&gt;README&lt;/code&gt;，有好玩的。&lt;/li&gt;
@@ -12227,10 +11560,8 @@ git config user.email
 ssh-keygen -t rsa -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;youremail&amp;#34;&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/br&gt;
-&lt;p&gt;&lt;code&gt;C:\Users\用户\.ssh&lt;/code&gt;里面找到SSH的&lt;code&gt;id_rsa.pub&lt;/code&gt;, Linux下的目录是&lt;code&gt;~\.ssh&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;C:\Users\用户\.ssh&lt;/code&gt;里面找到SSH的&lt;code&gt;id_rsa.pub&lt;/code&gt;, Linux下的目录是&lt;code&gt;~\.ssh&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;id_rsa&lt;/code&gt;是你这台电脑的私人秘钥。把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据&lt;strong&gt;公钥匹配你的私钥&lt;/strong&gt;，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上，然后去个人设置里面加上SSH。之后打开二级域名就可以看到刚刚加的readme了。查看是否成功 ：&lt;/p&gt;
-&lt;/br&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -12268,15 +11599,17 @@ hexo deploy &lt;span class=&#34;c1&#34;&gt;#部署文章&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;之后就可以通过&lt;code&gt;http://yourname.github.io&lt;/code&gt;访问了。&lt;/p&gt;
-&lt;/br&gt;
-&lt;p&gt;&lt;strong&gt;[布局说明]:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hexo 有三种默认布局：&lt;code&gt;post&lt;/code&gt;、&lt;code&gt;page&lt;/code&gt; 和 &lt;code&gt;draft&lt;/code&gt;  ，它们分别对应不同的路径，而您自定义的其他布局和 &lt;code&gt;post&lt;/code&gt; 相同，都将储存到 &lt;code&gt;source/_posts&lt;/code&gt; 文件夹。&lt;/p&gt;
-&lt;p&gt;**[路径]: **&lt;code&gt;postsource/_postspagesourcedraftsource/_drafts&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;而new这个命令其实是：&lt;code&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/code&gt;只不过这个layout默认是post罢了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[page]&lt;/strong&gt;：如果你想另起一页，那么可以使用&lt;code&gt;hexo new page board&lt;/code&gt;系统会自动给你在source文件夹下创建一个board文件夹，以及board文件夹中的index.md，这样你访问的board对应的链接就是&lt;code&gt;http://xxx.xxx/board&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[draft]&lt;/strong&gt;：draft是草稿的意思，也就是你如果想写文章，又不希望被看到，那么可以&lt;code&gt;hexo new draft newpage&lt;/code&gt;这样会在source/_draft中新建一个newpage.md文件，如果你的草稿文件写的过程中，想要预览一下，那么可以使用&lt;code&gt;hexo server --draft&lt;/code&gt;在本地端口中开启服务预览。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[布局说明]:&lt;/strong&gt; Hexo 有三种默认布局：&lt;code&gt;post&lt;/code&gt;、&lt;code&gt;page&lt;/code&gt; 和 &lt;code&gt;draft&lt;/code&gt;  ，它们分别对应不同的路径，而您自定义的其他布局和 &lt;code&gt;post&lt;/code&gt; 相同，都将储存到 &lt;code&gt;source/_posts&lt;/code&gt; 文件夹。&lt;/li&gt;
+&lt;li&gt;**[路径]: **&lt;code&gt;postsource/_postspagesourcedraftsource/_drafts&lt;/code&gt;. 而new这个命令其实是：&lt;code&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/code&gt;只不过这个layout默认是post罢了。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[page]&lt;/strong&gt;：如果你想另起一页，那么可以使用&lt;code&gt;hexo new page board&lt;/code&gt;系统会自动给你在source文件夹下创建一个board文件夹，以及board文件夹中的index.md，这样你访问的board对应的链接就是&lt;code&gt;http://xxx.xxx/board&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[draft]&lt;/strong&gt;：draft是草稿的意思，也就是你如果想写文章，又不希望被看到，那么可以&lt;code&gt;hexo new draft newpage&lt;/code&gt;这样会在source/_draft中新建一个newpage.md文件，如果你的草稿文件写的过程中，想要预览一下，那么可以使用&lt;code&gt;hexo server --draft&lt;/code&gt;在本地端口中开启服务预览。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;如果你的草稿文件写完了，想要发表到post中，&lt;code&gt;hexo publish draft newpage&lt;/code&gt;就会自动把newpage.md发送到post中。&lt;/p&gt;
-&lt;h2 id=&#34;coding部署-&#34;&gt;Coding部署 📋&lt;/h2&gt;
+&lt;h3 id=&#34;coding部署&#34;&gt;Coding部署&lt;/h3&gt;
 &lt;p&gt;去创建一个&lt;code&gt;DevOps&lt;/code&gt;项目，名称和地址和你的用户名一样，把上面的&lt;code&gt;SSH&lt;/code&gt;再次配置到你的设置里&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -12310,7 +11643,7 @@ hexo deploy &lt;span class=&#34;c1&#34;&gt;#部署文章&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;之后 &lt;code&gt;hexo clean&lt;/code&gt;  再&lt;code&gt;hexo g -d&lt;/code&gt; 部署到Coding上面。去构建与部署里面找到静态网站后开启就可以构建了，可以用这里的网址直接进行访问。&lt;/p&gt;
-&lt;h2 id=&#34;分流绑定域名-&#34;&gt;分流绑定域名 🔒&lt;/h2&gt;
+&lt;h3 id=&#34;分流绑定域名&#34;&gt;分流绑定域名&lt;/h3&gt;
 &lt;p&gt;首先绑定GitHub的，去你的域名控制台，添加域名是&lt;code&gt;@&lt;/code&gt;和&lt;code&gt;www&lt;/code&gt;的双&lt;code&gt;CNAME&lt;/code&gt;记录类型，然后解析线路选择海外。以下列举&lt;strong&gt;域名解析记录&lt;/strong&gt;的不同区别:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;A记录：将域名指向一个IPv4地址（例如：10.10.10.10）&lt;/li&gt;
@@ -12323,24 +11656,338 @@ hexo deploy &lt;span class=&#34;c1&#34;&gt;#部署文章&lt;/span&gt;
 &lt;/ol&gt;
 &lt;p&gt;添加完解析之后去github上面绑定域名，在项目的设置里。之后在&lt;code&gt;sourse&lt;/code&gt;里面创建一个CNAME的文件，类型是无，记事本把域名抄进去，防止域名以后部署的丢失。之前翻墙看自己的博客是真的快……&lt;/p&gt;
 &lt;p&gt;然后是Coding，添加域名是&lt;code&gt;@&lt;/code&gt;和&lt;code&gt;www&lt;/code&gt;的双&lt;code&gt;CNAME&lt;/code&gt;记录类型，然后解析线路选择默认，添加解析即可。访问速度那是嗖嗖的。&lt;/p&gt;
-&lt;h2 id=&#34;setting&#34;&gt;Setting&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;[config.yml]&lt;/strong&gt;：参照&lt;a href=&#34;https://hexo.io/zh-cn/docs/configuration&#34;&gt;官方&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[主题修改]&lt;/strong&gt;：参照&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;官方&lt;/a&gt;操作。&lt;/p&gt;
-&lt;h2 id=&#34;qa&#34;&gt;Q&amp;amp;A&lt;/h2&gt;
-&lt;h3 id=&#34;放弃coding为博客代理&#34;&gt;放弃Coding为博客代理&lt;/h3&gt;
+&lt;h3 id=&#34;setting&#34;&gt;Setting&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[config.yml]&lt;/strong&gt;：参照&lt;a href=&#34;https://hexo.io/zh-cn/docs/configuration&#34;&gt;官方&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[主题修改]&lt;/strong&gt;：参照&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;官方&lt;/a&gt;操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;qa&#34;&gt;Q&amp;amp;A&lt;/h3&gt;
+&lt;h4 id=&#34;放弃coding为博客代理&#34;&gt;放弃Coding为博客代理&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;与CODING其它产品不同的是，Pages产品服务器设置在境外，原因涉及国内ICP备案、DDOS攻击等众所周知的原因。您在访问时可能会遇到段在中断、高延时等情况。近期，我们已接报了多例同类问题。我们的技术部门已经着手在基础架构、网络环境等方面进行改进，以提升Pages产品的可用性。给您带来不便，我代表CODING产品团队向您表示歉意。希望您对Pages这一业务的特殊性给予一定的理解.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;自从Pull了一篇维基百科的文章后，访问十分不稳定。原因自然不必我多说，既然是墙内的网站，就一定会有内容审查机制，包括我自己的博客，不知道我的主网站提及科学上网和GFW会不会波及到（已经备案），如果波及到的话，我只能选择购买国外VPS了。如果你到Coding还是半信半疑的话，随便上Coding的反馈区看看就可以知道，虽然访问速度十分快，但是还是会被监管，有强迫症的自己有点受不了。&lt;/p&gt;
-&lt;/br&gt;
-&lt;h3 id=&#34;本地浏览和github代理网页打开不一&#34;&gt;本地浏览和Github代理网页打开不一&lt;/h3&gt;
+&lt;h4 id=&#34;本地浏览和github代理网页打开不一&#34;&gt;本地浏览和Github代理网页打开不一&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;[Exp]：&lt;/strong&gt; 尽量整有源码的东西！&lt;/p&gt;
 &lt;p&gt;问题定位在HTML文件的目录书写错误，不太理解网页托管和文件目录索引的PY关系，留Flag！&lt;/p&gt;
-&lt;/br&gt;
-&lt;h3 id=&#34;取消toc的自动排序-&#34;&gt;取消TOC的自动排序 😤&lt;/h3&gt;
+&lt;h4 id=&#34;取消toc的自动排序&#34;&gt;取消TOC的自动排序&lt;/h4&gt;
 &lt;p&gt;找到布局里面的&lt;code&gt;ejs&lt;/code&gt;文件，一般在&lt;code&gt;post&lt;/code&gt;里面，找到&lt;code&gt;&amp;lt;%- toc(post.content) %&amp;gt;&lt;/code&gt;改成&lt;code&gt;&amp;lt;%- toc(post.content, {list_number: false}) %&amp;gt;&lt;/code&gt;。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;暂时就到……&lt;/p&gt;</description>
+&lt;h3 id=&#34;美化&#34;&gt;美化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;推荐一个主题:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://theme-suka.skk.moe/docs/&#34;&gt;Suka Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wordpress&#34;&gt;WORDPRESS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：无法上传图片，提示信息“无法创建目录”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：&lt;font color=&#34;grey&#34;&gt;方法一：定位&lt;code&gt;wordpress/wp-contect/uploads&lt;/code&gt;的文件夹，更改权限为&lt;code&gt;777&lt;/code&gt;.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;方法二：参考下述修改用户属性的的方法。（安全）&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：填写主机名称，无法进行下一步操作&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：  &lt;font color=&#34;grey&#34;&gt;方法一：填写&lt;code&gt;localhost&lt;/code&gt;或者&lt;code&gt;www.yoursite.com&lt;/code&gt;.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;方法二： 修改wp-config.php文件（来自老蒋部落） &lt;/font&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;FS_METHOD&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;direct&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
+&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;FS_CHMOD_DIR&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;0777&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
+&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;FS_CHMOD_FILE&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mo&#34;&gt;0777&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Q：发布失败。错误信息：此响应不是合法的JSON响应。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：在写文章的时候出现的Bug，目前定位是WordPress的5.0版本和 Gutenberg古腾堡编辑器 有点不兼容。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;一种是禁用Gutenberg古腾堡编辑器，然后有插件禁用和代码禁用。代码禁用的话是在主题的 functions.php 文件添加下面的代码：&lt;/font&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//Wordpress 5.0+ 禁用 Gutenberg 编辑器
+add_filter(&#39;use_block_editor_for_post&#39;, &#39;__return_false&#39;);
+remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_styles&#39; );
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;插件禁用的话是下载Classic Editor的编辑器即可。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt; 另外一种是继续使用Gutenberg古腾堡编辑器，但是方法还没找到，听说是因为网站没有配置&lt;a href=&#34;https://baike.baidu.com/item/%E4%BC%AA%E9%9D%99%E6%80%81&#34;&gt;伪静态&lt;/a&gt;的原因，于是自己又跑去配置伪静态，顺便百科、维基了一下。&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：woc，WordPress官网那么垃圾我怎么才能从官网索取主题以及插件呢？？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：直接去插件和主题的控制面板搜&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgchr.com/i/3ioI1J&#34;&gt;&lt;img src=&#34;https://s2.ax1x.com/2020/02/18/3ioI1J.th.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Q: 文章粘过来发现不支持Markdown&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：去搜&lt;code&gt; WP Githuber MD&lt;/code&gt;插件，网上一边倒另一款编辑器&lt;code&gt;[WP Editor.md &lt;/code&gt;但是不可用果断放弃。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;但是有一个缺点，就是如果字数太多的话，实时预览的速度会有点慢，我直接把它关掉了。&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：我的代码不可以高亮，怎么半？装什么代码高亮的插件到没有用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A： Markdown姿势，找到&lt;a href=&#34;https://terryl.in/en/highlight-js-html-code-language-list-for-syntax-highlighting/#how-it-works&#34;&gt;规范&lt;/a&gt;！&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：Warning: ftp fget() expects parameter 1 to be resource, null iven n w/wwmoot/www. dandelionflowers. xz/wordpress/p-admin/includes/class-wp-filesystem-ftpext. php on line 143&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：一般（插件&lt;code&gt;WPForms Lite&lt;/code&gt;）是WordPress不兼容报错，禁掉就好了。&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：Wordpress伪静态规则的配置以及原理？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;A：参考配置&lt;a href=&#34;https://themebetter.com/wp-url-rewrite.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;http://dreamkeeper.com.cn/2009/03/how-to-build-the-html-page-in-wordpress.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;https://www.uoo2.com/wordpress-rewriterule.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;https://www.cnblogs.com/zxlovenet/archive/2013/05/05/3061030.html&#34;&gt;伪静态规则&lt;/a&gt;，&lt;a href=&#34;https://www.likole.com/2019/12/nginx-%e9%9a%90%e8%97%8findex-php-%e4%bc%aa%e9%9d%99%e6%80%81%e8%a7%84%e5%88%99/&#34;&gt;伪静态隐藏&lt;/a&gt;。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;grey&#34;&gt;这个又和古腾堡编辑器的使用息息相关，留作日后开发使用。&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：WordPress 常使用的插件？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：&lt;a href=&#34;https://www.wpdaxue.com/recommend-wordpress-plugins.html&#34;&gt;爬了爬常用的插件：留作日后使用。&lt;/a&gt;：留作日后使用。&lt;/p&gt;
+&lt;p&gt;​	&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34314017&#34;&gt;插件&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q : 出现无法创建文件夹需要修改文件夹权限的问题&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：之前为了解决升级主题的缘故，所以将好多文件的权限改成了777(wp-content下的文件)，有的是644，有的是755，现在希望研习一下这个的修改的操作。&lt;/p&gt;
+&lt;p&gt;这里先贴出这样做的原因吧：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所有的人都可以来这里随便指点一下，随便来删除一下啊。 记得当初一个兄弟的遭遇：刚进一间公司不久，然后执行了一下删除命令，没想到把该公司的一个项目的所有上传的资源全部删掉了～悲催！此处先不讨论做该项目的人的部署问题。如果操作得当，大家都可以避免。既然可以在开始就避免，何乐而不为呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;出现无法创建目录的确是权限的问题，但是，不是目录读写的权限，而是用户组的问题。&lt;/strong&gt;（这里回去温习一下Linux的用户组知识……） **想要下载插件的用户组为web用户组，用户名组名为 www（ lnmp环境——ngnix.conf中第一行查看，可以用&lt;code&gt;locate nginx.conf&lt;/code&gt;的操作搜索一下） **&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.ax1x.com/2020/02/18/3FFaMn.png&#34; alt=&#34;3FFaMn.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;读写的权利全是&lt;code&gt;1006&lt;/code&gt;，自然不可以成功，所以目标是把读写权利交给&lt;code&gt;www&lt;/code&gt;.退出wordpress的目录运行&lt;code&gt; chown -R www:www wordpress&lt;/code&gt;,发现报错&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;chown:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;changing&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;ownership&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;of&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;‘wordpress/.user.ini’:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;Operation&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;not&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;permitted&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果你没有root账户，就是上面的情况：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;k&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;chown&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;www&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;wordpress&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;发现什么都没有，发现成了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s2.ax1x.com/2020/02/18/3FYJBV.png&#34; alt=&#34;3FYJBV.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(注意：还有一个版本，用户不是&lt;code&gt;www&lt;/code&gt;,而是&lt;code&gt;apache&lt;/code&gt;，这个我还没有搞清楚，留下坑日后再改，如果哪位知道还劳烦指点一下。)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q : 添加网络搜索引擎的索引&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：让自己的站点可以增加更多的曝光机会。在上面的危险操作完成之后就可以操作了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q : 备份自己的WordPress，腾挪更加方便&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：&lt;a href=&#34;https://www.wopus.org/wordpress-deepin/tech/1009.html&#34;&gt;方法&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q : 添加自己网站的留言板&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A：&lt;a href=&#34;https://www.boke8.net/wordpress-page-for-guestbook.html&#34;&gt;方法&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q:官网访问429&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A: WP-China-Yes 插件，&lt;a href=&#34;https://github.com/wp-china-yes/wp-china-yes&#34;&gt;Github&lt;/a&gt;源码&lt;/p&gt;
+&lt;p&gt;[参考]：https://www.imahui.com/resource/2326.html&lt;/p&gt;
+&lt;h2 id=&#34;typecho&#34;&gt;TYPECHO&lt;/h2&gt;
+&lt;p&gt;使用Markdown编辑器的时候可以选择性的插入Html代码, 插入的格式为:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;!!!
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;center&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Hello Typecho&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;center&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+!!!
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;hugo&#34;&gt;HUGO&lt;/h2&gt;
+&lt;p&gt;暂时没有值得记录的知识......&lt;/p&gt;
+&lt;h2 id=&#34;img-hosts&#34;&gt;IMG HOSTS&lt;/h2&gt;
+&lt;h3 id=&#34;public&#34;&gt;PUBLIC&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;堆爱&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//sm.ms/&#34;&gt;SM.MS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//www.superbed.cn&#34;&gt;聚合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgchr.com/&#34;&gt;路过&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;表情：&lt;a href=&#34;https://www.webfx.com/tools/emoji-cheat-sheet/&#34;&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pay&#34;&gt;PAY&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Oss:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Aliyun&lt;/code&gt; 唯一局限如下:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;third-party&#34;&gt;THIRD PARTY&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://upload.likeyunba.com/&#34;&gt;里客云 - 聚合图床&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://my.imgbed.org/&#34;&gt;My Img&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/Wikiworker&#34;&gt;@Wikiworker&lt;/a&gt; &lt;a href=&#34;https://v2ex.com/t/743502&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgbed.cn&#34;&gt;Img Bed&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/imgbed&#34;&gt;@imgbed&lt;/a&gt;/&lt;a href=&#34;https://www.v2ex.com/member/OldActorsSmile&#34;&gt;@OldActorsSmile&lt;/a&gt;  &lt;a href=&#34;https://www.v2ex.com/t/716071&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Molunerfinn/PicGo&#34;&gt;Picgo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;compression&#34;&gt;COMPRESSION&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Webp
+&lt;ul&gt;
+&lt;li&gt;Industrution&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Downolad&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install webp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;Wallhaven&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pixiv.net/&#34;&gt;Pixiv （18年关被墙/同人、插画）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.netbian.com/&#34;&gt;彼岸桌面（已备）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cgwallpapers.com/&#34;&gt;CG Wallpaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/t/wallpapers&#34;&gt;https://unsplash.com/t/wallpapers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.desktopnexus.com/&#34;&gt;Desktop Nexus&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wallpaperim.net/&#34;&gt;WallPaperim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pexels.com/&#34;&gt;pexels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iconfont.cn/&#34;&gt;iconfont&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.60logo.com/&#34;&gt;60logo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://draw.io/&#34;&gt;draw.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.processon.com/&#34;&gt;processon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://carbon.now.sh/&#34;&gt;carbon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ctimbai/awesome-things/blob/master/remove.bg&#34;&gt;抠图神器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://818ps.com/&#34;&gt;图怪兽&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yasuotu.com/shuiyin&#34;&gt;压缩图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fonts.net.cn/&#34;&gt;字体天下&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://topology.le5le.com/&#34;&gt;topology&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;font&#34;&gt;FONT&lt;/h2&gt;
+&lt;p&gt;**微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了微软雅黑(方正兰亭黑), **微软公司只拥有微软雅黑的使用权，而真正的版权在方正手中。&lt;/p&gt;
+&lt;p&gt;我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为，都属于侵权行为，同时在Windows系统下，商业行为也不被允许，包括网页设计中，主动调用微软雅黑字体（用户显示中将默认字体转换为微软雅黑属于用户行为，不归类为侵权），更不可以以图片的形式在网页中用到微软雅黑！&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;free-font&#34;&gt;FREE FONT&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;方正黑体&lt;/li&gt;
+&lt;li&gt;方正楷体&lt;/li&gt;
+&lt;li&gt;方正书宋&lt;/li&gt;
+&lt;li&gt;方正仿宋&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;庞门正道标题体&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;思源字体&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;王漢宗自由字型48款&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文泉驿字体&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;站酷字体&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;recommend&#34;&gt;RECOMMEND&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/specimen/Press+Start+2P#standard-styles&#34;&gt;Press Start 2P&lt;/a&gt;: 一个像素风格的字体.&lt;/li&gt;
+&lt;li&gt;Lato Regular&lt;/li&gt;
+&lt;li&gt;华文黑体&lt;/li&gt;
+&lt;li&gt;Lato light&lt;/li&gt;
+&lt;li&gt;思源黑体旧字形Extralight&lt;/li&gt;
+&lt;li&gt;mono...&lt;/li&gt;
+&lt;li&gt;Yu Gothic UI&lt;/li&gt;
+&lt;li&gt;Verdana&lt;/li&gt;
+&lt;li&gt;Roboto Slab&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;size&#34;&gt;Size&lt;/h3&gt;
+&lt;p&gt;Word 中对字体的大小同时采用了两种不同的度量单位, 在Autocad中，我们用“字高”来作为文字的度量单位，CAD中的“字高”的数值约等于字体的实际高度。在WORD中，1磅&lt;a href=&#34;https://baike.baidu.com/item/%E7%BA%A6%E7%AD%89%E4%BA%8E/4888813&#34;&gt;约等于&lt;/a&gt;0.35毫米，即一个10磅的文字，其高度约等于3.5毫米, 参考表如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;磅（1-1638）&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;字号&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;42&lt;/td&gt;
+&lt;td&gt;初号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;36&lt;/td&gt;
+&lt;td&gt;小初&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;一号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;小一号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;二号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;小二号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;三号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;小三号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;四号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;小四号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10.5&lt;/td&gt;
+&lt;td&gt;五号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;小五号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7.5&lt;/td&gt;
+&lt;td&gt;六号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6.5&lt;/td&gt;
+&lt;td&gt;小六号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5.5&lt;/td&gt;
+&lt;td&gt;七号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;八号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;microsoft-yahei&#34;&gt;Microsoft YaHei&lt;/h3&gt;
+&lt;p&gt;微软雅黑默认状态下部分字符显示为日文字符, 如&lt;code&gt;门&lt;/code&gt;就会显示 &#39;中间一竖的&lt;code&gt;门&lt;/code&gt;&#39;. 纠正方法换字体 --&lt;code&gt;文泉译米&lt;/code&gt; 即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/japan-men.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Profromence differences are related with &lt;a href=&#34;https://en.wikipedia.org/wiki/CJK_Unified_Ideographs&#34;&gt;&lt;strong&gt;CJK Unified Ideographs&lt;/strong&gt;&lt;/a&gt;, and relating to &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_CJK_fonts&#34;&gt;CJK Font&lt;/a&gt;. And Some Font display the Japan Font as default pattern, such this &lt;code&gt;Mircosoft YaHei&lt;/code&gt; in ubuntu when the sys encoding is &lt;code&gt;US_Utf-8&lt;/code&gt;, but why the window is not such situation?&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. Some more details &lt;a href=&#34;https://www.unicode.org/faq/han_cjk.html&#34;&gt;FAQ&lt;/a&gt; with it. By th way, Japan encodes CIJ and Chinese encodes GB.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html &lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://developers.google.com/speed/webp&lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
+&lt;div id=&#34;j4&#34;&gt;[4]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;
+&lt;div id=&#34;j5&#34;&gt;[5]. https://zhuanlan.zhihu.com/p/49049779 &lt;/div&gt;
+&lt;div id=&#34;j6&#34;&gt;[6].  http://jedi.org/opera/FontTest/&lt;/div&gt;</description>
                 
                 
                 
