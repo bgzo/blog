@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 21 Feb 2021 02:16:40 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 24 Feb 2021 00:42:21 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
         
             <item>
                 <title>Musics Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2021-02-20-musics-notes/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-02-20-musics-notes/</guid>
+                <link>https://dfslfh.cn/blog/posts/210220-musics-notes/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210220-musics-notes/</guid>
                 <pubDate>Sat, 20 Feb 2021 15:21:55 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -104,8 +104,8 @@
         
             <item>
                 <title>Book Format Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-30-book-summary/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-30-book-summary/</guid>
+                <link>https://dfslfh.cn/blog/posts/210130-book-summary/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210130-book-summary/</guid>
                 <pubDate>Sat, 30 Jan 2021 15:58:30 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -115,9 +115,9 @@
                     <description>&lt;p&gt;总结一下获取书的格式与区别, 整理总结心得.&lt;/p&gt;
 &lt;h2 id=&#34;format-格式&#34;&gt;FORMAT 格式&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 利用 PDF文档的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权, 一般存在于低专版本Acrobat 生成的pdf文件中, 9.0后漏洞消失. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 利用 PDF文档的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权, 一般存在于低专版本Acrobat 生成的pdf文件中, 9.0后漏洞消失. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
 &lt;li&gt;口令无法解除&lt;/li&gt;
 &lt;li&gt;编辑限制可以&lt;/li&gt;
@@ -139,14 +139,14 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: 本质是 &lt;code&gt;KF8&lt;/code&gt;(2011), 填补了 &lt;code&gt;Mobi&lt;/code&gt;  对于复杂排版支持的缺陷，支持很多 HTML5（目前尚不支持 HTML5 的视频和音频标签）和 CSS3 的语法，这就大大改善了原来 mobi 或 azw 内容排版上的一些缺陷，单纯从读者的角度来讲，是不输 epub 格式的。目前从 Amazon 购买的书，大部分已经是 azw3  格式了，而以前主流的 mobi 格式则越来越少，它正逐渐取代 mobi 成为 Kindle 电子书的主流格式。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
 &lt;blockquote&gt;
 &lt;p&gt;EPUB（Electronic Publication 的缩写，电子出版）是一种电子图书标准，由国际数字出版论坛（IDPF）提出；其中包括 3 种文件格式标准（文件的附文件名为 .epub），这个格式已取代了先前的 Open eBook 开放电子书标准。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
 - pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
-- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-30-book-summary/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;convert-转化&#34;&gt;CONVERT 转化&lt;/h2&gt;
 &lt;ul&gt;
@@ -191,8 +191,8 @@
         
             <item>
                 <title>Database Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-27-database-notes/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-27-database-notes/</guid>
+                <link>https://dfslfh.cn/blog/posts/210127-database-notes/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210127-database-notes/</guid>
                 <pubDate>Thu, 28 Jan 2021 17:39:35 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -734,8 +734,8 @@ user当前连接用户&lt;/p&gt;
         
             <item>
                 <title>GTD Time Manage</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-26-gtd-time-manage/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-26-gtd-time-manage/</guid>
+                <link>https://dfslfh.cn/blog/posts/210126-gtd-time-manage/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210126-gtd-time-manage/</guid>
                 <pubDate>Tue, 26 Jan 2021 19:57:30 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -795,7 +795,7 @@ user当前连接用户&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/gtd-thing-to-do-line-full.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;组织（Organize）&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;回顾（Reflect）&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-gtd-time-manage/#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;回顾（Reflect）&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210126-gtd-time-manage/#1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
 &lt;li&gt;从收集箱出去的项目永远不要再放回收集箱。&lt;/li&gt;
 &lt;li&gt;项目清单中的事项需要你主动将其拆解，步骤，并为其谋划执行方案，把大项目拆解成小步骤，并分解到其他清单当中。&lt;/li&gt;
@@ -836,8 +836,8 @@ user当前连接用户&lt;/p&gt;
         
             <item>
                 <title>Open Source Licence</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/</guid>
+                <link>https://dfslfh.cn/blog/posts/210126-open-source-licence/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210126-open-source-licence/</guid>
                 <pubDate>Tue, 26 Jan 2021 16:50:29 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -865,7 +865,7 @@ user当前连接用户&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;使用协议的产品&#34;&gt;使用协议的产品&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;我下载了apache的一个jar包, 在我自己的盈利性公司的产品里用上了&lt;/strong&gt;. 我没有更改任何下载下来的东西, 只是用了它. 之后我可以发布我自己的新产品了. 那么我要向apache交费么？&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我下载了apache的一个jar包, 在我自己的盈利性公司的产品里用上了&lt;/strong&gt;. 我没有更改任何下载下来的东西, 只是用了它. 之后我可以发布我自己的新产品了. 那么我要向apache交费么？&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210126-open-source-licence/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt;  可以商用不需要交费. 要带license. &lt;strong&gt;作者有权利控告你&lt;/strong&gt;, 虽然&lt;strong&gt;你有使用权, 然而你没有拥有权&lt;/strong&gt;, &lt;strong&gt;你必须在你的产品中注明第三方的代码来源&lt;/strong&gt;；另外, 虽然&lt;strong&gt;你有商业使用权, 然而你无法阻止别人使用相同的源码&lt;/strong&gt;（包括原作者）&lt;/p&gt;
 &lt;ul&gt;
@@ -889,7 +889,7 @@ user当前连接用户&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;创作共用许可证&lt;/strong&gt;, 则是在两个极端之间. 它&lt;strong&gt;只保留几种了权利&lt;/strong&gt;（some rights reserved）, &lt;strong&gt;除此以外的权利全部放弃&lt;/strong&gt;. 当你在网上（或者其他地方）发布自己的作品时, 如果允许他人自由使用, 那么最好选择一种许可证一起发布. 因为,  **如果你不同时发布许可证的话, 根据版权法, 你的作品就拥有完全的版权, 默认保留所有权利, 即便这不是你的意愿. ** 从小处说, 这阻碍了作品的传播. 从大处说, 这限制了他人的自由, 最终也会限制你自己的自由. 所以, 尽可能为作品选择一种许可证一起发布, 这是很重要的.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;基本权利baseline-rights&#34;&gt;基本权利（Baseline Rights）&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;一旦选择了一种许可证, 并且公开发布以后, 就不能够收回了&lt;/strong&gt;. 这个许可证在整个&lt;a href=&#34;http://www.ruanyifeng.com/blog/2007/06/history_of_copyright_term_extension_part_i.html&#34;&gt;版权保护期&lt;/a&gt;内, 对全世界的使用者都是有效的.  对应不同的司法管辖区, 创作共用许可证有不同的地区版本. 另外, 创作共用许可证一直在修订, 最新的是4.0版, 但是一部分地区还在使用3.0版. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一旦选择了一种许可证, 并且公开发布以后, 就不能够收回了&lt;/strong&gt;. 这个许可证在整个&lt;a href=&#34;http://www.ruanyifeng.com/blog/2007/06/history_of_copyright_term_extension_part_i.html&#34;&gt;版权保护期&lt;/a&gt;内, 对全世界的使用者都是有效的.  对应不同的司法管辖区, 创作共用许可证有不同的地区版本. 另外, 创作共用许可证一直在修订, 最新的是4.0版, 但是一部分地区还在使用3.0版. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210126-open-source-licence/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;下面这些权利是你自动让渡给使用者的：
 &lt;ul&gt;
@@ -942,7 +942,7 @@ user当前连接用户&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;lgpl&#34;&gt;LGPL&lt;/h2&gt;
 &lt;p&gt;即GNU Lesser General Public License. 是GPL的一个为主要为类库使用设计的开源协议.&lt;/p&gt;
-&lt;p&gt;主要区别在于&lt;strong&gt;LGPL允许将作品与非（L）GPL程序（如果是“使用”的库）链接在一起, 无论它是自由软件还是 专有软件&lt;/strong&gt;. 在LGPL 2.1中, 如果非（L）GPLed程序不是派生作品, 则可以按照任何条款进行分发.  如果是衍生作品, 则程序的条款必须允许“对作品进行修改以供客户自己使用, 并进行逆向工程以调试此类修改. ” 使用LGPL程序的作品是否为衍生作品是一个法律问题.  通过.so, .dll或类似媒体动态链接到库的独立可执行文件通常被认为不是LGPL定义的衍生作品.  它将属于“使用图书馆的作品”的定义.  LGPL 2.1版的第5段规定：&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;主要区别在于&lt;strong&gt;LGPL允许将作品与非（L）GPL程序（如果是“使用”的库）链接在一起, 无论它是自由软件还是 专有软件&lt;/strong&gt;. 在LGPL 2.1中, 如果非（L）GPLed程序不是派生作品, 则可以按照任何条款进行分发.  如果是衍生作品, 则程序的条款必须允许“对作品进行修改以供客户自己使用, 并进行逆向工程以调试此类修改. ” 使用LGPL程序的作品是否为衍生作品是一个法律问题.  通过.so, .dll或类似媒体动态链接到库的独立可执行文件通常被认为不是LGPL定义的衍生作品.  它将属于“使用图书馆的作品”的定义.  LGPL 2.1版的第5段规定：&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210126-open-source-licence/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A program that contains no derivative of any portion of the Library, but is designed to work with the Library by being compiled or linked with it, is called a &amp;quot;work that uses the Library&amp;quot;. Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -962,7 +962,7 @@ user当前连接用户&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;mpl&#34;&gt;MPL&lt;/h2&gt;
 &lt;p&gt;即 &lt;strong&gt;Mozilla Public License Mozilla&lt;/strong&gt; , 相较于 GPL 许可协议, MPL &lt;strong&gt;更加注重对开发者的源代码需求和收益之间的平衡&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;不受专利的限制，其可以自由使用，出售，并可自由的重新发布。带有专利代码的版本仍然可以使用，转让，甚至出售，但&lt;strong&gt;未经许可则不能修改代码&lt;/strong&gt;。此外，MPL并不授予用户对于开发者商标的使用权. 用户必须负担一些“责任”，主要是关于散发使用MPL许可的软件。用户必须确保重新散发的软件所有源代码均以MPL许可，即使是以可执行文件的方式提供或是与其他使用专有软件许可的源代码结合也一样。但若跟以GNU通用公共许可协议、GNU宽通用公共许可证、Affero通用公共许可证许可的源代码结合则是例外。此时开发者则可选用以上三种更加严格的条款来许可. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;不受专利的限制，其可以自由使用，出售，并可自由的重新发布。带有专利代码的版本仍然可以使用，转让，甚至出售，但&lt;strong&gt;未经许可则不能修改代码&lt;/strong&gt;。此外，MPL并不授予用户对于开发者商标的使用权. 用户必须负担一些“责任”，主要是关于散发使用MPL许可的软件。用户必须确保重新散发的软件所有源代码均以MPL许可，即使是以可执行文件的方式提供或是与其他使用专有软件许可的源代码结合也一样。但若跟以GNU通用公共许可协议、GNU宽通用公共许可证、Affero通用公共许可证许可的源代码结合则是例外。此时开发者则可选用以上三种更加严格的条款来许可. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210126-open-source-licence/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;mit&#34;&gt;MIT&lt;/h2&gt;
 &lt;p&gt;即 &lt;strong&gt;Massachusetts Institute of Technology&lt;/strong&gt;. 目前限制最少的开源许可协议之一, 只要程序的开发者在修改后的源代码中保留原作者的许可信息即可, 因此普遍被商业软件所使用.&lt;/p&gt;
 &lt;ol&gt;
@@ -976,7 +976,7 @@ user当前连接用户&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;其他重要特性&lt;/strong&gt;: 此许可协议并非属copyleft的自由软件许可协议条款，允许在自由及开放源代码软件或非自由软件（proprietary software）所使用。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;MIT的内容可依照程序著作权者的需求更改内容。此亦为MIT与BSD（The BSD license, 3-clause BSD license）本质上不同处。另外，MIT条款也是自由软件基金会（FSF）所认可的自由软件许可协议条款，与&lt;a href=&#34;https://zh.wikipedia.org/wiki/GPL&#34;&gt;GPL&lt;/a&gt;兼容。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-26-open-source-licence/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;MIT的内容可依照程序著作权者的需求更改内容。此亦为MIT与BSD（The BSD license, 3-clause BSD license）本质上不同处。另外，MIT条款也是自由软件基金会（FSF）所认可的自由软件许可协议条款，与&lt;a href=&#34;https://zh.wikipedia.org/wiki/GPL&#34;&gt;GPL&lt;/a&gt;兼容。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210126-open-source-licence/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
 &lt;div id =&#34;j1&#34;&gt;[1]. https://www.cnblogs.com/Renyi-Fan/p/8148658.html &lt;/div&gt;
 &lt;div id=&#34;j2&#34;&gt;[2]. http://www.ruanyifeng.com/blog/2008/04/creative_commons_licenses.html &lt;/div&gt;
@@ -1006,8 +1006,8 @@ user当前连接用户&lt;/p&gt;
         
             <item>
                 <title>Machine Learning Notes--Logistic regression</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes2/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes2/</guid>
+                <link>https://dfslfh.cn/blog/posts/210123-machine-learning-notes2/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210123-machine-learning-notes2/</guid>
                 <pubDate>Mon, 25 Jan 2021 00:23:50 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -1043,8 +1043,8 @@ user当前连接用户&lt;/p&gt;
         
             <item>
                 <title>Machine Learning Notes--Perceptron</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes1/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes1/</guid>
+                <link>https://dfslfh.cn/blog/posts/210123-machine-learning-notes1/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210123-machine-learning-notes1/</guid>
                 <pubDate>Fri, 22 Jan 2021 19:52:50 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -1063,7 +1063,7 @@ user当前连接用户&lt;/p&gt;
 &lt;li&gt;有&lt;strong&gt;足够的数据&lt;/strong&gt;可以帮助我们找出该模式&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;分类&#34;&gt;分类&lt;/h2&gt;
-&lt;p&gt;如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-23-machine-learning-notes1/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210123-machine-learning-notes1/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;监督式学习&lt;/strong&gt;
 &lt;ul&gt;
@@ -2867,15 +2867,15 @@ user当前连接用户&lt;/p&gt;
         
             <item>
                 <title>Stackover Cpp Top Questions Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/</guid>
+                <link>https://dfslfh.cn/blog/posts/210121-stackover-top-notes/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210121-stackover-top-notes/</guid>
                 <pubDate>Thu, 21 Jan 2021 14:31:44 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;问题皆来源于下面的两个链接&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-21-stackover-top-notes/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 本文做了部分的摘录, 感谢翻译：&lt;/p&gt;
+                    <description>&lt;p&gt;问题皆来源于下面的两个链接&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210121-stackover-top-notes/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 本文做了部分的摘录, 感谢翻译：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c?tab=Votes&lt;/a&gt;&lt;/li&gt;
@@ -4929,8 +4929,8 @@ sizeof(long long) &amp;gt;= 8
         
             <item>
                 <title>Photography Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-19-photography/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-19-photography/</guid>
+                <link>https://dfslfh.cn/blog/posts/210119-photography/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210119-photography/</guid>
                 <pubDate>Wed, 20 Jan 2021 21:58:28 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -5146,8 +5146,8 @@ sizeof(long long) &amp;gt;= 8
         
             <item>
                 <title>Ubuntu All in One</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/</guid>
+                <link>https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/</guid>
                 <pubDate>Tue, 19 Jan 2021 18:11:54 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -5442,7 +5442,7 @@ snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;APT-GET&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;对于低级操作, 仍然需要 apt-get.&lt;/p&gt;
-&lt;h3 id=&#34;deb-managesup4j45j5sup&#34;&gt;Deb Manage&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;deb-managesup4j45j5sup&#34;&gt;Deb Manage&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;shortcut&#34;&gt;SHORTCUT&lt;/h2&gt;
 &lt;h3 id=&#34;desktop-shortcut&#34;&gt;Desktop Shortcut&lt;/h3&gt;
 &lt;table&gt;
@@ -5724,7 +5724,7 @@ sudo update-initramfs -u &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/sp
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;touchpad&#34;&gt;Touchpad&lt;/h3&gt;
-&lt;p&gt;下面是一段脚本&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 保存&lt;code&gt;sh&lt;/code&gt;文件后运行.&lt;/p&gt;
+&lt;p&gt;下面是一段脚本&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 保存&lt;code&gt;sh&lt;/code&gt;文件后运行.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -6180,21 +6180,21 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
 &lt;/ul&gt;
 &lt;h2 id=&#34;beautify&#34;&gt;BEAUTIFY&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;窗口三金刚移左(14版本之后) &lt;code&gt;sudo  apt install gnome-tweaks&lt;/code&gt;+&lt;code&gt;gnome-tweaks&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gnome-look.org/&#34;&gt;Gnome-look&lt;/a&gt; + &lt;code&gt;~/.themes&lt;/code&gt; +&lt;code&gt;gsettings set org.gnome.desktop.interface gtk-theme &amp;quot;XXX&amp;quot;&lt;/code&gt; + &lt;code&gt;gsettings set org.gnome.desktop.wm.preferences theme &amp;quot;XXX&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Font&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;li&gt;三金刚左移(ubuntu-14+)&lt;code&gt;sudo apt install gnome-tweaks &amp;amp;&amp;amp; gnome-tweaks&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome-look.org/&#34;&gt;Gnome-look&lt;/a&gt;找到需要的主题素材包
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ln -s /Windowsdrive/Windows/Fonts /usr/share/fonts/WindowsFonts&lt;/code&gt; 将字体位置链接到你的 Linux 系统的字体文件夹&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fc-cache&lt;/code&gt; 重新生成 fontconfig 缓存&lt;/li&gt;
+&lt;li&gt;移动文件到 &lt;code&gt;~/.themes&lt;/code&gt; 即可.&lt;/li&gt;
+&lt;li&gt;亦可以用命令切换: &lt;code&gt;gsettings set org.gnome.desktop.interface gtk-theme &amp;quot;XXX&amp;quot;&lt;/code&gt; + &lt;code&gt;gsettings set org.gnome.desktop.wm.preferences theme &amp;quot;XXX&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Font&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;通用方法粘到 &lt;code&gt;/usr/share/fonts&lt;/code&gt; 后 &lt;code&gt;fc-cache&lt;/code&gt; 生成字体缓存 fontconfig.&lt;/li&gt;
+&lt;li&gt;双系统可以在挂载系统盘后链接到该路径, &lt;code&gt;ln -s /XXX(Windowsdrive)/Windows/Fonts /usr/share/fonts/WindowsFonts&lt;/code&gt; 将字体位置链接到 Linux 系统的字体文件夹后再生成字体缓存.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;desktop-iconsup3j3sup&#34;&gt;DESKTOP ICON&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-19-ubuntu-all-in-one/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;desktop-iconsup3j3sup&#34;&gt;DESKTOP ICON&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210119-ubuntu-all-in-one/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -6301,9 +6301,70 @@ $ vim Clash.desktop
             </item>
         
             <item>
+                <title>Galgame/ エロゲー</title>
+                <link>https://dfslfh.cn/blog/posts/galgame/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/galgame/</guid>
+                <pubDate>Mon, 18 Jan 2021 18:00:00 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;写&lt;code&gt;Gal&lt;/code&gt;是我自己的私心, 因为这件事并不能为我自己带来多少附加值/增值, 还容易给自己增加一个情色的不必要标签. 可能大部分关于这方面的讨论我们都把注意力聚焦在R18部分的内容, 当然一开始我接触&lt;code&gt;Gal&lt;/code&gt;的目的就是可以低成本的让身体产生多巴胺, 催产素, 达到催眠麻醉自己的作用.&lt;/p&gt;
+&lt;h2 id=&#34;galgame--エロゲー-&#34;&gt;GAlGAME / エロゲー 😊&lt;/h2&gt;
+&lt;p&gt;直到完稿后起标题的时还在犹豫这方面的知识是隶属于哪一部分, 是AVG? RPG? 还是纯Gal? 在我早期的记忆里是 &lt;code&gt;文字AVG&lt;/code&gt; , 因为往往游戏属性在简介里都有写, 但是考虑到弹丸论破等一些无色情内容优秀的AVG, 我决定题目高雅一些, 就用 &lt;code&gt;Interactive Fiction&lt;/code&gt;, 感觉老洋气了, 但还是觉得虚伪, 最后还是更名&lt;code&gt;色情游戏&lt;/code&gt;.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/galgame/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;网络世界并不太平, 网盘不断的炸链, 您浏览的内容不存在, 404, 404, 404 , 像是2020年留下的无数孩子, 用户一个接一个地被夹, 明天真的会更好吗? 我什么都做不了, 因为我本身并不具有权利? 但我能做的, 只有普通的记录......&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;即使现在的自己已不再需要这些过渡时期的作品带来的副作用, 但当自己的一部分被网络一次一次否定的时候, 就如猛浪般地在我本就不鲜活的记忆上来回冲刷, 我下意识地认为必须写下点什么, 必须把我知道的都记录下来.&lt;/p&gt;
+&lt;p&gt;时过境迁, 如果现在的你财力雄厚, 可以到 &lt;a href=&#34;https://www.dlsite.com/home/&#34;&gt;DLsite&lt;/a&gt; 这里找到一部分官方供给的支持方式.&lt;/p&gt;
+&lt;p&gt;有一段时间总是看到为汉化组打报不平的帖子, 评论区里吃瓜观众隔岸观火, 看两位作者左右撕扯, 好不痛快, 最后观众哗然而消散, 只剩一片死寂. 我对那些混乱的, 复杂的, 难堪的争论感到疲惫, 我不喜欢这样过分问候彼此家属的方式, 我想咒骂那些肮脏的, 从不回报的, 永远在伸手讨饭还出手打人的流氓, 我发誓不做这样的人:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv5275470/&#34;&gt;3月24日弥生月汉化组举报事件始末 我们究竟还要迫害为我们默默奉献的人多久&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/382070522/answer/1101695673&#34;&gt;如何评价b站up主终焉无脑韛-单推水巴到柚子社官推举报某汉化组, 导致汉化组终止原有计划并提前解散?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;......&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了不再忘记, 我暂时记录一下我知道的为数不多的汉化组. 不知道会不会引来危险, 暂复议.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;极影字幕组&lt;/li&gt;
+&lt;li&gt;澄空字幕组&lt;/li&gt;
+&lt;li&gt;动漫国字字幕组&lt;/li&gt;
+&lt;li&gt;默示汉化组&lt;/li&gt;
+&lt;li&gt;ACG汉化组&lt;/li&gt;
+&lt;li&gt;萌你妹汉化组&lt;/li&gt;
+&lt;li&gt;弥生月汉化组&lt;/li&gt;
+&lt;li&gt;独占汉化组&lt;/li&gt;
+&lt;li&gt;巴比伦汉化组&lt;/li&gt;
+&lt;li&gt;杏爱会&lt;/li&gt;
+&lt;li&gt;......&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://www.zhihu.com/question/286784507&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/gossip/">Gossip</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>My Earphone</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/</guid>
+                <link>https://dfslfh.cn/blog/posts/210118-my-earphone/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210118-my-earphone/</guid>
                 <pubDate>Mon, 18 Jan 2021 16:43:20 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -6340,7 +6401,7 @@ $ vim Clash.desktop
    &lt;tr&gt;
       &lt;td&gt;Xiaomi&lt;/td&gt;
       &lt;td&gt;Air2&lt;/td&gt;
-       &lt;td&gt;[骗钱+试探市场+已出] 音质没什么特点但很通透; 续航极差! 单耳机甚至在使用一年后连三小时都撑不过去, 盒子只能给两只耳机同时充1.5次电. 后期出现连续断连而不维护. 下面是Air2s的介绍页面&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Air2已消失&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/earphone-xiaomi-air2s.webp&#34; style=&#34;margin:0&#34; alt=&#34;air2s introduction img&#34;/&gt;&lt;/td&gt;
+       &lt;td&gt;[骗钱+试探市场+已出] 音质没什么特点但很通透; 续航极差! 单耳机甚至在使用一年后连三小时都撑不过去, 盒子只能给两只耳机同时充1.5次电. 后期出现连续断连而不维护. 下面是Air2s的介绍页面&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210118-my-earphone/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Air2已消失&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/earphone-xiaomi-air2s.webp&#34; style=&#34;margin:0&#34; alt=&#34;air2s introduction img&#34;/&gt;&lt;/td&gt;
    &lt;/tr&gt;
    &lt;tr&gt;
       &lt;td&gt;水月雨&lt;/td&gt;
@@ -6467,7 +6528,7 @@ $ vim Clash.desktop
 &lt;li&gt;&lt;strong&gt;D/A转换器&lt;/strong&gt;：数码音响产品(例如CD、DVD) 中将数字音频信号转换为模拟音频信号的装置。D/A转换器可以做成独立的机器，以配合CD转盘使用，此时常常称为解码器（DAC）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;降噪&#34;&gt;降噪&lt;/h3&gt;
-&lt;p&gt;四种降噪方式如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2021-01-18-my-earphone/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;四种降噪方式如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210118-my-earphone/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -6670,8 +6731,8 @@ $ vim Clash.desktop
         
             <item>
                 <title>End to End 端对端</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-17-end-to-end/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-17-end-to-end/</guid>
+                <link>https://dfslfh.cn/blog/posts/210117-end-to-end/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210117-end-to-end/</guid>
                 <pubDate>Sun, 17 Jan 2021 17:33:21 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -6721,8 +6782,8 @@ $ vim Clash.desktop
         
             <item>
                 <title>Why home address is prefixed with 192.168?</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-17-whats-192-168/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-17-whats-192-168/</guid>
+                <link>https://dfslfh.cn/blog/posts/210117-whats-192-168/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210117-whats-192-168/</guid>
                 <pubDate>Sun, 17 Jan 2021 14:44:52 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -6780,8 +6841,8 @@ $ vim Clash.desktop
         
             <item>
                 <title>我的404*5</title>
-                <link>https://dfslfh.cn/blog/posts/2021-01-01-my404-5/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2021-01-01-my404-5/</guid>
+                <link>https://dfslfh.cn/blog/posts/210101-my404-5/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210101-my404-5/</guid>
                 <pubDate>Fri, 01 Jan 2021 00:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -6796,11 +6857,10 @@ $ vim Clash.desktop
 &lt;/blockquote&gt;
 &lt;p&gt;因而时常产生如&lt;a href=&#34;https://music.163.com/#/artist?id=13223&#34;&gt;万青-&lt;/a&gt;&lt;a href=&#34;https://music.163.com/#/album?id=38306&#34;&gt;万能青年旅店 同名专辑&lt;/a&gt;中描述的那样子:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;......&lt;strong&gt;有时候像拳头打进了棉花，那种落空和被瞬间软化的悲哀，简直让人恨不得放弃所有的努力。&lt;/strong&gt;......&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有时候像拳头打进了棉花，那种落空和被瞬间软化的悲哀，简直让人恨不得放弃所有的努力。&lt;/strong&gt; &lt;br&gt;......&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这也许是因为&lt;strong&gt;我们的存在总是先于本质&lt;/strong&gt;, 而&lt;strong&gt;本质的本质并不一定就是虚无&lt;/strong&gt;, 当我们怀疑生活, 陷入虚无的时候, &lt;strong&gt;难道虚无本身不值得怀疑吗?&lt;/strong&gt; 虚无就一定是生命的本质吗? 彻底的怀疑主义是绝对不可取的, 我们总是钻在牛角尖里不肯出来, 所以我时常安慰自己面对虚无的一个态度就是找到不虚无的那面, 追寻它.&lt;/p&gt;
-&lt;p&gt;不管怎样, 现在的自己还不太敢松懈下来.&lt;/p&gt;
-&lt;br&gt;
+&lt;p&gt;不管怎样, 现在的自己还不太敢松懈下来.&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;我的收获&#34;&gt;我的收获&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -6924,24 +6984,6 @@ $ vim Clash.desktop
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;我的读书&#34;&gt;我的读书&lt;/h2&gt;
-&lt;p&gt;今年上半天才 Kindle 上这面支持了好几本书.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;《当鸟飞向它的山》&lt;/li&gt;
-&lt;li&gt;《请签收，您的星星》&lt;/li&gt;
-&lt;li&gt;《明朝那些事儿》&lt;/li&gt;
-&lt;li&gt;《网易云的故事》&lt;/li&gt;
-&lt;li&gt;《时光倒流的女孩》&lt;/li&gt;
-&lt;li&gt;《小王子》&lt;/li&gt;
-&lt;li&gt;《美丽新世界》&lt;/li&gt;
-&lt;li&gt;《尼尔波兹曼系列》&lt;/li&gt;
-&lt;li&gt;《西顿小说全集》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;也感谢以下网站给予我新的视角:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ctext.org/zh&#34;&gt;中国哲学书电子化计划&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;br&gt;
 &lt;h2 id=&#34;我要感谢的人平台&#34;&gt;我要感谢的人/平台&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/517327498/&#34;&gt;B站 - 罗翔&lt;/a&gt;&lt;/li&gt;
@@ -6959,72 +7001,6 @@ $ vim Clash.desktop
 &lt;li&gt;小黑盒&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;我的刷剧清单&#34;&gt;我的刷剧清单&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Animate 动漫&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.southparkstudios.com/&#34;&gt;南方公园&lt;/a&gt;&lt;/strong&gt; &lt;a href=&#34;http://www.rrys2020.com/resource/10490&#34;&gt;RR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;马男波杰克&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;瑞克和莫蒂&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;外星也难民&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;咒术回战&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ID:INVADED 异度入侵&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;寒蝉鸣泣之时&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;无能力者娜娜&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;隐瞒之事&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;龙与魔女&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;异种族风俗娘评鉴指南&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;转生成为了只有乙女游戏破灭Flag的邪恶大小姐&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;辉夜大小姐想让我告白？～天才们的恋爱头脑战～&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;我们真的学不来&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;在魔王城说晚安&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;无能的奈奈&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;潮与虎&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ｄｒ．ＳＴＯＮＥ 石纪元&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;我立于百万生命之上&lt;/li&gt;
-&lt;li&gt;星掠者&lt;/li&gt;
-&lt;li&gt;七龙珠&lt;/li&gt;
-&lt;li&gt;滑头鬼之孙&lt;/li&gt;
-&lt;li&gt;凡人修仙传&lt;/li&gt;
-&lt;li&gt;我不是教主&lt;/li&gt;
-&lt;li&gt;众神眷顾的男人&lt;/li&gt;
-&lt;li&gt;斗罗大陆&lt;/li&gt;
-&lt;li&gt;斗破苍穹&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Films 电影:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;芝加哥七人案&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;饮食男女&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hello World&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;钢琴师&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;养家之人&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;超脱&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;花木兰&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;剧集:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;怪奇物语&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;为了N&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;纪录片:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;关于性&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;监视资本主义&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;我爱你, 杀马特&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;梁老师的爱情课&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vox系列&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;上升：我们一起飞上3万米高空&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;博弈论&#34;&gt;博弈论&lt;/h2&gt;
 &lt;p&gt;专门研究多个独立个体之间的竞争行为（对抗行为）。在某些中文书籍里面，它又被称作“对策论 or 赛局理论”。&lt;/p&gt;
 &lt;h3 id=&#34;历史-history&#34;&gt;历史 HISTORY&lt;/h3&gt;
@@ -7265,8 +7241,8 @@ $ vim Clash.desktop
         
             <item>
                 <title>Kernel</title>
-                <link>https://dfslfh.cn/blog/posts/2020-12-05-kernel/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-12-05-kernel/</guid>
+                <link>https://dfslfh.cn/blog/posts/201205-kernel/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/201205-kernel/</guid>
                 <pubDate>Sat, 05 Dec 2020 00:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -7333,8 +7309,8 @@ $ vim Clash.desktop
         
             <item>
                 <title>Git Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2020-11-16-git/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-11-16-git/</guid>
+                <link>https://dfslfh.cn/blog/posts/201116-git/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/201116-git/</guid>
                 <pubDate>Fri, 06 Nov 2020 00:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8139,8 +8115,8 @@ git push origin :refs/tags/v0.9
         
             <item>
                 <title>Environment Config</title>
-                <link>https://dfslfh.cn/blog/posts/2020-10-16-envir_config/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-10-16-envir_config/</guid>
+                <link>https://dfslfh.cn/blog/posts/201016-envir_config/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/201016-envir_config/</guid>
                 <pubDate>Fri, 16 Oct 2020 14:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8258,8 +8234,8 @@ bin/jlink --module-path jmods --add-modules java.desktop --output jre &lt;span c
         
             <item>
                 <title>Electron</title>
-                <link>https://dfslfh.cn/blog/posts/2020-08-20-electron/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-08-20-electron/</guid>
+                <link>https://dfslfh.cn/blog/posts/200820-electron/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200820-electron/</guid>
                 <pubDate>Thu, 20 Aug 2020 19:35:43 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8335,11 +8311,11 @@ npm config delete proxy
 &lt;/div&gt;&lt;p&gt;从上面可以看出总是卡在 node install.js 的 download &lt;code&gt;electron-linux-x64.zip&lt;/code&gt;, 是校园网+GFW的原因了.而因为不知道具体的路径, 所以智能乖乖的执行这个脚本...&lt;/p&gt;
 &lt;p&gt;失败总结:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;就算挂代理下载这个JS包还是很慢, 几乎没有进度... 所以以后开发还是用上阿里的 cnpm 吧, 在这方面不能不妥协&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-08-20-electron/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;/home/usr/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-08-20-electron/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;就算挂代理下载这个JS包还是很慢, 几乎没有进度... 所以以后开发还是用上阿里的 cnpm 吧, 在这方面不能不妥协&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200820-electron/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/home/usr/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200820-electron/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
-&lt;p&gt;试例如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-08-20-electron/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;试例如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200820-electron/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -8412,7 +8388,7 @@ npm config delete proxy
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;之后总算是交上了这四天的答卷 ...&lt;/p&gt;
 &lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
-&lt;p&gt;需要要到&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-08-20-electron/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;需要要到&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200820-electron/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;NodeJS: &lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;http://nodejs.cn/learn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Electron: &lt;a href=&#34;https://www.electronjs.org/docs/tutorial&#34;&gt;https://www.electronjs.org/docs/tutorial&lt;/a&gt;&lt;/li&gt;
@@ -8542,8 +8518,8 @@ npm config delete proxy
         
             <item>
                 <title>VSCode You Should Know</title>
-                <link>https://dfslfh.cn/blog/posts/2020-07-15-vscode/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-07-15-vscode/</guid>
+                <link>https://dfslfh.cn/blog/posts/200715-vscode/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200715-vscode/</guid>
                 <pubDate>Wed, 15 Jul 2020 00:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8647,19 +8623,19 @@ npm config delete proxy
 &lt;/ul&gt;
 &lt;h3 id=&#34;auto-wrap&#34;&gt;Auto Wrap&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;file -&amp;gt; preferences -&amp;gt; user settings:&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-07-15-vscode/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;file -&amp;gt; preferences -&amp;gt; user settings:&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200715-vscode/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;editor.wrappingColumn&amp;quot;: 0&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;terimal-compile&#34;&gt;Terimal Compile&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;file -&amp;gt; preferences -&amp;gt; run in terminal&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-07-15-vscode/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;file -&amp;gt; perferences -&amp;gt; setting -&amp;gt; javascript Validate -&amp;gt; Enable&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-07-15-vscode/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;file -&amp;gt; preferences -&amp;gt; run in terminal&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200715-vscode/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;file -&amp;gt; perferences -&amp;gt; setting -&amp;gt; javascript Validate -&amp;gt; Enable&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200715-vscode/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;indent-by-space&#34;&gt;Indent By Space&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;file -&amp;gt; preferences -&amp;gt; editor.detectIndention -&amp;gt; false&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-07-15-vscode/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;file -&amp;gt; preferences -&amp;gt; editor.detectIndention -&amp;gt; false&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200715-vscode/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;usage&#34;&gt;USAGE&lt;/h2&gt;
 &lt;h3 id=&#34;regular-replace-正则替换&#34;&gt;Regular Replace 正则替换&lt;/h3&gt;
@@ -8674,7 +8650,7 @@ npm config delete proxy
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;[ ]&lt;/code&gt; —  字符类&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;实践代码如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-07-15-vscode/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;实践代码如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200715-vscode/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -8729,8 +8705,8 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         
             <item>
                 <title>逃离</title>
-                <link>https://dfslfh.cn/blog/posts/2020-07-15-escape/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-07-15-escape/</guid>
+                <link>https://dfslfh.cn/blog/posts/200715-escape/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200715-escape/</guid>
                 <pubDate>Wed, 15 Jul 2020 00:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8786,8 +8762,8 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         
             <item>
                 <title>社会学下的热恋和冷婚</title>
-                <link>https://dfslfh.cn/blog/posts/2020-02-25-social-love-marry/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-02-25-social-love-marry/</guid>
+                <link>https://dfslfh.cn/blog/posts/200225-social-love-marry/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200225-social-love-marry/</guid>
                 <pubDate>Tue, 25 Feb 2020 11:55:08 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8903,8 +8879,8 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         
             <item>
                 <title>我希望自己足够渺小</title>
-                <link>https://dfslfh.cn/blog/posts/2020-02-20-i-wish-i-could-small-enough/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-02-20-i-wish-i-could-small-enough/</guid>
+                <link>https://dfslfh.cn/blog/posts/200220-i-wish-i-could-small-enough/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200220-i-wish-i-could-small-enough/</guid>
                 <pubDate>Thu, 20 Feb 2020 16:30:30 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -8992,8 +8968,8 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         
             <item>
                 <title>Markdown Notes</title>
-                <link>https://dfslfh.cn/blog/posts/2020-02-18-markdown/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-02-18-markdown/</guid>
+                <link>https://dfslfh.cn/blog/posts/200218-markdown/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200218-markdown/</guid>
                 <pubDate>Tue, 18 Feb 2020 05:25:25 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -9054,7 +9030,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;/li&gt;
 &lt;li&gt;空格尽量用 &lt;code&gt;_&lt;/code&gt; 来替换, 因为在网页的编码中, &#39; &#39;代表&lt;code&gt;%20&lt;/code&gt;, 出来的网址会冗杂.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;code-listsup1supjump&#34;&gt;Code list&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-02-18-markdown/#jump&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;code-listsup1supjump&#34;&gt;Code list&lt;a href=&#34;https://dfslfh.cn/blog/posts/200218-markdown/#jump&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -9831,8 +9807,8 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         
             <item>
                 <title>梁老师的爱情课</title>
-                <link>https://dfslfh.cn/blog/posts/2020-02-08-mr-liang-love-course/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-02-08-mr-liang-love-course/</guid>
+                <link>https://dfslfh.cn/blog/posts/200208-mr-liang-love-course/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200208-mr-liang-love-course/</guid>
                 <pubDate>Sat, 08 Feb 2020 04:39:30 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -10175,207 +10151,9 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             </item>
         
             <item>
-                <title>Network Story Thinking</title>
-                <link>https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/</guid>
-                <pubDate>Thu, 30 Jan 2020 13:59:24 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;&lt;strong&gt;猫捉老鼠的游戏&lt;/strong&gt; 会一直继续, 而以下部分只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 带有强烈的主观情绪, 请慎重浏览, 如果你觉得我那里错了, 别和我说, 因为 &lt;strong&gt;你是对的&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;我思考互联网的原因是 Wikipedia 被墙, 然后深感国内查阅知识的门槛之高, 如经典的&lt;code&gt;仅支持Credit&lt;/code&gt;、&lt;code&gt;仅支持Google&lt;/code&gt;、&lt;code&gt;网络已经被重置&lt;/code&gt;的门槛, 知网, 各大学的图书馆更是如此, 公共资源如此之少, 多年后我思考可能&lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 可能就是为爱发电的&lt;strong&gt;百度贴吧&lt;/strong&gt;, 但是&lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全内容. 有点窒息......&lt;/p&gt;
-&lt;p&gt;网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (&lt;strong&gt;Democracy&lt;/strong&gt;) 和赛先生 (&lt;strong&gt;Science&lt;/strong&gt;) 而奋斗终生, 但是人生终须妥协......&lt;/p&gt;
-&lt;p&gt;To be continued ...&lt;/p&gt;
-&lt;h2 id=&#34;gfw-jokes-下饭墙&#34;&gt;GFW JOKES 下饭墙&lt;/h2&gt;
-&lt;p&gt;聊一聊自己使用 &lt;strong&gt;局域网&lt;/strong&gt; 有意思的故事, 中文互联网特色：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Bing&lt;/strong&gt;:不引入不行, 完全引入也不行. 所以就有了在 Wikipedia DNS 污染的情况下, Bing 中国国际版依旧可以从服务器调用维基百科内容布局到自己的网页上.
-&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/bing-subside.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Onedrive+OneNote&lt;/strong&gt;: 作为Office的配套网盘, 在中国客户端被墙, 却仍可以用Office的同步功能??? 就是Office把你的数据文件同步到国外, 但是你自己是不可以访问国外来操作编辑自己的文件一样操蛋.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Mega&lt;/strong&gt;: 一个密码隐私保护的网站. 亏他还内置了中文的语言支持, 然鹅没有什么用. 就像是&lt;code&gt;Indiegala&lt;/code&gt;一个模样.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;: Google的Android子域名可以访问, 但是主域名是被墙掉的…… 而Google.CN是可以访问的, 只是全部引流到了香港的服务器, 但是理所当然地可以甩锅给香港, 莫比乌斯环? 因为Google已经撤出中国&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/google-china.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;有道云笔记:&lt;/strong&gt; 应用已经存在 &lt;strong&gt;网络审查&lt;/strong&gt;--图片识别的技术：在我公开分享Google退出中国的有道云笔记不久, 链接就挂掉了,打开对应的图片, 返回的&lt;code&gt;Json&lt;/code&gt;里面有我笔记软件微信账户的ID, 笔记里面的违规图片并没有变灰, 不清楚是因为缓存还是本人可见, 不排除后台记录...... &lt;code&gt;{&amp;quot;canTryAgain&amp;quot;:false,&amp;quot;scope&amp;quot;:&amp;quot;PREVIOUS_EXCEPTION&amp;quot;,&amp;quot;error&amp;quot;:&amp;quot;1007&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Message[SHARE_BANNED_EXCEPTION]: Public shared file is banned, userId=weixinobU7Vjt2JyBHTax7qCEM_xxxxxxxx, fileId=CB0BC1F1DFBF4A17BBAC2388FD87F3E5&amp;quot;,&amp;quot;objectUser&amp;quot;:null}&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/youdao-share.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Absolutely it&#39; s full of trash in Baidu&#39;s () ,especially with strange admin diff with mian admin, such as fenxi.com with 360safe.coms&#39; DNS. Around Baidu&#39;s Promote is full of lots of sex photos with auto-swipe, why the Dev-Group do that? Shall them don&#39;t know how useless towards other persons ,especially teenager???——Written In June 10th,2020 In Hohhot.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;我有无数的 Netease Music 被审查然后删除, 原因不会被告知, 就是会突然的消失, 我该如何捡回来过去的那段记忆, 他连一个通知都没有...&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt;: 今天才发现 CLoudflare 在国内才是个垃圾, 国外的缓存速度很快, 和没有开缓存一样, 但是切回来的时候才发现 StyleSheet 都没来得及刷新, 可叹可谈.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Aliyun Oss&lt;/strong&gt;: 图床没有办法预览, 没有备案域名无法国内加速, 并且预览图片就是直接下载. 又拍云, 七牛云更甚...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。建议用户可以使用自定义域名访问OSS请求，如何绑定自定义域名请参见绑定自定义域名，默认情况下不会强制下载。详情请参见OSS升级通知。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Amazon/Evernote/...&lt;/strong&gt;: 国际服务与国内服务的巨大落差以及数据质检的不互通.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;memory-铭记&#34;&gt;MEMORY 铭记&lt;/h2&gt;
-&lt;p&gt;有的人说&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;网络审查在各个国家都普遍存在着, 它并不仅存在于中国. 在全球的局势对中国都不利的当下, 当局会过滤掉影响、危害到中国长远发展的信息, 此时国家安全的意义更加重大. 互联网上存在着大量终究不现实的、不客观的, 甚至自相矛盾的抹黑当局政府言论, 它们背后一般有西方政府或非政府组织资金支持. 这些媒体包括但不限于一些港媒、境外网站. 我们希望您能在遇到此类言论和见解时, 不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西, 而是要事实求是地思考, 要摆脱情绪绑架的怪诞思维去理解.&lt;/p&gt;
-&lt;p&gt;我们需要了解到, 中国的发展总基调是“稳中求进&amp;quot;, 中国社会的最核心问题就是稳定, 失去稳定的中国将会是一盘散沙, 面临分裂和肢解的危险. 我们希望您了解当今中国发展的根本保证是什么, 发展的过程中哪部分是主旋律, 哪些是噪音；哪些是进取的, 哪些是会开历史倒车的. 我们应该清醒和全面地认识问题, 偏信西方媒体的言论、缺乏对国家的信任是不可取的. 您的数据安全和隐私对您尤为重要. 若这些信息不应当被西方掌握时, 它对国家和民族的命运更为重要. 出于此原因, 当局可能会限制您的行为, 我们不会也无法干预当局的任何政策和决定.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有的人引用 &lt;strong&gt;德国新教教士马丁 尼莫拉&lt;/strong&gt; 的话, 这样说:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在德国, 起初他们追杀共产主义者, 我没有说话, 因为我不是共产主义者；&lt;/p&gt;
-&lt;p&gt;接着, 他们追杀犹太人, 我没有说话…, 因为我不是犹太人；&lt;/p&gt;
-&lt;p&gt;后来, 他们追杀工会成员, 我没有说话…, 因为我不是工会成员；&lt;/p&gt;
-&lt;p&gt;此后, 他们追杀天主教徒, 我没有说话…, 因为我是新教徒；&lt;/p&gt;
-&lt;p&gt;最后, 他们奔我而来, 却再也没有人站起来为我说话了.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对于我来说:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;接受现实&lt;/strong&gt;: 可其实各个国家和地方都会有网络审查, 只要这个世界还是和平而有秩序的, 审查就存在, 只是程度不一样, 现代的社会里, 你只可能活在无限接近老大哥的世界里, 可以的一种结局就是小说《1984》里最后你只会爱上老大哥, 还是喜剧. 但是最恐怖的是, 老大哥可不止一个, 你也可以老大哥, 而相信老大哥此时言论的你, 只是一个被这个环境折磨的残废罢了.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;对 自由/人权 的定义&lt;/strong&gt;: 有意思的是, 有时我们潜意识里对这种现象喜闻乐见. 起初读这本书的时候很是不能理解里面的隐喻, 我觉得这只是我读过故事中微不足道的臆想, 直到有一天感觉现实和小说里的描述如此契合. 此时的我感慨晦涩的书的魅力所在……这个时候又出现了一个谬误：我们希望世界和平而自由; 实际上永远都不会有真正的自由；笼子里的 自由 还是自由吗？人的权利该如何定义?
-&lt;ul&gt;
-&lt;li&gt;网络实现使用者的身份分级区别 ? 诸如隐私、自由以及畅游网络, 是人的基本权利吗？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;退而求其次, 思想自由&lt;/strong&gt;: 但是值得安慰的是; 思想是自由的; 我们可以将思想的疆界无限延拓, 不幸的则是无论你的精神如何的超脱, 你始终无法摆脱躯壳活在世间...... 所以还是罗永浩那句：“理解万岁”！&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;独立思维&lt;/strong&gt;: 可能你会说我崇洋媚外, 但是从上面的话来说, 我并没有劝导你走向Google, 因为这些只是一些工具罢了, Google也未必最好, 因为Google作为全球很出色搜索引擎无人能打, 而他恰巧是美国的, 美国的目的我们也不糊涂, 不排除有政府介入的可能, 而且Google的世界有点混乱, 而民众在Weibo上的跟风表现也是让人啼笑皆非, 所以此刻的你只有多听多看, 保持着批判性思维, 谨小慎微就可.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Play&lt;/strong&gt;: 其实我自己很以来Google, 自己平时喜欢玩机, 找习惯自己使用习惯的应用, 此优秀的恶习持续到我高三, 却复苏于我高考, 到写文章的期间我下载了无数的盗版应用, 手机上也为无数的应用付费, 也向手机系统（MIUI）提出了背离他们开发理念的自私的东西（Search and RSS, Net Speed, Painting）, 自然是几年都无果呵呵. 其中的流量实时监控在国内基本破产, 所以去了Google Play, 不到几分钟就找到了, 确实是我很想做出来的APP, 只有唉声叹气一下, 我想这个世界确实可太小点了吧. 这是对Google产生好感的第一个原因. 而这个APP的论坛和官网都是被墙掉的……&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Update&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;渐渐地, 我关闭了Win10 的自动更新, 开始为手机寻找版本准备了养老, 备份舒服的版本应用, 退出APP的各大账号以防止他们的个性推荐……&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;我可能并没有资格去发出这样的理论, 因为我也是既得利益者, 用互联网更好地学习就是佐证, 如果你通过WWW获取过一些东西, 那么你本质也和我一样, 我质疑互联网的发展, 就如我质疑我的客观存在一样荒谬, 矛盾已化解于过去的某个角落, 而今天才窥见全貌罢了, 现在的时代注定在他人的看法和自己的夹缝中撕裂, 无论最后你选择什么, 请学会隐忍！不要以为这是轻松到可以遗忘的事情, 忍字头上一把刀！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Past Network Environment&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;很怀念当年的网络环境, 因为真的有人为爱发电、网上随便一个聊天室都可以交到朋友, 大家都很友好, 小学生不是贬义词, 人们遇到新手都会花时间带一带, 人们真的用心聊着天, 不存在鄙视链, 没有引战, 没有谩骂, 没有水军, 但是自从网民的数量多起来后, 有礼有节的时代自此过去了, 现在说点事都得吵架, 谩骂, 都懒得回复, 当笑话看吧. 而现在论坛依旧保持和气与和谐的就属边缘的同人论坛了, 稍不注意就会被扣分或者封号, 你想看的东西就木有了, 人还是要有求, 才会老实. 最大的遗憾就是在这个时代逝去才出生的孩子了吧, 毕竟他们可是错过一个好的网络年代. 而那句看滥的段子也绝不是说说而已：&lt;code&gt;亚洲四害：日本鬼子, 韩国棒子, 印度汉子, 中国喷子！&lt;/code&gt; 而我这样排外的心理其实很正常, 但是也很没有必要, 毕竟&lt;code&gt; WWW&lt;/code&gt;建立的第一天就会必然导致这样的结果, 只是现在我才真正的发现罢了, 有点伤心, 但是连接的力量被互联网一次一次证实, 如果走不出来这个怪圈的话也是无可奈何.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GFW Existed&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;快速发展让千家万户短时间内用上互联网是不是导致GFW日高不减的原因？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;那些404就交给&lt;a href=&#34;https://web.archive.org/&#34;&gt;别人&lt;/a&gt;记忆吧.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Algorithm Society&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Netify 2020 The Social Dilemma.&lt;/li&gt;
-&lt;li&gt;如今大数据的算法是不是有点弄巧成拙呢？我们一点都不反对技术的发展和迭代, 我们真正害怕的是&lt;strong&gt;技术人员存心设计打造的灰色地带以及他们在发展技术的羊皮下多做的东西&lt;/strong&gt;. 人多的世界上永远不乏恶魔. 当后面有相同的不可替代的方案取代之的时候, 你厂家选择用户还是自己就有待推敲了, 毕竟程序员不就是干这个的吗？权限的Denied和Delete无异, 我只能说一句呵呵. 这种对小众心理的偏爱, 可能是我一下子跟不上时代的发展了……有的时候我想：大家都很奇怪, 每天重复发生着一场迁徙 , 从巴掌大的窗口进入入虚拟化的世界, 不再那么关注现实生活中的一些缺憾, 虚拟化的窗口模糊了我们和现实的距离, 也无端地让我们有种错觉：美好的生活距我们也许只是几处像素块的距离, 我们或许被虚拟化的世界绑架, 亦或许没有, 大势所趋罢了. 对现实有所渴求的人都可以在互联网上找到些许安慰, 加之我们宣扬自由地活在自己的世界中会很快乐, 但是这种快乐在现在的我来看是不太完整的, 他少了很多身边至亲的、友好的人的陪伴, 我们注定有另外一场走出来吹水的世界来打破这样的一花一世界, 快速更迭的时代我们习惯单方面地冠之以不创新的帽子对往昔加以批判, 铺天盖地一致的声音, 但是真的考虑过主观能动性和时代背景有凤毛麟角, 或者说, 我们真的有思考过吗？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;bilibili-b站&#34;&gt;Bilibili B站&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“凡是关于宏观层面的视频，比如国内的产业升级和国际关系等，弹幕普遍都是极其乐观向上的。基本上就是我们一天天好起来，敌人一天天烂下去。然后只要持有这种观点的主讲人也能获得很高的赞。&lt;/p&gt;
-&lt;p&gt;而到了中微观层面的视频，比如房价或者年轻人生育等等，弹幕普遍又悲观得不行。基本上不是彻底放弃躺平就是宣泄不满，然后任何还试图劝别人乐观一点，说现实没那么可怕和悲观的主讲人基本都会被喷。”&lt;/p&gt;
-&lt;p&gt;还比如，这位用户提到，在描述中国互联网企业出海盛况的视频里，弹幕纷纷是激动不已的“中国企业雄起！ ”。而在控诉996的视频里，弹幕却纷纷是愤怒的“你工人爷爷来了！”而不知B站的年轻人是否意识到，让他们激动不已纷纷点赞的，和让他们愤怒不已嚷嚷要打到的资本，不正是同样的一群企业吗？&lt;/p&gt;
-&lt;p&gt;如果假设观视频一家的受众是固定的，即青年群体，那么我们会看出这么一个奇特的现象:他们在对于国家前途无限乐观的同时，对于自己的前途却极其悲观。因为他们宏观弹幕代入的是国家，微观弹幕代入的是自己。代入自己的时候也不是不想乐观，但面对大量相关经验自然无法沉浸在幻想里。而宏观离得太远，少有这样的经验打脸，自然可以放飞想象。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“宏大叙事是可以灌输的，而生活的苦乐只有自己才知道。”&lt;strong&gt;用哲学家埃里克·霍弗的话说，就是：&lt;/strong&gt;“一个人愈是没有值得自夸之处，就愈容易夸耀自己的国家、宗教、种族和他参与的神圣事业。”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;同时我们需要反省的是：国家的发展是有目共睹的，为什么越来越多的年轻人却被困在现实生活中，慢慢放弃了挣扎，直接躺平？国家的这种发展为什么没有实际改善青年自身的成长与生活环境,让他们陷于个人命运的焦虑之中?&lt;/p&gt;
-&lt;p&gt;长期下去，这会造成一种潜在的风险是什么？那些陷入悲观的年轻人更容易被煽动和蛊惑，因为有成就感的人会把世界看成一个友好的世界，失意者则乐于看到世界急建改变。因为人性之中都会有一种倾向，那就是到自身以外寻找解释自身命运的理由。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;zhihu-知乎&#34;&gt;Zhihu 知乎&lt;/h2&gt;
-&lt;center&gt;&lt;b&gt;我理解现在的知乎, 但我不再是黏性用户&lt;/b&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-30-net-story-thinking/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/center&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“拥有互联网话语权的年轻人, 和现实世界拥有话语权的人, 并不完全重合. ”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;束发之年, 人都会发生大的改变, 而我恰好遇上了知乎. 那时候还是“小而精”的知乎, 而现在是“大而广”的知乎. 水军越来越多, 一个平台的没落, 他们功不可没. 一篇职业水军的自述文章里原话：“现在知乎越来越火, 我们手上的知乎账号就多的是. ” （这里摘者想说两句心里话：我的直观印象就是好多都不再是网友们的为爱发电, 而是已有的商定以赞同数为指标的KPI, 没说两句就和你说以前我多么垃圾, 然后遇到XXX, 让我XXX, 放上么有佐证的照片, 下面来一个种草班……呵呵）&lt;/p&gt;
-&lt;p&gt;内容质量直线下降, 越来越偏激. 我想大概是意图借助这些平台引（hu）导（you）网民的人太多了, 他们买来的目的明确的文字和最初那些满怀善意的文字毫无可比性. 听说知乎这两年大力采用智能推荐的技术, 这挺好. 我认为如果一个人拒绝信息茧房, 那将会永远活在房子里. 既然拦不住技术的进步, 不如学着使用. 你还会因为害怕汽车撞路障, 而坚持骑马上街吗. 现在回过头去看, 曾经认真对待过的东西都会怀念吧, 更多是怀念那个时候的自己.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;喜欢千人千面, 不喜欢“同是一个世界”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;但其实我不喜欢这样的变化, 对知乎用户来说, 大家想要的可能就是千人千面的知识分享, 看到更大的世界, 而不是热门推荐的同一个世界. 至少我是这样. 最后说一个与知乎有关的有趣经历.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;期待知乎能“浴火重生”, 但我不再是黏性用户&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;进入大二之后, 发现了知乎另一个超级神奇的现象, 好像我每天看的内容都差不多, 内心开始有些抵触. 不会直接影响到我拒绝知乎, 我只是用的少了, 直到我自己写的一个谈及韩国人和美国人的话题成为转折点. 具体帖子不说了, 当时有不少评论让我头大. 提出反对意见是好事, 可是连我文章都没看懂, 先跑来骂我, 是几个意思？花了几天解释不清之后, 我放弃了解释.&lt;/p&gt;
-&lt;p&gt;我想聊聊人工智能推荐技术. 今日头条用智能推荐, 我觉得挺好, 本来它的内容定位就是娱乐, 就是闲时消遣, 但是知乎不是！&lt;strong&gt;知乎使用智能推荐后, 就像是在课上被发现听课走神的优等生, 走偏了. 知乎不够相信自己的用户, 并非人都喜欢衣来伸手, 饭来张口, 既然用户下载了知乎, 就不是来看娱乐新闻的, 也不是自己往茧房里钻的&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;以前打开知乎, 满屏都是深度文章, 现在不少内容是“AB脸什么时候会塌”、“哪些明星长大长残了”、“薛之谦凭什么继续火”. 又多亏了智能推荐技术, 点开一次, 给你推三次, 再点一次, 给你推九次, 不一会儿, 你的首页全是娱乐新闻. 现在, 我基本上用微博, 内容和交际都简单好操作. 虽然现在微博的设计师也在作死的路上越走越远, 但是我觉得就内容的丰富度和便捷度来看, 微博是我比较依赖的SNS. 吐了一堆槽, 我还是想说：我理解现在的知乎, 期待它能“浴火重生”, 但我不再是黏性用户.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;不够了解我, 推送的信息太多&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我分析过, 导致知乎变成这样, 和用户下沉有关. 以前是邀请制, 知乎是社会精英的集散地, 现在知乎目标是三四线城市的青年. 精英人群数量有限, 你要想变大, 肯定要去开拓三四线城市. 如果你留意, 你会发现, 知乎上有很多教育培训机构、租房信息、知识付费课程之类的广告, &lt;strong&gt;他们的目标人群就是三四线青年&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;他们的付费欲望要比所谓的精英强太多, 因为他们缺少更为便捷、更为高级的方式去获取社会资源, 但是又有成长的欲望, 稍微花一点钱, 他们是可以接受的. &lt;strong&gt;知乎的用户量变大了, 也逐渐失去了那批精英化人群&lt;/strong&gt;. 因为一个人越牛逼, 他越喜欢私密的社交圈, 所谓的私董会、中国企业家俱乐部就属于那种私密性社交的范畴. 像知乎这种半开放型社区, 对那部分精英人群的吸引力会越来越小.&lt;/p&gt;
-&lt;p&gt;现在为什么知乎会被骂呢？骂知乎的人中, 多数拥有文人情结, 比较矫情, 一旦所谓“low”一点的人进来了, 他们就看不下去了, 因为和他们没得聊, 没得说. 我虽然讨厌知乎那些繁琐的信息, 但并不是说我不使用知乎了, 我还会继续使用知乎, 知乎是一个很好的知识分享平台.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;知乎本没错, 错的是使用知乎的人&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;但是有一点可以确定, 卸载时我坚信, 在看得到的时间里, 自己不会大变的近几年或十几年, 自己是不再需要它了.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;把无聊问题复杂化和科幻化的社区&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;知乎产品做得真心好. 最核心的好是团队能在初期把整个社区盘活了. 对于做社区来说, 第一步要让大家知道这个社区, 第二步要大家成为用户, 第三步是要让大家自行产生内容. 知乎这三步做得很完美. 我也是算个做产品的人, 每当我问自己, 知乎和百度知道的最具体区别是什么时, 我感觉自己也很难答好这个问题.&lt;/p&gt;
-&lt;p&gt;设想一下, 如果我也是一个想打造有逼格、有水平的问答社区时, 如何向投资人推销呢？如何回答一个无法逃避的问题：你这个玩意儿没在市场检验过前, 有什么信心去战胜百度知道？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;百度知道下面的回答都乱答, 没啥涵养？&lt;/p&gt;
-&lt;p&gt;早期需要通过邀请形式才能加入社区, 不开放注册. （这不就是砍掉用户吗？）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;知乎和百度知道在核心功能上是一模一样的, 对于知乎来说, 一定需要团队假装用户在早期, 把社区做好, 给后来的真实用户一种提问和回答的好模板. 知乎是成功的, 但我实在受不了大家在朋友圈转发那些看似高深, 但一点涵养也没有的知乎帖子.&lt;/p&gt;
-&lt;p&gt;在我看来, 知乎就是一个：把无聊问题复杂化和科幻化的社区.&lt;/p&gt;
-&lt;h2 id=&#34;ban-墙&#34;&gt;Ban 墙&lt;/h2&gt;
-&lt;p&gt;我接触到的一些被封事务.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我该如何记忆, 那些消失的事情......&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;South Park&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;柴静&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;徐晓东&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pewdiepie&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;崔永元&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/42722834&#34;&gt;锡兰Ceylan与独人13事件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/56822629/answer/391744101&#34;&gt;少寒和雪音&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wwi.lanzous.com/in4fKl101mf&#34;&gt;HotDog - 差不多先生 - dfs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;......&lt;/p&gt;
-&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
-&lt;div id =&#34;j1&#34;&gt;[1]. https://laod.cn&lt;/div&gt;
-&lt;div id =&#34;j2&#34;&gt;[2]. https://36kr.com/p/1722396606465&lt;/div&gt;
-&lt;div id =&#34;j3&#34;&gt;[3]. https://www.google.com/press/new-approach-to-china/update.html&lt;/div&gt;
-&lt;div id=&#34;j4&#34;&gt;[4]. https://mp.weixin.qq.com/s/U4-pvli6RJJeJ7SiNlskzg&lt;/div&gt;
-&lt;div id =&#34;j5&#34;&gt;[5]. https://help.aliyun.com/document_detail/39545.html&lt;/div&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/gossip/">Gossip</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>All Pc Software In One</title>
-                <link>https://dfslfh.cn/blog/posts/2020-01-18-pc-config/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2020-01-18-pc-config/</guid>
+                <link>https://dfslfh.cn/blog/posts/200118-pc-config/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200118-pc-config/</guid>
                 <pubDate>Sat, 18 Jan 2020 00:00:00 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -10492,7 +10270,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;li&gt;Blueman: 蓝牙管理器
 &lt;ul&gt;
 &lt;li&gt;[Window10] &lt;a href=&#34;https://wwi.lanzous.com/iM1fee8ii4h&#34;&gt;Bluetooth Battery Monitor Lanzou&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Linux] &lt;code&gt;sudo apt-get install libbluetooth-dev &amp;amp;&amp;amp; git clone https://github.com/TheWeirdDev/Bluetooth_Headset_Battery_Level &amp;amp;&amp;amp; cd Bluetooth_Headset_Battery_Level &amp;amp;&amp;amp; chmod +x bluetooth_battery.py &amp;amp;&amp;amp; ./bluetooth_battery.py BT_MAC_ADDRESS_1 ...&lt;/code&gt; &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;[Linux] &lt;code&gt;sudo apt-get install libbluetooth-dev &amp;amp;&amp;amp; git clone https://github.com/TheWeirdDev/Bluetooth_Headset_Battery_Level &amp;amp;&amp;amp; cd Bluetooth_Headset_Battery_Level &amp;amp;&amp;amp; chmod +x bluetooth_battery.py &amp;amp;&amp;amp; ./bluetooth_battery.py BT_MAC_ADDRESS_1 ...&lt;/code&gt; &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/21597536/pybluez-installation-in-linux&#34;&gt;https://stackoverflow.com/questions/21597536/pybluez-installation-in-linux&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -10542,7 +10320,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;vlcsup2j2sup&#34;&gt;VLC&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;vlcsup2j2sup&#34;&gt;VLC&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -10609,7 +10387,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;fcitx-pinyinsup3j3sup&#34;&gt;FCITX-PINYIN&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;fcitx-pinyinsup3j3sup&#34;&gt;FCITX-PINYIN&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;p&gt;可使用插件实现云输入&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -10821,7 +10599,7 @@ sudo add-apt-repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;deb https://typo
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/24605584/answer/112250597&#34;&gt;Exchange Server&lt;/a&gt;是微软公司邮件服务组件。加入了一系列辅助功能(语音邮件、邮件过滤筛选、OWA(基于Web的电子邮件存取))&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_36731677/article/details/82956977&#34;&gt;CardDAV/CalDAV&lt;/a&gt;: 前者是 远程地址簿信息访问（共享）协议, 用于客户端访问共享服务器上的联系人数据。后者是 允许客户端访问共享服务器上的日程信息。两者扩展了WebDav协议的规范， 并使用iCalendar格式的数据, 但是，国内的邮件系统基本不支持日程或者联系人的订阅服务.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;deepin-qq--wechat-sup4j4sup&#34;&gt;Deepin QQ &amp;amp; Wechat &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;deepin-qq--wechat-sup4j4sup&#34;&gt;Deepin QQ &amp;amp; Wechat &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wszqkzqk/deepin-wine-ubuntu&#34;&gt;Deepin-wine Github&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -10917,7 +10695,7 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;li&gt;Pushbullet: &lt;a href=&#34;https://www.pushbullet.com/&#34;&gt;https://www.pushbullet.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ao&#34;&gt;Ao&lt;/h2&gt;
-&lt;h3 id=&#34;proxysup5j5sup&#34;&gt;Proxy&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;proxysup5j5sup&#34;&gt;Proxy&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;p&gt;采用和VSCode 相同的技术开发--&amp;gt; Electronjs. 安装完成之后, 自然在走系统代理的时候出现了问题, 如无法登录微软账户的问题；根据 项目的 ISSUE [^21] 可以执行以修复登录问题.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -11004,14 +10782,14 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;h2 id=&#34;terimal&#34;&gt;Terimal&lt;/h2&gt;
 &lt;h3 id=&#34;powershell&#34;&gt;Powershell&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;PowerShell 的 pipe 传递的是 .net object，而不是 raw 字符串，于是这就打开了一扇神奇的大门，因为 PowerShell 的一切组件都可以和谐地共存，彼此不用互相猜忌，不用猜你喂给我的数据合不合法，也不用担心我喂给你的参数格式对不对。大家共享一个 CLR，拥有丰富的 metadata，自由自在地在 .net 的世界里徜徉和探索......&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;PowerShell 的 pipe 传递的是 .net object，而不是 raw 字符串，于是这就打开了一扇神奇的大门，因为 PowerShell 的一切组件都可以和谐地共存，彼此不用互相猜忌，不用猜你喂给我的数据合不合法，也不用担心我喂给你的参数格式对不对。大家共享一个 CLR，拥有丰富的 metadata，自由自在地在 .net 的世界里徜徉和探索......&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;[More]:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;www.pstips.net&#34;&gt;收集和分享 Windows PowerShell 相关教程,技术和最新动态&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;www.chocolatey.org&#34;&gt;Chocolatey Packages Manager&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;命令行全局快捷键设置sup7j7sup&#34;&gt;命令行全局快捷键设置&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2020-01-18-pc-config/#j7&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;命令行全局快捷键设置sup7j7sup&#34;&gt;命令行全局快捷键设置&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/200118-pc-config/#j7&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;Win+R -&amp;gt; &lt;code&gt;comtrol&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;管理工具中加入想要添加应用的快捷方式, 然后右键属性设置全局快捷键.&lt;/li&gt;
@@ -11173,8 +10951,8 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
         
             <item>
                 <title>Hello Blog</title>
-                <link>https://dfslfh.cn/blog/posts/2019-12-13-helloblog/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/2019-12-13-helloblog/</guid>
+                <link>https://dfslfh.cn/blog/posts/191213-hello-blog/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/191213-hello-blog/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
                     <author>lfh010618@gmail.com (DandelionFs)</author>
@@ -11515,7 +11293,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;Aliyun&lt;/code&gt; 唯一局限如下:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/191213-hello-blog/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -11532,8 +11310,8 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;ul&gt;
 &lt;li&gt;Webp
 &lt;ul&gt;
-&lt;li&gt;Industrution&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;li&gt;Downolad&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Industrution&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/191213-hello-blog/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Downolad&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/191213-hello-blog/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -11545,7 +11323,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install webp
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;/div&gt;&lt;h3 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/191213-hello-blog/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;Wallhaven&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pixiv.net/&#34;&gt;Pixiv （18年关被墙/同人、插画）&lt;/a&gt;&lt;/li&gt;
@@ -11570,7 +11348,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;/ul&gt;
 &lt;h2 id=&#34;font&#34;&gt;FONT&lt;/h2&gt;
 &lt;p&gt;**微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了微软雅黑(方正兰亭黑), **微软公司只拥有微软雅黑的使用权，而真正的版权在方正手中。&lt;/p&gt;
-&lt;p&gt;我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为，都属于侵权行为，同时在Windows系统下，商业行为也不被允许，包括网页设计中，主动调用微软雅黑字体（用户显示中将默认字体转换为微软雅黑属于用户行为，不归类为侵权），更不可以以图片的形式在网页中用到微软雅黑！&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为，都属于侵权行为，同时在Windows系统下，商业行为也不被允许，包括网页设计中，主动调用微软雅黑字体（用户显示中将默认字体转换为微软雅黑属于用户行为，不归类为侵权），更不可以以图片的形式在网页中用到微软雅黑！&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/191213-hello-blog/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;free-font&#34;&gt;FREE FONT&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;方正黑体&lt;/li&gt;
@@ -11674,7 +11452,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;h3 id=&#34;microsoft-yahei&#34;&gt;Microsoft YaHei&lt;/h3&gt;
 &lt;p&gt;微软雅黑默认状态下部分字符显示为日文字符, 如&lt;code&gt;门&lt;/code&gt;就会显示 &#39;中间一竖的&lt;code&gt;门&lt;/code&gt;&#39;. 纠正方法换字体 --&lt;code&gt;文泉译米&lt;/code&gt; 即可&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/japan-men.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Profromence differences are related with &lt;a href=&#34;https://en.wikipedia.org/wiki/CJK_Unified_Ideographs&#34;&gt;&lt;strong&gt;CJK Unified Ideographs&lt;/strong&gt;&lt;/a&gt;, and relating to &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_CJK_fonts&#34;&gt;CJK Font&lt;/a&gt;. And Some Font display the Japan Font as default pattern, such this &lt;code&gt;Mircosoft YaHei&lt;/code&gt; in ubuntu when the sys encoding is &lt;code&gt;US_Utf-8&lt;/code&gt;, but why the window is not such situation?&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/2019-12-13-helloblog/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. Some more details &lt;a href=&#34;https://www.unicode.org/faq/han_cjk.html&#34;&gt;FAQ&lt;/a&gt; with it. By th way, Japan encodes CIJ and Chinese encodes GB.&lt;/p&gt;
+&lt;p&gt;Profromence differences are related with &lt;a href=&#34;https://en.wikipedia.org/wiki/CJK_Unified_Ideographs&#34;&gt;&lt;strong&gt;CJK Unified Ideographs&lt;/strong&gt;&lt;/a&gt;, and relating to &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_CJK_fonts&#34;&gt;CJK Font&lt;/a&gt;. And Some Font display the Japan Font as default pattern, such this &lt;code&gt;Mircosoft YaHei&lt;/code&gt; in ubuntu when the sys encoding is &lt;code&gt;US_Utf-8&lt;/code&gt;, but why the window is not such situation?&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/191213-hello-blog/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. Some more details &lt;a href=&#34;https://www.unicode.org/faq/han_cjk.html&#34;&gt;FAQ&lt;/a&gt; with it. By th way, Japan encodes CIJ and Chinese encodes GB.&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
 &lt;div id=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html &lt;/div&gt;
 &lt;div id=&#34;j2&#34;&gt;[2]. https://developers.google.com/speed/webp&lt;/div&gt;
@@ -11696,6 +11474,204 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                                 
                                 
                                     <category domain="https://dfslfh.cn/blog/tags/tool/">Tool</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Net Thinking</title>
+                <link>https://dfslfh.cn/blog/posts/network/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/network/</guid>
+                <pubDate>Wed, 30 Jan 2019 13:59:24 &#43;0800</pubDate>
+                
+                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;&lt;strong&gt;猫捉老鼠的游戏&lt;/strong&gt; 会一直继续, 而以下部分只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 带有强烈的主观情绪, 请慎重浏览, 如果你觉得我那里错了, 别和我说, 因为 &lt;strong&gt;你是对的&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;我思考互联网的原因是 Wikipedia 被墙, 然后深感国内查阅知识的门槛之高, 如经典的&lt;code&gt;仅支持Credit&lt;/code&gt;、&lt;code&gt;仅支持Google&lt;/code&gt;、&lt;code&gt;网络已经被重置&lt;/code&gt;的门槛, 知网, 各大学的图书馆更是如此, 公共资源如此之少, 多年后我思考可能&lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 可能就是为爱发电的&lt;strong&gt;百度贴吧&lt;/strong&gt;, 但是&lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全内容. 有点窒息......&lt;/p&gt;
+&lt;p&gt;网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (&lt;strong&gt;Democracy&lt;/strong&gt;) 和赛先生 (&lt;strong&gt;Science&lt;/strong&gt;) 而奋斗终生, 但是人生终须妥协......&lt;/p&gt;
+&lt;p&gt;To be continued ...&lt;/p&gt;
+&lt;h2 id=&#34;gfw-jokes-下饭墙&#34;&gt;GFW JOKES 下饭墙&lt;/h2&gt;
+&lt;p&gt;聊一聊自己使用 &lt;strong&gt;局域网&lt;/strong&gt; 有意思的故事, 中文互联网特色：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bing&lt;/strong&gt;:不引入不行, 完全引入也不行. 所以就有了在 Wikipedia DNS 污染的情况下, Bing 中国国际版依旧可以从服务器调用维基百科内容布局到自己的网页上.
+&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/bing-subside.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Onedrive+OneNote&lt;/strong&gt;: 作为Office的配套网盘, 在中国客户端被墙, 却仍可以用Office的同步功能??? 就是Office把你的数据文件同步到国外, 但是你自己是不可以访问国外来操作编辑自己的文件一样操蛋.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mega&lt;/strong&gt;: 一个密码隐私保护的网站. 亏他还内置了中文的语言支持, 然鹅没有什么用. 就像是&lt;code&gt;Indiegala&lt;/code&gt;一个模样.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;: Google的Android子域名可以访问, 但是主域名是被墙掉的…… 而Google.CN是可以访问的, 只是全部引流到了香港的服务器, 但是理所当然地可以甩锅给香港, 莫比乌斯环? 因为Google已经撤出中国&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/google-china.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;有道云笔记:&lt;/strong&gt; 应用已经存在 &lt;strong&gt;网络审查&lt;/strong&gt;--图片识别的技术：在我公开分享Google退出中国的有道云笔记不久, 链接就挂掉了,打开对应的图片, 返回的&lt;code&gt;Json&lt;/code&gt;里面有我笔记软件微信账户的ID, 笔记里面的违规图片并没有变灰, 不清楚是因为缓存还是本人可见, 不排除后台记录...... &lt;code&gt;{&amp;quot;canTryAgain&amp;quot;:false,&amp;quot;scope&amp;quot;:&amp;quot;PREVIOUS_EXCEPTION&amp;quot;,&amp;quot;error&amp;quot;:&amp;quot;1007&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Message[SHARE_BANNED_EXCEPTION]: Public shared file is banned, userId=weixinobU7Vjt2JyBHTax7qCEM_xxxxxxxx, fileId=CB0BC1F1DFBF4A17BBAC2388FD87F3E5&amp;quot;,&amp;quot;objectUser&amp;quot;:null}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/youdao-share.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Absolutely it&#39; s full of trash in Baidu&#39;s () ,especially with strange admin diff with mian admin, such as fenxi.com with 360safe.coms&#39; DNS. Around Baidu&#39;s Promote is full of lots of sex photos with auto-swipe, why the Dev-Group do that? Shall them don&#39;t know how useless towards other persons ,especially teenager???——Written In June 10th,2020 In Hohhot.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我有无数的 Netease Music 被审查然后删除, 原因不会被告知, 就是会突然的消失, 我该如何捡回来过去的那段记忆, 他连一个通知都没有...&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt;: 今天才发现 CLoudflare 在国内才是个垃圾, 国外的缓存速度很快, 和没有开缓存一样, 但是切回来的时候才发现 StyleSheet 都没来得及刷新, 可叹可谈.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aliyun Oss&lt;/strong&gt;: 图床没有办法预览, 没有备案域名无法国内加速, 并且预览图片就是直接下载. 又拍云, 七牛云更甚...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。建议用户可以使用自定义域名访问OSS请求，如何绑定自定义域名请参见绑定自定义域名，默认情况下不会强制下载。详情请参见OSS升级通知。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Amazon/Evernote/...&lt;/strong&gt;: 国际服务与国内服务的巨大落差以及数据质检的不互通.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;memory-铭记&#34;&gt;MEMORY 铭记&lt;/h2&gt;
+&lt;p&gt;有的人说&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;网络审查在各个国家都普遍存在着, 它并不仅存在于中国. 在全球的局势对中国都不利的当下, 当局会过滤掉影响、危害到中国长远发展的信息, 此时国家安全的意义更加重大. 互联网上存在着大量终究不现实的、不客观的, 甚至自相矛盾的抹黑当局政府言论, 它们背后一般有西方政府或非政府组织资金支持. 这些媒体包括但不限于一些港媒、境外网站. 我们希望您能在遇到此类言论和见解时, 不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西, 而是要事实求是地思考, 要摆脱情绪绑架的怪诞思维去理解.&lt;/p&gt;
+&lt;p&gt;我们需要了解到, 中国的发展总基调是“稳中求进&amp;quot;, 中国社会的最核心问题就是稳定, 失去稳定的中国将会是一盘散沙, 面临分裂和肢解的危险. 我们希望您了解当今中国发展的根本保证是什么, 发展的过程中哪部分是主旋律, 哪些是噪音；哪些是进取的, 哪些是会开历史倒车的. 我们应该清醒和全面地认识问题, 偏信西方媒体的言论、缺乏对国家的信任是不可取的. 您的数据安全和隐私对您尤为重要. 若这些信息不应当被西方掌握时, 它对国家和民族的命运更为重要. 出于此原因, 当局可能会限制您的行为, 我们不会也无法干预当局的任何政策和决定.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有的人引用 &lt;strong&gt;德国新教教士马丁 尼莫拉&lt;/strong&gt; 的话, 这样说:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在德国, 起初他们追杀共产主义者, 我没有说话, 因为我不是共产主义者；&lt;/p&gt;
+&lt;p&gt;接着, 他们追杀犹太人, 我没有说话…, 因为我不是犹太人；&lt;/p&gt;
+&lt;p&gt;后来, 他们追杀工会成员, 我没有说话…, 因为我不是工会成员；&lt;/p&gt;
+&lt;p&gt;此后, 他们追杀天主教徒, 我没有说话…, 因为我是新教徒；&lt;/p&gt;
+&lt;p&gt;最后, 他们奔我而来, 却再也没有人站起来为我说话了.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对于我来说:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;接受现实&lt;/strong&gt;: 可其实各个国家和地方都会有网络审查, 只要这个世界还是和平而有秩序的, 审查就存在, 只是程度不一样, 现代的社会里, 你只可能活在无限接近老大哥的世界里, 可以的一种结局就是小说《1984》里最后你只会爱上老大哥, 还是喜剧. 但是最恐怖的是, 老大哥可不止一个, 你也可以老大哥, 而相信老大哥此时言论的你, 只是一个被这个环境折磨的残废罢了.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对 自由/人权 的定义&lt;/strong&gt;: 有意思的是, 有时我们潜意识里对这种现象喜闻乐见. 起初读这本书的时候很是不能理解里面的隐喻, 我觉得这只是我读过故事中微不足道的臆想, 直到有一天感觉现实和小说里的描述如此契合. 此时的我感慨晦涩的书的魅力所在……这个时候又出现了一个谬误：我们希望世界和平而自由; 实际上永远都不会有真正的自由；笼子里的 自由 还是自由吗？人的权利该如何定义?
+&lt;ul&gt;
+&lt;li&gt;网络实现使用者的身份分级区别 ? 诸如隐私、自由以及畅游网络, 是人的基本权利吗？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;退而求其次, 思想自由&lt;/strong&gt;: 但是值得安慰的是; 思想是自由的; 我们可以将思想的疆界无限延拓, 不幸的则是无论你的精神如何的超脱, 你始终无法摆脱躯壳活在世间...... 所以还是罗永浩那句：“理解万岁”！&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;独立思维&lt;/strong&gt;: 可能你会说我崇洋媚外, 但是从上面的话来说, 我并没有劝导你走向Google, 因为这些只是一些工具罢了, Google也未必最好, 因为Google作为全球很出色搜索引擎无人能打, 而他恰巧是美国的, 美国的目的我们也不糊涂, 不排除有政府介入的可能, 而且Google的世界有点混乱, 而民众在Weibo上的跟风表现也是让人啼笑皆非, 所以此刻的你只有多听多看, 保持着批判性思维, 谨小慎微就可.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Play&lt;/strong&gt;: 其实我自己很以来Google, 自己平时喜欢玩机, 找习惯自己使用习惯的应用, 此优秀的恶习持续到我高三, 却复苏于我高考, 到写文章的期间我下载了无数的盗版应用, 手机上也为无数的应用付费, 也向手机系统（MIUI）提出了背离他们开发理念的自私的东西（Search and RSS, Net Speed, Painting）, 自然是几年都无果呵呵. 其中的流量实时监控在国内基本破产, 所以去了Google Play, 不到几分钟就找到了, 确实是我很想做出来的APP, 只有唉声叹气一下, 我想这个世界确实可太小点了吧. 这是对Google产生好感的第一个原因. 而这个APP的论坛和官网都是被墙掉的……&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;渐渐地, 我关闭了Win10 的自动更新, 开始为手机寻找版本准备了养老, 备份舒服的版本应用, 退出APP的各大账号以防止他们的个性推荐……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;我可能并没有资格去发出这样的理论, 因为我也是既得利益者, 用互联网更好地学习就是佐证, 如果你通过WWW获取过一些东西, 那么你本质也和我一样, 我质疑互联网的发展, 就如我质疑我的客观存在一样荒谬, 矛盾已化解于过去的某个角落, 而今天才窥见全貌罢了, 现在的时代注定在他人的看法和自己的夹缝中撕裂, 无论最后你选择什么, 请学会隐忍！不要以为这是轻松到可以遗忘的事情, 忍字头上一把刀！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Past Network Environment&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;很怀念当年的网络环境, 因为真的有人为爱发电、网上随便一个聊天室都可以交到朋友, 大家都很友好, 小学生不是贬义词, 人们遇到新手都会花时间带一带, 人们真的用心聊着天, 不存在鄙视链, 没有引战, 没有谩骂, 没有水军, 但是自从网民的数量多起来后, 有礼有节的时代自此过去了, 现在说点事都得吵架, 谩骂, 都懒得回复, 当笑话看吧. 而现在论坛依旧保持和气与和谐的就属边缘的同人论坛了, 稍不注意就会被扣分或者封号, 你想看的东西就木有了, 人还是要有求, 才会老实. 最大的遗憾就是在这个时代逝去才出生的孩子了吧, 毕竟他们可是错过一个好的网络年代. 而那句看滥的段子也绝不是说说而已：&lt;code&gt;亚洲四害：日本鬼子, 韩国棒子, 印度汉子, 中国喷子！&lt;/code&gt; 而我这样排外的心理其实很正常, 但是也很没有必要, 毕竟&lt;code&gt; WWW&lt;/code&gt;建立的第一天就会必然导致这样的结果, 只是现在我才真正的发现罢了, 有点伤心, 但是连接的力量被互联网一次一次证实, 如果走不出来这个怪圈的话也是无可奈何.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GFW Existed&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;快速发展让千家万户短时间内用上互联网是不是导致GFW日高不减的原因？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;那些404就交给&lt;a href=&#34;https://web.archive.org/&#34;&gt;别人&lt;/a&gt;记忆吧.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithm Society&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Netify 2020 The Social Dilemma.&lt;/li&gt;
+&lt;li&gt;如今大数据的算法是不是有点弄巧成拙呢？我们一点都不反对技术的发展和迭代, 我们真正害怕的是&lt;strong&gt;技术人员存心设计打造的灰色地带以及他们在发展技术的羊皮下多做的东西&lt;/strong&gt;. 人多的世界上永远不乏恶魔. 当后面有相同的不可替代的方案取代之的时候, 你厂家选择用户还是自己就有待推敲了, 毕竟程序员不就是干这个的吗？权限的Denied和Delete无异, 我只能说一句呵呵. 这种对小众心理的偏爱, 可能是我一下子跟不上时代的发展了……有的时候我想：大家都很奇怪, 每天重复发生着一场迁徙 , 从巴掌大的窗口进入入虚拟化的世界, 不再那么关注现实生活中的一些缺憾, 虚拟化的窗口模糊了我们和现实的距离, 也无端地让我们有种错觉：美好的生活距我们也许只是几处像素块的距离, 我们或许被虚拟化的世界绑架, 亦或许没有, 大势所趋罢了. 对现实有所渴求的人都可以在互联网上找到些许安慰, 加之我们宣扬自由地活在自己的世界中会很快乐, 但是这种快乐在现在的我来看是不太完整的, 他少了很多身边至亲的、友好的人的陪伴, 我们注定有另外一场走出来吹水的世界来打破这样的一花一世界, 快速更迭的时代我们习惯单方面地冠之以不创新的帽子对往昔加以批判, 铺天盖地一致的声音, 但是真的考虑过主观能动性和时代背景有凤毛麟角, 或者说, 我们真的有思考过吗？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bilibili-b站&#34;&gt;Bilibili B站&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“凡是关于宏观层面的视频，比如国内的产业升级和国际关系等，弹幕普遍都是极其乐观向上的。基本上就是我们一天天好起来，敌人一天天烂下去。然后只要持有这种观点的主讲人也能获得很高的赞。&lt;/p&gt;
+&lt;p&gt;而到了中微观层面的视频，比如房价或者年轻人生育等等，弹幕普遍又悲观得不行。基本上不是彻底放弃躺平就是宣泄不满，然后任何还试图劝别人乐观一点，说现实没那么可怕和悲观的主讲人基本都会被喷。”&lt;/p&gt;
+&lt;p&gt;还比如，这位用户提到，在描述中国互联网企业出海盛况的视频里，弹幕纷纷是激动不已的“中国企业雄起！ ”。而在控诉996的视频里，弹幕却纷纷是愤怒的“你工人爷爷来了！”而不知B站的年轻人是否意识到，让他们激动不已纷纷点赞的，和让他们愤怒不已嚷嚷要打到的资本，不正是同样的一群企业吗？&lt;/p&gt;
+&lt;p&gt;如果假设观视频一家的受众是固定的，即青年群体，那么我们会看出这么一个奇特的现象:他们在对于国家前途无限乐观的同时，对于自己的前途却极其悲观。因为他们宏观弹幕代入的是国家，微观弹幕代入的是自己。代入自己的时候也不是不想乐观，但面对大量相关经验自然无法沉浸在幻想里。而宏观离得太远，少有这样的经验打脸，自然可以放飞想象。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“宏大叙事是可以灌输的，而生活的苦乐只有自己才知道。”&lt;strong&gt;用哲学家埃里克·霍弗的话说，就是：&lt;/strong&gt;“一个人愈是没有值得自夸之处，就愈容易夸耀自己的国家、宗教、种族和他参与的神圣事业。”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同时我们需要反省的是：国家的发展是有目共睹的，为什么越来越多的年轻人却被困在现实生活中，慢慢放弃了挣扎，直接躺平？国家的这种发展为什么没有实际改善青年自身的成长与生活环境,让他们陷于个人命运的焦虑之中?&lt;/p&gt;
+&lt;p&gt;长期下去，这会造成一种潜在的风险是什么？那些陷入悲观的年轻人更容易被煽动和蛊惑，因为有成就感的人会把世界看成一个友好的世界，失意者则乐于看到世界急建改变。因为人性之中都会有一种倾向，那就是到自身以外寻找解释自身命运的理由。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;zhihu-知乎&#34;&gt;Zhihu 知乎&lt;/h2&gt;
+&lt;center&gt;&lt;b&gt;我理解现在的知乎, 但我不再是黏性用户&lt;/b&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/center&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“拥有互联网话语权的年轻人, 和现实世界拥有话语权的人, 并不完全重合. ”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;束发之年, 人都会发生大的改变, 而我恰好遇上了知乎. 那时候还是“小而精”的知乎, 而现在是“大而广”的知乎. 水军越来越多, 一个平台的没落, 他们功不可没. 一篇职业水军的自述文章里原话：“现在知乎越来越火, 我们手上的知乎账号就多的是. ” （这里摘者想说两句心里话：我的直观印象就是好多都不再是网友们的为爱发电, 而是已有的商定以赞同数为指标的KPI, 没说两句就和你说以前我多么垃圾, 然后遇到XXX, 让我XXX, 放上么有佐证的照片, 下面来一个种草班……呵呵）&lt;/p&gt;
+&lt;p&gt;内容质量直线下降, 越来越偏激. 我想大概是意图借助这些平台引（hu）导（you）网民的人太多了, 他们买来的目的明确的文字和最初那些满怀善意的文字毫无可比性. 听说知乎这两年大力采用智能推荐的技术, 这挺好. 我认为如果一个人拒绝信息茧房, 那将会永远活在房子里. 既然拦不住技术的进步, 不如学着使用. 你还会因为害怕汽车撞路障, 而坚持骑马上街吗. 现在回过头去看, 曾经认真对待过的东西都会怀念吧, 更多是怀念那个时候的自己.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;喜欢千人千面, 不喜欢“同是一个世界”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但其实我不喜欢这样的变化, 对知乎用户来说, 大家想要的可能就是千人千面的知识分享, 看到更大的世界, 而不是热门推荐的同一个世界. 至少我是这样. 最后说一个与知乎有关的有趣经历.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;期待知乎能“浴火重生”, 但我不再是黏性用户&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;进入大二之后, 发现了知乎另一个超级神奇的现象, 好像我每天看的内容都差不多, 内心开始有些抵触. 不会直接影响到我拒绝知乎, 我只是用的少了, 直到我自己写的一个谈及韩国人和美国人的话题成为转折点. 具体帖子不说了, 当时有不少评论让我头大. 提出反对意见是好事, 可是连我文章都没看懂, 先跑来骂我, 是几个意思？花了几天解释不清之后, 我放弃了解释.&lt;/p&gt;
+&lt;p&gt;我想聊聊人工智能推荐技术. 今日头条用智能推荐, 我觉得挺好, 本来它的内容定位就是娱乐, 就是闲时消遣, 但是知乎不是！&lt;strong&gt;知乎使用智能推荐后, 就像是在课上被发现听课走神的优等生, 走偏了. 知乎不够相信自己的用户, 并非人都喜欢衣来伸手, 饭来张口, 既然用户下载了知乎, 就不是来看娱乐新闻的, 也不是自己往茧房里钻的&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;以前打开知乎, 满屏都是深度文章, 现在不少内容是“AB脸什么时候会塌”、“哪些明星长大长残了”、“薛之谦凭什么继续火”. 又多亏了智能推荐技术, 点开一次, 给你推三次, 再点一次, 给你推九次, 不一会儿, 你的首页全是娱乐新闻. 现在, 我基本上用微博, 内容和交际都简单好操作. 虽然现在微博的设计师也在作死的路上越走越远, 但是我觉得就内容的丰富度和便捷度来看, 微博是我比较依赖的SNS. 吐了一堆槽, 我还是想说：我理解现在的知乎, 期待它能“浴火重生”, 但我不再是黏性用户.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不够了解我, 推送的信息太多&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我分析过, 导致知乎变成这样, 和用户下沉有关. 以前是邀请制, 知乎是社会精英的集散地, 现在知乎目标是三四线城市的青年. 精英人群数量有限, 你要想变大, 肯定要去开拓三四线城市. 如果你留意, 你会发现, 知乎上有很多教育培训机构、租房信息、知识付费课程之类的广告, &lt;strong&gt;他们的目标人群就是三四线青年&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;他们的付费欲望要比所谓的精英强太多, 因为他们缺少更为便捷、更为高级的方式去获取社会资源, 但是又有成长的欲望, 稍微花一点钱, 他们是可以接受的. &lt;strong&gt;知乎的用户量变大了, 也逐渐失去了那批精英化人群&lt;/strong&gt;. 因为一个人越牛逼, 他越喜欢私密的社交圈, 所谓的私董会、中国企业家俱乐部就属于那种私密性社交的范畴. 像知乎这种半开放型社区, 对那部分精英人群的吸引力会越来越小.&lt;/p&gt;
+&lt;p&gt;现在为什么知乎会被骂呢？骂知乎的人中, 多数拥有文人情结, 比较矫情, 一旦所谓“low”一点的人进来了, 他们就看不下去了, 因为和他们没得聊, 没得说. 我虽然讨厌知乎那些繁琐的信息, 但并不是说我不使用知乎了, 我还会继续使用知乎, 知乎是一个很好的知识分享平台.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;知乎本没错, 错的是使用知乎的人&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但是有一点可以确定, 卸载时我坚信, 在看得到的时间里, 自己不会大变的近几年或十几年, 自己是不再需要它了.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;把无聊问题复杂化和科幻化的社区&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;知乎产品做得真心好. 最核心的好是团队能在初期把整个社区盘活了. 对于做社区来说, 第一步要让大家知道这个社区, 第二步要大家成为用户, 第三步是要让大家自行产生内容. 知乎这三步做得很完美. 我也是算个做产品的人, 每当我问自己, 知乎和百度知道的最具体区别是什么时, 我感觉自己也很难答好这个问题.&lt;/p&gt;
+&lt;p&gt;设想一下, 如果我也是一个想打造有逼格、有水平的问答社区时, 如何向投资人推销呢？如何回答一个无法逃避的问题：你这个玩意儿没在市场检验过前, 有什么信心去战胜百度知道？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;百度知道下面的回答都乱答, 没啥涵养？&lt;/p&gt;
+&lt;p&gt;早期需要通过邀请形式才能加入社区, 不开放注册. （这不就是砍掉用户吗？）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;知乎和百度知道在核心功能上是一模一样的, 对于知乎来说, 一定需要团队假装用户在早期, 把社区做好, 给后来的真实用户一种提问和回答的好模板. 知乎是成功的, 但我实在受不了大家在朋友圈转发那些看似高深, 但一点涵养也没有的知乎帖子.&lt;/p&gt;
+&lt;p&gt;在我看来, 知乎就是一个：把无聊问题复杂化和科幻化的社区.&lt;/p&gt;
+&lt;h2 id=&#34;ban-墙&#34;&gt;Ban 墙&lt;/h2&gt;
+&lt;p&gt;我接触到的一些被封事务.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我该如何记忆, 那些消失的事情......&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;South Park&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;柴静&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;徐晓东&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pewdiepie&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;崔永元&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/42722834&#34;&gt;锡兰Ceylan与独人13事件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/56822629/answer/391744101&#34;&gt;少寒和雪音&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wwi.lanzous.com/in4fKl101mf&#34;&gt;HotDog - 差不多先生 - dfs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;......&lt;/p&gt;
+&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
+&lt;div id =&#34;j1&#34;&gt;[1]. https://laod.cn&lt;/div&gt;
+&lt;div id =&#34;j2&#34;&gt;[2]. https://36kr.com/p/1722396606465&lt;/div&gt;
+&lt;div id =&#34;j3&#34;&gt;[3]. https://www.google.com/press/new-approach-to-china/update.html&lt;/div&gt;
+&lt;div id =&#34;j4&#34;&gt;[4]. https://mp.weixin.qq.com/s/U4-pvli6RJJeJ7SiNlskzg&lt;/div&gt;
+&lt;div id =&#34;j5&#34;&gt;[5]. https://help.aliyun.com/document_detail/39545.html&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://dfslfh.cn/blog/tags/gossip/">Gossip</category>
                                 
                             
                         
