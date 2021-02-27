@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">NOTHING BUT YOURSELF</title>
     <subtitle type="html">DandelionFs Penal Colony | DandelionFs的自留地</subtitle>
-    <updated>2021-02-24T00:46:06&#43;08:00</updated>
+    <updated>2021-02-27T16:26:00&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -17,26 +17,559 @@
     <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
         <entry>
-            <title type="text">Musics Notes</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210220-musics-notes/" />
-            <id>https://dfslfh.cn/blog/posts/210220-musics-notes/</id>
-            <updated>2021-02-20T15:28:50&#43;08:00</updated>
+            <title type="text">RSS</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/rss/" />
+            <id>https://dfslfh.cn/blog/posts/rss/</id>
+            <updated>2021-02-27T12:42:56&#43;08:00</updated>
+            <published>2021-02-26T20:41:19&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;如今 RSS 来源不限于:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;feedx.net&lt;/li&gt;
+&lt;li&gt;rsshub.app&lt;/li&gt;
+&lt;li&gt;werss.app&lt;/li&gt;
+&lt;li&gt;rss.mk&lt;/li&gt;
+&lt;/ul&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;如今 RSS 来源不限于:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;feedx.net&lt;/li&gt;
+&lt;li&gt;rsshub.app&lt;/li&gt;
+&lt;li&gt;werss.app&lt;/li&gt;
+&lt;li&gt;rss.mk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;opml&#34;&gt;OPML&lt;/h2&gt;
+&lt;p&gt;格式:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;opml&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;1.0&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Fluent Reader Export&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;outline&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Reader&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Reader&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;outline&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;XXX&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;XXX&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;rss&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlUrl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;XXXX&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;opml&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;atom--rss&#34;&gt;ATOM &amp;amp; RSS&lt;/h2&gt;
+&lt;p&gt;可以&lt;a href=&#34;http://www.intertwingly.net/wiki/pie/Rss20AndAtom10Compared&#34;&gt;参考&lt;/a&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/rss/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;不同点&lt;/th&gt;
+&lt;th&gt;RSS2.0&lt;/th&gt;
+&lt;th&gt;Atom 1.0&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;部署&lt;/td&gt;
+&lt;td&gt;RSS 2.0得到广泛部署。&lt;/td&gt;
+&lt;td&gt;Atom 1.0还未得到广泛部署。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;规范&lt;/td&gt;
+&lt;td&gt;哈佛大学拥有版权并冻结了RSS 2.0规范。&lt;/td&gt;
+&lt;td&gt;Atompub工作组(属于1ETF) 就Atom 1.0规范达成致意见,并在将来 有可能重新修订。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;所需内容&lt;/td&gt;
+&lt;td&gt;RSS 2.0包含所需的摘要级别的标题、链接和描述。它不需 要在摘要中出现的任何单独项的字段。&lt;/td&gt;
+&lt;td&gt;Atom 1.0包含摘要和条目所需的标题(可以为空)、惟- -标识和最后更新的 时间戳。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;有效负载 (payload)&lt;/td&gt;
+&lt;td&gt;RSS 2.0可以包含普通文本或者转义HTML,但是不能分 辨所提供的是两个中的哪一个。&lt;/td&gt;
+&lt;td&gt;Atom 1.0包含有效负载容器。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全部或者部分内容&lt;/td&gt;
+&lt;td&gt;RSS2.0有一个&amp;lt;description&amp;gt;元素,可以包含条目的全 部文本或者大纲。它没有用于标识内容是否完全的内置方 法。&lt;/td&gt;
+&lt;td&gt;Atom 1.0提供单独的&amp;lt;summary&amp;gt;和&amp;lt;content&amp;gt;元素。如果它是非文本 的或者非本地的内容,出于可访问性的原因摘要将很好用。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;自动发现&lt;/td&gt;
+&lt;td&gt;RSS 2.0用不同的方法实现自动发现。&lt;/td&gt;
+&lt;td&gt;Atom 1.0标准化自动发现。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;提取和聚合&lt;/td&gt;
+&lt;td&gt;RSS2.0只有一个可识别的形式:一个&amp;lt;rss&amp;gt;文档。&lt;/td&gt;
+&lt;td&gt;Atom 1.0允许独立的Atom Entry文档,可以使用任何网络协议传输;例 如,XMPP。Atom也支持聚合摘要,其中,条目指向它们来自的摘要,前提 是如果它们将被包含到其他摘要中。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://www.cnblogs.com/yjmyzz/archive/2009/02/19/1393972.html&lt;div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/tool/" term="Tool" label="Tool" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Wiki</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/wiki/" />
+            <id>https://dfslfh.cn/blog/posts/wiki/</id>
+            <updated>2021-02-25T11:39:23&#43;08:00</updated>
+            <published>2021-02-24T18:21:11&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静态构建网站&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/txd-team/docsite&#34;&gt;Docsite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/NARKOZ/gitlab&#34;&gt;Gitlab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mkdocs/mkdocs&#34;&gt;Mkdocs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/star7th/showdoc&#34;&gt;ShowDoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GitbookIO/gitbook&#34;&gt;Gitbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Requarks/wiki&#34;&gt;Wiki.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zthxxx/hexo-theme-Wikitten&#34;&gt;Hexo-Wikitten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vimwiki/vimwiki/blob/master/README-cn.md&#34;&gt;vimwiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asciidoc.org/index.html&#34;&gt;AsciiDoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wikidpad.sourceforge.net/&#34;&gt;WikidPad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zim-wiki.org/index.html&#34;&gt;Zim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;依赖服务托管&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mediawiki.org/wiki/MediaWiki&#34;&gt;MediaWiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/software/confluence&#34;&gt;confluence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//dokuwiki.org&#34;&gt;DokuWiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TiddlyWiki&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bookstackapp.com/&#34;&gt;Bookstack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Yuque&lt;/li&gt;
+&lt;li&gt;Notion&lt;/li&gt;
+&lt;/ul&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静态构建网站&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/txd-team/docsite&#34;&gt;Docsite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/NARKOZ/gitlab&#34;&gt;Gitlab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mkdocs/mkdocs&#34;&gt;Mkdocs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/star7th/showdoc&#34;&gt;ShowDoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GitbookIO/gitbook&#34;&gt;Gitbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Requarks/wiki&#34;&gt;Wiki.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zthxxx/hexo-theme-Wikitten&#34;&gt;Hexo-Wikitten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vimwiki/vimwiki/blob/master/README-cn.md&#34;&gt;vimwiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://asciidoc.org/index.html&#34;&gt;AsciiDoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wikidpad.sourceforge.net/&#34;&gt;WikidPad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zim-wiki.org/index.html&#34;&gt;Zim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;依赖服务托管&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mediawiki.org/wiki/MediaWiki&#34;&gt;MediaWiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/software/confluence&#34;&gt;confluence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//dokuwiki.org&#34;&gt;DokuWiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TiddlyWiki&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bookstackapp.com/&#34;&gt;Bookstack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Yuque&lt;/li&gt;
+&lt;li&gt;Notion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;#j1&#34;&gt;[1]. https://www.v2ex.com/t/735110&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/tool/" term="Tool" label="Tool" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Pictures</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/pictures/" />
+            <id>https://dfslfh.cn/blog/posts/pictures/</id>
+            <updated>2021-02-26T17:14:22&#43;08:00</updated>
+            <published>2021-02-24T16:42:01&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;记录有关于图片的一切.&lt;/p&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;记录有关于图片的一切.&lt;/p&gt;
+&lt;h2 id=&#34;public&#34;&gt;PUBLIC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;堆爱&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//sm.ms/&#34;&gt;SM.MS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//www.superbed.cn&#34;&gt;聚合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgchr.com/&#34;&gt;路过&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;表情：&lt;a href=&#34;https://www.webfx.com/tools/emoji-cheat-sheet/&#34;&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pay&#34;&gt;PAY&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Oss:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Aliyun&lt;/code&gt; 唯一局限如下:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;third-party&#34;&gt;THIRD PARTY&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://upload.likeyunba.com/&#34;&gt;里客云 - 聚合图床&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://my.imgbed.org/&#34;&gt;My Img&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/Wikiworker&#34;&gt;@Wikiworker&lt;/a&gt; &lt;a href=&#34;https://v2ex.com/t/743502&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgbed.cn&#34;&gt;Img Bed&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/imgbed&#34;&gt;@imgbed&lt;/a&gt;/&lt;a href=&#34;https://www.v2ex.com/member/OldActorsSmile&#34;&gt;@OldActorsSmile&lt;/a&gt;  &lt;a href=&#34;https://www.v2ex.com/t/716071&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Molunerfinn/PicGo&#34;&gt;Picgo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;compression&#34;&gt;COMPRESSION&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Webp
+&lt;ul&gt;
+&lt;li&gt;Industrution&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Downolad&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install webp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;toolssup3jsup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;Wallhaven&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pixiv.net/&#34;&gt;Pixiv （18年关被墙/同人、插画）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.netbian.com/&#34;&gt;彼岸桌面（已备）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cgwallpapers.com/&#34;&gt;CG Wallpaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unsplash.com/t/wallpapers&#34;&gt;https://unsplash.com/t/wallpapers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.desktopnexus.com/&#34;&gt;Desktop Nexus&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wallpaperim.net/&#34;&gt;WallPaperim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pexels.com/&#34;&gt;pexels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iconfont.cn/&#34;&gt;iconfont&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.60logo.com/&#34;&gt;60logo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://draw.io/&#34;&gt;draw.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.processon.com/&#34;&gt;processon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://carbon.now.sh/&#34;&gt;carbon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ctimbai/awesome-things/blob/master/remove.bg&#34;&gt;抠图神器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://818ps.com/&#34;&gt;图怪兽&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yasuotu.com/shuiyin&#34;&gt;压缩图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fonts.net.cn/&#34;&gt;字体天下&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://topology.le5le.com/&#34;&gt;topology&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;refeerence&#34;&gt;REFEERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://developers.google.com/speed/webp&lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/tool/" term="Tool" label="Tool" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Fonts</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/fonts/" />
+            <id>https://dfslfh.cn/blog/posts/fonts/</id>
+            <updated>2021-02-26T19:22:38&#43;08:00</updated>
+            <published>2021-02-24T16:38:41&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;说实话中文字体界实在是太乱了, 在使用过&lt;a href=&#34;https://dfslfh.cn/blog//fonts.google.com&#34;&gt;Google Fonts&lt;/a&gt;之后一直想找替代的网站, 简中搜索结果总是着指向诸如xxx下载站, pc下载站, 第一字体网之类的质量十分低下(缺乏&lt;strong&gt;字体介绍&lt;/strong&gt;, &lt;strong&gt;使用许可&lt;/strong&gt;, &lt;strong&gt;作者详情&lt;/strong&gt;, &lt;strong&gt;官方网站&lt;/strong&gt;等)的网站, 然而他们的 SEO 偏偏总是最高的, 这种资源的不平衡让我有点受不了, 这和人们的使用习惯, 闭源的运营方式, 严格的审查制度有着十分密切的关系.&lt;/p&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;说实话中文字体界实在是太乱了, 在使用过&lt;a href=&#34;https://dfslfh.cn/blog//fonts.google.com&#34;&gt;Google Fonts&lt;/a&gt;之后一直想找替代的网站, 简中搜索结果总是着指向诸如xxx下载站, pc下载站, 第一字体网之类的质量十分低下(缺乏&lt;strong&gt;字体介绍&lt;/strong&gt;, &lt;strong&gt;使用许可&lt;/strong&gt;, &lt;strong&gt;作者详情&lt;/strong&gt;, &lt;strong&gt;官方网站&lt;/strong&gt;等)的网站, 然而他们的 SEO 偏偏总是最高的, 这种资源的不平衡让我有点受不了, 这和人们的使用习惯, 闭源的运营方式, 严格的审查制度有着十分密切的关系.&lt;/p&gt;
+&lt;p&gt;我们总是不把版权问题摆在前面, 总是先入为主的要使用某一件产品而不问有什么代价, 总是乐于做伸手党, 久而久之真的沦为了理所当然的事情, 因为每一片雪花都很小, 所以雪崩不怪任何人, 甚至伸手党们拉帮结伙开始反攻作者, 真的让人啼笑皆非, 下面是微软雅黑的一些使用版权问题, 望周知.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了微软雅黑(方正兰亭黑)&lt;/strong&gt;, 微软公司只拥有微软雅黑的使用权, 而版权在方正手中. 我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为, 都属于侵权行为, 同时在Windows系统下, 商业行为也不被允许, 包括网页设计中, 主动调用微软雅黑字体, 更不可以以图片的形式在网页中用到微软雅黑！&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/fonts/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;basic-things&#34;&gt;BASIC THINGS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;磅 &amp;amp; 字号&lt;/strong&gt;: 1磅约等于 0.35毫米, 即一个10磅的文字, 其高度约等于3.5毫米&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;磅（1-1638）&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;strong&gt;字号&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;42&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;初号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;36&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小初&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;26&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小一号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;22&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;二号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;18&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小二号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;三号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小三号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;14&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;四号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小四号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;五号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小五号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;六号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小六号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;七号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;八号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;衬线&lt;/strong&gt;指的是字母结构笔画之外的装饰性笔画. 有衬线的字体叫衬线体（serif）；没有衬线的字体, 则叫做无衬线体（sans-serif）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/fonts/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, 个人感觉衬线字体阅读感更强, 无衬线更美化.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;recommend&#34;&gt;RECOMMEND&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;仅支持英文字体&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Press Start 2P: OFL, 位图字体, &lt;a href=&#34;https://fonts.google.com/specimen/Press+Start+2P#standard-styles&#34;&gt;Google&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Lato Regular: OFL, &lt;a href=&#34;https://fonts.google.com/specimen/Lato&#34;&gt;Google&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Roboto: AL, &lt;a href=&#34;https://fonts.google.com/specimen/Roboto&#34;&gt;Google&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;中文兼容字体&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;文泉驿的字体虽然是开放的，但似乎不可随便商用, 方正黑体、方正书宋、方正仿宋、方正楷体这四款方正的字体可以免费商用&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;方正黑体&lt;/li&gt;
+&lt;li&gt;方正楷体&lt;/li&gt;
+&lt;li&gt;方正书宋&lt;/li&gt;
+&lt;li&gt;方正仿宋&lt;/li&gt;
+&lt;li&gt;思源黑体&lt;/li&gt;
+&lt;li&gt;文泉驿字体&lt;/li&gt;
+&lt;li&gt;华文黑体&lt;/li&gt;
+&lt;li&gt;Verdana: Microsoft Corporation, 需要购买&lt;/li&gt;
+&lt;li&gt;Yu Gothic UI: LM(&lt;a href=&#34;https://www.fonts.com/content/microsoft-typography&#34;&gt;License Microsoft fonts&lt;/a&gt;), &lt;a href=&#34;https://docs.microsoft.com/en-us/typography/font-list/yu-gothic&#34;&gt;MircoSoft&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;mono等宽字体&#34;&gt;Mono/等宽字体&lt;/h3&gt;
+&lt;p&gt;挑选字体方面, 需留意对字体编码 Unicode 要优先考虑简中, 否则会出现字体变形的难受字样.&lt;/p&gt;
+&lt;p&gt;版权方面, 微软雅黑是从Window上面提取的版本, 所以存在版权问题. 只可以个体使用, 不可用于商业环境; 更纱黑体由 兆邦中国(Zhaobang China) 在&lt;a href=&#34;https://www.microsoft.com/zh-cn/p/%E6%9B%B4%E7%BA%B1%E9%BB%91%E4%BD%93/9mw0m424ncz7&#34;&gt;微软商店免费下载&lt;/a&gt;使用.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cheny-m/Microsoft-Yahei-Mono&#34;&gt;Microsoft Yahei Mono | 微软雅黑官方等宽字体 &lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/be5invis/Sarasa-Gothic&#34;&gt;Sarasa Gothic / 更纱黑体 / 更紗黑體&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tonsky/FiraCode&#34;&gt;FiraCode | 符号连体&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adobe-fonts/source-code-pro&#34;&gt;Adobe Fonts-Source Code Pro | 全英文环境较好&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;BUGS&lt;/h2&gt;
+&lt;h3 id=&#34;中竖门--门&#34;&gt;中竖门 &amp;amp; 门&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/japan-men.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;微软雅黑默认状态下部分字符显示为日文字符, 如&lt;code&gt;门&lt;/code&gt;就会显示 &#39;中间一竖的&lt;code&gt;门&lt;/code&gt;&#39;. 纠正方法换字体 --&lt;code&gt;文泉译米&lt;/code&gt; 即可&lt;/p&gt;
+&lt;p&gt;Profromence differences are related with &lt;a href=&#34;https://en.wikipedia.org/wiki/CJK_Unified_Ideographs&#34;&gt;&lt;strong&gt;CJK Unified Ideographs&lt;/strong&gt;&lt;/a&gt;, and relating to &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_CJK_fonts&#34;&gt;CJK Font&lt;/a&gt;. And Some Font display the Japan Font as default pattern, such this &lt;code&gt;Mircosoft YaHei&lt;/code&gt; in ubuntu when the sys encoding is &lt;code&gt;US_Utf-8&lt;/code&gt;, but why the window is not such situation?&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/fonts/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. Some more details &lt;a href=&#34;https://www.unicode.org/faq/han_cjk.html&#34;&gt;FAQ&lt;/a&gt; with it. By th way, Japan encodes CIJ and Chinese encodes GB.&lt;/p&gt;
+&lt;h2 id=&#34;link&#34;&gt;LINK&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fonts.google.com&#34;&gt;https://fonts.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.ubuntu.org.cn/%E5%85%8D%E8%B4%B9%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93&#34;&gt;https://wiki.ubuntu.org.cn/%E5%85%8D%E8%B4%B9%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://zenozeng.github.io/Free-Chinese-Fonts/&#34;&gt;http://zenozeng.github.io/Free-Chinese-Fonts/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://zhuanlan.zhihu.com/p/49049779&lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://www.thetype.com/2010/01/1814&lt;/div&gt;
+&lt;div id=&#34;j6&#34;&gt;[3].  http://jedi.org/opera/FontTest&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/tool/" term="Tool" label="Tool" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">South Park</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/southpark/" />
+            <id>https://dfslfh.cn/blog/posts/southpark/</id>
+            <updated>2021-02-24T22:00:37&#43;08:00</updated>
+            <published>2021-02-23T15:19:23&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;由于这一部在 2019 年播出的剧集中讽刺中国而遭中国陆内全网封禁的动画, 两年后我突然想起了这一部剧集, 只是我在几年前玩过它的(盗版)游戏. 我对这样的绘画风格感到新奇, 就想拿来瞅一瞅. 我在互联网存档馆找到一些&lt;a href=&#34;https://web.archive.org/web/20191005150919/https://www.zhihu.com/search?type=content&amp;amp;q=%E5%8D%97%E6%96%B9%E5%85%AC%E5%9B%AD&#34;&gt;当年知乎的讨论&lt;/a&gt;/&lt;a href=&#34;https://web.archive.org/web/20160924040300/http://tieba.baidu.com/f?kw=%E5%8D%97%E6%96%B9%E5%85%AC%E5%9B%AD&amp;amp;ie=utf-8&#34;&gt;当年7万关注的贴吧&lt;/a&gt;/&lt;a href=&#34;https://web.archive.org/web/20150319184317/https://movie.douban.com/subject/1295428/&#34;&gt;当年豆瓣页面&lt;/a&gt;. 本人已 Archive 了一份, 如果你需要, 请记得联系我.&lt;/p&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;由于这一部在 2019 年播出的剧集中讽刺中国而遭中国陆内全网封禁的动画, 两年后我突然想起了这一部剧集, 只是我在几年前玩过它的(盗版)游戏. 我对这样的绘画风格感到新奇, 就想拿来瞅一瞅. 我在互联网存档馆找到一些&lt;a href=&#34;https://web.archive.org/web/20191005150919/https://www.zhihu.com/search?type=content&amp;amp;q=%E5%8D%97%E6%96%B9%E5%85%AC%E5%9B%AD&#34;&gt;当年知乎的讨论&lt;/a&gt;/&lt;a href=&#34;https://web.archive.org/web/20160924040300/http://tieba.baidu.com/f?kw=%E5%8D%97%E6%96%B9%E5%85%AC%E5%9B%AD&amp;amp;ie=utf-8&#34;&gt;当年7万关注的贴吧&lt;/a&gt;/&lt;a href=&#34;https://web.archive.org/web/20150319184317/https://movie.douban.com/subject/1295428/&#34;&gt;当年豆瓣页面&lt;/a&gt;. 本人已 Archive 了一份, 如果你需要, 请记得联系我.&lt;/p&gt;
+&lt;p&gt;说实话我不知道该怎么再去面对这短暂的记忆, 我不知道该以什么语气, 什么表情, 什么话语来描述发生的一切, 这一切太快了, 我记得高考之前还搜出来 Mark 起来...... 不说了, 希望明天会越来越好吧.&lt;/p&gt;
+&lt;h2 id=&#34;site&#34;&gt;SITE&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//www.southparkstudios.com&#34;&gt;South Park Studios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//tearemix.com/sp/&#34;&gt;South Park Tearmix Collections&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;something-interesting&#34;&gt;Something Interesting&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;南方公园过分吗?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;南方公园最有意思的一点是他什么都反对，反对言论自由，反对言论不自由;反对政治正确，反对政治不正确；反对信仰自由，反对信仰不自由；反对非法移民，反对移民非法~~~&lt;/p&gt;
+&lt;p&gt;但是在我看来南方公园只反对一个东西——神圣化，谁敢以不可置疑的神圣观点judge别人，南方公园就用归谬拿他取乐。&lt;/p&gt;
+&lt;p&gt;绝圣弃智，民利百倍；绝仁弃义，民复孝慈；绝巧弃利，盗贼无有。&lt;/p&gt;
+&lt;p&gt;两位主创绝壁是道家信徒。&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/movie/" term="Movie" label="Movie" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Musics</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/musics/" />
+            <id>https://dfslfh.cn/blog/posts/musics/</id>
+            <updated>2021-02-24T16:45:30&#43;08:00</updated>
             <published>2021-02-20T15:21:55&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">MUSIC Knowledge for music &amp;amp; China Native Lyrics. THX FOR MP3, AAC, WAV, FLAC: all the audio file formats explained FORMAT MP3 (not hi-res): Popular, lossy compressed format ensures small file size, but far from the best sound quality. Convenient for storing music on smartphones and iPods. AAC(not hi-res): Apple&#39;s…
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;Knowledge for music &amp;amp; China Native Lyrics.&lt;/p&gt;…
     
     </summary>
             
-                <content type="html">&lt;h1 id=&#34;music&#34;&gt;MUSIC&lt;/h1&gt;
-&lt;p&gt;Knowledge for music &amp;amp; China Native Lyrics.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;THX FOR&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained&#34;&gt;MP3, AAC, WAV, FLAC: all the audio file formats explained&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+                <content type="html">&lt;p&gt;Knowledge for music &amp;amp; China Native Lyrics.&lt;/p&gt;
 &lt;h2 id=&#34;format&#34;&gt;FORMAT&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;MP3 (not hi-res)&lt;/code&gt;: Popular, lossy compressed format ensures &lt;strong&gt;small file size&lt;/strong&gt;, but &lt;strong&gt;far from the best sound quality&lt;/strong&gt;. Convenient for storing music on smartphones and iPods.&lt;/li&gt;
@@ -47,7 +580,7 @@
 &lt;li&gt;&lt;code&gt;DSD (hi-res)&lt;/code&gt;: The single-bit format used for Super Audio CDs. It comes in 2.8mHz, 5.6mHz and 11.2mHz varieties, but due to its high-quality codec, it’s (currently) impractical for streaming. Uncompressed.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;FLAC (hi-res)&lt;/code&gt;: This lossless compression format supports hi-res sample rates, takes up about half the space of WAV, and stores metadata. It&#39;s royalty-free and is considered the preferred format for downloading and storing hi-res albums. The downside is, it’s not supported by Apple (so not compatible with iTunes).&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;WAV (hi-res)&lt;/code&gt;: The standard format in which all CDs are encoded. Great sound quality but it&#39;s uncompressed, meaning huge file sizes (especially for hi-res files). It has poor metadata support (that is, album artwork, artist and song title information).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;WMA Lossless (hi-res)&lt;/code&gt;: A lossless incarnation of Windows Media Audio, but no longer well-supported by smartphones or tablets.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WMA Lossless (hi-res)&lt;/code&gt;: A lossless incarnation of Windows Media Audio, but no longer well-supported by smartphones or tablets. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/musics/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;software&#34;&gt;SOFTWARE&lt;/h2&gt;
 &lt;ul&gt;
@@ -73,7 +606,8 @@
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content>
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained&lt;/div&gt;</content>
             
             
             
@@ -96,26 +630,25 @@
         </entry>
     
         <entry>
-            <title type="text">Book Format Notes</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210130-book-summary/" />
-            <id>https://dfslfh.cn/blog/posts/210130-book-summary/</id>
-            <updated>2021-02-07T22:38:46&#43;08:00</updated>
+            <title type="text">Books</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/books/" />
+            <id>https://dfslfh.cn/blog/posts/books/</id>
+            <updated>2021-02-24T16:48:47&#43;08:00</updated>
             <published>2021-01-30T15:58:30&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;总结一下获取书的格式与区别, 整理总结心得.&lt;/p&gt;…
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">…
     
     </summary>
             
-                <content type="html">&lt;p&gt;总结一下获取书的格式与区别, 整理总结心得.&lt;/p&gt;
-&lt;h2 id=&#34;format-格式&#34;&gt;FORMAT 格式&lt;/h2&gt;
+                <content type="html">&lt;h2 id=&#34;format-格式&#34;&gt;FORMAT 格式&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 利用 PDF文档的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权, 一般存在于低专版本Acrobat 生成的pdf文件中, 9.0后漏洞消失. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 利用 PDF文档的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权, 一般存在于低专版本Acrobat 生成的pdf文件中, 9.0后漏洞消失. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
 &lt;li&gt;口令无法解除&lt;/li&gt;
 &lt;li&gt;编辑限制可以&lt;/li&gt;
@@ -137,14 +670,14 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: 本质是 &lt;code&gt;KF8&lt;/code&gt;(2011), 填补了 &lt;code&gt;Mobi&lt;/code&gt;  对于复杂排版支持的缺陷，支持很多 HTML5（目前尚不支持 HTML5 的视频和音频标签）和 CSS3 的语法，这就大大改善了原来 mobi 或 azw 内容排版上的一些缺陷，单纯从读者的角度来讲，是不输 epub 格式的。目前从 Amazon 购买的书，大部分已经是 azw3  格式了，而以前主流的 mobi 格式则越来越少，它正逐渐取代 mobi 成为 Kindle 电子书的主流格式。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
 &lt;blockquote&gt;
 &lt;p&gt;EPUB（Electronic Publication 的缩写，电子出版）是一种电子图书标准，由国际数字出版论坛（IDPF）提出；其中包括 3 种文件格式标准（文件的附文件名为 .epub），这个格式已取代了先前的 Open eBook 开放电子书标准。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
 - pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
-- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210130-book-summary/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;convert-转化&#34;&gt;CONVERT 转化&lt;/h2&gt;
 &lt;ul&gt;
@@ -188,41 +721,49 @@
         </entry>
     
         <entry>
-            <title type="text">Database Notes</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210127-database-notes/" />
-            <id>https://dfslfh.cn/blog/posts/210127-database-notes/</id>
-            <updated>2021-01-28T17:42:19&#43;08:00</updated>
+            <title type="text">Database</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/database/" />
+            <id>https://dfslfh.cn/blog/posts/database/</id>
+            <updated>2021-02-25T15:45:11&#43;08:00</updated>
             <published>2021-01-28T17:39:35&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;本文源于B站教程: &lt;a href=&#34;https://www.bilibili.com/video/BV12b411K7Zu&#34;&gt;MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;笔记参考: &lt;a href=&#34;https://www.jianshu.com/p/91856df6b6f9&#34;&gt;尚硅谷MySQL核心技术基础知识笔记&lt;/a&gt;&lt;/p&gt;…
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;本文参考:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/zh-cn/sql/&#34;&gt;X分钟速成Y-SQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12b411K7Zu&#34;&gt;MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/91856df6b6f9&#34;&gt;尚硅谷MySQL核心技术基础知识笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;本文源于B站教程: &lt;a href=&#34;https://www.bilibili.com/video/BV12b411K7Zu&#34;&gt;MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;笔记参考: &lt;a href=&#34;https://www.jianshu.com/p/91856df6b6f9&#34;&gt;尚硅谷MySQL核心技术基础知识笔记&lt;/a&gt;&lt;/p&gt;
+                <content type="html">&lt;p&gt;本文参考:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/zh-cn/sql/&#34;&gt;X分钟速成Y-SQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12b411K7Zu&#34;&gt;MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/91856df6b6f9&#34;&gt;尚硅谷MySQL核心技术基础知识笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;好处&#34;&gt;好处&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;持久化数据到本地&lt;/li&gt;
-&lt;li&gt;可以实现结构化查询，方便管理&lt;/li&gt;
+&lt;li&gt;可以实现结构化查询, 方便管理&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;概念&#34;&gt;概念&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;DB：数据库，保存一组有组织的数据的容器&lt;/li&gt;
-&lt;li&gt;DBMS：数据库管理系统，又称为数据库软件（产品），用于管理DB中的数据&lt;/li&gt;
-&lt;li&gt;SQL:结构化查询语言，用于和DBMS通信的语言&lt;/li&gt;
+&lt;li&gt;DB：数据库, 保存一组有组织的数据的容器&lt;/li&gt;
+&lt;li&gt;DBMS：数据库管理系统, 又称为数据库软件(产品), 用于管理DB中的数据&lt;/li&gt;
+&lt;li&gt;SQL:结构化查询语言, 用于和DBMS通信的语言&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;存储特点&#34;&gt;存储特点&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;将数据放到表中，表再放到库中&lt;/li&gt;
-&lt;li&gt;一个数据库中可以有多个表，每个表都有一个的名字，用来标识自己。表名具有唯一性。&lt;/li&gt;
-&lt;li&gt;表具有一些特性，这些特性定义了数据在表中如何存储，类似java中 “类”的设计。&lt;/li&gt;
-&lt;li&gt;表由列组成，我们也称为字段。所有表都是由一个或多个列组成的，每一列类似java 中的”属性”&lt;/li&gt;
-&lt;li&gt;表中的数据是按行存储的，每一行类似于java中的“对象”。&lt;/li&gt;
+&lt;li&gt;将数据放到表中, 表再放到库中&lt;/li&gt;
+&lt;li&gt;一个数据库中可以有多个表, 每个表都有一个的名字, 用来标识自己。表名具有唯一性。&lt;/li&gt;
+&lt;li&gt;表具有一些特性, 这些特性定义了数据在表中如何存储, 类似java中 “类”的设计。&lt;/li&gt;
+&lt;li&gt;表由列组成, 我们也称为字段。所有表都是由一个或多个列组成的, 每一列类似java 中的”属性”&lt;/li&gt;
+&lt;li&gt;表中的数据是按行存储的, 每一行类似于java中的“对象”。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;命令&#34;&gt;命令&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -259,9 +800,9 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;语法规范&#34;&gt;语法规范&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;不区分大小写,但建议关键字大写，表名、列名小写&lt;/li&gt;
+&lt;li&gt;不区分大小写,但建议关键字大写, 表名、列名小写&lt;/li&gt;
 &lt;li&gt;每条命令最好用分号结尾&lt;/li&gt;
-&lt;li&gt;每条命令根据需要，可以进行缩进 或换行&lt;/li&gt;
+&lt;li&gt;每条命令根据需要, 可以进行缩进 或换行&lt;/li&gt;
 &lt;li&gt;注释
 &lt;code&gt;单行注释：#注释文字&lt;/code&gt;
 &lt;code&gt;单行注释：-- 注释文字&lt;/code&gt;
@@ -269,10 +810,10 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;语言分类&#34;&gt;语言分类&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;DQL（Data Query Language）&lt;/strong&gt; : 数据查询语言 select&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DQL(Data Query Language)&lt;/strong&gt; : 数据查询语言 select&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;DML(Data Manipulate Language)&lt;/strong&gt; : 数据操作语言 insert 、update、delete&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DDL（Data Define Languge）&lt;/strong&gt; : 数据定义语言 create、drop、alter&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;TCL（Transaction Control Language）&lt;/strong&gt; : 事务控制语言 commit、rollback&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DDL(Data Define Languge)&lt;/strong&gt; : 数据定义语言 create、drop、alter&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TCL(Transaction Control Language)&lt;/strong&gt; : 事务控制语言 commit、rollback&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;查询&#34;&gt;查询&lt;/h2&gt;
 &lt;p&gt;基础查询如上.&lt;/p&gt;
@@ -293,9 +834,9 @@
 &lt;ul&gt;
 &lt;li&gt;逻辑运算符：
 &lt;ul&gt;
-&lt;li&gt;and（&amp;amp;&amp;amp;）:两个条件如果同时成立，结果为true，否则为false&lt;/li&gt;
-&lt;li&gt;or(||)：两个条件只要有一个成立，结果为true，否则为false&lt;/li&gt;
-&lt;li&gt;not(!)：如果条件成立，则not后为false，否则为true&lt;/li&gt;
+&lt;li&gt;and(&amp;amp;&amp;amp;):两个条件如果同时成立, 结果为true, 否则为false&lt;/li&gt;
+&lt;li&gt;or(||)：两个条件只要有一个成立, 结果为true, 否则为false&lt;/li&gt;
+&lt;li&gt;not(!)：如果条件成立, 则not后为false, 否则为true&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -317,7 +858,7 @@
 针对的表    位置          关键字
 分组前筛选：  原始表     group by的前面     where
 分组后筛选：  分组后的结果集 group by的后面     having&lt;/li&gt;
-&lt;li&gt;可以按多个字段分组，字段之间用逗号隔开&lt;/li&gt;
+&lt;li&gt;可以按多个字段分组, 字段之间用逗号隔开&lt;/li&gt;
 &lt;li&gt;可以支持排序&lt;/li&gt;
 &lt;li&gt;having后可以支持别名&lt;/li&gt;
 &lt;/ul&gt;
@@ -331,18 +872,18 @@
 &lt;h4 id=&#34;等值连接非等值连接&#34;&gt;等值连接——非等值连接&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;等值连接的结果 = 多个表的交集&lt;/li&gt;
-&lt;li&gt;n表连接，至少需要n-1个连接条件&lt;/li&gt;
-&lt;li&gt;多个表不分主次，没有顺序要求&lt;/li&gt;
-&lt;li&gt;一般为表起别名，提高阅读性和性能&lt;/li&gt;
+&lt;li&gt;n表连接, 至少需要n-1个连接条件&lt;/li&gt;
+&lt;li&gt;多个表不分主次, 没有顺序要求&lt;/li&gt;
+&lt;li&gt;一般为表起别名, 提高阅读性和性能&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;sql99语法通过join关键字实现连接&#34;&gt;sql99语法：通过join关键字实现连接&lt;/h4&gt;
 &lt;p&gt;支持:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;等值连接、非等值连接 （内连接）&lt;/li&gt;
+&lt;li&gt;等值连接、非等值连接 (内连接)&lt;/li&gt;
 &lt;li&gt;外连接&lt;/li&gt;
 &lt;li&gt;交叉连接&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;语句上，连接条件和筛选条件实现了分离，简洁明了！&lt;/p&gt;
+&lt;p&gt;语句上, 连接条件和筛选条件实现了分离, 简洁明了！&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -385,11 +926,11 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;子查询&#34;&gt;子查询&lt;/h3&gt;
-&lt;p&gt;一条查询语句中又嵌套了另一条完整的select语句，其中被嵌套的select语句，称为子查询或内查询. 在外面的查询语句，称为主查询或外查询&lt;/p&gt;
+&lt;p&gt;一条查询语句中又嵌套了另一条完整的select语句, 其中被嵌套的select语句, 称为子查询或内查询. 在外面的查询语句, 称为主查询或外查询&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;子查询都放在小括号内&lt;/li&gt;
-&lt;li&gt;子查询可以放在from后面、select后面、where后面、having后面，但一般放在条件的右侧&lt;/li&gt;
-&lt;li&gt;子查询优先于主查询执行，主查询使用了子查询的执行结果&lt;/li&gt;
+&lt;li&gt;子查询可以放在from后面、select后面、where后面、having后面, 但一般放在条件的右侧&lt;/li&gt;
+&lt;li&gt;子查询优先于主查询执行, 主查询使用了子查询的执行结果&lt;/li&gt;
 &lt;li&gt;子查询根据查询结果的行数不同分为以下两类：
 5. 单行子查询: 搭配单行操作符使用：&lt;code&gt;&amp;gt; &amp;lt; = &amp;lt;&amp;gt; &amp;gt;= &amp;lt;= &lt;/code&gt;, 非法使用子查询的情况：
 1. 子查询的结果为一组值
@@ -413,14 +954,14 @@
 &lt;span class=&#34;err&#34;&gt;【&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;group&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;by&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;分组字段】&lt;/span&gt;
 &lt;span class=&#34;err&#34;&gt;【&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;having&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;条件】&lt;/span&gt;
 &lt;span class=&#34;err&#34;&gt;【&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;order&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;by&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;排序的字段】&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;limit&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;【起始的条目索引，】条目数&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;limit&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;【起始的条目索引&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;】条目数&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;特点:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;起始条目索引从0开始&lt;/li&gt;
 &lt;li&gt;limit子句放在查询语句的最后&lt;/li&gt;
-&lt;li&gt;公式：&lt;code&gt;select * from  表 limit （page-1）*sizePerPage,sizePerPage&lt;/code&gt;; 每页显示条目数sizePerPage, 要显示的页数 page&lt;/li&gt;
+&lt;li&gt;公式：&lt;code&gt;select * from  表 limit (page-1)*sizePerPage,sizePerPage&lt;/code&gt;; 每页显示条目数sizePerPage, 要显示的页数 page&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;联合查询&#34;&gt;联合查询&lt;/h4&gt;
 &lt;p&gt;引入&lt;code&gt;union&lt;/code&gt;联合、合并.&lt;/p&gt;
@@ -448,7 +989,7 @@
 &lt;p&gt;limit子句放在查询语句的最后&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;公式：select * from  表 limit （page-1）*sizePerPage,sizePerPage
+&lt;p&gt;公式：select * from  表 limit (page-1)*sizePerPage,sizePerPage
 假如:
 每页显示条目数sizePerPage
 要显示的页数 page
@@ -461,7 +1002,7 @@ union 联合、合并&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;多条查询语句的查询的列数必须是一致的&lt;/li&gt;
 &lt;li&gt;多条查询语句的查询的列的类型几乎相同&lt;/li&gt;
-&lt;li&gt;union代表去重，union all代表不去重&lt;/li&gt;
+&lt;li&gt;union代表去重, union all代表不去重&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;常见函数&#34;&gt;常见函数&lt;/h2&gt;
 &lt;p&gt;一、单行函数&lt;/p&gt;
@@ -573,17 +1114,17 @@ user当前连接用户&lt;/p&gt;
 &lt;h3 id=&#34;插入&#34;&gt;插入&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;insert into 表名(字段名，...) + values(值1，...);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;insert into 表名(字段名, ...) + values(值1, ...);&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;特点&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;字段类型和值类型一致或兼容，而且一一对应&lt;/li&gt;
-&lt;li&gt;可以为空的字段，可以不用插入值，或用null填充&lt;/li&gt;
-&lt;li&gt;不可以为空的字段，必须插入值&lt;/li&gt;
+&lt;li&gt;字段类型和值类型一致或兼容, 而且一一对应&lt;/li&gt;
+&lt;li&gt;可以为空的字段, 可以不用插入值, 或用null填充&lt;/li&gt;
+&lt;li&gt;不可以为空的字段, 必须插入值&lt;/li&gt;
 &lt;li&gt;字段个数和值的个数必须一致&lt;/li&gt;
-&lt;li&gt;字段可以省略，但默认所有字段，并且顺序和表中的存储顺序一致&lt;/li&gt;
-&lt;li&gt;字段类型和值类型一致或兼容，而且一一对应&lt;/li&gt;
+&lt;li&gt;字段可以省略, 但默认所有字段, 并且顺序和表中的存储顺序一致&lt;/li&gt;
+&lt;li&gt;字段类型和值类型一致或兼容, 而且一一对应&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -700,19 +1241,19 @@ user当前连接用户&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;事务&#34;&gt;事务&lt;/h2&gt;
-&lt;p&gt;通过一组逻辑操作单元（一组DML——sql语句），将数据从一种状态切换到另外一种状态&lt;/p&gt;
+&lt;p&gt;通过一组逻辑操作单元(一组DML——sql语句), 将数据从一种状态切换到另外一种状态&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;特点:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;原子性（ACID）：要么都执行，要么都回滚&lt;/li&gt;
+&lt;li&gt;原子性(ACID)：要么都执行, 要么都回滚&lt;/li&gt;
 &lt;li&gt;一致性：保证数据的状态操作前和操作后保持一致&lt;/li&gt;
-&lt;li&gt;隔离性：多个事务同时操作相同数据库的同一个数据时，一个事务的执行不受另外一个事务的干扰&lt;/li&gt;
-&lt;li&gt;持久性：一个事务一旦提交，则数据将持久化到本地，除非其他事务对其进行修改&lt;/li&gt;
+&lt;li&gt;隔离性：多个事务同时操作相同数据库的同一个数据时, 一个事务的执行不受另外一个事务的干扰&lt;/li&gt;
+&lt;li&gt;持久性：一个事务一旦提交, 则数据将持久化到本地, 除非其他事务对其进行修改&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;分类：隐式事务，没有明显的开启和结束事务的标志&lt;/p&gt;
+&lt;p&gt;分类：隐式事务, 没有明显的开启和结束事务的标志&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
             
@@ -1024,10 +1565,10 @@ user当前连接用户&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">Machine Learning Notes--Logistic regression</title>
+            <title type="text">Machine Learning--Logistic regression</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210123-machine-learning-notes2/" />
             <id>https://dfslfh.cn/blog/posts/210123-machine-learning-notes2/</id>
-            <updated>2021-01-26T16:54:19&#43;08:00</updated>
+            <updated>2021-02-24T17:43:33&#43;08:00</updated>
             <published>2021-01-25T00:23:50&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -1066,10 +1607,10 @@ user当前连接用户&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">Machine Learning Notes--Perceptron</title>
+            <title type="text">Machine Learning--Perceptron</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210123-machine-learning-notes1/" />
             <id>https://dfslfh.cn/blog/posts/210123-machine-learning-notes1/</id>
-            <updated>2021-01-25T15:45:42&#43;08:00</updated>
+            <updated>2021-02-24T17:43:39&#43;08:00</updated>
             <published>2021-01-22T19:52:50&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -2905,10 +3446,10 @@ user当前连接用户&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">Stackover Cpp Top Questions Notes</title>
+            <title type="text">Stackover Cpp Top Questions</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210121-stackover-top-notes/" />
             <id>https://dfslfh.cn/blog/posts/210121-stackover-top-notes/</id>
-            <updated>2021-02-20T12:14:37&#43;08:00</updated>
+            <updated>2021-02-24T17:44:04&#43;08:00</updated>
             <published>2021-01-21T14:31:44&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -4976,10 +5517,10 @@ sizeof(long long) &amp;gt;= 8
         </entry>
     
         <entry>
-            <title type="text">Photography Notes</title>
+            <title type="text">Photography</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/photography/" />
             <id>https://dfslfh.cn/blog/posts/photography/</id>
-            <updated>2021-02-24T00:45:02&#43;08:00</updated>
+            <updated>2021-02-24T17:42:56&#43;08:00</updated>
             <published>2021-01-20T21:58:28&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -5204,10 +5745,10 @@ sizeof(long long) &amp;gt;= 8
         </entry>
     
         <entry>
-            <title type="text">Ubuntu All in One</title>
+            <title type="text">Ubuntu</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/ubuntu/" />
             <id>https://dfslfh.cn/blog/posts/ubuntu/</id>
-            <updated>2021-02-24T00:43:17&#43;08:00</updated>
+            <updated>2021-02-27T12:45:05&#43;08:00</updated>
             <published>2021-01-19T18:11:54&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -6314,6 +6855,7 @@ $ vim Clash.desktop
 &lt;li&gt;&lt;a href=&#34;http://www.debian.org/&#34;&gt;Debain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://wiki.ubuntu.com/&#34;&gt;Wiki_Ubuntu_En&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/6844904149822210056&#34;&gt;写给工程师的 Ubuntu 20.04 最佳配置指南&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;site&#34;&gt;Site&lt;/h3&gt;
 &lt;ul&gt;
@@ -7371,9 +7913,9 @@ $ vim Clash.desktop
     
         <entry>
             <title type="text">Kernel</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/201205-kernel/" />
-            <id>https://dfslfh.cn/blog/posts/201205-kernel/</id>
-            <updated>2021-01-17T04:26:00&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/kernel/" />
+            <id>https://dfslfh.cn/blog/posts/kernel/</id>
+            <updated>2021-02-24T17:08:56&#43;08:00</updated>
             <published>2020-12-05T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -7453,10 +7995,10 @@ $ vim Clash.desktop
         </entry>
     
         <entry>
-            <title type="text">Git Notes</title>
+            <title type="text">Git</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/git/" />
             <id>https://dfslfh.cn/blog/posts/git/</id>
-            <updated>2021-02-24T00:44:34&#43;08:00</updated>
+            <updated>2021-02-24T17:42:48&#43;08:00</updated>
             <published>2020-11-06T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -8448,92 +8990,103 @@ bin/jlink --module-path jmods --add-modules java.desktop --output jre &lt;span c
             <title type="text">Electron</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/electron/" />
             <id>https://dfslfh.cn/blog/posts/electron/</id>
-            <updated>2021-02-24T00:45:30&#43;08:00</updated>
+            <updated>2021-02-27T12:44:06&#43;08:00</updated>
             <published>2020-08-20T19:35:43&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;论开发一个简单的 electron 的 Hello World 在国内局域网有多麻烦 [报粗口ing......]&lt;/p&gt;…
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;a href=&#34;https://github.com/electron/electron&#34;&gt;Electron&lt;/a&gt;, html/css/js的跨平台应用开发框架, 额外需要用到&lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;NodeJS&lt;/a&gt;, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm install electron -g
+$ npm install electron --save-dev
+$ npm install electron -g --unsafe-perm
+$ sudo npm npm install electron -g
+$ sudo npm npm install electron -g --unsafe-perm
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 &lt;code&gt;node install.js&lt;/code&gt; 的 &lt;code&gt;download electron-linux-x64.zip&lt;/code&gt;, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;., 或者直接使用 &lt;code&gt;npm config set registry http://registry.npm.taobao.org&lt;/code&gt; 永久设置/ &lt;code&gt;~/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;; 或者 &lt;code&gt;npm install your-model --registry=http://registry.npm.taobao.org&lt;/code&gt; 临时设置源. 相信我, 这是唯一最优的方法.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; proxy url
+$ npm config delete proxy
+&lt;span class=&#34;c1&#34;&gt;# Or You could &lt;/span&gt;
+$ vim ~/.npmrc
+&lt;span class=&#34;c1&#34;&gt;# Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/`&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;论开发一个简单的 electron 的 Hello World 在国内局域网有多麻烦 [报粗口ing......]&lt;/p&gt;
-&lt;h2 id=&#34;version-01---10&#34;&gt;Version 0.1 -&amp;gt; 1.0&lt;/h2&gt;
+                <content type="html">&lt;p&gt;&lt;a href=&#34;https://github.com/electron/electron&#34;&gt;Electron&lt;/a&gt;, html/css/js的跨平台应用开发框架, 额外需要用到&lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;NodeJS&lt;/a&gt;, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;npm install electron -g
-&lt;span class=&#34;c1&#34;&gt;# ?&lt;/span&gt;
-npm install electron --save-dev
-&lt;span class=&#34;c1&#34;&gt;# ??&lt;/span&gt;
-npm install electron -g --unsafe-perm
-&lt;span class=&#34;c1&#34;&gt;# ???&lt;/span&gt;
-sudo npm npm install electron -g
-&lt;span class=&#34;c1&#34;&gt;# ????&lt;/span&gt;
-sudo npm npm install electron -g --unsafe-perm
-&lt;span class=&#34;c1&#34;&gt;# ?????&lt;/span&gt;
-npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; proxy url
-&lt;span class=&#34;c1&#34;&gt;# ??????!!!!!!&lt;/span&gt;
-npm config delete proxy
-&lt;span class=&#34;c1&#34;&gt;# what about you???&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;# reboot! F*** U&lt;/span&gt;
-
-
-&lt;span class=&#34;c1&#34;&gt;# &amp;gt; electrona9.2.0 postinstall /usr/local/lib/node modules/electron&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;# &amp;gt; node install.js&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;# Error: EACCES: permission denied. mkdtemp &amp;#39;/usr/local/lib/node modules/electron/electron-download-nosukt&amp;#39;&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! code ELIFECYCLE&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! errno 1&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! electron@9.2.0 postinstall: node install.js&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! Exit status 1&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR!&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! Failed at the electronag.2.0 postinstall script.&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! This is probably not a problem with npm. There is likely additional logging output above.&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! A complete log of this run can be found in:&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;#npm ERR! /root/.npm/ logs/2020-08-13T05 20 38 701z-debug.log&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm install electron -g
+$ npm install electron --save-dev
+$ npm install electron -g --unsafe-perm
+$ sudo npm npm install electron -g
+$ sudo npm npm install electron -g --unsafe-perm
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;从上面可以看出总是卡在 node install.js 的 download &lt;code&gt;electron-linux-x64.zip&lt;/code&gt;, 是校园网+GFW的原因了.而因为不知道具体的路径, 所以智能乖乖的执行这个脚本...&lt;/p&gt;
-&lt;p&gt;失败总结:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;就算挂代理下载这个JS包还是很慢, 几乎没有进度... 所以以后开发还是用上阿里的 cnpm 吧, 在这方面不能不妥协&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;/home/usr/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
-&lt;p&gt;试例如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 &lt;code&gt;node install.js&lt;/code&gt; 的 &lt;code&gt;download electron-linux-x64.zip&lt;/code&gt;, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;., 或者直接使用 &lt;code&gt;npm config set registry http://registry.npm.taobao.org&lt;/code&gt; 永久设置/ &lt;code&gt;~/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;; 或者 &lt;code&gt;npm install your-model --registry=http://registry.npm.taobao.org&lt;/code&gt; 临时设置源. 相信我, 这是唯一最优的方法.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; proxy url
+$ npm config delete proxy
+&lt;span class=&#34;c1&#34;&gt;# Or You could &lt;/span&gt;
+$ vim ~/.npmrc
+&lt;span class=&#34;c1&#34;&gt;# Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/`&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;下面是我参考的教程, 由衷的感谢:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tal-tech/electron-playground/tree/0.0.3&#34;&gt;https://github.com/tal-tech/electron-playground/tree/0.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jspang.com/detailed?id=62&#34;&gt;https://jspang.com/detailed?id=62&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;demo&#34;&gt;DEMO&lt;/h2&gt;
+&lt;p&gt;你永远不会知道我这个垃圾用了四天的时间完成这个Demo, 因为各种不确定因素叠加, 太难受了, 试例如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm init
+$ vim index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -8563,7 +9116,8 @@ npm config delete proxy
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;$ vim index.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -8582,9 +9136,29 @@ npm config delete proxy
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;electron&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;electron&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//引入electron
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//version 1.0
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;BrowserWindow&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;electron&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;path&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ready&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+  &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;BrowserWindow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+  &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;loadFile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resolve&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;__dirname&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;//version 2.0
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;electron&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;electron&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//引入electron
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;electron&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;app&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 创建引用
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;BrowserWindow&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;electron&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;BrowserWindow&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 创建窗口应用
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;mainWindow&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//声明要打开的主窗口
@@ -8603,13 +9177,11 @@ npm config delete proxy
 &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;之后总算是交上了这四天的答卷 ...&lt;/p&gt;
-&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
-&lt;p&gt;需要要到&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/electron/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;NodeJS: &lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;http://nodejs.cn/learn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Electron: &lt;a href=&#34;https://www.electronjs.org/docs/tutorial&#34;&gt;https://www.electronjs.org/docs/tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;$ electron .&lt;/code&gt; Okay!&lt;/p&gt;
+&lt;h2 id=&#34;webpack&#34;&gt;Webpack&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;主进程和渲染进程改如何调试？我想用最新的ES特性该怎么做？想用TypeScript该怎么配置？想用React，Vue，Angular来写UI呢？&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;nodejs&#34;&gt;Nodejs&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -8711,7 +9283,10 @@ npm config delete proxy
 &lt;div id=&#34;j1&#34;&gt;[1]. https://developer.aliyun.com/mirror/NPM&lt;/div&gt;
 &lt;div id=&#34;j2&#34;&gt;[2]. https://www.electronjs.org/docs/tutorial/installation&lt;/div&gt;
 &lt;div id=&#34;j3&#34;&gt;[3]. https://jspang.com/detailed?id=62&lt;/div&gt;
-&lt;div id=&#34;j4&#34;&gt;[4]. https://www.electronjs.org&lt;/div&gt;</content>
+&lt;div id=&#34;j4&#34;&gt;[4]. https://www.electronjs.org&lt;/div&gt;
+&lt;div id=&#34;j5&#34;&gt;[5]. https://www.cnblogs.com/zjhblogs/p/10755058.html&lt;/div&gt;
+&lt;div id=&#34;j6&#34;&gt;[6]. http://www.thewashingtonhua.com/blog/2017/07/06/electron-install-guide&lt;/div&gt;
+&lt;div id=&#34;j7&#34;&gt;[7]. https://systemisbusy.info/blog/2019/09/03/%E7%BB%99electron%E5%81%9Ac%E5%BC%80%E5%8F%91%E7%9A%84%E9%82%A3%E4%BA%9B%E5%9D%91/&lt;/div&gt;</content>
             
             
             
@@ -8737,7 +9312,7 @@ npm config delete proxy
             <title type="text">VSCode You Should Know</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/vscode/" />
             <id>https://dfslfh.cn/blog/posts/vscode/</id>
-            <updated>2021-02-24T00:44:28&#43;08:00</updated>
+            <updated>2021-02-24T15:31:39&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -8778,12 +9353,6 @@ npm config delete proxy
 &lt;li&gt;Materoal icon theme&lt;/li&gt;
 &lt;li&gt;Panda Theme&lt;/li&gt;
 &lt;li&gt;Community Material Theme&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Font:&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;首选等宽字体&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/abertsch/Menlo-for-Powerline&#34;&gt;https://github.com/abertsch/Menlo-for-Powerline&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Markdown
@@ -8986,6 +9555,185 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
                             
                             
                                 <category scheme="https://dfslfh.cn/blog/tags/gossip/" term="Gossip" label="Gossip" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Proxy</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/proxy/" />
+            <id>https://dfslfh.cn/blog/posts/proxy/</id>
+            <updated>2021-02-27T03:08:12&#43;08:00</updated>
+            <published>2020-02-26T23:51:37&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 &lt;code&gt;google&lt;/code&gt; 高兴一下, 然后就没时间了, 一天下来等于什么都没干...... 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开&lt;code&gt;clash.razord.top/#/settings&lt;/code&gt;. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开了系统代理 &amp;amp;&amp;amp; &lt;code&gt;Clash&lt;/code&gt; 全部开启&lt;/li&gt;
+&lt;li&gt;配置文件格式有问题&lt;/li&gt;
+&lt;li&gt;变量的大小写问题&lt;/li&gt;
+&lt;li&gt;变量的端口的有无&lt;/li&gt;
+&lt;li&gt;映射端口是否对应&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./clash -d .&lt;/code&gt; &amp;amp; &lt;code&gt;./clash&lt;/code&gt; 的效果不一致.&lt;/li&gt;
+&lt;li&gt;套餐过期/场主跑路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;......&lt;/p&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 &lt;code&gt;google&lt;/code&gt; 高兴一下, 然后就没时间了, 一天下来等于什么都没干...... 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开&lt;code&gt;clash.razord.top/#/settings&lt;/code&gt;. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开了系统代理 &amp;amp;&amp;amp; &lt;code&gt;Clash&lt;/code&gt; 全部开启&lt;/li&gt;
+&lt;li&gt;配置文件格式有问题&lt;/li&gt;
+&lt;li&gt;变量的大小写问题&lt;/li&gt;
+&lt;li&gt;变量的端口的有无&lt;/li&gt;
+&lt;li&gt;映射端口是否对应&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./clash -d .&lt;/code&gt; &amp;amp; &lt;code&gt;./clash&lt;/code&gt; 的效果不一致.&lt;/li&gt;
+&lt;li&gt;套餐过期/场主跑路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;......&lt;/p&gt;
+&lt;h2 id=&#34;noun&#34;&gt;NOUN&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IPLC&lt;/strong&gt;: International Private Leased Circuit, 国际私有租赁线路. 延迟低, 速度快, 甚至低于日本CN2线路, 不用担心IP, 完全内网通讯, 三大运营商是付费网间结算.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IEPL&lt;/strong&gt;: International Ethernet Private Line, 国际以太网专线, MSTP构建, SDH传输, GFP封装, 协议透明，物理层隔离，带宽保证，提供一层点对点数据专线服务.&lt;/li&gt;
+&lt;li&gt;中国电信(China Telecom): 三大国际出口分别是，北京，上海，广州，全国的出口网络最后都会汇集到这三个出口点
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ChinaNet&lt;/strong&gt;: 163骨干网/AS4134, 骨干网, 基建早, 带宽大, 便宜, 承载普通质量的互联网业务.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chinatelecom Next Carrier Network&lt;/strong&gt;: CNCN, CN2/AS4809. 后进骨干网, 欧洲, 北美和亚洲间的转接, 稳定高速, 时延敏感, 价格更贵.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CN2 GT&lt;/strong&gt;: Global Transit, 全球互联网资源转接, 提供给全球的通讯运营商, 电信163骨干网接入国际Tier1/2 运营商以及主流OTT, CN2直连国际网. 国际出口有单独线路，国内的链路使用163骨干网.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CN2 GIA&lt;/strong&gt;: Global Internet Access, 为企业提供&lt;strong&gt;中国方向&lt;/strong&gt;互联网专线接入. 接入CN2，出口全程CN2, 但出口带宽小, 有网络波动. GIA 的主要优势是回国有单独的线路，高优先级，高质量，但接入价格较贵。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;单程/单向 CN2&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;去CN2, 回ChinaNet&lt;/strong&gt;: 测试效果好, 实际体验无感.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;去ChinaNet, 回CN2&lt;/strong&gt;: 综合抗DDoS, 速度, 价格的最优解.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;双程/双向 CN2&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/proxy/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GIS&lt;/strong&gt;: Global Internet Services
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ChinaNet Paid-Peer&lt;/strong&gt;: 为全世界运营商和OTT用户提供中国电信中文互联网资源的最短路由接入服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;China Access&lt;/strong&gt;: 为全球客户提供一站式的中文互联网资源接入服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BGP&lt;/strong&gt;: Border Gateway Protocol, 边界网关协议. 用于互联网AS间的互联, 控制路由的传播和选择最好的路由, BGP多线机房相较于双IP双线机房更优.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/proxy/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中继&lt;/strong&gt;: 中继入口在国内的，中继的入口到落地之间穿越防火墙的这一段一般会使用一些隧道协议(负载均衡/高可用/防止被墙)
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;公网&lt;/strong&gt;: 公网就是还走三大统一出国.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;专线&lt;/strong&gt;: 专线是国内国外两头内网传输.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;质量标准&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;IPLC/IEPL专线 &amp;gt; CN2 GIA &amp;gt; BGP中转 &amp;gt; 普通隧道中继 &amp;gt; 常规CN2 GT &amp;gt; 直连线路 &amp;gt; 普通线路&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;protocols&#34;&gt;PROTOCOLS&lt;/h2&gt;
+&lt;h3 id=&#34;ss&#34;&gt;SS&lt;/h3&gt;
+&lt;p&gt;原&lt;a href=&#34;https://github.com/shadowsocks/shadowsocks-iOS&#34;&gt;项目&lt;/a&gt;地址, 因clowwindy被&lt;a href=&#34;https://github.com/shadowsocks/shadowsocks-iOS/issues/124&#34;&gt;喝茶&lt;/a&gt;而关闭. 事情经过可以&lt;a href=&#34;https://printempw.github.io/about-clowwindy-archive/&#34;&gt;参考&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Script:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/teddysun/shadowsocks_install&#34;&gt;shadowsocks_install&lt;/a&gt;: Removed.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://teddysun.com/486.html&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/heweiye/teddysunBackup&#34;&gt;shadowsocks_install&lt;/a&gt;: Backup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ssr&#34;&gt;SSR&lt;/h2&gt;
+&lt;p&gt;......&lt;/p&gt;
+&lt;h2 id=&#34;v2ray&#34;&gt;V2ray&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Script:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/233boy/v2ray&#34;&gt;v2ray&lt;/a&gt;: Removed.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vkuajing/v2ray&#34;&gt;v2ray 教程&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PhenTse/233boy-v2ray&#34;&gt;233boy-v2ray&lt;/a&gt;: Backup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h3 id=&#34;clash&#34;&gt;CLASH&lt;/h3&gt;
+&lt;p&gt;一款用&lt;code&gt;Go&lt;/code&gt;开发的支持多平台的代理工具，支持 &lt;code&gt;ss&lt;/code&gt;/&lt;code&gt;v2ray&lt;/code&gt;/&lt;code&gt;snell&lt;/code&gt;，支持规则分流(Surge)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Dreamacro/clash&#34;&gt;Clash&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tmpclashpremiumbindary.cf/&#34;&gt;Clash Mirror&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yichengchen/clashX/&#34;&gt;ClashX For Mac&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Fndroid/clash_for_windows_pkg&#34;&gt;Clash For Windows&lt;/a&gt; By &lt;a href=&#34;https://github.com/Fndroid&#34;&gt;Fndroid&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.cfw.lbyczf.com/&#34;&gt;Docs&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Clash For Android
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Kr328/ClashForMagisk&#34;&gt;Clash For Magisk&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kalasutra/Clash_Premium_For_Magisk&#34;&gt;Clash Premium For Magisk&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alecthw/mmdb_china_ip_list&#34;&gt;MMDB&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;规则&#34;&gt;规则&lt;/h3&gt;
+&lt;p&gt;仅供参考，安全自负. 有兴趣可以看 Fndroid &lt;a href=&#34;https://github.com/Fndroid/jsbox_script/wiki/%E5%85%B3%E4%BA%8E%E7%AD%96%E7%95%A5%E7%BB%84%E7%9A%84%E7%90%86%E8%A7%A3&#34;&gt;关于策略组的理解&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在线Subconverter订阅转换
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acl4ssr-sub.github.io/&#34;&gt;https://acl4ssr-sub.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://subcon.py6.pw/&#34;&gt;https://subcon.py6.pw/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sub.weleven11.com/&#34;&gt;https://sub.weleven11.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://id9.cc/&#34;&gt;https://id9.cc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://subcon.dlj.tf/&#34;&gt;https://subcon.dlj.tf/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sub-web.wcc.best/&#34;&gt;https://sub-web.wcc.best/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://api.nameless13.com/&#34;&gt;https://api.nameless13.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://agwa.page/&#34;&gt;https://agwa.page/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acl4ssr.netlify.app/&#34;&gt;https://acl4ssr.netlify.app/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml&#34;&gt;神机规则&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tindy2013/subconverter/blob/master/README-cn.md&#34;&gt;tindy2013/subconverter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://www.oldking.net/751.html&lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://www.cnblogs.com/geowo/p/13706274.html&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/vps/" term="VPS" label="VPS" />
                             
                         
                     
@@ -9214,10 +9962,10 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         </entry>
     
         <entry>
-            <title type="text">Markdown Notes</title>
+            <title type="text">Markdown</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/markdown/" />
             <id>https://dfslfh.cn/blog/posts/markdown/</id>
-            <updated>2021-02-24T00:44:03&#43;08:00</updated>
+            <updated>2021-02-24T17:41:53&#43;08:00</updated>
             <published>2020-02-18T05:25:25&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -10062,19 +10810,19 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             <title type="text">梁老师的爱情课</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/200208-mr-liang-love-course/" />
             <id>https://dfslfh.cn/blog/posts/200208-mr-liang-love-course/</id>
-            <updated>2021-02-07T22:32:47&#43;08:00</updated>
+            <updated>2021-02-26T19:15:56&#43;08:00</updated>
             <published>2020-02-08T04:39:30&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;高三乍见，甚是欢喜, 刷音乐时看到他人关于课程的截图，感觉讲的很通透，遂找来细品.&lt;/p&gt;
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;高三听歌乍见，甚是欢喜, 感觉讲的很通透，遂找来细品.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：梁永安，⽂学博⼠，复旦⼤学⽐较⽂学与⽐较⽂化专业副教授，韩国梨花⼥⼦⼤学⼤学客座教授 ，⽇本神户外国语⼤学客座教授 ，⽇本冈⼭⼤学客座教授 美国波⼠顿⼤学客座教授 长期从事⽐较⽂学与⽐较⽂化研究，主要研究领域为： 中国近代教会⼤学与中外⽂学关系 景观社会中的⼩说与电影 城市化与中国多元⽂化资源的再⽣性聚合 。&lt;/p&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;高三乍见，甚是欢喜, 刷音乐时看到他人关于课程的截图，感觉讲的很通透，遂找来细品.&lt;/p&gt;
+                <content type="html">&lt;p&gt;高三听歌乍见，甚是欢喜, 感觉讲的很通透，遂找来细品.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：梁永安，⽂学博⼠，复旦⼤学⽐较⽂学与⽐较⽂化专业副教授，韩国梨花⼥⼦⼤学⼤学客座教授 ，⽇本神户外国语⼤学客座教授 ，⽇本冈⼭⼤学客座教授 美国波⼠顿⼤学客座教授 长期从事⽐较⽂学与⽐较⽂化研究，主要研究领域为： 中国近代教会⼤学与中外⽂学关系 景观社会中的⼩说与电影 城市化与中国多元⽂化资源的再⽣性聚合 。&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2 id=&#34;初恋分手httpsmpweixinqqcoms__bizmjm5njyymjm0mamid2650873765idx1sn9ed888f8935c46d116d833e865b4c8cdchksmbd13c6ce8a644fd8c9d053ba754d6b6db14eac6d44cbed82036bf8820ce7edac2fe549ae4142scene21wechat_redirect&#34;&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjYyMjM0MA==&amp;amp;mid=2650873765&amp;amp;idx=1&amp;amp;sn=9ed888f8935c46d116d833e865b4c8cd&amp;amp;chksm=bd13c6ce8a644fd8c9d053ba754d6b6db14eac6d44cbed82036bf8820ce7edac2fe549ae4142&amp;amp;scene=21#wechat_redirect&#34;&gt;初恋&amp;amp;分手&lt;/a&gt;&lt;/h2&gt;
@@ -10381,13 +11129,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;p&gt;&lt;strong&gt;&lt;font color=&#34;9999FF&#34;&gt;其实真正体会下来，我们现代人都在边缘中。&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font color=&#34;grey&#34; size=2&gt;日本电影《远山的呼唤》，一个死去丈夫的女人带着儿子在北海道生活，这个女人叫民子。风雨之夜有一个男人来敲窗，他叫田岛耕作，实际上是一个逃犯，但民子家特别需要一个男劳力，虽然对这个人不太了解，最后还是收留了他。后来这个男人释放出来的那种男子汉气概，还有对她儿子的带动，以及面对天地的那种大气，深深吸引着民子。民子本来是一个良家妇女，她特别不能接受社会的那些黑暗面，但是最后她接受了这个男人，而这个男人最后被警察追到了。在电影的最后一节，在火车上，警察押解田岛耕作去监狱。民子和另外一个被她拒绝过但非常理解她的男人，两个人最后故意到车厢上坐在田岛对面，有两个警察看着田岛。他们两个人故意对话，你要到哪去？听说你把农场卖掉了。她说，是啊是啊，我已经搬到什么地方了。男的又说，听说你的丈夫到远处去了，你要等他？民子说，是啊是啊。田岛被判了几年刑，通过这种传达，民子让他知道她爱他，她会等待他。田岛是从来不哭的，但那一刻落下眼泪来。这时候，我们脑子里面再也没有所谓的贵贱之分，没有因为身份的不同去把它区隔成情感的贵贱，就没有这些东西。&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;我们现在是生活在一个碎片化的世界，有时候要欢迎这种碎片化，因为以前板结的结构性是被精英主导的，我们&lt;strong&gt;通过碎片化脱困，实现自己的漂流，实现不同的相遇&lt;/strong&gt;，我觉得这也是非常有意义的。边缘这部分，也是我们未来三十年的发展之中特别要注意的一个问题，因为在社会运行里面会出现大量的边缘，有一些社会边缘的现象和情感，确实是值得被肯定的。&lt;/p&gt;
-&lt;p&gt;有时候我在想，你在城市里可以看到这种现象，一个店，一个乡村来的女人在操持，旁边有一个装修店，是一个男人经营。这个女人的丈夫和这个男人的妻子都在乡下，两个人可能是同乡，或者是一个省的，互相之间你来我往，互帮互助，这两个人后来慢慢地有感情。&lt;strong&gt;如果按照传统来看，这真是有点对不起家乡的人，但实际上这种感情是同甘共苦建立起来的，是非常非常真诚的，它是在城市化新的难度里面融合起来的，但他们就会陷入两难。中国人将来像这一类的两难会特别多，这用伦理是无法解释的，用传统道德是无法概括的。这样的不符合我们传统的、主流的东西会越来越多，更不用说原来根本不搭调、根本不可能在一起的，也会跑到一起去，这都是我们未来要去把它容纳下来的东西。所以我们说以后要消解边缘，要看到边缘，从边缘里面看到真实、看到价值，这也是一方面。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&#34;版权声明&#34;&gt;版权&amp;amp;声明：&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;B站资源以及瓣友们的互相扶持，嘿嘿......&lt;/li&gt;
-&lt;li&gt;终于填完这个4万字的大坑了……嘿嘿&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;p&gt;有时候我在想，你在城市里可以看到这种现象，一个店，一个乡村来的女人在操持，旁边有一个装修店，是一个男人经营。这个女人的丈夫和这个男人的妻子都在乡下，两个人可能是同乡，或者是一个省的，互相之间你来我往，互帮互助，这两个人后来慢慢地有感情。&lt;strong&gt;如果按照传统来看，这真是有点对不起家乡的人，但实际上这种感情是同甘共苦建立起来的，是非常非常真诚的，它是在城市化新的难度里面融合起来的，但他们就会陷入两难。中国人将来像这一类的两难会特别多，这用伦理是无法解释的，用传统道德是无法概括的。这样的不符合我们传统的、主流的东西会越来越多，更不用说原来根本不搭调、根本不可能在一起的，也会跑到一起去，这都是我们未来要去把它容纳下来的东西。所以我们说以后要消解边缘，要看到边缘，从边缘里面看到真实、看到价值，这也是一方面。&lt;/strong&gt;&lt;/p&gt;</content>
             
             
             
@@ -10410,10 +11152,208 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
         </entry>
     
         <entry>
+            <title type="text">404</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/404/" />
+            <id>https://dfslfh.cn/blog/posts/404/</id>
+            <updated>2021-02-27T15:32:00&#43;08:00</updated>
+            <published>2020-01-30T13:59:24&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;这篇文章只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 自然带有强烈的主观情绪, 本文不适合任何人阅读, 请慎重浏览, 如果你觉得我错了, 我提前和你说, &amp;quot;&lt;strong&gt;对不起, 你是对的&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;我写文的原因是 Wikipedia 被墙后, 深感国内查阅知识的门槛之高, 因为陆内百度百科冷门词条要么没有, 要么东西甚少, CSDN博客质量停留在 Ctrl C/V 之间, 博客园半死不活, 剩下的就是一堆营销号留下的似明日黄花的文章(甚至我觉得文章是用&lt;a href=&#34;https://github.com/menzi11/BullshitGenerator&#34;&gt;狗屁不同生成器&lt;/a&gt;生成的), 一句话可以说清楚的事情动辄上千字的文章? 再加上知网, 各大学的图书馆不对外开放, 公共资源如此之少, 配合陆内的局域网封锁, 你想看的东西大多是 &lt;code&gt;404&lt;/code&gt;, &lt;code&gt;网络已经被重置&lt;/code&gt;, &lt;code&gt;网页经举报无法访问&lt;/code&gt;种种, 不胜枚举. 多年后我再逛贴吧, 一些墙外没有的知识这里有, 捂脸长笑, 原来 &lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 就在 &lt;strong&gt;百度贴吧&lt;/strong&gt; 啊, 但由于 &lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全贴吧的内容和用户......&lt;/p&gt;
+&lt;p&gt;网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (&lt;strong&gt;Democracy&lt;/strong&gt;) 和赛先生 (&lt;strong&gt;Science&lt;/strong&gt;) 而奋斗终生, 但是人生终须妥协, 朋友开心点吧, 人间不值得......&lt;/p&gt;
+&lt;p&gt;对于使用互联网产品的自己时常感到矛盾, 因为按照 &lt;strong&gt;虚无主义&lt;/strong&gt; 来看, 豆瓣, 知乎, 微博和贴吧 &lt;strong&gt;这些承载着我们这一代人美好记忆的东西终将消散&lt;/strong&gt;, 那么我们到底要不要使用这些产品呢? 说起来还真是戾气满满, 这是一个沉重而严肃的问题, 我始终无法释怀在网易云音乐排行榜中消失的&amp;lt;&amp;lt;&lt;strong&gt;差不多先生&lt;/strong&gt;&amp;gt;&amp;gt;, 消失的&amp;lt;&amp;lt;&lt;strong&gt;南方公园&lt;/strong&gt;&amp;gt;&amp;gt;. 那些&lt;strong&gt;我喜欢的东西, 这些平台均无法承载&lt;/strong&gt;...... 我又怎么知道我托管在上面的数据什么时候会被 &amp;quot;默默&amp;quot; 删除. 我只知道 猫捉老鼠 的游戏会一直继续, 更加悲观的是, 我不会是赢家......&lt;/p&gt;
+&lt;p&gt;To be continued ...&lt;/p&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;p&gt;这篇文章只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 自然带有强烈的主观情绪, 本文不适合任何人阅读, 请慎重浏览, 如果你觉得我错了, 我提前和你说, &amp;quot;&lt;strong&gt;对不起, 你是对的&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;我写文的原因是 Wikipedia 被墙后, 深感国内查阅知识的门槛之高, 因为陆内百度百科冷门词条要么没有, 要么东西甚少, CSDN博客质量停留在 Ctrl C/V 之间, 博客园半死不活, 剩下的就是一堆营销号留下的似明日黄花的文章(甚至我觉得文章是用&lt;a href=&#34;https://github.com/menzi11/BullshitGenerator&#34;&gt;狗屁不同生成器&lt;/a&gt;生成的), 一句话可以说清楚的事情动辄上千字的文章? 再加上知网, 各大学的图书馆不对外开放, 公共资源如此之少, 配合陆内的局域网封锁, 你想看的东西大多是 &lt;code&gt;404&lt;/code&gt;, &lt;code&gt;网络已经被重置&lt;/code&gt;, &lt;code&gt;网页经举报无法访问&lt;/code&gt;种种, 不胜枚举. 多年后我再逛贴吧, 一些墙外没有的知识这里有, 捂脸长笑, 原来 &lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 就在 &lt;strong&gt;百度贴吧&lt;/strong&gt; 啊, 但由于 &lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全贴吧的内容和用户......&lt;/p&gt;
+&lt;p&gt;网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (&lt;strong&gt;Democracy&lt;/strong&gt;) 和赛先生 (&lt;strong&gt;Science&lt;/strong&gt;) 而奋斗终生, 但是人生终须妥协, 朋友开心点吧, 人间不值得......&lt;/p&gt;
+&lt;p&gt;对于使用互联网产品的自己时常感到矛盾, 因为按照 &lt;strong&gt;虚无主义&lt;/strong&gt; 来看, 豆瓣, 知乎, 微博和贴吧 &lt;strong&gt;这些承载着我们这一代人美好记忆的东西终将消散&lt;/strong&gt;, 那么我们到底要不要使用这些产品呢? 说起来还真是戾气满满, 这是一个沉重而严肃的问题, 我始终无法释怀在网易云音乐排行榜中消失的&amp;lt;&amp;lt;&lt;strong&gt;差不多先生&lt;/strong&gt;&amp;gt;&amp;gt;, 消失的&amp;lt;&amp;lt;&lt;strong&gt;南方公园&lt;/strong&gt;&amp;gt;&amp;gt;. 那些&lt;strong&gt;我喜欢的东西, 这些平台均无法承载&lt;/strong&gt;...... 我又怎么知道我托管在上面的数据什么时候会被 &amp;quot;默默&amp;quot; 删除. 我只知道 猫捉老鼠 的游戏会一直继续, 更加悲观的是, 我不会是赢家......&lt;/p&gt;
+&lt;p&gt;To be continued ...&lt;/p&gt;
+&lt;h2 id=&#34;memory-铭记&#34;&gt;MEMORY 铭记&lt;/h2&gt;
+&lt;p&gt;有的人说&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/404/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;网络审查在各个国家都普遍存在着, 它并不仅存在于中国. 在全球的局势对中国都不利的当下, 当局会过滤掉影响、危害到中国长远发展的信息, 此时国家安全的意义更加重大. 互联网上存在着大量终究不现实的、不客观的, 甚至自相矛盾的抹黑当局政府言论, 它们背后一般有西方政府或非政府组织资金支持. 这些媒体包括但不限于一些港媒、境外网站. 我们希望您能在遇到此类言论和见解时, 不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西, 而是要事实求是地思考, 要摆脱情绪绑架的怪诞思维去理解.&lt;/p&gt;
+&lt;p&gt;我们需要了解到, 中国的发展总基调是“稳中求进&amp;quot;, 中国社会的最核心问题就是稳定, 失去稳定的中国将会是一盘散沙, 面临分裂和肢解的危险. 我们希望您了解当今中国发展的根本保证是什么, 发展的过程中哪部分是主旋律, 哪些是噪音；哪些是进取的, 哪些是会开历史倒车的. 我们应该清醒和全面地认识问题, 偏信西方媒体的言论、缺乏对国家的信任是不可取的. 您的数据安全和隐私对您尤为重要. 若这些信息不应当被西方掌握时, 它对国家和民族的命运更为重要. 出于此原因, 当局可能会限制您的行为, 我们不会也无法干预当局的任何政策和决定.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有的人引用 &lt;strong&gt;德国新教教士马丁 尼莫拉&lt;/strong&gt; 的话, 这样说:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在德国, 起初他们追杀共产主义者, 我没有说话, 因为我不是共产主义者；&lt;br&gt;
+接着, 他们追杀犹太人, 我没有说话…, 因为我不是犹太人；&lt;br&gt;
+后来, 他们追杀工会成员, 我没有说话…, 因为我不是工会成员；&lt;br&gt;
+此后, 他们追杀天主教徒, 我没有说话…, 因为我是新教徒；&lt;br&gt;
+最后, 他们奔我而来, 却再也没有人站起来为我说话了.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有的时候我想：大家都很奇怪, 每天重复发生着一场迁徙 , 从巴掌大的窗口进入入虚拟化的世界, 不再那么关注现实生活中的一些缺憾, 虚拟化的窗口模糊了我们和现实的距离, 也无端地让我们有种错觉：美好的生活距我们也许只是几处像素块的距离, 我们或许被虚拟化的世界绑架, 亦或许没有, 大势所趋罢了. 对现实有所渴求的人都可以在互联网上找到些许安慰, 加之我们声嘶力竭地宣扬活出自己, 像是一列没有刹车的火车, 缺乏独立思考的我们, 在各自的时间线上各自孤独, 谁也拯救不了谁. 或者不如什么都不想, 喊着&amp;quot;加速&amp;quot;而策马奔腾下去... 对于我来说, 这些消失的东西意味着:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GFW Existed&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;快速发展让千家万户短时间内用上互联网是不是导致GFW日高不减的原因?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;那些404就交给&lt;a href=&#34;https://web.archive.org/&#34;&gt;互联网档案馆&lt;/a&gt;记忆吧.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accept Fact&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;确实各个国家和地方都会有网络审查, 只要这个世界还是和平而有秩序的, 审查就存在, 只是程度不一样, 现代的社会里, 你只可能活在无限接近老大哥的世界里, 可以的一种结局就是小说《1984》里最后你只会爱上老大哥, 还是喜剧. 但是最恐怖的是, 老大哥可不止一个, 你也可以老大哥, 而相信老大哥此时言论的你, 只是一个被这个环境折磨的残废罢了.&lt;/li&gt;
+&lt;li&gt;如果非要让我说些什么, 就下面这一句吧:
+&lt;blockquote&gt;
+&lt;p&gt;如果天总也不亮，那就摸黑过生活；如果发出声音是危险的，那就保持沉默；如果自觉无力发光，那就不必去照亮别人。但是不要习惯了黑暗就为黑暗辩护，不要为自己的苟且而得意洋洋，不要嘲讽那些比自己更勇敢更有热量的人们。我们可以卑微如尘土，不可扭曲如蛆虫。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Freedom / &lt;code&gt;Human Right&lt;/code&gt;&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;我们希望世界和平而自由, 实际上永远都不会有真正的自由；笼子里的 自由 还是自由吗?人的权利该如何定义? 政治正确的问题要怎么解决?&lt;/li&gt;
+&lt;li&gt;网络实现使用者的身份分级区别? 诸如隐私、自由以及畅游网络, 是人的基本权利吗?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Free Thought/Digtal&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;思想至少是自由的, 至少现在还没有思想罪, 我们可以将思想的疆界无限延拓; 不幸的也是无论你的精神如何的超脱, 你始终无法摆脱躯壳活在世间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Critical Thinking&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Google: 几年前我希望找到一款流量实时监控App, 但是发现在国内基本拿到的App不尽如人意, 却在Google Play不到几分钟就找到了, 相同的体验谷歌搜索同样存在, 可能你会说我崇洋媚外, 但我只同意前半句, 我&amp;quot;崇洋&amp;quot;, 但我不&amp;quot;媚外&amp;quot;, 因为这只是些工具罢了, Google作为全球很出色搜索引擎虽然无人能打, 但他恰巧是美国的......&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update System&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;渐渐地, 我关闭了Win10 的自动更新, 开始为手机寻找版本准备了养老, 备份舒服的版本应用, 在Coolapk上寻找旧版本的干净应用.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Qualifications&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;我可能并没有资格去发出这样的理论, 因为我也是既得利益者, 用互联网更好地学习就是佐证, 如果你通过WWW获取过一些东西, 那么你本质也和我一样, 我质疑互联网的发展, 就如我质疑我的客观存在一样荒谬, 矛盾已化解于过去的某个角落, 而今天才窥见全貌罢了, 现在的时代注定在他人的看法和自己的夹缝中撕裂, 无论最后你选择什么, 请学会隐忍！不要以为这是轻松到可以遗忘的事情, 忍字头上一把刀！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Past Network Environment&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;很怀念当年的网络环境, 因为真的有人为爱发电、网上随便一个聊天室都可以交到朋友, 大家都很友好, 小学生不是贬义词, 人们遇到新手都会花时间带一带, 人们真的用心聊着天, 不存在鄙视链, 没有引战, 没有谩骂, 没有水军, 但是自从网民的数量多起来后, 有礼有节的时代自此过去了, 现在说点事都得吵架, 谩骂, 都懒得回复, 当笑话看吧. 而现在论坛依旧保持和气与和谐的就属边缘的同人论坛了, 稍不注意就会被扣分或者封号, 你想看的东西就木有了, 人还是要有求, 才会老实. 最大的遗憾就是在这个时代逝去才出生的孩子了吧, 毕竟他们可是错过一个好的网络年代. 而那句看滥的段子也绝不是说说而已：&lt;code&gt;亚洲四害：日本鬼子, 韩国棒子, 印度汉子, 中国喷子！&lt;/code&gt; 而我这样排外的心理其实很正常, 但是也很没有必要, 毕竟&lt;code&gt; WWW&lt;/code&gt;建立的第一天就会必然导致这样的结果, 只是现在我才真正的发现罢了, 有点伤心, 但是连接的力量被互联网一次一次证实, 如果走不出来这个怪圈的话也是无可奈何.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithm Social Dilemma&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Netify 2020 The Social Dilemma - &amp;lt;&amp;lt;监视资本主义&amp;gt;&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;真正害怕的是&lt;strong&gt;技术人员存心设计打造的灰色地带以及他们在发展技术的羊皮下多做的东西&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;权限的Denied和Delete无异, 你永远无法得知真相. 也可能是我已经跟不上时代的发展了...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gfw-jokes-下饭墙&#34;&gt;GFW JOKES 下饭墙&lt;/h2&gt;
+&lt;p&gt;聊一聊自己使用 &lt;strong&gt;局域网&lt;/strong&gt; 有意思的故事, 中文互联网特色：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MircoSoft Bing&lt;/strong&gt;: 不引入不行, 完全引入也不行. 所以就有了在 Wikipedia DNS 污染的情况下, Bing 中国国际版依旧可以从服务器调用维基百科内容布局到自己的网页上.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/bing-subside.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Onedrive+OneNote&lt;/strong&gt;: 作为Office的配套网盘, 在中国客户端被墙, 却仍可以用Office的同步功能??? 就是Office把你的数据文件同步到国外, 但是你自己是不可以访问国外来操作编辑自己的文件一样操蛋.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mega&lt;/strong&gt;: 一个密码隐私保护的网站. 亏他还内置了中文的语言支持, 然鹅没有什么用. 就像是&lt;code&gt;Indiegala&lt;/code&gt;一个模样.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android&lt;/strong&gt;: Google的Android子域名可以访问, 但是主域名是被墙掉的…… 而Google.CN是可以访问的, 只是全部引流到了香港的服务器, 但是理所当然地可以甩锅给香港, 莫比乌斯环? 因为Google已经撤出中国&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/404/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/google-china.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;有道云笔记&lt;/strong&gt;: 应用已经存在 &lt;strong&gt;网络审查&lt;/strong&gt;--图片识别的技术：在我公开分享Google退出中国的有道云笔记不久, 链接就挂掉了,打开对应的图片, 返回的&lt;code&gt;Json&lt;/code&gt;里面有我笔记软件微信账户的ID, 笔记里面的违规图片并没有变灰, 不清楚是因为缓存还是本人可见, 不排除后台记录...... &lt;code&gt;{&amp;quot;canTryAgain&amp;quot;:false,&amp;quot;scope&amp;quot;:&amp;quot;PREVIOUS_EXCEPTION&amp;quot;,&amp;quot;error&amp;quot;:&amp;quot;1007&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Message[SHARE_BANNED_EXCEPTION]: Public shared file is banned, userId=weixinobU7Vjt2JyBHTax7qCEM_xxxxxxxx, fileId=CB0BC1F1DFBF4A17BBAC2388FD87F3E5&amp;quot;,&amp;quot;objectUser&amp;quot;:null}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/youdao-share.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Absolutely it&#39; s full of trash in Baidu&#39;s () ,especially with strange admin diff with mian admin, such as fenxi.com with 360safe.coms&#39; DNS. Around Baidu&#39;s Promote is full of lots of sex photos with auto-swipe, why the Dev-Group do that? Shall them don&#39;t know how useless towards other persons ,especially teenager???——Written In June 10th,2020 In Hohhot.&lt;/li&gt;
+&lt;li&gt;我有无数的 Netease Music 被审查然后删除, 原因不会被告知, 就是会突然的消失, 我该如何捡回来过去的那段记忆, 他连一个通知都没有.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt;: 今天才发现 CLoudflare 在国内才是个垃圾, 国外的缓存速度很快, 和没有开缓存一样, 但是切回来的时候才发现 StyleSheet 都没来得及刷新, 可叹可谈.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliyun Oss&lt;/strong&gt;: 图床没有办法预览, 没有备案域名无法国内加速, 并且预览图片就是直接下载. 又拍云, 七牛云更甚...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;出于安全考虑, 从2019年9月23日起, 针对之后新建的Bucket, 直接使用OSS提供的默认域名, 从互联网访问OSS上该Bucket的图片类型文件时, mimetype为以下值, Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;. 即从浏览器访问图片类型文件时, 会以附件形式进行下载. 建议用户可以使用自定义域名访问OSS请求, 如何绑定自定义域名请参见绑定自定义域名, 默认情况下不会强制下载. 详情请参见OSS升级通知. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/404/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon/Evernote/...&lt;/strong&gt;: 国际服务与国内服务的巨大落差以及数据质检的不互通.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bilibili-b站&#34;&gt;BILIBILI B站&lt;/h2&gt;
+&lt;p&gt;以下内容摘录自数据研究局&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/404/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“凡是关于宏观层面的视频, 比如国内的产业升级和国际关系等, 弹幕普遍都是极其乐观向上的. 基本上就是我们一天天好起来, 敌人一天天烂下去. 然后只要持有这种观点的主讲人也能获得很高的赞.&lt;/p&gt;
+&lt;p&gt;而到了中微观层面的视频, 比如房价或者年轻人生育等等, 弹幕普遍又悲观得不行. 基本上不是彻底放弃躺平就是宣泄不满, 然后任何还试图劝别人乐观一点, 说现实没那么可怕和悲观的主讲人基本都会被喷. ”&lt;/p&gt;
+&lt;p&gt;还比如, 这位用户提到, 在描述中国互联网企业出海盛况的视频里, 弹幕纷纷是激动不已的“中国企业雄起！ ”. 而在控诉996的视频里, 弹幕却纷纷是愤怒的“你工人爷爷来了！”而不知B站的年轻人是否意识到, 让他们激动不已纷纷点赞的, 和让他们愤怒不已嚷嚷要打到的资本, 不正是同样的一群企业吗?&lt;/p&gt;
+&lt;p&gt;如果假设观视频一家的受众是固定的, 即青年群体, 那么我们会看出这么一个奇特的现象:他们在对于国家前途无限乐观的同时, 对于自己的前途却极其悲观. 因为他们宏观弹幕代入的是国家, 微观弹幕代入的是自己. 代入自己的时候也不是不想乐观, 但面对大量相关经验自然无法沉浸在幻想里. 而宏观离得太远, 少有这样的经验打脸, 自然可以放飞想象.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“宏大叙事是可以灌输的, 而生活的苦乐只有自己才知道. ”&lt;strong&gt;用哲学家埃里克·霍弗的话说, 就是：&lt;/strong&gt;“一个人愈是没有值得自夸之处, 就愈容易夸耀自己的国家、宗教、种族和他参与的神圣事业. ”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同时我们需要反省的是：国家的发展是有目共睹的, 为什么越来越多的年轻人却被困在现实生活中, 慢慢放弃了挣扎, 直接躺平?国家的这种发展为什么没有实际改善青年自身的成长与生活环境,让他们陷于个人命运的焦虑之中?&lt;/p&gt;
+&lt;p&gt;长期下去, 这会造成一种潜在的风险是什么?那些陷入悲观的年轻人更容易被煽动和蛊惑, 因为有成就感的人会把世界看成一个友好的世界, 失意者则乐于看到世界急建改变. 因为人性之中都会有一种倾向, 那就是到自身以外寻找解释自身命运的理由.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;zhihu乎&#34;&gt;ZHIHU乎&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“拥有互联网话语权的年轻人, 和现实世界拥有话语权的人, 并不完全重合. ” &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/404/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;内容质量直线下降, 越来越偏激. 我想大概是意图借助这些平台引（hu）导（you）网民的人太多了, 他们买来的目的明确的文字和最初那些满怀善意的文字毫无可比性. 听说知乎这两年大力采用智能推荐的技术, 这挺好. 我认为如果一个人拒绝信息茧房, 那将会永远活在房子里. 既然拦不住技术的进步, 不如学着使用. 你还会因为害怕汽车撞路障, 而坚持骑马上街吗. 现在回过头去看, 曾经认真对待过的东西都会怀念吧, 更多是怀念那个时候的自己.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;喜欢千人千面, 不喜欢“同是一个世界”&lt;/strong&gt;: 但其实我不喜欢这样的变化, 对知乎用户来说, 大家想要的可能就是千人千面的知识分享, 看到更大的世界, 而不是热门推荐的同一个世界. 至少我是这样. 最后说一个与知乎有关的有趣经历.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;期待知乎能“浴火重生”, 但我不再是黏性用户&lt;/strong&gt;: 进入大二之后, 发现了知乎另一个超级神奇的现象, 好像我每天看的内容都差不多, 内心开始有些抵触. 不会直接影响到我拒绝知乎, 我只是用的少了, 直到我自己写的一个谈及韩国人和美国人的话题成为转折点. 具体帖子不说了, 当时有不少评论让我头大. 提出反对意见是好事, 可是连我文章都没看懂, 先跑来骂我, 是几个意思?花了几天解释不清之后, 我放弃了解释. 我想聊聊人工智能推荐技术. 今日头条用智能推荐, 我觉得挺好, 本来它的内容定位就是娱乐, 就是闲时消遣, 但是知乎不是！&lt;strong&gt;知乎使用智能推荐后, 就像是在课上被发现听课走神的优等生, 走偏了. 知乎不够相信自己的用户, 并非人都喜欢衣来伸手, 饭来张口, 既然用户下载了知乎, 就不是来看娱乐新闻的, 也不是自己往茧房里钻的&lt;/strong&gt;. 以前打开知乎, 满屏都是深度文章, 现在不少内容是“AB脸什么时候会塌”、“哪些明星长大长残了”、“薛之谦凭什么继续火”. 又多亏了智能推荐技术, 点开一次, 给你推三次, 再点一次, 给你推九次, 不一会儿, 你的首页全是娱乐新闻. 现在, 我基本上用微博, 内容和交际都简单好操作. 虽然现在微博的设计师也在作死的路上越走越远, 但是我觉得就内容的丰富度和便捷度来看, 微博是我比较依赖的SNS. 吐了一堆槽, 我还是想说：我理解现在的知乎, 期待它能“浴火重生”, 但我不再是黏性用户.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不够了解我, 推送的信息太多&lt;/strong&gt;: 我分析过, 导致知乎变成这样, 和用户下沉有关. 以前是邀请制, 知乎是社会精英的集散地, 现在知乎目标是三四线城市的青年. 精英人群数量有限, 你要想变大, 肯定要去开拓三四线城市. 如果你留意, 你会发现, 知乎上有很多教育培训机构、租房信息、知识付费课程之类的广告, &lt;strong&gt;他们的目标人群就是三四线青年&lt;/strong&gt;. 他们的付费欲望要比所谓的精英强太多, 因为他们缺少更为便捷、更为高级的方式去获取社会资源, 但是又有成长的欲望, 稍微花一点钱, 他们是可以接受的. &lt;strong&gt;知乎的用户量变大了, 也逐渐失去了那批精英化人群&lt;/strong&gt;. 因为一个人越牛逼, 他越喜欢私密的社交圈, 所谓的私董会、中国企业家俱乐部就属于那种私密性社交的范畴. 像知乎这种半开放型社区, 对那部分精英人群的吸引力会越来越小. 现在为什么知乎会被骂呢?骂知乎的人中, 多数拥有文人情结, 比较矫情, 一旦所谓“low”一点的人进来了, 他们就看不下去了, 因为和他们没得聊, 没得说. 我虽然讨厌知乎那些繁琐的信息, 但并不是说我不使用知乎了, 我还会继续使用知乎, 知乎是一个很好的知识分享平台.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;知乎本没错, 错的是使用知乎的人&lt;/strong&gt;: 但是有一点可以确定, 卸载时我坚信, 在看得到的时间里, 自己不会大变的近几年或十几年, 自己是不再需要它了.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;把无聊问题复杂化和科幻化的社区&lt;/strong&gt;: 知乎产品做得真心好. 最核心的好是团队能在初期把整个社区盘活了. 对于做社区来说, 第一步要让大家知道这个社区, 第二步要大家成为用户, 第三步是要让大家自行产生内容. 知乎这三步做得很完美. 我也是算个做产品的人, 每当我问自己, 知乎和百度知道的最具体区别是什么时, 我感觉自己也很难答好这个问题. 设想一下, 如果我也是一个想打造有逼格、有水平的问答社区时, 如何向投资人推销呢?如何回答一个无法逃避的问题：你这个玩意儿没在市场检验过前, 有什么信心去战胜百度知道? 知乎和百度知道在核心功能上是一模一样的, 对于知乎来说, 一定需要团队假装用户在早期, 把社区做好, 给后来的真实用户一种提问和回答的好模板. 知乎是成功的, 但我实在受不了大家在朋友圈转发那些看似高深, 但一点涵养也没有的知乎帖子.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ban-墙&#34;&gt;BAN 墙&lt;/h2&gt;
+&lt;p&gt;我接触到的一些被封事务.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我该如何记忆, 那些消失的事情......&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;South Park&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pewdiepie&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;柴静&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;徐晓东&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/42722834&#34;&gt;锡兰Ceylan与独人13事件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/56822629/answer/391744101&#34;&gt;少寒和雪音&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wwi.lanzous.com/in4fKl101mf&#34;&gt;HotDog - 差不多先生 - dfs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;更多河蟹词汇可以看&lt;a href=&#34;https://chinadigitaltimes.net/space/%E6%95%8F%E6%84%9F%E8%AF%8D%E5%BA%93&#34;&gt;这里&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;wish-希望&#34;&gt;WISH 希望&lt;/h2&gt;
+&lt;p&gt;还是那句话, 希望 &amp;quot;明天会更好&amp;quot;. 希望, 希望, 希望.&lt;/p&gt;
+&lt;center&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=330 height=86 src=&#34;https://dfslfh.cn/blog//music.163.com/outchain/player?type=2&amp;id=5285415&amp;auto=1&amp;height=66&#34;&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
+&lt;div id =&#34;j1&#34;&gt;[1]. https://laod.cn&lt;/div&gt;
+&lt;div id =&#34;j2&#34;&gt;[2]. https://36kr.com/p/1722396606465&lt;/div&gt;
+&lt;div id =&#34;j3&#34;&gt;[3]. https://www.google.com/press/new-approach-to-china/update.html&lt;/div&gt;
+&lt;div id =&#34;j4&#34;&gt;[4]. https://mp.weixin.qq.com/s/U4-pvli6RJJeJ7SiNlskzg&lt;/div&gt;
+&lt;div id =&#34;j5&#34;&gt;[5]. https://help.aliyun.com/document_detail/39545.html&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/gossip/" term="Gossip" label="Gossip" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">All Pc Software In One</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/config/" />
             <id>https://dfslfh.cn/blog/posts/config/</id>
-            <updated>2021-02-24T00:43:46&#43;08:00</updated>
+            <updated>2021-02-26T20:46:10&#43;08:00</updated>
             <published>2020-01-18T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -11145,53 +12085,21 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;li&gt;&lt;a href=&#34;https://www.coolapk.com/feed/22408357?shareKey=ZjMyOWU2MzUxMmI4NWZlMzEzMjg~&#34;&gt;Webdav Recommend&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;rss&#34;&gt;RSS&lt;/h2&gt;
-&lt;p&gt;以下来源不限于:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;feedx.net&lt;/li&gt;
-&lt;li&gt;rsshub.app&lt;/li&gt;
-&lt;li&gt;werss.app&lt;/li&gt;
-&lt;li&gt;rss.mk&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;opml&#34;&gt;OPML&lt;/h4&gt;
-&lt;p&gt;格式:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;opml&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;1.0&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Fluent Reader Export&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;outline&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Reader&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Reader&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;outline&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;XXX&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;XXX&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;rss&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlUrl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;XXXX&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;opml&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;link&#34;&gt;LINK&lt;/h2&gt;
+&lt;p&gt;详见&lt;a href=&#34;../rss/&#34;&gt;Rss&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;link&#34;&gt;LINK&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/linuxdeepin/deepin-appstore&#34;&gt;App Store for Deepin (legacy codebase) | 深度应用商店&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Jactor-Sue/Deepin-Apps-Installation&#34;&gt;Deepin-Apps-Installation&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/ctimbai/awesome-things&#34;&gt;awesome-things&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/linuxdeepin/deepin-appstore&#34;&gt;App Store for Deepin (legacy codebase) | 深度应用商店&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Jactor-Sue/Deepin-Apps-Installation&#34;&gt;Deepin-Apps-Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ctimbai/awesome-things&#34;&gt;awesome-things&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;refernece&#34;&gt;REFERNECE&lt;/h2&gt;
-&lt;div id = &#34;j1&#34;&gt; [1]. https://stackoverflow.com/questions/21597536/pybluez-installation-in-linux &lt;/div&gt;
-&lt;div id = &#34;j2&#34;&gt; [2]. http://www.keyxl.com/aaa4cff/235/VLC-keyboard-shortcuts.htm &lt;/div&gt;
-&lt;div id=&#34;j3&#34;&gt;[3]. https://www.zhihu.com/question/20432630/answer/161256076 &lt;/div&gt;
-&lt;div id=&#34;j4&#34;&gt;[4]. https://zhuanlan.zhihu.com/p/144286142 &lt;/div&gt; 
+&lt;div id =&#34;j1&#34;&gt;[1]. https://stackoverflow.com/questions/21597536/pybluez-installation-in-linux &lt;/div&gt;
+&lt;div id =&#34;j2&#34;&gt;[2]. http://www.keyxl.com/aaa4cff/235/VLC-keyboard-shortcuts.htm &lt;/div&gt;
+&lt;div id =&#34;j3&#34;&gt;[3]. https://www.zhihu.com/question/20432630/answer/161256076 &lt;/div&gt;
+&lt;div id =&#34;j4&#34;&gt;[4]. https://zhuanlan.zhihu.com/p/144286142 &lt;/div&gt; 
 &lt;div id =&#34;j5&#34;&gt;[5]. https://github.com/klaussinani/ao/issues/94&lt;/div&gt;
 &lt;div id =&#34;j6&#34;&gt;[6]. https://www.zhihu.com/question/22611859/answer/28897482&lt;/div&gt;
-&lt;div id=&#34;j7&#34;&gt;[7]. https://www.jianshu.com/p/545e3f76eece&lt;/div&gt;</content>
+&lt;div id =&#34;j7&#34;&gt;[7]. https://www.jianshu.com/p/545e3f76eece&lt;/div&gt;</content>
             
             
             
@@ -11214,24 +12122,27 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
         </entry>
     
         <entry>
-            <title type="text">Hello Blog</title>
+            <title type="text">Blog</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/blog/" />
             <id>https://dfslfh.cn/blog/posts/blog/</id>
-            <updated>2021-02-24T00:43:37&#43;08:00</updated>
+            <updated>2021-02-27T03:22:25&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;记录整理了我所知道博客的一切, 包括 &lt;strong&gt;图片 / 字体&lt;/strong&gt; 的获取, 存储, 优化思路, 涉及到的博客有 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;…
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;博客是什么?&lt;/p&gt;
+&lt;p&gt;写文? 记录? 装X?&lt;/p&gt;
+&lt;p&gt;可能都不是, 可能都是, 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我所知道博客, 现阶段只包括 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
+&lt;p&gt;To Be Continued....&lt;/p&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;记录整理了我所知道博客的一切, 包括 &lt;strong&gt;图片 / 字体&lt;/strong&gt; 的获取, 存储, 优化思路, 涉及到的博客有 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
-&lt;blockquote&gt;
+                <content type="html">&lt;p&gt;博客是什么?&lt;/p&gt;
 &lt;p&gt;写文? 记录? 装X?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;可能都不是, 可能都是, 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我所知道博客, 现阶段只包括 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
+&lt;p&gt;To Be Continued....&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我的那位朋友叫夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 最近她越来越少出现了, 同时, 她也带走了我自我的一部分, 我明显的感到自己失去了什么, 但是无可挽回. 高考后我买了新手机和梦寐以求的电脑, 并把时间全数花在PS和拍摄上, 不得不承认, 很长的一段时间我淡忘了她，断断续续写的信件得不到回应，难免很想她.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
@@ -11263,7 +12174,7 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;/li&gt;
 &lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年06月13日&lt;/strong&gt;&lt;/font&gt;：换成Wiki类主题，修改若干。&lt;/li&gt;
 &lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;20年09月01日&lt;/strong&gt;&lt;/font&gt;：放弃Hexo类静态博客, 转Github。&lt;/li&gt;
-&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;21年01月12日&lt;/strong&gt;&lt;/font&gt;:   注销备案, 开始转移Hugo, 不再想用学生特惠买的服务器了. 因为 &lt;del&gt;(没钱)&lt;/del&gt; 察觉自己也是浪费资源, 既没有办法全身心的维护服务器, 又在自动化层面做得不好. 与此同时, 我也失去了七牛云的图片加速服务. 为了略表遗憾, &amp;quot;稳定第一, 稳定第一&amp;quot;. 我如是说.&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;21年01月12日&lt;/strong&gt;&lt;/font&gt;: 注销备案, 转移到Hugo, 不再想用学生特惠买的服务器了. 因为 &lt;del&gt;(没钱)&lt;/del&gt; 察觉自己也是浪费资源, 既没有办法全身心的维护服务器, 又在自动化层面做得不好. 与此同时, 我也失去了七牛云的图片加速服务. 不过, 如果你真的触发审查的时候, 你就知道一切了.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本网站是个人网站，不含有企业、单位等非个人网站的信息，不涉及企业及互联网金融内容，若在核实中发现网站中含有企业、单位等信息，本人愿接受以虚假信息进行备案，注销网站，并将主体和域名加入黑名单的处罚。我的网站内容是：记录自己学习服务器过程中遇到的问题与相应的解决办法，上传个人编写的文章，图片，内容基本为原创。&lt;/p&gt;
@@ -11413,6 +12324,28 @@ hexo deploy &lt;span class=&#34;c1&#34;&gt;#部署文章&lt;/span&gt;
 &lt;p&gt;问题定位在HTML文件的目录书写错误，不太理解网页托管和文件目录索引的PY关系，留Flag！&lt;/p&gt;
 &lt;h4 id=&#34;取消toc的自动排序&#34;&gt;取消TOC的自动排序&lt;/h4&gt;
 &lt;p&gt;找到布局里面的&lt;code&gt;ejs&lt;/code&gt;文件，一般在&lt;code&gt;post&lt;/code&gt;里面，找到&lt;code&gt;&amp;lt;%- toc(post.content) %&amp;gt;&lt;/code&gt;改成&lt;code&gt;&amp;lt;%- toc(post.content, {list_number: false}) %&amp;gt;&lt;/code&gt;。&lt;/p&gt;
+&lt;h4 id=&#34;脚注&#34;&gt;脚注&lt;/h4&gt;
+&lt;p&gt;添加脚注&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;npm install hexo-footnotes --save
+
+&lt;span class=&#34;c1&#34;&gt;# config&lt;/span&gt;
+plugins:
+  - hexo-footnotes
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;关于后面的参数:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-save&lt;/code&gt;和&lt;code&gt;save-dev&lt;/code&gt;可以省掉你手动修改package.json文件的步骤。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install module-name -save&lt;/code&gt; 自动把模块和版本号添加到&lt;code&gt;dependencies&lt;/code&gt;部分&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install module-name -save-dve&lt;/code&gt; 自动把模块和版本号添加到&lt;code&gt;devdependencies&lt;/code&gt;部分&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;美化&#34;&gt;美化&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;推荐一个主题:
@@ -11546,189 +12479,10 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;hugo&#34;&gt;HUGO&lt;/h2&gt;
 &lt;p&gt;暂时没有值得记录的知识......&lt;/p&gt;
-&lt;h2 id=&#34;img-hosts&#34;&gt;IMG HOSTS&lt;/h2&gt;
-&lt;h3 id=&#34;public&#34;&gt;PUBLIC&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;堆爱&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//sm.ms/&#34;&gt;SM.MS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//www.superbed.cn&#34;&gt;聚合&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgchr.com/&#34;&gt;路过&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;表情：&lt;a href=&#34;https://www.webfx.com/tools/emoji-cheat-sheet/&#34;&gt;Emoji&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;pay&#34;&gt;PAY&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Oss:
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;Aliyun&lt;/code&gt; 唯一局限如下:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;third-party&#34;&gt;THIRD PARTY&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://upload.likeyunba.com/&#34;&gt;里客云 - 聚合图床&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://my.imgbed.org/&#34;&gt;My Img&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/Wikiworker&#34;&gt;@Wikiworker&lt;/a&gt; &lt;a href=&#34;https://v2ex.com/t/743502&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//imgbed.cn&#34;&gt;Img Bed&lt;/a&gt;  &lt;a href=&#34;https://v2ex.com/member/imgbed&#34;&gt;@imgbed&lt;/a&gt;/&lt;a href=&#34;https://www.v2ex.com/member/OldActorsSmile&#34;&gt;@OldActorsSmile&lt;/a&gt;  &lt;a href=&#34;https://www.v2ex.com/t/716071&#34;&gt;Tie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Molunerfinn/PicGo&#34;&gt;Picgo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;compression&#34;&gt;COMPRESSION&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Webp
-&lt;ul&gt;
-&lt;li&gt;Industrution&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;li&gt;Downolad&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install webp
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;toolssup4j4sup&#34;&gt;Tools&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wallhaven.cc/&#34;&gt;Wallhaven&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pixiv.net/&#34;&gt;Pixiv （18年关被墙/同人、插画）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.netbian.com/&#34;&gt;彼岸桌面（已备）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cgwallpapers.com/&#34;&gt;CG Wallpaper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://unsplash.com/t/wallpapers&#34;&gt;https://unsplash.com/t/wallpapers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.desktopnexus.com/&#34;&gt;Desktop Nexus&lt;/a&gt;；&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wallpaperup.com/&#34;&gt;Wallpaperup&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://wallpaperim.net/&#34;&gt;WallPaperim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pexels.com/&#34;&gt;pexels&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.iconfont.cn/&#34;&gt;iconfont&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.60logo.com/&#34;&gt;60logo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://draw.io/&#34;&gt;draw.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.processon.com/&#34;&gt;processon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://carbon.now.sh/&#34;&gt;carbon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ctimbai/awesome-things/blob/master/remove.bg&#34;&gt;抠图神器&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://818ps.com/&#34;&gt;图怪兽&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.yasuotu.com/shuiyin&#34;&gt;压缩图&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.fonts.net.cn/&#34;&gt;字体天下&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://topology.le5le.com/&#34;&gt;topology&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;font&#34;&gt;FONT&lt;/h2&gt;
-&lt;p&gt;**微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了微软雅黑(方正兰亭黑), **微软公司只拥有微软雅黑的使用权，而真正的版权在方正手中。&lt;/p&gt;
-&lt;p&gt;我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为，都属于侵权行为，同时在Windows系统下，商业行为也不被允许，包括网页设计中，主动调用微软雅黑字体（用户显示中将默认字体转换为微软雅黑属于用户行为，不归类为侵权），更不可以以图片的形式在网页中用到微软雅黑！&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h3 id=&#34;free-font&#34;&gt;FREE FONT&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;方正黑体&lt;/li&gt;
-&lt;li&gt;方正楷体&lt;/li&gt;
-&lt;li&gt;方正书宋&lt;/li&gt;
-&lt;li&gt;方正仿宋&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;庞门正道标题体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;思源字体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;王漢宗自由字型48款&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;文泉驿字体&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;站酷字体&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;recommend&#34;&gt;RECOMMEND&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/specimen/Press+Start+2P#standard-styles&#34;&gt;Press Start 2P&lt;/a&gt;: 一个像素风格的字体.&lt;/li&gt;
-&lt;li&gt;Lato Regular&lt;/li&gt;
-&lt;li&gt;华文黑体&lt;/li&gt;
-&lt;li&gt;Lato light&lt;/li&gt;
-&lt;li&gt;思源黑体旧字形Extralight&lt;/li&gt;
-&lt;li&gt;mono...&lt;/li&gt;
-&lt;li&gt;Yu Gothic UI&lt;/li&gt;
-&lt;li&gt;Verdana&lt;/li&gt;
-&lt;li&gt;Roboto Slab&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;size&#34;&gt;Size&lt;/h3&gt;
-&lt;p&gt;Word 中对字体的大小同时采用了两种不同的度量单位, 在Autocad中，我们用“字高”来作为文字的度量单位，CAD中的“字高”的数值约等于字体的实际高度。在WORD中，1磅&lt;a href=&#34;https://baike.baidu.com/item/%E7%BA%A6%E7%AD%89%E4%BA%8E/4888813&#34;&gt;约等于&lt;/a&gt;0.35毫米，即一个10磅的文字，其高度约等于3.5毫米, 参考表如下：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;磅（1-1638）&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;字号&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;42&lt;/td&gt;
-&lt;td&gt;初号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;36&lt;/td&gt;
-&lt;td&gt;小初&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;td&gt;一号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;24&lt;/td&gt;
-&lt;td&gt;小一号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;td&gt;二号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;td&gt;小二号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;三号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;小三号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;四号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;小四号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;10.5&lt;/td&gt;
-&lt;td&gt;五号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;小五号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;7.5&lt;/td&gt;
-&lt;td&gt;六号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;6.5&lt;/td&gt;
-&lt;td&gt;小六号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5.5&lt;/td&gt;
-&lt;td&gt;七号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;八号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;microsoft-yahei&#34;&gt;Microsoft YaHei&lt;/h3&gt;
-&lt;p&gt;微软雅黑默认状态下部分字符显示为日文字符, 如&lt;code&gt;门&lt;/code&gt;就会显示 &#39;中间一竖的&lt;code&gt;门&lt;/code&gt;&#39;. 纠正方法换字体 --&lt;code&gt;文泉译米&lt;/code&gt; 即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/japan-men.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Profromence differences are related with &lt;a href=&#34;https://en.wikipedia.org/wiki/CJK_Unified_Ideographs&#34;&gt;&lt;strong&gt;CJK Unified Ideographs&lt;/strong&gt;&lt;/a&gt;, and relating to &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_CJK_fonts&#34;&gt;CJK Font&lt;/a&gt;. And Some Font display the Japan Font as default pattern, such this &lt;code&gt;Mircosoft YaHei&lt;/code&gt; in ubuntu when the sys encoding is &lt;code&gt;US_Utf-8&lt;/code&gt;, but why the window is not such situation?&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/blog/#j6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;. Some more details &lt;a href=&#34;https://www.unicode.org/faq/han_cjk.html&#34;&gt;FAQ&lt;/a&gt; with it. By th way, Japan encodes CIJ and Chinese encodes GB.&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
-&lt;div id=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html &lt;/div&gt;
-&lt;div id=&#34;j2&#34;&gt;[2]. https://developers.google.com/speed/webp&lt;/div&gt;
-&lt;div id=&#34;j3&#34;&gt;[3]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
-&lt;div id=&#34;j4&#34;&gt;[4]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;
-&lt;div id=&#34;j5&#34;&gt;[5]. https://zhuanlan.zhihu.com/p/49049779 &lt;/div&gt;
-&lt;div id=&#34;j6&#34;&gt;[6].  http://jedi.org/opera/FontTest/&lt;/div&gt;</content>
+&lt;div id=&#34;j1&#34;&gt;[1]. https://help.aliyun.com/document_detail/39545.html&lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://www.thinbug.com/q/36724430&lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://segmentfault.com/q/1010000000403629&lt;/div&gt;</content>
             
             
             
@@ -11743,212 +12497,6 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                             
                             
                                 <category scheme="https://dfslfh.cn/blog/tags/tool/" term="Tool" label="Tool" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Net Thinking</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/network/" />
-            <id>https://dfslfh.cn/blog/posts/network/</id>
-            <updated>2021-02-24T00:40:30&#43;08:00</updated>
-            <published>2019-01-30T13:59:24&#43;08:00</published>
-            <author>
-                    <name>DandelionFs</name>
-                    <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;strong&gt;猫捉老鼠的游戏&lt;/strong&gt; 会一直继续, 而以下部分只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 带有强烈的主观情绪, 请慎重浏览, 如果你觉得我那里错了, 别和我说, 因为 &lt;strong&gt;你是对的&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;我思考互联网的原因是 Wikipedia 被墙, 然后深感国内查阅知识的门槛之高, 如经典的&lt;code&gt;仅支持Credit&lt;/code&gt;、&lt;code&gt;仅支持Google&lt;/code&gt;、&lt;code&gt;网络已经被重置&lt;/code&gt;的门槛, 知网, 各大学的图书馆更是如此, 公共资源如此之少, 多年后我思考可能&lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 可能就是为爱发电的&lt;strong&gt;百度贴吧&lt;/strong&gt;, 但是&lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全内容. 有点窒息......&lt;/p&gt;
-&lt;p&gt;网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (&lt;strong&gt;Democracy&lt;/strong&gt;) 和赛先生 (&lt;strong&gt;Science&lt;/strong&gt;) 而奋斗终生, 但是人生终须妥协......&lt;/p&gt;
-&lt;p&gt;To be continued ...&lt;/p&gt;…
-    
-    </summary>
-            
-                <content type="html">&lt;p&gt;&lt;strong&gt;猫捉老鼠的游戏&lt;/strong&gt; 会一直继续, 而以下部分只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 带有强烈的主观情绪, 请慎重浏览, 如果你觉得我那里错了, 别和我说, 因为 &lt;strong&gt;你是对的&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;我思考互联网的原因是 Wikipedia 被墙, 然后深感国内查阅知识的门槛之高, 如经典的&lt;code&gt;仅支持Credit&lt;/code&gt;、&lt;code&gt;仅支持Google&lt;/code&gt;、&lt;code&gt;网络已经被重置&lt;/code&gt;的门槛, 知网, 各大学的图书馆更是如此, 公共资源如此之少, 多年后我思考可能&lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 可能就是为爱发电的&lt;strong&gt;百度贴吧&lt;/strong&gt;, 但是&lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全内容. 有点窒息......&lt;/p&gt;
-&lt;p&gt;网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (&lt;strong&gt;Democracy&lt;/strong&gt;) 和赛先生 (&lt;strong&gt;Science&lt;/strong&gt;) 而奋斗终生, 但是人生终须妥协......&lt;/p&gt;
-&lt;p&gt;To be continued ...&lt;/p&gt;
-&lt;h2 id=&#34;gfw-jokes-下饭墙&#34;&gt;GFW JOKES 下饭墙&lt;/h2&gt;
-&lt;p&gt;聊一聊自己使用 &lt;strong&gt;局域网&lt;/strong&gt; 有意思的故事, 中文互联网特色：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Bing&lt;/strong&gt;:不引入不行, 完全引入也不行. 所以就有了在 Wikipedia DNS 污染的情况下, Bing 中国国际版依旧可以从服务器调用维基百科内容布局到自己的网页上.
-&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/bing-subside.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Onedrive+OneNote&lt;/strong&gt;: 作为Office的配套网盘, 在中国客户端被墙, 却仍可以用Office的同步功能??? 就是Office把你的数据文件同步到国外, 但是你自己是不可以访问国外来操作编辑自己的文件一样操蛋.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Mega&lt;/strong&gt;: 一个密码隐私保护的网站. 亏他还内置了中文的语言支持, 然鹅没有什么用. 就像是&lt;code&gt;Indiegala&lt;/code&gt;一个模样.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;: Google的Android子域名可以访问, 但是主域名是被墙掉的…… 而Google.CN是可以访问的, 只是全部引流到了香港的服务器, 但是理所当然地可以甩锅给香港, 莫比乌斯环? 因为Google已经撤出中国&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/google-china.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;有道云笔记:&lt;/strong&gt; 应用已经存在 &lt;strong&gt;网络审查&lt;/strong&gt;--图片识别的技术：在我公开分享Google退出中国的有道云笔记不久, 链接就挂掉了,打开对应的图片, 返回的&lt;code&gt;Json&lt;/code&gt;里面有我笔记软件微信账户的ID, 笔记里面的违规图片并没有变灰, 不清楚是因为缓存还是本人可见, 不排除后台记录...... &lt;code&gt;{&amp;quot;canTryAgain&amp;quot;:false,&amp;quot;scope&amp;quot;:&amp;quot;PREVIOUS_EXCEPTION&amp;quot;,&amp;quot;error&amp;quot;:&amp;quot;1007&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;Message[SHARE_BANNED_EXCEPTION]: Public shared file is banned, userId=weixinobU7Vjt2JyBHTax7qCEM_xxxxxxxx, fileId=CB0BC1F1DFBF4A17BBAC2388FD87F3E5&amp;quot;,&amp;quot;objectUser&amp;quot;:null}&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/youdao-share.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Absolutely it&#39; s full of trash in Baidu&#39;s () ,especially with strange admin diff with mian admin, such as fenxi.com with 360safe.coms&#39; DNS. Around Baidu&#39;s Promote is full of lots of sex photos with auto-swipe, why the Dev-Group do that? Shall them don&#39;t know how useless towards other persons ,especially teenager???——Written In June 10th,2020 In Hohhot.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;我有无数的 Netease Music 被审查然后删除, 原因不会被告知, 就是会突然的消失, 我该如何捡回来过去的那段记忆, 他连一个通知都没有...&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt;: 今天才发现 CLoudflare 在国内才是个垃圾, 国外的缓存速度很快, 和没有开缓存一样, 但是切回来的时候才发现 StyleSheet 都没来得及刷新, 可叹可谈.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Aliyun Oss&lt;/strong&gt;: 图床没有办法预览, 没有备案域名无法国内加速, 并且预览图片就是直接下载. 又拍云, 七牛云更甚...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;出于安全考虑，从2019年9月23日起，针对之后新建的Bucket，直接使用OSS提供的默认域名，从互联网访问OSS上该Bucket的图片类型文件时，mimetype为以下值，Response Header中会自动加上&lt;code&gt;Content-Disposition:&#39;attachment=filename;&#39;&lt;/code&gt;。即从浏览器访问图片类型文件时，会以附件形式进行下载。建议用户可以使用自定义域名访问OSS请求，如何绑定自定义域名请参见绑定自定义域名，默认情况下不会强制下载。详情请参见OSS升级通知。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Amazon/Evernote/...&lt;/strong&gt;: 国际服务与国内服务的巨大落差以及数据质检的不互通.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;memory-铭记&#34;&gt;MEMORY 铭记&lt;/h2&gt;
-&lt;p&gt;有的人说&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;网络审查在各个国家都普遍存在着, 它并不仅存在于中国. 在全球的局势对中国都不利的当下, 当局会过滤掉影响、危害到中国长远发展的信息, 此时国家安全的意义更加重大. 互联网上存在着大量终究不现实的、不客观的, 甚至自相矛盾的抹黑当局政府言论, 它们背后一般有西方政府或非政府组织资金支持. 这些媒体包括但不限于一些港媒、境外网站. 我们希望您能在遇到此类言论和见解时, 不要不加思考地、情绪一度被煽动而不能克制地、盲目地相信这些片面或者歪曲事实的东西, 而是要事实求是地思考, 要摆脱情绪绑架的怪诞思维去理解.&lt;/p&gt;
-&lt;p&gt;我们需要了解到, 中国的发展总基调是“稳中求进&amp;quot;, 中国社会的最核心问题就是稳定, 失去稳定的中国将会是一盘散沙, 面临分裂和肢解的危险. 我们希望您了解当今中国发展的根本保证是什么, 发展的过程中哪部分是主旋律, 哪些是噪音；哪些是进取的, 哪些是会开历史倒车的. 我们应该清醒和全面地认识问题, 偏信西方媒体的言论、缺乏对国家的信任是不可取的. 您的数据安全和隐私对您尤为重要. 若这些信息不应当被西方掌握时, 它对国家和民族的命运更为重要. 出于此原因, 当局可能会限制您的行为, 我们不会也无法干预当局的任何政策和决定.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;有的人引用 &lt;strong&gt;德国新教教士马丁 尼莫拉&lt;/strong&gt; 的话, 这样说:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在德国, 起初他们追杀共产主义者, 我没有说话, 因为我不是共产主义者；&lt;/p&gt;
-&lt;p&gt;接着, 他们追杀犹太人, 我没有说话…, 因为我不是犹太人；&lt;/p&gt;
-&lt;p&gt;后来, 他们追杀工会成员, 我没有说话…, 因为我不是工会成员；&lt;/p&gt;
-&lt;p&gt;此后, 他们追杀天主教徒, 我没有说话…, 因为我是新教徒；&lt;/p&gt;
-&lt;p&gt;最后, 他们奔我而来, 却再也没有人站起来为我说话了.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;对于我来说:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;接受现实&lt;/strong&gt;: 可其实各个国家和地方都会有网络审查, 只要这个世界还是和平而有秩序的, 审查就存在, 只是程度不一样, 现代的社会里, 你只可能活在无限接近老大哥的世界里, 可以的一种结局就是小说《1984》里最后你只会爱上老大哥, 还是喜剧. 但是最恐怖的是, 老大哥可不止一个, 你也可以老大哥, 而相信老大哥此时言论的你, 只是一个被这个环境折磨的残废罢了.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;对 自由/人权 的定义&lt;/strong&gt;: 有意思的是, 有时我们潜意识里对这种现象喜闻乐见. 起初读这本书的时候很是不能理解里面的隐喻, 我觉得这只是我读过故事中微不足道的臆想, 直到有一天感觉现实和小说里的描述如此契合. 此时的我感慨晦涩的书的魅力所在……这个时候又出现了一个谬误：我们希望世界和平而自由; 实际上永远都不会有真正的自由；笼子里的 自由 还是自由吗？人的权利该如何定义?
-&lt;ul&gt;
-&lt;li&gt;网络实现使用者的身份分级区别 ? 诸如隐私、自由以及畅游网络, 是人的基本权利吗？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;退而求其次, 思想自由&lt;/strong&gt;: 但是值得安慰的是; 思想是自由的; 我们可以将思想的疆界无限延拓, 不幸的则是无论你的精神如何的超脱, 你始终无法摆脱躯壳活在世间...... 所以还是罗永浩那句：“理解万岁”！&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;独立思维&lt;/strong&gt;: 可能你会说我崇洋媚外, 但是从上面的话来说, 我并没有劝导你走向Google, 因为这些只是一些工具罢了, Google也未必最好, 因为Google作为全球很出色搜索引擎无人能打, 而他恰巧是美国的, 美国的目的我们也不糊涂, 不排除有政府介入的可能, 而且Google的世界有点混乱, 而民众在Weibo上的跟风表现也是让人啼笑皆非, 所以此刻的你只有多听多看, 保持着批判性思维, 谨小慎微就可.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Play&lt;/strong&gt;: 其实我自己很以来Google, 自己平时喜欢玩机, 找习惯自己使用习惯的应用, 此优秀的恶习持续到我高三, 却复苏于我高考, 到写文章的期间我下载了无数的盗版应用, 手机上也为无数的应用付费, 也向手机系统（MIUI）提出了背离他们开发理念的自私的东西（Search and RSS, Net Speed, Painting）, 自然是几年都无果呵呵. 其中的流量实时监控在国内基本破产, 所以去了Google Play, 不到几分钟就找到了, 确实是我很想做出来的APP, 只有唉声叹气一下, 我想这个世界确实可太小点了吧. 这是对Google产生好感的第一个原因. 而这个APP的论坛和官网都是被墙掉的……&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Update&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;渐渐地, 我关闭了Win10 的自动更新, 开始为手机寻找版本准备了养老, 备份舒服的版本应用, 退出APP的各大账号以防止他们的个性推荐……&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;我可能并没有资格去发出这样的理论, 因为我也是既得利益者, 用互联网更好地学习就是佐证, 如果你通过WWW获取过一些东西, 那么你本质也和我一样, 我质疑互联网的发展, 就如我质疑我的客观存在一样荒谬, 矛盾已化解于过去的某个角落, 而今天才窥见全貌罢了, 现在的时代注定在他人的看法和自己的夹缝中撕裂, 无论最后你选择什么, 请学会隐忍！不要以为这是轻松到可以遗忘的事情, 忍字头上一把刀！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Past Network Environment&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;很怀念当年的网络环境, 因为真的有人为爱发电、网上随便一个聊天室都可以交到朋友, 大家都很友好, 小学生不是贬义词, 人们遇到新手都会花时间带一带, 人们真的用心聊着天, 不存在鄙视链, 没有引战, 没有谩骂, 没有水军, 但是自从网民的数量多起来后, 有礼有节的时代自此过去了, 现在说点事都得吵架, 谩骂, 都懒得回复, 当笑话看吧. 而现在论坛依旧保持和气与和谐的就属边缘的同人论坛了, 稍不注意就会被扣分或者封号, 你想看的东西就木有了, 人还是要有求, 才会老实. 最大的遗憾就是在这个时代逝去才出生的孩子了吧, 毕竟他们可是错过一个好的网络年代. 而那句看滥的段子也绝不是说说而已：&lt;code&gt;亚洲四害：日本鬼子, 韩国棒子, 印度汉子, 中国喷子！&lt;/code&gt; 而我这样排外的心理其实很正常, 但是也很没有必要, 毕竟&lt;code&gt; WWW&lt;/code&gt;建立的第一天就会必然导致这样的结果, 只是现在我才真正的发现罢了, 有点伤心, 但是连接的力量被互联网一次一次证实, 如果走不出来这个怪圈的话也是无可奈何.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GFW Existed&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;快速发展让千家万户短时间内用上互联网是不是导致GFW日高不减的原因？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;那些404就交给&lt;a href=&#34;https://web.archive.org/&#34;&gt;别人&lt;/a&gt;记忆吧.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Algorithm Society&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Netify 2020 The Social Dilemma.&lt;/li&gt;
-&lt;li&gt;如今大数据的算法是不是有点弄巧成拙呢？我们一点都不反对技术的发展和迭代, 我们真正害怕的是&lt;strong&gt;技术人员存心设计打造的灰色地带以及他们在发展技术的羊皮下多做的东西&lt;/strong&gt;. 人多的世界上永远不乏恶魔. 当后面有相同的不可替代的方案取代之的时候, 你厂家选择用户还是自己就有待推敲了, 毕竟程序员不就是干这个的吗？权限的Denied和Delete无异, 我只能说一句呵呵. 这种对小众心理的偏爱, 可能是我一下子跟不上时代的发展了……有的时候我想：大家都很奇怪, 每天重复发生着一场迁徙 , 从巴掌大的窗口进入入虚拟化的世界, 不再那么关注现实生活中的一些缺憾, 虚拟化的窗口模糊了我们和现实的距离, 也无端地让我们有种错觉：美好的生活距我们也许只是几处像素块的距离, 我们或许被虚拟化的世界绑架, 亦或许没有, 大势所趋罢了. 对现实有所渴求的人都可以在互联网上找到些许安慰, 加之我们宣扬自由地活在自己的世界中会很快乐, 但是这种快乐在现在的我来看是不太完整的, 他少了很多身边至亲的、友好的人的陪伴, 我们注定有另外一场走出来吹水的世界来打破这样的一花一世界, 快速更迭的时代我们习惯单方面地冠之以不创新的帽子对往昔加以批判, 铺天盖地一致的声音, 但是真的考虑过主观能动性和时代背景有凤毛麟角, 或者说, 我们真的有思考过吗？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;bilibili-b站&#34;&gt;Bilibili B站&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“凡是关于宏观层面的视频，比如国内的产业升级和国际关系等，弹幕普遍都是极其乐观向上的。基本上就是我们一天天好起来，敌人一天天烂下去。然后只要持有这种观点的主讲人也能获得很高的赞。&lt;/p&gt;
-&lt;p&gt;而到了中微观层面的视频，比如房价或者年轻人生育等等，弹幕普遍又悲观得不行。基本上不是彻底放弃躺平就是宣泄不满，然后任何还试图劝别人乐观一点，说现实没那么可怕和悲观的主讲人基本都会被喷。”&lt;/p&gt;
-&lt;p&gt;还比如，这位用户提到，在描述中国互联网企业出海盛况的视频里，弹幕纷纷是激动不已的“中国企业雄起！ ”。而在控诉996的视频里，弹幕却纷纷是愤怒的“你工人爷爷来了！”而不知B站的年轻人是否意识到，让他们激动不已纷纷点赞的，和让他们愤怒不已嚷嚷要打到的资本，不正是同样的一群企业吗？&lt;/p&gt;
-&lt;p&gt;如果假设观视频一家的受众是固定的，即青年群体，那么我们会看出这么一个奇特的现象:他们在对于国家前途无限乐观的同时，对于自己的前途却极其悲观。因为他们宏观弹幕代入的是国家，微观弹幕代入的是自己。代入自己的时候也不是不想乐观，但面对大量相关经验自然无法沉浸在幻想里。而宏观离得太远，少有这样的经验打脸，自然可以放飞想象。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“宏大叙事是可以灌输的，而生活的苦乐只有自己才知道。”&lt;strong&gt;用哲学家埃里克·霍弗的话说，就是：&lt;/strong&gt;“一个人愈是没有值得自夸之处，就愈容易夸耀自己的国家、宗教、种族和他参与的神圣事业。”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;同时我们需要反省的是：国家的发展是有目共睹的，为什么越来越多的年轻人却被困在现实生活中，慢慢放弃了挣扎，直接躺平？国家的这种发展为什么没有实际改善青年自身的成长与生活环境,让他们陷于个人命运的焦虑之中?&lt;/p&gt;
-&lt;p&gt;长期下去，这会造成一种潜在的风险是什么？那些陷入悲观的年轻人更容易被煽动和蛊惑，因为有成就感的人会把世界看成一个友好的世界，失意者则乐于看到世界急建改变。因为人性之中都会有一种倾向，那就是到自身以外寻找解释自身命运的理由。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;zhihu-知乎&#34;&gt;Zhihu 知乎&lt;/h2&gt;
-&lt;center&gt;&lt;b&gt;我理解现在的知乎, 但我不再是黏性用户&lt;/b&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/network/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/center&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“拥有互联网话语权的年轻人, 和现实世界拥有话语权的人, 并不完全重合. ”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;束发之年, 人都会发生大的改变, 而我恰好遇上了知乎. 那时候还是“小而精”的知乎, 而现在是“大而广”的知乎. 水军越来越多, 一个平台的没落, 他们功不可没. 一篇职业水军的自述文章里原话：“现在知乎越来越火, 我们手上的知乎账号就多的是. ” （这里摘者想说两句心里话：我的直观印象就是好多都不再是网友们的为爱发电, 而是已有的商定以赞同数为指标的KPI, 没说两句就和你说以前我多么垃圾, 然后遇到XXX, 让我XXX, 放上么有佐证的照片, 下面来一个种草班……呵呵）&lt;/p&gt;
-&lt;p&gt;内容质量直线下降, 越来越偏激. 我想大概是意图借助这些平台引（hu）导（you）网民的人太多了, 他们买来的目的明确的文字和最初那些满怀善意的文字毫无可比性. 听说知乎这两年大力采用智能推荐的技术, 这挺好. 我认为如果一个人拒绝信息茧房, 那将会永远活在房子里. 既然拦不住技术的进步, 不如学着使用. 你还会因为害怕汽车撞路障, 而坚持骑马上街吗. 现在回过头去看, 曾经认真对待过的东西都会怀念吧, 更多是怀念那个时候的自己.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;喜欢千人千面, 不喜欢“同是一个世界”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;但其实我不喜欢这样的变化, 对知乎用户来说, 大家想要的可能就是千人千面的知识分享, 看到更大的世界, 而不是热门推荐的同一个世界. 至少我是这样. 最后说一个与知乎有关的有趣经历.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;期待知乎能“浴火重生”, 但我不再是黏性用户&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;进入大二之后, 发现了知乎另一个超级神奇的现象, 好像我每天看的内容都差不多, 内心开始有些抵触. 不会直接影响到我拒绝知乎, 我只是用的少了, 直到我自己写的一个谈及韩国人和美国人的话题成为转折点. 具体帖子不说了, 当时有不少评论让我头大. 提出反对意见是好事, 可是连我文章都没看懂, 先跑来骂我, 是几个意思？花了几天解释不清之后, 我放弃了解释.&lt;/p&gt;
-&lt;p&gt;我想聊聊人工智能推荐技术. 今日头条用智能推荐, 我觉得挺好, 本来它的内容定位就是娱乐, 就是闲时消遣, 但是知乎不是！&lt;strong&gt;知乎使用智能推荐后, 就像是在课上被发现听课走神的优等生, 走偏了. 知乎不够相信自己的用户, 并非人都喜欢衣来伸手, 饭来张口, 既然用户下载了知乎, 就不是来看娱乐新闻的, 也不是自己往茧房里钻的&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;以前打开知乎, 满屏都是深度文章, 现在不少内容是“AB脸什么时候会塌”、“哪些明星长大长残了”、“薛之谦凭什么继续火”. 又多亏了智能推荐技术, 点开一次, 给你推三次, 再点一次, 给你推九次, 不一会儿, 你的首页全是娱乐新闻. 现在, 我基本上用微博, 内容和交际都简单好操作. 虽然现在微博的设计师也在作死的路上越走越远, 但是我觉得就内容的丰富度和便捷度来看, 微博是我比较依赖的SNS. 吐了一堆槽, 我还是想说：我理解现在的知乎, 期待它能“浴火重生”, 但我不再是黏性用户.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;不够了解我, 推送的信息太多&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我分析过, 导致知乎变成这样, 和用户下沉有关. 以前是邀请制, 知乎是社会精英的集散地, 现在知乎目标是三四线城市的青年. 精英人群数量有限, 你要想变大, 肯定要去开拓三四线城市. 如果你留意, 你会发现, 知乎上有很多教育培训机构、租房信息、知识付费课程之类的广告, &lt;strong&gt;他们的目标人群就是三四线青年&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;他们的付费欲望要比所谓的精英强太多, 因为他们缺少更为便捷、更为高级的方式去获取社会资源, 但是又有成长的欲望, 稍微花一点钱, 他们是可以接受的. &lt;strong&gt;知乎的用户量变大了, 也逐渐失去了那批精英化人群&lt;/strong&gt;. 因为一个人越牛逼, 他越喜欢私密的社交圈, 所谓的私董会、中国企业家俱乐部就属于那种私密性社交的范畴. 像知乎这种半开放型社区, 对那部分精英人群的吸引力会越来越小.&lt;/p&gt;
-&lt;p&gt;现在为什么知乎会被骂呢？骂知乎的人中, 多数拥有文人情结, 比较矫情, 一旦所谓“low”一点的人进来了, 他们就看不下去了, 因为和他们没得聊, 没得说. 我虽然讨厌知乎那些繁琐的信息, 但并不是说我不使用知乎了, 我还会继续使用知乎, 知乎是一个很好的知识分享平台.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;知乎本没错, 错的是使用知乎的人&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;但是有一点可以确定, 卸载时我坚信, 在看得到的时间里, 自己不会大变的近几年或十几年, 自己是不再需要它了.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;把无聊问题复杂化和科幻化的社区&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;知乎产品做得真心好. 最核心的好是团队能在初期把整个社区盘活了. 对于做社区来说, 第一步要让大家知道这个社区, 第二步要大家成为用户, 第三步是要让大家自行产生内容. 知乎这三步做得很完美. 我也是算个做产品的人, 每当我问自己, 知乎和百度知道的最具体区别是什么时, 我感觉自己也很难答好这个问题.&lt;/p&gt;
-&lt;p&gt;设想一下, 如果我也是一个想打造有逼格、有水平的问答社区时, 如何向投资人推销呢？如何回答一个无法逃避的问题：你这个玩意儿没在市场检验过前, 有什么信心去战胜百度知道？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;百度知道下面的回答都乱答, 没啥涵养？&lt;/p&gt;
-&lt;p&gt;早期需要通过邀请形式才能加入社区, 不开放注册. （这不就是砍掉用户吗？）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;知乎和百度知道在核心功能上是一模一样的, 对于知乎来说, 一定需要团队假装用户在早期, 把社区做好, 给后来的真实用户一种提问和回答的好模板. 知乎是成功的, 但我实在受不了大家在朋友圈转发那些看似高深, 但一点涵养也没有的知乎帖子.&lt;/p&gt;
-&lt;p&gt;在我看来, 知乎就是一个：把无聊问题复杂化和科幻化的社区.&lt;/p&gt;
-&lt;h2 id=&#34;ban-墙&#34;&gt;Ban 墙&lt;/h2&gt;
-&lt;p&gt;我接触到的一些被封事务.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我该如何记忆, 那些消失的事情......&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;South Park&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;柴静&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;徐晓东&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pewdiepie&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;崔永元&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/42722834&#34;&gt;锡兰Ceylan与独人13事件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/56822629/answer/391744101&#34;&gt;少寒和雪音&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wwi.lanzous.com/in4fKl101mf&#34;&gt;HotDog - 差不多先生 - dfs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;......&lt;/p&gt;
-&lt;h2 id=&#34;reference-参考资料&#34;&gt;REFERENCE 参考资料&lt;/h2&gt;
-&lt;div id =&#34;j1&#34;&gt;[1]. https://laod.cn&lt;/div&gt;
-&lt;div id =&#34;j2&#34;&gt;[2]. https://36kr.com/p/1722396606465&lt;/div&gt;
-&lt;div id =&#34;j3&#34;&gt;[3]. https://www.google.com/press/new-approach-to-china/update.html&lt;/div&gt;
-&lt;div id =&#34;j4&#34;&gt;[4]. https://mp.weixin.qq.com/s/U4-pvli6RJJeJ7SiNlskzg&lt;/div&gt;
-&lt;div id =&#34;j5&#34;&gt;[5]. https://help.aliyun.com/document_detail/39545.html&lt;/div&gt;</content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://dfslfh.cn/blog/tags/gossip/" term="Gossip" label="Gossip" />
                             
                         
                     

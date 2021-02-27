@@ -24,8 +24,9 @@
 
     
 
-    <meta name="author" content="DandelionFs" /><meta name="description" content="论开发一个简单的 electron 的 Hello World 在国内局域网有多麻烦 [报粗口ing......]
-… " />
+    <meta name="author" content="DandelionFs" /><meta name="description" content="Electron, html/css/js的跨平台应用开发框架, 额外需要用到NodeJS, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.
+1 2 3 4 5  $ npm install electron -g $ npm install electron --save-dev $ npm install electron -g --unsafe-perm $ sudo npm npm install electron -g $ sudo npm npm install electron -g --unsafe-perm   一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 node install.js 的 download electron-linux-x64.zip, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物1., 或者直接使用 npm config set registry http://registry.npm.taobao.org 永久设置/ ~/.npmrc 加上 electron_mirror=&#34;https://npm.taobao.org/mirrors/electron/&#34;2; 或者 npm install your-model --registry=http://registry.npm.taobao.org 临时设置源. 相信我, 这是唯一最优的方法.4
+1 2 3 4 5  $ npm config set proxy url $ npm config delete proxy # Or You could  $ vim ~/.npmrc # Add `electron_mirror=&#34;https://npm.taobao.org/mirrors/electron/`   … " />
 
     <link rel="shortcut icon" href="/blog/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/blog/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -52,13 +53,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2020-08-20T19:35:43+08:00",
-        "dateModified": "2021-02-24T00:45:30+08:00",
+        "dateModified": "2021-02-27T12:44:06+08:00",
         "url": "https://dfslfh.cn/blog/posts/electron/",
         "headline": "Electron",
-        "description": "论开发一个简单的 electron 的 Hello World 在国内局域网有多麻烦 [报粗口ing......]\n… ",
+        "description": "Electron, html/css/js的跨平台应用开发框架, 额外需要用到NodeJS, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.\n1 2 3 4 5  $ npm install electron -g $ npm install electron --save-dev $ npm install electron -g --unsafe-perm $ sudo npm npm install electron -g $ sudo npm npm install electron -g --unsafe-perm   一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 node install.js 的 download electron-linux-x64.zip, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物1., 或者直接使用 npm config set registry http://registry.npm.taobao.org 永久设置/ ~/.npmrc 加上 electron_mirror=\"https://npm.taobao.org/mirrors/electron/\"2; 或者 npm install your-model --registry=http://registry.npm.taobao.org 临时设置源. 相信我, 这是唯一最优的方法.4\n1 2 3 4 5  $ npm config set proxy url $ npm config delete proxy # Or You could  $ vim ~/.npmrc # Add `electron_mirror=\"https://npm.taobao.org/mirrors/electron/`   … ",
         "inLanguage" : "en",
         "articleSection": "posts",
-        "wordCount":  1683 ,
+        "wordCount":  1822 ,
         "image": "//s3.ax1x.com/2021/01/15/swpWIs.png",
         "author": {
             "@type": "Person",
@@ -97,14 +98,15 @@
 
 
 <meta property="og:title" content="Electron" />
-<meta property="og:description" content="论开发一个简单的 electron 的 Hello World 在国内局域网有多麻烦 [报粗口ing......]
-… " />
+<meta property="og:description" content="Electron, html/css/js的跨平台应用开发框架, 额外需要用到NodeJS, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.
+1 2 3 4 5  $ npm install electron -g $ npm install electron --save-dev $ npm install electron -g --unsafe-perm $ sudo npm npm install electron -g $ sudo npm npm install electron -g --unsafe-perm   一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 node install.js 的 download electron-linux-x64.zip, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物1., 或者直接使用 npm config set registry http://registry.npm.taobao.org 永久设置/ ~/.npmrc 加上 electron_mirror=&#34;https://npm.taobao.org/mirrors/electron/&#34;2; 或者 npm install your-model --registry=http://registry.npm.taobao.org 临时设置源. 相信我, 这是唯一最优的方法.4
+1 2 3 4 5  $ npm config set proxy url $ npm config delete proxy # Or You could  $ vim ~/.npmrc # Add `electron_mirror=&#34;https://npm.taobao.org/mirrors/electron/`   … " />
 <meta property="og:url" content="https://dfslfh.cn/blog/posts/electron/" />
 <meta property="og:site_name" content="NOTHING BUT YOURSELF" />
 <meta property="og:locale" content="en" /><meta property="og:image" content="//s3.ax1x.com/2021/01/15/swpWIs.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2020-08-20T19:35:43&#43;08:00" />
-    <meta property="article:modified_time" content="2021-02-24T00:45:30&#43;08:00" />
+    <meta property="article:modified_time" content="2021-02-27T12:44:06&#43;08:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -231,7 +233,7 @@
     
     
         
-        <time datetime="2021-02-24T00:45:30&#43;08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.2.24</time>
+        <time datetime="2021-02-27T12:44:06&#43;08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.2.27</time>
     
     
     
@@ -243,7 +245,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1683</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1822</span>
     
     
         
@@ -262,9 +264,8 @@
 
             <nav class="contents">
   <h2 id="contents" class="contents-title">Contents</h2><ol class="toc">
-    <li><a id="contents:version-01---10" href="#version-01---10">Version 0.1 -&gt; 1.0</a></li>
-    <li><a id="contents:demo" href="#demo">Demo</a></li>
-    <li><a id="contents:notes" href="#notes">Notes</a>
+    <li><a id="contents:demo" href="#demo">DEMO</a></li>
+    <li><a id="contents:webpack" href="#webpack">Webpack</a>
       <ol>
         <li><a id="contents:nodejs" href="#nodejs">Nodejs</a></li>
         <li><a id="contents:electron" href="#electron">Electron</a></li>
@@ -273,81 +274,58 @@
     <li><a id="contents:reference" href="#reference">REFERENCE</a></li>
   </ol>
 </nav><div class="post-body">
-              <p>论开发一个简单的 electron 的 Hello World 在国内局域网有多麻烦 [报粗口ing......]</p>
-<h2 id="version-01---10"><a href="#version-01---10" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:version-01---10" class="headings">Version 0.1 -&gt; 1.0</a></h2>
+              <p><a href="https://github.com/electron/electron">Electron</a>, html/css/js的跨平台应用开发框架, 额外需要用到<a href="http://nodejs.cn/learn">NodeJS</a>, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">npm install electron -g
-<span class="c1"># ?</span>
-npm install electron --save-dev
-<span class="c1"># ??</span>
-npm install electron -g --unsafe-perm
-<span class="c1"># ???</span>
-sudo npm npm install electron -g
-<span class="c1"># ????</span>
-sudo npm npm install electron -g --unsafe-perm
-<span class="c1"># ?????</span>
-npm config <span class="nb">set</span> proxy url
-<span class="c1"># ??????!!!!!!</span>
-npm config delete proxy
-<span class="c1"># what about you???</span>
-<span class="c1"># reboot! F*** U</span>
-
-
-<span class="c1"># &gt; electrona9.2.0 postinstall /usr/local/lib/node modules/electron</span>
-<span class="c1"># &gt; node install.js</span>
-<span class="c1"># Error: EACCES: permission denied. mkdtemp &#39;/usr/local/lib/node modules/electron/electron-download-nosukt&#39;</span>
-<span class="c1">#npm ERR! code ELIFECYCLE</span>
-<span class="c1">#npm ERR! errno 1</span>
-<span class="c1">#npm ERR! electron@9.2.0 postinstall: node install.js</span>
-<span class="c1">#npm ERR! Exit status 1</span>
-<span class="c1">#npm ERR!</span>
-<span class="c1">#npm ERR! Failed at the electronag.2.0 postinstall script.</span>
-<span class="c1">#npm ERR! This is probably not a problem with npm. There is likely additional logging output above.</span>
-<span class="c1">#npm ERR! A complete log of this run can be found in:</span>
-<span class="c1">#npm ERR! /root/.npm/ logs/2020-08-13T05 20 38 701z-debug.log</span>
+<pre class="chroma"><code class="language-shell" data-lang="shell">$ npm install electron -g
+$ npm install electron --save-dev
+$ npm install electron -g --unsafe-perm
+$ sudo npm npm install electron -g
+$ sudo npm npm install electron -g --unsafe-perm
 </code></pre></td></tr></table></div>
 </div>
-</div><p>从上面可以看出总是卡在 node install.js 的 download <code>electron-linux-x64.zip</code>, 是校园网+GFW的原因了.而因为不知道具体的路径, 所以智能乖乖的执行这个脚本...</p>
-<p>失败总结:</p>
-<ul>
-<li>就算挂代理下载这个JS包还是很慢, 几乎没有进度... 所以以后开发还是用上阿里的 cnpm 吧, 在这方面不能不妥协<sup><a href="#j1">1</a></sup>.</li>
-<li><code>/home/usr/.npmrc</code> 加上 <code>electron_mirror=&quot;https://npm.taobao.org/mirrors/electron/&quot;</code><sup><a href="#j2">2</a></sup></li>
-</ul>
-<h2 id="demo"><a href="#demo" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:demo" class="headings">Demo</a></h2>
-<p>试例如下<sup><a href="#j3">3</a></sup>:</p>
+</div><p>一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 <code>node install.js</code> 的 <code>download electron-linux-x64.zip</code>, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物<sup><a href="#j1">1</a></sup>., 或者直接使用 <code>npm config set registry http://registry.npm.taobao.org</code> 永久设置/ <code>~/.npmrc</code> 加上 <code>electron_mirror=&quot;https://npm.taobao.org/mirrors/electron/&quot;</code><sup><a href="#j2">2</a></sup>; 或者 <code>npm install your-model --registry=http://registry.npm.taobao.org</code> 临时设置源. 相信我, 这是唯一最优的方法.<sup><a href="#j4">4</a></sup></p>
 <div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">$ npm config <span class="nb">set</span> proxy url
+$ npm config delete proxy
+<span class="c1"># Or You could </span>
+$ vim ~/.npmrc
+<span class="c1"># Add `electron_mirror=&#34;https://npm.taobao.org/mirrors/electron/`</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p>下面是我参考的教程, 由衷的感谢:</p>
+<ol>
+<li><a href="https://github.com/tal-tech/electron-playground/tree/0.0.3">https://github.com/tal-tech/electron-playground/tree/0.0.3</a></li>
+<li><a href="https://jspang.com/detailed?id=62">https://jspang.com/detailed?id=62</a></li>
+</ol>
+<h2 id="demo"><a href="#demo" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:demo" class="headings">DEMO</a></h2>
+<p>你永远不会知道我这个垃圾用了四天的时间完成这个Demo, 因为各种不确定因素叠加, 太难受了, 试例如下<sup><a href="#j3">3</a></sup>:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">$ npm init
+$ vim index.html
+</code></pre></td></tr></table></div>
+</div>
+</div><div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -377,7 +355,8 @@ npm config delete proxy
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></td></tr></table></div>
 </div>
-</div><div class="highlight"><div class="chroma">
+</div><p><code>$ vim index.js</code></p>
+<div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -396,9 +375,29 @@ npm config delete proxy
 </span><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">electron</span><span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;electron&#39;</span><span class="p">)</span> <span class="c1">//引入electron
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">//version 1.0
+</span><span class="c1"></span><span class="kr">const</span> <span class="p">{</span> <span class="nx">app</span><span class="p">,</span> <span class="nx">BrowserWindow</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;electron&#39;</span><span class="p">)</span>
+<span class="kr">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;path&#39;</span><span class="p">)</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;ready&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="kr">const</span> <span class="nb">window</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">BrowserWindow</span><span class="p">()</span>
+  <span class="nb">window</span><span class="p">.</span><span class="nx">loadFile</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">&#39;index.html&#39;</span><span class="p">))</span>
+<span class="p">})</span>
+
+<span class="c1">//version 2.0
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">electron</span><span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;electron&#39;</span><span class="p">)</span> <span class="c1">//引入electron
 </span><span class="c1"></span><span class="kd">var</span> <span class="nx">app</span><span class="o">=</span><span class="nx">electron</span><span class="p">.</span><span class="nx">app</span> <span class="c1">// 创建引用
 </span><span class="c1"></span><span class="kd">var</span> <span class="nx">BrowserWindow</span> <span class="o">=</span> <span class="nx">electron</span><span class="p">.</span><span class="nx">BrowserWindow</span> <span class="c1">// 创建窗口应用
 </span><span class="c1"></span><span class="kd">var</span> <span class="nx">mainWindow</span><span class="o">=</span><span class="kc">null</span><span class="p">;</span><span class="c1">//声明要打开的主窗口
@@ -417,13 +416,11 @@ npm config delete proxy
 <span class="p">})</span>
 </code></pre></td></tr></table></div>
 </div>
-</div><p>之后总算是交上了这四天的答卷 ...</p>
-<h2 id="notes"><a href="#notes" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:notes" class="headings">Notes</a></h2>
-<p>需要要到<sup><a href="#j4">4</a></sup>:</p>
-<ul>
-<li>NodeJS: <a href="http://nodejs.cn/learn">http://nodejs.cn/learn</a></li>
-<li>Electron: <a href="https://www.electronjs.org/docs/tutorial">https://www.electronjs.org/docs/tutorial</a></li>
-</ul>
+</div><p><code>$ electron .</code> Okay!</p>
+<h2 id="webpack"><a href="#webpack" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:webpack" class="headings">Webpack</a></h2>
+<blockquote>
+<p>主进程和渲染进程改如何调试？我想用最新的ES特性该怎么做？想用TypeScript该怎么配置？想用React，Vue，Angular来写UI呢？</p>
+</blockquote>
 <h3 id="nodejs"><a href="#nodejs" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:nodejs" class="headings">Nodejs</a></h3>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -526,6 +523,9 @@ npm config delete proxy
 <div id="j2">[2]. https://www.electronjs.org/docs/tutorial/installation</div>
 <div id="j3">[3]. https://jspang.com/detailed?id=62</div>
 <div id="j4">[4]. https://www.electronjs.org</div>
+<div id="j5">[5]. https://www.cnblogs.com/zjhblogs/p/10755058.html</div>
+<div id="j6">[6]. http://www.thewashingtonhua.com/blog/2017/07/06/electron-install-guide</div>
+<div id="j7">[7]. https://systemisbusy.info/blog/2019/09/03/%E7%BB%99electron%E5%81%9Ac%E5%BC%80%E5%8F%91%E7%9A%84%E9%82%A3%E4%BA%9B%E5%9D%91/</div>
             </div>
 
         </article>
@@ -596,7 +596,7 @@ npm config delete proxy
             
                 <div class="share-item douban">
                     
-                    <a href="https://www.douban.com/share/service?href=https://dfslfh.cn/blog/posts/electron/&amp;name=Electron&amp;text=%e8%ae%ba%e5%bc%80%e5%8f%91%e4%b8%80%e4%b8%aa%e7%ae%80%e5%8d%95%e7%9a%84%20electron%20%e7%9a%84%20Hello%20World%20%e5%9c%a8%e5%9b%bd%e5%86%85%e5%b1%80%e5%9f%9f%e7%bd%91%e6%9c%89%e5%a4%9a%e9%ba%bb%e7%83%a6%20[%e6%8a%a5%e7%b2%97%e5%8f%a3ing......]%0a%e2%80%a6%20" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
+                    <a href="https://www.douban.com/share/service?href=https://dfslfh.cn/blog/posts/electron/&amp;name=Electron&amp;text=Electron,%20html/css/js%e7%9a%84%e8%b7%a8%e5%b9%b3%e5%8f%b0%e5%ba%94%e7%94%a8%e5%bc%80%e5%8f%91%e6%a1%86%e6%9e%b6,%20%e9%a2%9d%e5%a4%96%e9%9c%80%e8%a6%81%e7%94%a8%e5%88%b0NodeJS,%20%e4%b8%80%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8%e6%98%af%e5%b0%8f%e5%ad%a6%e6%9c%9f%e4%bd%9c%e4%b8%9a%e5%a6%82%e6%9e%9c%e5%86%99%e5%87%ba%e5%9b%be%e5%bd%a2%e7%95%8c%e9%9d%a2%e5%8f%af%e4%bb%a5%e8%8e%b7%e5%be%97%e5%8a%a0%e5%88%86,%20%e4%bd%86%e6%98%af%e5%9b%a0%e4%b8%ba%e8%87%aa%e5%b7%b1%e5%86%99%e7%9a%84%e5%ae%9e%e5%9c%a8%e5%86%99%e7%9a%84%e6%9c%89%e7%82%b9%e6%8b%96%e6%b2%93,%20%e6%b2%a1%e6%9c%89%e6%97%b6%e9%97%b4%e8%b5%b6%e5%b7%a5%e8%bf%99%e4%b8%aa%e7%82%b9%e4%ba%86,%20%e6%94%be%e5%81%87%e4%b9%8b%e5%90%8e%e6%8b%bf%e5%87%ba%e6%9d%a5%e9%87%8d%e6%96%b0%e7%9d%80%e6%89%8b%e5%8e%bb%e5%81%9a.%0a1%202%203%204%205%20%20$%20npm%20install%20electron%20-g%20$%20npm%20install%20electron%20--save-dev%20$%20npm%20install%20electron%20-g%20--unsafe-perm%20$%20sudo%20npm%20npm%20install%20electron%20-g%20$%20sudo%20npm%20npm%20install%20electron%20-g%20--unsafe-perm%20%20%20%e4%b8%80%e5%bc%80%e5%a7%8b%e6%9c%80%e8%ae%a9%e6%88%91%e5%8e%8c%e7%83%a6%e7%9a%84%e6%98%af%e5%9b%bd%e5%86%85%e5%b1%80%e5%9f%9f%e7%bd%91%e4%b8%8b%e8%bd%bd%e5%9b%b0%e9%9a%be%e7%9a%84%e9%97%ae%e9%a2%98,%20%e6%9c%8d%e5%8a%a1%e8%b5%84%e6%ba%90%e9%83%bd%e5%9c%a8%e5%a2%99%e5%a4%96,%20%e6%80%8e%e4%b9%88%e4%b9%9f%e5%90%8c%e6%ad%a5%e4%b8%8d%e4%b8%8b%e6%9d%a5,%20%e7%bd%91%e7%bb%9c%e6%80%bb%e6%98%af%e5%8d%a1%e5%9c%a8%20node%20install.js%20%e7%9a%84%20download%20electron-linux-x64.zip,%20%e5%bd%93%e7%84%b6%e6%a0%a1%e5%9b%ad%e7%bd%91%e5%bd%93%e6%97%b6%e4%b9%9f%e5%8d%a0%e4%b8%80%e9%83%a8%e5%88%86%e5%9b%a0%e7%b4%a0.%20%e4%bd%86%e6%98%af%e5%b9%b8%e8%bf%90%e7%9a%84%e6%98%af,%20Alibaba%20%e6%9c%89%e5%ae%98%e6%96%b9%e7%9a%84%20CNPM%20%e6%9b%bf%e4%bb%a3%e7%89%a91.,%20%e6%88%96%e8%80%85%e7%9b%b4%e6%8e%a5%e4%bd%bf%e7%94%a8%20npm%20config%20set%20registry%20http://registry.npm.taobao.org%20%e6%b0%b8%e4%b9%85%e8%ae%be%e7%bd%ae/%20~/.npmrc%20%e5%8a%a0%e4%b8%8a%20electron_mirror=%22https://npm.taobao.org/mirrors/electron/%222;%20%e6%88%96%e8%80%85%20npm%20install%20your-model%20--registry=http://registry.npm.taobao.org%20%e4%b8%b4%e6%97%b6%e8%ae%be%e7%bd%ae%e6%ba%90.%20%e7%9b%b8%e4%bf%a1%e6%88%91,%20%e8%bf%99%e6%98%af%e5%94%af%e4%b8%80%e6%9c%80%e4%bc%98%e7%9a%84%e6%96%b9%e6%b3%95.4%0a1%202%203%204%205%20%20$%20npm%20config%20set%20proxy%20url%20$%20npm%20config%20delete%20proxy%20#%20Or%20You%20could%20%20$%20vim%20~/.npmrc%20#%20Add%20%60electron_mirror=%22https://npm.taobao.org/mirrors/electron/%60%20%20%20%e2%80%a6%20" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
                 </div>
             
 
@@ -637,7 +637,7 @@ npm config delete proxy
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/blog/posts/git/" class="related-link">Git Notes</a>
+                        <a href="/blog/posts/git/" class="related-link">Git</a>
                     </li>
                 
                     <li class="related-item">
@@ -649,7 +649,7 @@ npm config delete proxy
                     </li>
                 
                     <li class="related-item">
-                        <a href="/blog/posts/markdown/" class="related-link">Markdown Notes</a>
+                        <a href="/blog/posts/markdown/" class="related-link">Markdown</a>
                     </li>
                 
                     <li class="related-item">
