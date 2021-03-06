@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 04 Mar 2021 22:56:18 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 06 Mar 2021 14:34:52 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
@@ -829,6 +829,8 @@ sudo systemctl restart docker
 &lt;li&gt;&lt;a href=&#34;http://zim-wiki.org/index.html&#34;&gt;Zim&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;依赖服务托管&lt;/strong&gt;:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.mediawiki.org/wiki/MediaWiki&#34;&gt;MediaWiki&lt;/a&gt;&lt;/li&gt;
@@ -874,7 +876,46 @@ sudo systemctl restart docker
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;记录有关于图片的一切.&lt;/p&gt;
+                    <description>&lt;p&gt;先科普些基础知识&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;结构&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;位图&lt;/strong&gt;（Bitmap）：又叫栅格图、点阵图，使用像素阵列来表示图像。位图就是由象素阵列的排列来实现其显示效果的，每个象素有自己的颜色信息，在对位图图像进行编辑操作的时候，可操作的对象是每个象素，我们可以改变图像的色相、饱和度、明度，从而改变图像的显示效果。位图根据位深度，有 1、4、8、16、24、32 位图像等。位图放大会失真变模糊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矢量图&lt;/strong&gt;：计算机图形学中用点、直线或者多边形等基于数学方程的几何图元表示图像。相比较位图，矢量图保存最少的信息，体积更小，缩放不会失真。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;颜色&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;索引色&lt;/strong&gt;（Indexed Color）：一个数字表示一个颜色，一个字节也就是最多支持 256(2^8) 种颜色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;直接色&lt;/strong&gt;（Direct Color）：4 个数字表示一个颜色，分别表示红、黄、蓝以及透明度，所以最多可以表达 2^32 种颜色。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图像文件字节数(Byte)&lt;/strong&gt; = 图像分辨率 * 颜色深度 / 8&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;位深/颜色深度&lt;/strong&gt;：一个像素最多支持多少种颜色。一般用“位”（bit）来描述&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;位图格式&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;BMP: windows图形界面&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GIF&lt;/strong&gt;: Graphics Interchange Format, 原始版本为 87a，89 年发布 89a 版本，支持多帧动画和透明色。1995 年 Netscape Navigator 2.0 发布，定义了动画循环多少次或是否无限次播放.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LZW 算法压缩&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;最多&lt;strong&gt;支持 256 色&lt;/strong&gt;，不适用于真彩色图片&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JPG/JP(E)G/JFIF/JIF&lt;/strong&gt;: Joint Photographic Experts Group, 1992 年联合图像专家小组发布标准，94 年获得 ISO10918-1 认证&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PNG&lt;/strong&gt;: Portable Network Graphics, 便携式网络图形, PNG 的开发目标是改善并取代 GIF 作为适合网络传输的格式而不需专利许可。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;png8&lt;/strong&gt;: 最多支持 256 色的 PNG，无损、索引色的位图。非动图可以替代 GIF，体积更小，透明度支持也更好。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;png24&lt;/strong&gt;：最多支持 2^24 色的 PNG，不支持透明，无损、直接色的位图。目标是替换 JPG，但一般来说，相同显示效果，PNG 图片是 JPG 体积的数倍。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;png32&lt;/strong&gt;：加上 8 位 Alpha 通道的 png24。（注：PS 中导出图片时选择 png24，勾选透明度，导出的是 png32）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WebP&lt;/strong&gt;: Google 2010 替换 GIF/JPG/PNG&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVG&lt;/strong&gt;: Scalable Vector Graphics, 基于可扩展编辑语言（XML）描述二维矢量图形的图形格式.&lt;/li&gt;
+&lt;li&gt;TIF、TIFF: 标记图像文件格式&lt;/li&gt;
+&lt;li&gt;PCD: Photoshop&lt;/li&gt;
+&lt;li&gt;WMF: Windows位元文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;public&#34;&gt;PUBLIC&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://dfslfh.cn/blog//img.duiai.cc/tc/&#34;&gt;堆爱&lt;/a&gt;&lt;/li&gt;
@@ -946,7 +987,9 @@ sudo systemctl restart docker
 &lt;h2 id=&#34;refeerence&#34;&gt;REFEERENCE&lt;/h2&gt;
 &lt;div id=&#34;j1&#34;&gt;[1]. https://developers.google.com/speed/webp&lt;/div&gt;
 &lt;div id=&#34;j2&#34;&gt;[2]. https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html&lt;/div&gt;
-&lt;div id=&#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;</description>
+&lt;div id=&#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/3901fc831a97&lt;/div&gt;
+&lt;div id=&#34;j4&#34;&gt;[4]. https://www.infoq.cn/article/b6gbExG4WMIQgs66H99Q&lt;/div&gt;
+&lt;div id=&#34;j4&#34;&gt;[4]. https://www.jianshu.com/p/3609c7ca63f6&lt;/div&gt;</description>
                 
                 
                 
@@ -1186,18 +1229,17 @@ sudo systemctl restart docker
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;Knowledge for music &amp;amp; China Native Lyrics.&lt;/p&gt;
-&lt;h2 id=&#34;format&#34;&gt;FORMAT&lt;/h2&gt;
+                    <description>&lt;p&gt;科普一下格式:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;MP3 (not hi-res)&lt;/code&gt;: Popular, lossy compressed format ensures &lt;strong&gt;small file size&lt;/strong&gt;, but &lt;strong&gt;far from the best sound quality&lt;/strong&gt;. Convenient for storing music on smartphones and iPods.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;AAC(not hi-res)&lt;/code&gt;: &lt;strong&gt;Apple&#39;s alternative to MP3&lt;/strong&gt;. Lossy and compressed, but &lt;strong&gt;sounds better&lt;/strong&gt;. Used for iTunes downloads and Apple Music streaming.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;OGG (not hi-res)&lt;/code&gt;: &lt;strong&gt;Ogg Vorbis&lt;/strong&gt;. A lossy, &lt;strong&gt;open-source alternative to MP3 and AAC&lt;/strong&gt;, unrestricted by patents. The file format used (at 320kbps) in Spotify streaming.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;MQA (hi-res)&lt;/code&gt;: A lossless compression format that packages hi-res files for more efficient streaming. Used for Tidal Masters hi-res streaming.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;AIFF (hi-res)&lt;/code&gt;: Apple&#39;s alternative to WAV, with better metadata support. It is lossless and uncompressed (so big file sizes), but not hugely popular.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;DSD (hi-res)&lt;/code&gt;: The single-bit format used for Super Audio CDs. It comes in 2.8mHz, 5.6mHz and 11.2mHz varieties, but due to its high-quality codec, it’s (currently) impractical for streaming. Uncompressed.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;FLAC (hi-res)&lt;/code&gt;: This lossless compression format supports hi-res sample rates, takes up about half the space of WAV, and stores metadata. It&#39;s royalty-free and is considered the preferred format for downloading and storing hi-res albums. The downside is, it’s not supported by Apple (so not compatible with iTunes).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;WAV (hi-res)&lt;/code&gt;: The standard format in which all CDs are encoded. Great sound quality but it&#39;s uncompressed, meaning huge file sizes (especially for hi-res files). It has poor metadata support (that is, album artwork, artist and song title information).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;WMA Lossless (hi-res)&lt;/code&gt;: A lossless incarnation of Windows Media Audio, but no longer well-supported by smartphones or tablets. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/musics/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MP3（not hi-res）&lt;/code&gt;：流行的有损压缩格式可确保“小文件”，但“远非最佳音质”。方便在智能手机和iPod上存储音乐。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AAC（not hi-res）&lt;/code&gt;：Apple的MP3替代品。有损压缩，但听起来更好**。用于iTunes下载和Apple Music流。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OGG（not hi-res）&lt;/code&gt;：一种音讯压缩格式。 MP3和AAC的有损开源替代品，不受专利限制。 Spotify流中使用的文件格式（320kbps）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MQA（hi-res）&lt;/code&gt;：一种无损压缩格式，打包了高分辨率文件，以实现更高效的流传输。用于潮汐大师的高分辨率流媒体。&lt;/li&gt;
+&lt;li&gt;AIFF（hi-res）：Apple替代WAV，具有更好的元数据支持。它是无损且未压缩的（如此大的文件大小），但并不流行。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DSD（hi-res）&lt;/code&gt;：用于超级音频CD的单位格式。它有2.8mHz，5.6mHz和11.2mHz两种版本，但是由于其高质量的编解码器，因此（当前）流式传输是不切实际的。未压缩。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FLAC（hi-res）&lt;/code&gt;：这种无损压缩格式支持高分辨率采样率，占用WAV大约一半的空间，并存储元数据。它是免版税的，并且被认为是下载和存储高分辨率专辑的首选格式。不利的一面是，Apple不支持它（因此与iTunes不兼容）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WAV（hi-res）&lt;/code&gt;：所有CD都编码成的标准格式。出色的音质，但未经压缩，这意味着文件很大（尤其是高分辨率文件）。它对元数据的支持不佳（即专辑封面，艺术家和歌曲标题信息）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WMA（hi-res）&lt;/code&gt;：Windows Media Audio的无损化身，但不再受智能手机或平板电脑的支持。 &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/musics/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;software&#34;&gt;SOFTWARE&lt;/h2&gt;
 &lt;ul&gt;
@@ -1256,38 +1298,17 @@ sudo systemctl restart docker
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;h2 id=&#34;format-格式&#34;&gt;FORMAT 格式&lt;/h2&gt;
+                    <description>&lt;p&gt;科普一下格式:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;加密PDF解密&lt;/strong&gt;: 利用 PDF文档的漏洞造成系统内存溢出错误，然后出错处理过程中获得 root权限 ，修改boot模块而获得最终控制权, 一般存在于低专版本Acrobat 生成的pdf文件中, 9.0后漏洞消失. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
-&lt;ul&gt;
-&lt;li&gt;口令无法解除&lt;/li&gt;
-&lt;li&gt;编辑限制可以&lt;/li&gt;
-&lt;li&gt;密码, 远程认证很难破解&lt;/li&gt;
-&lt;li&gt;编辑、打印等权限密码相对容易破解&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解密&lt;/strong&gt;: &lt;a href=&#34;http://freemypdf.com/&#34;&gt;这里&lt;/a&gt;&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;: 主推是 &lt;code&gt;Amazon&lt;/code&gt;，同属亚马逊的私有格式，无本质区别, &lt;code&gt;azw&lt;/code&gt; 只是亚马逊利用它对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护。目前市面上的 &lt;code&gt;mobi&lt;/code&gt; 文件大部分是来自两种途径：
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;epub&lt;/code&gt;、&lt;code&gt;pdf&lt;/code&gt; 或者 &lt;code&gt;txt&lt;/code&gt; 转换成的 &lt;code&gt;mobi&lt;/code&gt;，&lt;/li&gt;
-&lt;li&gt;从 &lt;code&gt;Amazon&lt;/code&gt; 商店流出来的  &lt;code&gt;mobi&lt;/code&gt;。
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Amazon&lt;/code&gt; 官方制作，要么就是自&lt;/li&gt;
-&lt;li&gt;出版作者通过 &lt;code&gt;KDP (Kindle Direct  Publishing)&lt;/code&gt;平台发布，通过 &lt;code&gt;KDP&lt;/code&gt; 平台发布时，作者只需要上传 &lt;code&gt;Word&lt;/code&gt; 文档，其他的事情也是 &lt;code&gt;Amazon&lt;/code&gt; 官方来做，从而保证了 &lt;code&gt;mobi&lt;/code&gt; 文件的规范程度。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: 本质是 &lt;code&gt;KF8&lt;/code&gt;(2011), 填补了 &lt;code&gt;Mobi&lt;/code&gt;  对于复杂排版支持的缺陷，支持很多 HTML5（目前尚不支持 HTML5 的视频和音频标签）和 CSS3 的语法，这就大大改善了原来 mobi 或 azw 内容排版上的一些缺陷，单纯从读者的角度来讲，是不输 epub 格式的。目前从 Amazon 购买的书，大部分已经是 azw3  格式了，而以前主流的 mobi 格式则越来越少，它正逐渐取代 mobi 成为 Kindle 电子书的主流格式。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: 对于复杂的排版，图表，公式等元素的兼容性比 &lt;code&gt;mobi&lt;/code&gt; 格式好很多，在脚本，公式，矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式，现阶段 &lt;code&gt;epub&lt;/code&gt; 格式的优势体现在&lt;strong&gt;图文混排、图片嵌入字体&lt;/strong&gt;等，未来可预测的优势是 &lt;code&gt;epub&lt;/code&gt; 格式对于声音，影像等多媒体内容互动的支持上。&lt;code&gt;epub&lt;/code&gt; 格式是&lt;strong&gt;开放标准，所以在开发工具上也会有更大的选择&lt;/strong&gt;，像 &lt;code&gt;Sigil&lt;/code&gt;、&lt;code&gt;Calibre&lt;/code&gt;、&lt;code&gt;Jutoh&lt;/code&gt; 等软件都可以让用户自助制作  &lt;code&gt;epub&lt;/code&gt; 格式电子书，但因为良莠不齐的制作也导致一个问题：大量的 &lt;code&gt;epub&lt;/code&gt; 文件其实是不符合标准，无法保证在所有支持 &lt;code&gt;epub&lt;/code&gt;  的硬件和软件上都可以顺利阅读，这就和 &lt;code&gt;iOS&lt;/code&gt; 系统和 &lt;code&gt;Android&lt;/code&gt;系统的区别有些相似。&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
-&lt;blockquote&gt;
-&lt;p&gt;EPUB（Electronic Publication 的缩写，电子出版）是一种电子图书标准，由国际数字出版论坛（IDPF）提出；其中包括 3 种文件格式标准（文件的附文件名为 .epub），这个格式已取代了先前的 Open eBook 开放电子书标准。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软于 1998 年推出的基于 HTML 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”（Compiled HTML Help file）&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;:  &lt;code&gt;Amazon&lt;/code&gt;私有格式, 亚马逊利用&lt;code&gt;azw&lt;/code&gt; 对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;KF8&lt;/code&gt;(2011), 填补 &lt;code&gt;Mobi&lt;/code&gt; 对复杂排版支持, 支持很多 HTML5, 正逐渐取代 mobi 成为 Kindle 主流格式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软 1998 年替代早先的 WinHelp 帮助系统,基于 HTML 文件特性的帮助文件系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
 - pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
 - &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1300,7 +1321,7 @@ sudo systemctl restart docker
 &lt;li&gt;
 &lt;p&gt;JEL分类系统&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;JEL分类系统，是美国经济学会《经济文献杂志》（Journal of Economic Literature)所创立的对经济学文献的主题分类系统，并被现代西方经济学界广泛采用。 该分类方法主要采用开头的一个英文字母与随后的两位阿拉伯数字一起对经济学各部类进行“辞书式”编码分类。&lt;/p&gt;
+&lt;p&gt;JEL分类系统, 是美国经济学会《经济文献杂志》（Journal of Economic Literature)所创立的对经济学文献的主题分类系统, 并被现代西方经济学界广泛采用。 该分类方法主要采用开头的一个英文字母与随后的两位阿拉伯数字一起对经济学各部类进行“辞书式”编码分类。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
