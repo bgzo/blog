@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">NOTHING BUT YOURSELF</title>
     <subtitle type="html">DandelionFs Penal Colony | DandelionFs的自留地</subtitle>
-    <updated>2021-03-06T14:34:52&#43;08:00</updated>
+    <updated>2021-03-10T22:46:03&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -1455,7 +1455,7 @@ sudo systemctl restart docker
             <title type="text">Database</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/database/" />
             <id>https://dfslfh.cn/blog/posts/database/</id>
-            <updated>2021-03-03T23:18:18&#43;08:00</updated>
+            <updated>2021-03-10T22:45:06&#43;08:00</updated>
             <published>2021-01-28T17:39:35&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -2015,10 +2015,10 @@ user当前连接用户&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;people&#34;&gt;People&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;1973年 Charles W. Bachman（1924-2017） 网状数据库技术&lt;/li&gt;
-&lt;li&gt;1981年 Edgar F. Codd （1923－2003 ）数据库系统，尤其是关系型数据库&lt;/li&gt;
-&lt;li&gt;1998年 Jim Gray （1944-2007.1.28? ）数据库与事务处理&lt;/li&gt;
-&lt;li&gt;2014年 Michael Stonebraker（1943-）现代数据库系统底层的概念与实践&lt;/li&gt;
+&lt;li&gt;1973年 Charles W. Bachman(1924-2017) 网状数据库技术&lt;/li&gt;
+&lt;li&gt;1981年 Edgar F. Codd (1923－2003 )数据库系统，尤其是关系型数据库&lt;/li&gt;
+&lt;li&gt;1998年 Jim Gray (1944-2007.1.28? )数据库与事务处理&lt;/li&gt;
+&lt;li&gt;2014年 Michael Stonebraker(1943-)现代数据库系统底层的概念与实践&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;dbs&#34;&gt;DBs&lt;/h2&gt;
 &lt;ul&gt;
@@ -2097,17 +2097,17 @@ user当前连接用户&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ACMSIGMOD: 国际计算机学会数据管理专业委员会(ACM SIGMOD)是国际数据库领域最高级别的国际会议。其主要致力于数据库以及信息技术的研究，开发和应用。&lt;/li&gt;
 &lt;li&gt;VLDB: 国际超大型数据库会议是一个专门从事超大规模数据库管理理论、方法和应用研究的专业性学术机构，它涉及的内容也很丰富，包括研究及应用的诸多方面，基本上能够较全面地反映当前数据库研究的前沿方向、工业界的最新技术以及各国的研发水平。&lt;/li&gt;
-&lt;li&gt;ICDE: 数据工程国际学术会议(ICDE)是由IEEE计算机数据工程技术学会（TCDE）主办的数据库领域的最高级别的国际性会议之一。&lt;/li&gt;
-&lt;li&gt;CCFDBS: 中国计算机学会数据库专业委员会（CHINA COMPUTER FEDERATION DATABASE SOCIETY，简称CCFDBS）是中国计算机学会领导下的数据库学术组织。由数据库专业委员会主办的中国数据库学术会议（NDBC）始于1977年，已成为国内数据库领域较为权威的会议。&lt;/li&gt;
+&lt;li&gt;ICDE: 数据工程国际学术会议(ICDE)是由IEEE计算机数据工程技术学会(TCDE)主办的数据库领域的最高级别的国际性会议之一。&lt;/li&gt;
+&lt;li&gt;CCFDBS: 中国计算机学会数据库专业委员会(CHINA COMPUTER FEDERATION DATABASE SOCIETY，简称CCFDBS)是中国计算机学会领导下的数据库学术组织。由数据库专业委员会主办的中国数据库学术会议(NDBC)始于1977年，已成为国内数据库领域较为权威的会议。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;数据(Data): 描述事物的符号记录, 数据库中存储的基本对象
+&lt;li&gt;&lt;strong&gt;数据(Data)&lt;/strong&gt;: 描述事物的符号记录, 数据库中存储的基本对象
 &lt;ul&gt;
 &lt;li&gt;特点: 数据与其语义是不可分&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;数据库(DataBase, DB): 长期储存 在计算机内 、有组织的、可共享的大量数据的集合
+&lt;li&gt;&lt;strong&gt;数据库(DataBase, DB)&lt;/strong&gt;: 长期储存 在计算机内 、有组织的、可共享的大量数据的集合
 &lt;ul&gt;
 &lt;li&gt;数据按一定的数据模型组织、描述 和储存&lt;/li&gt;
 &lt;li&gt;可为各种用户共享&lt;/li&gt;
@@ -2116,7 +2116,7 @@ user当前连接用户&lt;/p&gt;
 &lt;li&gt;易扩展&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;数据库管理系统(DataBase Management System, DBMS): 位于用户与操作系统之间的一层数据管理软件, 科学地组织和存储数据、高效地获取和维护数据
+&lt;li&gt;&lt;strong&gt;数据库管理系统(DataBase Management System, DBMS)&lt;/strong&gt;: 位于用户与操作系统之间的一层数据管理软件, 科学地组织和存储数据、高效地获取和维护数据
 &lt;ul&gt;
 &lt;li&gt;功能:
 &lt;ul&gt;
@@ -2153,18 +2153,18 @@ user当前连接用户&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;数据库系统(DBS): 由数据库、数据库管理系统、应用系统和数据库管理员组成
+&lt;li&gt;&lt;strong&gt;数据库系统(DBS)&lt;/strong&gt;: 由数据库、数据库管理系统、应用系统和数据库管理员组成
 的存储、管理、处理和维护 数据的系统
 &lt;ul&gt;
 &lt;li&gt;构成:
 &lt;ul&gt;
 &lt;li&gt;数据库&lt;/li&gt;
-&lt;li&gt;数据库管理系统（及其开发 工具）&lt;/li&gt;
+&lt;li&gt;数据库管理系统(及其开发 工具)&lt;/li&gt;
 &lt;li&gt;应用系统&lt;/li&gt;
 &lt;li&gt;数据库管理员&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;特点
+&lt;li&gt;&lt;strong&gt;特点&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;数据结构化
 &lt;ul&gt;
@@ -2227,7 +2227,7 @@ user当前连接用户&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;人工管理阶段(20世纪40年代中--50年代中)
 &lt;ul&gt;
-&lt;li&gt;数据的管理者：用户（程序员），数据不保存&lt;/li&gt;
+&lt;li&gt;数据的管理者：用户(程序员)，数据不保存&lt;/li&gt;
 &lt;li&gt;数据面向的对象：某一应用程序&lt;/li&gt;
 &lt;li&gt;数据的共享程度：无共享、冗余度极大&lt;/li&gt;
 &lt;li&gt;数据的独立性：不独立，完全依赖于程序&lt;/li&gt;
@@ -2261,12 +2261,11 @@ user当前连接用户&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;两大类
 &lt;ul&gt;
-&lt;li&gt;概念模型 也称信息模型，它是按用户的观点来对数据和信息建
-模，用于数据库设计。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;概念模型&lt;/strong&gt;: 信息模型，它是按用户的观点来对数据和信息建模，用于数据库设计。&lt;/li&gt;
 &lt;li&gt;逻辑模型和物理模型
 &lt;ul&gt;
-&lt;li&gt;逻辑模型 主要包括网状 模型、层次模型、关系模型、面向对象模型等，按计算机系统的观点对数据建模，用于DBMS 实现。&lt;/li&gt;
-&lt;li&gt;物理模型 是对数据最底 层的抽象，描述数据在系统 内部的表示方式和存取方法，在磁盘或 磁带上的存储方式和存 取方法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;逻辑模型&lt;/strong&gt;: 主要包括网状 模型、层次模型、关系模型、面向对象模型等，按计算机系统的观点对数据建模，用于DBMS 实现。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;物理模型&lt;/strong&gt;: 是对数据最底 层的抽象，描述数据在系统 内部的表示方式和存取方法，在磁盘或 磁带上的存储方式和存 取方法。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -2275,17 +2274,181 @@ user当前连接用户&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;数据结构&lt;/li&gt;
 &lt;li&gt;数据操作&lt;/li&gt;
-&lt;li&gt;完整性约束条件&lt;/li&gt;
+&lt;li&gt;完整性约束条件
+&lt;ul&gt;
+&lt;li&gt;一组完整性规则的集合。&lt;/li&gt;
+&lt;li&gt;完整性规则：给定的数据模型中数据及其联系所具有的制约和依存规则&lt;/li&gt;
+&lt;li&gt;用以限定符合数据模型的数据库状态以及状态的变化，以保证数据的正确、有效、相容。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;概念模型&lt;/li&gt;
-&lt;li&gt;最常用的数据模型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;概念模型
+&lt;ul&gt;
+&lt;li&gt;信息世界
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;实体(Entity)&lt;/strong&gt;: 客观存在并可相互区别的事物称为实体。可以是具体的人、事、物或 抽象的概念。&lt;/li&gt;
+&lt;li&gt;属性(Attribute): 实体所具有的某一特性称为属性。一个实体可以由若干个属性来刻画。&lt;/li&gt;
+&lt;li&gt;码(Key): 唯一标识实体的属性集称为码&lt;/li&gt;
+&lt;li&gt;域(Domain): 属性的取值范围称为该属性的域。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实体型(Entity Type)&lt;/strong&gt;: 用实体名及其属性名集合来抽象和刻画同类实体称为实体型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实体集(Entity Set)&lt;/strong&gt;: 同一类型实体的集合称为实体集&lt;/li&gt;
+&lt;li&gt;联系(Relationship)
+&lt;ul&gt;
+&lt;li&gt;现实世界中事物内部以及事物之间的联系,在信息世界中反映为实体内部的联系和实体之间的联系。&lt;/li&gt;
+&lt;li&gt;实体内部的联系通常是指组成实体的各属性之间的联系&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实体之间的联系通常是指不同实体集之间的联系&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最常用的数据模型
+&lt;ul&gt;
 &lt;li&gt;层次模型&lt;/li&gt;
 &lt;li&gt;网状模型&lt;/li&gt;
-&lt;li&gt;关系模型&lt;/li&gt;
+&lt;li&gt;关系模型
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;关系(Relation)&lt;/strong&gt;: 一个关系对应通常说的一张表&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;元组(Tuple)&lt;/strong&gt;: 表中的一行即为一个元组&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;属性(Attribute)&lt;/strong&gt;: 表中的一列即为一个属性 ，给每一个属性起一个名称, 即属性名&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;码(Key)&lt;/strong&gt;: 表中的某个属性组，它可以唯一确定一个元组。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;域(Domain)&lt;/strong&gt;: 属性的取值范围。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分量&lt;/strong&gt;: 元组中的一个属性值。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关系模式&lt;/strong&gt;: 对关系的描述&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;数据库系统结构&#34;&gt;数据库系统结构&lt;/h3&gt;
-&lt;h3 id=&#34;数据库系统的组成&#34;&gt;数据库系统的组成&lt;/h3&gt;</content>
+&lt;ul&gt;
+&lt;li&gt;数据库系统模式的概念&lt;/li&gt;
+&lt;li&gt;数据库系统的三级模式结构
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;模式(Schema)&lt;/strong&gt;: 逻辑模式, 数据库中全体数据的逻辑结构和特征的描述
+&lt;ul&gt;
+&lt;li&gt;所有用户的公共数据视图，综合了所有用户的需求&lt;/li&gt;
+&lt;li&gt;一个数据库只有一个模式&lt;/li&gt;
+&lt;li&gt;模式的地位：是数据库系统模式结构的中间层
+&lt;ul&gt;
+&lt;li&gt;与数据的物理存储细节和硬件环境无关&lt;/li&gt;
+&lt;li&gt;与具体的应用程序、开发工具及高级程序设计语言无关&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;外模式(External Schema)&lt;/strong&gt;: 子模式或用户模式, 数据库用户（包括应用程序员和最终用户）使用的局部数据的逻辑结构和特征的描述
+&lt;ul&gt;
+&lt;li&gt;数据库用户的数据视图，是与某一应用有关的数据的逻辑表示
+-外模式的地位：介于模式与应用之间&lt;/li&gt;
+&lt;li&gt;模式与外模式的关系：一对多
+&lt;ul&gt;
+&lt;li&gt;外模式通常是模式的子集&lt;/li&gt;
+&lt;li&gt;一个数据库可以有多个外模式 。反映了不同的用户的应用需求 、看待数据的方式、对数据保密的要求&lt;/li&gt;
+&lt;li&gt;对模式中同一数据 ，在外模式中的结构 、类型、长度、保密级别等都可以不同&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;外模式与应用的关系：一对多
+&lt;ul&gt;
+&lt;li&gt;同一外模式也可以为某一用户的多个应用系统所使用&lt;/li&gt;
+&lt;li&gt;但一个应用程序只能使用一个外模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;外模式的用途
+&lt;ul&gt;
+&lt;li&gt;保证数据库安全性的一个有力措施&lt;/li&gt;
+&lt;li&gt;每个用户只能看见和访问所对应的外模式中的数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内模式(Internal Schema)&lt;/strong&gt;:是数据物理结构和存储方式的描述
+&lt;ul&gt;
+&lt;li&gt;是数据在数据库内部的表示方式
+&lt;ul&gt;
+&lt;li&gt;记录的存储方式（顺序存储，按照B树结构 存储，按hash方法存储）&lt;/li&gt;
+&lt;li&gt;索引的组织方式&lt;/li&gt;
+&lt;li&gt;数据是否压缩存储&lt;/li&gt;
+&lt;li&gt;数据是否加密&lt;/li&gt;
+&lt;li&gt;数据存储记录结构的规定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一个数据库只有一个内模式&lt;/li&gt;
+&lt;li&gt;数据库的二级映像功能与数据独立性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;数据库系统的组成&#34;&gt;数据库系统的组成&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;硬件平台及数据库
+&lt;ul&gt;
+&lt;li&gt;足够大的内存&lt;/li&gt;
+&lt;li&gt;足够大的外存&lt;/li&gt;
+&lt;li&gt;较高的通道能力，提高数据传送率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;软件
+&lt;ul&gt;
+&lt;li&gt;支持DBMS运行的操作系统&lt;/li&gt;
+&lt;li&gt;与数据库接口的高级语言及其编译系统&lt;/li&gt;
+&lt;li&gt;以DBMS为核心的应用开发工具&lt;/li&gt;
+&lt;li&gt;为特定应用环境开发的数据库应用系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;人员
+&lt;ul&gt;
+&lt;li&gt;数据库管理员: DBA&lt;/li&gt;
+&lt;li&gt;系统分析员和数据库设计人员&lt;/li&gt;
+&lt;li&gt;应用程序员&lt;/li&gt;
+&lt;li&gt;用户
+&lt;ul&gt;
+&lt;li&gt;偶然用户&lt;/li&gt;
+&lt;li&gt;简单用户&lt;/li&gt;
+&lt;li&gt;复杂用户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;oracle-db&#34;&gt;ORACLE DB&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Download
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oracle.com/database/technologies/xe-prior-releases.html&#34;&gt;Oracle Database Express Edition (XE) Release 11.2.0.2.0 (11gR2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oracle.com/database/technologies/oracle-database-software-downloads.html&#34;&gt;Oracle Database Software Downloads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Install&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/database/#j1&#34;&gt;1&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/database/#j2&#34;&gt;2&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/database/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo apt install rmp -y &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt install alien -y
+$ sudo alien --scripts -d oracle-xe-11.2.0-1.0.x86_64.rpm
+$ sudo dpkg -i oracle-xe_11.2.0-2_amd64.deb
+&lt;span class=&#34;c1&#34;&gt;# /var/lib/dpkg/info/oracle-xe.postinst: line 114: /sbin/chkconfig: No such file or directory You must run &amp;#39;/etc/init.d/oracle-xe configure&amp;#39; as the root user to configure the database.&lt;/span&gt;
+$ sudo /etc/init.d/oracle-xe configure
+&lt;span class=&#34;c1&#34;&gt;# 安装的时候一大堆目录错过了...&lt;/span&gt;
+$ reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
+&lt;div id=&#34;j1&#34;&gt;[1]. https://askubuntu.com/posts/983032/edit&lt;/div&gt;
+&lt;div id=&#34;j2&#34;&gt;[2]. https://dba.stackexchange.com/questions/13291/installing-oracle-11g-on-ubuntu-11-10&lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm#XEINL123&lt;/div&gt;</content>
             
             
             
@@ -2311,7 +2474,7 @@ user当前连接用户&lt;/p&gt;
             <title type="text">GTD Time Manage</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/gtd-time-manage/" />
             <id>https://dfslfh.cn/blog/posts/gtd-time-manage/</id>
-            <updated>2021-02-24T00:44:54&#43;08:00</updated>
+            <updated>2021-03-08T23:20:29&#43;08:00</updated>
             <published>2021-01-26T19:57:30&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -2328,7 +2491,7 @@ user当前连接用户&lt;/p&gt;
 &lt;h2 id=&#34;gtd&#34;&gt;GTD&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;GTD &lt;strong&gt;实践&lt;/strong&gt;为:&lt;/p&gt;
+&lt;p&gt;GTD &lt;strong&gt;实践&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;收集箱（Inbox）&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;执行清单（”Context” task）&lt;/strong&gt;: 短时间内定能干掉.
@@ -6778,21 +6941,21 @@ sizeof(long long) &amp;gt;= 8
             <title type="text">Ubuntu</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/ubuntu/" />
             <id>https://dfslfh.cn/blog/posts/ubuntu/</id>
-            <updated>2021-02-28T22:29:35&#43;08:00</updated>
+            <updated>2021-03-08T23:19:54&#43;08:00</updated>
             <published>2021-01-19T18:11:54&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
                     <uri>https://dfslfh.cn/blog/</uri>
                     <email>lfh010618@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;strong&gt;[声明]&lt;/strong&gt;: &lt;strong&gt;本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;strong&gt;[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;https://dfslfh.cn/blog//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;&lt;strong&gt;[声明]&lt;/strong&gt;: &lt;strong&gt;本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
+                <content type="html">&lt;p&gt;&lt;strong&gt;[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;https://dfslfh.cn/blog//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;多说一句: 在用完 Win10 后有感, &lt;strong&gt;在没有深入了解意见科技产品前, 永远不要过分相信他带来的便利&lt;/strong&gt;, 你的电脑, 在你真正摸清楚他的操作原理和操作逻辑之前, 不要过分依赖他, 在他面前, 你可能就是赤裸的, 而我所真正担心的是我没有足够的时间和精力去见证世间的一切, 害怕的是自己不能静下心来慢慢的学习起来, 对那些Fast Learner肃然起敬, 但同时我始终都不了解真正的自己, 永远在以伤害自己的方式来逼迫自己努力, 而不是全身心的投入到自己的学习生涯中, 这又是多么的可悲……&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=1&gt;&lt;del&gt;多说一句: 在用完 Win10 后有感, &lt;strong&gt;在没有深入了解意见科技产品前, 永远不要过分相信他带来的便利&lt;/strong&gt;, 你的电脑, 在你真正摸清楚他的操作原理和操作逻辑之前, 不要过分依赖他, 在他面前, 你可能就是赤裸的, 而我所真正担心的是我没有足够的时间和精力去见证世间的一切, 害怕的是自己不能静下心来慢慢的学习起来, 对那些Fast Learner肃然起敬, 但同时我始终都不了解真正的自己, 永远在以伤害自己的方式来逼迫自己努力, 而不是全身心的投入到自己的学习生涯中, 这又是多么的可悲……&lt;/del&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;h2 id=&#34;install-ubuntu&#34;&gt;INSTALL UBUNTU&lt;/h2&gt;
 &lt;p&gt;下载官方的镜像 (国内有大量的开源镜像网站) , 然后用 &lt;code&gt;Ultralso&lt;/code&gt; 烧录到一个&lt;strong&gt;8G&lt;/strong&gt; (4G) 大小的U盘. 重启电脑到 &lt;strong&gt;BIOS&lt;/strong&gt; 中将 BOOT 里的 &lt;code&gt;BOOT Security&lt;/code&gt; 关掉 (HP: F10), 重启进入系统&lt;strong&gt;UEFI&lt;/strong&gt;的U盘启动的模式 (HP: F11), 之后进入U盘的 Ubuntu里面体验一下.准备安装.&lt;/p&gt;
 &lt;p&gt;不要直接安装. 需要&lt;strong&gt;换源&lt;/strong&gt;, 去找系统的安装源list文件, 在&lt;code&gt;/etc/apt/sources.list&lt;/code&gt;里, 用管理员的权限修改下载源地址 (提前查到自己对应版本的源地址) .&lt;/p&gt;
@@ -6859,7 +7022,7 @@ sudo apt update
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo update-manager -c -d
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo update-manager -c -d
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;apt-manage&#34;&gt;APT MANAGE&lt;/h2&gt;
@@ -6875,7 +7038,7 @@ sudo apt update
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt install tree -y &lt;span class=&#34;c1&#34;&gt;# 使用apt安装软件,譬如安装tree,这里的 -y 参数是为了在安装的时候默认选择yes&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install tree -y &lt;span class=&#34;c1&#34;&gt;# 使用apt安装软件,譬如安装tree,这里的 -y 参数是为了在安装的时候默认选择yes&lt;/span&gt;
 sudo dpkg -i xxx.deb &lt;span class=&#34;c1&#34;&gt;# deb包安装&lt;/span&gt;
 sudo apt install gdebi
 sudo gdebi netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
@@ -6897,7 +7060,7 @@ sudo apt install ./xxxx.deb  &lt;span class=&#34;c1&#34;&gt;#另一种deb包安�
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  tar zxf tree-1.7.0.tgz &lt;span class=&#34;c1&#34;&gt;#解压&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;  tar zxf tree-1.7.0.tgz &lt;span class=&#34;c1&#34;&gt;#解压&lt;/span&gt;
   &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt;  tree-1.7.0/
   
   sudo make &lt;span class=&#34;c1&#34;&gt;# make and install&lt;/span&gt;
@@ -6917,7 +7080,7 @@ sudo apt install ./xxxx.deb  &lt;span class=&#34;c1&#34;&gt;#另一种deb包安�
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Check Depend&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Check Depend&lt;/span&gt;
 dpkg --info XXX.deb &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep Depends
 &lt;span class=&#34;c1&#34;&gt;# Apt-get&lt;/span&gt;
 sudo apt install XXX.deb-
@@ -6935,7 +7098,7 @@ sudo dpkg -i --ignore-depends&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;lt
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt remove --purge XXX
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt remove --purge XXX
 sudo apt autoremove --purge XXX
 
 dpkg --get-selections &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep XXX
@@ -6955,7 +7118,7 @@ sudo apt purge XXX  &lt;span class=&#34;c1&#34;&gt;#一个带core的package, 如
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt autoclean &lt;span class=&#34;c1&#34;&gt;# 只删除过时的软件包, 例如最近更新所取代的软件包, 就完全不需要它们. &lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt autoclean &lt;span class=&#34;c1&#34;&gt;# 只删除过时的软件包, 例如最近更新所取代的软件包, 就完全不需要它们. &lt;/span&gt;
 sudo apt autoremove
 
 dpkg -l &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;grep ^rc&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $2}&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;sudo xargs dpkg -P 
@@ -6965,7 +7128,7 @@ sudo &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &amp;gt; /var/log/syslog
 sudo &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &amp;gt; /var/log/kern.log
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;如果出现zsh/bash权限不足的情况, 使用&lt;code&gt;sudo -i&lt;/code&gt;临时切换到&lt;code&gt;Root&lt;/code&gt;用户的模式下进行操作. 操作完&lt;code&gt;exit&lt;/code&gt;退出即可.&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;如果出现zsh/shell权限不足的情况, 使用&lt;code&gt;sudo -i&lt;/code&gt;临时切换到&lt;code&gt;Root&lt;/code&gt;用户的模式下进行操作. 操作完&lt;code&gt;exit&lt;/code&gt;退出即可.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;清理SNAP&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;执行脚本:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -6980,7 +7143,7 @@ sudo &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &amp;gt; /var/log/kern.log
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/shell
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# Removes old revisions of snaps&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# CLOSE ALL SNAPS BEFORE RUNNING THIS&lt;/span&gt;
 &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -eu
@@ -7024,7 +7187,7 @@ snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=
 &lt;span class=&#34;nv&#34;&gt;Icon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;XXX 				&lt;span class=&#34;c1&#34;&gt;# 图标路径&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Application
 &lt;span class=&#34;nv&#34;&gt;Categories&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Development
-&lt;span class=&#34;nv&#34;&gt;StartupNotify&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;false；	&lt;span class=&#34;c1&#34;&gt;#设置软件启动是不通知&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;StartupNotify&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;false&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;#设置软件启动是不通知&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;Hidden&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;			&lt;span class=&#34;c1&#34;&gt;#菜单是否隐藏, 类似NoDisplay属性&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -7109,7 +7272,10 @@ snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;APT-GET&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;对于低级操作, 仍然需要 apt-get.&lt;/p&gt;
-&lt;h3 id=&#34;deb-managesup4j45j5sup&#34;&gt;Deb Manage&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/ubuntu/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/ubuntu/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;deb-manage&#34;&gt;Deb Manage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;打包DEB实践参考&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/ubuntu/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/ubuntu/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;shortcut&#34;&gt;SHORTCUT&lt;/h2&gt;
 &lt;h3 id=&#34;desktop-shortcut&#34;&gt;Desktop Shortcut&lt;/h3&gt;
 &lt;table&gt;
@@ -7378,7 +7544,7 @@ snap list --all &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo ubuntu-drivers autoinstall &lt;span class=&#34;c1&#34;&gt;# 自动安装&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ubuntu-drivers autoinstall &lt;span class=&#34;c1&#34;&gt;# 自动安装&lt;/span&gt;
 
 sudo gedit /etc/modprobe.d/blacklist.conf &lt;span class=&#34;c1&#34;&gt;# 黑名单&lt;/span&gt;
 blacklist vga16fb &lt;span class=&#34;c1&#34;&gt;# for nvidia display device install&lt;/span&gt;
@@ -7468,7 +7634,7 @@ sudo update-initramfs -u &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/sp
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;72
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/shell
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# Gestures install &lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# version 1.3&lt;/span&gt;
@@ -7556,7 +7722,7 @@ chown &lt;span class=&#34;nv&#34;&gt;$SUDO_USER&lt;/span&gt;:&lt;span class=&#34
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# edit by nano, choose one between vim and nano. &lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# edit by nano, choose one between vim and nano. &lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# 按 Ctrl+O 保存、按 Ctrl+X 退出编辑&lt;/span&gt;
 sudo nano /etc/default/grub
 
@@ -7573,7 +7739,7 @@ sudo vim /etc/default/grub
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nv&#34;&gt;GRUB_CMDLINE_LINUX_DEFAULT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;quiet splash acpi_backlight=vendor acpi_osi=Linux&amp;#34;&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nv&#34;&gt;GRUB_CMDLINE_LINUX_DEFAULT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;quiet splash acpi_backlight=vendor acpi_osi=Linux&amp;#34;&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# 更新后重启 (重启可能时间比较长)&lt;/span&gt;
 sudo update-grub &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; reboot
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -7697,7 +7863,7 @@ sudo snap abort &lt;span class=&#34;m&#34;&gt;14&lt;/span&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo mkdir /mnt/windows/d# 然后关闭 WIndows 的**快速启动**, 临时挂载, 重启失效, 适用于偶尔需要一次的: 
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo mkdir /mnt/windows/d# 然后关闭 WIndows 的**快速启动**, 临时挂载, 重启失效, 适用于偶尔需要一次的: 
 sudo mount /dev/XX  /mnt/windows/d
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -7715,7 +7881,7 @@ sudo mount /dev/XX  /mnt/windows/d
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo blkid /dev/XX
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo blkid /dev/XX
 sudo apt install vim
 sudo vim /etc/fstab
 &lt;span class=&#34;c1&#34;&gt;#插入形如 UUID=XXXXXXXXXX   /mnt/windows/d   ntfs  defaults   0   2的字段; 其中第一列为UUID, 第二列为挂载目录 (该目录必须为空目录) , 第三列为文件系统类型, 第四列为参数, 第五列0表示不备份, 最后一列必须为２或0(除非引导分区为1), 如果你是grub引导的话, 你会注意到boot分区是1.&lt;/span&gt;
@@ -7765,7 +7931,7 @@ sudo mount -a#再检查一下, 发现全是OK, 哈哈
 &lt;li&gt;使用&lt;code&gt;unar&lt;/code&gt;命令: &lt;code&gt;unar (-o (GBK)) xx.zip&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Other&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;binbashm-bad-interpreter-no-such-file-or-directory&#34;&gt;/bin/bash^M: bad interpreter: No such file or directory&lt;/h3&gt;
+&lt;h3 id=&#34;binshellm-bad-interpreter-no-such-file-or-directory&#34;&gt;/bin/shell^M: bad interpreter: No such file or directory&lt;/h3&gt;
 &lt;p&gt;[Cause] : 脚本文件是DOS格式的, 即每一行的行尾以\r\n来标识&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7793,7 +7959,7 @@ sudo mount -a#再检查一下, 发现全是OK, 哈哈
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo usermod -a -G audio &lt;span class=&#34;nv&#34;&gt;$USER&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo usermod -a -G audio &lt;span class=&#34;nv&#34;&gt;$USER&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;更加详细的可以参考&lt;a href=&#34;https://zhuanlan.zhihu.com/p/122887848&#34;&gt;这个&lt;/a&gt;&lt;/p&gt;
@@ -7823,7 +7989,7 @@ sudo mount -a#再检查一下, 发现全是OK, 哈哈
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xrandr &lt;span class=&#34;c1&#34;&gt;# primitive command line interface to RandR extension&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;xrandr &lt;span class=&#34;c1&#34;&gt;# primitive command line interface to RandR extension&lt;/span&gt;
 xinput &lt;span class=&#34;c1&#34;&gt;# utility to configure and test X input devices&lt;/span&gt;
 xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; HDMI-0
 &lt;span class=&#34;c1&#34;&gt;# Restricts the movements of the absolute device to  the  RandR  crtc.  The output  name  must match a currently connected output (see xrandr(1)). If the NVIDIA binary driver is detected or RandR 1.2 or later is not  avail‐able,  a  Xinerama  output may be specified as &amp;#34;HEAD-N&amp;#34;, with N being the Xinerama screen number. This option has no effect on relative devices.&lt;/span&gt;
@@ -7878,7 +8044,7 @@ xinput map-to-output XXX&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;ID&lt;span c
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ sudo vim /usr/share/applications/Clash.desktop
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ sudo vim /usr/share/applications/Clash.desktop
 $ vim Clash.desktop
 ＃&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; 文件头
 ＃Version    版本
@@ -7908,6 +8074,317 @@ $ vim Clash.desktop
 &lt;ul&gt;
 &lt;li&gt;思路:  进入到 单用户模式, 然后修改 root 密码. 因为进入单用户模式, root 不需要密码就可以登录.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;fmfile-manage&#34;&gt;FM(File Manage)&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;可分享的（shareable）&lt;/th&gt;
+&lt;th&gt;不可分享的（unshareable）&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;不变的（static）&lt;/td&gt;
+&lt;td&gt;/usr （软件放置处）&lt;/td&gt;
+&lt;td&gt;/etc （配置文件）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;/opt （第三方协力软件）&lt;/td&gt;
+&lt;td&gt;/boot （开机与核心档）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;可变动的（variable）&lt;/td&gt;
+&lt;td&gt;/var/mail （使用者邮件信箱）&lt;/td&gt;
+&lt;td&gt;/var/run （程序相关）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;/var/spool/news （新闻群组）&lt;/td&gt;
+&lt;td&gt;/var/lock （程序相关）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;可分享的：可以分享给其他系统挂载使用的目录，所以包括可执行文件与使用者的邮件等数据， 是能够分享给网络上其他主机挂载用的目录；&lt;/li&gt;
+&lt;li&gt;不可分享的：自己机器上面运行的设备文件或者是与程序有关的socket文件等， 由于仅与自身机器有关，所以当然就不适合分享给其他主机了。&lt;/li&gt;
+&lt;li&gt;不变的：有些数据是不会经常变动的，跟随着distribution而不变动。 例如函数库、文件说明文档、系统管理员所管理的主机服务配置文件等等；&lt;/li&gt;
+&lt;li&gt;可变动的：经常改变的数据，例如登录文件、一般用户可自行收受的新闻群组等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;linux-系统目录树&#34;&gt;LINUX 系统目录树&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;FHS: Filesystem Hierarchy Standard. 重点在于规范每个特定的目录下应该要放置什么样子的数据, Linux操作系统就能够在既有的面貌下（目录架构不变）发展出开发者想要的独特风格。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/lost+found&lt;/code&gt;: 当文件系统发生错误时， 将一些遗失的片段放置到这个目录下
+&lt;ul&gt;
+&lt;li&gt;标准的ext2/ext3/ext4文件系统格式才会产生的一个目录, xfs 文件系统的话，就不会存在这个目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/proc&lt;/code&gt;: virtual file system, 虚拟文件系统, 他放置的数据都是在内存当中(不占任何硬盘空间)，例如系统核心、行程信息（process）、周边设备的状态及网络状态等等。比较重要的文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/proc/cpuinfo&lt;/code&gt;, &lt;code&gt;/proc/dma&lt;/code&gt;, &lt;code&gt;/proc/interrupts&lt;/code&gt;, &lt;code&gt;/proc/ioports&lt;/code&gt;, &lt;code&gt;/proc/net/*&lt;/code&gt;......&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/sys&lt;/code&gt;: 这个目录其实跟/proc非常类似，也是一个虚拟的文件系统，主要也是记录核心与系统硬件信息较相关的信息。 包括目前已载入的核心模块与核心侦测到的硬件设备信息等等。这个目录同样不占硬盘容量喔！&lt;/li&gt;
+&lt;li&gt;/ （root, 根目录）：与开机系统有关；因为根目录很重要，所以根目录不要放在非常大的分区内，因为越多的数据可能有较多发生错误的机会&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目录&lt;/th&gt;
+&lt;th&gt;应放置文件内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;第一部份&lt;/td&gt;
+&lt;td&gt;FHS 要求必须要存在的目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/bin&lt;/td&gt;
+&lt;td&gt;系统有很多放置可执行文件的目录，但/bin比较特殊。因为/bin放置的是在单人维护模式下还能够被操作的指令。 在/bin下面的指令可以被root与一般帐号所使用，主要有：cat, chmod, chown, date, mv, mkdir, cp, shell等等常用的指令。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/boot&lt;/td&gt;
+&lt;td&gt;这个目录主要在放置开机会使用到的文件，包括Linux核心文件以及开机菜单与开机所需配置文件等等。 Linux kernel常用的文件名为：vmlinuz，如果使用的是grub2这个开机管理程序， 则还会存在/boot/grub2/这个目录喔！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/dev&lt;/td&gt;
+&lt;td&gt;在Linux系统上，任何设备与周边设备都是以文件的型态存在于这个目录当中的。 你只要通过存取这个目录下面的某个文件，就等于存取某个设备啰～ 比要重要的文件有/dev/null, /dev/zero, /dev/tty, /dev/loop*, /dev/sd*等等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/etc&lt;/td&gt;
+&lt;td&gt;系统主要的配置文件几乎都放置在这个目录内，例如人员的帐号密码档、 各种服务的启始档等等。一般来说，这个目录下的各文件属性是可以让一般使用者查阅的， 但是只有root有权力修改。FHS建议不要放置可可执行文件（binary）在这个目录中喔。比较重要的文件有： /etc/modprobe.d/, /etc/passwd, /etc/fstab, /etc/issue 等等。另外 FHS 还规范几个重要的目录最好要存在 /etc/ 目录下喔：&lt;br /&gt;/etc/opt（必要）：这个目录在放置第三方协力软件 &lt;br /&gt;/opt 的相关配置文件&lt;br /&gt;/etc/X11/（建议）：与 X Window 有关的各种配置文件都在这里，尤其是 xorg.conf 这个 X Server 的配置文件。&lt;br /&gt;/etc/sgml/（建议）：与 SGML 格式有关的各项配置文件&lt;br /&gt;/etc/xml/（建议）：与 XML 格式有关的各项配置文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/lib&lt;/td&gt;
+&lt;td&gt;系统的函数库非常的多，而/lib放置的则是在开机时会用到的函数库， 以及在/bin或/sbin下面的指令会调用的函数库而已。 什么是函数库呢？你可以将他想成是“外挂”，某些指令必须要有这些“外挂”才能够顺利完成程序的执行之意。 另外 FSH 还要求下面的目录必须要存在：/lib/modules/：这个目录主要放置可抽换式的核心相关模块（驱动程序）喔！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/media&lt;/td&gt;
+&lt;td&gt;media是“媒体”的英文，顾名思义，这个/media下面放置的就是可移除的设备啦！ 包括软盘、光盘、DVD等等设备都暂时挂载于此。常见的文件名有：/media/floppy, /media/cdrom等等。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/mnt&lt;/td&gt;
+&lt;td&gt;如果你想要暂时挂载某些额外的设备，一般建议你可以放置到这个目录中。 在古早时候，这个目录的用途与/media相同啦！只是有了/media之后，这个目录就用来暂时挂载用了。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/opt&lt;/td&gt;
+&lt;td&gt;这个是给第三方协力软件放置的目录。什么是第三方协力软件啊？ 举例来说，KDE这个桌面管理系统是一个独立的计划，不过他可以安装到Linux系统中，因此KDE的软件就建议放置到此目录下了。 另外，如果你想要自行安装额外的软件（非原本的distribution提供的），那么也能够将你的软件安装到这里来。 不过，以前的Linux系统中，我们还是习惯放置在/usr/local目录下呢！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/run&lt;/td&gt;
+&lt;td&gt;早期的 FHS 规定系统开机后所产生的各项信息应该要放置到 /var/run 目录下，新版的 FHS 则规范到 /run 下面。 由于 /run 可以使用内存来仿真，因此性能上会好很多！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/sbin&lt;/td&gt;
+&lt;td&gt;Linux有非常多指令是用来设置系统环境的，这些指令只有root才能够利用来“设置”系统，其他使用者最多只能用来“查询”而已。 放在/sbin下面的为开机过程中所需要的，里面包括了开机、修复、还原系统所需要的指令。 至于某些服务器软件程序，一般则放置到/usr/sbin/当中。至于本机自行安装的软件所产生的系统可执行文件（system binary）， 则放置到/usr/local/sbin/当中了。常见的指令包括：fdisk, fsck, ifconfig, mkfs等等。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/srv&lt;/td&gt;
+&lt;td&gt;srv可以视为“service”的缩写，是一些网络服务启动之后，这些服务所需要取用的数据目录。 常见的服务例如WWW, FTP等等。举例来说，WWW服务器需要的网页数据就可以放置在/srv/www/里面。 不过，系统的服务数据如果尚未要提供给网际网络任何人浏览的话，默认还是建议放置到 /var/lib 下面即可。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/tmp&lt;/td&gt;
+&lt;td&gt;这是让一般使用者或者是正在执行的程序暂时放置文件的地方。 这个目录是任何人都能够存取的，所以你需要定期的清理一下。当然，重要数据不可放置在此目录啊！ 因为FHS甚至建议在开机时，应该要将/tmp下的数据都删除唷！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr&lt;/td&gt;
+&lt;td&gt;第二层 FHS 设置，后续介绍&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var&lt;/td&gt;
+&lt;td&gt;第二曾 FHS 设置，主要为放置变动性的数据，后续介绍&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;第二部份&lt;/td&gt;
+&lt;td&gt;FHS 建议可以存在的目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/home&lt;/td&gt;
+&lt;td&gt;这是系统默认的使用者主文件夹（home directory）。在你新增一个一般使用者帐号时， 默认的使用者主文件夹都会规范到这里来。比较重要的是，主文件夹有两种代号喔：~：代表目前这个使用者的主文件夹~dmtsai ：则代表 dmtsai 的主文件夹！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/lib&lt;qual&gt;&lt;/td&gt;
+&lt;td&gt;用来存放与 /lib 不同的格式的二进制函数库，例如支持 64 位的 /lib64 函数库等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/root&lt;/td&gt;
+&lt;td&gt;系统管理员（root）的主文件夹。之所以放在这里，是因为如果进入单人维护模式而仅挂载根目录时， 该目录就能够拥有root的主文件夹，所以我们会希望root的主文件夹与根目录放置在同一个分区中。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;/usr: unix software resource, Unix操作系统软件资源, 与软件安装/执行有关；/usr里面放置的数据属于可分享的与不可变动的（shareable, static）， 如果你知道如何通过网络进行分区的挂载（例如在服务器篇会谈到的NFS服务器），那么/usr确实可以分享给区域网络内的其他主机来使用喔 因为是所有系统默认的软件（distribution发布者提供的软件）都会放置到/usr下面，因此这个目录有点类似Windows 系统的“C:\Windows\ （当中的一部份） + C:\Program files\”这两个目录的综合体，系统刚安装完毕时，这个目录会占用最多的硬盘容量。一般来说，/usr的次目录建议有下面这些：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早期 Linux 在设计的时候，若发生问题时，救援模式通常仅挂载根目录而已，因此有五个重要的目录被要求一定要与根目录放置在一起， 那就是 /etc, /bin, /dev, /lib, /sbin 这五个重要目录。现在许多的 Linux distributions 由于已经将许多非必要的文件移出 /usr 之外了， 所以 /usr 也是越来越精简，同时因为 /usr 被建议为“即使挂载成为只读，系统还是可以正常运行”的模样，所以救援模式也能同时挂载 /usr 喔！ 例如我们的这个 CentOS 7.x 版本在救援模式的情况下就是这样。因此那个五大目录的限制已经被打破了呦！例如 CentOS 7.x 就已经将 /sbin, /bin, /lib 通通移动到 /usr 下面了哩！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目录&lt;/th&gt;
+&lt;th&gt;应放置文件内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;第一部份：&lt;/td&gt;
+&lt;td&gt;FHS 要求必须要存在的目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/bin/&lt;/td&gt;
+&lt;td&gt;所有一般用户能够使用的指令都放在这里！目前新的 CentOS 7 已经将全部的使用者指令放置于此，而使用链接文件的方式将 /bin 链接至此！ 也就是说， /usr/bin 与 /bin 是一模一样了！另外，FHS 要求在此目录下不应该有子目录！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/lib/&lt;/td&gt;
+&lt;td&gt;基本上，与 /lib 功能相同，所以 /lib 就是链接到此目录中的！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/local/&lt;/td&gt;
+&lt;td&gt;系统管理员在本机自行安装自己下载的软件（非distribution默认提供者），建议安装到此目录， 这样会比较便于管理。举例来说，你的distribution提供的软件较旧，你想安装较新的软件但又不想移除旧版， 此时你可以将新版软件安装于/usr/local/目录下，可与原先的旧版软件有分别啦！ 你可以自行到/usr/local去看看，该目录下也是具有bin, etc, include, lib...的次目录喔！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/sbin/&lt;/td&gt;
+&lt;td&gt;非系统正常运行所需要的系统指令。最常见的就是某些网络服务器软件的服务指令（daemon）啰！不过基本功能与 /sbin 也差不多， 因此目前 /sbin 就是链接到此目录中的。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/share/&lt;/td&gt;
+&lt;td&gt;主要放置只读架构的数据文件，当然也包括共享文件。在这个目录下放置的数据几乎是不分硬件架构均可读取的数据， 因为几乎都是文字文件嘛！在此目录下常见的还有这些次目录：/usr/share/man：线上说明文档/usr/share/doc：软件杂项的文件说明/usr/share/zoneinfo：与时区有关的时区文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;第二部份：&lt;/td&gt;
+&lt;td&gt;FHS 建议可以存在的目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/games/&lt;/td&gt;
+&lt;td&gt;与游戏比较相关的数据放置处&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/include/&lt;/td&gt;
+&lt;td&gt;c/c++等程序语言的文件开始（header）与包含档（include）放置处，当我们以tarball方式 （*.tar.gz 的方式安装软件）安装某些数据时，会使用到里头的许多包含档喔！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/libexec/&lt;/td&gt;
+&lt;td&gt;某些不被一般使用者惯用的可执行文件或脚本（script）等等，都会放置在此目录中。例如大部分的 X 窗口下面的操作指令， 很多都是放在此目录下的。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/lib&lt;qual&gt;/&lt;/td&gt;
+&lt;td&gt;与 /lib&lt;qual&gt;/功能相同，因此目前 /lib&lt;qual&gt; 就是链接到此目录中&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/usr/src/&lt;/td&gt;
+&lt;td&gt;一般源代码建议放置到这里，src有source的意思。至于核心源代码则建议放置到/usr/src/linux/目录下。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;/var （variable）：与系统运行过程有关。/var就是在系统运行后才会渐渐占用硬盘容量的目录。 因为/var目录主要针对常态性变动的文件，包括高速缓存（cache）、登录文件（log file）以及某些软件运行所产生的文件， 包括程序文件（lock file, run file），或者例如MySQL数据库的文件等等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目录&lt;/th&gt;
+&lt;th&gt;应放置文件内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;第一部份&lt;/td&gt;
+&lt;td&gt;FHS 要求必须要存在的目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/cache/&lt;/td&gt;
+&lt;td&gt;应用程序本身运行过程中会产生的一些暂存盘；&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/lib/&lt;/td&gt;
+&lt;td&gt;程序本身执行的过程中，需要使用到的数据文件放置的目录。在此目录下各自的软件应该要有各自的目录。 举例来说，MySQL的数据库放置到/var/lib/mysql/而rpm的数据库则放到/var/lib/rpm去！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/lock/&lt;/td&gt;
+&lt;td&gt;某些设备或者是文件资源一次只能被一个应用程序所使用，如果同时有两个程序使用该设备时， 就可能产生一些错误的状况，因此就得要将该设备上锁（lock），以确保该设备只会给单一软件所使用。 举例来说，烧录机正在烧录一块光盘，你想一下，会不会有两个人同时在使用一个烧录机烧片？ 如果两个人同时烧录，那片子写入的是谁的数据？所以当第一个人在烧录时该烧录机就会被上锁， 第二个人就得要该设备被解除锁定（就是前一个人用完了）才能够继续使用啰。目前此目录也已经挪到 /run/lock 中！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/log/&lt;/td&gt;
+&lt;td&gt;重要到不行！这是登录文件放置的目录！里面比较重要的文件如/var/log/messages, /var/log/wtmp（记录登陆者的信息）等。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/mail/&lt;/td&gt;
+&lt;td&gt;放置个人电子邮件信箱的目录，不过这个目录也被放置到/var/spool/mail/目录中！ 通常这两个目录是互为链接文件啦！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/run/&lt;/td&gt;
+&lt;td&gt;某些程序或者是服务启动后，会将他们的PID放置在这个目录下喔！至于PID的意义我们会在后续章节提到的。 与 /run 相同，这个目录链接到 /run 去了！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;/var/spool/&lt;/td&gt;
+&lt;td&gt;这个目录通常放置一些伫列数据，所谓的“伫列”就是排队等待其他程序使用的数据啦！ 这些数据被使用后通常都会被删除。举例来说，系统收到新信会放置到/var/spool/mail/中， 但使用者收下该信件后该封信原则上就会被删除。信件如果暂时寄不出去会被放到/var/spool/mqueue/中， 等到被送出后就被删除。如果是工作调度数据（crontab），就会被放置到/var/spool/cron/目录中！&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;权限管理&#34;&gt;权限管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;速记:
+&lt;ul&gt;
+&lt;li&gt;755: 拥有者具备全部权限, 群组和其他人没有写的权限.&lt;/li&gt;
+&lt;li&gt;625: 拥有者只有读写的权利, 没有执行的权利, 群组只有覆盖的权利, 无法读取和运行, 而其他人没有写的权利, 可以读取执行.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;命令: &lt;code&gt;chown [-R] owner :group filename&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;权限设定&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/ubuntu/#j7&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;abc&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;a: 拥有者&lt;/li&gt;
+&lt;li&gt;b: 所属群组&lt;/li&gt;
+&lt;li&gt;c: 其他人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;表示方法:
+&lt;ul&gt;
+&lt;li&gt;数字法: 用权限值表示.
+&lt;ul&gt;
+&lt;li&gt;r权限＋4&lt;/li&gt;
+&lt;li&gt;w权限＋2&lt;/li&gt;
+&lt;li&gt;x权限＋1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;符号法: &lt;code&gt;人＋动作（+加入-除去=设定）＋权限符号（rwx）&lt;/code&gt;; 不同动作间用“,”分隔
+&lt;ul&gt;
+&lt;li&gt;u拥有者&lt;/li&gt;
+&lt;li&gt;g群组&lt;/li&gt;
+&lt;li&gt;o其他人&lt;/li&gt;
+&lt;li&gt;a所有人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;意义
+&lt;ul&gt;
+&lt;li&gt;文件：
+&lt;ul&gt;
+&lt;li&gt;r：读内容&lt;/li&gt;
+&lt;li&gt;w：写内容 (无法删除), 若无r权限, 新写入的内容将覆盖原来的内容&lt;/li&gt;
+&lt;li&gt;x：被系统执行，蕴含r权限。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;目录：
+&lt;ul&gt;
+&lt;li&gt;r：读取目录结构清单的权限，也就是查询该目录下的文件名&lt;/li&gt;
+&lt;li&gt;w：修改该目录结构清单的权限&lt;/li&gt;
+&lt;li&gt;x：进入该目录，访问目录下的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;uninstall-ubuntu&#34;&gt;UNINSTALL UBUNTU&lt;/h2&gt;
 &lt;p&gt;用的不习惯当然先卸载了, Emmmmm, 哈哈哈哈, 卸载比较简单, 大家都知道如果你按照下面的链接安装无误的话, 启动引导用的是Ubuntu自带的的 &lt;code&gt;GUN GRUB&lt;/code&gt;, 如果你分盘的时候没有选择下面的启动引导设置, 那么你第一次启动的时候一定不会进入Ubuntu的系统.&lt;/p&gt;
 &lt;p&gt;综上所述, 我们把 &lt;code&gt;GUN GRUB&lt;/code&gt;干掉, 然后选择磁盘分区的删除卷即可, 软件的话, 用EasyUEFI, 官网下载的话需要梯子, 然后我这里如果有时间会给出下载链接, 去网上随便下载一个就好了.&lt;/p&gt;
@@ -7918,7 +8395,7 @@ $ vim Clash.desktop
 &lt;li&gt;&lt;a href=&#34;http://wiki.ubuntu.com/&#34;&gt;Wiki_Ubuntu_En&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/6844904149822210056&#34;&gt;写给工程师的 Ubuntu 20.04 最佳配置指南&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;site&#34;&gt;Site&lt;/h3&gt;
+&lt;h3 id=&#34;nix-sites&#34;&gt;*NIX SITES&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://launchpad.net/ubuntu&#34;&gt;ubutntu_launchpad&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://linustechtips.com&#34;&gt;linux_forum&lt;/a&gt;&lt;/li&gt;
@@ -7944,10 +8421,11 @@ $ vim Clash.desktop
 &lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
 &lt;div id=&#34;j1&#34;&gt;[1]. https://www.thefanclub.co.za/how-to/ubuntu-touchpad-gestures-install&lt;/div&gt;
 &lt;div id=&#34;j2&#34;&gt;[2]. https://zhuanlan.zhihu.com/p/40434062&lt;/div&gt;
-&lt;div id = &#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/99d3eebcf17f&lt;/div&gt;
+&lt;div id=&#34;j3&#34;&gt;[3]. https://www.jianshu.com/p/99d3eebcf17f&lt;/div&gt;
 &lt;div id=&#34;j4&#34;&gt;[4]. https://blog.csdn.net/gatieme/article/details/52829907&lt;/div&gt;
 &lt;div id=&#34;j5&#34;&gt;[5]. https://blog.csdn.net/u010648555/article/details/88542150&lt;/div&gt;
-&lt;div id=&#34;j6&#34;&gt;[6]. https://i-meto.com/linux-mirrors/&lt;/div&gt;</content>
+&lt;div id=&#34;j6&#34;&gt;[6]. https://i-meto.com/linux-mirrors/&lt;/div&gt;
+&lt;div id=&#34;j7&#34;&gt;[7]. https://blog.csdn.net/dangpu/article/details/41597749&lt;/div&gt;</content>
             
             
             
@@ -10374,7 +10852,7 @@ $ vim index.html
             <title type="text">VSCode You Should Know</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/vscode/" />
             <id>https://dfslfh.cn/blog/posts/vscode/</id>
-            <updated>2021-02-24T15:31:39&#43;08:00</updated>
+            <updated>2021-03-10T19:53:27&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -10498,16 +10976,29 @@ $ vim index.html
 &lt;/ul&gt;
 &lt;h2 id=&#34;usage&#34;&gt;USAGE&lt;/h2&gt;
 &lt;h3 id=&#34;regular-replace-正则替换&#34;&gt;Regular Replace 正则替换&lt;/h3&gt;
+&lt;p&gt;推荐教程:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;.&lt;/code&gt; —  匹配任何字符, 单独搜索的时候需要转义&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.*&lt;/code&gt; —  匹配任何东西&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;?&lt;/code&gt; —  非贪婪的匹配&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;( ) &lt;/code&gt;  — 捕获组和反向引用, 单独搜索的时候需要转义
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ziishaned/learn-regex&#34;&gt;Github-Regex&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;.&lt;/code&gt;: 匹配任何字符, 单独搜索的时候需要转义&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;.*&lt;/code&gt;: 匹配任何东西&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;?&lt;/code&gt;: 非贪婪的匹配&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;( ) &lt;/code&gt; : 捕获组和反向引用, 单独搜索的时候需要转义&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;符号 &lt;code&gt;(&lt;/code&gt;和&lt;code&gt;)&lt;/code&gt; 是正则表达式用来捕获匹配文本部分的特殊字符&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;[ ]&lt;/code&gt; —  字符类&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;[ ]&lt;/code&gt;: 字符类&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;实践代码如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/vscode/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -10530,7 +11021,55 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;span class=&#34;se&#34;&gt;\(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0-9&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#[a-zA-Z] / [A-Z] / [a-z] / [0123456789]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;link-&#34;&gt;LINK 🔗&lt;/h2&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 迷思&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;^(T|t)he&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; The car is parked in the garage. &lt;span class=&#34;c1&#34;&gt;# 为什么只匹配一个单词, 多句/行无法匹配.&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;(at\.)&lt;/span&gt;$&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; The fat cat. sat. on the mat.
+&lt;span class=&#34;c1&#34;&gt;# 或者说, 想是这样只匹配第一个单词的正则有什么用?&lt;/span&gt;
+
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;基本匹配
+元字符
+点运算符 .
+字符集
+2.2.1 否定字符集
+2.3 重复次数
+2.3.1 * 号
+2.3.2 + 号
+2.3.3 ? 号
+2.4 {} 号
+2.5 (...) 特征标群
+2.6 | 或运算符
+2.7 转码特殊字符
+2.8 锚点
+2.8.1 ^ 号
+2.8.2 $ 号&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;简写字符集&lt;/li&gt;
+&lt;li&gt;零宽度断言(前后预查)
+4.1 ?=... 正先行断言
+4.2 ?!... 负先行断言
+4.3 ?&amp;lt;= ... 正后发断言
+4.4 ?&amp;lt;!... 负后发断言&lt;/li&gt;
+&lt;li&gt;标志
+5.1 忽略大小写（Case Insensitive）
+5.2 全局搜索（Global search）
+5.3 多行修饰符（Multiline）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;link-&#34;&gt;LINK 🔗&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5cb87c6e6fb9a068a03af93a&#34;&gt;第一次使用VS Code时你应该知道的一切配置&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.crifan.com/books/best_editor_vscode/website/&#34;&gt;史上最好用的编辑器：VSCode&lt;/a&gt;&lt;/li&gt;

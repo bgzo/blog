@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.80.0" /><meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>Ubuntu | NOTHING BUT YOURSELF</title>
+
+    <link rel="stylesheet" href="/blog/css/meme.min.bb95973b9a92b0ff9025e26c0b1d22a6febfb850c9a14bc25ad68ad258f9c2a3.css" integrity="sha256-u5WXO5qSsP&#43;QJeJsCx0ipv6/uFDJoUvCWtaK0lj5wqM=" />
+
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js" defer></script><script src="/blog/js/meme.min.184662601838c23c1c5b800855c9ef8a508a49d61e92ce0397e8381e6567a515.js" integrity="sha256-GEZiYBg4wjwcW4AIVcnvilCKSdYeks4Dl&#43;g4HmVnpRU="></script>
+
+    
+
+    
+
+    <meta name="author" content="DandelionFs" /><meta name="description" content="[声明]: 本文实验环境为 UEFI&#43;GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.
+200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 Github - -nix
+… " />
+
+    <link rel="shortcut icon" href="/blog/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/blog/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="NOTHING BUT YOURSELF" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="NOTHING BUT YOURSELF" />
+    <meta name="msapplication-starturl" content="../../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/blog/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://dfslfh.cn/blog/posts/ubuntu/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "datePublished": "2021-01-19T18:11:54+08:00",
+        "dateModified": "2021-03-07T23:19:05+08:00",
+        "url": "https://dfslfh.cn/blog/posts/ubuntu/",
+        "headline": "Ubuntu",
+        "description": "[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.\n200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 Github - -nix\n… ",
+        "inLanguage" : "en",
+        "articleSection": "posts",
+        "wordCount":  7050 ,
+        "image": ["https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp"],
+        "author": {
+            "@type": "Person",
+            "description": "Have Fun.",
+            "email": "lfh010618@gmail.com",
+            "image": "https://s3.ax1x.com/2021/01/15/swpcqg.jpg",
+            "url": "https://dfslfh.cn/blog/",
+            "name": "DandelionFs"
+        },
+        "license": "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "NOTHING BUT YOURSELF",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "//s3.ax1x.com/2021/01/15/swpWIs.png"
+            },
+            "url": "https://dfslfh.cn/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://dfslfh.cn/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary_large_image" />
+
+
+<meta name="twitter:site" content="@https://twitter.com/lfh010618" />
+<meta name="twitter:creator" content="@https://twitter.com/lfh010618" />
+
+    
+
+
+
+<meta property="og:title" content="Ubuntu" />
+<meta property="og:description" content="[声明]: 本文实验环境为 UEFI&#43;GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.
+200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 Github - -nix
+… " />
+<meta property="og:url" content="https://dfslfh.cn/blog/posts/ubuntu/" />
+<meta property="og:site_name" content="NOTHING BUT YOURSELF" />
+<meta property="og:locale" content="en" /><meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp" />
+<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2021-01-19T18:11:54&#43;08:00" />
+    <meta property="article:modified_time" content="2021-03-07T23:19:05&#43;08:00" />
+    
+    <meta property="article:section" content="posts" />
+
+
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header" data-scroll-header>
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/blog/" class="brand">NOTHING BUT YOURSELF</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/blog/posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">POSTS</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/blog/tags/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="icon tags"><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg><span class="menu-item-name">TAGS</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/blog/about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon user-circle"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">DANDELIONFS</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                        <li class="menu-item">
+                            <a id="theme-switcher" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-light"><path d="M193.2 104.5l48.8-97.5a18 18 0 0128 0l48.8 97.5 103.4 -34.5a18 18 0 0119.8 19.8l-34.5 103.4l97.5 48.8a18 18 0 010 28l-97.5 48.8 34.5 103.4a18 18 0 01-19.8 19.8l-103.4-34.5-48.8 97.5a18 18 0 01-28 0l-48.8-97.5l-103.4 34.5a18 18 0 01-19.8-19.8l34.5-103.4-97.5-48.8a18 18 0 010-28l97.5-48.8-34.5-103.4a18 18 0 0119.8-19.8zM256 128a128 128 0 10.01 0M256 160a96 96 0 10.01 0"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-dark"><path d="M27 412a256 256 0 10154-407a11.5 11.5 0 00-5 20a201.5 201.5 0 01-134 374a11.5 11.5 0 00-15 13"/></svg></a>
+                        </li>
+                    
+                
+            
+        
+            
+                
+            
+        
+            
+                <li class="menu-item search-item">
+                        <form id="search" class="search" role="search">
+    <label for="search-input"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon search-icon"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></label>
+    <input type="search" id="search-input" class="search-input">
+</form>
+
+<template id="search-result" hidden>
+    <article class="content post">
+        <h2 class="post-title"><a class="summary-title-link"></a></h2>
+        <summary class="summary"></summary>
+        <div class="read-more-container">
+            <a class="read-more-link">Read More »</a>
+        </div>
+    </article>
+</template>
+
+                    </li>
+                
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post" data-align="justify" data-type="posts" data-toc-num="true">
+
+            <h1 class="post-title">Ubuntu</h1>
+
+            <div class="post-subtitle">All in One</div>
+            
+
+            
+                
+            
+
+            
+                
+
+<div class="post-meta">
+    
+        
+        <time datetime="2021-01-19T18:11:54&#43;08:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2021.1.19</time>
+    
+    
+        
+        <time datetime="2021-03-07T23:19:05&#43;08:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.3.7</time>
+    
+    
+    
+        
+        
+        
+            
+        
+    
+    
+        
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;7050</span>
+    
+    
+        
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;15&nbsp;mins</span>
+    
+    
+        
+            
+            <span class="post-meta-item busuanzi-page-pv" id="busuanzi_container_page_pv"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon post-meta-icon"><path d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>&nbsp;<span id="busuanzi_value_page_pv"></span></span>
+        
+    
+    
+</div>
+
+            
+
+            <nav class="contents">
+  <h2 id="contents" class="contents-title">Contents</h2><ol class="toc">
+    <li><a id="contents:install-ubuntu" href="#install-ubuntu">INSTALL UBUNTU</a></li>
+    <li><a id="contents:sys-update" href="#sys-update">SYS UPDATE</a></li>
+    <li><a id="contents:apt-manage" href="#apt-manage">APT MANAGE</a>
+      <ol>
+        <li><a id="contents:uninstall" href="#uninstall">Uninstall</a></li>
+        <li><a id="contents:clean" href="#clean">Clean</a></li>
+        <li><a id="contents:run-appimage" href="#run-appimage">Run AppImage</a></li>
+        <li><a id="contents:binary-file" href="#binary-file">BINARY FILE</a></li>
+        <li><a id="contents:knowledge-for-apt--apt-get" href="#knowledge-for-apt--apt-get">Knowledge For APT &amp; APT-GET</a></li>
+        <li><a id="contents:deb-managesup4j45j5sup" href="#deb-managesup4j45j5sup">Deb Manage<sup><a id="contents:j4" href="#j4">4</a><a id="contents:j5" href="#j5">5</a></sup></a></li>
+      </ol>
+    </li>
+    <li><a id="contents:shortcut" href="#shortcut">SHORTCUT</a>
+      <ol>
+        <li><a id="contents:desktop-shortcut" href="#desktop-shortcut">Desktop Shortcut</a></li>
+        <li><a id="contents:terminal-shortcut" href="#terminal-shortcut">Terminal Shortcut</a></li>
+        <li><a id="contents:gedit-shortcut" href="#gedit-shortcut">Gedit Shortcut</a></li>
+      </ol>
+    </li>
+    <li><a id="contents:bugs" href="#bugs">BUGS</a>
+      <ol>
+        <li><a id="contents:boot-无法进去系统花屏" href="#boot-无法进去系统花屏">Boot 无法进去系统(花屏)</a></li>
+        <li><a id="contents:n卡驱动" href="#n卡驱动">N卡驱动</a></li>
+        <li><a id="contents:touchpad" href="#touchpad">Touchpad</a></li>
+        <li><a id="contents:亮度异常" href="#亮度异常">亮度异常</a></li>
+        <li><a id="contents:语言设置" href="#语言设置">语言设置</a></li>
+        <li><a id="contents:dpkg错误-另外一个进程已经为-dpkg-状态数据库-加锁" href="#dpkg错误-另外一个进程已经为-dpkg-状态数据库-加锁">dpkg:错误: 另外一个进程已经为 dpkg 状态数据库 加锁</a></li>
+        <li><a id="contents:安装deb-包缺少以来关系-仍未被处理的时候" href="#安装deb-包缺少以来关系-仍未被处理的时候">安装deb 包缺少以来关系, 仍未被处理的时候</a></li>
+        <li><a id="contents:ubuntu-1804无法从fwupd下载固件" href="#ubuntu-1804无法从fwupd下载固件">ubuntu 18.04无法从fwupd下载固件</a></li>
+        <li><a id="contents:双系统的时间不统一" href="#双系统的时间不统一">双系统的时间不统一</a></li>
+        <li><a id="contents:initramfs-tools报错" href="#initramfs-tools报错">initramfs-tools报错</a></li>
+        <li><a id="contents:更换介质-请把标有" href="#更换介质-请把标有">更换介质: 请把标有……</a></li>
+        <li><a id="contents:ubuntu支持exfat方法" href="#ubuntu支持exfat方法">ubuntu支持<code>exfat</code>方法</a></li>
+        <li><a id="contents:ubuntu的在线账户" href="#ubuntu的在线账户">Ubuntu的在线账户</a></li>
+        <li><a id="contents:snap错误has-install-snap-change-in-progress" href="#snap错误has-install-snap-change-in-progress">snap错误has install-snap change in progress</a></li>
+        <li><a id="contents:ubuntu-永久挂载win10磁盘" href="#ubuntu-永久挂载win10磁盘">Ubuntu 永久挂载Win10磁盘</a></li>
+        <li><a id="contents:grub-wifi" href="#grub-wifi">Grub Wifi</a></li>
+        <li><a id="contents:root模式-部分命令找不到" href="#root模式-部分命令找不到">Root模式 部分命令找不到</a></li>
+        <li><a id="contents:没有批量操作的压缩命令" href="#没有批量操作的压缩命令">没有批量操作的压缩命令</a></li>
+        <li><a id="contents:ubuntu-utf-8-和-win-gbk-的转化" href="#ubuntu-utf-8-和-win-gbk-的转化">Ubuntu Utf-8 和 Win GBK 的转化</a></li>
+        <li><a id="contents:binbashm-bad-interpreter-no-such-file-or-directory" href="#binbashm-bad-interpreter-no-such-file-or-directory">/bin/bash^M: bad interpreter: No such file or directory</a></li>
+        <li><a id="contents:hang-up-bug" href="#hang-up-bug">Hang Up Bug</a>
+          <ol>
+            <li><a id="contents:挂起后花屏" href="#挂起后花屏">挂起后花屏？</a></li>
+            <li><a id="contents:伪输出undo" href="#伪输出undo">伪输出[Undo]</a></li>
+          </ol>
+        </li>
+        <li><a id="contents:输出文件中带有-口3442m-口00m等乱码字符" href="#输出文件中带有-口3442m-口00m等乱码字符">输出文件中带有<code> 口[34;42m</code> <code>口[00m</code>等乱码字符</a></li>
+        <li><a id="contents:su提示认证失败" href="#su提示认证失败">su提示认证失败</a></li>
+        <li><a id="contents:扩展触摸屏触控错位" href="#扩展触摸屏触控错位">扩展触摸屏触控错位</a></li>
+        <li><a id="contents:libinput" href="#libinput">libinput</a></li>
+        <li><a id="contents:linux-下蓝牙鼠标连接几秒后自动断开" href="#linux-下蓝牙鼠标连接几秒后自动断开">Linux 下蓝牙鼠标连接几秒后自动断开</a></li>
+      </ol>
+    </li>
+    <li><a id="contents:beautify" href="#beautify">BEAUTIFY</a></li>
+    <li><a id="contents:desktop-iconsup3j3sup" href="#desktop-iconsup3j3sup">DESKTOP ICON<sup><a id="contents:j3" href="#j3">3</a></sup></a></li>
+    <li><a id="contents:auto-run" href="#auto-run">AUTO RUN</a>
+      <ol>
+        <li><a id="contents:指定运行级别" href="#指定运行级别">指定运行级别</a></li>
+      </ol>
+    </li>
+    <li><a id="contents:uninstall-ubuntu" href="#uninstall-ubuntu">UNINSTALL UBUNTU</a></li>
+    <li><a id="contents:link" href="#link">LINK</a>
+      <ol>
+        <li><a id="contents:site" href="#site">Site</a></li>
+        <li><a id="contents:tools" href="#tools">Tools</a></li>
+        <li><a id="contents:guidences" href="#guidences">Guidences</a></li>
+      </ol>
+    </li>
+    <li><a id="contents:reference" href="#reference">REFERENCE</a></li>
+  </ol>
+</nav><div class="post-body">
+              <p><strong>[声明]</strong>: <strong>本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.</strong></p>
+<p>200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 <a href="//github.com/dandelionfs/-nix">Github - -nix</a></p>
+<p><del>多说一句: 在用完 Win10 后有感, <strong>在没有深入了解意见科技产品前, 永远不要过分相信他带来的便利</strong>, 你的电脑, 在你真正摸清楚他的操作原理和操作逻辑之前, 不要过分依赖他, 在他面前, 你可能就是赤裸的, 而我所真正担心的是我没有足够的时间和精力去见证世间的一切, 害怕的是自己不能静下心来慢慢的学习起来, 对那些Fast Learner肃然起敬, 但同时我始终都不了解真正的自己, 永远在以伤害自己的方式来逼迫自己努力, 而不是全身心的投入到自己的学习生涯中, 这又是多么的可悲……</del></p>
+<h2 id="install-ubuntu"><a href="#install-ubuntu" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:install-ubuntu" class="headings">INSTALL UBUNTU</a></h2>
+<p>下载官方的镜像 (国内有大量的开源镜像网站) , 然后用 <code>Ultralso</code> 烧录到一个<strong>8G</strong> (4G) 大小的U盘. 重启电脑到 <strong>BIOS</strong> 中将 BOOT 里的 <code>BOOT Security</code> 关掉 (HP: F10), 重启进入系统<strong>UEFI</strong>的U盘启动的模式 (HP: F11), 之后进入U盘的 Ubuntu里面体验一下.准备安装.</p>
+<p>不要直接安装. 需要<strong>换源</strong>, 去找系统的安装源list文件, 在<code>/etc/apt/sources.list</code>里, 用管理员的权限修改下载源地址 (提前查到自己对应版本的源地址) .</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup <span class="c1">#backup your old sourse </span>
+sudo gedit /etc/apt/sources.list <span class="c1"># open sources.list </span>
+sudo apt update
+</code></pre></td></tr></table></div>
+</div>
+</div><p><strong>国内换源</strong>:</p>
+<ul>
+<li>高校镜像源有:
+<ul>
+<li><a href="https://mirrors.tuna.tsinghua.edu.cn">Tinghua Mirror / 清华大学</a></li>
+<li><a href="https://mirrors.ustc.edu.cn">USTC  Mirror / 中国科学技术大学</a></li>
+<li><a href="https://ftp.sjtu.edu.cn">SJTU Mirror / 上海交通大学</a></li>
+<li><a href="https://mirrors.shu.edu.cn">SHU Mirror / 上海大学</a></li>
+</ul>
+</li>
+<li>企业镜像源:
+<ul>
+<li><a href="http://mirrors.aliyun.com">Alibaba Mirror / 阿里</a></li>
+<li><a href="http://mirrors.163.com">Netease Mirror / 网易</a></li>
+<li><a href="https://mirrors.huaweicloud.com">Huawei Mirrors / 华为</a></li>
+<li><a href="https://mirrors.cloud.tencent.com">Tencent Mirror / 腾讯</a></li>
+<li><a href="https://mirrors.yun-idc.com">Yun-Idc / 首都在线</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>国外换源</strong>:<sup><a href="#j6">6</a></sup></p>
+<ul>
+<li>高校开源镜像站：
+<ul>
+<li><a href="https://ftp.cuhk.edu.hk">The Chinese University of Hong Kong</a></li>
+<li><a href="https://ftp.yzu.edu.tw">元智大學</a></li>
+<li><a href="https://mirrors.mit.edu">Massachusetts Institute of Technology</a></li>
+</ul>
+</li>
+<li>云服务商开源镜像站：
+<ul>
+<li><a href="https://mirrors.digitalocean.com">Digital Ocean</a></li>
+<li><a href="https://mirrors.linode.com">Linode</a></li>
+<li><a href="https://mirrors.cat.net">Cat Networks</a></li>
+</ul>
+</li>
+<li>公益开源镜像站：
+<ul>
+<li><a href="https://mirrors.kernel.org">Kernel ORG</a></li>
+<li><a href="https://mirror.yandex.ru">Yandex</a></li>
+</ul>
+</li>
+</ul>
+<p>分盘的时候还请参考最下面的地址, 但是值得注意一下<code>boot</code>不要太小气, 就我的话, 我给他2G有点多了, 1G刚刚好, 主分区32G, 交换空间8G( 貌似和Win10虚存类似, 太大也不必), 家目录 60G, 共100G, 分区也仅供参考.</p>
+<p>更详细的可以参考更详细的教程: <a href="https://zhuanlan.zhihu.com/p/27187622">Ubuntu 换源, 安装&amp;卸载软件</a>.</p>
+<h2 id="sys-update"><a href="#sys-update" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:sys-update" class="headings">SYS UPDATE</a></h2>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo update-manager -c -d
+</code></pre></td></tr></table></div>
+</div>
+</div><h2 id="apt-manage"><a href="#apt-manage" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:apt-manage" class="headings">APT MANAGE</a></h2>
+<p>一般来说, 安装命令有:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install tree -y <span class="c1"># 使用apt安装软件,譬如安装tree,这里的 -y 参数是为了在安装的时候默认选择yes</span>
+sudo dpkg -i xxx.deb <span class="c1"># deb包安装</span>
+sudo apt install gdebi
+sudo gdebi netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
+sudo apt install -f <span class="c1">#安装依赖 (如果提示需要的话)</span>
+sudo apt install ./xxxx.deb  <span class="c1">#另一种deb包安装方式</span>
+<span class="c1">#安装filename.tar.gz软件,然后在解压目录或者bin文件夹中执行setup.sh文件</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p><strong>源码安装</strong>: 有些软件没有被收录进软件镜像源, 或者说开发者需要去使用他们最新的版本, 这时候就要自己去他们的官网或者是代码托管平台下载最新的Linux源码, 自己来build. 这种方式安装需要解决很多的依赖, 安装前多Google. 此处还是以tree为例:</p>
+<ul>
+<li>先下载最新的源码包</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">  tar zxf tree-1.7.0.tgz <span class="c1">#解压</span>
+  <span class="nb">cd</span>  tree-1.7.0/
+  
+  sudo make <span class="c1"># make and install</span>
+  sudo make instal l# 如果没有配置环境, 先用apt安装build-essential
+</code></pre></td></tr></table></div>
+</div>
+</div><ul>
+<li><a href="https://qastack.cn/server/250224/how-do-i-get-apt-to-ignore-some-dependencies">忽略某些依赖安装(Wechat Failure)</a></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Check Depend</span>
+dpkg --info XXX.deb <span class="p">|</span> grep Depends
+<span class="c1"># Apt-get</span>
+sudo apt install XXX.deb-
+<span class="c1"># dpkg</span>
+sudo dpkg -i --ignore-depends<span class="o">=</span>&lt;---&gt;  XXX.deb
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="uninstall"><a href="#uninstall" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:uninstall" class="headings">Uninstall</a></h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt remove --purge XXX
+sudo apt autoremove --purge XXX
+
+dpkg --get-selections <span class="p">|</span> grep XXX
+sudo apt purge XXX  <span class="c1">#一个带core的package, 如果没有带core的package, 则是情况而定. </span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="clean"><a href="#clean" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:clean" class="headings">Clean</a></h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt autoclean <span class="c1"># 只删除过时的软件包, 例如最近更新所取代的软件包, 就完全不需要它们. </span>
+sudo apt autoremove
+
+dpkg -l <span class="p">|</span>grep ^rc<span class="p">|</span>awk <span class="s1">&#39;{print $2}&#39;</span> <span class="p">|</span>sudo xargs dpkg -P 
+
+<span class="c1"># 清理日志问题.</span>
+sudo <span class="nb">echo</span> &gt; /var/log/syslog
+sudo <span class="nb">echo</span> &gt; /var/log/kern.log
+</code></pre></td></tr></table></div>
+</div>
+</div><p>如果出现zsh/bash权限不足的情况, 使用<code>sudo -i</code>临时切换到<code>Root</code>用户的模式下进行操作. 操作完<code>exit</code>退出即可.</p>
+<p><strong>清理SNAP</strong></p>
+<p>执行脚本:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/bash
+</span><span class="cp"></span><span class="c1"># Removes old revisions of snaps</span>
+<span class="c1"># CLOSE ALL SNAPS BEFORE RUNNING THIS</span>
+<span class="nb">set</span> -eu
+snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{print $1, $3}&#39;</span> <span class="p">|</span>
+    <span class="k">while</span> <span class="nb">read</span> snapname revision<span class="p">;</span> <span class="k">do</span>
+        snap remove <span class="s2">&#34;</span><span class="nv">$snapname</span><span class="s2">&#34;</span> --revision<span class="o">=</span><span class="s2">&#34;</span><span class="nv">$revision</span><span class="s2">&#34;</span>
+    <span class="k">done</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="run-appimage"><a href="#run-appimage" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:run-appimage" class="headings">Run AppImage</a></h3>
+<blockquote>
+<p>AppImage 是一种把应用打包成单一文件的格式, 允许在各种不同的目标系统 (基础系统(Debian、RHEL等), 发行版(Ubuntu、Deepin等)) 上运行, 无需进一步修改.</p>
+</blockquote>
+<p>简而言之就是绿色通用版本.</p>
+<p>下载好程序的时候选择[属性]-&gt; 可执行文件. 点击即可, 一般我习惯放在 <code>/home/usrname/opt/</code>下, 也可以节省下根目录的空间内存......</p>
+<pre><code>cd /usr/share/applications
+</code></pre><p>创建一个<code>.desktop</code>文件. 然后编辑以下内容即可创建图标, 值得注意的是程序运行的图标的是包自带的, 这里定义的只能是应用菜单的.[^14][^15]</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>Desktop Entry<span class="o">]</span>
+<span class="nv">Version</span><span class="o">=</span>1.0	
+<span class="nv">Encoding</span><span class="o">=</span>UTF-8			<span class="c1"># 字符编码  </span>
+<span class="nv">Name</span><span class="o">=</span> XXX 
+<span class="nv">Comment</span><span class="o">=</span> XXX			<span class="c1"># 鼠标经上提示名称 也可国际化</span>
+<span class="nv">Exec</span><span class="o">=</span>XXX 				<span class="c1"># 菜单执行的命令或程序路径</span>
+<span class="nv">Terminal</span><span class="o">=</span><span class="nb">false</span>
+<span class="nv">Icon</span><span class="o">=</span>XXX 				<span class="c1"># 图标路径</span>
+<span class="nv">Type</span><span class="o">=</span>Application
+<span class="nv">Categories</span><span class="o">=</span>Development
+<span class="nv">StartupNotify</span><span class="o">=</span>false；	<span class="c1">#设置软件启动是不通知</span>
+<span class="nv">Hidden</span><span class="o">=</span><span class="nb">false</span>			<span class="c1">#菜单是否隐藏, 类似NoDisplay属性</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="binary-file"><a href="#binary-file" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:binary-file" class="headings">BINARY FILE</a></h3>
+<p>直接编译好的包可以<code>./x</code>运行即可, 方便的话就打包一个<code>desktop</code>文件.</p>
+<h3 id="knowledge-for-apt--apt-get"><a href="#knowledge-for-apt--apt-get" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:knowledge-for-apt--apt-get" class="headings">Knowledge For APT &amp; APT-GET</a></h3>
+<p><strong>APT</strong>的其它命令选项可以实现与使用 apt-get 时相同的操作. 虽然 apt 与 apt-get 有一些类似的命令选项, 但它并不能完全向下兼容 apt-get 命令. 也就是说, 可以用 apt 替换部分 apt-get 系列命令, 但不是全部.</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th style="text-align:center">apt 命令</th>
+<th style="text-align:center">取代的命令</th>
+<th style="text-align:center">命令的功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">apt install</td>
+<td style="text-align:center">apt-get install</td>
+<td style="text-align:center">安装软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">apt remove</td>
+<td style="text-align:center">apt-get remove</td>
+<td style="text-align:center">移除软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">apt purge</td>
+<td style="text-align:center">apt-get purge</td>
+<td style="text-align:center">移除软件包及配置文件</td>
+</tr>
+<tr>
+<td style="text-align:center">apt update</td>
+<td style="text-align:center">apt-get update</td>
+<td style="text-align:center">刷新存储库索引</td>
+</tr>
+<tr>
+<td style="text-align:center">apt upgrade</td>
+<td style="text-align:center">apt-get upgrade</td>
+<td style="text-align:center">升级所有可升级的软件包</td>
+</tr>
+<tr>
+<td style="text-align:center">apt autoremove</td>
+<td style="text-align:center">apt-get autoremove</td>
+<td style="text-align:center">自动删除不需要的包</td>
+</tr>
+<tr>
+<td style="text-align:center">apt full-upgrade</td>
+<td style="text-align:center">apt-get dist-upgrade</td>
+<td style="text-align:center">在升级软件包时自动处理依赖关系</td>
+</tr>
+<tr>
+<td style="text-align:center">apt search</td>
+<td style="text-align:center">apt-cache search</td>
+<td style="text-align:center">搜索应用程序</td>
+</tr>
+<tr>
+<td style="text-align:center">apt show</td>
+<td style="text-align:center">apt-cache show</td>
+<td style="text-align:center">显示装细节</td>
+</tr>
+</tbody>
+</table></div>
+<p>当然, apt 还有一些自己的命令:</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th style="text-align:center">新的apt命令</th>
+<th style="text-align:center">命令的功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">apt list</td>
+<td style="text-align:center">列出包含条件的包 (已安装, 可升级等)</td>
+</tr>
+<tr>
+<td style="text-align:center">apt edit-sources</td>
+<td style="text-align:center">编辑源列表</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>APT-GET</strong></p>
+<p>对于低级操作, 仍然需要 apt-get.</p>
+<h3 id="deb-managesup4j45j5sup"><a href="#deb-managesup4j45j5sup" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:deb-managesup4j45j5sup" class="headings">Deb Manage<sup><a href="#j4">4</a><a href="#j5">5</a></sup></a></h3>
+<h2 id="shortcut"><a href="#shortcut" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:shortcut" class="headings">SHORTCUT</a></h2>
+<h3 id="desktop-shortcut"><a href="#desktop-shortcut" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:desktop-shortcut" class="headings">Desktop Shortcut</a></h3>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th style="text-align:center">Operation</th>
+<th style="text-align:center">Effects</th>
+<th style="text-align:center">Operation</th>
+<th style="text-align:center">Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Alt + F1</td>
+<td style="text-align:center">聚焦到桌面左侧任务导航栏, 可按上下键进行导航</td>
+<td style="text-align:center">Alt + F2</td>
+<td style="text-align:center">运行命令</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + F4</td>
+<td style="text-align:center">关闭当前窗口</td>
+<td style="text-align:center">Alt + Tab</td>
+<td style="text-align:center">切换程序窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + 空格</td>
+<td style="text-align:center">打开窗口菜单</td>
+<td style="text-align:center">PrtSc</td>
+<td style="text-align:center">桌面截图</td>
+</tr>
+<tr>
+<td style="text-align:center">Win + A</td>
+<td style="text-align:center">搜索/浏览程序</td>
+<td style="text-align:center">Win</td>
+<td style="text-align:center">搜索/浏览程序、文件、音乐文件等</td>
+</tr>
+<tr>
+<td style="text-align:center">Win + F</td>
+<td style="text-align:center">搜索/浏览文件</td>
+<td style="text-align:center">Win + M</td>
+<td style="text-align:center">搜索/浏览音乐文件</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="terminal-shortcut"><a href="#terminal-shortcut" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:terminal-shortcut" class="headings">Terminal Shortcut</a></h3>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th style="text-align:center">Operation</th>
+<th style="text-align:center">Effects</th>
+<th style="text-align:center">Operation</th>
+<th style="text-align:center">Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + Alt + T</td>
+<td style="text-align:center">打开终端</td>
+<td style="text-align:center">Tab</td>
+<td style="text-align:center">命令或文件名自动补全</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + C</td>
+<td style="text-align:center">复制</td>
+<td style="text-align:center">Ctrl + Shift + V</td>
+<td style="text-align:center">粘贴</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + T</td>
+<td style="text-align:center">在同一个窗口新建终端标签页</td>
+<td style="text-align:center">Ctrl + Shift + W</td>
+<td style="text-align:center">关闭标签页</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + N</td>
+<td style="text-align:center">新建终端窗口</td>
+<td style="text-align:center">Ctrl + Shift + Q</td>
+<td style="text-align:center">关闭终端窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Shift + PageUp</td>
+<td style="text-align:center">标签页左移</td>
+<td style="text-align:center">Ctrl + Shift + PageDown</td>
+<td style="text-align:center">标签页右移</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + D</td>
+<td style="text-align:center">关闭标签页</td>
+<td style="text-align:center">Ctrl + C</td>
+<td style="text-align:center">终止当前任务</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + L</td>
+<td style="text-align:center">清除屏幕</td>
+<td style="text-align:center">Ctrl + P</td>
+<td style="text-align:center">显示上一条历史命令</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + N</td>
+<td style="text-align:center">显示下一条历史命令</td>
+<td style="text-align:center">Ctrl + R</td>
+<td style="text-align:center">反向搜索历史命令</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + J/M</td>
+<td style="text-align:center">回车 (同enter键功能)</td>
+<td style="text-align:center">Ctrl + A</td>
+<td style="text-align:center">光标移动到行首</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + E</td>
+<td style="text-align:center">光标移动到行尾</td>
+<td style="text-align:center">Ctrl + B</td>
+<td style="text-align:center">关闭想后移动一个位置 (backward)</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Z</td>
+<td style="text-align:center">把当前任务放到后台运行</td>
+<td style="text-align:center">Ctrl + PageUp</td>
+<td style="text-align:center">前一个终端标签页</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + PageDown</td>
+<td style="text-align:center">下一个终端标签页</td>
+<td style="text-align:center">F1</td>
+<td style="text-align:center">打开帮助指南</td>
+</tr>
+<tr>
+<td style="text-align:center">Win + W</td>
+<td style="text-align:center">展示所有窗口</td>
+<td style="text-align:center">Win + T</td>
+<td style="text-align:center">打开回收站</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Win + ↓</td>
+<td style="text-align:center">还原/最小化当前窗口</td>
+<td style="text-align:center">Ctrl + Win + D</td>
+<td style="text-align:center">最小化所有窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + &amp;</td>
+<td style="text-align:center">恢复Ctrl + H/D/W删除的内容</td>
+<td style="text-align:center">Ctrl + Win + ↑</td>
+<td style="text-align:center">最大化当前窗口</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + D</td>
+<td style="text-align:center">删除光标位置的一个字符 (delete键功能)</td>
+<td style="text-align:center">Ctrl + W</td>
+<td style="text-align:center">删除光标位置的前一个单词 (Alt + Backspace组合键功能)</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + K</td>
+<td style="text-align:center">剪切从光标位置到行末的所有字符</td>
+<td style="text-align:center">Ctrl + Y</td>
+<td style="text-align:center">粘贴Ctrl + U/Ctrl + K剪切的内容</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + U</td>
+<td style="text-align:center">剪切从行的开头到光标前一个位置的所有字符</td>
+<td style="text-align:center">Ctrl + H/*</td>
+<td style="text-align:center">删除光标位置的前一个字符 (backspace键功能)</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + ←</td>
+<td style="text-align:center">光标移动到下一个单词的词尾</td>
+<td style="text-align:center">Ctrl + →</td>
+<td style="text-align:center">光标移动到上一个单词的词首</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + H</td>
+<td style="text-align:center">打开“帮助”菜单 (help)</td>
+<td style="text-align:center">Ctrl + T</td>
+<td style="text-align:center">将光标位置的字符和前一个字符进行位置交换</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + V</td>
+<td style="text-align:center">打开“查看“菜单 (view)</td>
+<td style="text-align:center">Alt + T</td>
+<td style="text-align:center">打开“终端”菜单 (terminal)</td>
+</tr>
+<tr>
+<td style="text-align:center">Alt + E</td>
+<td style="text-align:center">打开“编辑”菜单 (edit)</td>
+<td style="text-align:center">Alt + S</td>
+<td style="text-align:center">打开“搜索”菜单 (search)</td>
+</tr>
+<tr>
+<td style="text-align:center">F11</td>
+<td style="text-align:center">全屏切换</td>
+<td style="text-align:center">Alt + F</td>
+<td style="text-align:center">打开“文件”菜单 (file)</td>
+</tr>
+</tbody>
+</table></div>
+<p>补充:</p>
+<p>2次连续Tab/4次连续Esc/2次连续Ctrl + I|将显示所有命令和工具名称</p>
+<h3 id="gedit-shortcut"><a href="#gedit-shortcut" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:gedit-shortcut" class="headings">Gedit Shortcut</a></h3>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th style="text-align:center">Operation</th>
+<th style="text-align:center">Effects</th>
+<th style="text-align:center">Operation</th>
+<th style="text-align:center">Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ctrl + N</td>
+<td style="text-align:center">新建文档</td>
+<td style="text-align:center">Ctrl + W</td>
+<td style="text-align:center">关闭文档</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + S</td>
+<td style="text-align:center">保存文档</td>
+<td style="text-align:center">Ctrl + Shift + S</td>
+<td style="text-align:center">另存为</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + F</td>
+<td style="text-align:center">搜索</td>
+<td style="text-align:center">Ctrl + H</td>
+<td style="text-align:center">搜索并替换</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + I</td>
+<td style="text-align:center">跳到某一行</td>
+<td style="text-align:center">Ctrl + C</td>
+<td style="text-align:center">复制</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + V</td>
+<td style="text-align:center">粘贴</td>
+<td style="text-align:center">Ctrl + X</td>
+<td style="text-align:center">剪切</td>
+</tr>
+<tr>
+<td style="text-align:center">Ctrl + Q</td>
+<td style="text-align:center">退出</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table></div>
+<p>使用 <code>ctrl + ;</code> (此为 fcitx 自带剪贴板插件)  : 查看粘贴板的内容, 此时显示的就不只有一条内容, 一般而言是最近的五次复制的内容. 使用数字键进行选择.</p>
+<h2 id="bugs"><a href="#bugs" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:bugs" class="headings">BUGS</a></h2>
+<p><img src="https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp" alt=""></p>
+<h3 id="boot-无法进去系统花屏"><a href="#boot-无法进去系统花屏" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:boot-无法进去系统花屏" class="headings">Boot 无法进去系统(花屏)</a></h3>
+<p>由于 Ubuntu(Linux) 并不是内置N卡驱动, 所以如果有 N卡独显 笔记本会发生在 Ufi模式 下启动U盘进入系统的时候卡死. 应该先用 <code>e</code> 进去 Boot 设置, 在末尾 quiet splash 的后面先空一格再加上<code>acpi_osi=linux nomodeset</code>, F10保存退出,</p>
+<p>[Tip] : 如果quiet splash后面发现有- - -这串符号, 直接删了就是, 只要保证上述添加的参数在splash后面即可</p>
+<h3 id="n卡驱动"><a href="#n卡驱动" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:n卡驱动" class="headings">N卡驱动</a></h3>
+<p>进去之后要换aliyun的源, 进去发现分辨率是锁死的(反正不是1080P), <del>是Ubuntu自带的显卡驱动背的锅</del>(好像Ubuntu20.04LTS 已经自带 N卡 驱动了......), 更新N卡驱动:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo ubuntu-drivers autoinstall <span class="c1"># 自动安装</span>
+
+sudo gedit /etc/modprobe.d/blacklist.conf <span class="c1"># 黑名单</span>
+blacklist vga16fb <span class="c1"># for nvidia display device install</span>
+blacklist nouveau
+blacklist rivafb
+blacklist rivatv
+blacklist nvidiafb
+
+sudo update-initramfs -u <span class="o">&amp;&amp;</span>  reboot <span class="c1"># 刷新重启</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="touchpad"><a href="#touchpad" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:touchpad" class="headings">Touchpad</a></h3>
+<p>下面是一段脚本<sup><a href="#j1">1</a></sup>, 保存<code>sh</code>文件后运行.</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
+</span><span class="cp"></span><span class="c1">#</span>
+<span class="c1"># Gestures install </span>
+<span class="c1"># version 1.3</span>
+<span class="c1"># </span>
+<span class="c1"># by The Fan Club 2020</span>
+<span class="c1">#</span>
+<span class="c1"># NOTE: run as sudo</span>
+<span class="c1">#</span>
+<span class="c1">#</span>
+<span class="c1"># Remove if selected </span>
+<span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">=</span> <span class="s2">&#34;--remove&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> 
+	<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures uninstall started...&#34;</span>
+	python3 -m pip uninstall gestures
+	rm /usr/local/bin/gestures
+	rm /usr/share/applications/org.cunidev.gestures.desktop
+	rm /usr/share/metainfo/org.cunidev.gestures.appdata.xml
+	rm /usr/share/icons/hicolor/scalable/apps/org.cunidev.gestures.svg
+	<span class="c1"># remove libinput-gestures</span>
+	su <span class="nv">$SUDO_USER</span> libinput-gestures-setup stop
+	su <span class="nv">$SUDO_USER</span> libinput-gestures-setup autostop
+	libinput-gestures-setup uninstall	
+	<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures removal complete.&#34;</span>
+	<span class="nb">exit</span> 
+<span class="k">fi</span>
+<span class="c1">#</span>
+<span class="c1"># Install libinput-gestures - https://github.com/bulletmark/libinput-gestures</span>
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures install started...&#34;</span>
+<span class="c1">#</span>
+<span class="c1"># Add user to input group</span>
+gpasswd -a <span class="nv">$SUDO_USER</span> input
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] </span><span class="nv">$SUDO_USER</span><span class="s2"> added to input user group&#34;</span>
+<span class="c1"># Install prerequisites</span>
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Install all depedencies&#34;</span>
+apt-get install xdotool wmctrl libinput-tools python3 python3-setuptools python3-gi python-gobject python3-pip build-essential git 
+<span class="c1"># Install/Update</span>
+<span class="k">if</span> <span class="o">[</span> -d libinput-gestures <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+	rm -r libinput-gestures 
+<span class="k">fi</span>
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Downloading libinput-gestures from GitHub...&#34;</span>
+git clone https://github.com/bulletmark/libinput-gestures.git
+<span class="nb">cd</span> libinput-gestures
+make install
+<span class="nb">cd</span> ..
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] libinput-gestures installed&#34;</span>
+<span class="c1">#</span>
+<span class="c1"># Install Gestures - https://gitlab.com/cunidev/gestures</span>
+<span class="c1">#</span>
+<span class="c1"># Install </span>
+<span class="k">if</span> <span class="o">[</span> -d gestures <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+	rm -r gestures 
+<span class="k">fi</span>
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Downloading Gestures from GitLab...&#34;</span>
+git clone https://gitlab.com/cunidev/gestures
+<span class="nb">cd</span> gestures
+python3 setup.py install
+<span class="c1"># Cleanup</span>
+<span class="nb">cd</span> ..
+rm -r gestures 
+rm -r libinput-gestures 
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures installation complete&#34;</span>
+<span class="c1"># Autostart libinput-gestures at boot and start now for current user</span>
+su <span class="nv">$SUDO_USER</span> libinput-gestures-setup stop
+su <span class="nv">$SUDO_USER</span> libinput-gestures-setup autostart
+su <span class="nv">$SUDO_USER</span> libinput-gestures-setup start
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] libinput-gestures started for </span><span class="nv">$SUDO_USER</span><span class="s2">&#34;</span>
+<span class="c1"># Autostart Gestures </span>
+cp /usr/share/applications/org.cunidev.gestures.desktop /home/<span class="nv">$SUDO_USER</span>/.config/autostart/
+sed -i <span class="s1">&#39;s/=gestures/=gestures\&amp;/g&#39;</span> /home/<span class="nv">$SUDO_USER</span>/.config/autostart/org.cunidev.gestures.desktop
+chown <span class="nv">$SUDO_USER</span>:<span class="nv">$SUDO_USER</span> /home/<span class="nv">$SUDO_USER</span>/.config/autostart/org.cunidev.gestures.desktop
+<span class="nb">echo</span>
+<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Reboot to complete the installation&#34;</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p>解决无法支持三指和四指的遗憾.</p>
+<h3 id="亮度异常"><a href="#亮度异常" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:亮度异常" class="headings">亮度异常</a></h3>
+<p>安装完成之后发现亮度是不可以调节 :</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># edit by nano, choose one between vim and nano. </span>
+<span class="c1"># 按 Ctrl+O 保存、按 Ctrl+X 退出编辑</span>
+sudo nano /etc/default/grub
+
+<span class="c1"># edit by vim/vi</span>
+sudo apt
+sudo vim /etc/default/grub
+</code></pre></td></tr></table></div>
+</div>
+</div><p>将<code> GRUB_CMDLINE_LINEX_DEFAULT</code>那一行改成:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">GRUB_CMDLINE_LINUX_DEFAULT</span><span class="o">=</span><span class="s2">&#34;quiet splash acpi_backlight=vendor acpi_osi=Linux&#34;</span>
+<span class="c1"># 更新后重启 (重启可能时间比较长)</span>
+sudo update-grub <span class="o">&amp;&amp;</span> reboot
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="语言设置"><a href="#语言设置" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:语言设置" class="headings">语言设置</a></h3>
+<p>一个小小的建议: 语言设置这是用拖动的 [笑] .</p>
+<h3 id="dpkg错误-另外一个进程已经为-dpkg-状态数据库-加锁"><a href="#dpkg错误-另外一个进程已经为-dpkg-状态数据库-加锁" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:dpkg错误-另外一个进程已经为-dpkg-状态数据库-加锁" class="headings">dpkg:错误: 另外一个进程已经为 dpkg 状态数据库 加锁</a></h3>
+<p>可能是开机自动更新会占用一会儿这个进程, 要么PS kill 他, 要么等一会就可以.</p>
+<h3 id="安装deb-包缺少以来关系-仍未被处理的时候"><a href="#安装deb-包缺少以来关系-仍未被处理的时候" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:安装deb-包缺少以来关系-仍未被处理的时候" class="headings">安装deb 包缺少以来关系, 仍未被处理的时候</a></h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install -f
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="ubuntu-1804无法从fwupd下载固件"><a href="#ubuntu-1804无法从fwupd下载固件" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:ubuntu-1804无法从fwupd下载固件" class="headings">ubuntu 18.04无法从fwupd下载固件</a></h3>
+<blockquote>
+<p>通常是更新BIOS、更新网卡之类的需要fwupd. Android手机的bootloader就相当于电脑BIOS, 所以Android更容易刷成砖. 电脑重装系统是不会碰BIOS的, 所以特殊情况才会成砖.</p>
+</blockquote>
+<h3 id="双系统的时间不统一"><a href="#双系统的时间不统一" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:双系统的时间不统一" class="headings">双系统的时间不统一</a></h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1">#这个是Bios里面的 Boot Secury 的问题, 但是关闭之后在进入Ubuntu后又会出现一系列问题.</span>
+sudo hwclock -w --localtime
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="initramfs-tools报错"><a href="#initramfs-tools报错" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:initramfs-tools报错" class="headings">initramfs-tools报错</a></h3>
+<p>当初分盘的时候太小气, 看见别人<code>/boot</code>分区给了200M, 但是太小了, 以后给大点就不会有这问题了. 解决方法是删掉多余的内核. dpkg命令是Debian Linux系统用来安装、创建和管理软件包的实用工具. 查看自己的linux内核和正使用的内核, 然后选择性删除.</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo dpkg --get-selections <span class="p">|</span>grep linux-image
+sudo uname -a
+sudo apt purge 内核名称
+</code></pre></td></tr></table></div>
+</div>
+</div><p>然后清理/usr/src目录,删除你已经卸载的内核目录</p>
+<p>内核版本显示为**install, 表示系统已经安装了相应的内核, 使用purge命令删除相应的内核. **</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt purge linux-image-4.4.0-130-generic
+</code></pre></td></tr></table></div>
+</div>
+</div><p><strong>deinstall</strong>, 表示系统没有安装此内核, 但是在配置文件中还残留它的信息, 也有可能是以前卸载的时候不彻底.  正常情况下, 就已经清理完成辣. 输入<code>df</code>查看/boot的已用百分比.</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"> sudo dpkg -P linux-image-extra-4.4.0-128-generic
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="更换介质-请把标有"><a href="#更换介质-请把标有" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:更换介质-请把标有" class="headings">更换介质: 请把标有……</a></h3>
+<blockquote>
+<p>“更换介质: 请把标有…… DVD 的盘片插入驱动器“/media/cdrom/”再按回车键,</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 修改`/etc/apt/sources.list`文件, 注释掉`deb cdrom:`开头的一行 (第一行) </span>
+<span class="nb">cd</span> ~
+vim /etc/apt/sources.list
+apt update
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="ubuntu支持exfat方法"><a href="#ubuntu支持exfat方法" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:ubuntu支持exfat方法" class="headings">ubuntu支持<code>exfat</code>方法</a></h3>
+<blockquote>
+<p>推荐u盘使用exfat格式, 为什么呢？两个原因:
+1、三大主流操作系统 (Linux、Mac、Windows) 都支持exfat格式.
+2、exfat支持大于4G的文件.</p>
+</blockquote>
+<p>在ubuntu下, 由于版权的原因 (据说) , 默认不支持exfat格式的u盘, 对于ubuntu 14.04以上版本, 直接运行下面的命令就可以了:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install exfat-utils
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="ubuntu的在线账户"><a href="#ubuntu的在线账户" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:ubuntu的在线账户" class="headings">Ubuntu的在线账户</a></h3>
+<p>及时获取Ubuntu社区的更新.</p>
+<h3 id="snap错误has-install-snap-change-in-progress"><a href="#snap错误has-install-snap-change-in-progress" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:snap错误has-install-snap-change-in-progress" class="headings">snap错误has install-snap change in progress</a></h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">snap changes <span class="c1"># 获取任务Id</span>
+sudo snap abort <span class="m">14</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="ubuntu-永久挂载win10磁盘"><a href="#ubuntu-永久挂载win10磁盘" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:ubuntu-永久挂载win10磁盘" class="headings">Ubuntu 永久挂载Win10磁盘</a></h3>
+<p>实际挂载前, D盘为 <code>/dev/XX</code>, E盘为 <code>/dev/XXX</code> (<strong>注意！这里 sd 后面的不一定和 Windows 一样, 图里 Windows 和 Ubuntu 同处于 SSD 上, 而 D 和 E 盘均位于 HDD 上, 所以从 <code>a</code> 变成了 <code>b</code></strong>)</p>
+<blockquote>
+<p>**接下来, 我们假设你要挂载的分区地址为 <code>/dev/XX</code> (原 Windows 中的非系统文件目录, 即通常意义上的 Windows 分区) , 要挂载到地址为 <code>/mnt/windows/d</code> (Ubuntu 中的非系统文件目录, 即 Linux 中的一个目录) **
+你当然可以 (而且必须) 根据你的实际情况修改分区地址</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo mkdir /mnt/windows/d# 然后关闭 WIndows 的**快速启动**, 临时挂载, 重启失效, 适用于偶尔需要一次的: 
+sudo mount /dev/XX  /mnt/windows/d
+</code></pre></td></tr></table></div>
+</div>
+</div><p>在执行完成后, 访问你的 <code>/mnt/windows/d</code> 应该就能看到原盘符中的文件了, 没有文件显示请重启电脑查看第二种方式——永久挂载.</p>
+<p>我们需要修改系统文件 <code>/etc/fstab</code>, 在此之前, 我们需要先获得 <code>/dev/XX</code> 的 <code>UUID</code>, 执行指令:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo blkid /dev/XX
+sudo apt install vim
+sudo vim /etc/fstab
+<span class="c1">#插入形如 UUID=XXXXXXXXXX   /mnt/windows/d   ntfs  defaults   0   2的字段; 其中第一列为UUID, 第二列为挂载目录 (该目录必须为空目录) , 第三列为文件系统类型, 第四列为参数, 第五列0表示不备份, 最后一列必须为２或0(除非引导分区为1), 如果你是grub引导的话, 你会注意到boot分区是1.</span>
+sudo mount -a#检查一下, 发现还是报错, The disk contains an unclean file system, 执行下面: 
+sudo apt install ntfs-3g
+sudo ntfsfix /dev/XX
+sudo mount -a#再检查一下, 发现全是OK, 哈哈
+</code></pre></td></tr></table></div>
+</div>
+</div><p>上面流程走一遍发现该目录下没有文件, 可以右键属性检查一下, 如果确实存在, 那么重启电脑就OK了, 我只挂载了我win的数据盘, 系统盘还是不要动的好……</p>
+<h3 id="grub-wifi"><a href="#grub-wifi" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:grub-wifi" class="headings">Grub Wifi</a></h3>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">909778<span class="o">]</span> iwlwifi 0000: 00: 14.3: BIOS contains HGDS but no HRDS
+</code></pre></td></tr></table></div>
+</div>
+</div><p>暂时无解, 不影响使用...</p>
+<h3 id="root模式-部分命令找不到"><a href="#root模式-部分命令找不到" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:root模式-部分命令找不到" class="headings">Root模式 部分命令找不到</a></h3>
+<p>因为系统变量和用户变量不一样, 所以需要将用户变量配置到系统变量里.</p>
+<h3 id="没有批量操作的压缩命令"><a href="#没有批量操作的压缩命令" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:没有批量操作的压缩命令" class="headings">没有批量操作的压缩命令</a></h3>
+<ul>
+<li>写 Shell/Python 脚本</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">    <span class="k">for</span> i in <span class="o">(</span>fileName<span class="o">)</span>
+    <span class="k">do</span>
+    xxx -x <span class="nv">$i</span>
+    <span class="k">done</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><ul>
+<li>使用gnome的右键压缩指令.</li>
+<li>Other</li>
+</ul>
+<h3 id="ubuntu-utf-8-和-win-gbk-的转化"><a href="#ubuntu-utf-8-和-win-gbk-的转化" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:ubuntu-utf-8-和-win-gbk-的转化" class="headings">Ubuntu Utf-8 和 Win GBK 的转化</a></h3>
+<ul>
+<li>使用<code>unar</code>命令: <code>unar (-o (GBK)) xx.zip</code></li>
+<li>Other</li>
+</ul>
+<h3 id="binbashm-bad-interpreter-no-such-file-or-directory"><a href="#binbashm-bad-interpreter-no-such-file-or-directory" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:binbashm-bad-interpreter-no-such-file-or-directory" class="headings">/bin/bash^M: bad interpreter: No such file or directory</a></h3>
+<p>[Cause] : 脚本文件是DOS格式的, 即每一行的行尾以\r\n来标识</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">:set ff? <span class="c1"># 如果显示是DOS/UNIX</span>
+<span class="nb">set</span> <span class="nv">ff</span><span class="o">=</span>unix
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="hang-up-bug"><a href="#hang-up-bug" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:hang-up-bug" class="headings">Hang Up Bug</a></h3>
+<p>长时间挂起会导致显示出现问题, 我自己遇到的是 GUI页面崩溃. 可以进入tty2 输入 r 来重启 GUI页面, 但是声卡出现问题[输出显示伪输出]暂时没有什么有效的解决方法,</p>
+<h4 id="挂起后花屏"><a href="#挂起后花屏" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:挂起后花屏" class="headings">挂起后花屏？</a></h4>
+<p>挂起时间和导致的问题相关, 短时间内挂机不会产生什么作用, 但是长时间就会导致 Preface 里面的问题.</p>
+<p>挂起:Suspend To RAM(STR)</p>
+<p>休眠: Suspend To Disk(STD)</p>
+<p>一种可能是设备的驱动问题不支持挂起, 但是短时间却可以这是什么鬼???</p>
+<h4 id="伪输出undo"><a href="#伪输出undo" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:伪输出undo" class="headings">伪输出[Undo]</a></h4>
+<ul>
+<li>把你当前的用户加入audio组</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo usermod -a -G audio <span class="nv">$USER</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p>更加详细的可以参考<a href="https://zhuanlan.zhihu.com/p/122887848">这个</a></p>
+<ul>
+<li>可能是内核的问题</li>
+</ul>
+<p>暂无解决方法, TO BE CONTINUED...</p>
+<h3 id="输出文件中带有-口3442m-口00m等乱码字符"><a href="#输出文件中带有-口3442m-口00m等乱码字符" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:输出文件中带有-口3442m-口00m等乱码字符" class="headings">输出文件中带有<code> 口[34;42m</code> <code>口[00m</code>等乱码字符</a></h3>
+<p>这个是因为输入的文件带有颜色转义符号引起的, 所以想办法临时禁用颜色即可.</p>
+<h3 id="su提示认证失败"><a href="#su提示认证失败" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:su提示认证失败" class="headings">su提示认证失败</a></h3>
+<p>Ubuntu安装后, root用户默认是被锁定了的, 不允许登录, 也不允许 su 到 root , 对于桌面用户来说这个可能是为了增强安全性</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo passwd <span class="c1"># 输入安装时那个用户的密码 , 新的Root用户密码</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><h3 id="扩展触摸屏触控错位"><a href="#扩展触摸屏触控错位" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:扩展触摸屏触控错位" class="headings">扩展触摸屏触控错位</a></h3>
+<p>造成的原因是 触控的驱动进程的端口是自己的主显示器/旋转自己的显示器但是触控没有跟着旋转, 所以需要用命令让进程的端口开放给显示器 <code>HDMI接口</code> 上. 具体如下:</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">xrandr <span class="c1"># primitive command line interface to RandR extension</span>
+xinput <span class="c1"># utility to configure and test X input devices</span>
+xinput map-to-output XXX<span class="o">(</span>ID<span class="o">)</span> HDMI-0
+<span class="c1"># Restricts the movements of the absolute device to  the  RandR  crtc.  The output  name  must match a currently connected output (see xrandr(1)). If the NVIDIA binary driver is detected or RandR 1.2 or later is not  avail‐able,  a  Xinerama  output may be specified as &#34;HEAD-N&#34;, with N being the Xinerama screen number. This option has no effect on relative devices.</span>
+</code></pre></td></tr></table></div>
+</div>
+</div><p>但是关于显示器用来画画那种需要频繁切换的用户, 建议走:</p>
+<ul>
+<li><a href="https://all2h.com/post/2011/01/08/%E8%BF%99%E5%A4%A9%E6%9D%80%E7%9A%84web-qq-2-0-6">Ubuntu下触摸屏校准及自动旋转屏幕</a></li>
+<li><a href="https://blog.csdn.net/u013491946/article/details/79895853">树莓派(Linux 系统)触摸屏翻转显示以及触摸翻转</a></li>
+</ul>
+<h3 id="libinput"><a href="#libinput" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:libinput" class="headings">libinput</a></h3>
+<p>一个触控屏驱动, 更多参考:</p>
+<ul>
+<li><a href="https://wayland.freedesktop.org/libinput/doc/latest/what-is-libinput.html">What is libinput</a></li>
+</ul>
+<h3 id="linux-下蓝牙鼠标连接几秒后自动断开"><a href="#linux-下蓝牙鼠标连接几秒后自动断开" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:linux-下蓝牙鼠标连接几秒后自动断开" class="headings">Linux 下蓝牙鼠标连接几秒后自动断开</a></h3>
+<ul>
+<li><a href="https://www.v2ex.com/t/399966">https://www.v2ex.com/t/399966</a></li>
+<li><a href="https://unix.stackexchange.com/questions/91027/how-to-disable-usb-autosuspend-on-kernel-3-7-10-or-above%E3%80%82">https://unix.stackexchange.com/questions/91027/how-to-disable-usb-autosuspend-on-kernel-3-7-10-or-above%E3%80%82</a></li>
+<li><a href="https://www.it-swarm.asia/zh/usb/%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8%e7%89%b9%e5%ae%9a%e8%ae%be%e5%a4%87%e7%9a%84usbautosuspend%ef%bc%9f/959819442/">https://www.it-swarm.asia/zh/usb/%e5%a6%82%e4%bd%95%e7%a6%81%e7%94%a8%e7%89%b9%e5%ae%9a%e8%ae%be%e5%a4%87%e7%9a%84usbautosuspend%ef%bc%9f/959819442/</a></li>
+</ul>
+<h2 id="beautify"><a href="#beautify" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:beautify" class="headings">BEAUTIFY</a></h2>
+<ul>
+<li>三金刚左移(ubuntu-14+)<code>sudo apt install gnome-tweaks &amp;&amp; gnome-tweaks</code></li>
+<li><a href="https://www.gnome-look.org/">Gnome-look</a>找到需要的主题素材包
+<ul>
+<li>移动文件到 <code>~/.themes</code> 即可.</li>
+<li>亦可以用命令切换: <code>gsettings set org.gnome.desktop.interface gtk-theme &quot;XXX&quot;</code> + <code>gsettings set org.gnome.desktop.wm.preferences theme &quot;XXX&quot;</code></li>
+</ul>
+</li>
+<li>Font<sup><a href="#j2">2</a></sup>
+<ul>
+<li>通用方法粘到 <code>/usr/share/fonts</code> 后 <code>fc-cache</code> 生成字体缓存 fontconfig.</li>
+<li>双系统可以在挂载系统盘后链接到该路径, <code>ln -s /XXX(Windowsdrive)/Windows/Fonts /usr/share/fonts/WindowsFonts</code> 将字体位置链接到 Linux 系统的字体文件夹后再生成字体缓存.</li>
+</ul>
+</li>
+</ul>
+<h2 id="desktop-iconsup3j3sup"><a href="#desktop-iconsup3j3sup" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:desktop-iconsup3j3sup" class="headings">DESKTOP ICON<sup><a href="#j3">3</a></sup></a></h2>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo vim /usr/share/applications/Clash.desktop
+$ vim Clash.desktop
+＃<span class="o">[</span>Desktop Entry<span class="o">]</span> 文件头
+＃Version    版本
+＃Name    应用名称
+＃Name<span class="o">[</span>xx<span class="o">]</span>    不同语言的应用名称
+＃Comment 注释
+＃Exec    执行文件路径
+＃Icon    图标路径
+＃Terminal    是否使用终端
+＃Type    启动器类型
+＃Categories  应用的类型 <span class="o">(</span>内容相关<span class="o">)</span> 
+</code></pre></td></tr></table></div>
+</div>
+</div><h2 id="auto-run"><a href="#auto-run" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:auto-run" class="headings">AUTO RUN</a></h2>
+<h3 id="指定运行级别"><a href="#指定运行级别" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:指定运行级别" class="headings">指定运行级别</a></h3>
+<p><code>/etc/inittab</code></p>
+<ul>
+<li>0: 关机</li>
+<li>1: 单用户【找回丢失密码】</li>
+<li>2: 多用户状态没有网络服务</li>
+<li><strong>3</strong>: 多用户状态有网络服务</li>
+<li>4: 系统未使用保留给用户</li>
+<li><strong>5</strong>: 图形界面</li>
+<li>6: 系统重启</li>
+</ul>
+<p>如何找回 root 密码, 如果我们不小心, 忘记 root  密码, 怎么找回.</p>
+<ul>
+<li>思路:  进入到 单用户模式, 然后修改 root 密码. 因为进入单用户模式, root 不需要密码就可以登录.</li>
+</ul>
+<h2 id="uninstall-ubuntu"><a href="#uninstall-ubuntu" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:uninstall-ubuntu" class="headings">UNINSTALL UBUNTU</a></h2>
+<p>用的不习惯当然先卸载了, Emmmmm, 哈哈哈哈, 卸载比较简单, 大家都知道如果你按照下面的链接安装无误的话, 启动引导用的是Ubuntu自带的的 <code>GUN GRUB</code>, 如果你分盘的时候没有选择下面的启动引导设置, 那么你第一次启动的时候一定不会进入Ubuntu的系统.</p>
+<p>综上所述, 我们把 <code>GUN GRUB</code>干掉, 然后选择磁盘分区的删除卷即可, 软件的话, 用EasyUEFI, 官网下载的话需要梯子, 然后我这里如果有时间会给出下载链接, 去网上随便下载一个就好了.</p>
+<h2 id="link"><a href="#link" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:link" class="headings">LINK</a></h2>
+<ul>
+<li><a href="http://www.debian.org/">Debain</a></li>
+<li><a href="http://www.ubuntu.com/">Ubuntu</a></li>
+<li><a href="http://wiki.ubuntu.com/">Wiki_Ubuntu_En</a></li>
+<li><a href="https://juejin.cn/post/6844904149822210056">写给工程师的 Ubuntu 20.04 最佳配置指南</a></li>
+</ul>
+<h3 id="site"><a href="#site" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:site" class="headings">Site</a></h3>
+<ul>
+<li><a href="https://launchpad.net/ubuntu">ubutntu_launchpad</a></li>
+<li><a href="https://linustechtips.com">linux_forum</a></li>
+<li><a href="https://wiki.ubuntu.org.cn/%E9%A6%96%E9%A1%B5">cn-wiki ubuntu</a></li>
+<li><a href="//linux.zone/">lulinux</a></li>
+<li><a href="https://linux.cn/">linux_cn</a></li>
+<li><a href="https://www.linuxidc.com/">linux dir</a></li>
+<li><a href="https://ywnz.com/">linux ywnz</a></li>
+<li><a href="https://linuxhint.com/">linux_hint</a></li>
+<li><a href="https://www.linuxprobe.com">linux_probe</a></li>
+</ul>
+<h3 id="tools"><a href="#tools" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:tools" class="headings">Tools</a></h3>
+<ul>
+<li><a href="https://wangchujiang.com/linux-command/">Linux Command Search</a></li>
+<li><a href="http://mirrors.kernel.org/">Mirrors Linux</a></li>
+</ul>
+<h3 id="guidences"><a href="#guidences" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:guidences" class="headings">Guidences</a></h3>
+<ul>
+<li><a href="https://forum.ubuntu.org.cn/viewtopic.php?f=120&amp;t=35100&amp;sid=dedd568ab12c1f6937889c57562b7476">ubuntu常见问题指南 新手发问前必看</a></li>
+<li><a href="https://forum.ubuntu.org.cn/viewtopic.php?t=105237#p628762">ubuntu安装好之后, 怎样再重新分区？</a></li>
+<li><a href="https://blog.csdn.net/code_segment/article/details/79237500">ubuntu系统重新分区、根目录扩容</a></li>
+</ul>
+<h2 id="reference"><a href="#reference" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:reference" class="headings">REFERENCE</a></h2>
+<div id="j1">[1]. https://www.thefanclub.co.za/how-to/ubuntu-touchpad-gestures-install</div>
+<div id="j2">[2]. https://zhuanlan.zhihu.com/p/40434062</div>
+<div id = "j3">[3]. https://www.jianshu.com/p/99d3eebcf17f</div>
+<div id="j4">[4]. https://blog.csdn.net/gatieme/article/details/52829907</div>
+<div id="j5">[5]. https://blog.csdn.net/u010648555/article/details/88542150</div>
+<div id="j6">[6]. https://i-meto.com/linux-mirrors/</div>
+            </div>
+
+        </article>
+
+        
+
+        
+    
+    
+        <ul class="post-copyright">
+            <li class="copyright-item author"><span class="copyright-item-text">Author</span>: <a href="https://dfslfh.cn/blog/" target="_blank" rel="noopener">DandelionFs</a></li>
+            
+                
+                
+                
+                
+                <li class="copyright-item link"><span class="copyright-item-text">Link</span>: <a href="/blog/posts/ubuntu/" target="_blank" rel="noopener">https://dfslfh.cn/blog/posts/ubuntu/</a></li>
+            
+            <li class="copyright-item license"><span class="copyright-item-text">License</span>: <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh">CC BY-NC 4.0</a></li>
+            
+        </ul>
+    
+
+
+
+        
+
+
+        
+
+
+        <div class="post-share">
+
+        
+
+        <div class="share-items">
+
+            
+                <div class="share-item twitter">
+                    
+                    <a href="https://twitter.com/share?url=https://dfslfh.cn/blog/posts/ubuntu/&amp;text=Ubuntu&amp;hashtags=linux,&amp;via=https://twitter.com/lfh010618" title="Share on Twitter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item facebook">
+                    
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://dfslfh.cn/blog/posts/ubuntu/&amp;hashtag=%23linux" title="Share on Facebook" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                </div>
+            
+
+            
+
+            
+                <div class="share-item telegram">
+                    
+                    <a href="https://t.me/share/url?url=https://dfslfh.cn/blog/posts/ubuntu/&amp;text=Ubuntu" title="Share on Telegram" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item weibo">
+                    
+                    <a href="https://service.weibo.com/share/share.php?&amp;url=https://dfslfh.cn/blog/posts/ubuntu/&amp;title=Ubuntu&amp;pic=https://dandelionfs.oss-cn-beijing.aliyuncs.com/fix-ubuntu-bug-tieba.webp&amp;searchPic=false" title="Share on Weibo" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon weibo-icon"><path d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7-22 4.8-28.8-28.1-7.1-32.8 50.1-10.9 92.3 37.1 76.5 84.8-6.8 21.2-38.8 10.8-32-10.3zM214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6 79.5-33.6 140.5-16.8 114 51.4-3.7 9.4 1.1 10.9 8.3 13.1 135.7 42.3 34.8 215.2-169.7 215.2zm143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116zM347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3 72.3-15.2 134.8 52.8 111.7 124-7.4 24.2 29.1 37 37.4 12 31.9-99.8-55.1-195.9-157.4-174.3zm-78.5 311c-17.1 38.8-66.8 60-109.1 46.3-40.8-13.1-58-53.4-40.3-89.7 17.7-35.4 63.1-55.4 103.4-45.1 42 10.8 63.1 50.2 46 88.5zm-86.3-30c-12.9-5.4-30 .3-38 12.9-8.3 12.9-4.3 28 8.6 34 13.1 6 30.8.3 39.1-12.9 8-13.1 3.7-28.3-9.7-34zm32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4-2.9 5.1-1.4 10.6 3.7 12.9 5.1 2 11.7-.3 14.6-5.4 2.8-5.2 1.1-10.9-4-12.9z"/></svg></a>
+                </div>
+            
+
+            
+                <div class="share-item douban">
+                    
+                    <a href="https://www.douban.com/share/service?href=https://dfslfh.cn/blog/posts/ubuntu/&amp;name=Ubuntu&amp;text=[%e5%a3%b0%e6%98%8e]:%20%e6%9c%ac%e6%96%87%e5%ae%9e%e9%aa%8c%e7%8e%af%e5%a2%83%e4%b8%ba%20UEFI&#43;GPT%20%e7%9a%84%20Win10%20%e7%ac%94%e8%ae%b0%e6%9c%ac%e7%94%b5%e8%84%91,%20%e9%87%87%e7%94%a8%e7%9a%84%e5%88%86%e5%8c%ba%e6%a0%bc%e5%bc%8f%e4%b8%ba%20Ext2.%20%e6%9c%ac%e6%96%87%e4%bb%85%e4%be%9b%e5%8f%82%e8%80%83.%0a200125%e5%bc%80%e5%9d%91Ubuntu,%20%e8%a2%ab%e5%85%b6%e7%ae%80%e5%8d%95%e7%9a%84%e7%b3%bb%e7%bb%9f%e5%8d%a0%e7%94%a8%e6%89%80%e6%8a%98%e6%9c%8d,%20%e5%bc%80%e5%a7%8b%e4%bd%bf%e7%94%a8ubuntu,%20%e4%b8%80%e7%9b%b4%e5%88%b0%e7%8e%b0%e5%9c%a8.%20%e8%bf%99%e4%b8%aa%e8%ae%b0%e5%bd%95%e5%85%b6%e5%ae%9e%e6%98%af%e4%b8%80%e4%bb%a5%e8%b4%af%e4%b9%8b%e7%9a%84,%20%e4%bd%86%e9%87%8c%e9%9d%a2%e7%9a%84%e6%95%99%e7%a8%8b%e4%b8%8d%e4%bf%9d%e8%af%81%e4%b8%80%e7%9b%b4%e6%9c%89%e6%95%88,%20%e5%8a%a0%e4%b8%8a%e6%88%91%e4%b9%9f%e5%8f%aa%e8%83%bd%e9%98%b6%e6%ae%b5%e6%80%a7%e7%9a%84%e8%ae%b0%e5%bd%95%e4%b8%80%e4%b8%8b,%20%e6%9b%b4%e5%a4%9a%e5%8d%b3%e6%97%b6%e7%9a%84%e8%ae%b0%e5%bd%95%e8%af%b7%e7%9c%8b%20Github%20-%20-nix%0a%e2%80%a6%20" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
+                </div>
+            
+
+            
+
+            
+
+            
+                <div class="share-item qrcode">
+                    <div class="qrcode-container" title="Share via QR Code"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qrcode-icon"><path d="M0 224h192V32H0v192zM64 96h64v64H64V96zm192-64v192h192V32H256zm128 128h-64V96h64v64zM0 480h192V288H0v192zm64-128h64v64H64v-64zm352-64h32v128h-96v-32h-32v96h-64V288h96v32h64v-32zm0 160h32v32h-32v-32zm-64 0h32v32h-32v-32z"/></svg><div id="qrcode-img"></div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+
+<script>
+    var typeNumber = 0;
+    var errorCorrectionLevel = 'L';
+    var qr = qrcode(typeNumber, errorCorrectionLevel);
+    qr.addData('https:\/\/dfslfh.cn\/blog\/posts\/ubuntu\/');
+    qr.make();
+    document.getElementById('qrcode-img').innerHTML = qr.createImgTag();
+</script>
+
+                </div>
+            
+
+        </div>
+
+    </div>
+
+
+
+
+        
+    
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+        
+        
+    
+    
+    
+    
+        <ul class="post-nav">
+            
+                <li class="post-nav-prev">
+                    <a href="/blog/posts/photography/" rel="prev">&lt; Photography</a>
+                </li>
+            
+            
+                <li class="post-nav-next">
+                    <a href="/blog/posts/galgame/" rel="next">Galgame/ エロゲー &gt;</a>
+                </li>
+            
+        </ul>
+    
+
+
+
+        
+    
+
+        <div class="load-comments">
+            <div id="load-comments">Load Comments?</div>
+        </div>
+
+        
+            <div id="disqus_thread"></div>
+        
+
+        
+
+        
+
+    
+
+
+
+    </div>
+</main>
+
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <snap class="site-info">©&nbsp;2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;
+            </snap><snap class="socials"><a href="//dfslfh.cn/blog/rss.xml">RSS</a> </snap>
+
+            
+
+
+            
+        </div>
+    </footer>
+
+
+        </div>
+        
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speedAsDuration: true,
+        header: '[data-scroll-header]'
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+            <script>
+    function loadComments() {
+        if (typeof DISQUS === 'undefined') {
+            var disqus_config = function() {
+                this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/ubuntu\/';
+                this.page.identifier = '\/blog\/posts\/ubuntu\/';
+                this.page.title = 'Ubuntu';
+            };
+            (function() {
+                var d = document, s = d.createElement('script'); s.async = true;
+                s.src = 'https://dandelionfs.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        } else {
+            DISQUS.reset({
+                reload: true,
+                config: function() {
+                    this.page.url = 'https:\/\/dfslfh.cn\/blog\/posts\/ubuntu\/';
+                    this.page.identifier = '\/blog\/posts\/ubuntu\/';
+                    this.page.title = 'Ubuntu';
+                }
+            });
+        }
+    }
+</script>
+
+        
+
+        
+
+        
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    mediumZoom(document.querySelectorAll('div.post-body img'), {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+
+    
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+
+
+
+    </body>
+</html>
