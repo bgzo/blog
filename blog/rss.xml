@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 10 Mar 2021 22:46:03 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 11 Mar 2021 22:22:45 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
@@ -10637,13 +10637,39 @@ $ vim index.html
 &lt;p&gt;实践代码如下&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/vscode/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;b.t &lt;span class=&#34;c1&#34;&gt;# 三个字符,首b尾t &lt;/span&gt;
@@ -10653,57 +10679,35 @@ loadScript.*?lua &lt;span class=&#34;c1&#34;&gt;#返回第一次匹配到lua的�
 loadScript&lt;span class=&#34;se&#34;&gt;\(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;.*?&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;.*?&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#分割为俩个捕获组&lt;/span&gt;
 loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;,id,&lt;span class=&#34;nv&#34;&gt;$2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#中间替换添加id&lt;/span&gt;
 &lt;span class=&#34;se&#34;&gt;\(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0-9&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#[a-zA-Z] / [A-Z] / [a-z] / [0123456789]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 迷思&lt;/span&gt;
-&lt;span class=&#34;s2&#34;&gt;&amp;#34;^(T|t)he&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; The car is parked in the garage. &lt;span class=&#34;c1&#34;&gt;# 为什么只匹配一个单词, 多句/行无法匹配.&lt;/span&gt;
-&lt;span class=&#34;s2&#34;&gt;&amp;#34;(at\.)&lt;/span&gt;$&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; The fat cat. sat. on the mat.
+
+&lt;span class=&#34;c1&#34;&gt;# 迷思&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# 0x01 锚点的使用只匹配一个单词, 多句/行无法匹配.那么锚点有什么更好的应用&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# 或者说, 想是这样只匹配第一个单词的正则有什么用?&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;^(T|t)he&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; The car is parked in the garage.
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;(at\.)&lt;/span&gt;$&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; The fat cat. sat. on the mat.
 
+&lt;span class=&#34;c1&#34;&gt;# 0x02 零宽度断言（前后预查）&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# ?= 	正先行断言-存在&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# ?! 	负先行断言-排除&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# ?&amp;lt;= 	正后发断言-存在&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# ?&amp;lt;! 	负后发断言-排除&lt;/span&gt;
 
+&lt;span class=&#34;c1&#34;&gt;# 0x03 标志:&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# g-global: Don&amp;#39;t return after first match&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# m-multi line: ^and $ match startiend of line&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# i-insensitive: case insensitive match&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# x-extended: Ignore whitespace&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# X-eXtra: Disallow meaningless escapes.&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# s-single line: Dot matches newline&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# u-unicode: Match with full unicode&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# U-Ungreedy: Make quantifiers lazy&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# A-Anchored: Anchor to start of pattern or at the end of the most recent match&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# J-Jchanged: Allow duplicate subpattern names&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# D-Dollar end only: $ matches only end of pattern&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;基本匹配
-元字符
-点运算符 .
-字符集
-2.2.1 否定字符集
-2.3 重复次数
-2.3.1 * 号
-2.3.2 + 号
-2.3.3 ? 号
-2.4 {} 号
-2.5 (...) 特征标群
-2.6 | 或运算符
-2.7 转码特殊字符
-2.8 锚点
-2.8.1 ^ 号
-2.8.2 $ 号&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;简写字符集&lt;/li&gt;
-&lt;li&gt;零宽度断言(前后预查)
-4.1 ?=... 正先行断言
-4.2 ?!... 负先行断言
-4.3 ?&amp;lt;= ... 正后发断言
-4.4 ?&amp;lt;!... 负后发断言&lt;/li&gt;
-&lt;li&gt;标志
-5.1 忽略大小写（Case Insensitive）
-5.2 全局搜索（Global search）
-5.3 多行修饰符（Multiline）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;link-&#34;&gt;LINK 🔗&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;link-&#34;&gt;LINK 🔗&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5cb87c6e6fb9a068a03af93a&#34;&gt;第一次使用VS Code时你应该知道的一切配置&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.crifan.com/books/best_editor_vscode/website/&#34;&gt;史上最好用的编辑器：VSCode&lt;/a&gt;&lt;/li&gt;
