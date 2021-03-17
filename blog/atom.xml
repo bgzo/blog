@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">NOTHING BUT YOURSELF</title>
     <subtitle type="html">DandelionFs Penal Colony | DandelionFs的自留地</subtitle>
-    <updated>2021-03-14T20:47:24&#43;08:00</updated>
+    <updated>2021-03-17T21:48:06&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -6982,7 +6982,7 @@ sizeof(long long) &amp;gt;= 8
             <title type="text">Ubuntu</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/ubuntu/" />
             <id>https://dfslfh.cn/blog/posts/ubuntu/</id>
-            <updated>2021-03-14T15:46:23&#43;08:00</updated>
+            <updated>2021-03-17T20:26:20&#43;08:00</updated>
             <published>2021-01-19T18:11:54&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -8107,6 +8107,59 @@ gsettings &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; org.gnome.desktop.wm.p
 &lt;ul&gt;
 &lt;li&gt;图标目录: &lt;code&gt;/usr/share/icons/&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;extensions&#34;&gt;Extensions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Caffeine&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dash to Dock&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/48078003&#34;&gt;禁用 Ubuntu Dock 的方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qastack.cn/ubuntu/975387/why-do-i-have-two-docks-in-ubuntu-17-10-desktop&#34;&gt;为什么会有两个 Dock 的贴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo apt remove gnome-shell-extension-ubuntu-dock&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desktop Icons&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Desktop Scroller (Left and Overview version)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Panel Transparency&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Extensions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Files Menu&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gnomesome&lt;/strong&gt;-&lt;a href=&#34;https://github.com/ChWick/gnomesome&#34;&gt;Github&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;拓展天然与 &lt;code&gt;Dash to Dock&lt;/code&gt; 的 &lt;code&gt;Super+num&lt;/code&gt; 冲突, &lt;code&gt;Super + a&lt;/code&gt;/&lt;code&gt;Super + Up/Down/Left/Rifht (maximize/restore/left/right)&lt;/code&gt; 可能失效, 需要重新设置一下.&lt;/li&gt;
+&lt;li&gt;Shortcuts-快捷键:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Mod4+e&lt;/code&gt;: Select the next layout on the current monitor and workspace&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+j&lt;/code&gt;: Select the next window on the current monitor and workspace&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+k&lt;/code&gt;: Select the previous window on the current monitor and workspace&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+Ctrl+j&lt;/code&gt;: Select the next monitor&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+Ctrl+k&lt;/code&gt;: Select the previous monitor&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+o&lt;/code&gt;: Move the active window to the next monitor&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+Ctrl+Shift+j&lt;/code&gt;: Move the active window to the next monitor&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+Ctrl+Shift+k&lt;/code&gt;: Move the active window to the previous monitor&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+(1-5)&lt;/code&gt;: Select the workspace with id (1-5)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+Ctrl+(1-5)&lt;/code&gt;: Move the current window to the workspace with id (1-5)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Mod4+return&lt;/code&gt;: Launch a gnome terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/350535415&#34;&gt;使用 Material Shell 扩展将你的 GNOME 桌面打造成平铺式风格-Linux 中国&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;拓展很高效, 但会修改桌面的一些参数, 比如 &lt;code&gt;Titlebar&lt;/code&gt; 的布局会右移.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;gTile&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Material Shell&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;NoAnnoyance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenWeather&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Places Status Indicator&lt;/li&gt;
+&lt;li&gt;Removable Drive Menu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simple net speed&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sound Input &amp;amp; Output Device Chooser&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;system- monitor&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;TopIcons Plus&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unite&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User Themes&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;desktop&#34;&gt;DESKTOP&lt;/h2&gt;
 &lt;p&gt;编辑 &lt;code&gt;.desktop&lt;/code&gt; 文件可以参考下面模板&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/ubuntu/#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -8529,10 +8582,10 @@ $ vim Clash.desktop
         </entry>
     
         <entry>
-            <title type="text">Galgame/ エロゲー</title>
+            <title type="text">Galgame / エロゲー</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/galgame/" />
             <id>https://dfslfh.cn/blog/posts/galgame/</id>
-            <updated>2021-02-23T15:26:41&#43;08:00</updated>
+            <updated>2021-03-14T20:50:13&#43;08:00</updated>
             <published>2021-01-18T18:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -13039,7 +13092,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             <title type="text">All Pc Software In One</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/config/" />
             <id>https://dfslfh.cn/blog/posts/config/</id>
-            <updated>2021-03-12T22:18:16&#43;08:00</updated>
+            <updated>2021-03-17T19:42:39&#43;08:00</updated>
             <published>2020-01-18T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -13053,8 +13106,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
                 <content type="html">&lt;p&gt;不要忘记优化Pc的主要目的是提高自己的工作效率, 如果自己因为寻找工具而惶惶不可终日, 那么一定是磨刀反误砍柴工了, 是很不值得的事情, 因为你的目的已经不是解决需求, 而是不断的创造需求, 无穷递归的时间复杂度很大的噢!&lt;/p&gt;
 &lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Dock&lt;/p&gt;
+&lt;li&gt;Dock
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Window:&lt;/strong&gt;
 &lt;ul&gt;
@@ -13066,23 +13118,12 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;ul&gt;
 &lt;li&gt;GTK&lt;/li&gt;
 &lt;li&gt;Unity&lt;/li&gt;
-&lt;li&gt;Gname[最美]: 需要Ubuntu系统和浏览器共同安装即可运行
-&lt;ul&gt;
-&lt;li&gt;Dash-to-dock
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/48078003&#34;&gt;禁用 Ubuntu Dock 的方法&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://qastack.cn/ubuntu/975387/why-do-i-have-two-docks-in-ubuntu-17-10-desktop&#34;&gt;为什么会有两个 Dock 的贴&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;sudo apt remove gnome-shell-extension-ubuntu-dock&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Gnome - Dash-to-dock: 系统和浏览器共同安装.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Music&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Music&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://music.163.com/#/download&#34;&gt;Netease Music&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;QQ Music
@@ -13095,12 +13136,11 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Works&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Works&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://linux.wps.cn/&#34;&gt;WPS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pan.baidu.com/download&#34;&gt;BaidunetDisk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.xmind.net/&#34;&gt;XMind&lt;/a&gt; + 果壳&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xmind.net/&#34;&gt;XMind&lt;/a&gt; - 果壳&lt;/li&gt;
 &lt;li&gt;Master Reader
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://code-industry.net/masterpdfeditor-help/keyboard_shortcuts/&#34;&gt;Shortcuts&lt;/a&gt;&lt;/li&gt;
@@ -13118,8 +13158,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;li&gt;TeamViewer&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Painting&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Painting&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;Mypainter&lt;/li&gt;
 &lt;li&gt;GIMP&lt;/li&gt;
@@ -13130,31 +13169,21 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/excalidraw/excalidraw&#34;&gt;Excalidraw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Proxy&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Proxy&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Clash&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Clash For Android&lt;/li&gt;
-&lt;li&gt;Clash For Magisk / Linux&lt;/li&gt;
-&lt;li&gt;Clash For Window&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clash&lt;/strong&gt;: Android / Magisk / Linux / Window&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Chat&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Chat&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;QQ&lt;/li&gt;
 &lt;li&gt;Wechat&lt;/li&gt;
 &lt;li&gt;Telegram&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Sys Tools&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Sys Tools&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;PulseAudio: 音量调节&lt;/li&gt;
 &lt;li&gt;Blueman: 蓝牙管理器
@@ -13176,8 +13205,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;li&gt;&lt;a href=&#34;https://wwa.lanzous.com/iaD3Wdbvvij&#34;&gt;&lt;strong&gt;Rockdock Lanzou&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Play Media&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Play Media&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;Steam
 &lt;ul&gt;
@@ -13188,8 +13216,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;li&gt;VLC&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Code&lt;/p&gt;
+&lt;li&gt;Code
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.gitkraken.com/&#34;&gt;GitKaken&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;JetBrains&lt;/strong&gt;
@@ -13514,7 +13541,7 @@ sudo add-apt-repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;deb https://typo
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# deepin-wine容器&lt;/span&gt;
-sudo apt install wget g++ git
+sudo apt install wget g+- git
 git clone &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu.git&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; deepin-wine &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo ./install.sh
 &lt;span class=&#34;c1&#34;&gt;#  Wechat 的两个版本, 自己安装的是第二个 &amp;amp;&amp;amp; 最后一个是解决微信无法查看发送图片问题&lt;/span&gt;
 sudo wget &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://mirrors.huaweicloud.com/deepin/pool/non-free/d/deepin.com.wechat/deepin.com.wechat_2.6.8.65deepin0_i386.deb&amp;#34;&amp;#34;https://gitee.com/wszqkzqk/deepin-wine-containers-for-ubuntu/raw/master/deepin.com.wechat_2.6.8.65deepin0_i386.deb&amp;#34;&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo dpkg -i *wechat*deb &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt install libjpeg62:i386
@@ -13577,18 +13604,36 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;android--pc-transform-films&#34;&gt;Android &amp;amp; PC Transform Films&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Telegram&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Xender&lt;/strong&gt; : &lt;a href=&#34;http://www.xender.com/&#34;&gt;http://www.xender.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Send-anywhere : &lt;a href=&#34;https://send-anywhere.com/&#34;&gt;https://send-anywhere.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Portal: &lt;a href=&#34;http://portal.pushbullet.com/&#34;&gt;http://portal.pushbullet.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reep. io : &lt;a href=&#34;https://reep.io/&#34;&gt;https://reep.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Snapdrop: &lt;a href=&#34;https://snapdrop.net/&#34;&gt;https://snapdrop.net/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;AirMore: &lt;a href=&#34;http://airmore.com/&#34;&gt;http://airmore.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BT Sync: &lt;a href=&#34;https://www.getsync.com/&#34;&gt;https://www.getsync.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;file ai: &lt;a href=&#34;https://fileai.com&#34;&gt;https://fileai.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pushbullet: &lt;a href=&#34;https://www.pushbullet.com/&#34;&gt;https://www.pushbullet.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Telegram&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Xender&lt;/strong&gt; : &lt;a href=&#34;http://www.xender.com/&#34;&gt;http://www.xender.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Send-anywhere : &lt;a href=&#34;https://send-anywhere.com/&#34;&gt;https://send-anywhere.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Portal: &lt;a href=&#34;http://portal.pushbullet.com/&#34;&gt;http://portal.pushbullet.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reep. io : &lt;a href=&#34;https://reep.io/&#34;&gt;https://reep.io/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Snapdrop: &lt;a href=&#34;https://snapdrop.net/&#34;&gt;https://snapdrop.net/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AirMore: &lt;a href=&#34;http://airmore.com/&#34;&gt;http://airmore.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BT Sync: &lt;a href=&#34;https://www.getsync.com/&#34;&gt;https://www.getsync.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;file ai: &lt;a href=&#34;https://fileai.com&#34;&gt;https://fileai.com&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pushbullet: &lt;a href=&#34;https://www.pushbullet.com/&#34;&gt;https://www.pushbullet.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ao&#34;&gt;Ao&lt;/h2&gt;
 &lt;h3 id=&#34;proxysup5j5sup&#34;&gt;Proxy&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/config/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
