@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">NOTHING BUT YOURSELF</title>
     <subtitle type="html">DandelionFs Penal Colony | DandelionFs的自留地</subtitle>
-    <updated>2021-03-28T14:51:55&#43;08:00</updated>
+    <updated>2021-03-30T00:07:03&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -16,6 +16,435 @@
             </author>
     <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+        <entry>
+            <title type="text">Introduction To Software Engineer</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/introduction-to-software-engineering/" />
+            <id>https://dfslfh.cn/blog/posts/introduction-to-software-engineering/</id>
+            <updated>2021-03-29T22:31:03&#43;08:00</updated>
+            <published>2021-03-18T23:48:57&#43;08:00</published>
+            <author>
+                    <name>DandelionFs</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>lfh010618@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;软件工程导论 在课程上讲了几个月前我在TG上学到的 &lt;a href=&#34;https://t.me/lfh010618/52&#34;&gt;Agile Development-敏捷开发&lt;/a&gt;的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的&lt;a href=&#34;https://agilemanifesto.org/&#34;&gt;网站&lt;/a&gt;. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.&lt;/p&gt;
+&lt;p&gt;课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下&lt;del&gt;预&lt;/del&gt;复习, 平时应付, 考前冲锋, 及格光荣. 悲夫...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;内容主要来自&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;清华大学出版社-张海藩,牟永敏的&amp;lt;&amp;lt;软件工程概论(第六版)&amp;gt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marlous.github.io/2018/11/04/%E3%80%8A%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA%E3%80%8B%E5%BC%A0%E6%B5%B7%E6%BD%98%E7%89%88%E6%A0%B8%E5%BF%83%E7%BA%B2%E8%A6%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/&#34;&gt;《软件工程导论》张海潘版核心纲要读书笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&#34;&gt;程序猿大本营-软件工程导论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;…
+    
+    </summary>
+            
+                <content type="html">&lt;blockquote&gt;
+&lt;p&gt;软件工程导论 在课程上讲了几个月前我在TG上学到的 &lt;a href=&#34;https://t.me/lfh010618/52&#34;&gt;Agile Development-敏捷开发&lt;/a&gt;的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的&lt;a href=&#34;https://agilemanifesto.org/&#34;&gt;网站&lt;/a&gt;. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.&lt;/p&gt;
+&lt;p&gt;课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下&lt;del&gt;预&lt;/del&gt;复习, 平时应付, 考前冲锋, 及格光荣. 悲夫...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;内容主要来自&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;清华大学出版社-张海藩,牟永敏的&amp;lt;&amp;lt;软件工程概论(第六版)&amp;gt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marlous.github.io/2018/11/04/%E3%80%8A%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA%E3%80%8B%E5%BC%A0%E6%B5%B7%E6%BD%98%E7%89%88%E6%A0%B8%E5%BF%83%E7%BA%B2%E8%A6%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/&#34;&gt;《软件工程导论》张海潘版核心纲要读书笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&#34;&gt;程序猿大本营-软件工程导论&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概论&#34;&gt;概论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;软件危机&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍&lt;/li&gt;
+&lt;li&gt;原因&lt;/li&gt;
+&lt;li&gt;消除途径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;软件工程&lt;/strong&gt;(工程学科)
+&lt;ul&gt;
+&lt;li&gt;软件工程的介绍
+&lt;ul&gt;
+&lt;li&gt;工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;软件工程的基本原理&lt;/li&gt;
+&lt;li&gt;软件工程方法学
+&lt;ul&gt;
+&lt;li&gt;软件工程 三要素：方法，工具，过程&lt;/li&gt;
+&lt;li&gt;软件方法学 三要素：程序加数据，文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;软件生命周期&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;三个时期&lt;/li&gt;
+&lt;li&gt;八个阶段&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;软件过程&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;瀑布模型&lt;/strong&gt;: &lt;code&gt;需求分析-&amp;gt;规格说明-&amp;gt;设计-&amp;gt;编码-&amp;gt;测试-&amp;gt;维护&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;每个阶段都要完成文档，每个阶段结束前都要对文档进行评审&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;快速原型模型&lt;/strong&gt;: &lt;code&gt;快速原型-规格说明-设计-编码-综合测试-维护&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;增量模型&lt;/strong&gt;: &lt;code&gt;需求分析-&amp;gt;规格说明-&amp;gt;概要设计-&amp;gt;对构件设计，编码，集成，测试&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;螺旋模型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;喷泉模型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rational统一过程&lt;/strong&gt;: &lt;code&gt;初始，精化，构建，移交&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;敏捷过程与极限编程&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微软过程&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&#34;&gt;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;可行性研究&#34;&gt;可行性研究&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;可行性研究的任务&lt;/li&gt;
+&lt;li&gt;可行性研究过程&lt;/li&gt;
+&lt;li&gt;系统流程图
+&lt;ul&gt;
+&lt;li&gt;符号&lt;/li&gt;
+&lt;li&gt;例子&lt;/li&gt;
+&lt;li&gt;分层&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据流图
+&lt;ul&gt;
+&lt;li&gt;符号&lt;/li&gt;
+&lt;li&gt;例子&lt;/li&gt;
+&lt;li&gt;命名&lt;/li&gt;
+&lt;li&gt;用途&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据字典
+&lt;ul&gt;
+&lt;li&gt;字典内容&lt;/li&gt;
+&lt;li&gt;定义方法&lt;/li&gt;
+&lt;li&gt;用途&lt;/li&gt;
+&lt;li&gt;实现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;成本/效益分析
+&lt;ul&gt;
+&lt;li&gt;成本估计&lt;/li&gt;
+&lt;li&gt;成本/效益分析的方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;需求分析&#34;&gt;需求分析&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;需求分析的任务
+&lt;ul&gt;
+&lt;li&gt;确定对系统的综合要求&lt;/li&gt;
+&lt;li&gt;分析系统的数据要求&lt;/li&gt;
+&lt;li&gt;导出系统的逻辑模型&lt;/li&gt;
+&lt;li&gt;修正系统开发计划&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;与用户沟通获取需求的方法
+&lt;ul&gt;
+&lt;li&gt;访谈&lt;/li&gt;
+&lt;li&gt;面向数据流自顶向下求精&lt;/li&gt;
+&lt;li&gt;简易的应用规格说明技术&lt;/li&gt;
+&lt;li&gt;快速建立软件原型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;分析建模与规格说明
+&lt;ul&gt;
+&lt;li&gt;分析建模&lt;/li&gt;
+&lt;li&gt;软件需求规格说明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;实体—联系图
+&lt;ul&gt;
+&lt;li&gt;数据对象&lt;/li&gt;
+&lt;li&gt;属性&lt;/li&gt;
+&lt;li&gt;联系&lt;/li&gt;
+&lt;li&gt;实体—联系图的符号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据规范化&lt;/li&gt;
+&lt;li&gt;状态转换图
+&lt;ul&gt;
+&lt;li&gt;状态&lt;/li&gt;
+&lt;li&gt;事件&lt;/li&gt;
+&lt;li&gt;符号&lt;/li&gt;
+&lt;li&gt;例子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;其他图形工具
+&lt;ul&gt;
+&lt;li&gt;层次方框图&lt;/li&gt;
+&lt;li&gt;Warnier 图&lt;/li&gt;
+&lt;li&gt;IPO 图&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;验证软件需求
+&lt;ul&gt;
+&lt;li&gt;从哪些方面验证软件需求的正确性&lt;/li&gt;
+&lt;li&gt;验证软件需求的方法&lt;/li&gt;
+&lt;li&gt;用于需求分析的软件工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;形式化说明技术&#34;&gt;形式化说明技术&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;概述
+&lt;ul&gt;
+&lt;li&gt;非形式化方法的缺点&lt;/li&gt;
+&lt;li&gt;形式化方法的优点&lt;/li&gt;
+&lt;li&gt;应用形式化方法的准则&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;有穷状态机&lt;/li&gt;
+&lt;li&gt;Petri 网&lt;/li&gt;
+&lt;li&gt;Z语言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总体设计&#34;&gt;总体设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;设计过程&lt;/li&gt;
+&lt;li&gt;设计原理
+&lt;ul&gt;
+&lt;li&gt;模块化&lt;/li&gt;
+&lt;li&gt;抽象&lt;/li&gt;
+&lt;li&gt;逐步求精&lt;/li&gt;
+&lt;li&gt;信息隐藏和局部化&lt;/li&gt;
+&lt;li&gt;模块独立&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;启发规则&lt;/li&gt;
+&lt;li&gt;描绘软件结构的图形工具
+&lt;ul&gt;
+&lt;li&gt;层次图和HIPO图&lt;/li&gt;
+&lt;li&gt;结构图&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面向数据流的设计方法
+&lt;ul&gt;
+&lt;li&gt;变换分析&lt;/li&gt;
+&lt;li&gt;事务分析&lt;/li&gt;
+&lt;li&gt;设计优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;详细设计&#34;&gt;详细设计&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;结构程序设计&lt;/li&gt;
+&lt;li&gt;人机界面设计
+&lt;ul&gt;
+&lt;li&gt;设计问题&lt;/li&gt;
+&lt;li&gt;设计过程&lt;/li&gt;
+&lt;li&gt;人机界面设计指南&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;过程设计的工具
+&lt;ul&gt;
+&lt;li&gt;程序流程图&lt;/li&gt;
+&lt;li&gt;盒图&lt;/li&gt;
+&lt;li&gt;PAD图&lt;/li&gt;
+&lt;li&gt;判定表&lt;/li&gt;
+&lt;li&gt;判定树&lt;/li&gt;
+&lt;li&gt;过程设计语言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面向数据结构的设计方法
+&lt;ul&gt;
+&lt;li&gt;改进的Jackson图&lt;/li&gt;
+&lt;li&gt;Jackson方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;程序复杂程度的定量度量
+&lt;ul&gt;
+&lt;li&gt;McCab方法&lt;/li&gt;
+&lt;li&gt;Halstead方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;编码
+&lt;ul&gt;
+&lt;li&gt;选择程序设计语言&lt;/li&gt;
+&lt;li&gt;编码风格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;软件测试基础
+&lt;ul&gt;
+&lt;li&gt;软件测试的目标&lt;/li&gt;
+&lt;li&gt;软件测试准则&lt;/li&gt;
+&lt;li&gt;测试方法&lt;/li&gt;
+&lt;li&gt;测试步骤&lt;/li&gt;
+&lt;li&gt;测试阶段的信息流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;单元测试
+&lt;ul&gt;
+&lt;li&gt;测试重点&lt;/li&gt;
+&lt;li&gt;代码审查&lt;/li&gt;
+&lt;li&gt;计算机测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;集成测试
+&lt;ul&gt;
+&lt;li&gt;自顶向下集成&lt;/li&gt;
+&lt;li&gt;自底向上集成&lt;/li&gt;
+&lt;li&gt;不同集成测试策略的比较&lt;/li&gt;
+&lt;li&gt;回归测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;确认测试
+&lt;ul&gt;
+&lt;li&gt;确认测试的范围&lt;/li&gt;
+&lt;li&gt;软件配置复查&lt;/li&gt;
+&lt;li&gt;Alpha和Beta测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;白盒测试技术
+&lt;ul&gt;
+&lt;li&gt;逻辑覆盖&lt;/li&gt;
+&lt;li&gt;控制结构测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;黑盒测试技术
+&lt;ul&gt;
+&lt;li&gt;等价划分&lt;/li&gt;
+&lt;li&gt;边界值分析&lt;/li&gt;
+&lt;li&gt;错误推测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;调试
+&lt;ul&gt;
+&lt;li&gt;调试过程&lt;/li&gt;
+&lt;li&gt;调试途径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;软件可靠性
+&lt;ul&gt;
+&lt;li&gt;基本概念&lt;/li&gt;
+&lt;li&gt;估算平均无故障时间的方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;维护&#34;&gt;维护&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;软件维护的定义&lt;/li&gt;
+&lt;li&gt;软件维护的特点
+&lt;ul&gt;
+&lt;li&gt;结构化维护与非结构化维护差别巨大&lt;/li&gt;
+&lt;li&gt;维护的代价高昂&lt;/li&gt;
+&lt;li&gt;维护的问题很多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;软件维护过程&lt;/li&gt;
+&lt;li&gt;软件的可维护性
+&lt;ul&gt;
+&lt;li&gt;决定软件可维护性的因素&lt;/li&gt;
+&lt;li&gt;文档&lt;/li&gt;
+&lt;li&gt;可维护性复审&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;预防性维护&lt;/li&gt;
+&lt;li&gt;软件再工程过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;面向对象方法学引论&#34;&gt;面向对象方法学引论&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;面向对象方法学概述
+&lt;ul&gt;
+&lt;li&gt;面向对象方法学的要点&lt;/li&gt;
+&lt;li&gt;面向对象方法学的优点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面向对象的概念
+&lt;ul&gt;
+&lt;li&gt;对象&lt;/li&gt;
+&lt;li&gt;其他概念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;面向对象建模&lt;/li&gt;
+&lt;li&gt;对象模型
+&lt;ul&gt;
+&lt;li&gt;类图的基本符号&lt;/li&gt;
+&lt;li&gt;表示关系的符号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;动态模型&lt;/li&gt;
+&lt;li&gt;功能模型
+&lt;ul&gt;
+&lt;li&gt;用例图&lt;/li&gt;
+&lt;li&gt;用例建模&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3种模型之间的关系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;面向对象分析&#34;&gt;面向对象分析&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;面向对象分析的基本过程
+&lt;ul&gt;
+&lt;li&gt;概述&lt;/li&gt;
+&lt;li&gt;3个子模型与5个层沙&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;需求陈述
+&lt;ul&gt;
+&lt;li&gt;书写要点&lt;/li&gt;
+&lt;li&gt;例子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;建立对象模型
+&lt;ul&gt;
+&lt;li&gt;确定类与对象&lt;/li&gt;
+&lt;li&gt;确定关联&lt;/li&gt;
+&lt;li&gt;划分主题&lt;/li&gt;
+&lt;li&gt;确定属性&lt;/li&gt;
+&lt;li&gt;识别继承关系&lt;/li&gt;
+&lt;li&gt;反复修改&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;建立动态模型
+&lt;ul&gt;
+&lt;li&gt;编写脚本&lt;/li&gt;
+&lt;li&gt;设想用户界面&lt;/li&gt;
+&lt;li&gt;画事件跟踪图&lt;/li&gt;
+&lt;li&gt;画状态图&lt;/li&gt;
+&lt;li&gt;审查动态模型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;建立功能模型
+&lt;ul&gt;
+&lt;li&gt;画出基本系统模型图&lt;/li&gt;
+&lt;li&gt;画出功能级数据流图&lt;/li&gt;
+&lt;li&gt;描述处理框功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;定义服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;面向对象设计&#34;&gt;面向对象设计&lt;/h2&gt;
+&lt;h2 id=&#34;面向对象实现&#34;&gt;面向对象实现&lt;/h2&gt;
+&lt;h2 id=&#34;软件项目管理&#34;&gt;软件项目管理&lt;/h2&gt;
+&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://dfslfh.cn/blog/tags/sofeware-engineer/" term="Sofeware-Engineer" label="Sofeware-Engineer" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Apologize To Three Cats In My Life</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210314-apologize-to-three-cats-in-my-lifes/" />
@@ -2331,7 +2760,7 @@ $ reboot
             <title type="text">Open Source Licence</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/open-source-licence/" />
             <id>https://dfslfh.cn/blog/posts/open-source-licence/</id>
-            <updated>2021-02-24T00:45:15&#43;08:00</updated>
+            <updated>2021-01-26T17:42:17&#43;08:00</updated>
             <published>2021-01-26T16:50:29&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -6690,7 +7119,7 @@ sizeof(long long) &amp;gt;= 8
             <title type="text">Ubuntu</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/ubuntu/" />
             <id>https://dfslfh.cn/blog/posts/ubuntu/</id>
-            <updated>2021-03-26T22:26:56&#43;08:00</updated>
+            <updated>2021-03-29T21:06:58&#43;08:00</updated>
             <published>2021-01-19T18:11:54&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -8370,7 +8799,7 @@ $ vim Clash.desktop
             <title type="text">My Earphone</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/earphone/" />
             <id>https://dfslfh.cn/blog/posts/earphone/</id>
-            <updated>2021-02-24T00:44:44&#43;08:00</updated>
+            <updated>2021-01-24T20:09:28&#43;08:00</updated>
             <published>2021-01-18T16:43:20&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -9308,7 +9737,7 @@ $ vim Clash.desktop
             <title type="text">Kernel</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/kernel/" />
             <id>https://dfslfh.cn/blog/posts/kernel/</id>
-            <updated>2021-02-24T17:08:56&#43;08:00</updated>
+            <updated>2021-01-17T04:26:00&#43;08:00</updated>
             <published>2020-12-05T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -12144,7 +12573,7 @@ $ vim index.html
             <title type="text">VSCode You Should Know</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/vscode/" />
             <id>https://dfslfh.cn/blog/posts/vscode/</id>
-            <updated>2021-03-28T00:05:15&#43;08:00</updated>
+            <updated>2021-03-29T22:23:14&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -12378,6 +12807,13 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;bugs&#34;&gt;BUGS&lt;/h2&gt;
+&lt;h3 id=&#34;gist-v2ray-timeout&#34;&gt;Gist: V2ray Timeout&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This error simply means that the other side closed the connection in a way that was probably not normal (or may be in a hurry).&lt;/p&gt;
+&lt;p&gt;An example is: a socket connection can be closed by the other party abruptly due to several reasons and you will see this error / exception on your side.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;更换节点&lt;/p&gt;
 &lt;h2 id=&#34;link-&#34;&gt;LINK 🔗&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5cb87c6e6fb9a068a03af93a&#34;&gt;第一次使用VS Code时你应该知道的一切配置&lt;/a&gt;&lt;/li&gt;
@@ -12414,7 +12850,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             <title type="text">逃离</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/escape/" />
             <id>https://dfslfh.cn/blog/posts/escape/</id>
-            <updated>2021-02-24T00:44:22&#43;08:00</updated>
+            <updated>2021-01-17T01:19:52&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -13418,7 +13854,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             <title type="text">All Pc Software In One</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/config/" />
             <id>https://dfslfh.cn/blog/posts/config/</id>
-            <updated>2021-03-27T22:02:33&#43;08:00</updated>
+            <updated>2021-03-29T21:08:53&#43;08:00</updated>
             <published>2020-01-18T00:00:00&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
@@ -14179,7 +14615,7 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
             <title type="text">Blog</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/blog/" />
             <id>https://dfslfh.cn/blog/posts/blog/</id>
-            <updated>2021-03-28T14:49:30&#43;08:00</updated>
+            <updated>2021-02-27T03:22:25&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
                     <name>DandelionFs</name>
