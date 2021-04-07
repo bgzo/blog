@@ -21,14 +21,14 @@ else if(queuedTerm){queuedTerm=term;queuedDoNotAddState=doNotAddState;}
 else{queuedTerm=term;queuedDoNotAddState=doNotAddState;initIndex();}}
 function searchDone(){form.removeAttribute("data-running");const header=document.querySelector('.header');if(header&&header.classList.contains('fade')){input.blur();}
 queuedTerm=null;queuedDoNotAddState=false;}
-function initIndex(){let request=new XMLHttpRequest();request.open("GET","../../../blog/search.json");request.responseType="json";request.addEventListener("load",function(event){let documents=request.response;if(!documents)
+function initIndex(){let request=new XMLHttpRequest();request.open("GET","../../blog/search.json");request.responseType="json";request.addEventListener("load",function(event){let documents=request.response;if(!documents)
 {console.error("Search index could not be downloaded, was it generated?");searchDone();return;}
 lookup={};index=lunr(function(){const language="en";if(language!="en"&&lunr.hasOwnProperty(language)){this.use(lunr[language]);}
 this.ref("uri");this.field("title");this.field("subtitle");this.field("content");this.field("description");this.field("categories");this.field("tags");for(let document of documents){this.add(document);lookup[document.uri]=document;}});search(queuedTerm,queuedDoNotAddState);},false);request.addEventListener("error",searchDone,false);request.send(null);}
 function search(term,doNotAddState){try{let results=index.search(term);let target=document.querySelector(".main-inner");let replaced=[];while(target.firstChild){replaced.push(target.firstChild);target.removeChild(target.firstChild);}
 if(!origContent){origContent=replaced;}
 let title=document.createElement("h1");title.id="search-results";title.className="list-title";if(results.length==0){title.textContent="No results found for “{}”".replace("{}",term);}
-else if(results.length==1){title.textContent="Found 1 results for “{}”".replace("{}",term);}
+else if(results.length==1){title.textContent="Found one result for “{}”".replace("{}",term);}
 else{title.textContent="Found 13579 results for “{}”".replace("{}",term).replace("13579",results.length);}
 target.appendChild(title);document.title=title.textContent;let template=document.getElementById("search-result");for(let result of results){let doc=lookup[result.ref];let element=template.content.cloneNode(true);element.querySelector(".summary-title-link").href=element.querySelector(".read-more-link").href=doc.uri;element.querySelector(".summary-title-link").textContent=doc.title;element.querySelector(".summary").textContent=truncateToEndOfSentence(doc.content,70);target.appendChild(element);}
 title.scrollIntoView(true);if(!doNotAddState){history.pushState({type:"search",term:term},title.textContent,"#search="+encodeURIComponent(term));}
