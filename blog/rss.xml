@@ -9,90 +9,24 @@
     <channel>
         <title>NOTHING BUT YOURSELF</title>
         <link>https://dfslfh.cn/blog/</link>
-        <description>DandelionFs Penal Colony | DandelionFs的自留地</description>
+        <description>bGZoCg Penal Colony | bGZoCg的自留地</description>
         <generator>Hugo 0.68.3 https://gohugo.io/</generator>
         
             <language>en</language>
         
         
-            <managingEditor>lfh010618@gmail.com (DandelionFs)</managingEditor>
+            <managingEditor>bGZoCg#outlook.com (bGZoCg)</managingEditor>
         
         
-            <webMaster>lfh010618@gmail.com (DandelionFs)</webMaster>
+            <webMaster>bGZoCg#outlook.com (bGZoCg)</webMaster>
         
         
             <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 29 Apr 2021 00:40:34 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 27 May 2021 23:36:38 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
-        
-            <item>
-                <title>Machine Learning Notes</title>
-                <link>https://dfslfh.cn/blog/posts/210414-machine-learning-notes/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210414-machine-learning-notes/</guid>
-                <pubDate>Wed, 14 Apr 2021 21:08:20 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;ul&gt;
-&lt;li&gt;Python 发行版本，其包含了 conda、Python 等 180 多个科学包及其依赖项: &lt;a href=&#34;https://www.anaconda.com&#34;&gt;Anaconda&lt;/a&gt;, windows 可用 &lt;code&gt;scoop add extra&lt;/code&gt; 安装.[1]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
-&lt;div id=&#34;j1&#34;&gt;[1]. https://www.v2ex.com/t/521254&lt;/div&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://dfslfh.cn/blog/tags/ml/">ML</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>2017 Tsinghua Algorithm PPT Learning</title>
-                <link>https://dfslfh.cn/blog/posts/210412-tsinghua-algorithm-ppt-learning/</link>
-                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210412-tsinghua-algorithm-ppt-learning/</guid>
-                <pubDate>Mon, 12 Apr 2021 23:22:17 &#43;0800</pubDate>
-                
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
-                
-                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;手头考研资料里面有一套关于清华大学数据结构的文档, 今天有意拿来品味一番, 仅仅对授课方式和授课形式有几点感受, 内容尚待品味:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;授课量大&lt;/strong&gt;, 一个春季学期一共有1200+页PPT;&lt;/li&gt;
-&lt;li&gt;作业比我们多一个实验的项目, 我们较于人家只是把往届的题目腾挪, 没有实质性的变化.&lt;/li&gt;
-&lt;li&gt;授课方式更加国际化, 网课有依赖 &lt;a href=&#34;https://www.edx.org/&#34;&gt;edx&lt;/a&gt;, 课堂讨论使用 &lt;a href=&#34;https://piazza.com/&#34;&gt;Piazza&lt;/a&gt;, 拓展阅读有老师&lt;a href=&#34;https://dsa.cs.tsinghua.edu.cn/~deng/ds/index.htm&#34;&gt;个人的网站&lt;/a&gt;, 里面有国际化的资源地址.采用 &lt;a href=&#34;http://theory.stanford.edu/~aiken/moss/&#34;&gt;Moss&lt;/a&gt; 判重.&lt;/li&gt;
-&lt;/ol&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                    
-                
-            </item>
         
             <item>
                 <title>Team PTA Summaries</title>
@@ -100,7 +34,7 @@
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210412-team-pta-summary/</guid>
                 <pubDate>Mon, 12 Apr 2021 13:27:46 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -115,7 +49,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;模拟/IO&lt;/td&gt;
-&lt;td&gt;L1-001;L1-002;L1-004;L1-005;L1-007;L1-008;L1-009;L1-010;L1-013;L1-014;L1-015;L1-016;L1-017;L1-018;L1-019;L1-021;L1-022;L1-023;L1-024;L1-025;L1-026;L1-027;L1-028;L1-029;L1-030;L1-031;L1-032;L1-033	;L1-035;L1-036;L1-037;L1-038;L1-039;L1-040;L1-041;L1-042;L1-043;L1-044;L1-044;L1-045;L1-046;L1-047;L1-048;L1-049;L1-050;L1-051;L1-052;L1-053;L1-054;L1-055;L1-056;L1-057;L1-058;L1-059;L1-060;L1-061;L1-062;L1-063;L1-064;L1-065;L1-066;L1-067;L1-068;L1-069;L1-070;L1-072&lt;/td&gt;
+&lt;td&gt;L1-001;L1-002;L1-004;L1-005;L1-007;&lt;br&gt;L1-008;L1-009;L1-010;L1-013;L1-014;L1-015;L1-016;L1-017;L1-018;L1-019;L1-021;L1-022;L1-023;&lt;br&gt;L1-024;L1-025;L1-026;L1-027;L1-028;L1-029;L1-030;L1-031;L1-032;L1-033;L1-035;L1-036;&lt;br&gt;L1-037;L1-038;L1-039;L1-040;L1-041;L1-042;L1-043;L1-044;L1-044;L1-045;L1-046;L1-047;&lt;br&gt;L1-048;L1-049;L1-050;L1-051;L1-052;L1-053;L1-054;L1-055;L1-056;L1-057;L1-058;L1-059;&lt;br&gt;L1-060;L1-061;L1-062;L1-063;L1-064;L1-065;L1-066;L1-067;L1-068;L1-069;L1-070;L1-072&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;字符串匹配&lt;/td&gt;
@@ -167,7 +101,7 @@
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/introduction-to-software-engineering/</guid>
                 <pubDate>Thu, 18 Mar 2021 23:48:57 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -181,6 +115,7 @@
 &lt;li&gt;&lt;a href=&#34;https://marlous.github.io/2018/11/04/%E3%80%8A%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA%E3%80%8B%E5%BC%A0%E6%B5%B7%E6%BD%98%E7%89%88%E6%A0%B8%E5%BF%83%E7%BA%B2%E8%A6%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/&#34;&gt;《软件工程导论》张海潘版核心纲要读书笔记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&#34;&gt;程序猿大本营-软件工程导论&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;无独有偶, 阮一峰 也在他的博客上&lt;a href=&#34;http://www.ruanyifeng.com/blog/2021/05/scaling-problem.html&#34;&gt;谈了这门学科&lt;/a&gt;, 关于软件工程的最大难题.&lt;/p&gt;
 &lt;h2 id=&#34;概论&#34;&gt;概论&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;软件危机&lt;/strong&gt;
@@ -583,7 +518,7 @@
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210314-apologize-to-three-cats-in-my-lifes/</guid>
                 <pubDate>Sun, 14 Mar 2021 15:55:19 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -621,7 +556,7 @@
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/docker/</guid>
                 <pubDate>Thu, 04 Mar 2021 17:57:17 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -728,7 +663,7 @@ sudo systemctl restart docker
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210228-winter-holiday-summary/</guid>
                 <pubDate>Sun, 28 Feb 2021 15:33:07 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -1288,16 +1223,25 @@ sudo systemctl restart docker
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/rss/</guid>
                 <pubDate>Fri, 26 Feb 2021 20:41:19 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;如今 RSS 来源不限于:&lt;/p&gt;
+                    <description>&lt;p&gt;RSS 来源:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;feedx.net&lt;/li&gt;
 &lt;li&gt;rsshub.app&lt;/li&gt;
 &lt;li&gt;werss.app&lt;/li&gt;
 &lt;li&gt;rss.mk&lt;/li&gt;
+&lt;li&gt;Individual
+&lt;ul&gt;
+&lt;li&gt;Wordpress: &lt;code&gt;url+/feed/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hugo/Hexo: &lt;code&gt;url+/atom.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Typecho: &lt;code&gt;url+ /rss/&lt;/code&gt; or &lt;code&gt;url+/feed/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CSDN: &lt;code&gt;url+/rss/list/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;博客园: &lt;code&gt;feed.cnblogs.com/blog/u/ + id+ /rss/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;opml&#34;&gt;OPML&lt;/h2&gt;
 &lt;p&gt;格式:&lt;/p&gt;
@@ -1396,7 +1340,7 @@ sudo systemctl restart docker
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/wiki/</guid>
                 <pubDate>Wed, 24 Feb 2021 18:21:11 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -1459,7 +1403,7 @@ sudo systemctl restart docker
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/pictures/</guid>
                 <pubDate>Wed, 24 Feb 2021 16:42:01 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -1603,7 +1547,7 @@ sudo systemctl restart docker
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/southpark/</guid>
                 <pubDate>Tue, 23 Feb 2021 15:19:23 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -1649,7 +1593,7 @@ sudo systemctl restart docker
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/database/</guid>
                 <pubDate>Thu, 28 Jan 2021 17:39:35 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -2686,7 +2630,7 @@ $ reboot
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/gtd-time-manage/</guid>
                 <pubDate>Tue, 26 Jan 2021 19:57:30 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -2788,7 +2732,7 @@ $ reboot
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/open-source-licence/</guid>
                 <pubDate>Tue, 26 Jan 2021 16:50:29 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -2958,7 +2902,7 @@ $ reboot
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210123-machine-learning-notes/</guid>
                 <pubDate>Fri, 22 Jan 2021 19:52:50 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -4788,7 +4732,7 @@ $ reboot
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210121-stackover-top-notes/</guid>
                 <pubDate>Thu, 21 Jan 2021 14:31:44 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -6842,7 +6786,7 @@ sizeof(long long) &amp;gt;= 8
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/photography/</guid>
                 <pubDate>Wed, 20 Jan 2021 21:58:28 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -7032,7 +6976,7 @@ sizeof(long long) &amp;gt;= 8
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/ubuntu/</guid>
                 <pubDate>Tue, 19 Jan 2021 18:11:54 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -8640,7 +8584,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/galgame/</guid>
                 <pubDate>Mon, 18 Jan 2021 18:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -8715,7 +8659,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/earphone/</guid>
                 <pubDate>Mon, 18 Jan 2021 16:43:20 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -9083,7 +9027,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210117-end-to-end/</guid>
                 <pubDate>Sun, 17 Jan 2021 17:33:21 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -9134,7 +9078,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210117-whats-192-168/</guid>
                 <pubDate>Sun, 17 Jan 2021 14:44:52 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -9193,7 +9137,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210101-my404-5/</guid>
                 <pubDate>Fri, 01 Jan 2021 00:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -9593,7 +9537,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/kernel/</guid>
                 <pubDate>Sat, 05 Dec 2020 00:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -9661,7 +9605,7 @@ $ vim Clash.desktop
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/git/</guid>
                 <pubDate>Fri, 06 Nov 2020 00:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -10467,7 +10411,7 @@ git push origin :refs/tags/v0.9
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/envir_config/</guid>
                 <pubDate>Fri, 16 Oct 2020 14:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -10586,7 +10530,7 @@ bin/jlink --module-path jmods --add-modules java.desktop --output jre &lt;span c
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200901-imu-short-term-develop/</guid>
                 <pubDate>Tue, 01 Sep 2020 22:21:38 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -12010,7 +11954,7 @@ Unix-land has no standard &lt;code&gt;pause&lt;/code&gt; command.&lt;/li&gt;
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/electron/</guid>
                 <pubDate>Thu, 20 Aug 2020 19:35:43 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -12293,7 +12237,7 @@ $ vim index.html
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/vscode/</guid>
                 <pubDate>Wed, 15 Jul 2020 00:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -12559,7 +12503,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/escape/</guid>
                 <pubDate>Wed, 15 Jul 2020 00:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -12616,7 +12560,7 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/proxy/</guid>
                 <pubDate>Wed, 26 Feb 2020 23:51:37 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -12981,7 +12925,7 @@ yarn config delete https-proxy
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200225-social-love-marry/</guid>
                 <pubDate>Tue, 25 Feb 2020 11:55:08 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -13098,7 +13042,7 @@ yarn config delete https-proxy
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/i-wish-i-could-small-enough/</guid>
                 <pubDate>Thu, 20 Feb 2020 16:30:30 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -13187,7 +13131,7 @@ yarn config delete https-proxy
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/200208-mr-liang-love-course/</guid>
                 <pubDate>Sat, 08 Feb 2020 04:39:30 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -13526,7 +13470,7 @@ yarn config delete https-proxy
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/404/</guid>
                 <pubDate>Thu, 30 Jan 2020 13:59:24 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -13715,7 +13659,7 @@ yarn config delete https-proxy
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/config/</guid>
                 <pubDate>Sat, 18 Jan 2020 00:00:00 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -14465,24 +14409,20 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/blog/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;博客是什么?&lt;/p&gt;
-&lt;p&gt;写文? 记录? 装X?&lt;/p&gt;
-&lt;p&gt;可能都不是, 可能都是, 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我所知道博客, 现阶段只包括 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
+                    <description>&lt;p&gt;&lt;strong&gt;国内的功利主义者凡事都追求意义&lt;/strong&gt;. 为什么博客是他们绕不开的问题, 单纯为了写文? 亦或是记录? 简单的自我吹嘘? 可能都不是, 可能都是, 但一定是媚俗, 我羡慕那些从来都不写任何东西还能将食物娓娓道来的人们. 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我搭建过的一些博客(&lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Hexo&lt;/code&gt;, &lt;code&gt;Hugo&lt;/code&gt;, &lt;code&gt;Typecho&lt;/code&gt;)以及对博客的想法, 如果你只希望获得一个写作平台, 你也可以选择 &lt;code&gt;Notion&lt;/code&gt;, &lt;code&gt;Typlog&lt;/code&gt;, &lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Blogger&lt;/code&gt;, 甚至可以是万能的 &lt;code&gt;Telegram&lt;/code&gt;, &lt;code&gt;Twitter&lt;/code&gt;.如果你对这方面感兴趣, 推荐 &lt;a href=&#34;https://pythonhunter.org/episodes/ep25&#34;&gt;Ep 25. 个人知识管理体系系列 - 输出篇&lt;/a&gt;, 那么话再说回来, 我为什么写文?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我习惯称她为夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 她离开的时候也带走了我的一部分, 但我什么都做不了. 高考后拿到新手机和电脑后就断了联系, 我很想她.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字到 &lt;code&gt;Twitter&lt;/code&gt; 上, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 在这个24小时都能被打扰的世界中, 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来将自己暴露给他人是我的私心, 我不希望有些事情就这样过去, 也想被别人读到, 减少他们的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;跳出舒适圈&lt;/strong&gt;: 博客就像日记，如果你发现用于记录的纸张已经用了好大一部分了, 但每一页几乎都相同, 那么你就该去看看更加广阔的世界了。如果顺利的话, 期待下次与你的 &amp;quot;好久不见&amp;quot; !&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;To Be Continued....&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我的那位朋友叫夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 最近她越来越少出现了, 同时, 她也带走了我自我的一部分, 我明显的感到自己失去了什么, 但是无可挽回. 高考后我买了新手机和梦寐以求的电脑, 并把时间全数花在PS和拍摄上, 不得不承认, 很长的一段时间我淡忘了她，断断续续写的信件得不到回应，难免很想她.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来自然是我的私心, 我不希望有些事情就这样过去, 也希望他们暴露在阳光下, 想被一样的人读到, 减少个体的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;批注&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;博客就像日记，如果你发现用于记录的纸张已经用了好大一部分了, 但每一页几乎都相同, 那么你就该去看看更加广阔的世界了。如果顺利的话, 期待下次与你的 &amp;quot;好久不见&amp;quot; !&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;logs&#34;&gt;LOGS&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;b&gt;19年12月23日&lt;/b&gt;&lt;/font&gt;：搭博客，效果可，Bugs多(Hexo本地文件的损坏、themes的主题配置失败、themes的主题内部Wrap函数错误)，不明所以，干掉重来。&lt;/li&gt;
@@ -14509,6 +14449,9 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;blockquote&gt;
 &lt;p&gt;本网站是个人网站，不含有企业、单位等非个人网站的信息，不涉及企业及互联网金融内容，若在核实中发现网站中含有企业、单位等信息，本人愿接受以虚假信息进行备案，注销网站，并将主体和域名加入黑名单的处罚。我的网站内容是：记录自己学习服务器过程中遇到的问题与相应的解决办法，上传个人编写的文章，图片，内容基本为原创。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;21年05月08日&lt;/strong&gt;&lt;/font&gt;: 听从伊藤谦一的回答 &lt;code&gt;中文排版中有必要使用「首字下沉」吗？使用时需要注意什么问题？&lt;/code&gt;, 中文博客默认采取正常排版方式, 英文正式采用首字下沉的方案.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;hexo&#34;&gt;HEXO&lt;/h2&gt;
 &lt;p&gt;放弃Hexo类静态博客, 江湖路远, 有缘再见. 一款烂大街到游戏社区(小黑盒)都能看到这个博客的教程, 如果你的 Github 的Img不显示问题了，定是配置文件没写全(；′⌒`)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[准备]&lt;/strong&gt;:&lt;/p&gt;
@@ -14840,7 +14783,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/books/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -14853,7 +14796,11 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;:  &lt;code&gt;Amazon&lt;/code&gt;私有格式, 亚马逊利用&lt;code&gt;azw&lt;/code&gt; 对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;KF8&lt;/code&gt;(2011), 填补 &lt;code&gt;Mobi&lt;/code&gt; 对复杂排版支持, 支持很多 HTML5, 正逐渐取代 mobi 成为 Kindle 主流格式&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DRM移除&lt;/strong&gt;: 参考 &lt;a href=&#34;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&#34;&gt;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软 1998 年替代早先的 WinHelp 帮助系统,基于 HTML 文件特性的帮助文件系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
 - pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
 - &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -14905,7 +14852,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/fonts/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -15067,7 +15014,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/markdown/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 
@@ -15912,7 +15859,7 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/musics/</guid>
                 <pubDate>Fri, 13 Dec 2019 02:40:57 &#43;0800</pubDate>
                 
-                    <author>lfh010618@gmail.com (DandelionFs)</author>
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
                 
                 <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
                 

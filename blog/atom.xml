@@ -3,108 +3,29 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">NOTHING BUT YOURSELF</title>
-    <subtitle type="html">DandelionFs Penal Colony | DandelionFs的自留地</subtitle>
-    <updated>2021-04-29T00:40:34&#43;08:00</updated>
+    <subtitle type="html">bGZoCg Penal Colony | bGZoCg的自留地</subtitle>
+    <updated>2021-05-27T23:36:38&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
     <author>
-            <name>DandelionFs</name>
+            <name>bGZoCg</name>
             <uri>https://dfslfh.cn/</uri>
             
-                <email>lfh010618@gmail.com</email>
+                <email>bGZoCg#outlook.com</email>
             </author>
     <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
         <entry>
-            <title type="text">Machine Learning Notes</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210414-machine-learning-notes/" />
-            <id>https://dfslfh.cn/blog/posts/210414-machine-learning-notes/</id>
-            <updated>2021-04-14T21:23:47&#43;08:00</updated>
-            <published>2021-04-14T21:08:20&#43;08:00</published>
-            <author>
-                    <name>DandelionFs</name>
-                    <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">Python 发行版本，其包含了 conda、Python 等 180 多个科学包及其依赖项: Anaconda, windows 可用 scoop add extra 安装.[1] REFERENCE [1].…
-    
-    </summary>
-            
-                <content type="html">&lt;ul&gt;
-&lt;li&gt;Python 发行版本，其包含了 conda、Python 等 180 多个科学包及其依赖项: &lt;a href=&#34;https://www.anaconda.com&#34;&gt;Anaconda&lt;/a&gt;, windows 可用 &lt;code&gt;scoop add extra&lt;/code&gt; 安装.[1]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;reference&#34;&gt;REFERENCE&lt;/h2&gt;
-&lt;div id=&#34;j1&#34;&gt;[1]. https://www.v2ex.com/t/521254&lt;/div&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://dfslfh.cn/blog/tags/ml/" term="ML" label="ML" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">2017 Tsinghua Algorithm PPT Learning</title>
-            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210412-tsinghua-algorithm-ppt-learning/" />
-            <id>https://dfslfh.cn/blog/posts/210412-tsinghua-algorithm-ppt-learning/</id>
-            <updated>2021-04-12T23:33:25&#43;08:00</updated>
-            <published>2021-04-12T23:22:17&#43;08:00</published>
-            <author>
-                    <name>DandelionFs</name>
-                    <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;手头考研资料里面有一套关于清华大学数据结构的文档, 今天有意拿来品味一番, 仅仅对授课方式和授课形式有几点感受, 内容尚待品味:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;授课量大&lt;/strong&gt;, 一个春季学期一共有1200+页PPT;&lt;/li&gt;
-&lt;li&gt;作业比我们多一个实验的项目, 我们较于人家只是把往届的题目腾挪, 没有实质性的变化.&lt;/li&gt;
-&lt;li&gt;授课方式更加国际化, 网课有依赖 &lt;a href=&#34;https://www.edx.org/&#34;&gt;edx&lt;/a&gt;, 课堂讨论使用 &lt;a href=&#34;https://piazza.com/&#34;&gt;Piazza&lt;/a&gt;, 拓展阅读有老师&lt;a href=&#34;https://dsa.cs.tsinghua.edu.cn/~deng/ds/index.htm&#34;&gt;个人的网站&lt;/a&gt;, 里面有国际化的资源地址.采用 &lt;a href=&#34;http://theory.stanford.edu/~aiken/moss/&#34;&gt;Moss&lt;/a&gt; 判重.&lt;/li&gt;
-&lt;/ol&gt;</summary>
-            
-                <content type="html">&lt;p&gt;手头考研资料里面有一套关于清华大学数据结构的文档, 今天有意拿来品味一番, 仅仅对授课方式和授课形式有几点感受, 内容尚待品味:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;授课量大&lt;/strong&gt;, 一个春季学期一共有1200+页PPT;&lt;/li&gt;
-&lt;li&gt;作业比我们多一个实验的项目, 我们较于人家只是把往届的题目腾挪, 没有实质性的变化.&lt;/li&gt;
-&lt;li&gt;授课方式更加国际化, 网课有依赖 &lt;a href=&#34;https://www.edx.org/&#34;&gt;edx&lt;/a&gt;, 课堂讨论使用 &lt;a href=&#34;https://piazza.com/&#34;&gt;Piazza&lt;/a&gt;, 拓展阅读有老师&lt;a href=&#34;https://dsa.cs.tsinghua.edu.cn/~deng/ds/index.htm&#34;&gt;个人的网站&lt;/a&gt;, 里面有国际化的资源地址.采用 &lt;a href=&#34;http://theory.stanford.edu/~aiken/moss/&#34;&gt;Moss&lt;/a&gt; 判重.&lt;/li&gt;
-&lt;/ol&gt;</content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                
-            
-        </entry>
-    
-        <entry>
             <title type="text">Team PTA Summaries</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210412-team-pta-summary/" />
             <id>https://dfslfh.cn/blog/posts/210412-team-pta-summary/</id>
-            <updated>2021-04-24T09:52:26&#43;08:00</updated>
+            <updated>2021-05-27T23:35:51&#43;08:00</updated>
             <published>2021-04-12T13:27:46&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">这个周六日就要举行模拟赛了, 找时间总结一下题目的类型, 打算回头再把自己练习的代码爬下来, 顺便可以联系…
     
@@ -121,7 +42,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;模拟/IO&lt;/td&gt;
-&lt;td&gt;L1-001;L1-002;L1-004;L1-005;L1-007;L1-008;L1-009;L1-010;L1-013;L1-014;L1-015;L1-016;L1-017;L1-018;L1-019;L1-021;L1-022;L1-023;L1-024;L1-025;L1-026;L1-027;L1-028;L1-029;L1-030;L1-031;L1-032;L1-033	;L1-035;L1-036;L1-037;L1-038;L1-039;L1-040;L1-041;L1-042;L1-043;L1-044;L1-044;L1-045;L1-046;L1-047;L1-048;L1-049;L1-050;L1-051;L1-052;L1-053;L1-054;L1-055;L1-056;L1-057;L1-058;L1-059;L1-060;L1-061;L1-062;L1-063;L1-064;L1-065;L1-066;L1-067;L1-068;L1-069;L1-070;L1-072&lt;/td&gt;
+&lt;td&gt;L1-001;L1-002;L1-004;L1-005;L1-007;&lt;br&gt;L1-008;L1-009;L1-010;L1-013;L1-014;L1-015;L1-016;L1-017;L1-018;L1-019;L1-021;L1-022;L1-023;&lt;br&gt;L1-024;L1-025;L1-026;L1-027;L1-028;L1-029;L1-030;L1-031;L1-032;L1-033;L1-035;L1-036;&lt;br&gt;L1-037;L1-038;L1-039;L1-040;L1-041;L1-042;L1-043;L1-044;L1-044;L1-045;L1-046;L1-047;&lt;br&gt;L1-048;L1-049;L1-050;L1-051;L1-052;L1-053;L1-054;L1-055;L1-056;L1-057;L1-058;L1-059;&lt;br&gt;L1-060;L1-061;L1-062;L1-063;L1-064;L1-065;L1-066;L1-067;L1-068;L1-069;L1-070;L1-072&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;字符串匹配&lt;/td&gt;
@@ -171,12 +92,12 @@
             <title type="text">Introduction To Software Engineer</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/introduction-to-software-engineering/" />
             <id>https://dfslfh.cn/blog/posts/introduction-to-software-engineering/</id>
-            <updated>2021-04-04T16:08:52&#43;08:00</updated>
+            <updated>2021-05-19T21:09:55&#43;08:00</updated>
             <published>2021-03-18T23:48:57&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;软件工程导论 在课程上讲了几个月前我在TG上学到的 &lt;a href=&#34;https://t.me/lfh010618/52&#34;&gt;Agile Development-敏捷开发&lt;/a&gt;的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的&lt;a href=&#34;https://agilemanifesto.org/&#34;&gt;网站&lt;/a&gt;. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.&lt;/p&gt;
@@ -187,7 +108,8 @@
 &lt;li&gt;清华大学出版社-张海藩,牟永敏的&amp;lt;&amp;lt;软件工程概论(第六版)&amp;gt;&amp;gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://marlous.github.io/2018/11/04/%E3%80%8A%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA%E3%80%8B%E5%BC%A0%E6%B5%B7%E6%BD%98%E7%89%88%E6%A0%B8%E5%BF%83%E7%BA%B2%E8%A6%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/&#34;&gt;《软件工程导论》张海潘版核心纲要读书笔记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&#34;&gt;程序猿大本营-软件工程导论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;…
+&lt;/ul&gt;
+&lt;p&gt;无独有偶, 阮一峰 也在他的博客上&lt;a href=&#34;http://www.ruanyifeng.com/blog/2021/05/scaling-problem.html&#34;&gt;谈了这门学科&lt;/a&gt;, 关于软件工程的最大难题.&lt;/p&gt;…
     
     </summary>
             
@@ -201,6 +123,7 @@
 &lt;li&gt;&lt;a href=&#34;https://marlous.github.io/2018/11/04/%E3%80%8A%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA%E3%80%8B%E5%BC%A0%E6%B5%B7%E6%BD%98%E7%89%88%E6%A0%B8%E5%BF%83%E7%BA%B2%E8%A6%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/&#34;&gt;《软件工程导论》张海潘版核心纲要读书笔记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/&#34;&gt;程序猿大本营-软件工程导论&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;无独有偶, 阮一峰 也在他的博客上&lt;a href=&#34;http://www.ruanyifeng.com/blog/2021/05/scaling-problem.html&#34;&gt;谈了这门学科&lt;/a&gt;, 关于软件工程的最大难题.&lt;/p&gt;
 &lt;h2 id=&#34;概论&#34;&gt;概论&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;软件危机&lt;/strong&gt;
@@ -604,9 +527,9 @@
             <updated>2021-03-20T22:36:43&#43;08:00</updated>
             <published>2021-03-14T15:55:19&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;最近听梁文道的&lt;a href=&#34;https://vistopia.com.cn&#34;&gt;八分&lt;/a&gt;的节目-我们该怎样和导盲犬相处, &amp;quot;我真心觉得能善待小动物的人坏不到哪去&amp;quot;, 道长的这句话似风筝的线, 把我拉回到了今年年前. 父亲那时捡回来一只小奶猫, 因为正值北方数九寒天, 扔到外面生存基本为0, 所以这只小奶猫(母)就需要在我们家暂呆了一段时间, 开始的时候我并不在意生活中多出来的这么个小玩意, 因为以我多年的经验看这只猫大概率不过一周时间就会被母亲扔掉. 我挽留的能力基本为0, 我本能的觉得自己不需要仍何东西, 包括这只小猫, 但很不意外的是, 我姐她给它买了猫床, 猫笼, 猫砂等一系列物品, 满满地, 母亲反对的声音也没有了. 去年十二月说的要养猫的理想老姐也实现了, 如此一来对她的精神状态也能有所治愈吧, 希望老姐和我都能快点好起来.&lt;/p&gt;…
     
@@ -647,9 +570,9 @@
             <updated>2021-03-04T19:16:12&#43;08:00</updated>
             <published>2021-03-04T17:57:17&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;本文参考教程.&lt;/p&gt;
 &lt;ul&gt;
@@ -762,9 +685,9 @@ sudo systemctl restart docker
             <updated>2021-03-04T21:33:07&#43;08:00</updated>
             <published>2021-02-28T15:33:07&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;经个人的考量, 决定今后每年必发四期个人的总结报告, 分别总结自己在每一个季度的收获和总结, 这一篇文章总结的月份是从 &lt;code&gt;210109&lt;/code&gt;到 &lt;code&gt;210228&lt;/code&gt; , 是我大二寒假的全部收获, 等我 &lt;code&gt;Push &lt;/code&gt; 出来的时候相信寒假已经结束了吧, 记录, 祝福.&lt;/p&gt;…
     
@@ -1324,29 +1247,47 @@ sudo systemctl restart docker
             <title type="text">RSS</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/rss/" />
             <id>https://dfslfh.cn/blog/posts/rss/</id>
-            <updated>2021-02-27T12:42:56&#43;08:00</updated>
+            <updated>2021-04-29T19:53:26&#43;08:00</updated>
             <published>2021-02-26T20:41:19&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;如今 RSS 来源不限于:&lt;/p&gt;
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;RSS 来源:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;feedx.net&lt;/li&gt;
 &lt;li&gt;rsshub.app&lt;/li&gt;
 &lt;li&gt;werss.app&lt;/li&gt;
 &lt;li&gt;rss.mk&lt;/li&gt;
+&lt;li&gt;Individual
+&lt;ul&gt;
+&lt;li&gt;Wordpress: &lt;code&gt;url+/feed/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hugo/Hexo: &lt;code&gt;url+/atom.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Typecho: &lt;code&gt;url+ /rss/&lt;/code&gt; or &lt;code&gt;url+/feed/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CSDN: &lt;code&gt;url+/rss/list/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;博客园: &lt;code&gt;feed.cnblogs.com/blog/u/ + id+ /rss/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;如今 RSS 来源不限于:&lt;/p&gt;
+                <content type="html">&lt;p&gt;RSS 来源:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;feedx.net&lt;/li&gt;
 &lt;li&gt;rsshub.app&lt;/li&gt;
 &lt;li&gt;werss.app&lt;/li&gt;
 &lt;li&gt;rss.mk&lt;/li&gt;
+&lt;li&gt;Individual
+&lt;ul&gt;
+&lt;li&gt;Wordpress: &lt;code&gt;url+/feed/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hugo/Hexo: &lt;code&gt;url+/atom.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Typecho: &lt;code&gt;url+ /rss/&lt;/code&gt; or &lt;code&gt;url+/feed/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CSDN: &lt;code&gt;url+/rss/list/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;博客园: &lt;code&gt;feed.cnblogs.com/blog/u/ + id+ /rss/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;opml&#34;&gt;OPML&lt;/h2&gt;
 &lt;p&gt;格式:&lt;/p&gt;
@@ -1446,9 +1387,9 @@ sudo systemctl restart docker
             <updated>2021-03-06T14:22:13&#43;08:00</updated>
             <published>2021-02-24T18:21:11&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;静态构建网站&lt;/strong&gt;:
@@ -1530,9 +1471,9 @@ sudo systemctl restart docker
             <updated>2021-04-23T20:19:31&#43;08:00</updated>
             <published>2021-02-24T16:42:01&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;先科普些基础知识&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/pictures/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1695,9 +1636,9 @@ sudo systemctl restart docker
             <updated>2021-02-24T22:00:37&#43;08:00</updated>
             <published>2021-02-23T15:19:23&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;由于这一部在 2019 年播出的剧集中讽刺中国而遭中国陆内全网封禁的动画, 两年后我突然想起了这一部剧集, 只是我在几年前玩过它的(盗版)游戏. 我对这样的绘画风格感到新奇, 就想拿来瞅一瞅. 我在互联网存档馆找到一些&lt;a href=&#34;https://web.archive.org/web/20191005150919/https://www.zhihu.com/search?type=content&amp;amp;q=%E5%8D%97%E6%96%B9%E5%85%AC%E5%9B%AD&#34;&gt;当年知乎的讨论&lt;/a&gt;/&lt;a href=&#34;https://web.archive.org/web/20160924040300/http://tieba.baidu.com/f?kw=%E5%8D%97%E6%96%B9%E5%85%AC%E5%9B%AD&amp;amp;ie=utf-8&#34;&gt;当年7万关注的贴吧&lt;/a&gt;/&lt;a href=&#34;https://web.archive.org/web/20150319184317/https://movie.douban.com/subject/1295428/&#34;&gt;当年豆瓣页面&lt;/a&gt;. 本人已 Archive 了一份, 如果你需要, 请记得联系我.&lt;/p&gt;…
     
@@ -1746,9 +1687,9 @@ sudo systemctl restart docker
             <updated>2021-04-28T23:55:07&#43;08:00</updated>
             <published>2021-01-28T17:39:35&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;本文参考:&lt;/p&gt;
 &lt;ul&gt;
@@ -2793,9 +2734,9 @@ $ reboot
             <updated>2021-03-08T23:20:29&#43;08:00</updated>
             <published>2021-01-26T19:57:30&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;Getting Things Done, 直接翻译为“把事情做完”，本身就很可能让人误解成——你必须做完所有的事情。但其实，“&lt;strong&gt;把你需要做的事情列出来，并处理它&lt;/strong&gt;” 和“把事情做完”是两件完全不同的事情。而 GTD 所强调的，是前者。&lt;/p&gt;
 &lt;p&gt;本文源于 &lt;a href=&#34;https://dfslfh.cn/blog//topcook.cc/&#34;&gt;Topbook&lt;/a&gt; 的免费公开课, 课程的名称是 &lt;a href=&#34;https://topbook.cc/course/detail/153&#34;&gt;重新认识 GTD&lt;/a&gt;, 写作的目的是落实到自己身上. 所以只截取有用的部分.&lt;/p&gt;…
@@ -2901,9 +2842,9 @@ $ reboot
             <updated>2021-01-26T17:42:17&#43;08:00</updated>
             <published>2021-01-26T16:50:29&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;世界上现在有 60 多种被开源促进组织（ Open Source Initiative）认可的开源许可协议来保证开源工作者的权益. 本文涉及的协议有: AL, CC, GPL, LGPL, BSD等协议.&lt;/p&gt;
 &lt;ul&gt;
@@ -3080,9 +3021,9 @@ $ reboot
             <updated>2021-04-14T21:23:51&#43;08:00</updated>
             <published>2021-01-22T19:52:50&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;机器学习最重要的是“预测”，因此“机器学习”包含两个部分:&lt;/p&gt;
 &lt;ul&gt;
@@ -4925,9 +4866,9 @@ $ reboot
             <updated>2021-04-07T22:11:17&#43;08:00</updated>
             <published>2021-01-21T14:31:44&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;问题皆来源于下面的两个链接&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/210121-stackover-top-notes/#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 本文做了部分的摘录, 感谢翻译：&lt;/p&gt;
 &lt;ol&gt;
@@ -6988,9 +6929,9 @@ sizeof(long long) &amp;gt;= 8
             <updated>2021-04-23T19:00:14&#43;08:00</updated>
             <published>2021-01-20T21:58:28&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;其实摄影和绘画、文字、音乐一样，都是一个载体，一个将创作者的思想或意图传达给读者（观众、听众）的载体。&lt;/p&gt;
 &lt;p&gt;好照片:&lt;/p&gt;
@@ -7189,9 +7130,9 @@ sizeof(long long) &amp;gt;= 8
             <updated>2021-03-29T21:06:58&#43;08:00</updated>
             <published>2021-01-19T18:11:54&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;strong&gt;[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;https://dfslfh.cn/blog//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;…
@@ -8803,9 +8744,9 @@ $ vim Clash.desktop
             <updated>2021-04-28T23:49:17&#43;08:00</updated>
             <published>2021-01-18T18:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;无独有偶, 在B站破圈的那一天, 这个灰色领域就暴露了无尽的问题, 内容审查, 盗版版权, 情色商品化和女权问题, 最近越来越多的汉化组也集体解散, 当年的破圈以为是一束光照进我们的世界, 我一开始为更多人的到来感到开心, 这个圈子终于不再小众, 但是果真从了那句&amp;quot;小众破圈之后就相当于死亡&amp;quot;的那句箴言, 没有阳光的地带, 有了光亮, 就不复存在&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/galgame/#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -8890,9 +8831,9 @@ $ vim Clash.desktop
             <updated>2021-01-24T20:09:28&#43;08:00</updated>
             <published>2021-01-18T16:43:20&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;说说耳机的 坑点, 信息获取 及 主观感受. 先看看我用过的耳机:&lt;/p&gt;
 &lt;table&gt;
@@ -9304,9 +9245,9 @@ $ vim Clash.desktop
             <updated>2021-01-17T17:47:52&#43;08:00</updated>
             <published>2021-01-17T17:33:21&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.&lt;/p&gt;
 &lt;p&gt;一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。&lt;/p&gt;…
@@ -9361,9 +9302,9 @@ $ vim Clash.desktop
             <updated>2021-01-17T18:08:52&#43;08:00</updated>
             <published>2021-01-17T14:44:52&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;A Internet spec called  &lt;a href=&#34;http://www.ietf.org/rfc/rfc1918.txt&#34;&gt;RFC 1918&lt;/a&gt; (Request For Comments) reserved a few blocks of addressnss for &amp;quot;private&amp;quot; network. 192.168/16 was one of those blocks.&lt;/p&gt;</summary>
             
@@ -9423,9 +9364,9 @@ $ vim Clash.desktop
             <updated>2021-02-23T16:52:31&#43;08:00</updated>
             <published>2021-01-01T00:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;像大多数人一样, 我也要象征性地写一份年终报告, 我正从下午的美梦的挣扎起来, 揉搓着疲惫的眼睛, 拿着几条咖啡, 我不知道这样子挥霍午觉的日子还有多少, 至少在上半年的时间里我是不怎么睡午觉的, 靠着大量的咖啡因和可乐度过了在家的漫长的假期. 最后的后果就是牙裂了, 幸好没有伤害到牙神经, 还发现自己的牙齿蛀掉5颗, 哭死啦!!! 以后&lt;strong&gt;一定一定一定要定期去看牙齿, 这是一个必须养成的好习惯&lt;/strong&gt;.&lt;/p&gt;…
     
@@ -9828,9 +9769,9 @@ $ vim Clash.desktop
             <updated>2021-01-17T04:26:00&#43;08:00</updated>
             <published>2020-12-05T00:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;主要内核有两种:&lt;/p&gt;
 &lt;ul&gt;
@@ -9911,9 +9852,9 @@ $ vim Clash.desktop
             <updated>2021-02-24T17:42:48&#43;08:00</updated>
             <published>2020-11-06T00:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;版本控制系统 —— 记录每次文件的改动，协作编辑，避免管理一堆类似的文件了，也不需要把文件传来传去。&lt;/p&gt;
 &lt;p&gt;如果想查看某次改动，只需要在软件里瞄一眼就可以，能记录每次文件的改动：&lt;/p&gt;
@@ -10765,9 +10706,9 @@ git push origin :refs/tags/v0.9
             <updated>2021-02-24T00:45:35&#43;08:00</updated>
             <published>2020-10-16T14:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;其实在现在的我来看, 生产环境配置都很简单, 只需要两个步骤 :&lt;/p&gt;
 &lt;ul&gt;
@@ -10903,9 +10844,9 @@ bin/jlink --module-path jmods --add-modules java.desktop --output jre &lt;span c
             <updated>2021-03-19T23:40:46&#43;08:00</updated>
             <published>2020-09-01T22:21:38&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;该怎么去面对自己在一个月的时间里没有好好写好 &amp;quot;学生选课系统&amp;quot; 这一个简单的 &lt;code&gt;Cpp&lt;/code&gt; 程序, 这篇文章鸽了很久, 我多少希望自己逃避这个对我造成不小阴影的时间段, 我不知道那些跟着联盟导师团伙做项目的同学增长了多少知识, 但我在一个月的时间里缺乏真的效率很低, 多次心态接近低到零点爆炸, 甚至开始怀疑自己是不是真的适合这门学科. 说多了也只是为自己的低能找借口开脱, 我总结以下几个方面, 附带一些槽点, 诚恳总结如下:&lt;/p&gt;
 &lt;ul&gt;
@@ -12342,9 +12283,9 @@ Unix-land has no standard &lt;code&gt;pause&lt;/code&gt; command.&lt;/li&gt;
             <updated>2021-02-27T12:44:06&#43;08:00</updated>
             <published>2020-08-20T19:35:43&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;a href=&#34;https://github.com/electron/electron&#34;&gt;Electron&lt;/a&gt;, html/css/js的跨平台应用开发框架, 额外需要用到&lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;NodeJS&lt;/a&gt;, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -12664,9 +12605,9 @@ $ vim index.html
             <updated>2021-03-29T22:23:14&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;ul&gt;
 &lt;li&gt;MIT Open Lience.&lt;/li&gt;
@@ -12941,9 +12882,9 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             <updated>2021-01-17T01:19:52&#43;08:00</updated>
             <published>2020-07-15T00:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;夜色正浓，他再一次被热醒，有点迷糊，侧过身子，他看向周围的一切，远处灯光平静地打在课桌上，书本试卷被卷在他的身后，褶皱书本已被汗渍浸湿，那些断断续续失色的黑字让他感到厌倦，起身，他静静地注视着周遭的一切，书本像行星围绕在他周围，他自己仿佛就是一个巨大的黑洞，会吸引吞噬并摧毁周围的一切。一只蚊子飞过，起飞，着陆，起飞，再着陆，他感到厌烦，用拳头握住头顶的蚊子，草草结束了蚊子的一生。&lt;/p&gt;…
     
@@ -13003,9 +12944,9 @@ loadScript&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34
             <updated>2021-04-09T16:04:54&#43;08:00</updated>
             <published>2020-02-26T23:51:37&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 &lt;code&gt;google&lt;/code&gt; 高兴一下, 然后就没时间了, 一天下来等于什么都没干...... 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开&lt;code&gt;clash.razord.top/#/settings&lt;/code&gt;. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:&lt;/p&gt;
 &lt;ul&gt;
@@ -13383,9 +13324,9 @@ yarn config delete https-proxy
             <updated>2021-02-07T22:32:55&#43;08:00</updated>
             <published>2020-02-25T11:55:08&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;主讲人：&lt;a href=&#34;https://baike.baidu.com/item/%E6%B2%88%E5%A5%95%E6%96%90/4232616&#34;&gt;沈弈斐&lt;/a&gt;副教授&lt;/p&gt;
 &lt;blockquote&gt;
@@ -13509,9 +13450,9 @@ yarn config delete https-proxy
             <updated>2021-02-24T00:44:10&#43;08:00</updated>
             <published>2020-02-20T16:30:30&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;文字选自拾穗人的画集《我希望自己足够渺小》。有趣的是，不足1100的文字却足够让我震撼。在高三那段一个人的时间里，情感堆积，这本书成为了我短暂的情绪宣泄的出口，坐在图书书架下埋头一个小时看完总是让人浮想联翩。和往日看到的画作不同，他讲的是一个个个人的悲剧，将视角拉近，一个人内心的私欲被揭而讽刺。看完之后自然很是压抑，但是我们还是必须相信美好的事情即将发生，因为真的有源源不断的希望等着我们。祝福你我。 🎈&lt;/p&gt;…
     
@@ -13603,9 +13544,9 @@ yarn config delete https-proxy
             <updated>2021-02-26T19:15:56&#43;08:00</updated>
             <published>2020-02-08T04:39:30&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;高三听歌乍见，甚是欢喜, 感觉讲的很通透，遂找来细品.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：梁永安，⽂学博⼠，复旦⼤学⽐较⽂学与⽐较⽂化专业副教授，韩国梨花⼥⼦⼤学⼤学客座教授 ，⽇本神户外国语⼤学客座教授 ，⽇本冈⼭⼤学客座教授 美国波⼠顿⼤学客座教授 长期从事⽐较⽂学与⽐较⽂化研究，主要研究领域为： 中国近代教会⼤学与中外⽂学关系 景观社会中的⼩说与电影 城市化与中国多元⽂化资源的再⽣性聚合 。&lt;/p&gt;…
@@ -13948,9 +13889,9 @@ yarn config delete https-proxy
             <updated>2021-02-27T15:32:00&#43;08:00</updated>
             <published>2020-01-30T13:59:24&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;这篇文章只是个人 &lt;strong&gt;就IPS论IPS&lt;/strong&gt; 的一些片面的看法, 由于内容被墙的无奈而有的情绪发泄, 自然带有强烈的主观情绪, 本文不适合任何人阅读, 请慎重浏览, 如果你觉得我错了, 我提前和你说, &amp;quot;&lt;strong&gt;对不起, 你是对的&lt;/strong&gt;&amp;quot;.&lt;/p&gt;
 &lt;p&gt;我写文的原因是 Wikipedia 被墙后, 深感国内查阅知识的门槛之高, 因为陆内百度百科冷门词条要么没有, 要么东西甚少, CSDN博客质量停留在 Ctrl C/V 之间, 博客园半死不活, 剩下的就是一堆营销号留下的似明日黄花的文章(甚至我觉得文章是用&lt;a href=&#34;https://github.com/menzi11/BullshitGenerator&#34;&gt;狗屁不同生成器&lt;/a&gt;生成的), 一句话可以说清楚的事情动辄上千字的文章? 再加上知网, 各大学的图书馆不对外开放, 公共资源如此之少, 配合陆内的局域网封锁, 你想看的东西大多是 &lt;code&gt;404&lt;/code&gt;, &lt;code&gt;网络已经被重置&lt;/code&gt;, &lt;code&gt;网页经举报无法访问&lt;/code&gt;种种, 不胜枚举. 多年后我再逛贴吧, 一些墙外没有的知识这里有, 捂脸长笑, 原来 &lt;strong&gt;中国的 Wikipedia&lt;/strong&gt; 就在 &lt;strong&gt;百度贴吧&lt;/strong&gt; 啊, 但由于 &lt;strong&gt;内容的审查, 政策的调整 和 版主素质的层次不齐&lt;/strong&gt; 真的很难保全贴吧的内容和用户......&lt;/p&gt;
@@ -14146,9 +14087,9 @@ yarn config delete https-proxy
             <updated>2021-03-29T21:08:53&#43;08:00</updated>
             <published>2020-01-18T00:00:00&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;说实话如果要把我找工具的经历一一记下的话可能篇幅过长, 那我尽量长话短说, 只记录要点. 长时间的寻找工具让我觉得软件间其实并没有绝对的差异, 更多时候也可以曲线救国找到临时解决方案, 过不了多久开发者就会跟近需求功能并逐一上线.&lt;/p&gt;
 &lt;p&gt;不要忘记找工具的主要目的是&lt;strong&gt;提高效率&lt;/strong&gt;, 如果自己因为寻找工具而惶惶不可终日, 那么一定是磨刀反误砍柴工了, 因为你的目的已经不是解决需求, 而是不断的创造需求, 无穷递归的时间复杂度很大的噢! 有种新型的说法是 &lt;strong&gt;productivity porn&lt;/strong&gt;, 专指那些热衷于寻找大量工具但是从来不会湿鞋的一群人&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/config/#j8&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;.如有&lt;a href=&#34;https://twitter.com/XDash/status/1372355660067663875&#34;&gt;一位朋友说&lt;/a&gt;的:&lt;/p&gt;
@@ -14904,34 +14845,32 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
             <title type="text">Blog</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/blog/" />
             <id>https://dfslfh.cn/blog/posts/blog/</id>
-            <updated>2021-04-07T22:26:15&#43;08:00</updated>
+            <updated>2021-05-08T18:04:48&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
-            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;博客是什么?&lt;/p&gt;
-&lt;p&gt;写文? 记录? 装X?&lt;/p&gt;
-&lt;p&gt;可能都不是, 可能都是, 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我所知道博客, 现阶段只包括 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
-&lt;p&gt;To Be Continued....&lt;/p&gt;…
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;strong&gt;国内的功利主义者凡事都追求意义&lt;/strong&gt;. 为什么博客是他们绕不开的问题, 单纯为了写文? 亦或是记录? 简单的自我吹嘘? 可能都不是, 可能都是, 但一定是媚俗, 我羡慕那些从来都不写任何东西还能将食物娓娓道来的人们. 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我搭建过的一些博客(&lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Hexo&lt;/code&gt;, &lt;code&gt;Hugo&lt;/code&gt;, &lt;code&gt;Typecho&lt;/code&gt;)以及对博客的想法, 如果你只希望获得一个写作平台, 你也可以选择 &lt;code&gt;Notion&lt;/code&gt;, &lt;code&gt;Typlog&lt;/code&gt;, &lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Blogger&lt;/code&gt;, 甚至可以是万能的 &lt;code&gt;Telegram&lt;/code&gt;, &lt;code&gt;Twitter&lt;/code&gt;.如果你对这方面感兴趣, 推荐 &lt;a href=&#34;https://pythonhunter.org/episodes/ep25&#34;&gt;Ep 25. 个人知识管理体系系列 - 输出篇&lt;/a&gt;, 那么话再说回来, 我为什么写文?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我习惯称她为夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 她离开的时候也带走了我的一部分, 但我什么都做不了. 高考后拿到新手机和电脑后就断了联系, 我很想她.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字到 &lt;code&gt;Twitter&lt;/code&gt; 上, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 在这个24小时都能被打扰的世界中, 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来将自己暴露给他人是我的私心, 我不希望有些事情就这样过去, 也想被别人读到, 减少他们的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
+&lt;/ul&gt;…
     
     </summary>
             
-                <content type="html">&lt;p&gt;博客是什么?&lt;/p&gt;
-&lt;p&gt;写文? 记录? 装X?&lt;/p&gt;
-&lt;p&gt;可能都不是, 可能都是, 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我所知道博客, 现阶段只包括 Wordpress, Hexo, Hugo, Typecho.&lt;/p&gt;
+                <content type="html">&lt;p&gt;&lt;strong&gt;国内的功利主义者凡事都追求意义&lt;/strong&gt;. 为什么博客是他们绕不开的问题, 单纯为了写文? 亦或是记录? 简单的自我吹嘘? 可能都不是, 可能都是, 但一定是媚俗, 我羡慕那些从来都不写任何东西还能将食物娓娓道来的人们. 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我搭建过的一些博客(&lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Hexo&lt;/code&gt;, &lt;code&gt;Hugo&lt;/code&gt;, &lt;code&gt;Typecho&lt;/code&gt;)以及对博客的想法, 如果你只希望获得一个写作平台, 你也可以选择 &lt;code&gt;Notion&lt;/code&gt;, &lt;code&gt;Typlog&lt;/code&gt;, &lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Blogger&lt;/code&gt;, 甚至可以是万能的 &lt;code&gt;Telegram&lt;/code&gt;, &lt;code&gt;Twitter&lt;/code&gt;.如果你对这方面感兴趣, 推荐 &lt;a href=&#34;https://pythonhunter.org/episodes/ep25&#34;&gt;Ep 25. 个人知识管理体系系列 - 输出篇&lt;/a&gt;, 那么话再说回来, 我为什么写文?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我习惯称她为夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 她离开的时候也带走了我的一部分, 但我什么都做不了. 高考后拿到新手机和电脑后就断了联系, 我很想她.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字到 &lt;code&gt;Twitter&lt;/code&gt; 上, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 在这个24小时都能被打扰的世界中, 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来将自己暴露给他人是我的私心, 我不希望有些事情就这样过去, 也想被别人读到, 减少他们的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;跳出舒适圈&lt;/strong&gt;: 博客就像日记，如果你发现用于记录的纸张已经用了好大一部分了, 但每一页几乎都相同, 那么你就该去看看更加广阔的世界了。如果顺利的话, 期待下次与你的 &amp;quot;好久不见&amp;quot; !&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;To Be Continued....&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我的那位朋友叫夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 最近她越来越少出现了, 同时, 她也带走了我自我的一部分, 我明显的感到自己失去了什么, 但是无可挽回. 高考后我买了新手机和梦寐以求的电脑, 并把时间全数花在PS和拍摄上, 不得不承认, 很长的一段时间我淡忘了她，断断续续写的信件得不到回应，难免很想她.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来自然是我的私心, 我不希望有些事情就这样过去, 也希望他们暴露在阳光下, 想被一样的人读到, 减少个体的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;批注&lt;/strong&gt;:
-&lt;ul&gt;
-&lt;li&gt;博客就像日记，如果你发现用于记录的纸张已经用了好大一部分了, 但每一页几乎都相同, 那么你就该去看看更加广阔的世界了。如果顺利的话, 期待下次与你的 &amp;quot;好久不见&amp;quot; !&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;logs&#34;&gt;LOGS&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;b&gt;19年12月23日&lt;/b&gt;&lt;/font&gt;：搭博客，效果可，Bugs多(Hexo本地文件的损坏、themes的主题配置失败、themes的主题内部Wrap函数错误)，不明所以，干掉重来。&lt;/li&gt;
@@ -14958,6 +14897,9 @@ sudo sysctl -p &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sud
 &lt;blockquote&gt;
 &lt;p&gt;本网站是个人网站，不含有企业、单位等非个人网站的信息，不涉及企业及互联网金融内容，若在核实中发现网站中含有企业、单位等信息，本人愿接受以虚假信息进行备案，注销网站，并将主体和域名加入黑名单的处罚。我的网站内容是：记录自己学习服务器过程中遇到的问题与相应的解决办法，上传个人编写的文章，图片，内容基本为原创。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;font color=&#34;red&#34;&gt;&lt;strong&gt;21年05月08日&lt;/strong&gt;&lt;/font&gt;: 听从伊藤谦一的回答 &lt;code&gt;中文排版中有必要使用「首字下沉」吗？使用时需要注意什么问题？&lt;/code&gt;, 中文博客默认采取正常排版方式, 英文正式采用首字下沉的方案.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;hexo&#34;&gt;HEXO&lt;/h2&gt;
 &lt;p&gt;放弃Hexo类静态博客, 江湖路远, 有缘再见. 一款烂大街到游戏社区(小黑盒)都能看到这个博客的教程, 如果你的 Github 的Img不显示问题了，定是配置文件没写全(；′⌒`)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[准备]&lt;/strong&gt;:&lt;/p&gt;
@@ -15287,12 +15229,12 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
             <title type="text">Books</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/books/" />
             <id>https://dfslfh.cn/blog/posts/books/</id>
-            <updated>2021-03-19T20:29:18&#43;08:00</updated>
+            <updated>2021-05-13T23:26:39&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;科普一下格式:&lt;/p&gt;
 &lt;ul&gt;
@@ -15303,7 +15245,11 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;:  &lt;code&gt;Amazon&lt;/code&gt;私有格式, 亚马逊利用&lt;code&gt;azw&lt;/code&gt; 对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;KF8&lt;/code&gt;(2011), 填补 &lt;code&gt;Mobi&lt;/code&gt; 对复杂排版支持, 支持很多 HTML5, 正逐渐取代 mobi 成为 Kindle 主流格式&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DRM移除&lt;/strong&gt;: 参考 &lt;a href=&#34;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&#34;&gt;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软 1998 年替代早先的 WinHelp 帮助系统,基于 HTML 文件特性的帮助文件系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
 - pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
 - &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -15320,7 +15266,11 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;:  &lt;code&gt;Amazon&lt;/code&gt;私有格式, 亚马逊利用&lt;code&gt;azw&lt;/code&gt; 对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;KF8&lt;/code&gt;(2011), 填补 &lt;code&gt;Mobi&lt;/code&gt; 对复杂排版支持, 支持很多 HTML5, 正逐渐取代 mobi 成为 Kindle 主流格式&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DRM移除&lt;/strong&gt;: 参考 &lt;a href=&#34;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&#34;&gt;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软 1998 年替代早先的 WinHelp 帮助系统,基于 HTML 文件特性的帮助文件系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
 - pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
 - &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;https://dfslfh.cn/blog/posts/books/#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -15373,9 +15323,9 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
             <updated>2021-03-19T20:29:01&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;说实话中文字体界实在是太乱了, 在使用过&lt;a href=&#34;https://dfslfh.cn/blog//fonts.google.com&#34;&gt;Google Fonts&lt;/a&gt;之后一直想找替代的网站, 简中搜索结果总是着指向诸如xxx下载站, pc下载站, 第一字体网之类的质量十分低下(缺乏&lt;strong&gt;字体介绍&lt;/strong&gt;, &lt;strong&gt;使用许可&lt;/strong&gt;, &lt;strong&gt;作者详情&lt;/strong&gt;, &lt;strong&gt;官方网站&lt;/strong&gt;等)的网站, 然而他们的 SEO 偏偏总是最高的, 这种资源的不平衡让我有点受不了, 这和人们的使用习惯, 闭源的运营方式, 严格的审查制度有着十分密切的关系.&lt;/p&gt;…
     
@@ -15540,9 +15490,9 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
             <updated>2021-03-19T20:29:37&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。&lt;/p&gt;
 &lt;p&gt;其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。&lt;/p&gt;…
@@ -16391,9 +16341,9 @@ remove_action( &#39;wp_enqueue_scripts&#39;, &#39;wp_common_block_scripts_and_st
             <updated>2021-03-19T20:29:29&#43;08:00</updated>
             <published>2019-12-13T02:40:57&#43;08:00</published>
             <author>
-                    <name>DandelionFs</name>
+                    <name>bGZoCg</name>
                     <uri>https://dfslfh.cn/blog/</uri>
-                    <email>lfh010618@gmail.com</email>
+                    <email>bGZoCg#outlook.com</email>
                     </author>
             <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;科普一下格式:&lt;/p&gt;
 &lt;ul&gt;
