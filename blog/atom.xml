@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">NOTHING BUT YOURSELF</title>
     <subtitle type="html">bGZoCg Penal Colony | bGZoCg的自留地</subtitle>
-    <updated>2021-05-27T23:36:38&#43;08:00</updated>
+    <updated>2021-06-06T22:37:08&#43;08:00</updated>
     <id>https://dfslfh.cn/blog/</id>
     <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/" />
     <link rel="self" type="application/atom&#43;xml" href="https://dfslfh.cn/blog/atom.xml" />
@@ -16,6 +16,33 @@
             </author>
     <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+        <entry>
+            <title type="text">Summer Summary</title>
+            <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210606-summer-summary/" />
+            <id>https://dfslfh.cn/blog/posts/210606-summer-summary/</id>
+            <updated>2021-06-06T22:36:49&#43;08:00</updated>
+            <published>2021-06-06T00:00:00&#43;08:00</published>
+            <author>
+                    <name>bGZoCg</name>
+                    <uri>https://dfslfh.cn/blog/</uri>
+                    <email>bGZoCg#outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;不会有人一直高考, 但总有人在高考, 又是一年高考季, 在 Notion 总结了从 4月 来发生的事, 发布在&lt;a href=&#34;https://www.notion.so/210420-210608-0f190ea189e24f8e833a62d5f3e53eaf&#34;&gt;这里&lt;/a&gt;.&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p&gt;不会有人一直高考, 但总有人在高考, 又是一年高考季, 在 Notion 总结了从 4月 来发生的事, 发布在&lt;a href=&#34;https://www.notion.so/210420-210608-0f190ea189e24f8e833a62d5f3e53eaf&#34;&gt;这里&lt;/a&gt;.&lt;/p&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Team PTA Summaries</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210412-team-pta-summary/" />
@@ -9358,10 +9385,10 @@ $ vim Clash.desktop
         </entry>
     
         <entry>
-            <title type="text">我的404*5</title>
+            <title type="text">A Summary For 404*5</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/210101-my404-5/" />
             <id>https://dfslfh.cn/blog/posts/210101-my404-5/</id>
-            <updated>2021-02-23T16:52:31&#43;08:00</updated>
+            <updated>2021-05-28T15:06:05&#43;08:00</updated>
             <published>2021-01-01T00:00:00&#43;08:00</published>
             <author>
                     <name>bGZoCg</name>
@@ -10841,7 +10868,7 @@ bin/jlink --module-path jmods --add-modules java.desktop --output jre &lt;span c
             <title type="text">IMU Short Term Develop</title>
             <link rel="alternate" type="text/html" href="https://dfslfh.cn/blog/posts/200901-imu-short-term-develop/" />
             <id>https://dfslfh.cn/blog/posts/200901-imu-short-term-develop/</id>
-            <updated>2021-03-19T23:40:46&#43;08:00</updated>
+            <updated>2021-05-28T15:08:16&#43;08:00</updated>
             <published>2020-09-01T22:21:38&#43;08:00</published>
             <author>
                     <name>bGZoCg</name>

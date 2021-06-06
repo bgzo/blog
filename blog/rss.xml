@@ -23,10 +23,34 @@
         
             <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 27 May 2021 23:36:38 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 06 Jun 2021 22:37:08 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://dfslfh.cn/blog/rss.xml" />
         
+        
+            <item>
+                <title>Summer Summary</title>
+                <link>https://dfslfh.cn/blog/posts/210606-summer-summary/</link>
+                <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210606-summer-summary/</guid>
+                <pubDate>Sun, 06 Jun 2021 00:00:00 &#43;0800</pubDate>
+                
+                    <author>bGZoCg#outlook.com (bGZoCg)</author>
+                
+                <copyright>[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;不会有人一直高考, 但总有人在高考, 又是一年高考季, 在 Notion 总结了从 4月 来发生的事, 发布在&lt;a href=&#34;https://www.notion.so/210420-210608-0f190ea189e24f8e833a62d5f3e53eaf&#34;&gt;这里&lt;/a&gt;.&lt;/p&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Team PTA Summaries</title>
@@ -9132,7 +9156,7 @@ $ vim Clash.desktop
             </item>
         
             <item>
-                <title>我的404*5</title>
+                <title>A Summary For 404*5</title>
                 <link>https://dfslfh.cn/blog/posts/210101-my404-5/</link>
                 <guid isPermaLink="true">https://dfslfh.cn/blog/posts/210101-my404-5/</guid>
                 <pubDate>Fri, 01 Jan 2021 00:00:00 &#43;0800</pubDate>
