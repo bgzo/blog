@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="End to End 端对端 - @bGZoCg">
+    <meta name="twitter:description" content="The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.
+一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。
+">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="End to End 端对端 - @bGZoCg">
+    <meta property="og:description" content="The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.
+一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。
+">
+    <meta property="og:url" content="https://bgzocg.me/210117-end-to-end/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>End to End 端对端 - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.
+一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。
+">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">End to End 端对端</h1>
+    <time datetime="2021-01-17 17:33:21 CST">17 Jan 2021</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/networks">Networks</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <p>The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.</p>
+<p>一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。</p>
+<h2 id="details">DETAILS</h2>
+<p>A basic premise of the principle is that the payoffs from adding features to a simple network quickly diminish, especially in cases in which the end hosts have to implement those functions only for reasons of conformance, i.e. completeness and correctness based on a specification. Implementing a specific function incurs some resource penalties regardless of whether the function is used or not, and implementing a specific function in the network distributes these penalties among all clients.</p>
+<p>基本前提是，将特征添加到简单网络的收益会迅速减少，尤其是在最终主机仅出于一致性（即基于规范的完整性和正确性）的原因而必须实现这些功能的情况下。不管是否使用该功能，实现特定功能都会招致一些资源损失，并且在网络中实现特定功能会将这些损失分配给所有客户端。</p>
+<p>Internet Protocol (IP) is a connectionless datagram service with no delivery guarantees. On the internet, IP is used for nearly all communications. End-to-end acknowledgment and retransmission is the responsibility of the connection-oriented Transmission Control Protocol (TCP) which sits on top of IP. The functional split between IP and TCP exemplifies the proper application of the end-to-end principle to transport protocol design.</p>
+<p>IP几乎用于所有通信。端到端的确认和重传是IP之上的面向连接的传输控制协议（TCP）的职责。IP和TCP之间的功能划分体现了端到端原理在传输协议设计中的正确应用。</p>
+<h2 id="limit">LIMIT</h2>
+<p>The most important limitation of the end-to-end principle is that its basic premise, placing functions in the application endpoints rather than in the intermediary nodes, is not trivial to implement.</p>
+<p>An example of the limitations of the end-to-end principle exists in mobile devices, for instance with mobile IPv6. Pushing service-specific complexity to the endpoints can cause issues with mobile devices if the device has unreliable access to network channels.</p>
+<p>Further problems can be seen with a decrease in network transparency from the addition of network address translation (NAT), which IPv4 relies on to combat address exhaustion. With the introduction of IPv6, users once again have unique identifiers, allowing for true end-to-end connectivity. Unique identifiers may be based on a physical address, or can be generated randomly by the host.</p>
+<ul>
+<li>将功能置于应用程序端点而不是中间节点中的基本前提是不容易实现的。</li>
+<li>存在于移动设备（例如，移动IPv6）中。如果设备对网络通道的访问不可靠，则将特定于服务的复杂性推向端点可能会导致<strong>移动设备出现问题</strong>。</li>
+<li>通过添加网络地址转换（NAT）可以看到网络透明度降低带来的其他问题，而IPv4依赖于它来对抗地址耗尽。随着IPv6的推出，用户再次拥有唯一的标识符，从而实现了真正的端到端连接。唯一标识符可以基于物理地址，也可以由主机随机生成。</li>
+</ul>
+<h2 id="references">REFERENCES</h2>
+<ol>
+<li><a href="https://en.wikipedia.org/wiki/End-to-end_principle">End-to-end_principle</a></li>
+</ol>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

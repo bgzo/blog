@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPS on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/vps/</link>
+    <description>Recent content in VPS on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Feb 2020 23:51:37 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxy</title>
+      <link>https://bgzocg.me/proxy/</link>
+      <pubDate>Wed, 26 Feb 2020 23:51:37 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/proxy/</guid>
+      <description>&lt;p&gt;提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 &lt;code&gt;google&lt;/code&gt; 高兴一下, 然后就没时间了, 一天下来等于什么都没干&amp;hellip;&amp;hellip; 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开&lt;code&gt;clash.razord.top/#/settings&lt;/code&gt;. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开了系统代理 &amp;amp;&amp;amp; &lt;code&gt;Clash&lt;/code&gt; 全部开启&lt;/li&gt;
+&lt;li&gt;配置文件格式有问题&lt;/li&gt;
+&lt;li&gt;变量的大小写问题&lt;/li&gt;
+&lt;li&gt;变量的端口的有无&lt;/li&gt;
+&lt;li&gt;映射端口是否对应&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./clash -d .&lt;/code&gt; &amp;amp; &lt;code&gt;./clash&lt;/code&gt; 的效果不一致.&lt;/li&gt;
+&lt;li&gt;套餐过期/场主跑路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

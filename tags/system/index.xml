@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/system/</link>
+    <description>Recent content in System on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kernel</title>
+      <link>https://bgzocg.me/kernel/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/kernel/</guid>
+      <description>&lt;p&gt;主要内核有两种:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Window NT&lt;/strong&gt; : 内核自身闭源，所以普通的扩展方法就是写驱动，驱动加载进去基本也就什么都能做了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LINUX&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对于哪种内核更加安全, 有人这样说:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;就计算机安全来说，离不开谈论的环境，即所谓要确立&amp;quot;可信计算域&amp;quot;的概念和范围.&lt;/p&gt;
+&lt;p&gt;内核内就是“可信计算域”，这里面能做出危害整个系统的事情。&lt;/p&gt;
+&lt;p&gt;要确立“可信计算域”，安全是对用户来说的，无论吹得多么天花乱坠，伤害了最终用户，再先进的技术也是不安全的。[1]&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

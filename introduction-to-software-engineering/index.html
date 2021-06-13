@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Introduction To Software Engineer - @bGZoCg">
+    <meta name="twitter:description" content="软件工程导论 在课程上讲了几个月前我在TG上学到的 Agile Development-敏捷开发的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的网站. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.
+课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下预复习, 平时应付, 考前冲锋, 及格光荣. 悲夫&amp;hellip;
+ 内容主要来自
+ 清华大学出版社-张海藩,牟永敏的&amp;laquo;软件工程概论(第六版)&amp;raquo; 《软件工程导论》张海潘版核心纲要读书笔记 程序猿大本营-软件工程导论  无独有偶, 阮一峰 也在他的博客上谈了这门学科, 关于软件工程的最大难题.
+概论  软件危机  介绍 原因 消除途径   软件工程(工程学科)  软件工程的介绍  工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它   软件工程的基本原理 软件工程方法学  软件工程 三要素：方法，工具，过程 软件方法学 三要素：程序加数据，文档     软件生命周期  三个时期 八个阶段   软件过程  瀑布模型: 需求分析-&amp;gt;规格说明-&amp;gt;设计-&amp;gt;编码-&amp;gt;测试-&amp;gt;维护  每个阶段都要完成文档，每个阶段结束前都要对文档进行评审   快速原型模型: 快速原型-规格说明-设计-编码-综合测试-维护 增量模型: 需求分析-&amp;gt;规格说明-&amp;gt;概要设计-&amp;gt;对构件设计，编码，集成，测试 螺旋模型 喷泉模型 Rational统一过程: 初始，精化，构建，移交 敏捷过程与极限编程 微软过程    https://www.">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Introduction To Software Engineer - @bGZoCg">
+    <meta property="og:description" content="软件工程导论 在课程上讲了几个月前我在TG上学到的 Agile Development-敏捷开发的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的网站. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.
+课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下预复习, 平时应付, 考前冲锋, 及格光荣. 悲夫&amp;hellip;
+ 内容主要来自
+ 清华大学出版社-张海藩,牟永敏的&amp;laquo;软件工程概论(第六版)&amp;raquo; 《软件工程导论》张海潘版核心纲要读书笔记 程序猿大本营-软件工程导论  无独有偶, 阮一峰 也在他的博客上谈了这门学科, 关于软件工程的最大难题.
+概论  软件危机  介绍 原因 消除途径   软件工程(工程学科)  软件工程的介绍  工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它   软件工程的基本原理 软件工程方法学  软件工程 三要素：方法，工具，过程 软件方法学 三要素：程序加数据，文档     软件生命周期  三个时期 八个阶段   软件过程  瀑布模型: 需求分析-&amp;gt;规格说明-&amp;gt;设计-&amp;gt;编码-&amp;gt;测试-&amp;gt;维护  每个阶段都要完成文档，每个阶段结束前都要对文档进行评审   快速原型模型: 快速原型-规格说明-设计-编码-综合测试-维护 增量模型: 需求分析-&amp;gt;规格说明-&amp;gt;概要设计-&amp;gt;对构件设计，编码，集成，测试 螺旋模型 喷泉模型 Rational统一过程: 初始，精化，构建，移交 敏捷过程与极限编程 微软过程    https://www.">
+    <meta property="og:url" content="https://bgzocg.me/introduction-to-software-engineering/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>Introduction To Software Engineer - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="软件工程导论 在课程上讲了几个月前我在TG上学到的 Agile Development-敏捷开发的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的网站. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.
+课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下预复习, 平时应付, 考前冲锋, 及格光荣. 悲夫&amp;hellip;
+ 内容主要来自
+ 清华大学出版社-张海藩,牟永敏的&amp;laquo;软件工程概论(第六版)&amp;raquo; 《软件工程导论》张海潘版核心纲要读书笔记 程序猿大本营-软件工程导论  无独有偶, 阮一峰 也在他的博客上谈了这门学科, 关于软件工程的最大难题.
+概论  软件危机  介绍 原因 消除途径   软件工程(工程学科)  软件工程的介绍  工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它   软件工程的基本原理 软件工程方法学  软件工程 三要素：方法，工具，过程 软件方法学 三要素：程序加数据，文档     软件生命周期  三个时期 八个阶段   软件过程  瀑布模型: 需求分析-&amp;gt;规格说明-&amp;gt;设计-&amp;gt;编码-&amp;gt;测试-&amp;gt;维护  每个阶段都要完成文档，每个阶段结束前都要对文档进行评审   快速原型模型: 快速原型-规格说明-设计-编码-综合测试-维护 增量模型: 需求分析-&amp;gt;规格说明-&amp;gt;概要设计-&amp;gt;对构件设计，编码，集成，测试 螺旋模型 喷泉模型 Rational统一过程: 初始，精化，构建，移交 敏捷过程与极限编程 微软过程    https://www.">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Introduction To Software Engineer</h1>
+    <time datetime="2021-03-18 23:48:57 CST">18 Mar 2021</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/sofeware-engineer">Sofeware-Engineer</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <blockquote>
+<p>软件工程导论 在课程上讲了几个月前我在TG上学到的 <a href="https://t.me/lfh010618/52">Agile Development-敏捷开发</a>的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的<a href="https://agilemanifesto.org/">网站</a>. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.</p>
+<p>课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下<del>预</del>复习, 平时应付, 考前冲锋, 及格光荣. 悲夫&hellip;</p>
+</blockquote>
+<p>内容主要来自</p>
+<ul>
+<li>清华大学出版社-张海藩,牟永敏的&laquo;软件工程概论(第六版)&raquo;</li>
+<li><a href="https://marlous.github.io/2018/11/04/%E3%80%8A%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA%E3%80%8B%E5%BC%A0%E6%B5%B7%E6%BD%98%E7%89%88%E6%A0%B8%E5%BF%83%E7%BA%B2%E8%A6%81%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">《软件工程导论》张海潘版核心纲要读书笔记</a></li>
+<li><a href="https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/">程序猿大本营-软件工程导论</a></li>
+</ul>
+<p>无独有偶, 阮一峰 也在他的博客上<a href="http://www.ruanyifeng.com/blog/2021/05/scaling-problem.html">谈了这门学科</a>, 关于软件工程的最大难题.</p>
+<h2 id="概论">概论</h2>
+<ul>
+<li><strong>软件危机</strong>
+<ul>
+<li>介绍</li>
+<li>原因</li>
+<li>消除途径</li>
+</ul>
+</li>
+<li><strong>软件工程</strong>(工程学科)
+<ul>
+<li>软件工程的介绍
+<ul>
+<li>工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它</li>
+</ul>
+</li>
+<li>软件工程的基本原理</li>
+<li>软件工程方法学
+<ul>
+<li>软件工程 三要素：方法，工具，过程</li>
+<li>软件方法学 三要素：程序加数据，文档</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>软件生命周期</strong>
+<ul>
+<li>三个时期</li>
+<li>八个阶段</li>
+</ul>
+</li>
+<li><strong>软件过程</strong>
+<ul>
+<li><strong>瀑布模型</strong>: <code>需求分析-&gt;规格说明-&gt;设计-&gt;编码-&gt;测试-&gt;维护</code>
+<ul>
+<li>每个阶段都要完成文档，每个阶段结束前都要对文档进行评审</li>
+</ul>
+</li>
+<li><strong>快速原型模型</strong>: <code>快速原型-规格说明-设计-编码-综合测试-维护</code></li>
+<li><strong>增量模型</strong>: <code>需求分析-&gt;规格说明-&gt;概要设计-&gt;对构件设计，编码，集成，测试</code></li>
+<li><strong>螺旋模型</strong></li>
+<li><strong>喷泉模型</strong></li>
+<li><strong>Rational统一过程</strong>: <code>初始，精化，构建，移交</code></li>
+<li><strong>敏捷过程与极限编程</strong></li>
+<li><strong>微软过程</strong></li>
+</ul>
+</li>
+</ul>
+<p><a href="https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/">https://www.pianshen.com/tag/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA/</a></p>
+<h2 id="可行性研究">可行性研究</h2>
+<ul>
+<li>可行性研究的任务</li>
+<li>可行性研究过程</li>
+<li>系统流程图
+<ul>
+<li>符号</li>
+<li>例子</li>
+<li>分层</li>
+</ul>
+</li>
+<li>数据流图
+<ul>
+<li>符号</li>
+<li>例子</li>
+<li>命名</li>
+<li>用途</li>
+</ul>
+</li>
+<li>数据字典
+<ul>
+<li>字典内容</li>
+<li>定义方法</li>
+<li>用途</li>
+<li>实现</li>
+</ul>
+</li>
+<li>成本/效益分析
+<ul>
+<li>成本估计</li>
+<li>成本/效益分析的方法</li>
+</ul>
+</li>
+</ul>
+<h2 id="需求分析">需求分析</h2>
+<ul>
+<li>需求分析的任务
+<ul>
+<li>确定对系统的综合要求</li>
+<li>分析系统的数据要求</li>
+<li>导出系统的逻辑模型</li>
+<li>修正系统开发计划</li>
+</ul>
+</li>
+<li>与用户沟通获取需求的方法
+<ul>
+<li>访谈</li>
+<li>面向数据流自顶向下求精</li>
+<li>简易的应用规格说明技术</li>
+<li>快速建立软件原型</li>
+</ul>
+</li>
+<li>分析建模与规格说明
+<ul>
+<li>分析建模</li>
+<li>软件需求规格说明</li>
+</ul>
+</li>
+<li>实体—联系图
+<ul>
+<li>数据对象</li>
+<li>属性</li>
+<li>联系</li>
+<li>实体—联系图的符号</li>
+</ul>
+</li>
+<li>数据规范化</li>
+<li>状态转换图
+<ul>
+<li>状态</li>
+<li>事件</li>
+<li>符号</li>
+<li>例子</li>
+</ul>
+</li>
+<li>其他图形工具
+<ul>
+<li>层次方框图</li>
+<li>Warnier 图</li>
+<li>IPO 图</li>
+</ul>
+</li>
+<li>验证软件需求
+<ul>
+<li>从哪些方面验证软件需求的正确性</li>
+<li>验证软件需求的方法</li>
+<li>用于需求分析的软件工具</li>
+</ul>
+</li>
+</ul>
+<h2 id="形式化说明技术">形式化说明技术</h2>
+<ul>
+<li>概述
+<ul>
+<li>非形式化方法的缺点</li>
+<li>形式化方法的优点</li>
+<li>应用形式化方法的准则</li>
+</ul>
+</li>
+<li>有穷状态机</li>
+<li>Petri 网</li>
+<li>Z语言</li>
+</ul>
+<h2 id="总体设计">总体设计</h2>
+<ul>
+<li>设计过程</li>
+<li>设计原理
+<ul>
+<li>模块化</li>
+<li>抽象</li>
+<li>逐步求精</li>
+<li>信息隐藏和局部化</li>
+<li>模块独立</li>
+</ul>
+</li>
+<li>启发规则</li>
+<li>描绘软件结构的图形工具
+<ul>
+<li>层次图和HIPO图</li>
+<li>结构图</li>
+</ul>
+</li>
+<li>面向数据流的设计方法
+<ul>
+<li>变换分析</li>
+<li>事务分析</li>
+<li>设计优化</li>
+</ul>
+</li>
+</ul>
+<h2 id="详细设计">详细设计</h2>
+<ul>
+<li>结构程序设计</li>
+<li>人机界面设计
+<ul>
+<li>设计问题</li>
+<li>设计过程</li>
+<li>人机界面设计指南</li>
+</ul>
+</li>
+<li>过程设计的工具
+<ul>
+<li>程序流程图</li>
+<li>盒图</li>
+<li>PAD图</li>
+<li>判定表</li>
+<li>判定树</li>
+<li>过程设计语言</li>
+</ul>
+</li>
+<li>面向数据结构的设计方法
+<ul>
+<li>改进的Jackson图</li>
+<li>Jackson方法</li>
+</ul>
+</li>
+<li>程序复杂程度的定量度量
+<ul>
+<li>McCab方法</li>
+<li>Halstead方法</li>
+</ul>
+</li>
+</ul>
+<!--Speed Now-->
+<h2 id="实现">实现</h2>
+<ul>
+<li>编码
+<ul>
+<li>选择程序设计语言</li>
+<li>编码风格</li>
+</ul>
+</li>
+<li>软件测试基础
+<ul>
+<li>软件测试的目标</li>
+<li>软件测试准则</li>
+<li>测试方法</li>
+<li>测试步骤</li>
+<li>测试阶段的信息流</li>
+</ul>
+</li>
+<li>单元测试
+<ul>
+<li>测试重点</li>
+<li>代码审查</li>
+<li>计算机测试</li>
+</ul>
+</li>
+<li>集成测试
+<ul>
+<li>自顶向下集成</li>
+<li>自底向上集成</li>
+<li>不同集成测试策略的比较</li>
+<li>回归测试</li>
+</ul>
+</li>
+<li>确认测试
+<ul>
+<li>确认测试的范围</li>
+<li>软件配置复查</li>
+<li>Alpha和Beta测试</li>
+</ul>
+</li>
+<li>白盒测试技术
+<ul>
+<li>逻辑覆盖</li>
+<li>控制结构测试</li>
+</ul>
+</li>
+<li>黑盒测试技术
+<ul>
+<li>等价划分</li>
+<li>边界值分析</li>
+<li>错误推测</li>
+</ul>
+</li>
+<li>调试
+<ul>
+<li>调试过程</li>
+<li>调试途径</li>
+</ul>
+</li>
+<li>软件可靠性
+<ul>
+<li>基本概念</li>
+<li>估算平均无故障时间的方法</li>
+</ul>
+</li>
+</ul>
+<h2 id="维护">维护</h2>
+<ul>
+<li>软件维护的定义</li>
+<li>软件维护的特点
+<ul>
+<li>结构化维护与非结构化维护差别巨大</li>
+<li>维护的代价高昂</li>
+<li>维护的问题很多</li>
+</ul>
+</li>
+<li>软件维护过程</li>
+<li>软件的可维护性
+<ul>
+<li>决定软件可维护性的因素</li>
+<li>文档</li>
+<li>可维护性复审</li>
+</ul>
+</li>
+<li>预防性维护</li>
+<li>软件再工程过程</li>
+</ul>
+<h2 id="面向对象方法学引论">面向对象方法学引论</h2>
+<ul>
+<li>面向对象方法学概述
+<ul>
+<li>面向对象方法学的要点</li>
+<li>面向对象方法学的优点</li>
+</ul>
+</li>
+<li>面向对象的概念
+<ul>
+<li>对象</li>
+<li>其他概念</li>
+</ul>
+</li>
+<li>面向对象建模</li>
+<li>对象模型
+<ul>
+<li>类图的基本符号</li>
+<li>表示关系的符号</li>
+</ul>
+</li>
+<li>动态模型</li>
+<li>功能模型
+<ul>
+<li>用例图</li>
+<li>用例建模</li>
+</ul>
+</li>
+<li>3种模型之间的关系</li>
+</ul>
+<h2 id="面向对象分析">面向对象分析</h2>
+<ul>
+<li>面向对象分析的基本过程
+<ul>
+<li>概述</li>
+<li>3个子模型与5个层沙</li>
+</ul>
+</li>
+<li>需求陈述
+<ul>
+<li>书写要点</li>
+<li>例子</li>
+</ul>
+</li>
+<li>建立对象模型
+<ul>
+<li>确定类与对象</li>
+<li>确定关联</li>
+<li>划分主题</li>
+<li>确定属性</li>
+<li>识别继承关系</li>
+<li>反复修改</li>
+</ul>
+</li>
+<li>建立动态模型
+<ul>
+<li>编写脚本</li>
+<li>设想用户界面</li>
+<li>画事件跟踪图</li>
+<li>画状态图</li>
+<li>审查动态模型</li>
+</ul>
+</li>
+<li>建立功能模型
+<ul>
+<li>画出基本系统模型图</li>
+<li>画出功能级数据流图</li>
+<li>描述处理框功能</li>
+</ul>
+</li>
+<li>定义服务</li>
+</ul>
+<h2 id="面向对象设计">面向对象设计</h2>
+<h2 id="面向对象实现">面向对象实现</h2>
+<h2 id="软件项目管理">软件项目管理</h2>
+<h2 id="reference">REFERENCE</h2>
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

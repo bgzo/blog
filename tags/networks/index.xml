@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networks on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/networks/</link>
+    <description>Recent content in Networks on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 17:33:21 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>End to End 端对端</title>
+      <link>https://bgzocg.me/210117-end-to-end/</link>
+      <pubDate>Sun, 17 Jan 2021 17:33:21 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210117-end-to-end/</guid>
+      <description>&lt;p&gt;The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.&lt;/p&gt;
+&lt;p&gt;一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why home address is prefixed with 192.168?</title>
+      <link>https://bgzocg.me/210117-whats-192-168/</link>
+      <pubDate>Sun, 17 Jan 2021 14:44:52 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210117-whats-192-168/</guid>
+      <description>&lt;p&gt;A Internet spec called  &lt;a href=&#34;http://www.ietf.org/rfc/rfc1918.txt&#34;&gt;RFC 1918&lt;/a&gt; (Request For Comments) reserved a few blocks of addressnss for &amp;ldquo;private&amp;rdquo; network. 192.168/16 was one of those blocks.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

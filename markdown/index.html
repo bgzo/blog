@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Markdown - @bGZoCg">
+    <meta name="twitter:description" content="据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。
+其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。
+">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Markdown - @bGZoCg">
+    <meta property="og:description" content="据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。
+其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。
+">
+    <meta property="og:url" content="https://bgzocg.me/markdown/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>Markdown - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。
+其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。
+">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Markdown</h1>
+    <time datetime="2019-12-13 02:40:57 CST">13 Dec 2019</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/tool">Tool</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <p>据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。</p>
+<p>其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。</p>
+<p>起初 Markdown 主要用于网络写作，后来人们希望 Markdown 能够应用到更多的领域，如写书、记笔记、写文档、写幻灯片等。</p>
+<p>由于 Markdown 本身功能有限，一些特定的需求和场景无法被满足，因此产生了许多扩展语法，这些语法在基础语法之上新增了如表格、任务列表、围栏代码块等功能。</p>
+<h2 id="历史">历史</h2>
+<ul>
+<li>2004 年，Markdown 发布，作者是 John Gruber。</li>
+<li>2006 年，Pandoc＇s Markdown 发布，作者是 John MacFarlane。 此版本对 Markdown 语法有额外的扩充和些许修正，这使 Markdown 可以转换为更多的文件格式，Pandoc 堪称文件转换领域的「瑞士军刀」。</li>
+<li>2011 年，MultiMarkdown（简称 MMD）发布，作者是 Fletcher T.Penney。 此版本让 Markdown 可以转换为更多的文件格式，包括 HTML/XHTML、LATEX、OpenDocument、OPML（Outline Processor Markup Language，大纲处理标记语言）。</li>
+<li>2013 年，Markdown Extra 发布，作者是 Michel Fortin。 此版本最初使用 PHP 语言实现，新增了围栏代码块、具有 id/class 属性的元素、表格、任务列表、脚注、缩写等功能。</li>
+<li>2014 年，CommonMark 规范发布，主要作者是 Jeff Atwood 和 John MacFarlane。 CommonMark 旨在为人们提供一个标准的 Markdown 语法规范和参考实现。 Markdown 标准化工作开始于 2012 年，2014 年 9 月，由于 John Gruber 反对在这一工作中继续使用「Markdown」这个名字，其被更名为 CommonMark。</li>
+<li>2017 年，GitHub 发布了 GitHub Flavored Markdown，即 GFM。 此版本遵循 CommonMark 规范，新增了围栏代码块、表格、删除线、自动链接、Emoji 表情和任务列表等功能，是目前使用最广泛的版本。</li>
+</ul>
+<p>总之，版本之多  John Gruber 认为合理，未做约束，作出约束的是<a href="http://commonmark.org/"> CommonMark</a> ——它为 Markdown 提出了一个标准的、明确的语法规范，以及一套全面的测试，根据此规范可以验证 Markdown 的实现结果，GitHub Flavored Markdown（GFM）遵循的就是 CommonMark 规范。</p>
+<p><strong>编辑器：</strong> Typora、熊掌记、Ulysse</p>
+<h2 id="心得">心得</h2>
+<ul>
+<li><strong>表情符号参考</strong>: <a href="http://www.webpagefx.com/tools/emoji-cheat-sheet/">http://www.webpagefx.com/tools/emoji-cheat-sheet/</a></li>
+<li><strong>锚点（书签）-&gt; 就是URL。</strong>
+<ul>
+<li><strong>JS 插件</strong>:</li>
+<li><code>&lt;sup&gt;&lt;a class=&quot;xxx&quot; href=&quot;xxx&quot;&gt;&lt;/a&gt;&lt;/sup&gt;</code>  +  <code>&lt;a class=&quot;xxx&quot;&gt;[1].xxxxx&lt;&gt;</code></li>
+<li>下标对应使用<code>&lt;sub&gt;&lt;/sub&gt;</code></li>
+</ul>
+</li>
+<li><strong>点击展开</strong>: <code>&lt;details&gt;&lt;summary&gt;点击展开&lt;/summary&gt;&lt;a&gt;xxxxx&lt;/a&gt;&lt;/details&gt;</code></li>
+<li><strong>一些来自他人的建议：</strong>
+<ol>
+<li><strong>幻灯片插件</strong>——reveal.js</li>
+<li><strong>邮箱渲染插件</strong>——Markdown Here</li>
+<li><strong>交互性文档</strong>——Jupyter Notebook &amp; R Markdown
+<ol>
+<li>R Markdown 的内容请参考官方文档 <a href="https://rmarkdown.rstudio.com/">https://rmarkdown.rstudio.com/</a></li>
+<li>R Markdown 权威指南 <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></li>
+</ol>
+</li>
+<li><strong>网页便携程序</strong>——md-page
+<ol>
+<li>url：<a href="https://github.com/oscarmorrison/md-page%E3%80%82">https://github.com/oscarmorrison/md-page</a></li>
+</ol>
+</li>
+<li><strong>项目文档书写：</strong>
+<ol>
+<li><strong>Mkdocs</strong>: 如 Google 的 python-fire.</li>
+<li><strong>VuePress</strong>: 集成了 Google Analytics，以及基于 Git 的「最后更新时间」功能，见<a href="https://vuepress.vuejs.org/zh/guide/%E3%80%82">https://vuepress.vuejs.org/zh/guide/</a></li>
+</ol>
+</li>
+<li><strong>Hexo</strong></li>
+<li><strong>Gitbook</strong>——支持 Markdown 和 AsciiDoc 语法，可以导出静态站点或电子书（支持 PDF、ePub、mobi 等格式）</li>
+<li>付费渠道</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li>空格尽量用 <code>_</code> 来替换, 因为在网页的编码中, ' &lsquo;代表<code>%20</code>, 出来的网址会冗杂.</li>
+</ul>
+<h2 id="mermaid">mermaid</h2>
+<ul>
+<li><a href="https://mermaid-js.github.io/mermaid/#/">mermaid</a></li>
+</ul>
+<h2 id="code-listsup1supjump">Code list<a href="#jump"><sup>1</sup></a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">code</th>
+<th style="text-align:center">type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1c</td>
+<td style="text-align:center">1C:Enterprise (v7, v8)</td>
+</tr>
+<tr>
+<td style="text-align:center">abnf</td>
+<td style="text-align:center">Augmented Backus-Naur Form</td>
+</tr>
+<tr>
+<td style="text-align:center">accesslog</td>
+<td style="text-align:center">Access log</td>
+</tr>
+<tr>
+<td style="text-align:center">actionscript</td>
+<td style="text-align:center">ActionScript</td>
+</tr>
+<tr>
+<td style="text-align:center">ada</td>
+<td style="text-align:center">Ada</td>
+</tr>
+<tr>
+<td style="text-align:center">angelscript</td>
+<td style="text-align:center">AngelScript</td>
+</tr>
+<tr>
+<td style="text-align:center">apache</td>
+<td style="text-align:center">Apache</td>
+</tr>
+<tr>
+<td style="text-align:center">applescript</td>
+<td style="text-align:center">AppleScript</td>
+</tr>
+<tr>
+<td style="text-align:center">arcade</td>
+<td style="text-align:center">ArcGIS Arcade</td>
+</tr>
+<tr>
+<td style="text-align:center">arduino</td>
+<td style="text-align:center">Arduino</td>
+</tr>
+<tr>
+<td style="text-align:center">armasm</td>
+<td style="text-align:center">ARM Assembly</td>
+</tr>
+<tr>
+<td style="text-align:center">asciidoc</td>
+<td style="text-align:center">AsciiDoc</td>
+</tr>
+<tr>
+<td style="text-align:center">aspectj</td>
+<td style="text-align:center">AspectJ</td>
+</tr>
+<tr>
+<td style="text-align:center">autohotkey</td>
+<td style="text-align:center">AutoHotkey</td>
+</tr>
+<tr>
+<td style="text-align:center">autoit</td>
+<td style="text-align:center">AutoIt</td>
+</tr>
+<tr>
+<td style="text-align:center">avrasm</td>
+<td style="text-align:center">AVR Assembler</td>
+</tr>
+<tr>
+<td style="text-align:center">awk</td>
+<td style="text-align:center">Awk</td>
+</tr>
+<tr>
+<td style="text-align:center">axapta</td>
+<td style="text-align:center">Microsoft Axapta (now Dynamics 365)</td>
+</tr>
+<tr>
+<td style="text-align:center">bash</td>
+<td style="text-align:center">Bash</td>
+</tr>
+<tr>
+<td style="text-align:center">basic</td>
+<td style="text-align:center">Basic</td>
+</tr>
+<tr>
+<td style="text-align:center">bnf</td>
+<td style="text-align:center">Backus–Naur Form</td>
+</tr>
+<tr>
+<td style="text-align:center">brainfuck</td>
+<td style="text-align:center">Brainfuck</td>
+</tr>
+<tr>
+<td style="text-align:center">cal</td>
+<td style="text-align:center">C/AL</td>
+</tr>
+<tr>
+<td style="text-align:center">capnproto</td>
+<td style="text-align:center">Cap’n Proto</td>
+</tr>
+<tr>
+<td style="text-align:center">ceylon</td>
+<td style="text-align:center">Ceylon</td>
+</tr>
+<tr>
+<td style="text-align:center">clean</td>
+<td style="text-align:center">Clean</td>
+</tr>
+<tr>
+<td style="text-align:center">clojure-repl</td>
+<td style="text-align:center">Clojure REPL</td>
+</tr>
+<tr>
+<td style="text-align:center">clojure</td>
+<td style="text-align:center">Clojure</td>
+</tr>
+<tr>
+<td style="text-align:center">cmake</td>
+<td style="text-align:center">CMake</td>
+</tr>
+<tr>
+<td style="text-align:center">coffeescript</td>
+<td style="text-align:center">CoffeeScript</td>
+</tr>
+<tr>
+<td style="text-align:center">coq</td>
+<td style="text-align:center">Coq</td>
+</tr>
+<tr>
+<td style="text-align:center">cos</td>
+<td style="text-align:center">Cache Object Script</td>
+</tr>
+<tr>
+<td style="text-align:center">cpp</td>
+<td style="text-align:center">C++</td>
+</tr>
+<tr>
+<td style="text-align:center">crmsh</td>
+<td style="text-align:center">crmsh</td>
+</tr>
+<tr>
+<td style="text-align:center">crystal</td>
+<td style="text-align:center">Crystal</td>
+</tr>
+<tr>
+<td style="text-align:center">cs</td>
+<td style="text-align:center">C#</td>
+</tr>
+<tr>
+<td style="text-align:center">csp</td>
+<td style="text-align:center">CSP</td>
+</tr>
+<tr>
+<td style="text-align:center">css</td>
+<td style="text-align:center">CSS</td>
+</tr>
+<tr>
+<td style="text-align:center">d</td>
+<td style="text-align:center">D</td>
+</tr>
+<tr>
+<td style="text-align:center">dart</td>
+<td style="text-align:center">Dart</td>
+</tr>
+<tr>
+<td style="text-align:center">delphi</td>
+<td style="text-align:center">Delphi</td>
+</tr>
+<tr>
+<td style="text-align:center">diff</td>
+<td style="text-align:center">Diff</td>
+</tr>
+<tr>
+<td style="text-align:center">django</td>
+<td style="text-align:center">Django</td>
+</tr>
+<tr>
+<td style="text-align:center">dns</td>
+<td style="text-align:center">DNS Zone file</td>
+</tr>
+<tr>
+<td style="text-align:center">dockerfile</td>
+<td style="text-align:center">Dockerfile</td>
+</tr>
+<tr>
+<td style="text-align:center">dos</td>
+<td style="text-align:center">DOS .bat</td>
+</tr>
+<tr>
+<td style="text-align:center">dsconfig</td>
+<td style="text-align:center">dsconfig</td>
+</tr>
+<tr>
+<td style="text-align:center">dts</td>
+<td style="text-align:center">Device Tree</td>
+</tr>
+<tr>
+<td style="text-align:center">dust</td>
+<td style="text-align:center">Dust</td>
+</tr>
+<tr>
+<td style="text-align:center">ebnf</td>
+<td style="text-align:center">Extended Backus-Naur Form</td>
+</tr>
+<tr>
+<td style="text-align:center">elixir</td>
+<td style="text-align:center">Elixir</td>
+</tr>
+<tr>
+<td style="text-align:center">elm</td>
+<td style="text-align:center">Elm</td>
+</tr>
+<tr>
+<td style="text-align:center">erb</td>
+<td style="text-align:center">ERB (Embedded Ruby)</td>
+</tr>
+<tr>
+<td style="text-align:center">erlang-repl</td>
+<td style="text-align:center">Erlang REPL</td>
+</tr>
+<tr>
+<td style="text-align:center">erlang</td>
+<td style="text-align:center">Erlang</td>
+</tr>
+<tr>
+<td style="text-align:center">excel</td>
+<td style="text-align:center">Excel</td>
+</tr>
+<tr>
+<td style="text-align:center">fix</td>
+<td style="text-align:center">FIX</td>
+</tr>
+<tr>
+<td style="text-align:center">flix</td>
+<td style="text-align:center">Flix</td>
+</tr>
+<tr>
+<td style="text-align:center">fortran</td>
+<td style="text-align:center">Fortran</td>
+</tr>
+<tr>
+<td style="text-align:center">fsharp</td>
+<td style="text-align:center">F#</td>
+</tr>
+<tr>
+<td style="text-align:center">gams</td>
+<td style="text-align:center">GAMS</td>
+</tr>
+<tr>
+<td style="text-align:center">gauss</td>
+<td style="text-align:center">GAUSS</td>
+</tr>
+<tr>
+<td style="text-align:center">gcode</td>
+<td style="text-align:center">G-code (ISO 6983)</td>
+</tr>
+<tr>
+<td style="text-align:center">gherkin</td>
+<td style="text-align:center">Gherkin</td>
+</tr>
+<tr>
+<td style="text-align:center">glsl</td>
+<td style="text-align:center">GLSL</td>
+</tr>
+<tr>
+<td style="text-align:center">gml</td>
+<td style="text-align:center">GML</td>
+</tr>
+<tr>
+<td style="text-align:center">go</td>
+<td style="text-align:center">Golang</td>
+</tr>
+<tr>
+<td style="text-align:center">golo</td>
+<td style="text-align:center">Golo</td>
+</tr>
+<tr>
+<td style="text-align:center">gradle</td>
+<td style="text-align:center">Gradle</td>
+</tr>
+<tr>
+<td style="text-align:center">groovy</td>
+<td style="text-align:center">Groovy</td>
+</tr>
+<tr>
+<td style="text-align:center">haml</td>
+<td style="text-align:center">Haml</td>
+</tr>
+<tr>
+<td style="text-align:center">handlebars</td>
+<td style="text-align:center">Handlebars</td>
+</tr>
+<tr>
+<td style="text-align:center">haskell</td>
+<td style="text-align:center">Haskell</td>
+</tr>
+<tr>
+<td style="text-align:center">haxe</td>
+<td style="text-align:center">Haxe</td>
+</tr>
+<tr>
+<td style="text-align:center">hsp</td>
+<td style="text-align:center">HSP</td>
+</tr>
+<tr>
+<td style="text-align:center">htmlbars</td>
+<td style="text-align:center">HTMLBars</td>
+</tr>
+<tr>
+<td style="text-align:center">http</td>
+<td style="text-align:center">HTTP (Header Plaintext)</td>
+</tr>
+<tr>
+<td style="text-align:center">hy</td>
+<td style="text-align:center">Hy</td>
+</tr>
+<tr>
+<td style="text-align:center">inform7</td>
+<td style="text-align:center">Inform 7</td>
+</tr>
+<tr>
+<td style="text-align:center">ini</td>
+<td style="text-align:center">TOML, also INI</td>
+</tr>
+<tr>
+<td style="text-align:center">irpf90</td>
+<td style="text-align:center">IRPF90</td>
+</tr>
+<tr>
+<td style="text-align:center">isbl</td>
+<td style="text-align:center">ISBL</td>
+</tr>
+<tr>
+<td style="text-align:center">java</td>
+<td style="text-align:center">Java</td>
+</tr>
+<tr>
+<td style="text-align:center">javascript</td>
+<td style="text-align:center">JavaScript</td>
+</tr>
+<tr>
+<td style="text-align:center">jboss-cli</td>
+<td style="text-align:center">jboss-cli</td>
+</tr>
+<tr>
+<td style="text-align:center">json</td>
+<td style="text-align:center">JSON / JSON with Comments</td>
+</tr>
+<tr>
+<td style="text-align:center">julia-repl</td>
+<td style="text-align:center">Julia REPL</td>
+</tr>
+<tr>
+<td style="text-align:center">julia</td>
+<td style="text-align:center">Julia</td>
+</tr>
+<tr>
+<td style="text-align:center">kotlin</td>
+<td style="text-align:center">Kotlin</td>
+</tr>
+<tr>
+<td style="text-align:center">lasso</td>
+<td style="text-align:center">Lasso</td>
+</tr>
+<tr>
+<td style="text-align:center">ldif</td>
+<td style="text-align:center">LDIF</td>
+</tr>
+<tr>
+<td style="text-align:center">leaf</td>
+<td style="text-align:center">Leaf</td>
+</tr>
+<tr>
+<td style="text-align:center">less</td>
+<td style="text-align:center">Less</td>
+</tr>
+<tr>
+<td style="text-align:center">lisp</td>
+<td style="text-align:center">Lisp</td>
+</tr>
+<tr>
+<td style="text-align:center">livecodeserver</td>
+<td style="text-align:center">LiveCode</td>
+</tr>
+<tr>
+<td style="text-align:center">livescript</td>
+<td style="text-align:center">LiveScript</td>
+</tr>
+<tr>
+<td style="text-align:center">llvm</td>
+<td style="text-align:center">LLVM IR</td>
+</tr>
+<tr>
+<td style="text-align:center">lsl</td>
+<td style="text-align:center">LSL (Linden Scripting Language)</td>
+</tr>
+<tr>
+<td style="text-align:center">lua</td>
+<td style="text-align:center">Lua</td>
+</tr>
+<tr>
+<td style="text-align:center">makefile</td>
+<td style="text-align:center">Makefile</td>
+</tr>
+<tr>
+<td style="text-align:center">markdown</td>
+<td style="text-align:center">Markdown</td>
+</tr>
+<tr>
+<td style="text-align:center">mathematica</td>
+<td style="text-align:center">Mathematica</td>
+</tr>
+<tr>
+<td style="text-align:center">matlab</td>
+<td style="text-align:center">Matlab</td>
+</tr>
+<tr>
+<td style="text-align:center">maxima</td>
+<td style="text-align:center">Maxima</td>
+</tr>
+<tr>
+<td style="text-align:center">mel</td>
+<td style="text-align:center">MEL</td>
+</tr>
+<tr>
+<td style="text-align:center">mercury</td>
+<td style="text-align:center">Mercury</td>
+</tr>
+<tr>
+<td style="text-align:center">mipsasm</td>
+<td style="text-align:center">MIPS Assembly</td>
+</tr>
+<tr>
+<td style="text-align:center">mizar</td>
+<td style="text-align:center">Mizar</td>
+</tr>
+<tr>
+<td style="text-align:center">mojolicious</td>
+<td style="text-align:center">Mojolicious</td>
+</tr>
+<tr>
+<td style="text-align:center">monkey</td>
+<td style="text-align:center">Monkey</td>
+</tr>
+<tr>
+<td style="text-align:center">moonscript</td>
+<td style="text-align:center">MoonScript</td>
+</tr>
+<tr>
+<td style="text-align:center">n1ql</td>
+<td style="text-align:center">N1QL</td>
+</tr>
+<tr>
+<td style="text-align:center">nginx</td>
+<td style="text-align:center">Nginx</td>
+</tr>
+<tr>
+<td style="text-align:center">nimrod</td>
+<td style="text-align:center">Nim (formerly Nimrod)</td>
+</tr>
+<tr>
+<td style="text-align:center">nix</td>
+<td style="text-align:center">Nix</td>
+</tr>
+<tr>
+<td style="text-align:center">nsis</td>
+<td style="text-align:center">NSIS</td>
+</tr>
+<tr>
+<td style="text-align:center">objectivec</td>
+<td style="text-align:center">Objective-C</td>
+</tr>
+<tr>
+<td style="text-align:center">ocaml</td>
+<td style="text-align:center">OCaml</td>
+</tr>
+<tr>
+<td style="text-align:center">openscad</td>
+<td style="text-align:center">OpenSCAD</td>
+</tr>
+<tr>
+<td style="text-align:center">oxygene</td>
+<td style="text-align:center">Oxygene</td>
+</tr>
+<tr>
+<td style="text-align:center">parser3</td>
+<td style="text-align:center">Parser3</td>
+</tr>
+<tr>
+<td style="text-align:center">perl</td>
+<td style="text-align:center">Perl</td>
+</tr>
+<tr>
+<td style="text-align:center">pf</td>
+<td style="text-align:center">pf.conf</td>
+</tr>
+<tr>
+<td style="text-align:center">pgsql</td>
+<td style="text-align:center">PostgreSQL SQL dialect and PL/pgSQL</td>
+</tr>
+<tr>
+<td style="text-align:center">php</td>
+<td style="text-align:center">PHP</td>
+</tr>
+<tr>
+<td style="text-align:center">plaintext</td>
+<td style="text-align:center">Plaintext</td>
+</tr>
+<tr>
+<td style="text-align:center">pony</td>
+<td style="text-align:center">Pony</td>
+</tr>
+<tr>
+<td style="text-align:center">powershell</td>
+<td style="text-align:center">PowerShell</td>
+</tr>
+<tr>
+<td style="text-align:center">processing</td>
+<td style="text-align:center">Processing</td>
+</tr>
+<tr>
+<td style="text-align:center">profile</td>
+<td style="text-align:center">Python profile</td>
+</tr>
+<tr>
+<td style="text-align:center">prolog</td>
+<td style="text-align:center">Prolog</td>
+</tr>
+<tr>
+<td style="text-align:center">properties</td>
+<td style="text-align:center">Properties</td>
+</tr>
+<tr>
+<td style="text-align:center">protobuf</td>
+<td style="text-align:center">Protocol Buffers</td>
+</tr>
+<tr>
+<td style="text-align:center">puppet</td>
+<td style="text-align:center">Puppet</td>
+</tr>
+<tr>
+<td style="text-align:center">purebasic</td>
+<td style="text-align:center">PureBASIC</td>
+</tr>
+<tr>
+<td style="text-align:center">python</td>
+<td style="text-align:center">Pythin</td>
+</tr>
+<tr>
+<td style="text-align:center">q</td>
+<td style="text-align:center">Q</td>
+</tr>
+<tr>
+<td style="text-align:center">qml</td>
+<td style="text-align:center">QML</td>
+</tr>
+<tr>
+<td style="text-align:center">r</td>
+<td style="text-align:center">R</td>
+</tr>
+<tr>
+<td style="text-align:center">reasonml</td>
+<td style="text-align:center">ReasonML</td>
+</tr>
+<tr>
+<td style="text-align:center">rib</td>
+<td style="text-align:center">RenderMan RIB</td>
+</tr>
+<tr>
+<td style="text-align:center">roboconf</td>
+<td style="text-align:center">Roboconf</td>
+</tr>
+<tr>
+<td style="text-align:center">routeros</td>
+<td style="text-align:center">Microtik RouterOS script</td>
+</tr>
+<tr>
+<td style="text-align:center">rsl</td>
+<td style="text-align:center">RenderMan RSL</td>
+</tr>
+<tr>
+<td style="text-align:center">ruby</td>
+<td style="text-align:center">Ruby</td>
+</tr>
+<tr>
+<td style="text-align:center">ruleslanguage</td>
+<td style="text-align:center">Oracle Rules Language</td>
+</tr>
+<tr>
+<td style="text-align:center">rust</td>
+<td style="text-align:center">Rust</td>
+</tr>
+<tr>
+<td style="text-align:center">sas</td>
+<td style="text-align:center">SAS</td>
+</tr>
+<tr>
+<td style="text-align:center">scala</td>
+<td style="text-align:center">Scala</td>
+</tr>
+<tr>
+<td style="text-align:center">scheme</td>
+<td style="text-align:center">Scheme</td>
+</tr>
+<tr>
+<td style="text-align:center">scilab</td>
+<td style="text-align:center">Scilab</td>
+</tr>
+<tr>
+<td style="text-align:center">scss</td>
+<td style="text-align:center">SCSS</td>
+</tr>
+<tr>
+<td style="text-align:center">shell</td>
+<td style="text-align:center">Shell Session</td>
+</tr>
+<tr>
+<td style="text-align:center">smali</td>
+<td style="text-align:center">Smali</td>
+</tr>
+<tr>
+<td style="text-align:center">smalltalk</td>
+<td style="text-align:center">Smalltalk</td>
+</tr>
+<tr>
+<td style="text-align:center">sml</td>
+<td style="text-align:center">SML (Standard ML)</td>
+</tr>
+<tr>
+<td style="text-align:center">sqf</td>
+<td style="text-align:center">SQF</td>
+</tr>
+<tr>
+<td style="text-align:center">sql</td>
+<td style="text-align:center">SQL (Structured Query Language)</td>
+</tr>
+<tr>
+<td style="text-align:center">stan</td>
+<td style="text-align:center">Stan</td>
+</tr>
+<tr>
+<td style="text-align:center">stata</td>
+<td style="text-align:center">Stata</td>
+</tr>
+<tr>
+<td style="text-align:center">step21</td>
+<td style="text-align:center">STEP Part 21</td>
+</tr>
+<tr>
+<td style="text-align:center">stylus</td>
+<td style="text-align:center">Stylus</td>
+</tr>
+<tr>
+<td style="text-align:center">subunit</td>
+<td style="text-align:center">SubUnit</td>
+</tr>
+<tr>
+<td style="text-align:center">swift</td>
+<td style="text-align:center">Swift</td>
+</tr>
+<tr>
+<td style="text-align:center">taggerscript</td>
+<td style="text-align:center">Tagger Script</td>
+</tr>
+<tr>
+<td style="text-align:center">tap</td>
+<td style="text-align:center">Test Anything Protocol</td>
+</tr>
+<tr>
+<td style="text-align:center">tcl</td>
+<td style="text-align:center">Tcl</td>
+</tr>
+<tr>
+<td style="text-align:center">tex</td>
+<td style="text-align:center">TeX</td>
+</tr>
+<tr>
+<td style="text-align:center">thrift</td>
+<td style="text-align:center">Thrift</td>
+</tr>
+<tr>
+<td style="text-align:center">tp</td>
+<td style="text-align:center">TP</td>
+</tr>
+<tr>
+<td style="text-align:center">twig</td>
+<td style="text-align:center">Twig</td>
+</tr>
+<tr>
+<td style="text-align:center">typescript</td>
+<td style="text-align:center">TypeScript</td>
+</tr>
+<tr>
+<td style="text-align:center">vala</td>
+<td style="text-align:center">Vala</td>
+</tr>
+<tr>
+<td style="text-align:center">vbnet</td>
+<td style="text-align:center">VB.NET</td>
+</tr>
+<tr>
+<td style="text-align:center">vbscript-html</td>
+<td style="text-align:center">VBScript in HTML</td>
+</tr>
+<tr>
+<td style="text-align:center">vbscript</td>
+<td style="text-align:center">VBScript in HTML</td>
+</tr>
+<tr>
+<td style="text-align:center">verilog</td>
+<td style="text-align:center">Verilog</td>
+</tr>
+<tr>
+<td style="text-align:center">vhdl</td>
+<td style="text-align:center">VHDL</td>
+</tr>
+<tr>
+<td style="text-align:center">vim</td>
+<td style="text-align:center">Vim Script</td>
+</tr>
+<tr>
+<td style="text-align:center">x86asm</td>
+<td style="text-align:center">Intel x86 Assembly</td>
+</tr>
+<tr>
+<td style="text-align:center">xl</td>
+<td style="text-align:center">XL</td>
+</tr>
+<tr>
+<td style="text-align:center">xml</td>
+<td style="text-align:center">HTML, XML</td>
+</tr>
+<tr>
+<td style="text-align:center">xquery</td>
+<td style="text-align:center">XQuery</td>
+</tr>
+<tr>
+<td style="text-align:center">yaml</td>
+<td style="text-align:center">YAML</td>
+</tr>
+<tr>
+<td style="text-align:center">zephir</td>
+<td style="text-align:center">Zephir</td>
+</tr>
+</tbody>
+</table>
+</br>
+<h3 id="reference">Reference</h3>
+<div id="jump">[1]. Code list : https://terryl.in/en/highlight-js-html-code-language-list-for-syntax-highlighting/#how-it-works</div>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

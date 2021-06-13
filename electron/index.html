@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Electron - @bGZoCg">
+    <meta name="twitter:description" content="Electron, html/css/js的跨平台应用开发框架, 额外需要用到NodeJS, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.
+$ npm install electron -g $ npm install electron --save-dev $ npm install electron -g --unsafe-perm $ sudo npm npm install electron -g $ sudo npm npm install electron -g --unsafe-perm 一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 node install.js 的 download electron-linux-x64.zip, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物1., 或者直接使用 npm config set registry http://registry.npm.taobao.org 永久设置/ ~/.npmrc 加上 electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;2; 或者 npm install your-model --registry=http://registry.npm.taobao.org 临时设置源. 相信我, 这是唯一最优的方法.4
+$ npm config set proxy url $ npm config delete proxy # Or You could  $ vim ~/.npmrc # Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/` ">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Electron - @bGZoCg">
+    <meta property="og:description" content="Electron, html/css/js的跨平台应用开发框架, 额外需要用到NodeJS, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.
+$ npm install electron -g $ npm install electron --save-dev $ npm install electron -g --unsafe-perm $ sudo npm npm install electron -g $ sudo npm npm install electron -g --unsafe-perm 一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 node install.js 的 download electron-linux-x64.zip, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物1., 或者直接使用 npm config set registry http://registry.npm.taobao.org 永久设置/ ~/.npmrc 加上 electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;2; 或者 npm install your-model --registry=http://registry.npm.taobao.org 临时设置源. 相信我, 这是唯一最优的方法.4
+$ npm config set proxy url $ npm config delete proxy # Or You could  $ vim ~/.npmrc # Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/` ">
+    <meta property="og:url" content="https://bgzocg.me/electron/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>Electron - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="Electron, html/css/js的跨平台应用开发框架, 额外需要用到NodeJS, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.
+$ npm install electron -g $ npm install electron --save-dev $ npm install electron -g --unsafe-perm $ sudo npm npm install electron -g $ sudo npm npm install electron -g --unsafe-perm 一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 node install.js 的 download electron-linux-x64.zip, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物1., 或者直接使用 npm config set registry http://registry.npm.taobao.org 永久设置/ ~/.npmrc 加上 electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;2; 或者 npm install your-model --registry=http://registry.npm.taobao.org 临时设置源. 相信我, 这是唯一最优的方法.4
+$ npm config set proxy url $ npm config delete proxy # Or You could  $ vim ~/.npmrc # Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/` ">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Electron</h1>
+    <time datetime="2020-08-20 19:35:43 CST">20 Aug 2020</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/tool">Tool</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <p><a href="https://github.com/electron/electron">Electron</a>, html/css/js的跨平台应用开发框架, 额外需要用到<a href="http://nodejs.cn/learn">NodeJS</a>, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ npm install electron -g
+$ npm install electron --save-dev
+$ npm install electron -g --unsafe-perm
+$ sudo npm npm install electron -g
+$ sudo npm npm install electron -g --unsafe-perm
+</code></pre></div><p>一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 <code>node install.js</code> 的 <code>download electron-linux-x64.zip</code>, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物<sup><a href="#j1">1</a></sup>., 或者直接使用 <code>npm config set registry http://registry.npm.taobao.org</code> 永久设置/ <code>~/.npmrc</code> 加上 <code>electron_mirror=&quot;https://npm.taobao.org/mirrors/electron/&quot;</code><sup><a href="#j2">2</a></sup>; 或者 <code>npm install your-model --registry=http://registry.npm.taobao.org</code> 临时设置源. 相信我, 这是唯一最优的方法.<sup><a href="#j4">4</a></sup></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ npm config <span class="nb">set</span> proxy url
+$ npm config delete proxy
+<span class="c1"># Or You could </span>
+$ vim ~/.npmrc
+<span class="c1"># Add `electron_mirror=&#34;https://npm.taobao.org/mirrors/electron/`</span>
+</code></pre></div><p>下面是我参考的教程, 由衷的感谢:</p>
+<ol>
+<li><a href="https://github.com/tal-tech/electron-playground/tree/0.0.3">https://github.com/tal-tech/electron-playground/tree/0.0.3</a></li>
+<li><a href="https://jspang.com/detailed?id=62">https://jspang.com/detailed?id=62</a></li>
+</ol>
+<h2 id="demo">DEMO</h2>
+<p>你永远不会知道我这个垃圾用了四天的时间完成这个Demo, 因为各种不确定因素叠加, 太难受了, 试例如下<sup><a href="#j3">3</a></sup>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ npm init
+$ vim index.html
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;viewport&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;width=device-width, initial-scale=1.0&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Text<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">center</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span> Hello, Electron!!! <span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;&lt;/</span><span class="nt">center</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div><p><code>$ vim index.js</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">//version 1.0
+</span><span class="c1"></span><span class="kr">const</span> <span class="p">{</span> <span class="nx">app</span><span class="p">,</span> <span class="nx">BrowserWindow</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;electron&#39;</span><span class="p">)</span>
+<span class="kr">const</span> <span class="nx">path</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;path&#39;</span><span class="p">)</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;ready&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="kr">const</span> <span class="nb">window</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">BrowserWindow</span><span class="p">()</span>
+  <span class="nb">window</span><span class="p">.</span><span class="nx">loadFile</span><span class="p">(</span><span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">&#39;index.html&#39;</span><span class="p">))</span>
+<span class="p">})</span>
+
+<span class="c1">//version 2.0
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">electron</span><span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;electron&#39;</span><span class="p">)</span> <span class="c1">//引入electron
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">app</span><span class="o">=</span><span class="nx">electron</span><span class="p">.</span><span class="nx">app</span> <span class="c1">// 创建引用
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">BrowserWindow</span> <span class="o">=</span> <span class="nx">electron</span><span class="p">.</span><span class="nx">BrowserWindow</span> <span class="c1">// 创建窗口应用
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">mainWindow</span><span class="o">=</span><span class="kc">null</span><span class="p">;</span><span class="c1">//声明要打开的主窗口
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;ready&#39;</span><span class="p">,()=&gt;{</span>
+    <span class="nx">mainWindow</span><span class="o">=</span><span class="k">new</span> <span class="nx">BrowserWindow</span><span class="p">({</span>
+        <span class="nx">width</span><span class="o">:</span><span class="mi">800</span><span class="p">,</span> 
+        <span class="nx">height</span><span class="o">:</span><span class="mi">800</span><span class="p">,</span>
+    <span class="c1">//     webPreferences: {//最新的electron@5.0系列中，nodeIntegration参数默认是false。而在以前版本的electron中，这个nodeIntegration参数，默认为true。
+</span><span class="c1"></span>    <span class="c1">//     nodeIntegration: true
+</span><span class="c1"></span>    <span class="c1">// }
+</span><span class="c1"></span>    <span class="p">})</span> <span class="c1">// 设置窗口大小
+</span><span class="c1"></span>    <span class="nx">mainWindow</span><span class="p">.</span><span class="nx">loadFile</span><span class="p">(</span><span class="s1">&#39;index.html&#39;</span><span class="p">)</span> <span class="c1">//加载这个页面
+</span><span class="c1"></span>    <span class="nx">mainWindow</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;closed&#39;</span><span class="p">,()=&gt;{</span><span class="c1">////监听关闭事件，把主窗口设置为null
+</span><span class="c1"></span>        <span class="nx">mainWindow</span> <span class="o">=</span> <span class="kc">null</span>
+    <span class="p">})</span>
+<span class="p">})</span>
+</code></pre></div><p><code>$ electron .</code> Okay!</p>
+<h2 id="webpack">Webpack</h2>
+<blockquote>
+<p>主进程和渲染进程改如何调试？我想用最新的ES特性该怎么做？想用TypeScript该怎么配置？想用React，Vue，Angular来写UI呢？</p>
+</blockquote>
+<h3 id="nodejs">Nodejs</h3>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">http</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;http&#39;</span><span class="p">)</span>
+
+<span class="kr">const</span> <span class="nx">hostname</span> <span class="o">=</span> <span class="s1">&#39;127.0.0.1&#39;</span>
+<span class="kr">const</span> <span class="nx">port</span> <span class="o">=</span> <span class="mi">3000</span>
+
+<span class="kr">const</span> <span class="nx">server</span> <span class="o">=</span> <span class="nx">http</span><span class="p">.</span><span class="nx">createServer</span><span class="p">((</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span><span class="c1">//会创建新的 HTTP 服务器并返回它
+</span><span class="c1"></span>  <span class="nx">res</span><span class="p">.</span><span class="nx">statusCode</span> <span class="o">=</span> <span class="mi">200</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">setHeader</span><span class="p">(</span><span class="s1">&#39;Content-Type&#39;</span><span class="p">,</span> <span class="s1">&#39;text/plain&#39;</span><span class="p">)</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">end</span><span class="p">(</span><span class="s1">&#39;你好世界\n&#39;</span><span class="p">)</span>
+<span class="p">})</span>
+
+<span class="nx">server</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="nx">port</span><span class="p">,</span> <span class="nx">hostname</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`服务器运行在 http://</span><span class="si">${</span><span class="nx">hostname</span><span class="si">}</span><span class="sb">:</span><span class="si">${</span><span class="nx">port</span><span class="si">}</span><span class="sb">/`</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div><p>每当接收到新的请求时，<a href="http://nodejs.cn/api/http.html#http_event_request"><code>request</code> 事件</a>会被调用，并提供两个对象.</p>
+<ul>
+<li>
+<p>一个请求（<a href="http://nodejs.cn/api/http.html#http_class_http_incomingmessage"><code>http.IncomingMessage</code></a> 对象）提供了请求的详细信息。 在这个简单的示例中没有使用它，但是你可以访问请求头和请求数据。</p>
+</li>
+<li>
+<p>一个响应（<a href="http://nodejs.cn/api/http.html#http_class_http_serverresponse"><code>http.ServerResponse</code></a> 对象）用于返回数据给调用方。</p>
+</li>
+</ul>
+<h3 id="electron">Electron</h3>
+<p>使用<a href="https://www.electronjs.org/docs/api/ipc-renderer"><code>ipcRenderer</code></a> 和 <a href="https://www.electronjs.org/docs/api/ipc-main"><code>ipcMain</code></a>模块发送消息</p>
+<p>使用 <a href="https://www.electronjs.org/docs/api/remote">remote</a>模块进行RPC方式通信</p>
+<p>RPC方式通信</p>
+<p><a href="https://www.electronjs.org/docs/faq#how-to-share-data-between-web-pages">web页面间如何共享数据</a>。</p>
+<p>主进程和渲染进程中，你可以通过require的方式将其包含在模块中以此，获取Electron的API</p>
+<div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">const</span> <span class="n">electron</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="err">&#39;</span><span class="n">electron</span><span class="err">&#39;</span><span class="p">)</span>
+</code></pre></div><ul>
+<li>主进程或渲染进程</li>
+<li>一些API可以同时在两种进程中使用. 每一个API的文档都将声明你可以在哪种进程中使用该API。</li>
+<li>Electron通过<code>remote</code>模块暴露一些通常只能在主进程中获取到的API。 为了在渲染进程中创建一个<code>BrowserWindow</code>的实例，我们通常使用remote模块为中间件：</li>
+</ul>
+<p>同时对主进程和渲染进程暴露了Node.js 所有的接口</p>
+<p>1)所有在Node.js可以使用的API，在Electron中同样可以使用。 在Electron中调用如下代码是有用的：</p>
+<div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">const</span> <span class="n">fs</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="err">&#39;</span><span class="n">fs</span><span class="err">&#39;</span><span class="p">)</span>
+<span class="k">const</span> <span class="n">root</span> <span class="o">=</span> <span class="n">fs</span><span class="p">.</span><span class="n">readdirSync</span><span class="p">(</span><span class="sc">&#39;/&#39;</span><span class="p">)</span>
+<span class="c1">// 这会打印出磁盘根级别的所有文件
+</span><span class="c1">// 同时包含&#39;/&#39;和&#39;C:\&#39;。
+</span><span class="c1"></span><span class="n">console</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">root</span><span class="p">)</span>
+</code></pre></div><ul>
+<li>加载远程内容的信息和指南</li>
+<li>npm 提供了目前世界上最大的开源代码库，那里包含了经过良好维护和测试的代码，这些代码之前往往是专门供给服务器应用程序使用的，能够使用这些代码是Electron的重要特色之一。</li>
+<li>在你的应用程序中如果要使用官方的AWS SDK，你需要首先将它作为一项依赖进行安装, 然后在你的Electron应用中，通过require引入并使用该模块，就像构建Node.js应用程序那样：</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="c1">// 准备好被使用的S3 client模块
+</span><span class="c1"></span><span class="k">const</span> <span class="n">S3</span> <span class="o">=</span> <span class="n">require</span><span class="p">(</span><span class="err">&#39;</span><span class="n">aws</span><span class="o">-</span><span class="n">sdk</span><span class="o">/</span><span class="n">clients</span><span class="o">/</span><span class="n">s3</span><span class="err">&#39;</span><span class="p">)</span>
+</code></pre></div><p>原生Node.js模块 (即指，需要编译源码过后才能被使用的模块) 需要在编译后才能和Electron一起使用。绝大多数的Node.js模块都<em>不</em>是原生的， 在650000个模块中只有400是原生的。 当然了，如果你的确需要原生模块，可以在这里查询<a href="https://www.electronjs.org/docs/tutorial/using-native-node-modules">如何重新为Electron编译原生模块</a>(很简单)。</p>
+<h2 id="reference">REFERENCE</h2>
+<div id="j1">[1]. https://developer.aliyun.com/mirror/NPM</div>
+<div id="j2">[2]. https://www.electronjs.org/docs/tutorial/installation</div>
+<div id="j3">[3]. https://jspang.com/detailed?id=62</div>
+<div id="j4">[4]. https://www.electronjs.org</div>
+<div id="j5">[5]. https://www.cnblogs.com/zjhblogs/p/10755058.html</div>
+<div id="j6">[6]. http://www.thewashingtonhua.com/blog/2017/07/06/electron-install-guide</div>
+<div id="j7">[7]. https://systemisbusy.info/blog/2019/09/03/%E7%BB%99electron%E5%81%9Ac%E5%BC%80%E5%8F%91%E7%9A%84%E9%82%A3%E4%BA%9B%E5%9D%91/</div>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

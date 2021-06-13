@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>@bGZoCg</title>
+    <link>https://bgzocg.me/</link>
+    <description>Recent content on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Apr 2021 13:27:46 +0800</lastBuildDate><atom:link href="https://bgzocg.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summer Summary</title>
+      <link>https://bgzocg.me/210606-summer-summary/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210606-summer-summary/</guid>
+      <description>&lt;p&gt;不会有人一直高考, 但总有人在高考, 又是一年高考季, 在 Notion 总结了从 4月 来发生的事, 发布在&lt;a href=&#34;https://www.notion.so/210420-210608-0f190ea189e24f8e833a62d5f3e53eaf&#34;&gt;这里&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Team PTA Summaries</title>
+      <link>https://bgzocg.me/210412-team-pta-summary/</link>
+      <pubDate>Mon, 12 Apr 2021 13:27:46 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210412-team-pta-summary/</guid>
+      <description>这个周六日就要举行模拟赛了, 找时间总结一下题目的类型, 打算回头再把自己练习的代码爬下来, 顺便可以联系一波爬虫, 汗颜, 自己实在是太菜了, 这半个月只是大致了解了一下新的函数的用法以及新的stl库, 还没有涉猎高阶的算法有: 阻塞(并发)队列, AVL树及红黑树, B树,B+树,2-3树,2-3-4树, 优先级队列, 斐波那契堆, 二项堆, 二分图, 最大流, A*启发式搜索, AC自动机, Trie等.
+   分类 题目     模拟/IO L1-001;L1-002;L1-004;L1-005;L1-007;
+L1-008;L1-009;L1-010;L1-013;L1-014;L1-015;L1-016;L1-017;L1-018;L1-019;L1-021;L1-022;L1-023;
+L1-024;L1-025;L1-026;L1-027;L1-028;L1-029;L1-030;L1-031;L1-032;L1-033;L1-035;L1-036;
+L1-037;L1-038;L1-039;L1-040;L1-041;L1-042;L1-043;L1-044;L1-044;L1-045;L1-046;L1-047;
+L1-048;L1-049;L1-050;L1-051;L1-052;L1-053;L1-054;L1-055;L1-056;L1-057;L1-058;L1-059;
+L1-060;L1-061;L1-062;L1-063;L1-064;L1-065;L1-066;L1-067;L1-068;L1-069;L1-070;L1-072   字符串匹配 L1-070;   打表 L1-006;   位数组 L1-003;L1-020;L1-034   递归 L1-006;L1-011;L1-012;   图 L2-001;    </description>
+    </item>
+    
+    <item>
+      <title>Introduction To Software Engineer</title>
+      <link>https://bgzocg.me/introduction-to-software-engineering/</link>
+      <pubDate>Thu, 18 Mar 2021 23:48:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/introduction-to-software-engineering/</guid>
+      <description>软件工程导论 在课程上讲了几个月前我在TG上学到的 Agile Development-敏捷开发的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的网站. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.
+课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下预复习, 平时应付, 考前冲锋, 及格光荣. 悲夫&amp;hellip;
+ 内容主要来自
+ 清华大学出版社-张海藩,牟永敏的&amp;laquo;软件工程概论(第六版)&amp;raquo; 《软件工程导论》张海潘版核心纲要读书笔记 程序猿大本营-软件工程导论  无独有偶, 阮一峰 也在他的博客上谈了这门学科, 关于软件工程的最大难题.
+概论  软件危机  介绍 原因 消除途径   软件工程(工程学科)  软件工程的介绍  工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它   软件工程的基本原理 软件工程方法学  软件工程 三要素：方法，工具，过程 软件方法学 三要素：程序加数据，文档     软件生命周期  三个时期 八个阶段   软件过程  瀑布模型: 需求分析-&amp;gt;规格说明-&amp;gt;设计-&amp;gt;编码-&amp;gt;测试-&amp;gt;维护  每个阶段都要完成文档，每个阶段结束前都要对文档进行评审   快速原型模型: 快速原型-规格说明-设计-编码-综合测试-维护 增量模型: 需求分析-&amp;gt;规格说明-&amp;gt;概要设计-&amp;gt;对构件设计，编码，集成，测试 螺旋模型 喷泉模型 Rational统一过程: 初始，精化，构建，移交 敏捷过程与极限编程 微软过程    https://www.</description>
+    </item>
+    
+    <item>
+      <title>Apologize To Three Cats In My Life</title>
+      <link>https://bgzocg.me/210314-apologize-to-three-cats-in-my-lifes/</link>
+      <pubDate>Sun, 14 Mar 2021 15:55:19 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210314-apologize-to-three-cats-in-my-lifes/</guid>
+      <description>&lt;p&gt;最近听梁文道的&lt;a href=&#34;https://vistopia.com.cn&#34;&gt;八分&lt;/a&gt;的节目-我们该怎样和导盲犬相处, &amp;ldquo;我真心觉得能善待小动物的人坏不到哪去&amp;rdquo;, 道长的这句话似风筝的线, 把我拉回到了今年年前. 父亲那时捡回来一只小奶猫, 因为正值北方数九寒天, 扔到外面生存基本为0, 所以这只小奶猫(母)就需要在我们家暂呆了一段时间, 开始的时候我并不在意生活中多出来的这么个小玩意, 因为以我多年的经验看这只猫大概率不过一周时间就会被母亲扔掉. 我挽留的能力基本为0, 我本能的觉得自己不需要仍何东西, 包括这只小猫, 但很不意外的是, 我姐她给它买了猫床, 猫笼, 猫砂等一系列物品, 满满地, 母亲反对的声音也没有了. 去年十二月说的要养猫的理想老姐也实现了, 如此一来对她的精神状态也能有所治愈吧, 希望老姐和我都能快点好起来.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://bgzocg.me/docker/</link>
+      <pubDate>Thu, 04 Mar 2021 17:57:17 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/docker/</guid>
+      <description>&lt;p&gt;本文参考教程.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docker-curriculum.com/#introduction&#34;&gt;A Docker Tutorial for Beginners&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Winter Holiday Summary</title>
+      <link>https://bgzocg.me/210228-winter-holiday-summary/</link>
+      <pubDate>Sun, 28 Feb 2021 15:33:07 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210228-winter-holiday-summary/</guid>
+      <description>&lt;p&gt;经个人的考量, 决定今后每年必发四期个人的总结报告, 分别总结自己在每一个季度的收获和总结, 这一篇文章总结的月份是从 &lt;code&gt;210109&lt;/code&gt;到 &lt;code&gt;210228&lt;/code&gt; , 是我大二寒假的全部收获, 等我 &lt;code&gt;Push &lt;/code&gt; 出来的时候相信寒假已经结束了吧, 记录, 祝福.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pictures</title>
+      <link>https://bgzocg.me/pictures/</link>
+      <pubDate>Wed, 24 Feb 2021 16:42:01 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/pictures/</guid>
+      <description>&lt;p&gt;先科普些基础知识&lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;结构&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;位图&lt;/strong&gt;（Bitmap）：又叫栅格图、点阵图，使用像素阵列来表示图像。位图就是由象素阵列的排列来实现其显示效果的，每个象素有自己的颜色信息，在对位图图像进行编辑操作的时候，可操作的对象是每个象素，我们可以改变图像的色相、饱和度、明度，从而改变图像的显示效果。位图根据位深度，有 1、4、8、16、24、32 位图像等。位图放大会失真变模糊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矢量图&lt;/strong&gt;：计算机图形学中用点、直线或者多边形等基于数学方程的几何图元表示图像。相比较位图，矢量图保存最少的信息，体积更小，缩放不会失真。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;颜色&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;索引色&lt;/strong&gt;（Indexed Color）：一个数字表示一个颜色，一个字节也就是最多支持 256(2^8) 种颜色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;直接色&lt;/strong&gt;（Direct Color）：4 个数字表示一个颜色，分别表示红、黄、蓝以及透明度，所以最多可以表达 2^32 种颜色。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图像文件字节数(Byte)&lt;/strong&gt; = 图像分辨率 * 颜色深度 / 8&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;位深/颜色深度&lt;/strong&gt;：一个像素最多支持多少种颜色。一般用“位”（bit）来描述&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://bgzocg.me/database/</link>
+      <pubDate>Thu, 28 Jan 2021 17:39:35 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/database/</guid>
+      <description>&lt;p&gt;本文参考:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/zh-cn/sql/&#34;&gt;X分钟速成Y-SQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12b411K7Zu&#34;&gt;MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/91856df6b6f9&#34;&gt;尚硅谷MySQL核心技术基础知识笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>GTD Time Manage</title>
+      <link>https://bgzocg.me/gtd-time-manage/</link>
+      <pubDate>Tue, 26 Jan 2021 19:57:30 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/gtd-time-manage/</guid>
+      <description>&lt;p&gt;Getting Things Done, 直接翻译为“把事情做完”，本身就很可能让人误解成——你必须做完所有的事情。但其实，“&lt;strong&gt;把你需要做的事情列出来，并处理它&lt;/strong&gt;” 和“把事情做完”是两件完全不同的事情。而 GTD 所强调的，是前者。&lt;/p&gt;
+&lt;p&gt;本文源于 &lt;a href=&#34;//topcook.cc/&#34;&gt;Topbook&lt;/a&gt; 的免费公开课, 课程的名称是 &lt;a href=&#34;https://topbook.cc/course/detail/153&#34;&gt;重新认识 GTD&lt;/a&gt;, 写作的目的是落实到自己身上. 所以只截取有用的部分.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Source Licence</title>
+      <link>https://bgzocg.me/open-source-licence/</link>
+      <pubDate>Tue, 26 Jan 2021 16:50:29 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/open-source-licence/</guid>
+      <description>&lt;p&gt;世界上现在有 60 多种被开源促进组织（ Open Source Initiative）认可的开源许可协议来保证开源工作者的权益. 本文涉及的协议有: AL, CC, GPL, LGPL, BSD等协议.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;开源共享精神:&lt;/strong&gt; 软件程序与源代码文件一起打包提供给用户, 让用户在不受限制地使用某个软件功能的基础上还可以按需进行修改, 或编制成衍生产品再发布出去. 用户具有使用自由、修改自由、重新发布自由以及创建衍生品的自由.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特点:&lt;/strong&gt; 低风险、高品质、低成本、更透明&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning--Perceptron</title>
+      <link>https://bgzocg.me/210123-machine-learning-notes/</link>
+      <pubDate>Fri, 22 Jan 2021 19:52:50 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210123-machine-learning-notes/</guid>
+      <description>&lt;p&gt;机器学习最重要的是“预测”，因此“机器学习”包含两个部分:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;训练&lt;/strong&gt;：比如提供大量的汽车图片给机器“学习”，教会机器什么是车，这就是训练&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;预测&lt;/strong&gt;：训练结束后，我们需要机器可以对没有见过的图片进行判断，并且要保证一定的正确率，这就是预测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;机器学习适用于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要解决的问题中存在&lt;strong&gt;某种模式&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;这种模式&lt;strong&gt;不容易直接定义&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;有&lt;strong&gt;足够的数据&lt;/strong&gt;可以帮助我们找出该模式&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stackover Cpp Top Questions</title>
+      <link>https://bgzocg.me/210121-stackover-top-notes/</link>
+      <pubDate>Thu, 21 Jan 2021 14:31:44 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210121-stackover-top-notes/</guid>
+      <description>&lt;p&gt;问题皆来源于下面的两个链接&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, 本文做了部分的摘录, 感谢翻译：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c%2b%2b?tab=Votes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/c?tab=Votes&#34;&gt;https://stackoverflow.com/questions/tagged/c?tab=Votes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://bgzocg.me/photography/</link>
+      <pubDate>Wed, 20 Jan 2021 21:58:28 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/photography/</guid>
+      <description>&lt;p&gt;其实摄影和绘画、文字、音乐一样，都是一个载体，一个将创作者的思想或意图传达给读者（观众、听众）的载体。&lt;/p&gt;
+&lt;p&gt;好照片:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有一个鲜明的主题&lt;/li&gt;
+&lt;li&gt;把注意力引向被摄主体&lt;/li&gt;
+&lt;li&gt;尽量简洁&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://bgzocg.me/ubuntu/</link>
+      <pubDate>Tue, 19 Jan 2021 18:11:54 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/ubuntu/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Galgame / エロゲー</title>
+      <link>https://bgzocg.me/galgame/</link>
+      <pubDate>Mon, 18 Jan 2021 18:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/galgame/</guid>
+      <description>&lt;p&gt;无独有偶, 在B站破圈的那一天, 这个灰色领域就暴露了无尽的问题, 内容审查, 盗版版权, 情色商品化和女权问题, 最近越来越多的汉化组也集体解散, 当年的破圈以为是一束光照进我们的世界, 我一开始为更多人的到来感到开心, 这个圈子终于不再小众, 但是果真从了那句&amp;quot;小众破圈之后就相当于死亡&amp;quot;的那句箴言, 没有阳光的地带, 有了光亮, 就不复存在&lt;sup&gt;&lt;a href=&#34;#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这件事很矛盾&lt;/p&gt;
+&lt;p&gt;一方面我们禁止18岁以上人口传播18禁内容&lt;/p&gt;
+&lt;p&gt;另一方面我们又希望18岁以上人口做18禁的事来增加人口&lt;/p&gt;
+&lt;p&gt;我们一定是无性生殖的物种&lt;sup&gt;&lt;a href=&#34;#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;写&lt;code&gt;Gal&lt;/code&gt;是我自己的私心, 因为这件事并不能为我自己带来多少附加值/增值, 还容易给自己增加一个情色的不必要标签. 可能大部分关于这方面的讨论我们都把注意力聚焦在R18部分的内容, 当然一开始我接触&lt;code&gt;Gal&lt;/code&gt;的目的就是可以低成本的让身体产生多巴胺, 催产素, 达到催眠麻醉自己的作用.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Earphone</title>
+      <link>https://bgzocg.me/earphone/</link>
+      <pubDate>Mon, 18 Jan 2021 16:43:20 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/earphone/</guid>
+      <description>&lt;p&gt;说说耳机的 坑点, 信息获取 及 主观感受. 先看看我用过的耳机:&lt;/p&gt;
+&lt;table&gt;
+   &lt;tr&gt;
+       &lt;td&gt;&lt;center&gt;&lt;b&gt;牌子&lt;/b&gt;&lt;/center&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;center&gt;&lt;b&gt;型号&lt;/b&gt;&lt;/center&gt;&lt;/td&gt;
+       &lt;td&gt;&lt;center&gt;&lt;b&gt;感受&lt;/b&gt;&lt;/center&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Apple&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://www.apple.com/shop/product/MNHF2AM/A/earpods-with-35-mm-headphone-plug&#34;&gt;EarPods&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;[漏电已坏] 耳机蛮良心, 声音什么的都很正, 唯一缺点是线很容易黄&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td rowspan=&#34;1&#34;&gt;Edifier&lt;/td&gt;
+       &lt;td&gt;&lt;a href=&#34;https://www.edifier.com/cn/zh/Headphones/page-h295p&#34;&gt;H295P&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;[丢失] 记得不多了, 和苹果的相似, 多了一些入耳式的封闭的特点&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+       &lt;td&gt;Philips&lt;/td&gt;
+       &lt;td&gt;&lt;a href=&#34;https://www.philips.com.hk/en/c-p/SHP9500_00/hifi-stereo-headphones&#34;&gt;SHP9500&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;......&lt;/td&gt; 
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Vido&lt;/td&gt;
+      &lt;td&gt;MX500&lt;/td&gt;
+      &lt;td&gt;直白的说就是敲铁皮的声音, 但是三段要啥有啥, 9.9包邮我赚了?&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Xiaomi&lt;/td&gt;
+      &lt;td&gt;Air2&lt;/td&gt;
+       &lt;td&gt;[骗钱+试探市场+已出] 音质没什么特点但很通透; 续航极差! 单耳机甚至在使用一年后连三小时都撑不过去, 盒子只能给两只耳机同时充1.5次电. 后期出现连续断连而不维护. 下面是Air2s的介绍页面&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Air2已消失&lt;img src=&#34;https://dandelionfs.oss-cn-beijing.aliyuncs.com/earphone-xiaomi-air2s.webp&#34; style=&#34;margin:0&#34; alt=&#34;air2s introduction img&#34;/&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;水月雨&lt;/td&gt;
+      &lt;td&gt;SSR(官网无该页面...)&lt;/td&gt;
+      &lt;td&gt;[换线已丢] 重人声, 中低音不明显, 声场略窄./&lt;/td&gt;
+   &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;sony&lt;/td&gt;
+        &lt;td&gt;&lt;a href=&#34;https://helpguide.sony.net/mdr/whch700n/v1/zh-cn/index.html&#34;&gt;WH-CH700N&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;......&lt;/td&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>End to End 端对端</title>
+      <link>https://bgzocg.me/210117-end-to-end/</link>
+      <pubDate>Sun, 17 Jan 2021 17:33:21 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210117-end-to-end/</guid>
+      <description>&lt;p&gt;The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.&lt;/p&gt;
+&lt;p&gt;一个设计框架计算机联网。在根据该原理设计的网络中，特定于应用程序的功能驻留在网络的通信端节点中，而不是存在于建立网络的中间节点（如网关和路由器）中。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why home address is prefixed with 192.168?</title>
+      <link>https://bgzocg.me/210117-whats-192-168/</link>
+      <pubDate>Sun, 17 Jan 2021 14:44:52 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210117-whats-192-168/</guid>
+      <description>&lt;p&gt;A Internet spec called  &lt;a href=&#34;http://www.ietf.org/rfc/rfc1918.txt&#34;&gt;RFC 1918&lt;/a&gt; (Request For Comments) reserved a few blocks of addressnss for &amp;ldquo;private&amp;rdquo; network. 192.168/16 was one of those blocks.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Summary For 404*5</title>
+      <link>https://bgzocg.me/210101-my404-5/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210101-my404-5/</guid>
+      <description>&lt;p&gt;像大多数人一样, 我也要象征性地写一份年终报告, 我正从下午的美梦的挣扎起来, 揉搓着疲惫的眼睛, 拿着几条咖啡, 我不知道这样子挥霍午觉的日子还有多少, 至少在上半年的时间里我是不怎么睡午觉的, 靠着大量的咖啡因和可乐度过了在家的漫长的假期. 最后的后果就是牙裂了, 幸好没有伤害到牙神经, 还发现自己的牙齿蛀掉5颗, 哭死啦!!! 以后&lt;strong&gt;一定一定一定要定期去看牙齿, 这是一个必须养成的好习惯&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kernel</title>
+      <link>https://bgzocg.me/kernel/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/kernel/</guid>
+      <description>&lt;p&gt;主要内核有两种:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Window NT&lt;/strong&gt; : 内核自身闭源，所以普通的扩展方法就是写驱动，驱动加载进去基本也就什么都能做了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LINUX&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对于哪种内核更加安全, 有人这样说:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;就计算机安全来说，离不开谈论的环境，即所谓要确立&amp;quot;可信计算域&amp;quot;的概念和范围.&lt;/p&gt;
+&lt;p&gt;内核内就是“可信计算域”，这里面能做出危害整个系统的事情。&lt;/p&gt;
+&lt;p&gt;要确立“可信计算域”，安全是对用户来说的，无论吹得多么天花乱坠，伤害了最终用户，再先进的技术也是不安全的。[1]&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://bgzocg.me/git/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/git/</guid>
+      <description>&lt;p&gt;版本控制系统 —— 记录每次文件的改动，协作编辑，避免管理一堆类似的文件了，也不需要把文件传来传去。&lt;/p&gt;
+&lt;p&gt;如果想查看某次改动，只需要在软件里瞄一眼就可以，能记录每次文件的改动：&lt;/p&gt;
+&lt;p&gt;这样，你就结束了手动管理多个“版本”的史前时代，进入到版本控制的20世纪。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;版本&lt;/th&gt;
+&lt;th&gt;文件名&lt;/th&gt;
+&lt;th&gt;用户&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;张三&lt;/td&gt;
+&lt;td&gt;删除了软件服务条款5&lt;/td&gt;
+&lt;td&gt;7/12 10:38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;张三&lt;/td&gt;
+&lt;td&gt;增加了License人数限制&lt;/td&gt;
+&lt;td&gt;7/12 18:09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;李四&lt;/td&gt;
+&lt;td&gt;财务部门调整了合同金额&lt;/td&gt;
+&lt;td&gt;7/13 9:51&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;张三&lt;/td&gt;
+&lt;td&gt;延长了免费升级周期&lt;/td&gt;
+&lt;td&gt;7/14 15:17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>IMU Short Term Develop</title>
+      <link>https://bgzocg.me/200901-imu-short-term-develop/</link>
+      <pubDate>Tue, 01 Sep 2020 22:21:38 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/200901-imu-short-term-develop/</guid>
+      <description>&lt;p&gt;该怎么去面对自己在一个月的时间里没有好好写好 &amp;ldquo;学生选课系统&amp;rdquo; 这一个简单的 &lt;code&gt;Cpp&lt;/code&gt; 程序, 这篇文章鸽了很久, 我多少希望自己逃避这个对我造成不小阴影的时间段, 我不知道那些跟着联盟导师团伙做项目的同学增长了多少知识, 但我在一个月的时间里缺乏真的效率很低, 多次心态接近低到零点爆炸, 甚至开始怀疑自己是不是真的适合这门学科. 说多了也只是为自己的低能找借口开脱, 我总结以下几个方面, 附带一些槽点, 诚恳总结如下:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;总结:
+&lt;ul&gt;
+&lt;li&gt;前期进度开发出现问题时, 一定要即时和其他成员进行反馈, &lt;strong&gt;不可以拖延&lt;/strong&gt;, 像现在的工作岗位一样, 工作时间拖延, 那就占用你的成长时间来弥补.&lt;/li&gt;
+&lt;li&gt;代码&lt;strong&gt;预处理&lt;/strong&gt;太多造成冗余项过多, 难以维护, 以及&lt;strong&gt;整体逻辑结构&lt;/strong&gt;必须在实施前去实现一下, 这样可以在码字的时候为以后做更多的打算. 实际开发中走一步看一步造成了不断地修改重复代码及标记变量, 而后再去维护更多的函数, 维护再度提升一个量级. 写代码的时候必须&lt;strong&gt;警惕过多的预处理&lt;/strong&gt;, 一定有更好的方式.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;尽量用更省力的库&lt;/strong&gt;, 不要重复造不必要的轮子. 在实际开发中, 我曾避免使用可托容的 &lt;code&gt;vector&lt;/code&gt;, 而用双数组来代替之, 复杂度提升一个量级, 何苦呢?&lt;/li&gt;
+&lt;li&gt;做好最坏的打算, 不要想着在一个染缸里摸鱼. 实际开发中因为太卷, 大家走一步看一步, 前期不必要的要求到后期都成为了必要项. 这样子强制让人一起绕着卷王加班的情景真是和现 996 如出一辙.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electron</title>
+      <link>https://bgzocg.me/electron/</link>
+      <pubDate>Thu, 20 Aug 2020 19:35:43 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/electron/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/electron/electron&#34;&gt;Electron&lt;/a&gt;, html/css/js的跨平台应用开发框架, 额外需要用到&lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;NodeJS&lt;/a&gt;, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm install electron -g
+$ npm install electron --save-dev
+$ npm install electron -g --unsafe-perm
+$ sudo npm npm install electron -g
+$ sudo npm npm install electron -g --unsafe-perm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 &lt;code&gt;node install.js&lt;/code&gt; 的 &lt;code&gt;download electron-linux-x64.zip&lt;/code&gt;, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;., 或者直接使用 &lt;code&gt;npm config set registry http://registry.npm.taobao.org&lt;/code&gt; 永久设置/ &lt;code&gt;~/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;; 或者 &lt;code&gt;npm install your-model --registry=http://registry.npm.taobao.org&lt;/code&gt; 临时设置源. 相信我, 这是唯一最优的方法.&lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; proxy url
+$ npm config delete proxy
+&lt;span class=&#34;c1&#34;&gt;# Or You could &lt;/span&gt;
+$ vim ~/.npmrc
+&lt;span class=&#34;c1&#34;&gt;# Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/`&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>VSCode You Should Know</title>
+      <link>https://bgzocg.me/vscode/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/vscode/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;MIT Open Lience.&lt;/li&gt;
+&lt;li&gt;Jeff Atwood said in 2007:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>逃离</title>
+      <link>https://bgzocg.me/200715-escape/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/200715-escape/</guid>
+      <description>&lt;p&gt;夜色正浓，他再一次被热醒，有点迷糊，侧过身子，他看向周围的一切，远处灯光平静地打在课桌上，书本试卷被卷在他的身后，褶皱书本已被汗渍浸湿，那些断断续续失色的黑字让他感到厌倦，起身，他静静地注视着周遭的一切，书本像行星围绕在他周围，他自己仿佛就是一个巨大的黑洞，会吸引吞噬并摧毁周围的一切。一只蚊子飞过，起飞，着陆，起飞，再着陆，他感到厌烦，用拳头握住头顶的蚊子，草草结束了蚊子的一生。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Proxy</title>
+      <link>https://bgzocg.me/proxy/</link>
+      <pubDate>Wed, 26 Feb 2020 23:51:37 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/proxy/</guid>
+      <description>&lt;p&gt;提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 &lt;code&gt;google&lt;/code&gt; 高兴一下, 然后就没时间了, 一天下来等于什么都没干&amp;hellip;&amp;hellip; 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开&lt;code&gt;clash.razord.top/#/settings&lt;/code&gt;. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开了系统代理 &amp;amp;&amp;amp; &lt;code&gt;Clash&lt;/code&gt; 全部开启&lt;/li&gt;
+&lt;li&gt;配置文件格式有问题&lt;/li&gt;
+&lt;li&gt;变量的大小写问题&lt;/li&gt;
+&lt;li&gt;变量的端口的有无&lt;/li&gt;
+&lt;li&gt;映射端口是否对应&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./clash -d .&lt;/code&gt; &amp;amp; &lt;code&gt;./clash&lt;/code&gt; 的效果不一致.&lt;/li&gt;
+&lt;li&gt;套餐过期/场主跑路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>社会学下的热恋和冷婚</title>
+      <link>https://bgzocg.me/200225-social-love-marry/</link>
+      <pubDate>Tue, 25 Feb 2020 11:55:08 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/200225-social-love-marry/</guid>
+      <description>&lt;p&gt;主讲人：&lt;a href=&#34;https://baike.baidu.com/item/%E6%B2%88%E5%A5%95%E6%96%90/4232616&#34;&gt;沈弈斐&lt;/a&gt;副教授&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：为什么女性总是喜欢霸道总裁的片段？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A ：源于男女不同的内在追求，女性眼里往往更加在乎独特的自我，而男性往往在乎自己的权威。这样想：如何我被一个普通的人爱了，那么我的特殊的自己不就很普通吗？反过来，如果我被一个拥有众多选择的总裁爱上了，那么我的价值不就更大了吗？所以往往对霸道总裁片段的喜爱，对应着独特自我的体制在自己身上的投射。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我希望自己足够渺小</title>
+      <link>https://bgzocg.me/i-wish-i-could-small-enough/</link>
+      <pubDate>Thu, 20 Feb 2020 16:30:30 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/i-wish-i-could-small-enough/</guid>
+      <description>&lt;p&gt;文字选自拾穗人的画集《我希望自己足够渺小》。有趣的是，不足1100的文字却足够让我震撼。在高三那段一个人的时间里，情感堆积，这本书成为了我短暂的情绪宣泄的出口，坐在图书书架下埋头一个小时看完总是让人浮想联翩。和往日看到的画作不同，他讲的是一个个个人的悲剧，将视角拉近，一个人内心的私欲被揭而讽刺。看完之后自然很是压抑，但是我们还是必须相信美好的事情即将发生，因为真的有源源不断的希望等着我们。祝福你我。 🎈&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>梁老师的爱情课</title>
+      <link>https://bgzocg.me/200208-mr-liang-love-course/</link>
+      <pubDate>Sat, 08 Feb 2020 04:39:30 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/200208-mr-liang-love-course/</guid>
+      <description>&lt;p&gt;高三听歌乍见，甚是欢喜, 感觉讲的很通透，遂找来细品.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：梁永安，⽂学博⼠，复旦⼤学⽐较⽂学与⽐较⽂化专业副教授，韩国梨花⼥⼦⼤学⼤学客座教授 ，⽇本神户外国语⼤学客座教授 ，⽇本冈⼭⼤学客座教授 美国波⼠顿⼤学客座教授 长期从事⽐较⽂学与⽐较⽂化研究，主要研究领域为： 中国近代教会⼤学与中外⽂学关系 景观社会中的⼩说与电影 城市化与中国多元⽂化资源的再⽣性聚合 。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>https://bgzocg.me/404/</link>
+      <pubDate>Thu, 30 Jan 2020 13:59:24 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/404/</guid>
+      <description>这篇文章只是个人针对 IPS 的一些片面的看法, 因内容被墙的无奈而有的情绪发泄, 自然带有强烈的主观情绪, 本文不适合任何人阅读, 请慎重浏览, 如果你觉得我错了, 我提前声明, &amp;ldquo;你说得对&amp;rdquo;.
+我写文的原因是 Wikipedia 被墙后, 深感国内 查阅知识的门槛 获取一手知识便捷度弹性之高&amp;ndash;知网, 各大学的图书馆不对外开放, 公共资源如此之少, 想看的东西大多是 404, 网络已经被重置, 网页经举报无法访问种种. 有时在优化网络的道路上越走越远, 越走越偏执, 因为想不通这凭空来的一道门槛的意义所在&amp;hellip;&amp;hellip;
+反观陆内现状, 冷门词条要么没有, 要么东西甚少+机器翻译; CSDN博客质量停留在 Ctrl C/V 之间, 甚至连脚本之家的文章也照抄不误; 博客园半死不活再弥补几年前审查的空缺; 那些媲美狗屁不同生成器的先刻意地立人设, 再集体收割的营销文章越来越多;
+像王垠说的那样, 大道至简, 一句话可以说清楚的事情哪里需要动辄上千字的文章? 偶尔能看到灵光一闪的产品, 但转眼就被捣毁. 知乎, 豆瓣, 百度贴吧. 这些都离不开一个词&amp;ndash;审查. 我们言之网络并非法外之地, 但当自己手机里的小黄油, 网站被掐掉的时候, 那些人又闭嘴了&amp;hellip;
+网络上的争论, 大多数是那些既得利益者和罗普大众之间的诡辩, 所以你站到哪一方都没有绝对的错误. 人生那么短, 没有必要没有意义揪住一件事情不放, 虽然无数前人为了德先生 (Democracy) 和赛先生 (Science) 而奋斗终生, 但是人生终须妥协, 朋友开心点吧, 人间不值得&amp;hellip;&amp;hellip;
+对于使用互联网产品的自己时常感到矛盾, 因为按照 虚无主义 来看, 豆瓣, 知乎, 微博和贴吧 这些承载着我们这一代人美好记忆的东西终将消散, 那么我们到底要不要使用这些产品呢?</description>
+    </item>
+    
+    <item>
+      <title>All Pc Software In One</title>
+      <link>https://bgzocg.me/config/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/config/</guid>
+      <description>&lt;p&gt;说实话如果要把我找工具的经历一一记下的话可能篇幅过长, 那我尽量长话短说, 只记录要点. 长时间的寻找工具让我觉得软件间其实并没有绝对的差异, 更多时候也可以曲线救国找到临时解决方案, 过不了多久开发者就会跟近需求功能并逐一上线.&lt;/p&gt;
+&lt;p&gt;不要忘记找工具的主要目的是&lt;strong&gt;提高效率&lt;/strong&gt;, 如果自己因为寻找工具而惶惶不可终日, 那么一定是磨刀反误砍柴工了, 因为你的目的已经不是解决需求, 而是不断的创造需求, 无穷递归的时间复杂度很大的噢! 有种新型的说法是 &lt;strong&gt;productivity porn&lt;/strong&gt;, 专指那些热衷于寻找大量工具但是从来不会湿鞋的一群人&lt;sup&gt;&lt;a href=&#34;#j8&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;.如有&lt;a href=&#34;https://twitter.com/XDash/status/1372355660067663875&#34;&gt;一位朋友说&lt;/a&gt;的:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1、逼迫自己坚持「日更」锻炼写作，写出来的多半无病呻吟。文章合为时而作，应该是有值得分享的东西再提笔；&lt;/p&gt;
+&lt;p&gt;2、用东拼西凑的碎片摘录，拼凑洋洋洒洒的长篇段落，就为佐证一个毫无新意的观点；&lt;/p&gt;
+&lt;p&gt;3、不断下载和研究新工具。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://bgzocg.me/blog/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;国内的功利主义者凡事都追求意义&lt;/strong&gt;. 为什么博客是他们绕不开的问题, 单纯为了写文? 亦或是记录? 简单的自我吹嘘? 可能都不是, 可能都是, 但一定是媚俗, 我羡慕那些从来都不写任何东西还能将食物娓娓道来的人们. 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我搭建过的一些博客(&lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Hexo&lt;/code&gt;, &lt;code&gt;Hugo&lt;/code&gt;, &lt;code&gt;Typecho&lt;/code&gt;)以及对博客的想法, 如果你只希望获得一个写作平台, 你也可以选择 &lt;code&gt;Notion&lt;/code&gt;, &lt;code&gt;Typlog&lt;/code&gt;, &lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Blogger&lt;/code&gt;, 甚至可以是万能的 &lt;code&gt;Telegram&lt;/code&gt;, &lt;code&gt;Twitter&lt;/code&gt;.如果你对这方面感兴趣, 推荐 &lt;a href=&#34;https://pythonhunter.org/episodes/ep25&#34;&gt;Ep 25. 个人知识管理体系系列 - 输出篇&lt;/a&gt;, 那么话再说回来, 我为什么写文?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我习惯称她为夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 她离开的时候也带走了我的一部分, 但我什么都做不了. 高考后拿到新手机和电脑后就断了联系, 我很想她.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字到 &lt;code&gt;Twitter&lt;/code&gt; 上, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 在这个24小时都能被打扰的世界中, 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来将自己暴露给他人是我的私心, 我不希望有些事情就这样过去, 也想被别人读到, 减少他们的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://bgzocg.me/books/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/books/</guid>
+      <description>&lt;p&gt;科普一下格式:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;解密&lt;/strong&gt;: &lt;a href=&#34;http://freemypdf.com/&#34;&gt;这里&lt;/a&gt;&lt;sup&gt;&lt;a href=&#34;#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;:  &lt;code&gt;Amazon&lt;/code&gt;私有格式, 亚马逊利用&lt;code&gt;azw&lt;/code&gt; 对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;KF8&lt;/code&gt;(2011), 填补 &lt;code&gt;Mobi&lt;/code&gt; 对复杂排版支持, 支持很多 HTML5, 正逐渐取代 mobi 成为 Kindle 主流格式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DRM移除&lt;/strong&gt;: 参考 &lt;a href=&#34;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&#34;&gt;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软 1998 年替代早先的 WinHelp 帮助系统,基于 HTML 文件特性的帮助文件系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”&lt;sup&gt;&lt;a href=&#34;#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
+- pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
+- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fonts</title>
+      <link>https://bgzocg.me/fonts/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/fonts/</guid>
+      <description>&lt;p&gt;说实话中文字体界实在是太乱了, 在使用过&lt;a href=&#34;//fonts.google.com&#34;&gt;Google Fonts&lt;/a&gt;之后一直想找替代的网站, 简中搜索结果总是着指向诸如xxx下载站, pc下载站, 第一字体网之类的质量十分低下(缺乏&lt;strong&gt;字体介绍&lt;/strong&gt;, &lt;strong&gt;使用许可&lt;/strong&gt;, &lt;strong&gt;作者详情&lt;/strong&gt;, &lt;strong&gt;官方网站&lt;/strong&gt;等)的网站, 然而他们的 SEO 偏偏总是最高的, 这种资源的不平衡让我有点受不了, 这和人们的使用习惯, 闭源的运营方式, 严格的审查制度有着十分密切的关系.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://bgzocg.me/markdown/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/markdown/</guid>
+      <description>&lt;p&gt;据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。&lt;/p&gt;
+&lt;p&gt;其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Musics</title>
+      <link>https://bgzocg.me/musics/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/musics/</guid>
+      <description>&lt;p&gt;科普一下格式:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MP3（not hi-res）&lt;/code&gt;：流行的有损压缩格式可确保“小文件”，但“远非最佳音质”。方便在智能手机和iPod上存储音乐。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AAC（not hi-res）&lt;/code&gt;：Apple的MP3替代品。有损压缩，但听起来更好**。用于iTunes下载和Apple Music流。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OGG（not hi-res）&lt;/code&gt;：一种音讯压缩格式。 MP3和AAC的有损开源替代品，不受专利限制。 Spotify流中使用的文件格式（320kbps）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MQA（hi-res）&lt;/code&gt;：一种无损压缩格式，打包了高分辨率文件，以实现更高效的流传输。用于潮汐大师的高分辨率流媒体。&lt;/li&gt;
+&lt;li&gt;AIFF（hi-res）：Apple替代WAV，具有更好的元数据支持。它是无损且未压缩的（如此大的文件大小），但并不流行。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DSD（hi-res）&lt;/code&gt;：用于超级音频CD的单位格式。它有2.8mHz，5.6mHz和11.2mHz两种版本，但是由于其高质量的编解码器，因此（当前）流式传输是不切实际的。未压缩。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FLAC（hi-res）&lt;/code&gt;：这种无损压缩格式支持高分辨率采样率，占用WAV大约一半的空间，并存储元数据。它是免版税的，并且被认为是下载和存储高分辨率专辑的首选格式。不利的一面是，Apple不支持它（因此与iTunes不兼容）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WAV（hi-res）&lt;/code&gt;：所有CD都编码成的标准格式。出色的音质，但未经压缩，这意味着文件很大（尤其是高分辨率文件）。它对元数据的支持不佳（即专辑封面，艺术家和歌曲标题信息）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WMA（hi-res）&lt;/code&gt;：Windows Media Audio的无损化身，但不再受智能手机或平板电脑的支持。 &lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

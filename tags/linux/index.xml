@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/linux/</link>
+    <description>Recent content in linux on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jan 2021 18:11:54 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu</title>
+      <link>https://bgzocg.me/ubuntu/</link>
+      <pubDate>Tue, 19 Jan 2021 18:11:54 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/ubuntu/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 &lt;a href=&#34;//github.com/dandelionfs/-nix&#34;&gt;Github - -nix&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

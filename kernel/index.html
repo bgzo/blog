@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Kernel - @bGZoCg">
+    <meta name="twitter:description" content="主要内核有两种:
+ Window NT : 内核自身闭源，所以普通的扩展方法就是写驱动，驱动加载进去基本也就什么都能做了。 LINUX  对于哪种内核更加安全, 有人这样说:
+ 就计算机安全来说，离不开谈论的环境，即所谓要确立&amp;quot;可信计算域&amp;quot;的概念和范围.
+内核内就是“可信计算域”，这里面能做出危害整个系统的事情。
+要确立“可信计算域”，安全是对用户来说的，无论吹得多么天花乱坠，伤害了最终用户，再先进的技术也是不安全的。[1]
+">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Kernel - @bGZoCg">
+    <meta property="og:description" content="主要内核有两种:
+ Window NT : 内核自身闭源，所以普通的扩展方法就是写驱动，驱动加载进去基本也就什么都能做了。 LINUX  对于哪种内核更加安全, 有人这样说:
+ 就计算机安全来说，离不开谈论的环境，即所谓要确立&amp;quot;可信计算域&amp;quot;的概念和范围.
+内核内就是“可信计算域”，这里面能做出危害整个系统的事情。
+要确立“可信计算域”，安全是对用户来说的，无论吹得多么天花乱坠，伤害了最终用户，再先进的技术也是不安全的。[1]
+">
+    <meta property="og:url" content="https://bgzocg.me/kernel/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>Kernel - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="主要内核有两种:
+ Window NT : 内核自身闭源，所以普通的扩展方法就是写驱动，驱动加载进去基本也就什么都能做了。 LINUX  对于哪种内核更加安全, 有人这样说:
+ 就计算机安全来说，离不开谈论的环境，即所谓要确立&amp;quot;可信计算域&amp;quot;的概念和范围.
+内核内就是“可信计算域”，这里面能做出危害整个系统的事情。
+要确立“可信计算域”，安全是对用户来说的，无论吹得多么天花乱坠，伤害了最终用户，再先进的技术也是不安全的。[1]
+">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Kernel</h1>
+    <time datetime="2020-12-05 00:00:00 CST">05 Dec 2020</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/system">System</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <p>主要内核有两种:</p>
+<ul>
+<li><strong>Window NT</strong> : 内核自身闭源，所以普通的扩展方法就是写驱动，驱动加载进去基本也就什么都能做了。</li>
+<li><strong>LINUX</strong></li>
+</ul>
+<p>对于哪种内核更加安全, 有人这样说:</p>
+<blockquote>
+<p>就计算机安全来说，离不开谈论的环境，即所谓要确立&quot;可信计算域&quot;的概念和范围.</p>
+<p>内核内就是“可信计算域”，这里面能做出危害整个系统的事情。</p>
+<p>要确立“可信计算域”，安全是对用户来说的，无论吹得多么天花乱坠，伤害了最终用户，再先进的技术也是不安全的。[1]</p>
+</blockquote>
+<h2 id="window-nt">WINDOW NT</h2>
+</br>
+<h2 id="linux">LINUX</h2>
+<ul>
+<li><a href="https://link.zhihu.com/?target=https%3A//www.kernel.org/">The Linux Kernel Archives</a>: Linux内核源码，这个就足够了，仅限于C。</li>
+</ul>
+<h3 id="那么多国家国产操作系统为什么都要用linux内核httpswwwzhihucomquestion23041464answer23435086"><a href="https://www.zhihu.com/question/23041464/answer/23435086">那么多国家“国产操作系统”为什么都要用linux内核？</a></h3>
+<blockquote>
+<p>因为做驱动实在是<strong>太麻烦了</strong>。没做过操作系统的developer都认为开发操作系统最复杂的是内核，这话说的也没错，但也不能说完全对，开发操作系统最麻烦的地方在于驱动。一个经典的操作系统内核，刨除驱动，可能就几百KB到几MB之间，不会太大。这就是说，如果有一个团队，技术足够NB的话，设计一个差不多的（注意：我说的是差不多的，可不是说完美的）内核不需要消耗太长时间（不会超过3-5年吧，快的话1-2年也是有一定可能的）。但是驱动真是个大麻烦，翻翻Linux内核源码，真正的内核调度器、内存管理的代码没多少，大量的代码都是驱动，因为要兼容各种各样的硬件。同样的，Windows的内核文件是NTOSKRNL.EXE，也是几MB大小，但再看看system32\drivers\下面有多少驱动？开发驱动和开发内核不同，开发驱动需要硬件厂商给资料，并非所有厂商都愿意合作，所以后果就是一个OS用的越广泛，厂商越是愿意协助开发对应的驱动，一个OS用的越少，厂商越不愿意给资料。目前比较成熟的内核里，驱动比较多的就只有Linux，所以Linux的驱动也越来越多，而如果要另起炉灶，写内核容易，写驱动难啊。而一个操作系统想用起来，没有硬件支持是不行的，所以最终各个国家/企业凡是要“自主研发”操作系统的时候，首先想到的就是Linux，原因也是因为实在没有办法去写那么多驱动。写内核，在x86平台上，感谢intel公开了这么多的资料，一个计算机专业毕业的稍微NB一点的学生给一年的时间都能写出来一个能用的内核（仅限于能用，好不好另说），而且资料特别多。写驱动，举个例子：XHCI的驱动，不给资料，别说1年了，十年都写不出来，甚至可能XHCI是什么都不知道（注：这是USB3.0控制器）当然了，要是有足够多的钱，能不能把驱动和内核都重写了？能，肯定能，但那肯定是要很多人和很多钱。微软有那么多的工程师，大部分都是写驱动的，并且还有大量代码能重用的情况下，也是隔1-2年才出一个版本，如果从Windows1.0开始算，都快有30年了，这么多年才做出这么多驱动（并且还有一些不是他们自己做的），可见开发驱动得投入多少人。</p>
+<p><a href="http://www.zhihu.com/question/23041464/answer/23435086">发布于 2014-03-14</a></p>
+</blockquote>
+<h3 id="为什么操作系统必须要有内核httpswwwzhihucomquestion22568853answer21814122"><a href="https://www.zhihu.com/question/22568853/answer/21814122">为什么操作系统必须要有内核?</a></h3>
+<blockquote>
+<p>操作系统内核的作用是实现对软件、硬件资源的管理。</p>
+<p>确实，操作系统可以不要内核，后果就是你玩游戏的时候就不能开迅雷了。内核的一个作用就是实现任务调度，让计算机的资源都被均衡的调度。</p>
+<p>没有操作系统内核，那么所有任务（程序）都是完全独占计算机的，你玩完游戏退出想用WORD？对不起，请重启计算机先。</p>
+<p>没有操作系统内核，内存的动态管理也将不存在，后果就是可能没有虚拟内存，那就是说，如果某游戏需要运行内存是2G，那么如果不巧的是自己的电脑只有1G内存，则完全玩不起来（有操作系统的情况下，用虚拟内存是可以的）</p>
+<p>没有操作系统内核，设备管理的功能就不存在了，比如动态的设备插拔等等，并且计算机启动的时间可能会非常漫长，因为需要检测并加载各种驱动。</p>
+<p>没有操作系统内核，多线程的操作甚至都不能支持，因为信号量、消息队列这些也都是操作系统提供的，所以现在的程序都需要彻底重新修改才能适应没有内核的情况。</p>
+<p>没有操作系统内核，多核的CPU也可能没有用了。</p>
+<p>能想到的就这么多，所以，要有操作系统内核。</p>
+<p>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-补充&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</p>
+<p>评论里有人提到，早期的时候（DOS时代）有些游戏就是直接从软盘启动的。这是因为那时候操作系统很小，功能弱，系统资源有紧缺，所以没有内核也可以，但现在硬件资源很丰富，操作系统很庞大，没有内核统一管理的话，要么太浪费、要么软件自己的负担会很重</p>
+</blockquote>
+<h2 id="reference-参考资料">REFERENCE 参考资料</h2>
+<p>[1]. <a href="https://www.zhihu.com/question/22370375">Windows NT 内核与 Linux 内核相比哪个更安全？</a></p>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

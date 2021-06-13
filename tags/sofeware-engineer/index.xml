@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sofeware-Engineer on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/sofeware-engineer/</link>
+    <description>Recent content in Sofeware-Engineer on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Mar 2021 23:48:57 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/sofeware-engineer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction To Software Engineer</title>
+      <link>https://bgzocg.me/introduction-to-software-engineering/</link>
+      <pubDate>Thu, 18 Mar 2021 23:48:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/introduction-to-software-engineering/</guid>
+      <description>软件工程导论 在课程上讲了几个月前我在TG上学到的 Agile Development-敏捷开发的主要步骤, 当初我在业余时间接触到的碎片化的知识原来是这样嵌入到这样的理论中去的, 我坐落在最后一排, 举目向前望, 虽说座无虚席, 但基本没有人听这部分的内容, 更不要说内化思想了. 老师的PPT里面并没有提及敏捷开发组织为了宣发而建立的网站. 为什么说提及这些额外的东西对我来说这样重要呢? 这些重要的内容能让我相信这样的信条是真实且存在的, 我不会认为这就是口中无用的言论, 这是开发人员的最根本的基础.
+课后我对一直以来我对国内教学的偏见而汗颜, 这由原苏联教育家 伊·安·凯洛夫 发明的填鸭式教育依旧活跃在国内普遍的高校生活中, 伴随我度过十二年的教育方式往我嗤之以鼻, 我很享受网络上开源的循循善诱的教导方式, 新鲜是一方面, 门槛低是另一方面, 我总不会因为铺天盖地的理论而啧啧称赞, 相反, 睡觉是我唯一选择的方式, 我在课上睡觉, 课下预复习, 平时应付, 考前冲锋, 及格光荣. 悲夫&amp;hellip;
+ 内容主要来自
+ 清华大学出版社-张海藩,牟永敏的&amp;laquo;软件工程概论(第六版)&amp;raquo; 《软件工程导论》张海潘版核心纲要读书笔记 程序猿大本营-软件工程导论  无独有偶, 阮一峰 也在他的博客上谈了这门学科, 关于软件工程的最大难题.
+概论  软件危机  介绍 原因 消除途径   软件工程(工程学科)  软件工程的介绍  工程的概念、原理、技术和方法来开发与维护软件，把经过时间考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，以经济地开发出高质量的软件并有效地维护它   软件工程的基本原理 软件工程方法学  软件工程 三要素：方法，工具，过程 软件方法学 三要素：程序加数据，文档     软件生命周期  三个时期 八个阶段   软件过程  瀑布模型: 需求分析-&amp;gt;规格说明-&amp;gt;设计-&amp;gt;编码-&amp;gt;测试-&amp;gt;维护  每个阶段都要完成文档，每个阶段结束前都要对文档进行评审   快速原型模型: 快速原型-规格说明-设计-编码-综合测试-维护 增量模型: 需求分析-&amp;gt;规格说明-&amp;gt;概要设计-&amp;gt;对构件设计，编码，集成，测试 螺旋模型 喷泉模型 Rational统一过程: 初始，精化，构建，移交 敏捷过程与极限编程 微软过程    https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

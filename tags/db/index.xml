@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DB on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/db/</link>
+    <description>Recent content in DB on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jan 2021 17:39:35 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database</title>
+      <link>https://bgzocg.me/database/</link>
+      <pubDate>Thu, 28 Jan 2021 17:39:35 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/database/</guid>
+      <description>&lt;p&gt;本文参考:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/zh-cn/sql/&#34;&gt;X分钟速成Y-SQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12b411K7Zu&#34;&gt;MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/91856df6b6f9&#34;&gt;尚硅谷MySQL核心技术基础知识笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Proxy - @bGZoCg">
+    <meta name="twitter:description" content="提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 google 高兴一下, 然后就没时间了, 一天下来等于什么都没干&amp;hellip;&amp;hellip; 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开clash.razord.top/#/settings. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:
+ 开了系统代理 &amp;amp;&amp;amp; Clash 全部开启 配置文件格式有问题 变量的大小写问题 变量的端口的有无 映射端口是否对应 ./clash -d . &amp;amp; ./clash 的效果不一致. 套餐过期/场主跑路  &amp;hellip;&amp;hellip;
+">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Proxy - @bGZoCg">
+    <meta property="og:description" content="提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 google 高兴一下, 然后就没时间了, 一天下来等于什么都没干&amp;hellip;&amp;hellip; 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开clash.razord.top/#/settings. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:
+ 开了系统代理 &amp;amp;&amp;amp; Clash 全部开启 配置文件格式有问题 变量的大小写问题 变量的端口的有无 映射端口是否对应 ./clash -d . &amp;amp; ./clash 的效果不一致. 套餐过期/场主跑路  &amp;hellip;&amp;hellip;
+">
+    <meta property="og:url" content="https://bgzocg.me/proxy/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>Proxy - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 google 高兴一下, 然后就没时间了, 一天下来等于什么都没干&amp;hellip;&amp;hellip; 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开clash.razord.top/#/settings. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:
+ 开了系统代理 &amp;amp;&amp;amp; Clash 全部开启 配置文件格式有问题 变量的大小写问题 变量的端口的有无 映射端口是否对应 ./clash -d . &amp;amp; ./clash 的效果不一致. 套餐过期/场主跑路  &amp;hellip;&amp;hellip;
+">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Proxy</h1>
+    <time datetime="2020-02-26 23:51:37 CST">26 Feb 2020</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/vps">VPS</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <p>提前说明, 本文不适合任何人阅读. 在校园内用三个小时电脑, 一般两个小时在修网, 好不容易修好网络了, 开个 <code>google</code> 高兴一下, 然后就没时间了, 一天下来等于什么都没干&hellip;&hellip; 总结一下命令行修网经验(无GUI): 一般关闭系统代理端口转发后打开<code>clash.razord.top/#/settings</code>. 执行Clash, 发现此页面会刷新. 表示 Clash 的外部映射端口几次场子的配置问题没有问题. 选择节点, 开启代理, 进行测试. 常见问题有:</p>
+<ul>
+<li>开了系统代理 &amp;&amp; <code>Clash</code> 全部开启</li>
+<li>配置文件格式有问题</li>
+<li>变量的大小写问题</li>
+<li>变量的端口的有无</li>
+<li>映射端口是否对应</li>
+<li><code>./clash -d .</code> &amp; <code>./clash</code> 的效果不一致.</li>
+<li>套餐过期/场主跑路</li>
+</ul>
+<p>&hellip;&hellip;</p>
+<h2 id="noun">NOUN</h2>
+<ul>
+<li><strong>IPLC</strong>: International Private Leased Circuit, 国际私有租赁线路. 延迟低, 速度快, 甚至低于日本CN2线路, 不用担心IP, 完全内网通讯, 三大运营商是付费网间结算.</li>
+<li><strong>IEPL</strong>: International Ethernet Private Line, 国际以太网专线, MSTP构建, SDH传输, GFP封装, 协议透明，物理层隔离，带宽保证，提供一层点对点数据专线服务.</li>
+<li>中国电信(China Telecom): 三大国际出口分别是，北京，上海，广州，全国的出口网络最后都会汇集到这三个出口点
+<ul>
+<li><strong>ChinaNet</strong>: 163骨干网/AS4134, 骨干网, 基建早, 带宽大, 便宜, 承载普通质量的互联网业务.</li>
+<li><strong>Chinatelecom Next Carrier Network</strong>: CNCN, CN2/AS4809. 后进骨干网, 欧洲, 北美和亚洲间的转接, 稳定高速, 时延敏感, 价格更贵.
+<ul>
+<li><strong>CN2 GT</strong>: Global Transit, 全球互联网资源转接, 提供给全球的通讯运营商, 电信163骨干网接入国际Tier1/2 运营商以及主流OTT, CN2直连国际网. 国际出口有单独线路，国内的链路使用163骨干网.</li>
+<li><strong>CN2 GIA</strong>: Global Internet Access, 为企业提供<strong>中国方向</strong>互联网专线接入. 接入CN2，出口全程CN2, 但出口带宽小, 有网络波动. GIA 的主要优势是回国有单独的线路，高优先级，高质量，但接入价格较贵。
+<ul>
+<li><strong>单程/单向 CN2</strong>
+<ul>
+<li><strong>去CN2, 回ChinaNet</strong>: 测试效果好, 实际体验无感.</li>
+<li><strong>去ChinaNet, 回CN2</strong>: 综合抗DDoS, 速度, 价格的最优解.</li>
+</ul>
+</li>
+<li><strong>双程/双向 CN2</strong><sup><a href="#j1">1</a></sup></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>GIS</strong>: Global Internet Services
+<ul>
+<li><strong>ChinaNet Paid-Peer</strong>: 为全世界运营商和OTT用户提供中国电信中文互联网资源的最短路由接入服务。</li>
+<li><strong>China Access</strong>: 为全球客户提供一站式的中文互联网资源接入服务。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>BGP</strong>: Border Gateway Protocol, 边界网关协议. 用于互联网AS间的互联, 控制路由的传播和选择最好的路由, BGP多线机房相较于双IP双线机房更优.<sup><a href="#j2">2</a></sup></li>
+<li><strong>中继</strong>: 中继入口在国内的，中继的入口到落地之间穿越防火墙的这一段一般会使用一些隧道协议(负载均衡/高可用/防止被墙)
+<ul>
+<li><strong>公网</strong>: 公网就是还走三大统一出国.</li>
+<li><strong>专线</strong>: 专线是国内国外两头内网传输.</li>
+</ul>
+</li>
+<li><strong>质量标准</strong>
+<ul>
+<li><code>IPLC/IEPL专线 &gt; CN2 GIA &gt; BGP中转 &gt; 普通隧道中继 &gt; 常规CN2 GT &gt; 直连线路 &gt; 普通线路</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="protocols">PROTOCOLS</h2>
+<h3 id="ss">SS</h3>
+<p>原<a href="https://github.com/shadowsocks/shadowsocks-iOS">项目</a>地址, 因clowwindy被<a href="https://github.com/shadowsocks/shadowsocks-iOS/issues/124">喝茶</a>而关闭. 事情经过可以<a href="https://printempw.github.io/about-clowwindy-archive/">参考</a>.</p>
+<ul>
+<li>Script:
+<ul>
+<li><a href="https://github.com/teddysun/shadowsocks_install">shadowsocks_install</a>: Removed.
+<ul>
+<li><a href="https://teddysun.com/486.html">Docs</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/heweiye/teddysunBackup">shadowsocks_install</a>: Backup.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ssr">SSR</h3>
+<p>&hellip;&hellip;</p>
+<h3 id="v2ray">V2ray</h3>
+<ul>
+<li>Script:
+<ul>
+<li><a href="https://github.com/233boy/v2ray">v2ray</a>: Removed.
+<ul>
+<li><a href="https://github.com/vkuajing/v2ray">v2ray 教程</a>.</li>
+</ul>
+</li>
+<li><a href="https://github.com/PhenTse/233boy-v2ray">233boy-v2ray</a>: Backup.</li>
+</ul>
+</li>
+</ul>
+<h2 id="software">Software</h2>
+<h3 id="clash">CLASH</h3>
+<p>一款用<code>Go</code>开发的支持多平台的代理工具，支持 <code>ss</code>/<code>v2ray</code>/<code>snell</code>，支持规则分流(Surge)</p>
+<ul>
+<li><a href="https://github.com/Dreamacro/clash">Clash</a>.
+<ul>
+<li><a href="https://tmpclashpremiumbindary.cf/">Clash Mirror</a>.</li>
+</ul>
+</li>
+</ul>
+<p>Download:</p>
+<ul>
+<li><a href="https://github.com/yichengchen/clashX/">ClashX For Mac</a>.</li>
+<li><a href="https://github.com/Fndroid/clash_for_windows_pkg">Clash For Windows</a> By <a href="https://github.com/Fndroid">Fndroid</a>
+<ul>
+<li><a href="https://docs.cfw.lbyczf.com/">Docs</a>.</li>
+</ul>
+</li>
+<li>Clash For Android
+<ul>
+<li><a href="https://github.com/Kr328/ClashForMagisk">Clash For Magisk</a>.</li>
+<li><a href="https://github.com/kalasutra/Clash_Premium_For_Magisk">Clash Premium For Magisk</a>.</li>
+</ul>
+</li>
+<li><a href="https://github.com/alecthw/mmdb_china_ip_list">MMDB</a>.</li>
+</ul>
+<h3 id="规则">规则</h3>
+<p>仅供参考，安全自负. 有兴趣可以看 Fndroid <a href="https://github.com/Fndroid/jsbox_script/wiki/%E5%85%B3%E4%BA%8E%E7%AD%96%E7%95%A5%E7%BB%84%E7%9A%84%E7%90%86%E8%A7%A3">关于策略组的理解</a></p>
+<ul>
+<li>在线Subconverter订阅转换
+<ul>
+<li><a href="https://acl4ssr-sub.github.io/">https://acl4ssr-sub.github.io/</a></li>
+<li><a href="https://subcon.py6.pw/">https://subcon.py6.pw/</a></li>
+<li><a href="https://sub.weleven11.com/">https://sub.weleven11.com/</a></li>
+<li><a href="https://id9.cc/">https://id9.cc/</a></li>
+<li><a href="https://subcon.dlj.tf/">https://subcon.dlj.tf/</a></li>
+<li><a href="https://sub-web.wcc.best/">https://sub-web.wcc.best/</a></li>
+<li><a href="https://api.nameless13.com/">https://api.nameless13.com/</a></li>
+<li><a href="https://agwa.page/">https://agwa.page/</a></li>
+<li><a href="https://acl4ssr.netlify.app/">https://acl4ssr.netlify.app/</a></li>
+<li><a href="https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml">神机规则</a></li>
+<li><a href="https://github.com/tindy2013/subconverter/blob/master/README-cn.md">tindy2013/subconverter</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="reference">REFERENCE</h2>
+<div id="j1">[1]. https://www.oldking.net/751.html</div>
+<div id="j2">[2]. https://www.cnblogs.com/geowo/p/13706274.html</div>
+<div id="j3">[3]. https://code.visualstudio.com/docs/setup/network</div>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/algorithm/</link>
+    <description>Recent content in Algorithm on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Apr 2021 13:27:46 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team PTA Summaries</title>
+      <link>https://bgzocg.me/210412-team-pta-summary/</link>
+      <pubDate>Mon, 12 Apr 2021 13:27:46 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210412-team-pta-summary/</guid>
+      <description>这个周六日就要举行模拟赛了, 找时间总结一下题目的类型, 打算回头再把自己练习的代码爬下来, 顺便可以联系一波爬虫, 汗颜, 自己实在是太菜了, 这半个月只是大致了解了一下新的函数的用法以及新的stl库, 还没有涉猎高阶的算法有: 阻塞(并发)队列, AVL树及红黑树, B树,B+树,2-3树,2-3-4树, 优先级队列, 斐波那契堆, 二项堆, 二分图, 最大流, A*启发式搜索, AC自动机, Trie等.
+   分类 题目     模拟/IO L1-001;L1-002;L1-004;L1-005;L1-007;
+L1-008;L1-009;L1-010;L1-013;L1-014;L1-015;L1-016;L1-017;L1-018;L1-019;L1-021;L1-022;L1-023;
+L1-024;L1-025;L1-026;L1-027;L1-028;L1-029;L1-030;L1-031;L1-032;L1-033;L1-035;L1-036;
+L1-037;L1-038;L1-039;L1-040;L1-041;L1-042;L1-043;L1-044;L1-044;L1-045;L1-046;L1-047;
+L1-048;L1-049;L1-050;L1-051;L1-052;L1-053;L1-054;L1-055;L1-056;L1-057;L1-058;L1-059;
+L1-060;L1-061;L1-062;L1-063;L1-064;L1-065;L1-066;L1-067;L1-068;L1-069;L1-070;L1-072   字符串匹配 L1-070;   打表 L1-006;   位数组 L1-003;L1-020;L1-034   递归 L1-006;L1-011;L1-012;   图 L2-001;    </description>
+    </item>
+    
+  </channel>
+</rss>

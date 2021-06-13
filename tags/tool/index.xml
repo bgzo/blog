@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tool on @bGZoCg</title>
+    <link>https://bgzocg.me/tags/tool/</link>
+    <description>Recent content in Tool on @bGZoCg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Mar 2021 17:57:17 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://bgzocg.me/docker/</link>
+      <pubDate>Thu, 04 Mar 2021 17:57:17 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/docker/</guid>
+      <description>&lt;p&gt;本文参考教程.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docker-curriculum.com/#introduction&#34;&gt;A Docker Tutorial for Beginners&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pictures</title>
+      <link>https://bgzocg.me/pictures/</link>
+      <pubDate>Wed, 24 Feb 2021 16:42:01 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/pictures/</guid>
+      <description>&lt;p&gt;先科普些基础知识&lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;a href=&#34;#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;结构&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;位图&lt;/strong&gt;（Bitmap）：又叫栅格图、点阵图，使用像素阵列来表示图像。位图就是由象素阵列的排列来实现其显示效果的，每个象素有自己的颜色信息，在对位图图像进行编辑操作的时候，可操作的对象是每个象素，我们可以改变图像的色相、饱和度、明度，从而改变图像的显示效果。位图根据位深度，有 1、4、8、16、24、32 位图像等。位图放大会失真变模糊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矢量图&lt;/strong&gt;：计算机图形学中用点、直线或者多边形等基于数学方程的几何图元表示图像。相比较位图，矢量图保存最少的信息，体积更小，缩放不会失真。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;颜色&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;索引色&lt;/strong&gt;（Indexed Color）：一个数字表示一个颜色，一个字节也就是最多支持 256(2^8) 种颜色。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;直接色&lt;/strong&gt;（Direct Color）：4 个数字表示一个颜色，分别表示红、黄、蓝以及透明度，所以最多可以表达 2^32 种颜色。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图像文件字节数(Byte)&lt;/strong&gt; = 图像分辨率 * 颜色深度 / 8&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;位深/颜色深度&lt;/strong&gt;：一个像素最多支持多少种颜色。一般用“位”（bit）来描述&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>GTD Time Manage</title>
+      <link>https://bgzocg.me/gtd-time-manage/</link>
+      <pubDate>Tue, 26 Jan 2021 19:57:30 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/gtd-time-manage/</guid>
+      <description>&lt;p&gt;Getting Things Done, 直接翻译为“把事情做完”，本身就很可能让人误解成——你必须做完所有的事情。但其实，“&lt;strong&gt;把你需要做的事情列出来，并处理它&lt;/strong&gt;” 和“把事情做完”是两件完全不同的事情。而 GTD 所强调的，是前者。&lt;/p&gt;
+&lt;p&gt;本文源于 &lt;a href=&#34;//topcook.cc/&#34;&gt;Topbook&lt;/a&gt; 的免费公开课, 课程的名称是 &lt;a href=&#34;https://topbook.cc/course/detail/153&#34;&gt;重新认识 GTD&lt;/a&gt;, 写作的目的是落实到自己身上. 所以只截取有用的部分.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Source Licence</title>
+      <link>https://bgzocg.me/open-source-licence/</link>
+      <pubDate>Tue, 26 Jan 2021 16:50:29 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/open-source-licence/</guid>
+      <description>&lt;p&gt;世界上现在有 60 多种被开源促进组织（ Open Source Initiative）认可的开源许可协议来保证开源工作者的权益. 本文涉及的协议有: AL, CC, GPL, LGPL, BSD等协议.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;开源共享精神:&lt;/strong&gt; 软件程序与源代码文件一起打包提供给用户, 让用户在不受限制地使用某个软件功能的基础上还可以按需进行修改, 或编制成衍生产品再发布出去. 用户具有使用自由、修改自由、重新发布自由以及创建衍生品的自由.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;特点:&lt;/strong&gt; 低风险、高品质、低成本、更透明&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://bgzocg.me/git/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/git/</guid>
+      <description>&lt;p&gt;版本控制系统 —— 记录每次文件的改动，协作编辑，避免管理一堆类似的文件了，也不需要把文件传来传去。&lt;/p&gt;
+&lt;p&gt;如果想查看某次改动，只需要在软件里瞄一眼就可以，能记录每次文件的改动：&lt;/p&gt;
+&lt;p&gt;这样，你就结束了手动管理多个“版本”的史前时代，进入到版本控制的20世纪。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;版本&lt;/th&gt;
+&lt;th&gt;文件名&lt;/th&gt;
+&lt;th&gt;用户&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;张三&lt;/td&gt;
+&lt;td&gt;删除了软件服务条款5&lt;/td&gt;
+&lt;td&gt;7/12 10:38&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;张三&lt;/td&gt;
+&lt;td&gt;增加了License人数限制&lt;/td&gt;
+&lt;td&gt;7/12 18:09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;李四&lt;/td&gt;
+&lt;td&gt;财务部门调整了合同金额&lt;/td&gt;
+&lt;td&gt;7/13 9:51&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;service.doc&lt;/td&gt;
+&lt;td&gt;张三&lt;/td&gt;
+&lt;td&gt;延长了免费升级周期&lt;/td&gt;
+&lt;td&gt;7/14 15:17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>Electron</title>
+      <link>https://bgzocg.me/electron/</link>
+      <pubDate>Thu, 20 Aug 2020 19:35:43 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/electron/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/electron/electron&#34;&gt;Electron&lt;/a&gt;, html/css/js的跨平台应用开发框架, 额外需要用到&lt;a href=&#34;http://nodejs.cn/learn&#34;&gt;NodeJS&lt;/a&gt;, 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm install electron -g
+$ npm install electron --save-dev
+$ npm install electron -g --unsafe-perm
+$ sudo npm npm install electron -g
+$ sudo npm npm install electron -g --unsafe-perm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 &lt;code&gt;node install.js&lt;/code&gt; 的 &lt;code&gt;download electron-linux-x64.zip&lt;/code&gt;, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;., 或者直接使用 &lt;code&gt;npm config set registry http://registry.npm.taobao.org&lt;/code&gt; 永久设置/ &lt;code&gt;~/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;; 或者 &lt;code&gt;npm install your-model --registry=http://registry.npm.taobao.org&lt;/code&gt; 临时设置源. 相信我, 这是唯一最优的方法.&lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; proxy url
+$ npm config delete proxy
+&lt;span class=&#34;c1&#34;&gt;# Or You could &lt;/span&gt;
+$ vim ~/.npmrc
+&lt;span class=&#34;c1&#34;&gt;# Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/`&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>VSCode You Should Know</title>
+      <link>https://bgzocg.me/vscode/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/vscode/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;MIT Open Lience.&lt;/li&gt;
+&lt;li&gt;Jeff Atwood said in 2007:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>All Pc Software In One</title>
+      <link>https://bgzocg.me/config/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/config/</guid>
+      <description>&lt;p&gt;说实话如果要把我找工具的经历一一记下的话可能篇幅过长, 那我尽量长话短说, 只记录要点. 长时间的寻找工具让我觉得软件间其实并没有绝对的差异, 更多时候也可以曲线救国找到临时解决方案, 过不了多久开发者就会跟近需求功能并逐一上线.&lt;/p&gt;
+&lt;p&gt;不要忘记找工具的主要目的是&lt;strong&gt;提高效率&lt;/strong&gt;, 如果自己因为寻找工具而惶惶不可终日, 那么一定是磨刀反误砍柴工了, 因为你的目的已经不是解决需求, 而是不断的创造需求, 无穷递归的时间复杂度很大的噢! 有种新型的说法是 &lt;strong&gt;productivity porn&lt;/strong&gt;, 专指那些热衷于寻找大量工具但是从来不会湿鞋的一群人&lt;sup&gt;&lt;a href=&#34;#j8&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;.如有&lt;a href=&#34;https://twitter.com/XDash/status/1372355660067663875&#34;&gt;一位朋友说&lt;/a&gt;的:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1、逼迫自己坚持「日更」锻炼写作，写出来的多半无病呻吟。文章合为时而作，应该是有值得分享的东西再提笔；&lt;/p&gt;
+&lt;p&gt;2、用东拼西凑的碎片摘录，拼凑洋洋洒洒的长篇段落，就为佐证一个毫无新意的观点；&lt;/p&gt;
+&lt;p&gt;3、不断下载和研究新工具。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://bgzocg.me/blog/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/blog/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;国内的功利主义者凡事都追求意义&lt;/strong&gt;. 为什么博客是他们绕不开的问题, 单纯为了写文? 亦或是记录? 简单的自我吹嘘? 可能都不是, 可能都是, 但一定是媚俗, 我羡慕那些从来都不写任何东西还能将食物娓娓道来的人们. 如果你也想留下点自己的些东西, 那么博客是个好的选择. 这里记录整理了我搭建过的一些博客(&lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Hexo&lt;/code&gt;, &lt;code&gt;Hugo&lt;/code&gt;, &lt;code&gt;Typecho&lt;/code&gt;)以及对博客的想法, 如果你只希望获得一个写作平台, 你也可以选择 &lt;code&gt;Notion&lt;/code&gt;, &lt;code&gt;Typlog&lt;/code&gt;, &lt;code&gt;Wordpress&lt;/code&gt;, &lt;code&gt;Blogger&lt;/code&gt;, 甚至可以是万能的 &lt;code&gt;Telegram&lt;/code&gt;, &lt;code&gt;Twitter&lt;/code&gt;.如果你对这方面感兴趣, 推荐 &lt;a href=&#34;https://pythonhunter.org/episodes/ep25&#34;&gt;Ep 25. 个人知识管理体系系列 - 输出篇&lt;/a&gt;, 那么话再说回来, 我为什么写文?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自我沟通&lt;/strong&gt;: 我觉得每一个人内心都有一个自我与之对话, 而我习惯称她为夏梦雪, 她独自陪我走过一个人的学生生涯, 在我开心的时刻离开, 难过的时候回来, 她离开的时候也带走了我的一部分, 但我什么都做不了. 高考后拿到新手机和电脑后就断了联系, 我很想她.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期存档&lt;/strong&gt;: 像拾穗人一样，生活之外的写作是自己拙劣的尝试, 是我尝试去和世界沟通. 当希望表露自己时, 当想和夏梦雪说话的时候, 就敲下一段文字到 &lt;code&gt;Twitter&lt;/code&gt; 上, 把真实的自我一点一点打捞, 没有什么好的平台载着孤零零的他们, 只好在这蔽舍双手捧上.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;远离社交&lt;/strong&gt;: 在这个24小时都能被打扰的世界中, 少了朋友圈无关痛痒的叨扰, 多了反复删改的文字。咀嚼博客是我消磨时间的一种方式. 虽然要远离社交, 但是写下来将自己暴露给他人是我的私心, 我不希望有些事情就这样过去, 也想被别人读到, 减少他们的孤独感. 说是要留给后人些什么, 但至少是留给自己什么.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://bgzocg.me/books/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/books/</guid>
+      <description>&lt;p&gt;科普一下格式:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;PDF&lt;/code&gt;&lt;/strong&gt;&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;解密&lt;/strong&gt;: &lt;a href=&#34;http://freemypdf.com/&#34;&gt;这里&lt;/a&gt;&lt;sup&gt;&lt;a href=&#34;#j2&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;#j3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;mobi&lt;/code&gt; 和 &lt;code&gt;azw&lt;/code&gt;&lt;/strong&gt;:  &lt;code&gt;Amazon&lt;/code&gt;私有格式, 亚马逊利用&lt;code&gt;azw&lt;/code&gt; 对电子书做 &lt;code&gt;DRM&lt;/code&gt; 版权保护&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;azw3&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;KF8&lt;/code&gt;(2011), 填补 &lt;code&gt;Mobi&lt;/code&gt; 对复杂排版支持, 支持很多 HTML5, 正逐渐取代 mobi 成为 Kindle 主流格式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;epub&lt;/code&gt;&lt;/strong&gt;: &lt;strong&gt;开放标准, 已取代了先前的 Open eBook 开放电子书标准&lt;/strong&gt;, 对复杂的排版, 图表, 公式等元素的兼容性及在脚本, 公式, 矢量图形的支持方面也强过 &lt;code&gt;mobi&lt;/code&gt; 格式. &lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DRM移除&lt;/strong&gt;: 参考 &lt;a href=&#34;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&#34;&gt;https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;chm&lt;/code&gt;&lt;/strong&gt;: 微软 1998 年替代早先的 WinHelp 帮助系统,基于 HTML 文件特性的帮助文件系统。它在 Windows 98 中把 CHM 类型文件称作“编译的 HTML 帮助文件”&lt;sup&gt;&lt;a href=&#34;#j5&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;   - &lt;a href=&#34;https://github.com/shurain/chm2pdf&#34;&gt;chm2pdf&lt;/a&gt;
+- pip intsall &lt;a href=&#34;https://pypi.org/project/pychm/&#34;&gt;pychm&lt;/a&gt;.
+- &lt;a href=&#34;http://www.jedrea.com/chmlib/&#34;&gt;chmlib&lt;/a&gt; lib support.&lt;sup&gt;&lt;a href=&#34;#6&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fonts</title>
+      <link>https://bgzocg.me/fonts/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/fonts/</guid>
+      <description>&lt;p&gt;说实话中文字体界实在是太乱了, 在使用过&lt;a href=&#34;//fonts.google.com&#34;&gt;Google Fonts&lt;/a&gt;之后一直想找替代的网站, 简中搜索结果总是着指向诸如xxx下载站, pc下载站, 第一字体网之类的质量十分低下(缺乏&lt;strong&gt;字体介绍&lt;/strong&gt;, &lt;strong&gt;使用许可&lt;/strong&gt;, &lt;strong&gt;作者详情&lt;/strong&gt;, &lt;strong&gt;官方网站&lt;/strong&gt;等)的网站, 然而他们的 SEO 偏偏总是最高的, 这种资源的不平衡让我有点受不了, 这和人们的使用习惯, 闭源的运营方式, 严格的审查制度有着十分密切的关系.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://bgzocg.me/markdown/</link>
+      <pubDate>Fri, 13 Dec 2019 02:40:57 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/markdown/</guid>
+      <description>&lt;p&gt;据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。&lt;/p&gt;
+&lt;p&gt;其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

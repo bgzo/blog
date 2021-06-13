@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Docker - @bGZoCg">
+    <meta name="twitter:description" content="本文参考教程.
+ A Docker Tutorial for Beginners. ">
+    <meta name="twitter:site" content="https://bgzocg.me/">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Docker - @bGZoCg">
+    <meta property="og:description" content="本文参考教程.
+ A Docker Tutorial for Beginners. ">
+    <meta property="og:url" content="https://bgzocg.me/docker/">
+    <meta property="og:site_name" content="@bGZoCg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    
+    <title>Docker - @bGZoCg</title>
+
+    <meta name="author" content="bGZoCg">
+    <meta name="description" content="本文参考教程.
+ A Docker Tutorial for Beginners. ">
+
+    
+    
+
+    
+    
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
+    <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+</head>
+<body class="font-serif bg-gray-200 border-t-4 border-blue-500 antialiased">
+    <div class="w-full p-6 md:w-2/3 md:px-0 md:mx-auto xl:w-2/5">
+        <header class="mb-6">
+            
+            <div class="mb-6 md:flex md:items-center">
+                
+<div>
+    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+
+    
+    
+    <h1 class="text-4xl font-bold">Docker</h1>
+    <time datetime="2021-03-04 17:57:17 CST">04 Mar 2021</time>
+    
+    
+    
+    <ol class="mt-4">
+        
+        <li class="inline-block">
+            <a class="border-none text-gray-800 text-xs bg-gray-400 hover:bg-gray-600 hover:text-white rounded-sm px-3 py-1" href="https://bgzocg.me/tags/tool">Tool</a>
+        </li>
+        
+    </ol>
+    
+</div>
+
+            </div>
+
+            
+            
+        </header>
+
+        
+        
+<article class="mb-12">
+    <p>本文参考教程.</p>
+<ul>
+<li><a href="https://docker-curriculum.com/#introduction">A Docker Tutorial for Beginners</a>.</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>陆内基本操作, 先来一套镜像替换组合拳. 如下<sup><a href="#j1">1</a></sup>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ sudo apt-get remove docker docker-engine 
+$ docker-ce docker.io	<span class="c1">#卸载旧版本docker</span>
+$ sudo apt-get remove --auto-remove docker <span class="c1">#清空旧版docker占用的内存</span>
+$ sudo apt-get update  
+
+$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common <span class="c1">#安装环境</span>
+$ curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg <span class="p">|</span> sudo apt-key add - <span class="c1">#阿里云的docker GPG密钥</span>
+$ sudo add-apt-repository <span class="s2">&#34;deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> stable&#34;</span> <span class="c1">#阿里镜像源</span>
+$ sudo apt-get update
+$ apt-cache madison docker-ce <span class="c1">#查看多版本</span>
+
+$ sudo apt-get install -y docker-ce <span class="c1">#安装最新版</span>
+$ sudo apt-get install -y docker-ce<span class="o">=</span>5:19.03.6~3-0~ubuntu-bionic <span class="c1">#安装5:19.03.6~3-0~ubuntu-bionic版</span>
+
+$ sudo service docker restart
+$ sudo systemctl restart docker <span class="c1">#重启Docker</span>
+
+$ sudo docker version <span class="c1"># Docker 版本</span>
+</code></pre></div><p>登录阿里云, 在 <code>控制台-&gt;容器镜像服务-&gt;镜像加速器</code> <a href="https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors">里面</a>找到对应的加速器地址.</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> /etc/docker <span class="p">|</span> sudo mkdir -p /etc/docker
+$ sudo tee /etc/docker/daemon.json <span class="s">&lt;&lt;-&#39;EOF&#39;
+</span><span class="s">{
+</span><span class="s">  &#34;registry-mirrors&#34;: [&#34;https://xxxxxxxx.mirror.aliyuncs.com&#34;]
+</span><span class="s">}
+</span><span class="s">EOF</span>
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+<span class="c1"># more details see: https://docs.docker.com/engine/install</span>
+</code></pre></div><p>替换成功后, 运行<code>sudo docker run hello-world</code>, 检验是否成功.</p>
+<h2 id="reference">REFERENCE</h2>
+<div id="j1">[1]. https://www.cnblogs.com/chengmf/p/13122013.html</div>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bgzocg" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        <footer>
+            <p>
+            &copy; 2021.   <a href=./index.xml> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon" style="width:1em;height:1em;fill:white;"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
