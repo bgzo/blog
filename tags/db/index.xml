@@ -6,7 +6,11 @@
     <description>Recent content in DB on @bGZoCg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 17:39:35 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jan 2021 17:39:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://bgzocg.me/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Database</title>
       <link>https://bgzocg.me/database/</link>

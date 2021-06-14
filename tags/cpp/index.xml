@@ -6,7 +6,11 @@
     <description>Recent content in Cpp on @bGZoCg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 14:31:44 +0800</lastBuildDate><atom:link href="https://bgzocg.me/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jan 2021 14:31:44 +0800</lastBuildDate>
+    
+	<atom:link href="https://bgzocg.me/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Stackover Cpp Top Questions</title>
       <link>https://bgzocg.me/210121-stackover-top-notes/</link>

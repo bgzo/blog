@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.68.3" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -104,7 +104,7 @@
     <span class="n">infile</span><span class="p">.</span><span class="n">close</span><span class="p">();</span>
 <span class="p">}</span>        
 </code></pre></div><h3 id="登录注册-功能">登录/注册 功能</h3>
-<p><strong>[效果] :</strong> 开头先进行注册或者登录, 注册成功后即可登录; 四部分代码全部具有初始密码, 具体为学生初始为&quot;1&quot;, 老师为&quot;2&quot;.如果是初次登录. 可以使用初始密码或者预设密码进行登录, 而再次登录则预设密码失效.</p>
+<p><strong>[效果] :</strong> 开头先进行注册或者登录, 注册成功后即可登录; 四部分代码全部具有初始密码, 具体为学生初始为&quot;1&rdquo;, 老师为&quot;2&rdquo;.如果是初次登录. 可以使用初始密码或者预设密码进行登录, 而再次登录则预设密码失效.</p>
 <p><strong>[方式]</strong> : 通过单个<code>int</code>变量计数器来判断该用户是不是初次登录.</p>
 <div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="kt">void</span> <span class="nf">Judge</span><span class="p">(){</span>
 <span class="p">...</span>
@@ -127,7 +127,7 @@
      <span class="p">}</span> 
 <span class="p">}</span>
 </code></pre></div><h3 id="初始化学生信息">初始化学生信息</h3>
-<p><strong>[效果]</strong> : 学生名字初始化为&quot;DFS100&quot;,&ldquo;DFS101&rdquo;,&ldquo;DFS102&rdquo;&hellip;&hellip;; 学号信息对应初始化为&quot;100&quot;, &ldquo;101&rdquo;, &ldquo;102&quot;等效果.</p>
+<p><strong>[效果]</strong> : 学生名字初始化为&quot;DFS100&rdquo;,&ldquo;DFS101&rdquo;,&ldquo;DFS102&rdquo;&hellip;&hellip;; 学号信息对应初始化为&quot;100&rdquo;, &ldquo;101&rdquo;, &ldquo;102&quot;等效果.</p>
 <p><strong>[方式]</strong> : 采用了 <code>sstring</code>里面的<code>stringstream</code>来进行学生信息(学号)的初始化, 相关代码如下:</p>
 <div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span><span class="cpf">&lt;sstream&gt;</span><span class="cp">
 </span><span class="cp"></span><span class="n">St</span><span class="o">::</span><span class="n">Student</span><span class="p">(){</span>

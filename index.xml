@@ -6,7 +6,11 @@
     <description>Recent content on @bGZoCg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Apr 2021 13:27:46 +0800</lastBuildDate><atom:link href="https://bgzocg.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://bgzocg.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Summer Summary</title>
       <link>https://bgzocg.me/210606-summer-summary/</link>
@@ -392,25 +396,10 @@ $ sudo npm npm install electron -g --unsafe-perm
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;一开始最让我厌烦的是国内局域网下载困难的问题, 服务资源都在墙外, 怎么也同步不下来, 网络总是卡在 &lt;code&gt;node install.js&lt;/code&gt; 的 &lt;code&gt;download electron-linux-x64.zip&lt;/code&gt;, 当然校园网当时也占一部分因素. 但是幸运的是, Alibaba 有官方的 CNPM 替代物&lt;sup&gt;&lt;a href=&#34;#j1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;., 或者直接使用 &lt;code&gt;npm config set registry http://registry.npm.taobao.org&lt;/code&gt; 永久设置/ &lt;code&gt;~/.npmrc&lt;/code&gt; 加上 &lt;code&gt;electron_mirror=&amp;quot;https://npm.taobao.org/mirrors/electron/&amp;quot;&lt;/code&gt;&lt;sup&gt;&lt;a href=&#34;#j2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;; 或者 &lt;code&gt;npm install your-model --registry=http://registry.npm.taobao.org&lt;/code&gt; 临时设置源. 相信我, 这是唯一最优的方法.&lt;sup&gt;&lt;a href=&#34;#j4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; proxy url
 $ npm config delete proxy
-&lt;span class=&#34;c1&#34;&gt;# Or You could &lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# Or You could&lt;/span&gt; 
 $ vim ~/.npmrc
 &lt;span class=&#34;c1&#34;&gt;# Add `electron_mirror=&amp;#34;https://npm.taobao.org/mirrors/electron/`&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>VSCode You Should Know</title>
-      <link>https://bgzocg.me/vscode/</link>
-      <pubDate>Wed, 15 Jul 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://bgzocg.me/vscode/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;MIT Open Lience.&lt;/li&gt;
-&lt;li&gt;Jeff Atwood said in 2007:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Any application that can be written in JavaScript, will eventually be written in JavaScript.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -479,7 +468,7 @@ $ vim ~/.npmrc
       <pubDate>Thu, 30 Jan 2020 13:59:24 +0800</pubDate>
       
       <guid>https://bgzocg.me/404/</guid>
-      <description>这篇文章只是个人针对 IPS 的一些片面的看法, 因内容被墙的无奈而有的情绪发泄, 自然带有强烈的主观情绪, 本文不适合任何人阅读, 请慎重浏览, 如果你觉得我错了, 我提前声明, &amp;ldquo;你说得对&amp;rdquo;.
+      <description>这篇文章只是个人针对 IPS 的一些片面的看法, 因内容被墙的无奈而有的情绪发泄, 自然带有强烈的主观情绪, 本文不适合任何人阅读, 请慎重浏览, 如果你觉得我错了, 我提前声明, &amp;ldquo;你说得对&amp;quot;.
 我写文的原因是 Wikipedia 被墙后, 深感国内 查阅知识的门槛 获取一手知识便捷度弹性之高&amp;ndash;知网, 各大学的图书馆不对外开放, 公共资源如此之少, 想看的东西大多是 404, 网络已经被重置, 网页经举报无法访问种种. 有时在优化网络的道路上越走越远, 越走越偏执, 因为想不通这凭空来的一道门槛的意义所在&amp;hellip;&amp;hellip;
 反观陆内现状, 冷门词条要么没有, 要么东西甚少+机器翻译; CSDN博客质量停留在 Ctrl C/V 之间, 甚至连脚本之家的文章也照抄不误; 博客园半死不活再弥补几年前审查的空缺; 那些媲美狗屁不同生成器的先刻意地立人设, 再集体收割的营销文章越来越多;
 像王垠说的那样, 大道至简, 一句话可以说清楚的事情哪里需要动辄上千字的文章? 偶尔能看到灵光一闪的产品, 但转眼就被捣毁. 知乎, 豆瓣, 百度贴吧. 这些都离不开一个词&amp;ndash;审查. 我们言之网络并非法外之地, 但当自己手机里的小黄油, 网站被掐掉的时候, 那些人又闭嘴了&amp;hellip;

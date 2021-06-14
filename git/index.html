@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.68.3" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -198,7 +198,7 @@ git diff readme.txt <span class="c1">#如果你休假两周从国外回来，第
 <h3 id="版本回退">版本回退</h3>
 <p>Git每当你觉得文件修改到一定程度的时候，就可以“保存一个快照”，这个快照在Git中被称为<code>commit</code>。一旦你把文件改乱了，或者误删了文件，还可以从最近的一个<code>commit</code>恢复，然后继续工作，而不是把几个月的工作成果全部丢失。 版本控制系统帮助我们记得一个几千行的文件每次都改了什么内容。在Git中，我们用<code>git log</code>命令查看：</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">git log <span class="c1"># (--pretty=oneline) 显示从最近到最远的提交日志;如果嫌输出信息太多，看得眼花缭乱的，可以试试加上</span>
-</code></pre></div><p>需要友情提示的是 一大串类似<code>1094adb...</code>的是<code>commit id</code><strong>（版本号）</strong>，和<strong>SVN</strong>不一样，Git的<code>commit id</code>不是1，2，3……递增的数字，而是一个SHA1计算出来的一个非常大的数字（哈希值），用十六进制表示，具有一致性。</p>
+</code></pre></div><p>需要友情提示的是 一大串类似<code>1094adb...</code>的是<code>commit id</code>**（版本号）**，和**SVN**不一样，Git的<code>commit id</code>不是1，2，3……递增的数字，而是一个SHA1计算出来的一个非常大的数字（哈希值），用十六进制表示，具有一致性。</p>
 <p>因为<strong>Git是分布式的版本控制系统，我们还要研究多人在同一个版本库里工作，如果大家都用1，2，3……作为版本号，那肯定就冲突了</strong>。每提交一个新版本，实际上Git就会把它们自动串成一条时间线。</p>
 <p>好了，现在我们准备把<code>readme.txt</code>回退到上一个版本，最早的的那个版本.</p>
 <ul>
@@ -367,10 +367,10 @@ git commit -m <span class="s2">&#34;conflict fixed&#34;</span>
 git log --graph --pretty<span class="o">=</span>oneline --abbrev-commit
 <span class="c1"># git log --graph`命令可以看到分支合并图</span>
 <span class="c1"># *   cf810e4 (HEAD -&gt; master) conflict fixed</span>
-<span class="c1"># |\  </span>
+<span class="c1"># |\</span>  
 <span class="c1"># | * 14096d0 (feature1) AND simple</span>
 <span class="c1"># * | 5dc6824 &amp; simple</span>
-<span class="c1"># |/  </span>
+<span class="c1"># |/</span>  
 git branch -d feature1# 删除feature1分支：
 </code></pre></div><p>Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。解决冲突就是<strong>把Git合并失败的文件手动编辑为我们希望的内容，再提交。</strong></p>
 <br>
@@ -383,9 +383,9 @@ git switch master# 切换回master
 git merge --no-ff -m <span class="s2">&#34;merge with no-ff&#34;</span> dev# 合并要创建一个新commit，故+ -m参数
 git log --graph --pretty<span class="o">=</span>oneline --abbrev-commit
 <span class="c1"># *   e1e9c68 (HEAD -&gt; master) merge with no-ff</span>
-<span class="c1"># |\  </span>
+<span class="c1"># |\</span>  
 <span class="c1"># | * f52c633 (dev) add merge</span>
-<span class="c1"># |/  </span>
+<span class="c1"># |/</span>  
 <span class="c1"># *   cf810e4 conflict fixed</span>
 </code></pre></div><p><img src="/img/tool/git_branch_manage.png" alt=""></p>
 <p>所以最后下来是这样做的：</p>
@@ -436,7 +436,7 @@ git branch -D feature-vulcan# 强行删除
 </code></pre></div><br>
 <h3 id="多人协作">多人协作</h3>
 <p>当你从远程仓库克隆时，实际上Git自动把本地的master分支和远程的master分支对应起来了，并且，远程仓库的默认名称是origin。要查看远程库的信息，用git remote：</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> git remote <span class="o">(</span>-v<span class="o">)</span><span class="c1"># 显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push的地址  </span>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> git remote <span class="o">(</span>-v<span class="o">)</span><span class="c1"># 显示了可以抓取和推送的origin的地址。如果没有推送权限，就看不到push的地址</span>  
  git push origin XXX
 </code></pre></div><br>
 <h3 id="rebase---变基">Rebase -&gt; 变基</h3>

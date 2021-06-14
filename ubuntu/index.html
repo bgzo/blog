@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.68.3" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -85,12 +85,12 @@
 <article class="mb-12">
     <p><strong>[声明]: 本文实验环境为 UEFI+GPT 的 Win10 笔记本电脑, 采用的分区格式为 Ext2. 本文仅供参考.</strong></p>
 <p>200125开坑Ubuntu, 被其简单的系统占用所折服, 开始使用ubuntu, 一直到现在. 这个记录其实是一以贯之的, 但里面的教程不保证一直有效, 加上我也只能阶段性的记录一下, 更多即时的记录请看 <a href="//github.com/dandelionfs/-nix">Github - -nix</a></p>
-<p><font size=1><del>多说一句: 在用完 Win10 后有感, <strong>在没有深入了解意见科技产品前, 永远不要过分相信他带来的便利</strong>, 你的电脑, 在你真正摸清楚他的操作原理和操作逻辑之前, 不要过分依赖他, 在他面前, 你可能就是赤裸的, 而我所真正担心的是我没有足够的时间和精力去见证世间的一切, 害怕的是自己不能静下心来慢慢的学习起来, 对那些Fast Learner肃然起敬, 但同时我始终都不了解真正的自己, 永远在以伤害自己的方式来逼迫自己努力, 而不是全身心的投入到自己的学习生涯中, 这又是多么的可悲……</del></font></p>
+<p><font size=1>~~多说一句: 在用完 Win10 后有感, <strong>在没有深入了解意见科技产品前, 永远不要过分相信他带来的便利</strong>, 你的电脑, 在你真正摸清楚他的操作原理和操作逻辑之前, 不要过分依赖他, 在他面前, 你可能就是赤裸的, 而我所真正担心的是我没有足够的时间和精力去见证世间的一切, 害怕的是自己不能静下心来慢慢的学习起来, 对那些Fast Learner肃然起敬, 但同时我始终都不了解真正的自己, 永远在以伤害自己的方式来逼迫自己努力, 而不是全身心的投入到自己的学习生涯中, 这又是多么的可悲……~~</font></p>
 <h2 id="install-ubuntu">INSTALL UBUNTU</h2>
 <p>下载官方的镜像 (国内有大量的开源镜像网站) , 然后用 <code>Ultralso</code> 烧录到一个<strong>8G</strong> (4G) 大小的U盘. 重启电脑到 <strong>BIOS</strong> 中将 BOOT 里的 <code>BOOT Security</code> 关掉 (HP: F10), 重启进入系统<strong>UEFI</strong>的U盘启动的模式 (HP: F11), 之后进入U盘的 Ubuntu里面体验一下.准备安装.</p>
 <p>不要直接安装. 需要<strong>换源</strong>, 去找系统的安装源list文件, 在<code>/etc/apt/sources.list</code>里, 用管理员的权限修改下载源地址 (提前查到自己对应版本的源地址) .</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup <span class="c1">#backup your old sourse </span>
-sudo gedit /etc/apt/sources.list <span class="c1"># open sources.list </span>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup <span class="c1">#backup your old sourse</span> 
+sudo gedit /etc/apt/sources.list <span class="c1"># open sources.list</span> 
 sudo apt update
 </code></pre></div><p><strong>国内换源</strong>:</p>
 <ul>
@@ -174,9 +174,9 @@ sudo dpkg -i --ignore-depends<span class="o">=</span>&lt;---&gt;  XXX.deb
 sudo apt autoremove --purge XXX
 
 dpkg --get-selections <span class="p">|</span> grep XXX
-sudo apt purge XXX  <span class="c1">#一个带core的package, 如果没有带core的package, 则是情况而定. </span>
+sudo apt purge XXX  <span class="c1">#一个带core的package, 如果没有带core的package, 则是情况而定.</span> 
 </code></pre></div><h3 id="clean">Clean</h3>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt autoclean <span class="c1"># 只删除过时的软件包, 例如最近更新所取代的软件包, 就完全不需要它们. </span>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt autoclean <span class="c1"># 只删除过时的软件包, 例如最近更新所取代的软件包, 就完全不需要它们.</span> 
 sudo apt autoremove
 
 dpkg -l <span class="p">|</span>grep ^rc<span class="p">|</span>awk <span class="s1">&#39;{print $2}&#39;</span> <span class="p">|</span>sudo xargs dpkg -P 
@@ -205,7 +205,7 @@ snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{pr
 </code></pre><p>创建一个<code>.desktop</code>文件. 然后编辑以下内容即可创建图标, 值得注意的是程序运行的图标的是包自带的, 这里定义的只能是应用菜单的.[^14][^15]</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>Desktop Entry<span class="o">]</span>
 <span class="nv">Version</span><span class="o">=</span>1.0	
-<span class="nv">Encoding</span><span class="o">=</span>UTF-8			<span class="c1"># 字符编码  </span>
+<span class="nv">Encoding</span><span class="o">=</span>UTF-8			<span class="c1"># 字符编码</span>  
 <span class="nv">Name</span><span class="o">=</span> XXX 
 <span class="nv">Comment</span><span class="o">=</span> XXX			<span class="c1"># 鼠标经上提示名称 也可国际化</span>
 <span class="nv">Exec</span><span class="o">=</span>XXX 				<span class="c1"># 菜单执行的命令或程序路径</span>
@@ -222,56 +222,56 @@ snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{pr
 <table>
 <thead>
 <tr>
-<th style="text-align:center">apt 命令</th>
-<th style="text-align:center">取代的命令</th>
-<th style="text-align:center">命令的功能</th>
+<th align="center">apt 命令</th>
+<th align="center">取代的命令</th>
+<th align="center">命令的功能</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">apt install</td>
-<td style="text-align:center">apt-get install</td>
-<td style="text-align:center">安装软件包</td>
+<td align="center">apt install</td>
+<td align="center">apt-get install</td>
+<td align="center">安装软件包</td>
 </tr>
 <tr>
-<td style="text-align:center">apt remove</td>
-<td style="text-align:center">apt-get remove</td>
-<td style="text-align:center">移除软件包</td>
+<td align="center">apt remove</td>
+<td align="center">apt-get remove</td>
+<td align="center">移除软件包</td>
 </tr>
 <tr>
-<td style="text-align:center">apt purge</td>
-<td style="text-align:center">apt-get purge</td>
-<td style="text-align:center">移除软件包及配置文件</td>
+<td align="center">apt purge</td>
+<td align="center">apt-get purge</td>
+<td align="center">移除软件包及配置文件</td>
 </tr>
 <tr>
-<td style="text-align:center">apt update</td>
-<td style="text-align:center">apt-get update</td>
-<td style="text-align:center">刷新存储库索引</td>
+<td align="center">apt update</td>
+<td align="center">apt-get update</td>
+<td align="center">刷新存储库索引</td>
 </tr>
 <tr>
-<td style="text-align:center">apt upgrade</td>
-<td style="text-align:center">apt-get upgrade</td>
-<td style="text-align:center">升级所有可升级的软件包</td>
+<td align="center">apt upgrade</td>
+<td align="center">apt-get upgrade</td>
+<td align="center">升级所有可升级的软件包</td>
 </tr>
 <tr>
-<td style="text-align:center">apt autoremove</td>
-<td style="text-align:center">apt-get autoremove</td>
-<td style="text-align:center">自动删除不需要的包</td>
+<td align="center">apt autoremove</td>
+<td align="center">apt-get autoremove</td>
+<td align="center">自动删除不需要的包</td>
 </tr>
 <tr>
-<td style="text-align:center">apt full-upgrade</td>
-<td style="text-align:center">apt-get dist-upgrade</td>
-<td style="text-align:center">在升级软件包时自动处理依赖关系</td>
+<td align="center">apt full-upgrade</td>
+<td align="center">apt-get dist-upgrade</td>
+<td align="center">在升级软件包时自动处理依赖关系</td>
 </tr>
 <tr>
-<td style="text-align:center">apt search</td>
-<td style="text-align:center">apt-cache search</td>
-<td style="text-align:center">搜索应用程序</td>
+<td align="center">apt search</td>
+<td align="center">apt-cache search</td>
+<td align="center">搜索应用程序</td>
 </tr>
 <tr>
-<td style="text-align:center">apt show</td>
-<td style="text-align:center">apt-cache show</td>
-<td style="text-align:center">显示装细节</td>
+<td align="center">apt show</td>
+<td align="center">apt-cache show</td>
+<td align="center">显示装细节</td>
 </tr>
 </tbody>
 </table>
@@ -279,18 +279,18 @@ snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{pr
 <table>
 <thead>
 <tr>
-<th style="text-align:center">新的apt命令</th>
-<th style="text-align:center">命令的功能</th>
+<th align="center">新的apt命令</th>
+<th align="center">命令的功能</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">apt list</td>
-<td style="text-align:center">列出包含条件的包 (已安装, 可升级等)</td>
+<td align="center">apt list</td>
+<td align="center">列出包含条件的包 (已安装, 可升级等)</td>
 </tr>
 <tr>
-<td style="text-align:center">apt edit-sources</td>
-<td style="text-align:center">编辑源列表</td>
+<td align="center">apt edit-sources</td>
+<td align="center">编辑源列表</td>
 </tr>
 </tbody>
 </table>
@@ -305,42 +305,42 @@ snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{pr
 <table>
 <thead>
 <tr>
-<th style="text-align:center">Operation</th>
-<th style="text-align:center">Effects</th>
-<th style="text-align:center">Operation</th>
-<th style="text-align:center">Effects</th>
+<th align="center">Operation</th>
+<th align="center">Effects</th>
+<th align="center">Operation</th>
+<th align="center">Effects</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">Alt + F1</td>
-<td style="text-align:center">聚焦到桌面左侧任务导航栏, 可按上下键进行导航</td>
-<td style="text-align:center">Alt + F2</td>
-<td style="text-align:center">运行命令</td>
+<td align="center">Alt + F1</td>
+<td align="center">聚焦到桌面左侧任务导航栏, 可按上下键进行导航</td>
+<td align="center">Alt + F2</td>
+<td align="center">运行命令</td>
 </tr>
 <tr>
-<td style="text-align:center">Alt + F4</td>
-<td style="text-align:center">关闭当前窗口</td>
-<td style="text-align:center">Alt + Tab</td>
-<td style="text-align:center">切换程序窗口</td>
+<td align="center">Alt + F4</td>
+<td align="center">关闭当前窗口</td>
+<td align="center">Alt + Tab</td>
+<td align="center">切换程序窗口</td>
 </tr>
 <tr>
-<td style="text-align:center">Alt + 空格</td>
-<td style="text-align:center">打开窗口菜单</td>
-<td style="text-align:center">PrtSc</td>
-<td style="text-align:center">桌面截图</td>
+<td align="center">Alt + 空格</td>
+<td align="center">打开窗口菜单</td>
+<td align="center">PrtSc</td>
+<td align="center">桌面截图</td>
 </tr>
 <tr>
-<td style="text-align:center">Win + A</td>
-<td style="text-align:center">搜索/浏览程序</td>
-<td style="text-align:center">Win</td>
-<td style="text-align:center">搜索/浏览程序、文件、音乐文件等</td>
+<td align="center">Win + A</td>
+<td align="center">搜索/浏览程序</td>
+<td align="center">Win</td>
+<td align="center">搜索/浏览程序、文件、音乐文件等</td>
 </tr>
 <tr>
-<td style="text-align:center">Win + F</td>
-<td style="text-align:center">搜索/浏览文件</td>
-<td style="text-align:center">Win + M</td>
-<td style="text-align:center">搜索/浏览音乐文件</td>
+<td align="center">Win + F</td>
+<td align="center">搜索/浏览文件</td>
+<td align="center">Win + M</td>
+<td align="center">搜索/浏览音乐文件</td>
 </tr>
 </tbody>
 </table>
@@ -348,150 +348,150 @@ snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{pr
 <table>
 <thead>
 <tr>
-<th style="text-align:center">Operation</th>
-<th style="text-align:center">Effects</th>
-<th style="text-align:center">Operation</th>
-<th style="text-align:center">Effects</th>
+<th align="center">Operation</th>
+<th align="center">Effects</th>
+<th align="center">Operation</th>
+<th align="center">Effects</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">Ctrl + Alt + T</td>
-<td style="text-align:center">打开终端</td>
-<td style="text-align:center">Tab</td>
-<td style="text-align:center">命令或文件名自动补全</td>
+<td align="center">Ctrl + Alt + T</td>
+<td align="center">打开终端</td>
+<td align="center">Tab</td>
+<td align="center">命令或文件名自动补全</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Shift + C</td>
-<td style="text-align:center">复制</td>
-<td style="text-align:center">Ctrl + Shift + V</td>
-<td style="text-align:center">粘贴</td>
+<td align="center">Ctrl + Shift + C</td>
+<td align="center">复制</td>
+<td align="center">Ctrl + Shift + V</td>
+<td align="center">粘贴</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Shift + T</td>
-<td style="text-align:center">在同一个窗口新建终端标签页</td>
-<td style="text-align:center">Ctrl + Shift + W</td>
-<td style="text-align:center">关闭标签页</td>
+<td align="center">Ctrl + Shift + T</td>
+<td align="center">在同一个窗口新建终端标签页</td>
+<td align="center">Ctrl + Shift + W</td>
+<td align="center">关闭标签页</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Shift + N</td>
-<td style="text-align:center">新建终端窗口</td>
-<td style="text-align:center">Ctrl + Shift + Q</td>
-<td style="text-align:center">关闭终端窗口</td>
+<td align="center">Ctrl + Shift + N</td>
+<td align="center">新建终端窗口</td>
+<td align="center">Ctrl + Shift + Q</td>
+<td align="center">关闭终端窗口</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Shift + PageUp</td>
-<td style="text-align:center">标签页左移</td>
-<td style="text-align:center">Ctrl + Shift + PageDown</td>
-<td style="text-align:center">标签页右移</td>
+<td align="center">Ctrl + Shift + PageUp</td>
+<td align="center">标签页左移</td>
+<td align="center">Ctrl + Shift + PageDown</td>
+<td align="center">标签页右移</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + D</td>
-<td style="text-align:center">关闭标签页</td>
-<td style="text-align:center">Ctrl + C</td>
-<td style="text-align:center">终止当前任务</td>
+<td align="center">Ctrl + D</td>
+<td align="center">关闭标签页</td>
+<td align="center">Ctrl + C</td>
+<td align="center">终止当前任务</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + L</td>
-<td style="text-align:center">清除屏幕</td>
-<td style="text-align:center">Ctrl + P</td>
-<td style="text-align:center">显示上一条历史命令</td>
+<td align="center">Ctrl + L</td>
+<td align="center">清除屏幕</td>
+<td align="center">Ctrl + P</td>
+<td align="center">显示上一条历史命令</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + N</td>
-<td style="text-align:center">显示下一条历史命令</td>
-<td style="text-align:center">Ctrl + R</td>
-<td style="text-align:center">反向搜索历史命令</td>
+<td align="center">Ctrl + N</td>
+<td align="center">显示下一条历史命令</td>
+<td align="center">Ctrl + R</td>
+<td align="center">反向搜索历史命令</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + J/M</td>
-<td style="text-align:center">回车 (同enter键功能)</td>
-<td style="text-align:center">Ctrl + A</td>
-<td style="text-align:center">光标移动到行首</td>
+<td align="center">Ctrl + J/M</td>
+<td align="center">回车 (同enter键功能)</td>
+<td align="center">Ctrl + A</td>
+<td align="center">光标移动到行首</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + E</td>
-<td style="text-align:center">光标移动到行尾</td>
-<td style="text-align:center">Ctrl + B</td>
-<td style="text-align:center">关闭想后移动一个位置 (backward)</td>
+<td align="center">Ctrl + E</td>
+<td align="center">光标移动到行尾</td>
+<td align="center">Ctrl + B</td>
+<td align="center">关闭想后移动一个位置 (backward)</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Z</td>
-<td style="text-align:center">把当前任务放到后台运行</td>
-<td style="text-align:center">Ctrl + PageUp</td>
-<td style="text-align:center">前一个终端标签页</td>
+<td align="center">Ctrl + Z</td>
+<td align="center">把当前任务放到后台运行</td>
+<td align="center">Ctrl + PageUp</td>
+<td align="center">前一个终端标签页</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + PageDown</td>
-<td style="text-align:center">下一个终端标签页</td>
-<td style="text-align:center">F1</td>
-<td style="text-align:center">打开帮助指南</td>
+<td align="center">Ctrl + PageDown</td>
+<td align="center">下一个终端标签页</td>
+<td align="center">F1</td>
+<td align="center">打开帮助指南</td>
 </tr>
 <tr>
-<td style="text-align:center">Win + W</td>
-<td style="text-align:center">展示所有窗口</td>
-<td style="text-align:center">Win + T</td>
-<td style="text-align:center">打开回收站</td>
+<td align="center">Win + W</td>
+<td align="center">展示所有窗口</td>
+<td align="center">Win + T</td>
+<td align="center">打开回收站</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Win + ↓</td>
-<td style="text-align:center">还原/最小化当前窗口</td>
-<td style="text-align:center">Ctrl + Win + D</td>
-<td style="text-align:center">最小化所有窗口</td>
+<td align="center">Ctrl + Win + ↓</td>
+<td align="center">还原/最小化当前窗口</td>
+<td align="center">Ctrl + Win + D</td>
+<td align="center">最小化所有窗口</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + &amp;</td>
-<td style="text-align:center">恢复Ctrl + H/D/W删除的内容</td>
-<td style="text-align:center">Ctrl + Win + ↑</td>
-<td style="text-align:center">最大化当前窗口</td>
+<td align="center">Ctrl + &amp;</td>
+<td align="center">恢复Ctrl + H/D/W删除的内容</td>
+<td align="center">Ctrl + Win + ↑</td>
+<td align="center">最大化当前窗口</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + D</td>
-<td style="text-align:center">删除光标位置的一个字符 (delete键功能)</td>
-<td style="text-align:center">Ctrl + W</td>
-<td style="text-align:center">删除光标位置的前一个单词 (Alt + Backspace组合键功能)</td>
+<td align="center">Ctrl + D</td>
+<td align="center">删除光标位置的一个字符 (delete键功能)</td>
+<td align="center">Ctrl + W</td>
+<td align="center">删除光标位置的前一个单词 (Alt + Backspace组合键功能)</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + K</td>
-<td style="text-align:center">剪切从光标位置到行末的所有字符</td>
-<td style="text-align:center">Ctrl + Y</td>
-<td style="text-align:center">粘贴Ctrl + U/Ctrl + K剪切的内容</td>
+<td align="center">Ctrl + K</td>
+<td align="center">剪切从光标位置到行末的所有字符</td>
+<td align="center">Ctrl + Y</td>
+<td align="center">粘贴Ctrl + U/Ctrl + K剪切的内容</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + U</td>
-<td style="text-align:center">剪切从行的开头到光标前一个位置的所有字符</td>
-<td style="text-align:center">Ctrl + H/*</td>
-<td style="text-align:center">删除光标位置的前一个字符 (backspace键功能)</td>
+<td align="center">Ctrl + U</td>
+<td align="center">剪切从行的开头到光标前一个位置的所有字符</td>
+<td align="center">Ctrl + H/*</td>
+<td align="center">删除光标位置的前一个字符 (backspace键功能)</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + ←</td>
-<td style="text-align:center">光标移动到下一个单词的词尾</td>
-<td style="text-align:center">Ctrl + →</td>
-<td style="text-align:center">光标移动到上一个单词的词首</td>
+<td align="center">Ctrl + ←</td>
+<td align="center">光标移动到下一个单词的词尾</td>
+<td align="center">Ctrl + →</td>
+<td align="center">光标移动到上一个单词的词首</td>
 </tr>
 <tr>
-<td style="text-align:center">Alt + H</td>
-<td style="text-align:center">打开“帮助”菜单 (help)</td>
-<td style="text-align:center">Ctrl + T</td>
-<td style="text-align:center">将光标位置的字符和前一个字符进行位置交换</td>
+<td align="center">Alt + H</td>
+<td align="center">打开“帮助”菜单 (help)</td>
+<td align="center">Ctrl + T</td>
+<td align="center">将光标位置的字符和前一个字符进行位置交换</td>
 </tr>
 <tr>
-<td style="text-align:center">Alt + V</td>
-<td style="text-align:center">打开“查看“菜单 (view)</td>
-<td style="text-align:center">Alt + T</td>
-<td style="text-align:center">打开“终端”菜单 (terminal)</td>
+<td align="center">Alt + V</td>
+<td align="center">打开“查看“菜单 (view)</td>
+<td align="center">Alt + T</td>
+<td align="center">打开“终端”菜单 (terminal)</td>
 </tr>
 <tr>
-<td style="text-align:center">Alt + E</td>
-<td style="text-align:center">打开“编辑”菜单 (edit)</td>
-<td style="text-align:center">Alt + S</td>
-<td style="text-align:center">打开“搜索”菜单 (search)</td>
+<td align="center">Alt + E</td>
+<td align="center">打开“编辑”菜单 (edit)</td>
+<td align="center">Alt + S</td>
+<td align="center">打开“搜索”菜单 (search)</td>
 </tr>
 <tr>
-<td style="text-align:center">F11</td>
-<td style="text-align:center">全屏切换</td>
-<td style="text-align:center">Alt + F</td>
-<td style="text-align:center">打开“文件”菜单 (file)</td>
+<td align="center">F11</td>
+<td align="center">全屏切换</td>
+<td align="center">Alt + F</td>
+<td align="center">打开“文件”菜单 (file)</td>
 </tr>
 </tbody>
 </table>
@@ -501,48 +501,48 @@ snap list --all <span class="p">|</span> awk <span class="s1">&#39;/disabled/{pr
 <table>
 <thead>
 <tr>
-<th style="text-align:center">Operation</th>
-<th style="text-align:center">Effects</th>
-<th style="text-align:center">Operation</th>
-<th style="text-align:center">Effects</th>
+<th align="center">Operation</th>
+<th align="center">Effects</th>
+<th align="center">Operation</th>
+<th align="center">Effects</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">Ctrl + N</td>
-<td style="text-align:center">新建文档</td>
-<td style="text-align:center">Ctrl + W</td>
-<td style="text-align:center">关闭文档</td>
+<td align="center">Ctrl + N</td>
+<td align="center">新建文档</td>
+<td align="center">Ctrl + W</td>
+<td align="center">关闭文档</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + S</td>
-<td style="text-align:center">保存文档</td>
-<td style="text-align:center">Ctrl + Shift + S</td>
-<td style="text-align:center">另存为</td>
+<td align="center">Ctrl + S</td>
+<td align="center">保存文档</td>
+<td align="center">Ctrl + Shift + S</td>
+<td align="center">另存为</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + F</td>
-<td style="text-align:center">搜索</td>
-<td style="text-align:center">Ctrl + H</td>
-<td style="text-align:center">搜索并替换</td>
+<td align="center">Ctrl + F</td>
+<td align="center">搜索</td>
+<td align="center">Ctrl + H</td>
+<td align="center">搜索并替换</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + I</td>
-<td style="text-align:center">跳到某一行</td>
-<td style="text-align:center">Ctrl + C</td>
-<td style="text-align:center">复制</td>
+<td align="center">Ctrl + I</td>
+<td align="center">跳到某一行</td>
+<td align="center">Ctrl + C</td>
+<td align="center">复制</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + V</td>
-<td style="text-align:center">粘贴</td>
-<td style="text-align:center">Ctrl + X</td>
-<td style="text-align:center">剪切</td>
+<td align="center">Ctrl + V</td>
+<td align="center">粘贴</td>
+<td align="center">Ctrl + X</td>
+<td align="center">剪切</td>
 </tr>
 <tr>
-<td style="text-align:center">Ctrl + Q</td>
-<td style="text-align:center">退出</td>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
+<td align="center">Ctrl + Q</td>
+<td align="center">退出</td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 </tbody>
 </table>
@@ -567,16 +567,16 @@ sudo update-initramfs -u <span class="o">&amp;&amp;</span>  reboot <span class="
 </code></pre></div><h3 id="touchpad">Touchpad</h3>
 <p>下面是一段脚本<sup><a href="#j1">1</a></sup>, 保存<code>sh</code>文件后运行.</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="cp">#!/bin/shell
-</span><span class="cp"></span><span class="c1">#</span>
-<span class="c1"># Gestures install </span>
+</span><span class="cp"></span>#
+<span class="c1"># Gestures install</span> 
 <span class="c1"># version 1.3</span>
-<span class="c1"># </span>
+# 
 <span class="c1"># by The Fan Club 2020</span>
-<span class="c1">#</span>
+#
 <span class="c1"># NOTE: run as sudo</span>
-<span class="c1">#</span>
-<span class="c1">#</span>
-<span class="c1"># Remove if selected </span>
+#
+#
+<span class="c1"># Remove if selected</span> 
 <span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">=</span> <span class="s2">&#34;--remove&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span> 
 	<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures uninstall started...&#34;</span>
 	python3 -m pip uninstall gestures
@@ -591,10 +591,10 @@ sudo update-initramfs -u <span class="o">&amp;&amp;</span>  reboot <span class="
 	<span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures removal complete.&#34;</span>
 	<span class="nb">exit</span> 
 <span class="k">fi</span>
-<span class="c1">#</span>
+#
 <span class="c1"># Install libinput-gestures - https://github.com/bulletmark/libinput-gestures</span>
 <span class="nb">echo</span> <span class="s2">&#34;[Gestures] Gestures install started...&#34;</span>
-<span class="c1">#</span>
+#
 <span class="c1"># Add user to input group</span>
 gpasswd -a <span class="nv">$SUDO_USER</span> input
 <span class="nb">echo</span> <span class="s2">&#34;[Gestures] </span><span class="nv">$SUDO_USER</span><span class="s2"> added to input user group&#34;</span>
@@ -611,10 +611,10 @@ git clone https://github.com/bulletmark/libinput-gestures.git
 make install
 <span class="nb">cd</span> ..
 <span class="nb">echo</span> <span class="s2">&#34;[Gestures] libinput-gestures installed&#34;</span>
-<span class="c1">#</span>
+#
 <span class="c1"># Install Gestures - https://gitlab.com/cunidev/gestures</span>
-<span class="c1">#</span>
-<span class="c1"># Install </span>
+#
+<span class="c1"># Install</span> 
 <span class="k">if</span> <span class="o">[</span> -d gestures <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
 	rm -r gestures 
 <span class="k">fi</span>
@@ -632,7 +632,7 @@ su <span class="nv">$SUDO_USER</span> libinput-gestures-setup stop
 su <span class="nv">$SUDO_USER</span> libinput-gestures-setup autostart
 su <span class="nv">$SUDO_USER</span> libinput-gestures-setup start
 <span class="nb">echo</span> <span class="s2">&#34;[Gestures] libinput-gestures started for </span><span class="nv">$SUDO_USER</span><span class="s2">&#34;</span>
-<span class="c1"># Autostart Gestures </span>
+<span class="c1"># Autostart Gestures</span> 
 cp /usr/share/applications/org.cunidev.gestures.desktop /home/<span class="nv">$SUDO_USER</span>/.config/autostart/
 sed -i <span class="s1">&#39;s/=gestures/=gestures\&amp;/g&#39;</span> /home/<span class="nv">$SUDO_USER</span>/.config/autostart/org.cunidev.gestures.desktop
 chown <span class="nv">$SUDO_USER</span>:<span class="nv">$SUDO_USER</span> /home/<span class="nv">$SUDO_USER</span>/.config/autostart/org.cunidev.gestures.desktop
@@ -641,7 +641,7 @@ chown <span class="nv">$SUDO_USER</span>:<span class="nv">$SUDO_USER</span> /hom
 </code></pre></div><p>解决无法支持三指和四指的遗憾.</p>
 <h3 id="亮度异常">亮度异常</h3>
 <p>安装完成之后发现亮度是不可以调节 :</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># edit by nano, choose one between vim and nano. </span>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># edit by nano, choose one between vim and nano.</span> 
 <span class="c1"># 按 Ctrl+O 保存、按 Ctrl+X 退出编辑</span>
 sudo nano /etc/default/grub
 
@@ -679,7 +679,7 @@ sudo apt purge 内核名称
 <blockquote>
 <p>“更换介质: 请把标有…… DVD 的盘片插入驱动器“/media/cdrom/”再按回车键,</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 修改`/etc/apt/sources.list`文件, 注释掉`deb cdrom:`开头的一行 (第一行) </span>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 修改`/etc/apt/sources.list`文件, 注释掉`deb cdrom:`开头的一行 (第一行)</span> 
 <span class="nb">cd</span> ~
 vim /etc/apt/sources.list
 apt update

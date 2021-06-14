@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.68.3" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -150,7 +150,7 @@ deploy:
   type: git
   repo: https://github.com/YourgithubName/YourgithubName.github.io.git
   branch: master
-npm install hexo-deployer-git --save <span class="c1">#安装deploy-git </span>
+npm install hexo-deployer-git --save <span class="c1">#安装deploy-git</span> 
 hexo clean <span class="c1">#清除了你之前生成的东西</span>
 hexo g <span class="c1">#生成静态文章</span>
 hexo deploy <span class="c1">#部署文章</span>
@@ -237,9 +237,9 @@ plugins:
 </blockquote>
 <p>A：  <font color="grey">方法一：填写<code>localhost</code>或者<code>www.yoursite.com</code>.</font></p>
 <p><font color="grey">方法二： 修改wp-config.php文件（来自老蒋部落） </font></p>
-<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="nx">define</span><span class="p">(</span><span class="s2">&#34;FS_METHOD&#34;</span><span class="p">,</span> <span class="s2">&#34;direct&#34;</span><span class="p">);</span>  
-<span class="nx">define</span><span class="p">(</span><span class="s2">&#34;FS_CHMOD_DIR&#34;</span><span class="p">,</span> <span class="mo">0777</span><span class="p">);</span>  
-<span class="nx">define</span><span class="p">(</span><span class="s2">&#34;FS_CHMOD_FILE&#34;</span><span class="p">,</span> <span class="mo">0777</span><span class="p">);</span>  
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php">define(&#34;FS_METHOD&#34;, &#34;direct&#34;);  
+define(&#34;FS_CHMOD_DIR&#34;, 0777);  
+define(&#34;FS_CHMOD_FILE&#34;, 0777);  
 </code></pre></div><blockquote>
 <p>Q：发布失败。错误信息：此响应不是合法的JSON响应。</p>
 </blockquote>

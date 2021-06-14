@@ -1,158 +1,255 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bgzocg.me/</loc>
+    <lastmod>2021-06-06T00:00:00+08:00</lastmod>
+  </url>
+  
   <url>
     <loc>https://bgzocg.me/210606-summer-summary/</loc>
     <lastmod>2021-06-06T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://bgzocg.me/</loc>
-    <lastmod>2021-04-12T13:27:46+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/algorithm/</loc>
     <lastmod>2021-04-12T13:27:46+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/</loc>
     <lastmod>2021-04-12T13:27:46+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210412-team-pta-summary/</loc>
     <lastmod>2021-04-12T13:27:46+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/introduction-to-software-engineering/</loc>
     <lastmod>2021-03-18T23:48:57+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/sofeware-engineer/</loc>
     <lastmod>2021-03-18T23:48:57+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210314-apologize-to-three-cats-in-my-lifes/</loc>
     <lastmod>2021-03-14T15:55:19+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/gossip/</loc>
     <lastmod>2021-03-14T15:55:19+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/docker/</loc>
     <lastmod>2021-03-04T17:57:17+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/tool/</loc>
     <lastmod>2021-03-04T17:57:17+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210228-winter-holiday-summary/</loc>
     <lastmod>2021-02-28T15:33:07+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/pictures/</loc>
     <lastmod>2021-02-24T16:42:01+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/database/</loc>
     <lastmod>2021-01-28T17:39:35+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/db/</loc>
     <lastmod>2021-01-28T17:39:35+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/gtd-time-manage/</loc>
     <lastmod>2021-01-26T19:57:30+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/open-source-licence/</loc>
     <lastmod>2021-01-26T16:50:29+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210123-machine-learning-notes/</loc>
     <lastmod>2021-01-22T19:52:50+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/ml/</loc>
     <lastmod>2021-01-22T19:52:50+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/cpp/</loc>
     <lastmod>2021-01-21T14:31:44+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210121-stackover-top-notes/</loc>
     <lastmod>2021-01-21T14:31:44+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/photography/</loc>
     <lastmod>2021-01-20T21:58:28+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/theory/</loc>
     <lastmod>2021-01-20T21:58:28+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/linux/</loc>
     <lastmod>2021-01-19T18:11:54+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/ubuntu/</loc>
     <lastmod>2021-01-19T18:11:54+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/galgame/</loc>
     <lastmod>2021-01-18T18:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/hardware/</loc>
     <lastmod>2021-01-18T16:43:20+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/earphone/</loc>
     <lastmod>2021-01-18T16:43:20+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210117-end-to-end/</loc>
     <lastmod>2021-01-17T17:33:21+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/networks/</loc>
     <lastmod>2021-01-17T17:33:21+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210117-whats-192-168/</loc>
     <lastmod>2021-01-17T14:44:52+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/210101-my404-5/</loc>
     <lastmod>2021-01-01T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/kernel/</loc>
     <lastmod>2020-12-05T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/system/</loc>
     <lastmod>2020-12-05T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/git/</loc>
     <lastmod>2020-11-06T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/200901-imu-short-term-develop/</loc>
     <lastmod>2020-09-01T22:21:38+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/electron/</loc>
     <lastmod>2020-08-20T19:35:43+08:00</lastmod>
-  </url><url>
-    <loc>https://bgzocg.me/vscode/</loc>
-    <lastmod>2020-07-15T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/200715-escape/</loc>
     <lastmod>2020-07-15T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/proxy/</loc>
     <lastmod>2020-02-26T23:51:37+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/tags/vps/</loc>
     <lastmod>2020-02-26T23:51:37+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/200225-social-love-marry/</loc>
     <lastmod>2020-02-25T11:55:08+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/i-wish-i-could-small-enough/</loc>
     <lastmod>2020-02-20T16:30:30+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/200208-mr-liang-love-course/</loc>
     <lastmod>2020-02-08T04:39:30+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/404/</loc>
     <lastmod>2020-01-30T13:59:24+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/config/</loc>
     <lastmod>2020-01-18T00:00:00+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/blog/</loc>
     <lastmod>2019-12-13T02:40:57+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/books/</loc>
     <lastmod>2019-12-13T02:40:57+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/fonts/</loc>
     <lastmod>2019-12-13T02:40:57+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/markdown/</loc>
     <lastmod>2019-12-13T02:40:57+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://bgzocg.me/musics/</loc>
     <lastmod>2019-12-13T02:40:57+08:00</lastmod>
   </url>
+  
 </urlset>
