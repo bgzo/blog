@@ -1,0 +1,5 @@
+- id: back_home
+  translation: "返回"
+
+- id: not_found_page_title
+  translation: "哎呀！您要找的页面不存在 :( "

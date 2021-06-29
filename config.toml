@@ -1,0 +1,39 @@
+baseURL = "https://bgzocg.me/"
+disqusShortname = 'dandelionfs'
+# googleAnalytics = "UA-XXXXXXXXX-X"
+title = "@bGZoCg"
+#theme = "hugo-tailwind-journal"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    posts = "/posts/:title/"
+    # posts = "/posts/:year/:month/:title/"
+
+[params]
+    author = "bGZoCg"
+    avatar = "https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg"
+    description = ""
+    tagline = "🏫 IMU / 💻 HP & WSL2 / 📱 OneUI / 🎧 AKG & Sony / 🛠️ VSCode & Jetbrain / 📝 Hugo / 🎮 Steam / 🚫 Politics / ❤️ Diversity is essential to happiness. "
+
+# disable raw HTML omitted 
+# https://stackoverflow.com/questions/63198652/hugo-shortcode-ignored-saying-raw-html-omitted
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+    [languages.en]
+        contentDir = "content/en/"
+        languageCode = "en-us"
+        languageName = "🇺🇸 English"
+        weight = 1
+    [languages.zh]
+        contentDir = "content/zh/"
+        languageCode = "zh_CN"
+        languageName = "🇨🇳 Simplied Chinese"
+        weight = 2
