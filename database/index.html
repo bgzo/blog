@@ -11,36 +11,40 @@
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Database - @bGZoCg">
-    <meta name="twitter:description" content="本文参考:
- X分钟速成Y-SQL MySQL_基础&#43;高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷. 尚硅谷MySQL核心技术基础知识笔记 ">
+    <meta name="twitter:description" content="Finally, review the knowledge of closure, minimum dependency set, paradigm optimization and pass the exam, looking the video of Bilibili following:
+ Peoples  1973: Charles W.Bachman (1924-2017) Mesh database technology 1981: Edgar F.Codd (1923-2003) database system, especially relational database 1998: Jim Gray (1944-2007.1.28?) Database and transaction processing 2014: Michael Stonebraker (1943-) The concept and practice of the underlying modern database system  DBs  Foreign  Large：  Oracle IBM DB2 Microsoft SQL Server Sybase   Small  ACCESS   Open Source  PostgresSQL MYSQL berkeley db(BDB)     China  Huazhong University of Science and Technology: DM Renmin University of China: kingbase  In 2018, the second prize of National Science and Technology Progress Award   Neusoft: OpenBASE Alibaba: OceanBase    Book    Publication abbreviation Full publication name Publisher Website     TODS ACM Transactions on Database Systems ACM http://www.">
     <meta name="twitter:site" content="https://bgzocg.me/">
     <meta name="twitter:creator" content="">
-    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    <meta name="twitter:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/author-heart.webp">
     
     
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Database - @bGZoCg">
-    <meta property="og:description" content="本文参考:
- X分钟速成Y-SQL MySQL_基础&#43;高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷. 尚硅谷MySQL核心技术基础知识笔记 ">
+    <meta property="og:description" content="Finally, review the knowledge of closure, minimum dependency set, paradigm optimization and pass the exam, looking the video of Bilibili following:
+ Peoples  1973: Charles W.Bachman (1924-2017) Mesh database technology 1981: Edgar F.Codd (1923-2003) database system, especially relational database 1998: Jim Gray (1944-2007.1.28?) Database and transaction processing 2014: Michael Stonebraker (1943-) The concept and practice of the underlying modern database system  DBs  Foreign  Large：  Oracle IBM DB2 Microsoft SQL Server Sybase   Small  ACCESS   Open Source  PostgresSQL MYSQL berkeley db(BDB)     China  Huazhong University of Science and Technology: DM Renmin University of China: kingbase  In 2018, the second prize of National Science and Technology Progress Award   Neusoft: OpenBASE Alibaba: OceanBase    Book    Publication abbreviation Full publication name Publisher Website     TODS ACM Transactions on Database Systems ACM http://www.">
     <meta property="og:url" content="https://bgzocg.me/database/">
     <meta property="og:site_name" content="@bGZoCg">
-    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg">
+    <meta property="og:image" content="https://dandelionfs.oss-cn-beijing.aliyuncs.com/author-heart.webp">
     
     <title>Database - @bGZoCg</title>
 
     <meta name="author" content="bGZoCg">
-    <meta name="description" content="本文参考:
- X分钟速成Y-SQL MySQL_基础&#43;高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷. 尚硅谷MySQL核心技术基础知识笔记 ">
+    <meta name="description" content="Finally, review the knowledge of closure, minimum dependency set, paradigm optimization and pass the exam, looking the video of Bilibili following:
+ Peoples  1973: Charles W.Bachman (1924-2017) Mesh database technology 1981: Edgar F.Codd (1923-2003) database system, especially relational database 1998: Jim Gray (1944-2007.1.28?) Database and transaction processing 2014: Michael Stonebraker (1943-) The concept and practice of the underlying modern database system  DBs  Foreign  Large：  Oracle IBM DB2 Microsoft SQL Server Sybase   Small  ACCESS   Open Source  PostgresSQL MYSQL berkeley db(BDB)     China  Huazhong University of Science and Technology: DM Renmin University of China: kingbase  In 2018, the second prize of National Science and Technology Progress Award   Neusoft: OpenBASE Alibaba: OceanBase    Book    Publication abbreviation Full publication name Publisher Website     TODS ACM Transactions on Database Systems ACM http://www.">
 
     
     
 
     
     
+    
+    <link rel="alternate" hreflang="zh" href="https://bgzocg.me/zh/database/" title="@bGZoCg">
+    
+    
 
     
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
+    
     <link rel="stylesheet" href="https://bgzocg.me/css/theme.css">
     <link rel="stylesheet" href="https://bgzocg.me/css/chroma.dracula.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
@@ -52,12 +56,12 @@
             <div class="mb-6 md:flex md:items-center">
                 
 <div>
-    <a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a>
+    <div class="back-button"><a class="text-lg mb-8 inline-block" href="/">&larr; Back Home</a></div>
 
     
     
     <h1 class="text-4xl font-bold">Database</h1>
-    <time datetime="2021-01-28 17:39:35 CST">28 Jan 2021</time>
+    <time datetime="2021-06-10 00:12:00 CST">10 Jun 2021</time>
     
     
     
@@ -75,444 +79,60 @@
 
             
             
+            <nav>
+                
+                
+                <a href="https://bgzocg.me/zh/database/">🇨🇳 Simplied Chinese</a>
+                
+            </nav>
+            
         </header>
 
         
         
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#peoples">Peoples</a></li>
+    <li><a href="#dbs">DBs</a></li>
+    <li><a href="#book">Book</a></li>
+    <li><a href="#meeting">Meeting</a></li>
+    <li><a href="#some-u-must-know">Some U Must Know</a></li>
+    <li><a href="#sql">SQL</a></li>
+    <li><a href="#postgresql-source">Postgresql Source</a></li>
+    <li><a href="#ubuntu-oracle-db">Ubuntu Oracle DB</a></li>
+    <li><a href="#拓展">拓展</a></li>
+    <li><a href="#relationship-db-关系数据库">Relationship DB 关系数据库</a></li>
+  </ul>
+</nav>
 <article class="mb-12">
-    <p>本文参考:</p>
+    <p>Finally, review the knowledge of closure, minimum dependency set, paradigm optimization and pass the exam, looking the video of Bilibili following:</p>
+<iframe src="//player.bilibili.com/player.html?aid=456343564&bvid=BV1P5411e7rU&cid=211158985&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<h2 id="peoples">Peoples</h2>
 <ul>
-<li><a href="https://learnxinyminutes.com/docs/zh-cn/sql/">X分钟速成Y-SQL</a></li>
-<li><a href="https://www.bilibili.com/video/BV12b411K7Zu">MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷</a>.</li>
-<li><a href="https://www.jianshu.com/p/91856df6b6f9">尚硅谷MySQL核心技术基础知识笔记</a></li>
-</ul>
-<h2 id="好处">好处</h2>
-<ol>
-<li>持久化数据到本地</li>
-<li>可以实现结构化查询, 方便管理</li>
-</ol>
-<h3 id="概念">概念</h3>
-<ol>
-<li>DB：数据库, 保存一组有组织的数据的容器</li>
-<li>DBMS：数据库管理系统, 又称为数据库软件(产品), 用于管理DB中的数据</li>
-<li>SQL:结构化查询语言, 用于和DBMS通信的语言</li>
-</ol>
-<h2 id="存储特点">存储特点</h2>
-<ol>
-<li>将数据放到表中, 表再放到库中</li>
-<li>一个数据库中可以有多个表, 每个表都有一个的名字, 用来标识自己。表名具有唯一性。</li>
-<li>表具有一些特性, 这些特性定义了数据在表中如何存储, 类似java中 “类”的设计。</li>
-<li>表由列组成, 我们也称为字段。所有表都是由一个或多个列组成的, 每一列类似java 中的”属性”</li>
-<li>表中的数据是按行存储的, 每一行类似于java中的“对象”。</li>
-</ol>
-<h2 id="命令">命令</h2>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">show</span> <span class="k">databases</span><span class="p">;</span> <span class="c1">#查看当前所有的数据库
-</span><span class="c1"></span><span class="k">use</span> <span class="err">库名</span> <span class="c1">#打开指定的库
-</span><span class="c1"></span><span class="k">show</span> <span class="kp">tables</span><span class="p">;</span> <span class="c1"># 查看当前库的所有表
-</span><span class="c1"></span><span class="k">show</span> <span class="kp">tables</span> <span class="k">from</span> <span class="err">库名</span><span class="p">;</span><span class="c1"># 查看其它库的所有表
-</span><span class="c1"></span><span class="k">create</span> <span class="k">table</span> <span class="err">表名</span><span class="p">(</span>
-	<span class="n">name</span> <span class="n">type</span><span class="p">;</span>
-    <span class="n">name</span> <span class="n">type</span><span class="p">;</span>
-    <span class="p">...</span>
-<span class="p">);</span> <span class="c1"># 创建表
-</span><span class="c1"></span><span class="k">desc</span> <span class="err">表名</span><span class="p">;</span> <span class="c1"># 查看表结构
-</span><span class="c1"></span><span class="k">select</span> <span class="nf">version</span><span class="p">();</span> <span class="c1"># 查看服务器的版本 登录到mysql服务端
-</span><span class="c1"></span><span class="n">mysql</span> <span class="o">--</span><span class="n">version</span> <span class="c1"># 查看服务器的版本 没有登录到mysql服务端
-</span><span class="c1"></span><span class="n">mysql</span> <span class="o">--</span><span class="n">V</span>
-</code></pre></div><h2 id="语法规范">语法规范</h2>
-<ol>
-<li>不区分大小写,但建议关键字大写, 表名、列名小写</li>
-<li>每条命令最好用分号结尾</li>
-<li>每条命令根据需要, 可以进行缩进 或换行</li>
-<li>注释
-<code>单行注释：#注释文字</code>
-<code>单行注释：-- 注释文字</code>
-<code>多行注释：/* 注释文字  */</code></li>
-</ol>
-<h2 id="语言分类">语言分类</h2>
-<ul>
-<li><strong>DQL(Data Query Language)</strong> : 数据查询语言 select</li>
-<li><strong>DML(Data Manipulate Language)</strong> : 数据操作语言 insert 、update、delete</li>
-<li><strong>DDL(Data Define Languge)</strong> : 数据定义语言 create、drop、alter</li>
-<li><strong>TCL(Transaction Control Language)</strong> : 事务控制语言 commit、rollback</li>
-</ul>
-<h2 id="查询">查询</h2>
-<p>基础查询如上.</p>
-<h3 id="条件查询">条件查询</h3>
-<ul>
-<li>
-<p>表达式: <code>select + 要查询的字段|表达式|常量值|函数 + from + 表 + where + 条件</code> ;</p>
-</li>
-<li>
-<p>条件表达式: <code>salary&gt;10000</code></p>
-<ul>
-<li>条件运算符：<code>&gt; &lt; &gt;= &lt;= = != &lt;&gt;</code></li>
-</ul>
-</li>
-<li>
-<p>逻辑表达式
-示例：<code>salary&gt;10000 &amp;&amp; salary&lt;20000</code></p>
-<ul>
-<li>逻辑运算符：
-<ul>
-<li>and(&amp;&amp;):两个条件如果同时成立, 结果为true, 否则为false</li>
-<li>or(||)：两个条件只要有一个成立, 结果为true, 否则为false</li>
-<li>not(!)：如果条件成立, 则not后为false, 否则为true</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>模糊查询: <code>last_name like 'a%'</code></p>
-</li>
-</ul>
-<h3 id="排序查询">排序查询</h3>
-<p><code>order by 排序的字段|表达式|函数|别名 【asc|desc】</code></p>
-<h3 id="分组查询">分组查询</h3>
-<p><code>group by 分组的字段</code></p>
-<ul>
-<li>特点:
-<ul>
-<li>可以按单个字段分组</li>
-<li>和分组函数一同查询的字段最好是分组后的字段</li>
-<li>分组筛选
-针对的表    位置          关键字
-分组前筛选：  原始表     group by的前面     where
-分组后筛选：  分组后的结果集 group by的后面     having</li>
-<li>可以按多个字段分组, 字段之间用逗号隔开</li>
-<li>可以支持排序</li>
-<li>having后可以支持别名</li>
-</ul>
-</li>
-</ul>
-<h3 id="多表连接查询">多表连接查询</h3>
-<ul>
-<li>笛卡尔乘积：如果连接条件省略或无效则会出现</li>
-<li>解决办法：添加上连接条件</li>
-</ul>
-<h4 id="等值连接非等值连接">等值连接——非等值连接</h4>
-<ol>
-<li>等值连接的结果 = 多个表的交集</li>
-<li>n表连接, 至少需要n-1个连接条件</li>
-<li>多个表不分主次, 没有顺序要求</li>
-<li>一般为表起别名, 提高阅读性和性能</li>
-</ol>
-<h4 id="sql99语法通过join关键字实现连接">sql99语法：通过join关键字实现连接</h4>
-<p>支持:</p>
-<ul>
-<li>等值连接、非等值连接 (内连接)</li>
-<li>外连接</li>
-<li>交叉连接</li>
-</ul>
-<p>语句上, 连接条件和筛选条件实现了分离, 简洁明了！</p>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="err">【</span><span class="k">inner</span><span class="o">|</span><span class="k">left</span> <span class="k">outer</span><span class="o">|</span><span class="k">right</span> <span class="k">outer</span><span class="o">|</span><span class="k">cross</span><span class="err">】</span><span class="k">join</span> <span class="err">表</span><span class="mi">2</span> <span class="k">on</span>  <span class="err">连接条件</span>
-<span class="err">【</span><span class="k">inner</span><span class="o">|</span><span class="k">left</span> <span class="k">outer</span><span class="o">|</span><span class="k">right</span> <span class="k">outer</span><span class="o">|</span><span class="k">cross</span><span class="err">】</span><span class="k">join</span> <span class="err">表</span><span class="mi">3</span> <span class="k">on</span>  <span class="err">连接条件</span>
-<span class="err">【</span><span class="k">where</span> <span class="err">筛选条件】</span>
-<span class="err">【</span><span class="k">group</span> <span class="k">by</span> <span class="err">分组字段】</span>
-<span class="err">【</span><span class="k">having</span> <span class="err">分组后的筛选条件】</span>
-<span class="err">【</span><span class="k">order</span> <span class="k">by</span> <span class="err">排序的字段或表达式】</span>
-</code></pre></div><h4 id="自连接">自连接</h4>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="c1"># sql99
-</span><span class="c1"></span><span class="k">SELECT</span> <span class="n">e</span><span class="p">.</span><span class="n">last_name</span><span class="p">,</span><span class="n">m</span><span class="p">.</span><span class="n">last_name</span>
-<span class="k">FROM</span> <span class="n">employees</span> <span class="n">e</span>
-<span class="k">JOIN</span> <span class="n">employees</span> <span class="n">m</span> <span class="k">ON</span> <span class="n">e</span><span class="p">.</span><span class="o">`</span><span class="n">manager_id</span><span class="o">`=</span><span class="n">m</span><span class="p">.</span><span class="o">`</span><span class="n">employee_id</span><span class="o">`</span><span class="p">;</span>
-<span class="c1"># sql92
-</span><span class="c1"></span><span class="k">SELECT</span> <span class="n">e</span><span class="p">.</span><span class="n">last_name</span><span class="p">,</span><span class="n">m</span><span class="p">.</span><span class="n">last_name</span>
-<span class="k">FROM</span> <span class="n">employees</span> <span class="n">e</span><span class="p">,</span><span class="n">employees</span> <span class="n">m</span> 
-<span class="k">WHERE</span> <span class="n">e</span><span class="p">.</span><span class="o">`</span><span class="n">manager_id</span><span class="o">`=</span><span class="n">m</span><span class="p">.</span><span class="o">`</span><span class="n">employee_id</span><span class="o">`</span><span class="p">;</span>
-</code></pre></div><h3 id="子查询">子查询</h3>
-<p>一条查询语句中又嵌套了另一条完整的select语句, 其中被嵌套的select语句, 称为子查询或内查询. 在外面的查询语句, 称为主查询或外查询</p>
-<ol>
-<li>子查询都放在小括号内</li>
-<li>子查询可以放在from后面、select后面、where后面、having后面, 但一般放在条件的右侧</li>
-<li>子查询优先于主查询执行, 主查询使用了子查询的执行结果</li>
-<li>子查询根据查询结果的行数不同分为以下两类：
-5. 单行子查询: 搭配单行操作符使用：<code>&gt; &lt; = &lt;&gt; &gt;= &lt;= </code>, 非法使用子查询的情况：
-1. 子查询的结果为一组值
-2. 子查询的结果为空
-2. 多行子查询: 一般搭配多行操作符使用：<code>any、all、in、not in in</code>：
-1. 属于子查询结果中的任意一个就行
-2. any和all往往可以用其他查询代替</li>
-</ol>
-<h4 id="分页查询">分页查询</h4>
-<p>实际的web项目中需要根据用户的需求提交对应的分页查询的sql语句</p>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="err">【</span><span class="k">where</span> <span class="err">条件】</span>
-<span class="err">【</span><span class="k">group</span> <span class="k">by</span> <span class="err">分组字段】</span>
-<span class="err">【</span><span class="k">having</span> <span class="err">条件】</span>
-<span class="err">【</span><span class="k">order</span> <span class="k">by</span> <span class="err">排序的字段】</span>
-<span class="k">limit</span> <span class="err">【起始的条目索引</span><span class="p">,</span> <span class="err">】条目数</span><span class="p">;</span>
-</code></pre></div><p>特点:</p>
-<ol>
-<li>起始条目索引从0开始</li>
-<li>limit子句放在查询语句的最后</li>
-<li>公式：<code>select * from  表 limit (page-1)*sizePerPage,sizePerPage</code>; 每页显示条目数sizePerPage, 要显示的页数 page</li>
-</ol>
-<h4 id="联合查询">联合查询</h4>
-<p>引入<code>union</code>联合、合并.</p>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">select</span> <span class="err">字段</span><span class="o">|</span><span class="err">常量</span><span class="o">|</span><span class="err">表达式</span><span class="o">|</span><span class="err">函数</span> <span class="err">【</span><span class="k">from</span> <span class="err">表】</span> <span class="err">【</span><span class="k">where</span> <span class="err">条件】</span> <span class="k">union</span> <span class="err">【</span><span class="k">all</span><span class="err">】</span>
-<span class="k">select</span> <span class="err">字段</span><span class="o">|</span><span class="err">常量</span><span class="o">|</span><span class="err">表达式</span><span class="o">|</span><span class="err">函数</span> <span class="err">【</span><span class="k">from</span> <span class="err">表】</span> <span class="err">【</span><span class="k">where</span> <span class="err">条件】</span> <span class="k">union</span> <span class="err">【</span><span class="k">all</span><span class="err">】</span>
-<span class="k">select</span> <span class="err">字段</span><span class="o">|</span><span class="err">常量</span><span class="o">|</span><span class="err">表达式</span><span class="o">|</span><span class="err">函数</span> <span class="err">【</span><span class="k">from</span> <span class="err">表】</span> <span class="err">【</span><span class="k">where</span> <span class="err">条件】</span> <span class="k">union</span>  <span class="err">【</span><span class="k">all</span><span class="err">】</span>
-<span class="p">.....</span>
-<span class="k">select</span> <span class="err">字段</span><span class="o">|</span><span class="err">常量</span><span class="o">|</span><span class="err">表达式</span><span class="o">|</span><span class="err">函数</span> <span class="err">【</span><span class="k">from</span> <span class="err">表】</span> <span class="err">【</span><span class="k">where</span> <span class="err">条件】</span>
-</code></pre></div><ol>
-<li>
-<p>起始条目索引从0开始</p>
-</li>
-<li>
-<p>limit子句放在查询语句的最后</p>
-</li>
-<li>
-<p>公式：select * from  表 limit (page-1)*sizePerPage,sizePerPage
-假如:
-每页显示条目数sizePerPage
-要显示的页数 page
-进阶9：联合查询
-引入：
-union 联合、合并</p>
-</li>
-</ol>
-<p><strong>特点:</strong></p>
-<ol>
-<li>多条查询语句的查询的列数必须是一致的</li>
-<li>多条查询语句的查询的列的类型几乎相同</li>
-<li>union代表去重, union all代表不去重</li>
-</ol>
-<h2 id="常见函数">常见函数</h2>
-<p>一、单行函数</p>
-<ol>
-<li>字符函数
-<ol>
-<li>concat拼接</li>
-<li>substr截取子串</li>
-<li>upper转换成大写</li>
-<li>lower转换成小写</li>
-<li>trim去前后指定的空格和字符</li>
-<li>ltrim去左边空格</li>
-<li>rtrim去右边空格</li>
-<li>replace替换</li>
-<li>lpad左填充</li>
-<li>rpad右填充</li>
-<li>instr返回子串第一次出现的索引</li>
-<li>length 获取字节个数</li>
-</ol>
-</li>
-<li>数学函数
-<ol>
-<li>round 四舍五入</li>
-<li>rand 随机数</li>
-<li>floor向下取整</li>
-<li>ceil向上取整</li>
-<li>mod取余</li>
-<li>truncate截断</li>
-</ol>
-</li>
-<li>日期函数
-<ol>
-<li>now当前系统日期+时间</li>
-<li>curdate当前系统日期</li>
-<li>curtime当前系统时间</li>
-<li>str_to_date 将字符转换成日期</li>
-<li>date_format将日期转换成字符</li>
-</ol>
-</li>
-<li>流程控制函数
-<ol>
-<li>if 处理双分支</li>
-<li>case语句 处理多分支
-<ol>
-<li>处理等值判断</li>
-<li>处理条件判断</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>其他函数
-<ol>
-<li>version版本</li>
-<li>database当前库</li>
-<li>user当前连接用户</li>
-</ol>
-</li>
-</ol>
-<h4 id="分组函数">分组函数</h4>
-<p>一、单行函数</p>
-<ol>
-<li>
-<p>字符函数
-concat拼接
-substr截取子串
-upper转换成大写
-lower转换成小写
-trim去前后指定的空格和字符
-ltrim去左边空格
-rtrim去右边空格
-replace替换
-lpad左填充
-rpad右填充
-instr返回子串第一次出现的索引
-length 获取字节个数</p>
-</li>
-<li>
-<p>数学函数
-round 四舍五入
-rand 随机数
-floor向下取整
-ceil向上取整
-mod取余
-truncate截断</p>
-</li>
-<li>
-<p>日期函数
-now当前系统日期+时间
-curdate当前系统日期
-curtime当前系统时间
-str_to_date 将字符转换成日期
-date_format将日期转换成字符</p>
-</li>
-<li>
-<p>流程控制函数
-if 处理双分支
-case语句 处理多分支
-情况1：处理等值判断
-情况2：处理条件判断</p>
-</li>
-<li>
-<p>其他函数
-version版本
-database当前库
-user当前连接用户</p>
-</li>
-</ol>
-<h2 id="dml">DML</h2>
-<h3 id="插入">插入</h3>
-<ul>
-<li>
-<p><code>insert into 表名(字段名, ...) + values(值1, ...);</code></p>
-</li>
-<li>
-<p>特点</p>
-<ul>
-<li>字段类型和值类型一致或兼容, 而且一一对应</li>
-<li>可以为空的字段, 可以不用插入值, 或用null填充</li>
-<li>不可以为空的字段, 必须插入值</li>
-<li>字段个数和值的个数必须一致</li>
-<li>字段可以省略, 但默认所有字段, 并且顺序和表中的存储顺序一致</li>
-<li>字段类型和值类型一致或兼容, 而且一一对应</li>
-</ul>
-</li>
-</ul>
-<h3 id="修改">修改</h3>
-<h3 id="删除">删除</h3>
-<h2 id="ddl">DDL</h2>
-<h3 id="库的管理">库的管理</h3>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">create</span> <span class="k">database</span> <span class="err">库名</span> <span class="c1"># 创建库
-</span><span class="c1"></span><span class="k">drop</span> <span class="k">database</span> <span class="err">库名</span> <span class="c1"># 删除库
-</span></code></pre></div><h3 id="表的管理">表的管理</h3>
-<h4 id="创建表">创建表</h4>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="k">IF</span> <span class="k">NOT</span> <span class="k">EXISTS</span> <span class="nf">stuinfo</span><span class="p">(</span>
-    <span class="n">stuId</span> <span class="kt">INT</span><span class="p">,</span>
-    <span class="n">stuName</span> <span class="kt">VARCHAR</span><span class="p">(</span><span class="mi">20</span><span class="p">),</span>
-    <span class="n">gender</span> <span class="kt">CHAR</span><span class="p">,</span>
-    <span class="n">bornDate</span> <span class="kt">DATETIME</span>
-<span class="p">);</span><span class="c1"># 创建表
-</span><span class="c1"></span>
-<span class="k">DESC</span> <span class="n">studentinfo</span><span class="p">;</span>
-</code></pre></div><h4 id="修改表-alter">修改表 alter</h4>
-<ul>
-<li><code>ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;</code></li>
-</ul>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">studentinfo</span> <span class="k">CHANGE</span>  <span class="k">COLUMN</span> <span class="n">sex</span> <span class="n">gender</span> <span class="kt">CHAR</span><span class="p">;</span><span class="c1">#修改字段名
-</span><span class="c1"></span><span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">stuinfo</span> <span class="k">RENAME</span> <span class="p">[</span><span class="k">TO</span><span class="p">]</span>  <span class="n">studentinfo</span><span class="p">;</span><span class="c1">#②修改表名
-</span><span class="c1"></span><span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">studentinfo</span> <span class="n">MODIFY</span> <span class="k">COLUMN</span> <span class="n">borndate</span> <span class="kt">DATE</span> <span class="p">;</span><span class="c1">#③修改字段类型和列级约束
-</span><span class="c1"></span><span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">studentinfo</span> <span class="k">ADD</span> <span class="k">COLUMN</span> <span class="n">email</span> <span class="kt">VARCHAR</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="c1">#④添加字段first;
-</span><span class="c1"></span><span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">studentinfo</span> <span class="k">DROP</span> <span class="k">COLUMN</span> <span class="n">email</span><span class="p">;</span><span class="c1">#⑤删除字段
-</span></code></pre></div><h4 id="删除表">删除表</h4>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">DROP</span> <span class="k">TABLE</span> <span class="p">[</span><span class="k">IF</span> <span class="k">EXISTS</span><span class="p">]</span> <span class="n">studentinfo</span><span class="p">;</span>
-</code></pre></div><h3 id="常见类型">常见类型</h3>
-<ul>
-<li>整型</li>
-<li>小数
-<ul>
-<li>浮点型</li>
-<li>定点型</li>
-</ul>
-</li>
-<li>字符型：</li>
-<li>日期型：</li>
-<li>Blob类型：</li>
-</ul>
-<h3 id="常见约束">常见约束</h3>
-<div class="highlight"><pre class="chroma"><code class="language-mysql" data-lang="mysql"><span class="k">NOT</span> <span class="no">NULL</span>
-<span class="k">DEFAULT</span>
-<span class="k">UNIQUE</span>
-<span class="k">CHECK</span>
-<span class="k">PRIMARY</span> <span class="k">KEY</span>
-<span class="k">FOREIGN</span> <span class="k">KEY</span>
-</code></pre></div><h2 id="事务">事务</h2>
-<p>通过一组逻辑操作单元(一组DML——sql语句), 将数据从一种状态切换到另外一种状态</p>
-<ul>
-<li>
-<p><strong>特点:</strong></p>
-<ul>
-<li>原子性(ACID)：要么都执行, 要么都回滚</li>
-<li>一致性：保证数据的状态操作前和操作后保持一致</li>
-<li>隔离性：多个事务同时操作相同数据库的同一个数据时, 一个事务的执行不受另外一个事务的干扰</li>
-<li>持久性：一个事务一旦提交, 则数据将持久化到本地, 除非其他事务对其进行修改</li>
-</ul>
-</li>
-<li>
-<p>分类：隐式事务, 没有明显的开启和结束事务的标志</p>
-</li>
-</ul>
-<h2 id="plan">PLAN</h2>
-<ul>
-<li>基础篇
-<ul>
-<li>绪论</li>
-<li>关系数据库</li>
-<li>关系数据库标准语言SQL</li>
-<li>数据库安全性</li>
-<li>数据库完整性</li>
-</ul>
-</li>
-<li>设计与应用 开发篇
-<ul>
-<li>关系数据理论数据库设计</li>
-<li>数据库设计</li>
-<li>数据库编程</li>
-</ul>
-</li>
-<li>系统篇
-<ul>
-<li>关系查询处理和查询优化</li>
-<li>数据库恢复技术</li>
-<li>并发控制</li>
-</ul>
-</li>
-</ul>
-<h2 id="people">People</h2>
-<ul>
-<li>1973年 Charles W. Bachman(1924-2017) 网状数据库技术</li>
-<li>1981年 Edgar F. Codd (1923－2003 )数据库系统，尤其是关系型数据库</li>
-<li>1998年 Jim Gray (1944-2007.1.28? )数据库与事务处理</li>
-<li>2014年 Michael Stonebraker(1943-)现代数据库系统底层的概念与实践</li>
+<li>1973: Charles W.Bachman (1924-2017) Mesh database technology</li>
+<li>1981: Edgar F.Codd (1923-2003) database system, especially relational database</li>
+<li>1998: Jim Gray (1944-2007.1.28?) Database and transaction processing</li>
+<li>2014: Michael Stonebraker (1943-) The concept and practice of the underlying modern database system</li>
 </ul>
 <h2 id="dbs">DBs</h2>
 <ul>
 <li>Foreign
 <ul>
-<li>大型：
+<li>Large：
 <ul>
-<li>甲骨文 Oracle</li>
+<li>Oracle</li>
 <li>IBM DB2</li>
 <li>Microsoft SQL Server</li>
 <li>Sybase</li>
 </ul>
 </li>
-<li>小型
+<li>Small
 <ul>
-<li>ACCESS
--开源</li>
+<li>ACCESS</li>
+</ul>
+</li>
+<li>Open Source
+<ul>
 <li>PostgresSQL</li>
 <li>MYSQL</li>
 <li>berkeley db(BDB)</li>
@@ -522,25 +142,25 @@ user当前连接用户</p>
 </li>
 <li>China
 <ul>
-<li>华中科技大学: <a href="http://www.dameng.com/">DM</a></li>
-<li>中国人民大学: <a href="http://www.kingbase.com.cn">kingbase</a>
+<li>Huazhong University of Science and Technology: <a href="http://www.dameng.com/">DM</a></li>
+<li>Renmin University of China: <a href="http://www.kingbase.com.cn">kingbase</a>
 <ul>
-<li>2018年，国家科技进步二等奖
--东软: <a href="http://www.openbase.com.cn">OpenBASE</a>
--阿里巴巴: <a href="http://code.taobao.org/p/OceanBase/src/">OceanBase</a></li>
+<li>In 2018, the second prize of National Science and Technology Progress Award</li>
+</ul>
+</li>
+<li>Neusoft: <a href="http://www.openbase.com.cn">OpenBASE</a></li>
+<li>Alibaba: <a href="http://code.taobao.org/p/OceanBase/src/">OceanBase</a></li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h2 id="paper">PAPER</h2>
+<h2 id="book">Book</h2>
 <table>
 <thead>
 <tr>
-<th>刊物简称</th>
-<th>刊物全称</th>
-<th>出版社</th>
-<th>网址</th>
+<th>Publication abbreviation</th>
+<th>Full publication name</th>
+<th>Publisher</th>
+<th>Website</th>
 </tr>
 </thead>
 <tbody>
@@ -572,326 +192,327 @@ user当前连接用户</p>
 </table>
 <h2 id="meeting">Meeting</h2>
 <ul>
-<li>ACMSIGMOD: 国际计算机学会数据管理专业委员会(ACM SIGMOD)是国际数据库领域最高级别的国际会议。其主要致力于数据库以及信息技术的研究，开发和应用。</li>
-<li>VLDB: 国际超大型数据库会议是一个专门从事超大规模数据库管理理论、方法和应用研究的专业性学术机构，它涉及的内容也很丰富，包括研究及应用的诸多方面，基本上能够较全面地反映当前数据库研究的前沿方向、工业界的最新技术以及各国的研发水平。</li>
-<li>ICDE: 数据工程国际学术会议(ICDE)是由IEEE计算机数据工程技术学会(TCDE)主办的数据库领域的最高级别的国际性会议之一。</li>
-<li>CCFDBS: 中国计算机学会数据库专业委员会(CHINA COMPUTER FEDERATION DATABASE SOCIETY，简称CCFDBS)是中国计算机学会领导下的数据库学术组织。由数据库专业委员会主办的中国数据库学术会议(NDBC)始于1977年，已成为国内数据库领域较为权威的会议。</li>
+<li>ACMSIGMOD: The International Computer Society Data Management Professional Committee (ACM SIGMOD) is the highest level international conference in the field of international databases. Its main focus is on the research, development and application of databases and information technology.</li>
+<li>VLDB: The International Conference on Very Large Databases is a professional academic institution that specializes in the theory, methods and application of ultra-large database management. It also involves a lot of content, including many aspects of research and application. It can basically provide a comprehensive Reflects the current frontier direction of database research, the latest technology in the industry, and the level of research and development in various countries.</li>
+<li>ICDE: International Conference on Data Engineering (ICDE) is one of the highest-level international conferences in the database field sponsored by the IEEE Computer Data Engineering Technology Society (TCDE).</li>
+<li>CCFDBS: China Computer Federation Database Professional Committee (CHINA COMPUTER FEDERATION DATABASE SOCIETY, referred to as CCFDBS) is an academic database organization under the leadership of China Computer Society. The China Database Conference (NDBC) sponsored by the Database Professional Committee started in 1977 and has become a more authoritative conference in the domestic database field.</li>
 </ul>
-<h2 id="概述">概述</h2>
+<h2 id="some-u-must-know">Some U Must Know</h2>
+<p>A total of <strong>Basic</strong> (Introduction, Relational Database, Relational Database, Standard Language SQL, Database Security, Database Integrity), <strong>Design and Development</strong> (Relational Data Theory, Database Design, Database Design), **System ** (Relational query processing and query optimization, database recovery technology, concurrency control) three parts.</p>
 <ul>
-<li><strong>数据(Data)</strong>: 描述事物的符号记录, 数据库中存储的基本对象
+<li><strong>Introduction</strong>
 <ul>
-<li>特点: 数据与其语义是不可分</li>
-</ul>
-</li>
-<li><strong>数据库(DataBase, DB)</strong>: 长期储存 在计算机内 、有组织的、可共享的大量数据的集合
+<li>Data: Symbol records describing things, which are the basic objects in the database</li>
+<li>Database: It is a collection of large amounts of data stored in the computer for a long time, organized and shared</li>
+<li>Database Management System (DBMS): It is a layer of data management software between the user and the operating system
 <ul>
-<li>数据按一定的数据模型组织、描述 和储存</li>
-<li>可为各种用户共享</li>
-<li>冗余度较小</li>
-<li>数据独立性较高</li>
-<li>易扩展</li>
-</ul>
-</li>
-<li><strong>数据库管理系统(DataBase Management System, DBMS)</strong>: 位于用户与操作系统之间的一层数据管理软件, 科学地组织和存储数据、高效地获取和维护数据
-<ul>
-<li>功能:
-<ul>
-<li>数据操纵功能
-<ul>
-<li>提供数据操纵语言(DML)</li>
-<li>实现对数据库的基本操作 (查询、插入、删除和修改)</li>
+<li>The main function:</li>
+<li>Data definition function</li>
+<li>Data organization, storage and management</li>
+<li>Data manipulation function: 1. Data security protection; 2. Data integrity check; 3. Concurrency control; 4. Database recovery</li>
+<li>Database transaction management and operation management</li>
+<li>Database establishment and maintenance</li>
+<li>Other functions</li>
 </ul>
 </li>
-<li>数据库的事务管理和运行管理
+<li>Database System (DBS): A system for storing, managing, processing and maintaining data composed of databases, database management systems (and their development tools), application systems, and database administrators.</li>
+<li>Features of manual management stage
 <ul>
-<li>数据库在建立、运行和维护时由DBMS统一管理和控制</li>
-<li>保证数据的安全性、完整性、多用户对数据的并发使用</li>
-<li>发生故障后的系统恢复</li>
+<li>Data is not saved</li>
+<li>Application management data</li>
+<li>Data is not shared</li>
+<li>Data is not independent</li>
 </ul>
 </li>
-<li>数据库的建立和维护功能(实用程序 )
+<li>File system stage features
 <ul>
-<li>数据库初始数据装载转换</li>
-<li>数据库转储</li>
-<li>介质故障恢复</li>
-<li>数据库的重组织</li>
-<li>性能监视分析等</li>
+<li>Data can be stored for a long time</li>
+<li>Manage data files by file system</li>
 </ul>
 </li>
-<li>其它功能
+<li>System disadvantages
 <ul>
-<li>DBMS与网络中其它软件系统的通信</li>
-<li>两个DBMS系统的数据转换</li>
-<li>异构数据库之间的互访和互操作</li>
+<li>Poor data sharing and high redundancy</li>
+<li>Poor data independence</li>
 </ul>
 </li>
+<li>Database system characteristics
+<ul>
+<li>Data structure (essentially different from file system)</li>
+<li>High data sharing, low redundancy, easy to expand</li>
+<li>High data independence</li>
+<li>Data is managed and controlled by DBMS</li>
 </ul>
 </li>
-</ul>
-</li>
-<li><strong>数据库系统(DBS)</strong>: 由数据库、数据库管理系统、应用系统和数据库管理员组成
-的存储、管理、处理和维护 数据的系统
+<li>Independence:
 <ul>
-<li>构成:
+<li>Data independence
 <ul>
-<li>数据库</li>
-<li>数据库管理系统(及其开发 工具)</li>
-<li>应用系统</li>
-<li>数据库管理员</li>
-</ul>
-</li>
-<li><strong>特点</strong>
-<ul>
-<li>数据结构化
-<ul>
-<li>整体结构化
-<ul>
-<li>不再仅仅针对某一个应用，而是面向全组织</li>
-<li>不仅数据内部结构化，整体是结构化的，数据之间具有联系</li>
-</ul>
-</li>
-<li>数据库中实现的是数据的真正结构化
-<ul>
-<li>数据的结构用数据模型描述 ，无需程序定义和解释</li>
-<li>数据可以变长</li>
-<li>数据的最小存取单位是数据项</li>
+<li>Physical independence of data: Refers to the user&rsquo;s application and the data stored in the database on the disk are independent of each other.</li>
+<li>Logical independence of data: The logical structure of the user&rsquo;s application and the database are independent of each other, that is, the logical structure of the data is changed, and the user program can also remain unchanged</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>数据的共享性高，冗余度低，易扩充
+<li>Data model is the core and foundation of database system
 <ul>
-<li>数据共享
+<li>The components of the data model:
 <ul>
-<li>减少数据冗余，节约存储空间</li>
-<li>避免数据之间的不相容性与不一致性</li>
-<li>使系统易于扩充</li>
+<li>Data structure: describe the constituent objects of the database and the connections between the objects</li>
+<li>Data operations: Refers to the set of operations allowed to be performed on the instances of various objects in the database.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>数据独立性高
+<li>The three-level model structure of the database system means that the database system is composed of three levels: external mode, mode and internal mode
 <ul>
-<li>物理独立性
-<ul>
-<li>指用户的 应用程序与存 储在磁盘上的 数据库中数据 是相互独立的。当数据的物理存储改变了，应用程序不用改变。</li>
-</ul>
-</li>
-<li>逻辑独立性
-<ul>
-<li>指用户的应用程序与数据库的逻辑结构是相互独立的 。数据的逻辑结构改变了，用户程序也 可以不变 。</li>
-</ul>
-</li>
-<li>数据独立性是由DBMS的二级映像功能来保证的</li>
-</ul>
-</li>
-<li>数据由DBMS统一管理和控制</li>
+<li>Mode (Logical Mode): It is the description of the logical structure and characteristics of all data in the database, and is the common data view for all users. It is the middle layer of the database system schema structure, which does not involve the physical storage details of the data and the hardware environment, but also It has nothing to do with the specific application, the development tools used and the high-level programming language. A database has only one mode</li>
+<li>External mode (sub-mode, user mode): It is the description of the logical structure and characteristics of the local data that the database user can see and use. It is the data view of the database user and the logical representation of the data related to a certain application. Usually it is A subset of the pattern, a database can have multiple outer patterns. The outer pattern is a powerful measure to ensure the security of the database</li>
+<li>Internal mode (storage mode): A database can only have one internal mode, which is the description of the physical structure and storage method of the data, and the representation of the data inside the database
+External mode/mode mapping, mode/internal mode mapping ensure that the data in the database system can have high logical independence and physical independence</li>
 </ul>
 </li>
 </ul>
 </li>
-</ul>
-<h3 id="history">History</h3>
+<li><strong>relational database</strong></li>
+<li>Data integrity constraints: refer to the constraints and dependency rules of the data and its connections in a given data model</li>
+<li>Substance: Things that exist objectively and can be distinguished from each other</li>
+<li>Attribute: a certain characteristic of the entity</li>
+<li>Code: A set of attributes that uniquely identifies an entity</li>
+<li>Domain: The value range of the attribute</li>
+<li>Entity type: The characteristics and properties that entities with the same attributes must have. Use entity names and their attribute name sets to abstract and portray similar entities to become entity types</li>
+<li>Entity Set: A collection of entities of the same type</li>
+<li>Contact: The relationship within an entity usually refers to the relationship between the attributes that make up the entity; the relationship between entities usually refers to the relationship between different entity sets. There are three types
 <ul>
-<li>数据管理
-<ul>
-<li>对数据进行分类、组织、编码、存储、检索和维护</li>
-<li>数据处理的中心问题</li>
-</ul>
-</li>
-<li>发展过程
-<ul>
-<li>人工管理阶段(20世纪40年代中&ndash;50年代中)
-<ul>
-<li>数据的管理者：用户(程序员)，数据不保存</li>
-<li>数据面向的对象：某一应用程序</li>
-<li>数据的共享程度：无共享、冗余度极大</li>
-<li>数据的独立性：不独立，完全依赖于程序</li>
-<li>数据的结构化：无结构</li>
-<li>数据控制能力：应用程序自己控制</li>
+<li>One-to-one contact</li>
+<li>One-to-many contact</li>
+<li>Many-to-many contact</li>
 </ul>
 </li>
-<li>文件系统阶段(20世纪50年代末&ndash;60年代中)</li>
+<li>Relationship model
+<ul>
+<li>Data structure of relational data model</li>
+<li>Manipulation and integrity constraints</li>
+<li>Storage structure</li>
 </ul>
 </li>
-<li>数据的管理者：文件系统，数据可长期保存
+<li>Relationship: A relationship corresponds to a table in general</li>
+<li>Tuple: A row in the table is a tuple</li>
+<li>Attribute: One column in the table is an attribute</li>
+<li>Code (code key): an attribute group in the table, it can uniquely determine a tuple</li>
+<li>Domain: The value range of the attribute</li>
+<li>Component: an attribute value in the tuple</li>
+<li>Candidate code: If the value of a certain attribute group in the relationship can uniquely identify a tuple</li>
+<li>Master Code: If there are multiple candidate codes in a relationship, select one of them as the master code.</li>
+<li>The attributes of candidate codes are called primary attributes. Attributes not included in any candidate codes are called non-primary attributes or non-code attributes</li>
+<li>Three types of relationships
 <ul>
-<li>数据面向的对象：某一应用程序</li>
-<li>数据的共享程度：共享性差、冗余度大</li>
-<li>数据的结构化：记录内有结构，整体无结构</li>
-<li>数据的独立性：独立性差，数据的逻辑结构改变必须</li>
-<li>修改应用程序</li>
-<li>数据控制能力：应用程序自己控制</li>
-<li>数据库系统阶段(20世纪60年代末&ndash;现在)</li>
+<li>Basic relationship (also known as basic table, base table)</li>
+<li>Inquiry form</li>
+<li>View table</li>
 </ul>
 </li>
-<li>动力
+<li>Basic operation of relational model
 <ul>
-<li>应用需求的推动</li>
-<li>计算机硬件的发展</li>
-<li>计算机软件的发展</li>
+<li>Query operation</li>
+<li>Insert, delete and modify operations</li>
 </ul>
 </li>
-</ul>
-<h3 id="数据模型">数据模型</h3>
+<li>Query operations are divided into: selection, projection, connection, division, union, difference, intersection, Cartesian product (5 basic operations)</li>
+<li>Relational operation characteristics: Set operation mode, that is, the object and result of the operation are sets, also known as one set at a time. Non-relational data model is one record at a time</li>
+<li>Language classification of relational data:
 <ul>
-<li>两大类
-<ul>
-<li><strong>概念模型</strong>: 信息模型，它是按用户的观点来对数据和信息建模，用于数据库设计。</li>
-<li>逻辑模型和物理模型
-<ul>
-<li><strong>逻辑模型</strong>: 主要包括网状 模型、层次模型、关系模型、面向对象模型等，按计算机系统的观点对数据建模，用于DBMS 实现。</li>
-<li><strong>物理模型</strong>: 是对数据最底 层的抽象，描述数据在系统 内部的表示方式和存取方法，在磁盘或 磁带上的存储方式和存 取方法。</li>
+<li>Relational Algebra Language</li>
+<li>Relationship calculus language</li>
+<li>With relational algebra and relational calculus</li>
 </ul>
 </li>
+<li>**Dual Characteristic Language (SQL) **: Language used to communicate with DBMS
+<ul>
+<li>The difference and connection between equivalence connection and natural connection
+<ul>
+<li>The concatenation operation with the concatenation operator &ldquo;=&rdquo; becomes equivalent concatenation. It selects those tuples with equal attribute values ​​of A and B from the generalized Cartesian product of the relations R and S</li>
+<li>Natural connection is a special equivalence connection. It requires that the components to be compared in the two relations must be the same attribute group, and the duplicate attribute column is removed from the result</li>
 </ul>
 </li>
-<li>数据模型的组成要素
+<li>SQL integrates data query, data definition, data manipulation and data control functions</li>
+<li>The main features of SQL include
 <ul>
-<li>数据结构</li>
-<li>数据操作</li>
-<li>完整性约束条件
-<ul>
-<li>一组完整性规则的集合。</li>
-<li>完整性规则：给定的数据模型中数据及其联系所具有的制约和依存规则</li>
-<li>用以限定符合数据模型的数据库状态以及状态的变化，以保证数据的正确、有效、相容。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>概念模型
-<ul>
-<li>信息世界
-<ul>
-<li><strong>实体(Entity)</strong>: 客观存在并可相互区别的事物称为实体。可以是具体的人、事、物或 抽象的概念。</li>
-<li>属性(Attribute): 实体所具有的某一特性称为属性。一个实体可以由若干个属性来刻画。</li>
-<li>码(Key): 唯一标识实体的属性集称为码</li>
-<li>域(Domain): 属性的取值范围称为该属性的域。</li>
-<li><strong>实体型(Entity Type)</strong>: 用实体名及其属性名集合来抽象和刻画同类实体称为实体型</li>
-<li><strong>实体集(Entity Set)</strong>: 同一类型实体的集合称为实体集</li>
-<li>联系(Relationship)
-<ul>
-<li>现实世界中事物内部以及事物之间的联系,在信息世界中反映为实体内部的联系和实体之间的联系。</li>
-<li>实体内部的联系通常是指组成实体的各属性之间的联系</li>
-<li><strong>实体之间的联系通常是指不同实体集之间的联系</strong></li>
+<li>Comprehensive unity</li>
+<li>Highly non-procedural</li>
+<li>Collection-oriented operation</li>
+<li>Provide multiple usage methods with the same grammatical structure</li>
+<li>Simple language, easy to learn and use</li>
 </ul>
 </li>
 </ul>
 </li>
+<li><strong>Database Security</strong>
+<ul>
+<li>Describe the commonly used methods and technologies for database security control:
+<ul>
+<li>User identification and authentication: The system provides a certain way for users to identify their own name or identity. Every time a user asks to enter the system, the system will check it and provide the right to use the system after passing the authentication</li>
+<li>Access control: Through user authority definition and legal authority check to ensure that only users with legal authority can access the database, and all unauthorized persons cannot access the database.</li>
+<li>View mechanism: Define views for different users, and hide the data to be kept secret from users who have no right to access through the view mechanism, thereby automatically providing a certain degree of security protection to the data</li>
+<li>Audit: Establish an audit log, automatically record all user operations on the database and put it in the audit log. The DBA can use the audit trail information to reproduce a series of events leading to the current status of the database, and find out illegal access to data People, time, content, etc.</li>
+<li>Data Encryption: Encrypt the stored and transmitted data so that people who don’t know the decryption algorithm can’t know the content of the data.</li>
 </ul>
 </li>
-<li>最常用的数据模型
-<ul>
-<li>层次模型</li>
-<li>网状模型</li>
-<li>关系模型
-<ul>
-<li><strong>关系(Relation)</strong>: 一个关系对应通常说的一张表</li>
-<li><strong>元组(Tuple)</strong>: 表中的一行即为一个元组</li>
-<li><strong>属性(Attribute)</strong>: 表中的一列即为一个属性 ，给每一个属性起一个名称, 即属性名</li>
-<li><strong>码(Key)</strong>: 表中的某个属性组，它可以唯一确定一个元组。</li>
-<li><strong>域(Domain)</strong>: 属性的取值范围。</li>
-<li><strong>分量</strong>: 元组中的一个属性值。</li>
-<li><strong>关系模式</strong>: 对关系的描述</li>
+<li>TCSEC/TDI describes the standards for the classification of security levels in terms of security policies, responsibilities, guarantees and documents.</li>
+<li>The GRANT statement grants permissions to the user, and the REVOKE statement revokes the granted permissions</li>
+<li>Autonomous access control method: Define each user&rsquo;s access authority to different data objects. When the user accesses the database, first check the user&rsquo;s access authority. Prevent illegal users from accessing the database.</li>
+<li>Mandatory access control method: Each data object is (mandatory) marked with a certain level of security, and each user is also (mandatory) granted a certain level of license. The system stipulates that only users with a certain level of license In order to access a certain confidential data object.</li>
 </ul>
 </li>
+<li><strong>Database Integrity</strong>
+<ul>
+<li>Database integrity refers to the positive determination and compatibility of data</li>
+<li>The difference and connection between the integrity and security of the database
+<ul>
+<li>The integrity of the database is to prevent the existence of non-semantic data in the database, that is, to prevent the existence of incorrect data in the database. The object of integrity check and control is the non-semantic and incorrect data to prevent them from entering the database.</li>
+<li>Data security refers to the protection of the database to prevent data leakage, modification or destruction caused by illegal use. The object of security control is illegal users and illegal operations to prevent them from illegal access to database data.</li>
 </ul>
 </li>
-</ul>
-<h3 id="数据库系统结构">数据库系统结构</h3>
+<li>To maintain the integrity of the database, the DBMS must be able to
 <ul>
-<li>数据库系统模式的概念</li>
-<li>数据库系统的三级模式结构
-<ul>
-<li><strong>模式(Schema)</strong>: 逻辑模式, 数据库中全体数据的逻辑结构和特征的描述
-<ul>
-<li>所有用户的公共数据视图，综合了所有用户的需求</li>
-<li>一个数据库只有一个模式</li>
-<li>模式的地位：是数据库系统模式结构的中间层
-<ul>
-<li>与数据的物理存储细节和硬件环境无关</li>
-<li>与具体的应用程序、开发工具及高级程序设计语言无关</li>
+<li>Provide a mechanism for defining integrity constraints</li>
+<li>Provide methods for integrity check</li>
+<li>Handling of breach of contract</li>
 </ul>
 </li>
+<li>The integrity constraints of the relationship include
+<ul>
+<li>Entity integrity: If the attribute (referring to one or a group of attributes) A ​​is the primary attribute of the basic relationship R, then A cannot take a null value</li>
+<li>Referential integrity: If the attribute (or attribute group) F is the outer code of the basic relation R, it corresponds to the main code Ks of the basic relation S (the basic relation R and S are not necessarily different relations), then for R The value of each tuple on F must be: 1. Or take a null value (each attribute value of F is a null value); 2. Or equal to the main code value of a tuple in S</li>
+<li>User-defined completeness</li>
 </ul>
 </li>
-<li><strong>外模式(External Schema)</strong>: 子模式或用户模式, 数据库用户（包括应用程序员和最终用户）使用的局部数据的逻辑结构和特征的描述
-<ul>
-<li>数据库用户的数据视图，是与某一应用有关的数据的逻辑表示
--外模式的地位：介于模式与应用之间</li>
-<li>模式与外模式的关系：一对多
-<ul>
-<li>外模式通常是模式的子集</li>
-<li>一个数据库可以有多个外模式 。反映了不同的用户的应用需求 、看待数据的方式、对数据保密的要求</li>
-<li>对模式中同一数据 ，在外模式中的结构 、类型、长度、保密级别等都可以不同</li>
+<li>Two invariances of the relationship: the integrity constraints that the relationship model of entity integrity and referential integrity must satisfy</li>
 </ul>
 </li>
-<li>外模式与应用的关系：一对多
+<li><strong>Relational Data Theory</strong>
 <ul>
-<li>同一外模式也可以为某一用户的多个应用系统所使用</li>
-<li>但一个应用程序只能使用一个外模式</li>
+<li>Problems with the relationship model
+<ul>
+<li>Data is easily too big</li>
+<li>Update exception</li>
+<li>Insertion exception</li>
+<li>Delete exception</li>
 </ul>
 </li>
-<li>外模式的用途
+<li>Functional dependency: Let R(U) be the relational pattern on the attribute set U. X and Y are U&rsquo;s own. If for any possible relation r of R(U), there cannot be two tuples in r The attribute value on X is equal, but the attribute value on Y is not equal, it is said that the X function determines that Y or the Y function depends on X, denoted as X→Y</li>
+<li>Normalization: A relational model of a lower-level paradigm can be transformed into a collection of several higher-level paradigm through pattern decomposition. This process is called normalization
 <ul>
-<li>保证数据库安全性的一个有力措施</li>
-<li>每个用户只能看见和访问所对应的外模式中的数据</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>内模式(Internal Schema)</strong>:是数据物理结构和存储方式的描述
-<ul>
-<li>是数据在数据库内部的表示方式
-<ul>
-<li>记录的存储方式（顺序存储，按照B树结构 存储，按hash方法存储）</li>
-<li>索引的组织方式</li>
-<li>数据是否压缩存储</li>
-<li>数据是否加密</li>
-<li>数据存储记录结构的规定</li>
-</ul>
-</li>
-<li>一个数据库只有一个内模式</li>
-<li>数据库的二级映像功能与数据独立性</li>
+<li>1NF: Each component must be an inseparable data item. The relational model that meets this minimum requirement belongs to 1NF</li>
+<li>2NF: If R∈1NF, and every non-primary attribute completely depends on the code, then R∈2NF</li>
+<li>3NF: If there is no such code X in the relational pattern R&lt;U,F&gt;, attribute group Y and non-primary attribute Z (Z is not a proper subset of Y) make X→Y, Y→Z hold, Y\→Z , Then it is called R&lt;U,F&gt;∈3NF</li>
+<li>BCNF: Relational pattern R&lt;U,F&gt;∈1NF. If X→Y and Y is not a proper subset of X, X must contain a code, then R&lt;U,F&gt;∈BCNF A relational pattern R does not belong to 2NF, it will be generated The following questions: 1. Insert the exception; 2. Delete the exception; 3. Modify the three definitions of the abnormal pattern decomposition: decomposition has &ldquo;lossless connectivity&rdquo;; decomposition must &ldquo;maintain functional dependency&rdquo;; decomposition must &ldquo;maintain functional dependency&rdquo;, elegant Has &ldquo;lossless connectivity&rdquo;</li>
+<li>&hellip;&hellip;</li>
 </ul>
 </li>
 </ul>
 </li>
-</ul>
-<h3 id="数据库系统的组成">数据库系统的组成</h3>
+<li><strong>Database Design</strong></li>
+<li>General definition of database design: For a given application environment, construct (design) optimized database logical mode and physical structure, and establish database and application system accordingly, so that it can effectively store and manage data to meet various requirements User&rsquo;s application requirements, including information management requirements and data operation requirements
 <ul>
-<li>硬件平台及数据库
+<li>Information management requirements: Which data objects should be stored and managed in the database</li>
+<li>Data operation requirements: What operations need to be performed on the data object e, such as query, addition, deletion, modification, statistics and other operations. Database design goals, to provide users and various application systems with an information infrastructure and efficient operating environment
 <ul>
-<li>足够大的内存</li>
-<li>足够大的外存</li>
-<li>较高的通道能力，提高数据传送率</li>
-</ul>
-</li>
-<li>软件
-<ul>
-<li>支持DBMS运行的操作系统</li>
-<li>与数据库接口的高级语言及其编译系统</li>
-<li>以DBMS为核心的应用开发工具</li>
-<li>为特定应用环境开发的数据库应用系统</li>
+<li>High-efficiency operating environment includes: database data access efficiency, database storage space utilization, database system operation management efficiency, etc. are all high</li>
 </ul>
 </li>
-<li>人员
+</ul>
+</li>
+<li>Features of data design: 1. Basic law of database design: &ldquo;three points of technology, seven points of management, twelve points of basic data&rdquo;; 2. The combination of structure (data) design and behavior (processing) design</li>
+<li>Main features of the conceptual structure
 <ul>
-<li>数据库管理员: DBA</li>
-<li>系统分析员和数据库设计人员</li>
-<li>应用程序员</li>
-<li>用户
+<li>It can truly and fully reflect the real world, including the connection between things and things, and can meet the coarse-grained requirements of users for data. It is a real model for realizing the world</li>
+<li>It is easy to understand, so that you can use it to exchange opinions with users who are not familiar with computers. The active participation of users is the key to the success of database design</li>
+<li>Easy to change, when the application environment and application requirements change, it is easy to modify and expand the conceptual model</li>
+<li>Easy to convert to various data models such as relationship, mesh, hierarchy, etc.</li>
+</ul>
+</li>
+<li><strong>Query processing and query optimization</strong>
 <ul>
-<li>偶然用户</li>
-<li>简单用户</li>
-<li>复杂用户</li>
+<li>The advantage of query optimization is not only that users do not have to think about how to best express queries to achieve better efficiency, but also that the system can do better than the &ldquo;optimization&rdquo; of user programs</li>
+<li>The overall goal of query optimization: select an effective strategy to obtain the value of a given relational expression, so that the query cost is minimized</li>
+<li>Algebraic optimization strategy is to improve query efficiency by equivalent changes to relational algebraic expressions. Physical optimization is</li>
+<li>To select efficient and reasonable operation algorithms or access paths, find an optimized query plan, and achieve the goal of query optimization</li>
+</ul>
+</li>
+<li><strong>Database Recovery Technology</strong>
+<ul>
+<li>A transaction is a user-defined sequence of database operations. These operations are either all or all, and are an indivisible unit of work</li>
+<li>The transaction usually starts with BEGIN TRANSACTION and ends with COMMIT or ROLLBACK. COMMIT means commit, and all operations of committing the transaction ROLLBACK means rollback, that is, some kind of failure occurs during the operation of the transaction, and the transaction cannot continue to be executed. The system will All completed operations of the database are all undone and rolled back to the state at the beginning of the transaction</li>
+<li>Four characteristics of transactions (ACID characteristics): Atomicity, consistency, isolation, and persistence
+<ul>
+<li>Atomicity: Transaction is the logical unit of work of the database, all operations included in the transaction are either done or not done</li>
+<li>Consistency: The result of transaction execution must be to make the database change from one consistent state to another consistent state</li>
+<li>Isolation: For concurrent execution, the execution of a transaction cannot be interfered by other transactions</li>
+<li>Persistence: Once a transaction is committed, its changes to the data in the database should be permanent</li>
+</ul>
+</li>
+<li><strong>Types of failures and recovery strategies</strong></li>
+<li>Transaction failure
+<ul>
+<li>Scan the file log in the reverse direction to find the update operation of the transaction</li>
+<li>Perform the reverse operation of the update operation of the transaction</li>
+<li>Continue to scan the log file in the reverse direction and do the same</li>
+<li>Continue in this way until the start mark of the transaction is read, and the recovery of the transaction failure is completed</li>
+<li>System failure (soft failure)
+<ul>
+<li>Scan the log file forward to find out the transaction queues that have been committed and the unfinished transaction queues before the failure occurred</li>
+<li>Cancel each transaction in the cancel queue</li>
+<li>Redo each transaction in the redo queue</li>
+</ul>
+</li>
+<li>Media failure (hard): The most serious type of failure. The recovery method is to reinstall the database and then redo the completed transactions.
+<ul>
+<li>Load the latest database backup copy (the dumped copy closest to the time of the failure) to restore the database to the consistency state at the time of the dump</li>
+<li>Load a copy of the log file at the end of the dump and redo completed transactions.</li>
+</ul>
+</li>
+<li>computer virus</li>
+</ul>
+</li>
+<li>Basic techniques of database recovery: data dump and log file
+<ul>
+<li>When a failure occurs during system operation, the database can be restored to a consistent state before the failure by using the dumped backup copy of the database and log files.</li>
+</ul>
+</li>
+<li>Checkpoint record is a new type of log record.
+<ul>
+<li>Establish a list of all transactions in progress at the time of checkpoint</li>
+<li>The address of the most recent log record of these transactions</li>
+</ul>
+</li>
+<li>The most commonly used technique for establishing redundant data
+<ul>
+<li>Data dump</li>
+<li>Registration log files</li>
+</ul>
+</li>
+<li>Data inconsistency caused by concurrent operations: loss of modification, non-repeatable read, read &ldquo;dirty&rdquo; data</li>
+<li>The easy way to avoid deadlocks is to adopt a first-come, first-served strategy</li>
+<li>Three-level lockdown agreement
+<ul>
+<li>Level 1 Locking Protocol: Add write lock before writing data, and no lock when reading data. It can only prevent loss and modification.</li>
+<li>Level 2 lockout protocol: In the level 1 lockout protocol, a read lock is required to read data, and it will be released after reading. Avoid reading dirty data.</li>
+<li>Three-level lockout protocol: On the first-level lockout protocol, read data plus read lock, and release after the transaction ends.</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h2 id="oracle-db">ORACLE DB</h2>
+<h2 id="sql">SQL</h2>
+<p>The <code>Oracle 11g</code> used in the school’s experimental environment. It is said that this version is really the original sin, and few people use it. Although I have found the installation tutorial on Stackoverflow, my Ubuntu still has all the bugs, and finally uninstalled Ubuntu (lost a lot of valuable data), I jumped back to Windows, just to use this experimental software, why does the school use the old version instead of the latest Oracle? I am really depressed.</p>
+<p>I hosted the lab homework and lab notes for a semester in <a href="https://gist.github.com/bGZoCg/cc81fcceb8455e95a413a20cd0759cb7">Gist</a>. Alumni of IMU can read it by themselves.</p>
+<script src="https://gist.github.com/bGZoCg/cc81fcceb8455e95a413a20cd0759cb7.js"></script>
+<h2 id="postgresql-source">Postgresql Source</h2>
+<p>All work will be better if I could preview the latter chapter. And a extension named <code>Comment Translate</code> , in VsCode, helps me a lot. What&rsquo;s more, the source of Postgresql is awesome, all the model is filled with comments. Cause the total flow of postgresql is the same with Oracle above. So let talk the diff details following.</p>
+<p>As we known, flow is like <code>Parser -(tree)&gt; Rewriter -(convert)&gt; Planner -(review)&gt; Executor(do)</code>. In part one, parser used <a href="http://www.cs.virginia.edu/~cr4bd/flex-manual">flex</a> under <code>./src/backend/parser/scan.l</code> and bison under <code>./src/backend/parser/gram.y</code>.</p>
+<p>So if you&rsquo;re fascinated in this struction and flow, you could read &laquo;<em>PostgreSQL database core analysis</em>&raquo;. Its douban&rsquo;s page is <a href="https://book.douban.com/subject/6971366/">here</a>.</p>
+<h2 id="ubuntu-oracle-db">Ubuntu Oracle DB</h2>
 <ul>
 <li>Download
 <ul>
@@ -905,9 +526,15 @@ $ sudo alien --scripts -d oracle-xe-11.2.0-1.0.x86_64.rpm
 $ sudo dpkg -i oracle-xe_11.2.0-2_amd64.deb
 <span class="c1"># /var/lib/dpkg/info/oracle-xe.postinst: line 114: /sbin/chkconfig: No such file or directory You must run &#39;/etc/init.d/oracle-xe configure&#39; as the root user to configure the database.</span>
 $ sudo /etc/init.d/oracle-xe configure
-<span class="c1"># 安装的时候一大堆目录错过了...</span>
+<span class="c1"># Omit a lot...</span>
 $ reboot
 </code></pre></div></li>
+</ul>
+<h2 id="拓展">拓展</h2>
+<ul>
+<li><a href="https://learnxinyminutes.com/docs//sql/">Y-SQL in X minutes</a></li>
+<li><a href="https://www.bilibili.com/video/BV12b411K7Zu">(ZH)Getting started with mysql is still in Silicon Valley</a>.</li>
+<li><a href="https://www.jianshu.com/p/91856df6b6f9">(ZH)Shang Silicon Valley MySQL core technology basic knowledge notes</a></li>
 </ul>
 <h2 id="relationship-db-关系数据库">Relationship DB 关系数据库</h2>
 <ul>
@@ -949,7 +576,6 @@ $ reboot
 </ul>
 </li>
 </ul>
-<h2 id="reference">REFERENCE</h2>
 <div id="j1">[1]. https://askubuntu.com/posts/983032/edit</div>
 <div id="j2">[2]. https://dba.stackexchange.com/questions/13291/installing-oracle-11g-on-ubuntu-11-10</div>
 <div id="j3">[3]. https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm#XEINL123</div>
@@ -980,7 +606,7 @@ $ reboot
 
         <footer>
             <p>
-            &copy; 2021 &nbsp;&nbsp;<a href=./index.xml style=" border-bottom-width: 0px"><svg t="1623645011149" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5933" width=".9em" height=".9em" fill=#8a8a8a><path d="M239.8 672.2c-61.6 0-111.8 50.2-111.8 111.6 0 61.6 50.2 111.2 111.8 111.2 61.8 0 111.8-49.8 111.8-111.2C351.6 722.4 301.6 672.2 239.8 672.2zM239.8 863c-44 0-79.8-35.6-79.8-79.2 0-43.8 35.8-79.6 79.8-79.6 44 0 79.8 35.8 79.8 79.6C319.6 827.4 283.8 863 239.8 863z" p-id="5934"></path><path d="M128 384l0 159.8c96 0 188.2 28.4 256 96.2 67.8 67.8 96 159.8 96 256l160 0C640 616.2 408 384 128 384zM607 864l-96 0c-6.2-99.4-42-184.2-104.4-246.6C344.2 554.8 260 519 160 512.8l0-95.6c52 3.6 104.2 16 153.4 37 57 24.4 108.4 59.2 152.8 103.6 44.4 44.4 79.2 95.8 103.6 152.8C591 759.8 603.4 811.2 607 864z" p-id="5935"></path><path d="M128 128l0 159.8c342 0 607.8 266 607.8 608.2L896 896C896 472.6 552 128 128 128zM582.8 441C470.8 328.8 322 264 160 256.4L160 160.6C540 177 847 483.6 863.4 864l-96.4 0C759.4 702.2 694.6 553 582.8 441z" p-id="5936"></path></svg></a>
+            <span><a href="bgzocg.me">bGZoCg</a></span> &copy; 2021 &nbsp;&nbsp;<a href=./index.xml style=" border-bottom-width: 0px"><svg t="1623645011149" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5933" width=".9em" height=".9em" fill=#8a8a8a><path d="M239.8 672.2c-61.6 0-111.8 50.2-111.8 111.6 0 61.6 50.2 111.2 111.8 111.2 61.8 0 111.8-49.8 111.8-111.2C351.6 722.4 301.6 672.2 239.8 672.2zM239.8 863c-44 0-79.8-35.6-79.8-79.2 0-43.8 35.8-79.6 79.8-79.6 44 0 79.8 35.8 79.8 79.6C319.6 827.4 283.8 863 239.8 863z" p-id="5934"></path><path d="M128 384l0 159.8c96 0 188.2 28.4 256 96.2 67.8 67.8 96 159.8 96 256l160 0C640 616.2 408 384 128 384zM607 864l-96 0c-6.2-99.4-42-184.2-104.4-246.6C344.2 554.8 260 519 160 512.8l0-95.6c52 3.6 104.2 16 153.4 37 57 24.4 108.4 59.2 152.8 103.6 44.4 44.4 79.2 95.8 103.6 152.8C591 759.8 603.4 811.2 607 864z" p-id="5935"></path><path d="M128 128l0 159.8c342 0 607.8 266 607.8 608.2L896 896C896 472.6 552 128 128 128zM582.8 441C470.8 328.8 322 264 160 256.4L160 160.6C540 177 847 483.6 863.4 864l-96.4 0C759.4 702.2 694.6 553 582.8 441z" p-id="5936"></path></svg></a>
             &nbsp;
             <a href="//github.com/bgzocg" style=" border-bottom-width: 0px"><svg t="1623645573680" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7467" width=".9em" height=".9em" fill=#8a8a8a><path d="M427.392 853.504a61.44 61.44 0 0 1-1.450667 15.530667 92.586667 92.586667 0 0 1-10.965333 27.605333c-15.061333 25.301333-40.661333 42.154667-73.642667 42.154667-77.653333 0-108.117333-38.101333-146.261333-133.504C169.216 740.693333 157.013333 725.461333 128 725.461333v-85.333333c77.653333 0 108.117333 38.101333 146.261333 133.504 25.856 64.597333 38.058667 79.786667 67.072 79.786667 0-12.373333-0.170667-23.296-0.512-38.144-0.853333-34.816-0.938667-41.941333 0.554667-51.2 0.64-20.352 5.888-34.773333 16.384-49.066667-95.232-20.736-159.445333-63.573333-196.309333-132.992l-13.824-32.426667C134.186667 510.848 128 467.072 128 416.426667c0-58.24 17.749333-110.336 50.944-153.856-10.368-41.386667-8.96-91.989333 13.909333-149.077334l7.466667-18.688 19.2-6.101333c2.56-0.853333 5.632-1.578667 9.301333-2.133333 37.290667-5.888 90.325333 8.106667 159.701334 52.48a565.930667 565.930667 0 0 1 127.274666-14.208c38.741333 0 77.226667 3.882667 114.048 11.605333 67.456-42.24 119.04-55.509333 155.306667-49.92 3.626667 0.597333 6.741333 1.322667 9.258667 2.133333l19.285333 6.101334 7.466667 18.773333c20.010667 50.218667 23.424 96.469333 16.128 136.96C875.434667 296.32 896 352.597333 896 416.512c0 53.888-3.84 94.378667-14.933333 133.802667l-11.733334 32.170666c-30.677333 69.333333-98.304 112.64-202.538666 133.248 10.837333 15.018667 15.872 30.250667 15.872 52.394667v42.666667l-0.042667 42.666666a13.013333 13.013333 0 0 0 0.341333 2.730667L682.666667 938.794667c-36.352 0-63.36-17.706667-76.672-45.653334a88.277333 88.277333 0 0 1-8.661334-40.277333v-84.736c0-3.584-0.128-3.797333-8.832-12.501333-23.296-23.296-33.834667-40.874667-33.834666-72.832v-38.613334l38.4-3.84c114.346667-11.52 176.512-43.221333 197.12-89.6l9.6-26.325333c7.68-27.562667 10.88-61.098667 10.88-107.946667 0-49.706667-17.365333-90.837333-50.218667-123.648L742.4 274.773333l7.381333-24.448c6.528-21.717333 8.106667-47.402667 1.152-76.714666a158.634667 158.634667 0 0 0-3.584 0.938666c-22.826667 6.4-51.370667 20.053333-85.76 43.008l-15.658666 10.453334-18.304-4.522667a467.754667 467.754667 0 0 0-111.829334-13.269333c-42.709333 0-84.906667 5.418667-123.946666 16.042666l-19.029334 5.205334-16.256-11.136c-35.541333-24.32-65.109333-38.826667-88.746666-45.568a158.293333 158.293333 0 0 0-4.864-1.28c-8.234667 33.92-4.992 61.781333 3.413333 82.688l9.984 25.088-18.346667 19.797333C228.693333 332.629333 213.333333 370.986667 213.333333 416.512c0 41.685333 4.864 76.202667 13.824 102.229333l11.178667 26.453334c27.904 52.352 87.168 83.84 192.853333 95.146666l38.144 4.096v38.357334c0 32-10.538667 49.536-33.834666 72.832-8.704 8.704-8.832 8.96-8.832 12.501333l-0.725334 7.893333c-0.512 2.56-0.512 9.258667 0.170667 37.205334 0.298667 12.8 0.469333 22.997333 0.554667 33.621333a33.962667 33.962667 0 0 1 0.725333 6.656z" p-id="7468"></path></svg></a>
             &nbsp;
@@ -992,10 +618,11 @@ $ reboot
             &nbsp;
             <a href="//t.me/bgzocg" style=" border-bottom-width: 0px"><svg t="1623645993260" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="14230" width=".9em" height=".9em" fill=#8a8a8a><path d="M834.24 127.872a95.168 95.168 0 0 0-29.856 7.136h-0.128c-9.12 3.616-52.48 21.856-118.4 49.504l-236.224 99.488c-169.504 71.36-336.128 141.632-336.128 141.632l1.984-0.768s-11.488 3.776-23.488 12a64.96 64.96 0 0 0-18.752 18.144c-5.888 8.64-10.624 21.856-8.864 35.52 2.88 23.104 17.856 36.96 28.608 44.608 10.88 7.744 21.248 11.36 21.248 11.36h0.256l156.256 52.64c7.008 22.496 47.616 156 57.376 186.752 5.76 18.368 11.36 29.856 18.368 38.624 3.392 4.48 7.36 8.224 12.128 11.232a35.808 35.808 0 0 0 7.872 3.392l-1.6-0.384c0.48 0.128 0.864 0.512 1.216 0.64 1.28 0.352 2.144 0.48 3.776 0.736 24.736 7.488 44.608-7.872 44.608-7.872l1.12-0.896 92.256-84 154.624 118.624 3.52 1.504c32.224 14.144 64.864 6.272 82.112-7.616 17.376-13.984 24.128-31.872 24.128-31.872l1.12-2.88 119.488-612.128c3.392-15.104 4.256-29.248 0.512-42.976a57.824 57.824 0 0 0-24.992-33.504 59.904 59.904 0 0 0-34.144-8.64z m-3.232 65.6c-0.128 2.016 0.256 1.792-0.64 5.664v0.352l-118.368 605.76c-0.512 0.864-1.376 2.752-3.744 4.64-2.496 1.984-4.48 3.232-14.88-0.896l-189.12-144.992-114.24 104.128 24-153.28 308.992-288c12.736-11.84 8.48-14.336 8.48-14.336 0.896-14.528-19.232-4.256-19.232-4.256l-389.632 241.376-0.128-0.64-186.752-62.88v-0.128l-0.48-0.096a8.64 8.64 0 0 0 0.96-0.384l1.024-0.512 0.992-0.352s166.752-70.272 336.256-141.632c84.864-35.744 170.368-71.744 236.128-99.52 65.76-27.616 114.368-47.872 117.12-48.96 2.624-1.024 1.376-1.024 3.264-1.024z" p-id="14231"></path></svg></a>
             &nbsp;
+            <br/>Power By <span><a href="https://pages.github.com/">Github Page</a></span> & <span><a href="jsdelivr">Jsdelivr CDN</a></span>
+            <br/>Font By <span><a href="https://3type.cn/fonts/dinkie_bitmap/">3type-DinkieBitmap.</a></span>
             </p>
         </footer>
     </div>
-
     
 </body>
 </html>
