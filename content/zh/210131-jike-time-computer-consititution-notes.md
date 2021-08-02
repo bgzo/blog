@@ -1,8 +1,7 @@
 ---
-title: "Jike Time Computer Consititution Notes"
+title: "极客时间--计算机组成原理"
 date: 2021-01-31T15:19:51+08:00
 draft: true
-dropcap: false
 tags:
 - CO
 ---

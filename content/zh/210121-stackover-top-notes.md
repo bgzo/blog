@@ -1,9 +1,7 @@
 ---
-title: "Stackover Cpp Top Questions"
+title: "Stackover C++ 热门问题"
 date: 2021-01-21T14:31:44+08:00
 draft: false
-dropcap: false
-toc: false
 tags:
 - Cpp
 ---

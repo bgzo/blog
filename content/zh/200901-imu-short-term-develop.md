@@ -1,11 +1,11 @@
 ---
-title: "IMU Short Term Develop"
-subtitle: "内大小学期开发--选课管理系统"
+title: "内大小学期开发--选课管理系统"
 date: 2020-09-01T22:21:38+08:00
 draft: false
 tags:
 - Cpp
 ---
+
 
 该怎么去面对自己在一个月的时间里没有好好写好 "学生选课系统" 这一个简单的 `Cpp` 程序, 这篇文章鸽了很久, 我多少希望自己逃避这个对我造成不小阴影的时间段, 我不知道那些跟着联盟导师团伙做项目的同学增长了多少知识, 但我在一个月的时间里缺乏真的效率很低, 多次心态接近低到零点爆炸, 甚至开始怀疑自己是不是真的适合这门学科. 说多了也只是为自己的低能找借口开脱, 我总结以下几个方面, 附带一些槽点, 诚恳总结如下:
 
@@ -19,9 +19,9 @@ tags:
 
 写代码, 后有些想法. 一为作业, 二来是为了记录.
 
-## 功能概述
+##  1. <a name=''></a>功能概述
 
-### 信息存储
+###  1.1. <a name='-1'></a>信息存储
 
 **[效果/方式] :**  在系统开始时候, 进行信息的初始化, 包括学生信息, 老师信息, 班级信息, 课程信息的读入和写入. 而在退出系统的时候进行四个文件的全部写入. 
 
@@ -36,7 +36,7 @@ int SystemInit(){
 }        
 ```
 
-### 登录/注册 功能
+###  1.2. <a name='-1'></a>登录/注册 功能
 
 **[效果] :** 开头先进行注册或者登录, 注册成功后即可登录; 四部分代码全部具有初始密码, 具体为学生初始为"1", 老师为"2".如果是初次登录. 可以使用初始密码或者预设密码进行登录, 而再次登录则预设密码失效.
 
@@ -65,7 +65,7 @@ void Judge(){
 }
 ```
 
-### 初始化学生信息
+###  1.3. <a name='-1'></a>初始化学生信息
 
 **[效果]** : 学生名字初始化为"DFS100","DFS101","DFS102"......; 学号信息对应初始化为"100", "101", "102"等效果.
 
@@ -84,9 +84,9 @@ St::Student(){
 }
 ```
 
-### 学生管理课程
+###  1.4. <a name='-1'></a>学生管理课程
 
-#### 选课
+####  1.4.1. <a name='-1'></a>选课
 
 **[效果]** : 学生选择对应序号的课程.
 
@@ -109,7 +109,7 @@ void ChooseCourse(int a){//进行已有的课程的选择
 
 
 
-#### 退选/更换 课程
+####  1.4.2. <a name='-1'></a>退选/更换 课程
 
 **[效果]** : 学生按序号退掉或者更换自己的课程.
 
@@ -148,9 +148,9 @@ void DeleteCCourse(int a){//根据学生数组打印学生课程; 拿课程去�
 }
 ```
 
-### 老师管理课程
+###  1.5. <a name='-1'></a>老师管理课程
 
-#### 加课
+####  1.5.1. <a name='-1'></a>加课
 
 **[效果]** : 输入加入的课程, 如果已经存在就重新输入, 如果不存在就加入成功.
 
@@ -170,7 +170,7 @@ void SuAddGrade(){//增加班级及选课情况
 }
 ```
 
-#### 删课
+####  1.5.2. <a name='-1'></a>删课
 
 **[效果]** :  输入删除课程的序号, 如果输入合法则删除, 否则重新输入.
 
@@ -197,31 +197,21 @@ void SuDelGrade(){//删除班级
 
 
 
-### 老师管理班级
+###  1.6. <a name='-1'></a>老师管理班级
 
-#### 增加班级
+####  1.6.1. <a name='-1'></a>增加班级
 
 **[效果]** : 输入增加课程的序号, 如果输入合法则增加, 否则重新输入.
 
 **[方式]** : 原数组标记结束位置后移一位, 写入课程, 不合法就继续
 
-```cpp
-
-```
-
-
-
-
-
-#### 删除班级
+####  1.6.2. <a name='-1'></a>删除班级
 
 **[效果]** : 输入删除班级的序号, 如果输入合法则删除, 否则重新输入.
 
 **[方式]** : 
 
-
-
-### 老师查看所有课程下的学生
+###  1.7. <a name='-1'></a>老师查看所有课程下的学生
 
 **[效果]** : 查看所有课程下选择该课程的学生
 
@@ -257,7 +247,7 @@ void SuShowCourseAStudent(){//课程列表以及学生的信息
 
 
 
-### 老师查看所有的学生的选课信息
+###  1.8. <a name='-1'></a>老师查看所有的学生的选课信息
 
 **[效果]** : 查看所有用户的个人资料和选课信息.
 
@@ -282,7 +272,7 @@ void SuShowAllStINfo(){ //展示所有学生的选课信息
 
 
 
-### 老师查询学生信息
+###  1.9. <a name='-1'></a>老师查询学生信息
 
 **[效果]** : 根据学号或者姓名对学生进行查找, 因为学生有查重机制, 所以保证每一个学生的唯一性, 查找到后可以对学生进行学生本人的操作.
 
@@ -314,9 +304,9 @@ void SuSearchManStCourse(){//查询指定学生选课情况
 
 
 
-## 心得体会
+##  2. <a name='-1'></a>心得体会
 
-### 预处理
+###  2.1. <a name='-1'></a>预处理
 
 - **[弊端]** : 受学习算法思维的影响, 在用数组设计代码的时候习惯引入了大量的预处理数组. 但是在后期维护功能时, 发现书写复杂度成倍增长, 在预处理数组在面对新需求整改的时候, 维护量基本上升到了整篇代码的量. 牵一发而动全身, 耦合度大, 维护起来笨重且容易忘记部分功能, 耗时久但效率极低. 所以在数组预处理上应该避重就轻.没有一劳永逸的预处理. 对于常用的预处理更是如此.
   
@@ -344,7 +334,7 @@ int GradeErr[Gradenum+Gradenum];//班级是否被删除
     #define ErrNnum 20 //容错课名长度
     #define PAUSE() system("read -p '-->按任意键结束<--' var")//暂停函数
     ```
-### 功能切离
+###  2.2. <a name='-1'></a>功能切离
 
 虽然在写代码的初期进行了一部分的功能切离, 但是在区分必要打印信息和不必要打印信息上还存在差距.
 
@@ -382,7 +372,7 @@ int GradeErr[Gradenum+Gradenum];//班级是否被删除
 
 
 
-### 数组利用位模式优化时间复杂度
+###  2.3. <a name='-1'></a>数组利用位模式优化时间复杂度
 
 **[方法]** : 在写 [选课, 课程预处理] 以及 [删除课程或者班级] 的时候使用同 [存储数组] 大小的标记数组 来标记课程的被选和删除情况, 如果对应位置的标记不为0 的时候就表示该位置的课程被选或者删除, 利用**数组下标的特殊性**可以进行**对应课程/班级/情况的记录**. 如:
 
@@ -394,7 +384,7 @@ int SuDeleteCourse[Cnum+ErrCnum];//老师要删除的课程序号
 
 
 
-### 类与对象的高效和易维护
+###  2.4. <a name='-1'></a>类与对象的高效和易维护
 
 深刻体会了类与对象书写代码的方式处理了**程序功能的分离和归属**的特点. 尤其在增设了 班级(Grade) 和 课程(Course) 后, **无论是从逻辑上而言, 还是代码书写上, 不需要再考虑担心是否遗漏某部分功能**, 因为所有的功能全部封装在一个大类中, 结合注释的查找可以让书写的逻辑思路更加清晰, 而不是像结构体那样滑动半个屏幕找寻之前的定义而一头雾水的感觉. 以学生类型为例: 
 
@@ -444,13 +434,13 @@ public:
 }St;
 ```
 
-### 链表对动态的适应性
+###  2.5. <a name='-1'></a>链表对动态的适应性
 
 在删除课程, 班级的过程中, 如果使用的是链表的结构, 到最后是真的删除这个节点, 无法找回, 而正是因为链表的纯粹性, 所以在用链表写注册和删除的时候可以非常简便, 思路自然也很清晰. 而反观数组就不一样了, 在空间复杂度上要比链表多一倍的空间, 带来的好处是调用方便, 不必遍历整个链表从头查找,  所以在开头注册登录使用链表, 在后面选课运用数组是一个高明的选择. 
 
 
 
-### 输入检查
+###  2.6. <a name='-1'></a>输入检查
 
 **[效果]** : 对于不符合条件的情况, 重复输入. 
 
@@ -481,11 +471,11 @@ int InputCheck(int DownLimit, int Uplimit){
 
 
 
-## 更多参考
+##  3. <a name='-1'></a>更多参考
 
 之前写程序的时候输错了一个特殊的键位, 导致程序进入死循环, 但是自己还是自己加了自检机制, 所以找来 ASKII 来记录自己的错误.  
 
-### ASKII[^1]
+###  3.1. <a name='ASKIIsup1j1sup'></a>ASKII<sup>[1](#j1)</sup>
 
 控制字符（ Control Character）或者功能码（Function Code）。
 
@@ -572,7 +562,7 @@ int InputCheck(int DownLimit, int Uplimit){
 
 - **DEL (127):** Delete，删除。有人也许会问，为何 ASCII 编码中其它控制字符的值都很小（即 0~31），而 DEL 的值却很大呢（为 127）？这是由于这个特殊的字符是为纸带而定义的。在那个年代，绝大多数的纸带都是用7个孔洞去编码数据的。而 127 这个值所对应的二进制值为111 1111（所有 7 个比特位都是1），将 DEL 用在现存的纸带上时，所有的洞就都被穿孔了，就把已经存在的数据都擦除掉了，就起到了删除的作用。
 
-### VK Table[^2]
+###  3.2. <a name='VKTablesup2j2sup'></a>VK Table<sup>[2](#j2)</sup>
 
 以下摘录 Window 系统 API 中VK_系列的常量的值.
 
@@ -673,7 +663,7 @@ Const VK_OEM_CLEAR = &HFE
 
 
 
-### PAUSE[^3]
+###  3.3. <a name='PAUSEsup3j3sup'></a>PAUSE<sup>[3](#j3)</sup>
 
 1. >  Using `system("pause");` is Ungood Practice™ because
     >
@@ -704,9 +694,9 @@ Const VK_OEM_CLEAR = &HFE
 system("read -p 'Press Enter to continue...' var");
 ```
 
-因为这个暂停操作是涉及到系统读取一个字符的操作, 所以常常和`read`, `echo`等命令有关. 自然实现的方法是多种多样的. 以后可以单独写一篇博客. 哈哈, 其他的功能操作.参考[^4][^5][^6]; Pause函数使用[^7].
+因为这个暂停操作是涉及到系统读取一个字符的操作, 所以常常和`read`, `echo`等命令有关. 自然实现的方法是多种多样的. 以后可以单独写一篇博客. 哈哈, 其他的功能操作.参考<sup>[4](#j4)</sup><sup>[5](#j5)</sup><sup>[6](#j6)</sup>; Pause函数使用<sup>[7](#j7)</sup>.
 
-这里罗列一下看到的 Window 的等效函数,对于Linux 下的C程序一般是通过终端（Terminal）来运行，程序关闭后会留下输出结果，所以不需要暂停功能[^8]:
+这里罗列一下看到的 Window 的等效函数,对于Linux 下的C程序一般是通过终端（Terminal）来运行，程序关闭后会留下输出结果，所以不需要暂停功能<sup>[8](#j8)</sup>:
 
 ```cpp
 #include<conio.h>
@@ -714,14 +704,14 @@ getchar();getchar();
 getch();
 ```
 
-### Define
+###  3.4. <a name='Define'></a>Define
 
 参考:
 
 1. https://www.cnblogs.com/alantu2018/p/8465911.html
 2. https://zhuanlan.zhihu.com/p/93753907
 
-### std::ios_base
+###  3.5. <a name='std::ios_base'></a>std::ios_base
 
 The class `ios_base` is a multipurpose class that serves as the base class for all I/O stream classes. It maintains several kinds of data: 
 
@@ -750,13 +740,13 @@ https://blog.csdn.net/yangbomoto/article/details/80782633?utm_source=blogxgwz4
 ios::bad: http://www.cplusplus.com/reference/ios/ios/bad/
 
 
-### Font
+###  3.6. <a name='Font'></a>Font
 
-可以找到适合自己的字体, 可以参考这个网站[^9]: https://www.programmingfonts.org/#cascadia-code
+可以找到适合自己的字体, 可以参考这个网站<sup>[9](#j9)</sup>: https://www.programmingfonts.org/#cascadia-code
 
 
 
-## Afterwords
+##  4. <a name='Afterwords'></a>Afterwords
 
 最后, 可能是疫情隔离我与世界太久的缘故, 我已经忘记了如何和世界相处.所以造成这一切的后果之后我不能过分消极, 困难的到来不是为了停留, 而是过去, 我始终羡慕那些 逢山开路，遇水架桥 的人, 而这条心路是我不得不修炼的地方, 关于如何和这个世界相处, 如何约法三章......
 
@@ -764,13 +754,12 @@ ios::bad: http://www.cplusplus.com/reference/ios/ios/bad/
 
 后加: 这篇文章的主体部分, 本以为是要提交的代码迭代文档, 但是其实不是, 真正交上去的知识一个Word文件, 里面的示意图我花了有一个晚上, 但坦白的说是屁用没有......我真的越来越恶心于这里的教学方式, 相对比的是我更加羡慕那一直拿Git交作业的学生, 但这应该是未来的工作模式, 不是吗? 更多关于写文档的正确理论基础, 我会在后续学习软件工程导论这门课后释出.
 
-[^1]: C语言中文网.
-[^2]: https://tieba.baidu.com/p/829777521.
-[^3]:https://stackoverflow.com/questions/1107705/systempause-why-is-it-wrong
-[^4]:https://askubuntu.com/questions/108258/what-is-the-bash-equivalent-of-doss-pause-command
-[^5]:https://stackoverflow.com/questions/92802/what-is-the-linux-equivalent-to-dos-pause
-[^6]:https://askubuntu.com/questions/906742/what-is-sh-1-pause-not-found
-[^7]:https://blog.csdn.net/m0_46198325/article/details/104331838
-[^8]:http://c.biancheng.net/cpp/html/3103.html
-[^9]:https://www.zhihu.com/question/20299865
-    
+<div id="j1">1. C语言中文网.</div>
+<div id="j2">2. https://tieba.baidu.com/p/829777521</div>
+<div id="j3">3. https://stackoverflow.com/questions/1107705/systempause-why-is-it-wrong</div>
+<div id="j4">4. https://askubuntu.com/questions/108258/what-is-the-bash-equivalent-of-doss-pause-command</div>
+<div id="j5">5. https://stackoverflow.com/questions/92802/what-is-the-linux-equivalent-to-dos-pause</div>
+<div id="j6">6. https://stackoverflow.com/questions/92802/what-is-the-linux-equivalent-to-dos-pause</div>
+<div id="j7">7. https://blog.csdn.net/m0_46198325/article/details/104331838</div>
+<div id="j8">8. http://c.biancheng.net/cpp/html/3103.html</div>
+<div id="j9">9. https://www.zhihu.com/question/20299865</div>

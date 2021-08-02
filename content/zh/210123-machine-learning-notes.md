@@ -1,8 +1,7 @@
 ---
-title: "Machine Learning--Perceptron"
+title: "机器学习--感知器"
 date: 2021-01-22T19:52:50+08:00
 draft: false
-dropcap: false
 tags:
 - ML
 ---

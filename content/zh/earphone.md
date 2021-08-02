@@ -1,8 +1,7 @@
 ---
-title: "My Earphone"
+title: "我的耳机"
 date: 2021-01-18T16:43:20+08:00
 draft: false
-dropcap: false
 tags:
 - Hardware
 ---
@@ -38,7 +37,7 @@ tags:
    <tr>
       <td>Xiaomi</td>
       <td>Air2</td>
-       <td>[骗钱+试探市场+已出] 音质没什么特点但很通透; 续航极差! 单耳机甚至在使用一年后连三小时都撑不过去, 盒子只能给两只耳机同时充1.5次电. 后期出现连续断连而不维护. 下面是Air2s的介绍页面<sup><a href="#j1">1</a></sup>, Air2已消失<img src="https://dandelionfs.oss-cn-beijing.aliyuncs.com/earphone-xiaomi-air2s.webp" style="margin:0" alt="air2s introduction img"/></td>
+       <td>[试探市场(骗钱)] 音质没什么特点但很通透; 续航极差! 单耳机甚至在使用一年后连三小时都撑不过去, 盒子只能给两只耳机同时充1.5次电. 后期出现连续断连而不维护. 下面是Air2s的介绍页面<sup><a href="#j1">1</a></sup>, Air2已消失<img src="https://dandelionfs.oss-cn-beijing.aliyuncs.com/earphone-xiaomi-air2s.webp" style="margin:0" alt="air2s introduction img"/></td>
    </tr>
    <tr>
       <td>水月雨</td>
@@ -51,13 +50,7 @@ tags:
         <td>......</td>
 </table>
 
-<!--more-->
-
-
-
-## Notes 笔记
-
-### Category 分类
+## Category 分类
 
 - **佩戴**
   
@@ -243,6 +236,9 @@ tags:
 
 ![](https://z3.ax1x.com/2021/06/28/RNt0kn.png)
 
-<div id="j1">[1]. https://www.mi.com/buy/detail?product_id=11821</div>
 
+
+
+
+<div id="j1">[1]. https://www.mi.com/buy/detail?product_id=11821</div>
 <div id="j2">[2]. https://zhuanlan.zhihu.com/p/61208255</div>

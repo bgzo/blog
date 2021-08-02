@@ -15,7 +15,8 @@ pygmentsUseClasses = true
 
 [params]
     author = "bGZoCg"
-    avatar = "https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg"
+    avatar = "https://dandelionfs.oss-cn-beijing.aliyuncs.com/author-heart.webp"
+    # "https://dandelionfs.oss-cn-beijing.aliyuncs.com/bgzocg_avator.jpg"
     description = ""
     tagline = "🏫 IMU / 💻 HP & WSL2 / 📱 OneUI / 🎧 AKG & Sony / 🛠️ VSCode & Jetbrain / 📝 Hugo / 🎮 Steam / 🚫 Politics / ❤️ Diversity is essential to happiness. "
 
