@@ -6,10 +6,19 @@
     <description>Recent content in Tags on @bGZoCg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh_CN</language>
-    <lastBuildDate>Thu, 10 Jun 2021 16:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Aug 2021 22:43:00 +0800</lastBuildDate>
     
 	<atom:link href="https://bgzocg.me/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tools</title>
+      <link>https://bgzocg.me/zh/tags/tools/</link>
+      <pubDate>Sun, 08 Aug 2021 22:43:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/zh/tags/tools/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Math</title>
@@ -62,15 +71,6 @@
       <pubDate>Tue, 19 Jan 2021 18:11:54 +0800</pubDate>
       
       <guid>https://bgzocg.me/zh/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://bgzocg.me/zh/tags/hardware/</link>
-      <pubDate>Mon, 18 Jan 2021 16:43:20 +0800</pubDate>
-      
-      <guid>https://bgzocg.me/zh/tags/hardware/</guid>
       <description></description>
     </item>
     

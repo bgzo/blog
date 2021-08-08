@@ -6,10 +6,22 @@
     <description>Recent content on @bGZoCg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Jun 2021 16:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Aug 2021 22:43:00 +0800</lastBuildDate>
     
 	<atom:link href="https://bgzocg.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BUILD A CHM FILE</title>
+      <link>https://bgzocg.me/210808-build-a-chm-file/</link>
+      <pubDate>Sun, 08 Aug 2021 22:43:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/210808-build-a-chm-file/</guid>
+      <description>CHM? Yeah have a long history&amp;hellip;
+ In 2002, Microsoft announced some security risks associated with the .CHM format, as well as some security bulletins and patches. They have since announced their intentions not to develop the .CHM format further, and will be moving to a new generation of Windows Help called Microsoft Assistance Markup Language in the Windows Vista operating system.
+&amp;ndash;Wikipedia
+ I try to use command under ubuntu build chm file about python, without GUI software help, which sounds cool.</description>
+    </item>
     
     <item>
       <title>Probablity Theory</title>
@@ -38,16 +50,6 @@
       <guid>https://bgzocg.me/database/</guid>
       <description>Finally, review the knowledge of closure, minimum dependency set, paradigm optimization and pass the exam, looking the video of Bilibili following:
  Peoples  1973: Charles W.Bachman (1924-2017) Mesh database technology 1981: Edgar F.Codd (1923-2003) database system, especially relational database 1998: Jim Gray (1944-2007.1.28?) Database and transaction processing 2014: Michael Stonebraker (1943-) The concept and practice of the underlying modern database system  DBs  Foreign  Large：  Oracle IBM DB2 Microsoft SQL Server Sybase   Small  ACCESS   Open Source  PostgresSQL MYSQL berkeley db(BDB)     China  Huazhong University of Science and Technology: DM Renmin University of China: kingbase  In 2018, the second prize of National Science and Technology Progress Award   Neusoft: OpenBASE Alibaba: OceanBase    Book    Publication abbreviation Full publication name Publisher Website     TODS ACM Transactions on Database Systems ACM http://www.</description>
-    </item>
-    
-    <item>
-      <title>My EarPhone</title>
-      <link>https://bgzocg.me/earphone/</link>
-      <pubDate>Mon, 18 Jan 2021 16:43:20 +0800</pubDate>
-      
-      <guid>https://bgzocg.me/earphone/</guid>
-      <description>Then I used following:
-  Brand Type Feeling   Apple EarPods  The headphones are very conscience, the sound is very positive, the only shortcoming is that the line is easy to yellow   Edifier H295P  Remember not much, similar to Apple, there are more featured features.   Philips SHP9500 ......   Vido MX500 To put it bluntly, it is the sound of hammering iron, but the three paragraphs have whatever they want.</description>
     </item>
     
     <item>

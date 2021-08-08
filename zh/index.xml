@@ -6,10 +6,27 @@
     <description>Recent content on @bGZoCg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh_CN</language>
-    <lastBuildDate>Thu, 10 Jun 2021 16:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Aug 2021 22:43:00 +0800</lastBuildDate>
     
 	<atom:link href="https://bgzocg.me/zh/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>构建一个CHM文件</title>
+      <link>https://bgzocg.me/zh/210808-build-a-chm-file/</link>
+      <pubDate>Sun, 08 Aug 2021 22:43:00 +0800</pubDate>
+      
+      <guid>https://bgzocg.me/zh/210808-build-a-chm-file/</guid>
+      <description>建一个CHM？是的，说来话长&amp;hellip;
+ 2002 年，Microsoft 公布了一些与 .CHM 格式相关的安全风险，以及一些安全公告和补丁。此后，他们宣布不打算进一步开发 .CHM 格式，并将转向 Windows Vista 操作系统中称为 Microsoft 协助标记语言的新一代 Windows 帮助。
+&amp;ndash;维基百科
+ 我尝试在没有 GUI 软件帮助下使用 ubuntu 下的命令构建关于 python 的chm文件，听起来很酷。但是在微软和开源期间发生了一些事情，这使得解决方案变得陈旧而复杂，但幸运的是它并不困难。
+然后我在 StackoverFlow 中找到了方法，我发现他们似乎对这个支持跨平台并且对手机设备友好（文件管理和照片&amp;hellip;）的文件不感兴趣。我发现了寻找不存在命令很友好的 网站。 它提示我需要安装fpc, 其中有我们需要的chmcmd，但是内存需要占用675MB，，，我犹豫了，所以放弃了，啊哈哈&amp;hellip;..
+让我们回到 Windows 中去构建, 由strnghrs 制作的 HugeCHM, 大小居然控制在140kb 内！难以置信，他在博客中给了两个分享链接，比如 share1-4hie 和 share2。希望这能帮到你。但这也不是开源的。所以你只能从上面两个链接进入。没心情继续做下去&amp;hellip; 而且软件在构建内容和语言方面也显示了一些 BUG，例如没有目录，索引，书签并且无法搜索任何东西&amp;hellip;就像它的标题写的那样，它只适合需要的大文件的打包。
+我也看到了微软中的文档。但是好像什么都没说，就跟胡说八道一样……
+EasyCHM 是付费软件，家用许可协议 $259 商用许可协议$359, 好TM贵, 好在中文互联网上有破解版&amp;hellip;.
+也许用PDF代替chm会是更好的选择？而 chmlib 会在分离CHM文档上帮助你很多。</description>
+    </item>
     
     <item>
       <title>概率论</title>
@@ -90,16 +107,6 @@
 ~~多说一句: 在用完 Win10 后有感, 在没有深入了解意见科技产品前, 永远不要过分相信他带来的便利, 你的电脑, 在你真正摸清楚他的操作原理和操作逻辑之前, 不要过分依赖他, 在他面前, 你可能就是赤裸的, 而我所真正担心的是我没有足够的时间和精力去见证世间的一切, 害怕的是自己不能静下心来慢慢的学习起来, 对那些Fast Learner肃然起敬, 但同时我始终都不了解真正的自己, 永远在以伤害自己的方式来逼迫自己努力, 而不是全身心的投入到自己的学习生涯中, 这又是多么的可悲……~~
 INSTALL UBUNTU 下载官方的镜像 (国内有大量的开源镜像网站) , 然后用 Ultralso 烧录到一个8G (4G) 大小的U盘. 重启电脑到 BIOS 中将 BOOT 里的 BOOT Security 关掉 (HP: F10), 重启进入系统UEFI的U盘启动的模式 (HP: F11), 之后进入U盘的 Ubuntu里面体验一下.准备安装.
 不要直接安装. 需要换源, 去找系统的安装源list文件, 在/etc/apt/sources.list里, 用管理员的权限修改下载源地址 (提前查到自己对应版本的源地址) .</description>
-    </item>
-    
-    <item>
-      <title>我的耳机</title>
-      <link>https://bgzocg.me/zh/earphone/</link>
-      <pubDate>Mon, 18 Jan 2021 16:43:20 +0800</pubDate>
-      
-      <guid>https://bgzocg.me/zh/earphone/</guid>
-      <description>说说耳机的 坑点, 信息获取 及 主观感受. 先看看我用过的耳机:
-  牌子 型号 感受   Apple EarPods [漏电已坏] 耳机蛮良心, 声音什么的都很正, 唯一缺点是线很容易黄   Edifier H295P [丢失] 记得不多了, 和苹果的相似, 多了一些入耳式的封闭的特点   Philips SHP9500 ......   Vido MX500 直白的说就是敲铁皮的声音, 但是三段要啥有啥, 9.9包邮我赚了?   Xiaomi Air2 [试探市场(骗钱)] 音质没什么特点但很通透; 续航极差! 单耳机甚至在使用一年后连三小时都撑不过去, 盒子只能给两只耳机同时充1.5次电. 后期出现连续断连而不维护. 下面是Air2s的介绍页面1, Air2已消失   水月雨 SSR(官网无该页面...) [换线已丢] 重人声, 中低音不明显, 声场略窄./   sony WH-CH700N ......  Category 分类   佩戴</description>
     </item>
     
     <item>

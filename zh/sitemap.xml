@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://bgzocg.me/zh/</loc>
-    <lastmod>2021-06-10T16:00:00+08:00</lastmod>
+    <lastmod>2021-08-08T22:43:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +14,51 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://bgzocg.me/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bgzocg.me/zh/tags/</loc>
+    <lastmod>2021-08-08T22:43:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bgzocg.me/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://bgzocg.me/zh/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bgzocg.me/zh/tags/tools/</loc>
+    <lastmod>2021-08-08T22:43:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bgzocg.me/tags/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://bgzocg.me/zh/tags/tools/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bgzocg.me/zh/210808-build-a-chm-file/</loc>
+    <lastmod>2021-08-08T22:43:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bgzocg.me/210808-build-a-chm-file/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://bgzocg.me/zh/210808-build-a-chm-file/"
                 />
   </url>
   
@@ -29,21 +74,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://bgzocg.me/zh/tags/math/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://bgzocg.me/zh/tags/</loc>
-    <lastmod>2021-06-10T16:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bgzocg.me/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://bgzocg.me/zh/tags/"
                 />
   </url>
   
@@ -150,36 +180,6 @@
   <url>
     <loc>https://bgzocg.me/zh/ubuntu/</loc>
     <lastmod>2021-01-19T18:11:54+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bgzocg.me/zh/tags/hardware/</loc>
-    <lastmod>2021-01-18T16:43:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bgzocg.me/tags/hardware/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://bgzocg.me/zh/tags/hardware/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://bgzocg.me/zh/earphone/</loc>
-    <lastmod>2021-01-18T16:43:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bgzocg.me/earphone/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://bgzocg.me/zh/earphone/"
-                />
   </url>
   
   <url>
