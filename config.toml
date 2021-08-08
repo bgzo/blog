@@ -1,5 +1,5 @@
 baseURL = "https://bgzocg.me/"
-disqusShortname = 'dandelionfs'
+# disqusShortname = 'dandelionfs'
 # googleAnalytics = "UA-XXXXXXXXX-X"
 title = "@bGZoCg"
 #theme = "hugo-tailwind-journal"
