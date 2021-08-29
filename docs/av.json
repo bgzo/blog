@@ -1,5 +1,5 @@
 [{
-    "readme": "To begin with, confirm you've over 18 years old , otherwise get close this message quickly, it'll destory your life, please!!! This json is just for fun. Please treat it inclusively. While u have better collections like mine, Welcomme to contact me. ❤_❤",
+    "readme": "To begin with, confirm you've over 18 years old , otherwise get this message closed quickly, it'll destory your life, please!!! This json is just for fun. Please treat it inclusively. While u have better collections like mine, Welcomme to contact me. ❤_❤",
     "author": "bGZoCg",
     "update": "210829",
     "websRecommand":[
@@ -43,7 +43,7 @@
             ]
         },
         {   "series": "SSNI",
-            "selfComment":"S1 No. 1 Style",
+            "selfComment":"S1 No. 1 Style, 质量普高",
             "collections":[
                 {"value":"071", "actress":"水トさくら/水卜櫻"},
                 {"value":"456"},
@@ -54,13 +54,14 @@
             ]
         },
         {   "series": "ABP",
-            "selfComment":"PRESTIGE, 蚊香社",
+            "selfComment":"PRESTIGE, [前]蚊香社",
             "collections":[
                 {"value":"228", "actress":"多人魔法", "selfComment":"", "selfKey":"0009"},
                 {"value":"984", "actress":"凉森玲梦", "selfComment":"消精官", "selfKey":"0005"},
                 {"value":"995", "actress":"凉森玲梦", "selfComment":"会所", "selfKey":"0001"}
             ]
         },
+        {   "series":"ABW", "selfComment":"PRESTIGE, 蚊香社"},
         {   "series": "MIDE",
             "selfComment":"MOODYZ",
             "collections":[
@@ -71,12 +72,14 @@
             ]
         },
         {   "series": "JUY",
+            "selfComment":"Madonna熟女, 人妻",
             "collections":[
                 {"value":"714", "actress":"我妻里帆", "selfComment":"人妻约炮", "selfKey":"0004"},
                 {"value":"774", "actress":"我妻里帆", "selfComment":"激情约炮", "selfKey":"0025"}
             ]
         },
         {   "series": "SHKD",
+            "selfComment":"[危] 强制",
             "collections":[
                 {"value":"546", "actress":"石原莉奈", "selfComment":"激情NTR", "selfKey":"0026"},
                 {"value":"875", "actress":"夏目彩春", "selfComment":"女友姐姐", "selfKey":"0016"}
@@ -146,7 +149,9 @@
                 {"selfKey":"0017", "selfComment": "动画级身材"}
             ],
             "toDo":[
-                {"gui":"SIRO-4415"}
+                {"gui":"SIRO-4415"},
+                {"gui":"BBAN"},
+                {"gui":"KAWD"}
             ]
         }
     ]
