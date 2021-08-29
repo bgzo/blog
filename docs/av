@@ -1,103 +1,153 @@
--------------------------------README---------------------------------
-// updata: 2021-05-03
-// author: bGZoCg
------------------------------Person-----------------------------------
-- 我妻里帆                  拍四部就退役, 2333
-- 相沢みなみ/相泽南         160901加入IdeaPocket
-- 涼森れむ/凉森玲梦         190419加入PRESTIGE
-- 夢乃あいか/梦乃爱华       130301加入S1 No. 1 Style
-- 三上悠亜/三上悠亚         161119加入S1 No. 1 Style
-- 希島 あいり/希岛爱理      130511加入IdeaPocket
-- 夏目彩春
-- 纱仓真菜
-- 希岛爱里
-- 樱由罗
-- 深田永美
-- 伊東ちなみ
-- 桃乃木かな 松嶋真麻
-- 小野六花
-- 石原莉奈
-------------------------------Works--------------------------------
-- IPX: IdeaPocket.
-118         相泽南               女仆侵犯              0019
-177         相泽南               妹妹绝对领域           0018
-216         桃乃木かな           女仆侵犯               0020
-273         相泽南               研学                   0008
-337
-338
-372         相泽南               发泄欲望[第一人称]     0021
-375
-398
-416         桃乃木かな          相部屋NTR               0014
-442         岬ななみ            NTR                    0012
-539         岬ななみ            外出偷情                0022[died]
-557         相泽南              和邻居搓澡              0023
+[{
+    "readme": "To begin with, confirm you've over 18 years old , otherwise get close this message quickly, it'll destory your life, please!!! This json is just for fun. Please treat it inclusively. While u have better collections like mine, Welcomme to contact me. ❤_❤",
+    "author": "bGZoCg",
+    "update": "210829",
+    "websRecommand":[
+        {"domain":"javdb.com", "selfCommmet":"just for magnet"},
+        {"domain":"javlibrary.com", "selfComment":"full version arts collections, like douban"}
+    ],
+    "favActress":[
+        {"name":"相沢みなみ", "zh-CN":"相泽南", "selfComment": "160901加入IdeaPocket"},
+        {"name":"涼森れむ", "zh-CN":"凉森玲梦", "selfComment":"190419加入PRESTIGE"},
+        {"name":"希島 あいり", "zh-CN":"希岛爱理", "selfComment":""},
+        {"name":"夢乃あいか", "zh-CN":"梦乃爱华", "selfComment":"130301加入S1 No. 1 Style"},
+        {"name":"みかみ ゆあ", "zh-CN":"三上悠亜", "selfComment":"161119加入S1 No. 1 Style"},
+        {"name":"桃乃木かな", "zh-CN":"桃乃木香奈", "selfComment":""},
+        {"name":"", "zh-CN":"夏目彩春", "selfComment":""},
+        {"name":"", "zh-CN":"纱仓真菜", "selfComment":""},
+        {"name":"", "zh-CN":"希岛爱里", "selfComment":""},
+        {"name":"", "zh-CN":"樱由罗", "selfComment":""},
+        {"name":"", "zh-CN":"松嶋真麻", "selfComment":""},
+        {"name":"", "zh-CN":"小野六花", "selfComment":""},
+        {"name":"", "zh-CN":"石原莉奈", "selfComment":""},
+        {"name":"あがつまa", "zh-CN": "我妻里帆", "selfComment": "拍四部就退役, 淦!"},
+        {"name":"", "zh-CN":"深田永美", "selfComment":"don't like but really beautiful...f*ck"}
+    ],
+    "favArts":[
+        {   "series": "IPX",
+            "selfComment":"IdeaPocket, 美少女梦工厂",
+            "collections":[
+                {"value":"118", "actress":"相泽南", "selfComment":"女仆侵犯", "selfKey":"0019"},
+                {"value":"177", "actress":"相泽南", "selfComment":"妹妹绝对领域", "selfKey":"0018"},
+                {"value":"216", "actress":"桃乃木かな", "selfComment":"女仆侵犯", "selfKey":"0020"},
+                {"value":"273", "actress":"相泽南", "selfComment":"研学", "selfKey":"0008"},
+                {"value":"337"},
+                {"value":"338"},
+                {"value":"372", "actress":"相泽南", "selfComment":"发泄欲望[第一人称]", "selfKey":"0021"},
+                {"value":"375"},
+                {"value":"398"},
+                {"value":"416", "actress":"桃乃木かな", "selfComment":"相部屋NTR", "selfKey":"0014"},
+                {"value":"442", "actress":"岬ななみ", "selfComment":"NTR", "selfKey":"0012"},
+                {"value":"539", "actress":"岬ななみ", "selfComment":"外出偷情", "selfKey":"0022[died]"},
+                {"value":"557", "actress":"相泽南", "selfComment":"和邻居搓澡", "selfKey":"0023"}
+            ]
+        },
+        {   "series": "SSNI",
+            "selfComment":"S1 No. 1 Style",
+            "collections":[
+                {"value":"071", "actress":"水トさくら/水卜櫻"},
+                {"value":"456"},
+                {"value":"516"},
+                {"value":"529"},
+                {"value":"546"},
+                {"value":"989", "actress":"三上悠亜", "selfComment":"相部屋NTR", "selfKey":"0028"}
+            ]
+        },
+        {   "series": "ABP",
+            "selfComment":"PRESTIGE, 蚊香社",
+            "collections":[
+                {"value":"228", "actress":"多人魔法", "selfComment":"", "selfKey":"0009"},
+                {"value":"984", "actress":"凉森玲梦", "selfComment":"消精官", "selfKey":"0005"},
+                {"value":"995", "actress":"凉森玲梦", "selfComment":"会所", "selfKey":"0001"}
+            ]
+        },
+        {   "series": "MIDE",
+            "selfComment":"MOODYZ",
+            "collections":[
+                {"value":"531"},
+                {"value":"586", "actress":"水トさくら/水卜櫻"},
+                {"value":"748"},
+                {"value":"882", "actress":"小野六花", "selfComment":"外出约炮", "selfKey":"0024"}
+            ]
+        },
+        {   "series": "JUY",
+            "collections":[
+                {"value":"714", "actress":"我妻里帆", "selfComment":"人妻约炮", "selfKey":"0004"},
+                {"value":"774", "actress":"我妻里帆", "selfComment":"激情约炮", "selfKey":"0025"}
+            ]
+        },
+        {   "series": "SHKD",
+            "collections":[
+                {"value":"546", "actress":"石原莉奈", "selfComment":"激情NTR", "selfKey":"0026"},
+                {"value":"875", "actress":"夏目彩春", "selfComment":"女友姐姐", "selfKey":"0016"}
+            ]
+        },
+        {   "series": "ATID",
+            "selfComment":"Attackers, IdeaPocket 前公司",
+            "collections":[
+                {"value":"384", "actress":"深田永美"}
+            ]
 
-- IPZ: IdeaPocket.
+        },
+        {   "series": "MAS",
+            "collections":[
+                {"value":"101", "actress":"柏木美玲", "selfComment":"", "selfKey":"0010"}
+            ]
+        },
+        {   "series": "MEYD",
+            "collections":[
+                {"value":"544", "actress":"希岛爱里", "selfComment":"和别人老婆搓澡", "selfKey":"0015"}
+            ]
+        },
+        {   "series": "KAWD",
+            "selfComment":"カワイイ",
+            "collections":[
+                {"value":"743", "actress":"樱由罗", "selfComment":"援交", "selfKey":"0027"}
+            ]
+        },
+        {   "series": "S-Cute",
+            "selfComment":"配信方式在网站播放，供会员付费观赏",
+            "collections":[
+                {"value":"438", "actress":"铃原エミリ"},
+                {"value":"439", "actress":"あおいれな"}
+            ]
+        },
+        {   "series": "DVAJ",
+            "selfComment":"Alice Japan",
+            "collections":[
+                {"value":"245", "actress":"すみれ美香"}
+            ]
+        },
+        {   "series": "FC2-PPV",
+            "selfComment":"FC2, 视频托管网站",
+            "collections":[
+                {"value":"926114"},
+                {"value":"1566130"},
+                {"value":"1114944-1"}
+            ]
+        },
+        {   "series": "IDBD",
+            "collections":[
+                {"value":"828"}
+            ]
+        },
+        {   "series": "AND",
+            "selfComment":"Attackers",
+            "collections":[
+                {"value":"265"}
 
-- SSNI: S1 No. 1 Style.
-071         水トさくら/水卜櫻
-456
-516
-529
-546
-989         三上悠亜            相部屋NTR               0028
-
-- ABP: PRESTIGE, 蚊香社.
-984         凉森玲梦            消精官                  0005
-995         凉森玲梦            会所                    0001
-228                            多人魔法                 0009
-
-- MIDE: MOODYZ.
-531
-586         水トさくら/水卜櫻
-748
-882         小野六花            外出约炮                0024
-
-- S-Cute: 配信方式在网站播放，供会员付费观赏
-438         铃原エミリ
-439         あおいれな
-
-- DVAJ: Alice Japan.
-245         すみれ美香   
-
-- FC2-PPV: FC2, 视频托管网站.
-926114  
-1114944-1
-1566130
-
-- IDBD
-828
-
-- ATID: Attackers, IdeaPocket 前公司. 
-384    深田永美
-
-- KAWD: カワイイ
-743         樱由罗               援交                 0027
-
-- JUY
-714         我妻里帆             人妻约炮              0004
-774         我妻里帆             激情约炮              0025
-
-- MEYD
-544         希岛爱里             和别人老婆搓澡        0015
-
-- AND: Attackers.
-265
-
-- MAS
-101          柏木美玲                                 0010
-
-- SHKD
-546         石原莉奈              激情NTR           0026
-875         夏目彩春              女友姐姐          0016
-
-
-------------------------------To-Do--------------------------------
-SIRO-4415
-
-------------------------------Other--------------------------------
-0007    AV                      现身说法女调教
-0011    动画鹿島
-0013    铜                      国产魔法
-0017                            动画级身材
+            ]
+        },
+        {   "series": "selfuUsing",
+            "collections":[
+                {"selfKey":"0007", "selfComment": "现身说法女调教"},
+                {"selfKey":"0011", "selfComment": "动画鹿島"},
+                {"selfKey":"0013", "selfComment": "国产高中搓澡"},
+                {"selfKey":"0017", "selfComment": "动画级身材"}
+            ],
+            "toDo":[
+                {"gui":"SIRO-4415"}
+            ]
+        }
+    ]
+}]
