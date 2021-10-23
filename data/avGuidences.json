@@ -7,8 +7,8 @@
         {"domain":"javlibrary.com", "selfComment":"full version arts collections, like douban"}
     ],
     "favActress":[
-        {"name":"相沢みなみ", "zh-CN":"相泽南", "selfComment": "160901加入IdeaPocket"},
-        {"name":"涼森れむ", "zh-CN":"凉森玲梦", "selfComment":"190419加入PRESTIGE"},
+        {"name":"相沢みなみ", "zh-CN":"相泽南", "selfComment": "个人No.1, 160901加入IdeaPocket"},
+        {"name":"涼森れむ", "zh-CN":"凉森玲梦", "selfComment":"个人No.2, 190419加入PRESTIGE, "},
         {"name":"希島 あいり", "zh-CN":"希岛爱理", "selfComment":""},
         {"name":"夢乃あいか", "zh-CN":"梦乃爱华", "selfComment":"130301加入S1 No. 1 Style"},
         {"name":"みかみ ゆあ", "zh-CN":"三上悠亜", "selfComment":"161119加入S1 No. 1 Style"},
@@ -39,7 +39,10 @@
                 {"value":"416", "actress":"桃乃木かな", "selfComment":"相部屋NTR", "selfKey":"0014"},
                 {"value":"442", "actress":"岬ななみ", "selfComment":"NTR", "selfKey":"0012"},
                 {"value":"539", "actress":"岬ななみ", "selfComment":"外出偷情", "selfKey":"0022[died]"},
-                {"value":"557", "actress":"相泽南", "selfComment":"和邻居搓澡", "selfKey":"0023"}
+                {"value":"543", "actress":"相泽南", "selfComment":"精油技师太色了", "selfKey":"0003"},
+                {"value":"557", "actress":"相泽南", "selfComment":"和邻居搓澡", "selfKey":"0023"},
+                {"value":"580", "actress":"楓カレン", "selfComment":"禁欲后的发泄, 表演得很色", "selfKey":"0006"}
+
             ]
         },
         {   "series": "SSNI",
@@ -65,6 +68,7 @@
         {   "series": "MIDE",
             "selfComment":"MOODYZ",
             "collections":[
+                {"value":"531","actress":"凉森玲梦", "selfComment":"一点点女优生活中的样子?男主是清水健", "selfKey":"0002"},
                 {"value":"531"},
                 {"value":"586", "actress":"水トさくら/水卜櫻"},
                 {"value":"748"},
@@ -152,6 +156,10 @@
                 {"gui":"SIRO-4415"},
                 {"gui":"BBAN"},
                 {"gui":"KAWD"}
+            ],
+            "selfComment": [
+                {"xp": "你说自个慰都能总结出自己的癖好来, 真的是天下又一怪事, 可能年纪正值年轻, 血气旺盛, 频率超出一点似乎完全对身体没有特别的影响, 想想后来晚年的生活多少有点寂寞, 在这个即便是色情也充斥着讨好的社会, 我曾经被这些扭曲了的价值观所洗脑, 因为追求刺激而突破个体认知层面的拘束, 以达到新一层级的刺激, 多少让人一下接受不了的同时, 又想多看几眼. 曾看过一句话: > Everything in the world is about sex, except sex, sex is about power. 如果我真的要关注性本身的话, 是不是真的要退回到一个人的世界, 即那些一个人 Show 的视频也许才是真的有关于 '纯粹' 性的交合, 也许这正是我真正的诉求? 好吧, 这是我又发现的一个奇怪的合理化了的性癖."},
+                {"xp": "有时候我不知道怎么看待这个行业, 让自己的身体变得敏感, 我也不禁或多或少关心起来他们的身体, 他们真的好吗? 女优们也有除了女优还想要做的事情吧? 我有点担心过度了吗? 他们是我喜欢的一些演员啊. 哎, 操蛋的生活."}
             ]
         }
     ]
