@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Home
 ---
 
@@ -15,4 +16,4 @@ title: Home
   {% endfor %}
 </ul>
 
-[See all posts](/post)
+[See all posts](/posts)
