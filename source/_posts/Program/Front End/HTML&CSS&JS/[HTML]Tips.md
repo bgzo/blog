@@ -20,7 +20,7 @@ tag:
 ```
 + 跳转邮箱
 ```html
-<a href="mailto:lfh010618@gmail.com">lfh010618@gmail.com</a>
+<a href="mailto:@gmail.com">@gmail.com</a>
 ```
 + 生成网页的下载链接：
 
