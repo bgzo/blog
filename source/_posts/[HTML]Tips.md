@@ -23,7 +23,7 @@ date: 2020-02-02 10:28
 ### 跳转邮箱0
 
 ```html
-<a href="mailto:lfh010618@gmail.com">lfh010618@gmail.com</a>
+<a href="mailto:@gmail.com">@gmail.com</a>
 ```
 
 </br>

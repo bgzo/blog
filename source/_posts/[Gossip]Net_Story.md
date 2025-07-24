@@ -148,7 +148,7 @@ date: 2020-04-14 03:03:00
 
 > 如今大数据的算法是不是有点弄巧成拙呢？
 
-欢迎交流您的看法，我的邮箱：<a href="mailto:lfh010618@gmail.com">lfh010618@gamil.com</a>
+欢迎交流您的看法，我的邮箱：<a href="mailto:@gmail.com">@gamil.com</a>
 
 </br>
 
