@@ -14,7 +14,7 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 SEOTitle: DandelionFs'Wiki
-email: lfh010618@gmail.com
+email: @gmail.com
 description: "DandelionFs‘ wiki"
 keyword: "DandelionFs" 
 search:
