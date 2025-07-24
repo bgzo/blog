@@ -41,16 +41,4 @@ date: 2020-02-03 13:58:45
 
 </br>
 
-**Gmail**：@lfh010618
-
-**Github**：@dandelionflowers
-
-**POPi匿名**：www.popiask.cn/MCT8Zq
-
-**ZhiHu**：@people/dandelionfs
-
-**Twitter：**@lfh010618
-
-</br>
-
 </br>
