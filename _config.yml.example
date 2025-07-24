@@ -16,7 +16,7 @@ customize:
     profile:
         enabled: false # Whether to show profile bar
         avatar: # css/images/avatar.png
-        gravatar: lfh010618@gmail.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        gravatar: @gmail.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: DandelionFs
         author_title: Designer & Programmer
         location: Huhhot, China
