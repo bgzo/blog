@@ -50,7 +50,7 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name bgzo
-            git config user.email bgzo@outlook.com
+            git config user.email im@bgzo.cc
             git add .
             git commit -m "Sync article"
             git push
