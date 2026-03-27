@@ -9,10 +9,14 @@
       <article>
         <h2>{{ page.title }}</h2>
         {% include post-meta.html %}
-        <div class="contents">
-          {% include toc.html html=content %}
-        </div>
-        {{ content }}
+        {% capture toc_output %}
+        {% include toc.html html=content %}
+        {% endcapture %} 
+        {% assign toc_stripped = toc_output | strip %} 
+        {% if toc_stripped != "" %}
+          <div class="contents">{{ toc_output }}</div>
+        {% endif %} 
+        {{ content }} 
         {% include source.html %}
       </article>
     </main>
