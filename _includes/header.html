@@ -1,17 +1,35 @@
 <header>
-<!--  <img class="avator" src="https://unpkg.com/bgzo/img/bGZo.png"/>-->
+  <!--  <img class="avator" src="https://unpkg.com/bgzo/img/bGZo.png"/>-->
   <h1>
     <span class="home-title">bGZo</span>
     <span class="post-suffix">'s blog</span>
   </h1>
   <div class="follow-btns">
-    <a class="btn btn-threads" href="https://cast.bgzo.cc" rel="noopener noreferrer">Micro</a>
-    <a class="btn btn-notes" href="https://notes.bgzo.cc/weekly/" rel="noopener noreferrer">Notes/Weekly</a>
+    <a class="btn btn-rss" href="/feed.xml">RSS</a>
+    <a
+      class="btn btn-github"
+      href="https://t.me/imbgzo"
+      rel="noopener noreferrer"
+      >Telegram</a
+    >
+    <a
+      class="btn btn-github"
+      href="https://github.com/bgzo"
+      rel="noopener noreferrer"
+      >GitHub</a
+    >
   </div>
 </header>
-
+<nav>
+  <ul>
+    <li><a href="/">HOME</a></li>
+    <li><a href="/labs">LABS</a></li>
+    <li><a href="/thoughts">THOUGHTS</a></li>
+    <li><a href="/README.html">README</a></li>
+  </ul>
+</nav>
 <script>
-document.querySelector('.home-title').addEventListener('click', function() {
-  window.location.href = '/';
-});
+  document.querySelector(".home-title").addEventListener("click", function () {
+    window.location.href = "/";
+  });
 </script>
