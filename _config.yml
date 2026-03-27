@@ -32,6 +32,7 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   hard_wrap: true
+  input: GFM
 # More via: https://github.com/kramdown/parser-gfm
 
 #### Deprecated via: https://github.com/jekyll/jekyll/issues/7838
