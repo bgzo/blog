@@ -22,7 +22,7 @@ title: bGZo's blog
 description: >- # this means to ignore newlines until "baseurl:"
   Small is beautiful, less is more.
 author: bGZo
-github_username:  bGZo
+github_username: bGZo
 url: "https://blog.bgzo.cc"
 baseurl: ""
 permalink: /:title.html
@@ -31,7 +31,7 @@ highlighter: rouge
 
 markdown: kramdown
 kramdown:
-    hard_wrap: true
+  hard_wrap: true
 # More via: https://github.com/kramdown/parser-gfm
 
 #### Deprecated via: https://github.com/jekyll/jekyll/issues/7838
@@ -45,6 +45,22 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+collections:
+  posts:
+    output: false
+  articles:
+    collections_dir: ""
+    source: _posts
+    output: true
+    permalink: /:title.html
+
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -69,4 +85,3 @@ exclude:
   - utils/
   - package-lock.json
   - package.json
-  - README.md
