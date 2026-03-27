@@ -1,0 +1,40 @@
+<!-- Add linkify script to enhance URLs in the content -->
+<script>
+  (function () {
+    var URL_RE = /https?:\/\/[^\s<>"')\]]+/g;
+    function linkify(node) {
+      if (node.nodeType === 3) {
+        var text = node.nodeValue;
+        if (!URL_RE.test(text)) return;
+        URL_RE.lastIndex = 0;
+        var frag = document.createDocumentFragment();
+        var last = 0,
+          m;
+        while ((m = URL_RE.exec(text)) !== null) {
+          if (m.index > last)
+            frag.appendChild(
+              document.createTextNode(text.slice(last, m.index)),
+            );
+          var a = document.createElement("a");
+          a.href = m[0];
+          a.textContent = m[0];
+          a.rel = "noopener noreferrer";
+          frag.appendChild(a);
+          last = m.index + m[0].length;
+        }
+        if (last < text.length)
+          frag.appendChild(document.createTextNode(text.slice(last)));
+        node.parentNode.replaceChild(frag, node);
+      } else if (
+        node.nodeType === 1 &&
+        node.nodeName !== "A" &&
+        node.nodeName !== "CODE" &&
+        node.nodeName !== "PRE"
+      ) {
+        Array.from(node.childNodes).forEach(linkify);
+      }
+    }
+    var article = document.querySelector("article");
+    if (article) linkify(article);
+  })();
+</script>
