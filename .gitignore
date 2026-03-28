@@ -7,3 +7,5 @@ node_modules/
 Pipfile
 Pipfile.lock
 Gemfile.lock
+
+debug/

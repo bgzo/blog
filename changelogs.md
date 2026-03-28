@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Changelog
+title: Changelogs
 ---
 
-# Changelog
+# Changelogs
 
 ## 20260327
 
