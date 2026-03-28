@@ -51,8 +51,6 @@ collections: # 定义 Jekyll 集合，用于将同类内容分组管理
   posts: # 名为 "posts" 的集合（对应 _posts/ 目录下的文件）
     output: false # 不为该集合的文档生成独立页面，仅作为数据源使用
   articles: # 名为 "articles" 的集合，用于实际对外发布的文章
-    collections_dir: "" # 集合根目录设为网站根目录（空字符串表示根目录，覆盖默认值）
-    source: _posts # 指定该集合从 _posts 目录读取源文件
     output: true # 为该集合的每篇文档生成独立的 HTML 输出页面
     permalink: /:title.html # 输出页面的 URL 格式：以文章标题命名，扩展名为 .html
 
