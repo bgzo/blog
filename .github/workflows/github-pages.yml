@@ -37,7 +37,7 @@ jobs:
         run: npm ci
 
       - name: Build Tailwind CSS
-        run: ｜
+        run: |
           npx tailwindcss -i ./assets/css/custom.css -o ./assets/css/custom.build.css --minify
           cp ./assets/css/custom.build.css ./assets/css/custom.css
 
