@@ -7,11 +7,11 @@
   window.addEventListener("scroll", handleScroll);
   function handleScroll() {
     // hide button
-    var scollTop =
+    var scrollTop =
       document.documentElement.scrollTop || document.body.scrollTop;
     var clientHeight = document.documentElement.clientHeight;
 
-    if (scollTop >= clientHeight) {
+    if (scrollTop >= clientHeight) {
       document.querySelector("#ikaros").style.display = "block";
     } else {
       document.querySelector("#ikaros").style.display = "none";
