@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## Recectly
+## Recently
 
 <ul class="posts">
   {% assign all_posts = site.articles %}
