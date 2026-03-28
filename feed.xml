@@ -16,7 +16,7 @@ layout: none
   </author>
   {% endif %}
   {% assign articles = site.articles | sort: "created" | reverse %}
-  {% for post in articles limit: 20 %}
+  {% for post in articles limit: 100 %}
   <entry>
     <title type="html">{{ post.title | xml_escape }}</title>
     <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
