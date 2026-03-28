@@ -47,21 +47,21 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-collections:
-  posts:
-    output: false
-  articles:
-    collections_dir: ""
-    source: _posts
-    output: true
-    permalink: /:title.html
+collections: # 定义 Jekyll 集合，用于将同类内容分组管理
+  posts: # 名为 "posts" 的集合（对应 _posts/ 目录下的文件）
+    output: false # 不为该集合的文档生成独立页面，仅作为数据源使用
+  articles: # 名为 "articles" 的集合，用于实际对外发布的文章
+    collections_dir: "" # 集合根目录设为网站根目录（空字符串表示根目录，覆盖默认值）
+    source: _posts # 指定该集合从 _posts 目录读取源文件
+    output: true # 为该集合的每篇文档生成独立的 HTML 输出页面
+    permalink: /:title.html # 输出页面的 URL 格式：以文章标题命名，扩展名为 .html
 
-defaults:
-  - scope:
-      path: ""
-      type: articles
-    values:
-      layout: post
+defaults: # 批量为文档注入默认 front matter，避免每篇文章重复声明
+  - scope: # 定义该组默认值的作用范围
+      path: "" # 路径为空字符串，表示匹配网站内所有路径
+      type: articles # 仅对 "articles" 集合中的文档生效
+    values: # 以下为要注入的默认 front matter 字段
+      layout: post # 默认使用 "post" 布局模板（对应 _layouts/post.html）
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -29,7 +29,10 @@
         node.nodeType === 1 &&
         node.nodeName !== "A" &&
         node.nodeName !== "CODE" &&
-        node.nodeName !== "PRE"
+        node.nodeName !== "PRE" &&
+        node.nodeName !== "SCRIPT" &&
+        node.nodeName !== "STYLE" &&
+        node.nodeName !== "TEXTAREA"
       ) {
         Array.from(node.childNodes).forEach(linkify);
       }
