@@ -37,8 +37,9 @@ jobs:
         run: npm ci
 
       - name: Build Tailwind CSS
-        run: npx tailwindcss -i ./assets/css/custom.css -o ./assets/css/custom.css --minify
-        continue-on-error: true
+        run: |
+          npx tailwindcss -i ./assets/css/custom.css -o ./assets/css/custom.build.css --minify
+          cp ./assets/css/custom.build.css ./assets/css/custom.css
 
       - name: Build Jekyll (with GitHub Pages baseurl)
         run: bundle exec jekyll build --config _config.yml,_config_github.yml
