@@ -28,7 +28,10 @@
 />
 <meta name="msapplication-TileColor" content="#da532c" />
 <meta name="theme-color" content="#ffffff" />
-<link href="/assets/css/custom.css" rel="stylesheet" />
-<link href="/assets/css/rouge-github.css" rel="stylesheet" />
+<link href="{{ '/assets/css/custom.css' | relative_url }}" rel="stylesheet" />
+<link
+  href="{{ '/assets/css/rouge-github.css' | relative_url }}"
+  rel="stylesheet"
+/>
 <link rel="canonical" href="{{ site.url }}" />
 {% feed_meta %} {% seo %}
