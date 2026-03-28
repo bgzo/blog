@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: bGZo's blog
+title: 表达之心不死 # bGZo's blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Small is beautiful, less is more.
-author: bGZo
+  分享我的好运，偏见与无知
+# Small is beautiful, less is more.
+author: 华华
 github_username: bGZo
 url: "https://blog.bgzo.cc"
 baseurl: ""
