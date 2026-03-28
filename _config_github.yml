@@ -1,0 +1,5 @@
+# GitHub Pages override config
+# Used alongside _config.yml when building for GitHub Pages deployment:
+#   bundle exec jekyll build --config _config.yml,_config_github.yml
+baseurl: "/blog"
+url: "https://bgzo.github.io"

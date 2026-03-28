@@ -1,7 +1,7 @@
 <p class="post-meta">
   Published:
-  <time class="publish-date" datetime="{{ page.date | date: '%F' }}"
-    >{{ page.date | date: "%Y/%m/%d" }}</time
+  <time class="publish-date" datetime="{{ page.created | date: '%F' }}"
+    >{{ page.created | date: "%Y/%m/%d" }}</time
   >
   {% if page.modified %} | Modified:
   <time class="update-date" datetime="{{ page.modified | date: '%F' }}"
