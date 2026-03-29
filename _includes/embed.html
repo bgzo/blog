@@ -1,0 +1,71 @@
+<!-- Replace Obsidian-style ![]( URL ) with proper embeds for Twitter/X and YouTube -->
+<script>
+  (function () {
+    var YT_RE =
+      /(?:youtube\.com\/watch\?(?:.*&)?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+    var YT_SHORT_RE = /youtube\.com\/shorts\/([a-zA-Z0-9_-]{11})/;
+    var TW_RE = /(?:twitter\.com|x\.com)\/\w+\/status\/(\d+)/;
+
+    function replaceImg(img, embed) {
+      var parent = img.parentNode;
+      // kramdown wraps standalone ![]() in <p>; unwrap it so block elements are valid
+      if (parent && parent.tagName === "P" && parent.childNodes.length === 1) {
+        parent.parentNode.replaceChild(embed, parent);
+      } else {
+        parent.replaceChild(embed, img);
+      }
+    }
+
+    function makeYouTubeEmbed(videoId) {
+      var wrapper = document.createElement("div");
+      wrapper.className = "embed-youtube";
+      var iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube.com/embed/" + videoId;
+      iframe.title = "YouTube video player";
+      iframe.frameBorder = "0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      iframe.setAttribute("loading", "lazy");
+      wrapper.appendChild(iframe);
+      return wrapper;
+    }
+
+    function makeTwitterEmbed(tweetUrl) {
+      var blockquote = document.createElement("blockquote");
+      blockquote.className = "twitter-tweet";
+      var a = document.createElement("a");
+      a.href = tweetUrl;
+      a.textContent = tweetUrl;
+      blockquote.appendChild(a);
+      return blockquote;
+    }
+
+    var imgs = Array.from(document.querySelectorAll("article img"));
+    var hasTweet = false;
+
+    imgs.forEach(function (img) {
+      var src = img.getAttribute("src") || "";
+
+      var ytMatch = src.match(YT_RE) || src.match(YT_SHORT_RE);
+      if (ytMatch) {
+        replaceImg(img, makeYouTubeEmbed(ytMatch[1]));
+        return;
+      }
+
+      var twMatch = src.match(TW_RE);
+      if (twMatch) {
+        replaceImg(img, makeTwitterEmbed(src));
+        hasTweet = true;
+        return;
+      }
+    });
+    if (hasTweet) {
+      var s = document.createElement("script");
+      s.src = "https://platform.twitter.com/widgets.js";
+      s.async = true;
+      s.charset = "utf-8";
+      document.head.appendChild(s);
+    }
+  })();
+</script>
