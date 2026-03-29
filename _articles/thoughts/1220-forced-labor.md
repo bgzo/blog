@@ -4,7 +4,7 @@ draft: False
 aliases: ['强迫劳动']
 created: 2024-12-28 08:54:00
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought-long']
+tags: ['writing/thought']
 title: 强迫劳动
 description: 违反劳动法，就是强迫劳动。 「1」 本周是今年最后一个星期，下个星期过后，2024 年就会翻篇，纪年也会从 2025 年开始。本周是我人生的第 1220 周，我想谈谈最近对一个词汇的理解 —— 「强迫劳动」 [^forced-labor-wikipedia]。 最早接触这个词是大学，我第一次有时间在墙外（GFW）的世界闲逛，那时候就传闻中国对新疆等维吾尔族同化的政策比较激进，因为那边时常引起暴力冲...
 ---

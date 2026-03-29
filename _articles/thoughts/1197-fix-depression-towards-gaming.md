@@ -4,7 +4,7 @@ draft: False
 aliases: ['电子阳痿治疗指南']
 created: 2024-07-20 10:17:40
 modified: 2025-12-26 23:53:47
-tags: ['steam', 'weekly/1197', 'writing/thought-long']
+tags: ['steam', 'weekly/1197', 'writing/thought']
 title: 电子阳痿治疗指南
 description: G 胖杀死阿区和土区后，更不想买游戏了 [^steam-kill-cheaper-area]。 但年初过年的时候，我买了 Steam Deck，它对我意义非凡，是我人生中第一台掌机。为什么买它呢？ 一开始我希望用它来度过漫长的火车时间，后来我落空了，因为每次在车上都是夜晚，我只想睡觉，如果我贸然把电子产品掏出来，也许还有被盗窃的风险，于是我就更不敢在大庭广众之下掏出来了。 但是放在床头做被窝机还是...
 ---

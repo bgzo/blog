@@ -4,7 +4,7 @@ draft: False
 aliases: ['摸索人生']
 created: 2024-07-06 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['self-care', 'writing/thought-long']
+tags: ['self-care', 'writing/thought']
 title: 摸索人生
 description: via https//www.youtube.com/watch?v=m5_dNOK7oN8 [!note] The fact that I don't feel like me no more Cause I'm not who I was before I'm sorry for messing up I get the mеssage Just give me a sеcond I'm ju...
 ---
