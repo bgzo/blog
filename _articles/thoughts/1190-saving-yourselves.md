@@ -4,7 +4,7 @@ draft: False
 aliases: ['自救之职业焦虑']
 created: 2024-06-01 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['self-care', 'writing/thought-long']
+tags: ['self-care', 'writing/thought']
 title: 自救之职业焦虑
 description: via https//www.youtube.com/watch?v=YJkOxWVn0SU [!note] Could someone save my life? 写给 22 岁：如果你没能进入头部或是外企，你需要做好心里准备 在能力范围内，不用国货，就不用国货，这是我在上班之前的行为准则。我已经不记得自己真正对国产绝望是什么时候了。但他在我心目中的形象，从来都不算正派。三聚氰胺、科技与狠活，用...
 ---

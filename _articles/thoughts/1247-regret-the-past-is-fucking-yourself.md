@@ -4,7 +4,7 @@ draft: False
 aliases: ['遗憾是对自己的暴政', 'regret the past is fucking yourself']
 created: 2025-07-05 23:42:28
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought-long']
+tags: ['writing/thought']
 title: 遗憾是对自己的暴政
 description: 人都有遗憾，对吧？ 「如果当时的那句话这样说，是不是就好了？」 「如果当时没有选择 XXX，是不是现在就不用 XXX 了？」 「如果当时好好赔礼道歉的话，我们的关系是不是也不会这样？」 「如果当时好好地付出的话，我们还会有以后吗？」 .... 对我来说，这些话就像是某个开关一样，可以一瞬间串联起来记忆哪些深深浅浅的沟壑。我写了很多人际关系的随笔，其中感受到的很多痛苦应证了阿德勒那句「人际关系是一切...
 ---
