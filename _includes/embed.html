@@ -55,7 +55,9 @@
 
       var twMatch = src.match(TW_RE);
       if (twMatch) {
-        replaceImg(img, makeTwitterEmbed(src));
+        // Twitter's widgets.js only accepts twitter.com URLs, so normalise x.com → twitter.com
+        var tweetUrl = src.replace(/^(https?:\/\/)x\.com\//, "$1twitter.com/");
+        replaceImg(img, makeTwitterEmbed(tweetUrl));
         hasTweet = true;
         return;
       }
