@@ -4,7 +4,7 @@ draft: False
 aliases: ['生活大于工作']
 created: 2024-05-18 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['life', 'weekly/1188', 'writing/thought-long']
+tags: ['life', 'weekly/1188', 'writing/thought']
 title: 生活大于工作
 description: via https//www.youtube.com/watch?v=UtF6Jej8yb4 [!note] When I was sixteen, my father said "You can do anything you want with your life, you just need the will to work hard and get it." ==That's when I...
 ---
