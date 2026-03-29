@@ -429,6 +429,11 @@ tr:nth-child(n):hover td {
 }
 
 /* Obsidian-style URL embeds */
+.twitter-tweet {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .embed-youtube {
   position: relative;
   width: 100%;
