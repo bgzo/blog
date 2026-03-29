@@ -16,14 +16,15 @@ layout: none
   </author>
   {% endif %}
   {% assign articles = site.articles | sort: "created" | reverse %}
-  {% for post in articles limit: 100 %}
+  {% for post in articles limit: 20 %}
   <entry>
     <title type="html">{{ post.title | xml_escape }}</title>
     <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
     <published>{{ post.created | date_to_xmlschema }}</published>
     <updated>{{ post.modified | default: post.created | date_to_xmlschema }}</updated>
     <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
-    <content type="html" xml:base="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><![CDATA[{{ post.content }}]]></content>
+    <content type="html" xml:base="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+    </content>
     {% if post.description %}
     <summary type="html">{{ post.description | xml_escape }}</summary>
     {% endif %}
