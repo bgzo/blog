@@ -4,7 +4,7 @@ draft: False
 aliases: ['放弃 Logseq', 'Giving up Logseq', 'logseq problem', 'why giving up logseq']
 created: 2024-12-09 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought-long']
+tags: ['writing/thought']
 title: Giving up Logseq
 description: Okey, I know it's ridiculous and hard to say I give up ~logseq-logseq. I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released ve...
 ---

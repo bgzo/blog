@@ -4,7 +4,7 @@ draft: False
 aliases: ['写信吧爱人']
 created: 2024-10-13 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought-long']
+tags: ['writing/thought']
 title: 写信吧爱人
 description: 最近 V 站有很多吐槽婚姻生活的帖子 [^v2ex-posts-marry]，有讲两个人同甘共苦的，也有讲大难临头撇清关系，各自飞的。 有一位印象里比较深刻的朋友分享说，一直以为娶到了爱情，但是妻子的一句惊醒梦中人： 如果你以后无法维持住这个家的生活水平，那我就和你离婚，孩子你来养，我这边你不用给钱 https//www.v2ex.com/t/1081477 不知道你怎么想，但我对男女双方的距离感...
 ---
