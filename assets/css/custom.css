@@ -655,3 +655,53 @@ iframe[src*="bilibili"] {
     width: 40rem;
   }
 }
+
+/* --- Callout blocks (GFM-style > [!NOTE] / [!TIP] / [!WARNING] / [!IMPORTANT] / [!CAUTION]) --- */
+.callout {
+  overflow: hidden; /* clip title background to border-radius */
+}
+
+.callout .callout-title {
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  margin: 0;
+  /* border-bottom: 1px solid; */
+  display: flex;
+  align-items: center;
+}
+
+.callout .callout-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.4em;
+  flex-shrink: 0;
+}
+
+.callout .callout-icon svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* NOTE — blue */
+.callout-note::before                { border-left-color: var(--blue); }
+.callout-note .callout-title         { color: var(--blue); border-bottom-color: var(--blue); }
+
+/* TIP — violet */
+.callout-tip::before                 { border-left-color: var(--violet); }
+.callout-tip .callout-title          { color: var(--violet); border-bottom-color: var(--violet); }
+
+/* WARNING — yellow */
+.callout-warning::before             { border-left-color: var(--yellow); }
+.callout-warning .callout-title      { color: var(--yellow); border-bottom-color: var(--yellow); }
+
+/* IMPORTANT — magenta */
+.callout-important::before           { border-left-color: var(--magenta); }
+.callout-important .callout-title    { color: var(--magenta); border-bottom-color: var(--magenta); }
+
+/* CAUTION — orange */
+.callout-caution::before             { border-left-color: var(--orange); }
+.callout-caution .callout-title      { color: var(--orange); border-bottom-color: var(--orange); }
