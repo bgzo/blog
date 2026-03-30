@@ -131,15 +131,10 @@ nav ul li:not(:last-of-type) {
 }
 
 .posts {
-  border-left: 0.1rem dashed var(--ls-tertiary-background-color);
   list-style: none;
   padding-left: 1.25rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0;
   margin: 0;
-}
-
-.posts-year-group > .posts {
-  border-left: none;
 }
 
 .post {
@@ -161,6 +156,7 @@ nav ul li:not(:last-of-type) {
   background-color: var(--ls-primary-background-color);
   border: 1.5px solid var(--ls-secondary-font-color);
   opacity: 0.7;
+  z-index: 1;
   transition:
     opacity 0.2s ease,
     background-color 0.2s ease;
@@ -169,6 +165,18 @@ nav ul li:not(:last-of-type) {
 .post:hover::before {
   background-color: var(--ls-secondary-font-color);
   opacity: 1;
+}
+
+/* 连接各圆点的竖线：非末尾条目向下延伸 */
+.post:not(:last-child)::after,
+.posts-year-group:not(:last-child) .post:last-child::after {
+  content: "";
+  position: absolute;
+  left: calc(-1.25rem - 0.5px);
+  top: calc(0.3rem + 7px);
+  bottom: -1.5rem;
+  border-left: 0.1rem dashed var(--ls-tertiary-background-color);
+  pointer-events: none;
 }
 
 .post .publish-date {
@@ -486,7 +494,6 @@ tr:nth-child(n):hover td {
 .posts-year-group {
   position: relative;
   margin-bottom: 0;
-  border-left: 0.1rem dashed var(--ls-tertiary-background-color);
 }
 
 .posts-year-group::after {
