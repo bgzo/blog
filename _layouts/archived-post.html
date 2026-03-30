@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="single-post">
+    {% include header.html %}
+    <main>
+      <article>
+        <h2>{{ page.title }}</h2>
+        {% include post-meta.html %}
+        <blockquote class="archive-notice">
+          <p>
+            <strong>Notice / 说明</strong><br /><br />
+            本页面为历史快照，仅供存档备份，不再更新，亦不对其内容负责。保留此页面的唯一目的是减少互联网死链。<br /><em
+              >This page is a historical snapshot preserved for archival
+              purposes only. It is no longer maintained, and we take no
+              responsibility for its content. This page exists solely to reduce
+              dead links on the internet.</em
+            >
+          </p>
+        </blockquote>
+        {% capture toc_output %} {% include toc.html html=content %} {%
+        endcapture %} {% assign toc_stripped = toc_output | strip %} {% if
+        toc_stripped != "" %}
+        <div class="contents">{{ toc_output }}</div>
+        {% endif %} {{ content }} {% include source.html %}
+      </article>
+    </main>
+    {% include mathjax.html %} {% include embed.html %} {% include linkify.html
+    %} {% include top.html %} {% if page.comments == true %} {% include
+    giscus.html %} {% endif %}
+  </body>
+</html>

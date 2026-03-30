@@ -1,14 +1,17 @@
 <p class="post-meta">
-  发布于:
-  <time class="publish-date" datetime="{{ page.created | date: '%F' }}"
-    >{{ page.created | date: "%Y/%m/%d" }}</time
+  发布于: {% assign publish_date = page.date | default: page.created %} {% if
+  publish_date %}
+  <time class="publish-date" datetime="{{ publish_date | date: '%F' }}"
+    >{{ publish_date | date: "%Y/%m/%d" }}</time
   >
-  {% if page.modified %} | 更新于:
+  {% else %}
+  <time class="publish-date">Unknown</time>
+  {% endif %} {% if page.modified %} | 更新于:
   <time class="update-date" datetime="{{ page.modified | date: '%F' }}"
     >{{ page.modified | date: "%Y/%m/%d" }}</time
   >
   {% endif %} {% assign char_count = content | strip_html | strip_newlines |
   remove: " " | size %} {% assign read_minutes = char_count | divided_by: 400 %}
-  {% if read_minutes < 1 %}{% assign read_minutes = 1 %}{% endif %} | {{
-  char_count }} 字 · 约 {{ read_minutes }} 分钟
+  {% if read_minutes < 1 %}{% assign read_minutes = 1 %}{% endif %} | 共 {{
+  char_count }} 字 | 约 {{ read_minutes }} 分钟
 </p>
