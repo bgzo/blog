@@ -22,7 +22,7 @@ layout: none
     <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
     <published>{{ post.created | date_to_xmlschema }}</published>
     <updated>{{ post.modified | default: post.created | date_to_xmlschema }}</updated>
-    <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
+    <id>{{ post.url | remove: '.html' | prepend: site.baseurl | prepend: site.url }}</id>
     <content type="html" xml:base="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
       {{ post.description | xml_escape }}&lt;p&gt;&lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}"&gt;Read More&lt;/a&gt;&lt;/p&gt;
     </content>
