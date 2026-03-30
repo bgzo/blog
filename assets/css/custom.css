@@ -705,3 +705,7 @@ iframe[src*="bilibili"] {
 /* CAUTION — orange */
 .callout-caution::before             { border-left-color: var(--orange); }
 .callout-caution .callout-title      { color: var(--orange); border-bottom-color: var(--orange); }
+
+.giscus {
+  margin-top: 1.5rem;
+}
