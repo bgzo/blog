@@ -33,10 +33,14 @@
   --ls-teryiary-font-color: var(--base0);
 
   --ls-color-font-color: var(--ls-primary-font-color);
-  --ls-font-family: 'PingFangTC','PingFangSC','Microsoft Yahei','Noto Serif SC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  --ls-font-family:
+    "PingFangTC", "PingFangSC", "Microsoft Yahei", "Noto Serif SC", system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Segoe UI Emoji",
+    "Apple Color Emoji", "Noto Color Emoji", sans-serif;
 }
 
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --ls-primary-background-color: var(--base03);
     --ls-secondary-background-color: var(--base02);
@@ -46,13 +50,17 @@
     --ls-secondary-font-color: var(--base0);
     --ls-teryiary-font-color: var(--base00);
 
-    --ls-font-family: 'Noto Serif SC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+    --ls-font-family:
+      "Noto Serif SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji",
+      "Noto Color Emoji", sans-serif;
 
     --shironeri: var(--ls-secondary-background-color);
     --sakura: var(--blue);
   }
   img {
-    filter: brightness(.8) contrast(1.1);
+    filter: brightness(0.8) contrast(1.1);
   }
 }
 
@@ -123,7 +131,7 @@ nav ul li:not(:last-of-type) {
 }
 
 .posts {
-  border-left: .1rem dashed var(--ls-tertiary-background-color);
+  border-left: 0.1rem dashed var(--ls-tertiary-background-color);
   list-style: none;
   padding-left: 1.25rem;
   padding-bottom: 1.5rem;
@@ -153,7 +161,9 @@ nav ul li:not(:last-of-type) {
   background-color: var(--ls-primary-background-color);
   border: 1.5px solid var(--ls-secondary-font-color);
   opacity: 0.7;
-  transition: opacity 0.2s ease, background-color 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    background-color 0.2s ease;
 }
 
 .post:hover::before {
@@ -198,7 +208,7 @@ a:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
@@ -236,6 +246,17 @@ blockquote p {
   padding: inherit;
   margin: 0;
   padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+blockquote.archive-notice::before {
+  border-left-color: var(--orange);
+}
+
+blockquote.archive-notice {
+  color: var(--ls-secondary-font-color);
+  clear: both;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .highlighter-rouge {
@@ -293,7 +314,9 @@ header h1 {
   opacity: 0;
   position: relative;
   transform: translateY(-20px);
-  transition: opacity 0.15s ease-out, transform 0.3s ease-out;
+  transition:
+    opacity 0.15s ease-out,
+    transform 0.3s ease-out;
   z-index: 2;
 }
 
@@ -390,8 +413,8 @@ tr:nth-child(n):hover td {
   padding: 0.1px;
   margin: 0.1rem 0.1rem 1rem 1rem;
   word-break: break-word;
-  border-left: .1rem dashed var(--ls-tertiary-background-color);
-  border-bottom: .1rem dashed var(--ls-tertiary-background-color);
+  border-left: 0.1rem dashed var(--ls-tertiary-background-color);
+  border-bottom: 0.1rem dashed var(--ls-tertiary-background-color);
   border-bottom-left-radius: var(--border-radius);
 }
 .contents::before {
@@ -450,7 +473,7 @@ tr:nth-child(n):hover td {
   transform: translate(15px, -10px);
 }
 
-.footer{
+.footer {
   font-size: 14px;
   color: var(--ls-teryiary-font-color);
   margin-top: 20px;
@@ -460,7 +483,7 @@ tr:nth-child(n):hover td {
 .posts-year-group {
   position: relative;
   margin-bottom: 0;
-  border-left: .1rem dashed var(--ls-tertiary-background-color);
+  border-left: 0.1rem dashed var(--ls-tertiary-background-color);
 }
 
 .posts-year-group::after {
@@ -488,7 +511,7 @@ tr:nth-child(n):hover td {
   opacity: 0.22;
 }
 
-.avator{
+.avator {
   max-width: 10%;
   max-height: 10%;
   border-radius: 50%;
@@ -496,25 +519,33 @@ tr:nth-child(n):hover td {
 
 .home-title {
   animation: shake-it 0.5s reverse infinite
-  cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.home-title:hover{
+.home-title:hover {
   animation: none;
 }
 
 @keyframes shake-it {
   0% {
-    text-shadow: 0 0 rgba(0, 255, 255, 0.5), 0 0 rgba(255, 0, 0, 0.5);
+    text-shadow:
+      0 0 rgba(0, 255, 255, 0.5),
+      0 0 rgba(255, 0, 0, 0.5);
   }
   25% {
-    text-shadow: -2px 0 rgba(0, 255, 255, 0.5), 2px 0 rgba(255, 0, 0, 0.5);
+    text-shadow:
+      -2px 0 rgba(0, 255, 255, 0.5),
+      2px 0 rgba(255, 0, 0, 0.5);
   }
   50% {
-    text-shadow: -5px 0 rgba(0, 255, 255, 0.5), 3px 0 rgba(255, 0, 0, 0.5);
+    text-shadow:
+      -5px 0 rgba(0, 255, 255, 0.5),
+      3px 0 rgba(255, 0, 0, 0.5);
   }
   100% {
-    text-shadow: 3px 0 rgba(0, 255, 255, 0.5), 5px 0 rgba(255, 0, 0, 0.5);
+    text-shadow:
+      3px 0 rgba(0, 255, 255, 0.5),
+      5px 0 rgba(255, 0, 0, 0.5);
   }
 }
 
@@ -538,12 +569,14 @@ tr:nth-child(n):hover td {
   border-radius: var(--border-radius);
 }
 
-.iframe-radius, .references-blocks-item {
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+.iframe-radius,
+.references-blocks-item {
+  --tw-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
   border-radius: 0.5rem !important;
   box-shadow: var(--tw-shadow) !important;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -559,16 +592,17 @@ iframe[src*="bilibili"] {
   border-radius: 0.5rem !important;
 }
 
-.iframe-radius, .references-blocks-item {
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+.iframe-radius,
+.references-blocks-item {
+  --tw-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
   border-radius: 0.5rem !important;
   box-shadow: var(--tw-shadow) !important;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
-
 
 @media (min-width: 22em) {
   header h1 {
