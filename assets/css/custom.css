@@ -329,6 +329,9 @@ header h1:hover span {
   color: var(--ls-teryiary-font-color);
   font-size: 0.75rem;
   margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
 }
 
 .follow-btns .btn {
