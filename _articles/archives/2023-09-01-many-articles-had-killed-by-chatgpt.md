@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 被 ChatGPT 消解的文章
 modified: 2023-10-14
 category: thoughts

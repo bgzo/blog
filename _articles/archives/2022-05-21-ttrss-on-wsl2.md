@@ -1,5 +1,4 @@
 ---
-layout: post
 title: TTRSS on WSL2
 created: 2022-05-21 00:39:37
 modified: 2023-04-08 13:00:31

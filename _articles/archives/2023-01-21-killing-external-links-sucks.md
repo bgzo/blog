@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Killing external links sucks
 modified: 2023-04-08
 category: thoughts

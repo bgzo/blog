@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Look back to your loved ones
 modified: 2023-04-08
 category: thoughts

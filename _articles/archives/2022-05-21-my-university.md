@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 我的大學
 modified: 2023-04-08
 category: thoughts

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WNEN U WANT TO USE PROXIES on CYBERCAFÉ
 modified: 2024-05-25
 category: posts

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 你的下一臺電腦，不可能會是 iPad Pro
 modified: 2024-01-24
 category: thoughts

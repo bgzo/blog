@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 誇誇月報 #1
 modified: 2023-07-09
 category: letters

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hello World
 created: 2022-03-17 00:39:37
 modified: 2025-02-18 13:00:31
