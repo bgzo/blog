@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 自慰 AI
 modified: 2023-04-08
 category: thoughts

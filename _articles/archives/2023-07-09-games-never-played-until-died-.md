@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 「我都花了時間玩遊戲，爲什麼還要花錢買它？」
 modified: 2023-10-14
 category: thoughts

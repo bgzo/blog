@@ -1,5 +1,4 @@
 ---
-layout: post
 title: One wisdom
 modified: 2025-03-01
 category: posts

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 來信
 modified: 2024-11-30
 category: letters

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 存在即痛苦
 modified: 2023-04-08
 category: thoughts

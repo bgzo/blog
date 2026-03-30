@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Is being a soldier something that matters?
 modified: 2024-05-26
 category: thoughts

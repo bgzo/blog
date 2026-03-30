@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 失去朋友的滋味堪比失戀
 modified: 2024-11-30
 category: thoughts

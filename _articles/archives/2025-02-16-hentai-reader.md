@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hentai Reader
 modified: 2025-03-01
 category: posts

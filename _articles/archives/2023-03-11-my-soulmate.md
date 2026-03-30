@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 睡不着的夜和忘不掉的夢
 modified: 2024-08-17
 category: thoughts

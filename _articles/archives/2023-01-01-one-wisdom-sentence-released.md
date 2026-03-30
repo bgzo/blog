@@ -1,5 +1,4 @@
 ---
-layout: post
 title: One wisdom sentence released
 modified: 2023-04-08
 category: posts

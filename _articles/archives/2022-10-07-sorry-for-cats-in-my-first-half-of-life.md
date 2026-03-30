@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 貓貓能有什麼壞心思呢？
 modified: 2023-10-01
 category: thoughts

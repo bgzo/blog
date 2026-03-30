@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I don't know how to deal relationship with my parents
 modified: 2023-10-14
 category: thoughts

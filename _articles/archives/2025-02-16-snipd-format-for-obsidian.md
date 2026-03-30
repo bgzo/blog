@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Snipd format for Obsidian
 modified: 2025-03-01
 category: posts
