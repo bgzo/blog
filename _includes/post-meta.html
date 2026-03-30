@@ -1,11 +1,14 @@
 <p class="post-meta">
-  Published:
+  发布于:
   <time class="publish-date" datetime="{{ page.created | date: '%F' }}"
     >{{ page.created | date: "%Y/%m/%d" }}</time
   >
-  {% if page.modified %} | Modified:
+  {% if page.modified %} | 更新于:
   <time class="update-date" datetime="{{ page.modified | date: '%F' }}"
     >{{ page.modified | date: "%Y/%m/%d" }}</time
   >
-  {% endif %}
+  {% endif %} {% assign char_count = content | strip_html | strip_newlines |
+  remove: " " | size %} {% assign read_minutes = char_count | divided_by: 400 %}
+  {% if read_minutes < 1 %}{% assign read_minutes = 1 %}{% endif %} | {{
+  char_count }} 字 · 约 {{ read_minutes }} 分钟
 </p>
