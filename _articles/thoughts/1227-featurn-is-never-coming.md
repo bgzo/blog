@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2025-02-15 18:17:14
 aliases: ['1227-featurn-is-never-coming', '未来永远不会到来']
 created: 2025-02-15 18:17:14
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought']
+tags: ['writing/thought', 'public']
+draft: False
 title: 未来永远不会到来
 description: 上个月，我卖掉了身上最后一部 Android 手机 —— samsung-tab-s8，反而让我更加想再买一台手机。 这段时间赶上春运，价格居高不下，因为像我这样犹豫的人，在春节最多，像我这样的人，注定被充满恶意的市场裹挟，困在其中无法动弹。 也许没有完全准备好就出手了，也许只是想写 Android，或者只是想用家人守护，总之，我仍然想双持 Android 和 iPhone，买一部一加手机。 总之...
 ---
-
 
 上个月，我卖掉了身上最后一部 Android 手机 —— samsung-tab-s8，反而让我更加想再买一台手机。
 

@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2023-07-08 11:15:56
 aliases: ['我都花了时间玩游戏，为什么还要花钱买它？']
 created: 2023-07-08 11:15:56
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought']
+tags: ['writing/thought', 'public']
+draft: False
 title: 我都花了时间玩游戏，为什么还要花钱买它？
 description: 好的，我承认这不是一个好的标题，当然本文没有为「白嫖」正名的意思，单纯玩梗儿罢了 [^BUYBUYBUY]，只是后疫情时代，我建议你停下来再想一想，理性消费。 虽然 Gabe Logan Newell 已经撤销了两个知名的低价区，但是我还是没忍住为 2023 Summer Sales 充了一份钱，数额不多不少，肉疼到把我准备买的游戏悉数拔草： 最开始是抱着拣便宜的心态买游戏，毕竟 50TL，铜板价...
 ---
-
 
 好的，我承认这不是一个好的标题，当然本文没有为「白嫖」正名的意思，单纯玩梗儿罢了 [^BUY_BUY_BUY]，只是后疫情时代，我建议你停下来再想一想，理性消费。
 
