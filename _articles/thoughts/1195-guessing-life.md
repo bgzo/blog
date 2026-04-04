@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2024-07-06 12:00:00
 aliases: ['摸索人生']
 created: 2024-07-06 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['self-care', 'writing/thought']
+tags: ['self-care', 'writing/thought', 'public']
+draft: False
 title: 摸索人生
 description: via https//www.youtube.com/watch?v=m5_dNOK7oN8 [!note] The fact that I don't feel like me no more Cause I'm not who I was before I'm sorry for messing up I get the mеssage Just give me a sеcond I'm ju...
 ---
-
 
 <iframe src="https://www.youtube.com/embed/m5_dNOK7oN8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=m5_dNOK7oN8' target='_blank' class='external-link'>https://www.youtube.com/watch?v=m5_dNOK7oN8</a></center>

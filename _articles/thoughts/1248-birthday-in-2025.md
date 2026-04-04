@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2025-07-12 20:30:43
 aliases: ['1248-birthday-in-2025', '生日这一天']
 created: 2025-07-12 20:30:43
 modified: 2025-11-15 11:33:28
-tags: ['first-time', 'writing/thought']
+tags: ['first-time', 'writing/thought', 'public']
+draft: False
 title: 生日这一天
 description: 这两天是我 25 岁的生日，去看了人生第一场线下 脱口秀。 其实昨天，也就是周五， Outlook 日历就弹出了提醒，说明天是我的生日。好开心，又能胡吃海喝好好犒劳一下自己了，而且还赶上了周末。 但我突然想起来去年陪我过生日的人，今年并没有邀请我过生，就有点失落和疑惑。我今年还可以继续邀请他吗？我不知道。其实也没什么，一直以来都不太习惯别人陪着一起过生日。也就这样持续 25 年了。 想的有点多了，...
 ---
-
 
 这两天是我 25 岁的生日，去看了人生第一场线下 脱口秀。
 

@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2025-12-14 20:01:18
 aliases: ['导出知乎收藏夹']
 created: 2025-12-14 20:01:18
 modified: 2025-12-14 20:25:57
-tags: ['writing/lab']
+tags: ['writing/lab', 'public']
+draft: False
 title: 导出知乎收藏夹
 description: 基于几点原因，建议你定期备份知乎收藏夹： 1. 复盘：工作日有的时候会看这个网站，会存一些收藏的技术文章； 2. 审查：有些答案会被隐藏，甚至删除，比如下面收藏夹就有这种情况，页面显示有 4 个内容，接口返回的 total 也是 4，但是实际查询到的内容一个都没有，怎么办，好难猜啊，你懂的； 所以是不是得及时做备份？ 实现 通过网页抓包如下接口： https//github.com/bGZo/en...
 ---
-
 
 基于几点原因，建议你定期备份知乎收藏夹：
 

@@ -3,12 +3,11 @@ title: 重构 TG 机器人
 aliases: ['重构 TG 机器人']
 created: 2026-02-17 14:36:01
 modified: 2026-02-17 20:01:27
-comments: True
+published: 2026-02-17 14:36:01
+tags: ['writing/lab', 'golang', 'telegram-bot', 'public']
 draft: False
-tags: ['writing/lab', 'golang', 'telegram-bot']
 description: 不懂的点（学习笔记） Golang 跑测试 为啥可以直接测试？测试在另一个文件里面 service_test.go？ ==猜测是按文件夹测试== Golang 的接口实现 比较变态，没有显示声明，差点没看出来是 Provider 是 Service 的接口实现。 如果想实现一个接口，能否快速生成这个接口的全部方法？要不然还得反过头来反复查找，感觉如果没有这个语法糖有点坐牢，而且没有显示声明，也不容...
 ---
-
 
 ## 不懂的点（学习笔记）
 

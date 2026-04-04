@@ -3,12 +3,11 @@ title: 开源是手段而不是目的
 aliases: ['开源是手段而不是目的']
 created: 2026-03-24 22:18:39
 modified: 2026-03-28 18:11:34
-comments: True
+published: 2026-03-24 22:18:39
+tags: ['opensource', 'writing/thought', 'blog', 'public']
 draft: False
-tags: ['opensource', 'writing/thought', 'blog']
 description: "我再也不用担心 Token 泄漏、版权、审查的问题，我似乎又重新获得了创作的自由"
 ---
-
 
 最近，我越来越对质疑开源，因为它似乎并不代表纯粹的开放、包容，尤其是在当前地缘政治冲突越来越多的现在，为什么这样讲呢？
 

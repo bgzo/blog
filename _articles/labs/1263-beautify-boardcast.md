@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2025-10-25 11:19:59
 aliases: ['美化 BroadcastChannel']
 created: 2025-10-25 11:19:59
 modified: 2025-11-15 12:52:20
-tags: ['writing/lab']
+tags: ['writing/lab', 'public']
+draft: False
 title: 美化 BroadcastChannel
 description: 原项目设计很新颖，用 Cloudflare / Netlify / Vercel 等平台天然支持 SSR 特性，完成了原网页 https//t.me/s/ 的代理工作。最重要的是，这些平台作为中间转发（代理），可以直接让国内访问到这部分内容（受众 ++）。 原理 之前一直以为是从 Telegram 网页端拉取数据，然后再生成动态站点，但运行一段时间之后发现不是，博文同步更新的很快，部署一次之后，没...
 ---
-
 
 原项目设计很新颖，用 [Cloudflare](https://broadcast-channel.pages.dev/) / [Netlify](https://broadcast-channel.netlify.app/) / [Vercel](https://broadcast-channel.vercel.app/) 等平台天然支持 SSR 特性，完成了原网页 https://t.me/s/ 的代理工作。最重要的是，这些平台作为中间转发（代理），可以直接让国内访问到这部分内容（受众 ++）。
 

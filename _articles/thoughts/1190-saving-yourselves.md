@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2024-06-01 12:00:00
 aliases: ['自救之职业焦虑']
 created: 2024-06-01 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['self-care', 'writing/thought']
+tags: ['self-care', 'writing/thought', 'public']
+draft: False
 title: 自救之职业焦虑
 description: via https//www.youtube.com/watch?v=YJkOxWVn0SU [!note] Could someone save my life? 写给 22 岁：如果你没能进入头部或是外企，你需要做好心里准备 在能力范围内，不用国货，就不用国货，这是我在上班之前的行为准则。我已经不记得自己真正对国产绝望是什么时候了。但他在我心目中的形象，从来都不算正派。三聚氰胺、科技与狠活，用...
 ---
-
 
 <iframe src="https://www.youtube.com/embed/YJkOxWVn0SU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=YJkOxWVn0SU' target='_blank' class='external-link'>https://www.youtube.com/watch?v=YJkOxWVn0SU</a></center>

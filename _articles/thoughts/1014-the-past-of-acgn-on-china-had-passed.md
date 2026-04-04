@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2021-01-18 18:51:22
 aliases: ['简中二次元圈已死']
 created: 2021-01-18 18:51:22
 modified: 2025-11-15 11:33:27
-tags: ['bilibili', 'copyright', 'writing/thought']
+tags: ['bilibili', 'copyright', 'writing/thought', 'public']
+draft: False
 title: 简中二次元圈已死
 description: 网络清扫，我痛恨这个词语，网盘不断的炸链，反复提醒您浏览的内容不存在，就像是去年的疫情，发出来的文章像喂了狗，用户一个个被封，我真的怀疑，明天会更好吗? 我发现自己什么都做不了，我本身并不具有话语权？我能做的，就是像现在这样，写下一些气愤的话。 写 Galgame 是我的私心，完全是情绪使然，还容易暴露自己是个沉迷情色的「二次元」。 当然说 Galgame 避免不了 R18 部分，我一开始接触 G...
 ---
-
 
 > 网络清扫，我痛恨这个词语，网盘不断的炸链，反复提醒您浏览的内容不存在，就像是去年的疫情，发出来的文章像喂了狗，用户一个个被封，我真的怀疑，明天会更好吗?
 >

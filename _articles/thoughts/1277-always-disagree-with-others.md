@@ -3,12 +3,11 @@ title: 抬杠
 aliases: ['抬杠']
 created: 2026-02-01 22:36:47
 modified: 2026-03-29 11:34:04
-comments: True
+published: 2026-02-01 22:36:47
+tags: ['censor', 'china', 'happening', 'writing/thought', 'public']
 draft: False
-tags: ['censor', 'china', 'happening', 'writing/thought']
 description: 我不知道是不是自己内心刻意标榜独立性，我最近几年总是对接受到的各种东西进行抬杠，大致是这样 我不觉得这样，有没有可能 xxx，我觉得 xxx 这种想法我认为是好的，至少我提出了一种和你不一样的观点，我在思考另一种可能，但他会让事情变得糟糕起来，因为话不投机就容易爆发矛盾。 其实，一种更好的对话方式是： 我认为你是对的，但 xxx 是不是也有道理？ --- 可惜就是有一些事情无法苟同，比如最近爱博斯...
 ---
-
 
 我不知道是不是自己内心刻意标榜独立性，我最近几年总是对接受到的各种东西进行抬杠，大致是这样
 
