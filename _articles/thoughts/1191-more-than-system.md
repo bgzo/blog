@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2024-06-08 12:00:00
 aliases: ['超越系统']
 created: 2024-06-08 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['writing/thought']
+tags: ['writing/thought', 'public']
+draft: False
 title: 超越系统
 description: via https//www.youtube.com/watch?v=2vjPBrBU-TM via https//www.bilibili.com/video/BV1rW411j7ND I'm gonna swing from the chandelier, from the chandelier. I'm gonna live like tomorrow doesn't exist, like...
 ---
-
 
 <iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></center>

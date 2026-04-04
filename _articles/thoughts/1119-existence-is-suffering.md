@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2023-01-21 11:06:46
 aliases: ['存在即痛苦']
 created: 2023-01-21 11:06:46
 modified: 2025-11-15 11:33:28
-tags: ['fuck-reality', 'writing/thought']
+tags: ['fuck-reality', 'writing/thought', 'public']
+draft: False
 title: 存在即痛苦
 description: Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 Rick and Morty Presents Jerryboree[^JERRYBOREE] 中讲了杰瑞托管所的真相，我印象很深，在漫画中, X-198 号杰瑞吃了 GOD PILL, 成为 GOD 后做的第一件事，就是 NO MORE JERRYS, 结束了其他 Jerry 的一生。为什么呢? ...
 ---
-
 
 Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 *Rick and Morty Presents: Jerryboree*[^JERRYBOREE] 中讲了杰瑞托管所的真相，我印象很深，在漫画中, `X-198` 号杰瑞吃了 *GOD PILL*, 成为 GOD 后做的第一件事，就是 *NO MORE JERRYS*, 结束了其他 Jerry 的一生。为什么呢?
 

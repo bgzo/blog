@@ -3,12 +3,11 @@ title: Giving up Logseq
 aliases: ['Giving up Logseq', '放弃 Logseq']
 created: 2024-12-09 12:00:00
 modified: 2026-03-29 09:06:33
-comments: True
+published: 2024-12-09 12:00:00
+tags: ['give-up', 'writing/thought', 'public']
 draft: False
-tags: ['give-up', 'writing/thought']
 description: Okey, I know it's ridiculous and hard to say I give up ~logseq-logseq. I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released ve...
 ---
-
 
 Okey, I know it's ridiculous and hard to say: **I give up ~logseq-logseq**.
 

@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2024-06-15 12:00:00
 aliases: ['成为女性']
 created: 2024-06-15 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['feminism', 'writing/thought']
+tags: ['feminism', 'writing/thought', 'public']
+draft: False
 title: 成为女性
 description: via https//www.youtube.com/watch?v=wp43OdtAAk And if I only could, I'd make a deal with God, And I'd get him to swap our places, Be running up that road, Be running up that hill, Be running up that bu...
 ---
-
 
 <iframe src="https://www.youtube.com/embed/wp43OdtAAk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=wp43OdtAAk' target='_blank' class='external-link'>https://www.youtube.com/watch?v=wp43OdtAAk</a></center>

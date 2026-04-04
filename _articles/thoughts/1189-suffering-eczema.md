@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2024-05-25 12:00:00
 aliases: ['湿疹复发']
 created: 2024-05-25 12:00:00
 modified: 2025-11-15 11:33:28
-tags: ['self-healing', 'writing/thought']
+tags: ['self-healing', 'writing/thought', 'public']
+draft: False
 title: 湿疹复发
 description: via https//www.youtube.com/watch?v=zABLecsR5UE I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I wan...
 ---
-
 
 <iframe src="https://www.youtube.com/embed/zABLecsR5UE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <center>via: <a href='https://www.youtube.com/watch?v=zABLecsR5UE' target='_blank' class='external-link'>https://www.youtube.com/watch?v=zABLecsR5UE</a></center>

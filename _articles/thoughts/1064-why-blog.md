@@ -1,14 +1,13 @@
 ---
-comments: True
-draft: False
+published: 2022-01-01 13:08:00
 aliases: ['Why blog today', '为什么写博客']
 created: 2022-01-01 13:08:00
 modified: 2025-11-15 19:23:53
 title: Why blog today
-tags: ['writing/thought']
+tags: ['writing/thought', 'public']
+draft: False
 description: Remember[^memory-disappear] [^memory-disappear] 表达欲是有窗口期的，很多不愿忘记的想法和感受，就得马上写下来，要不然过段时间回忆不起来会更加难受。但表达总是有成本的，各个记录的媒介代价不一，文字，录音，照片，影像，甚至是现在的 AI 每种媒介都有自己的分野，侧重点不同。我比较古板，还是喜欢写文章，因为它几乎是所有媒介剔骨去肉留下的最终产物。 Afte...
 ---
-
 
 ## Remember[^memory-disappear]
 
