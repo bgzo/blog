@@ -1,6 +1,6 @@
 ---
 title: Openclaw 踩坑
-aliases: ['20260222', 'Openclaw 踩坑']
+aliases: ['Openclaw 踩坑']
 created: 2026-02-22 01:23:54
 modified: 2026-02-27 23:16:30
 published: 2026-02-22 01:23:54
