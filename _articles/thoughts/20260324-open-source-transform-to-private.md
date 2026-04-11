@@ -2,9 +2,9 @@
 title: 开源是手段而不是目的
 aliases: ['开源是手段而不是目的']
 created: 2026-03-24 22:18:39
-modified: 2026-03-28 18:11:34
+modified: 2026-04-11 18:50:18
 published: 2026-03-24 22:18:39
-tags: ['opensource', 'writing/thought', 'blog', 'public']
+tags: ['blog', 'opensource', 'public', 'writing/thought']
 draft: False
 description: "我再也不用担心 Token 泄漏、版权、审查的问题，我似乎又重新获得了创作的自由"
 ---

@@ -2,9 +2,9 @@
 title: 怀念逝去的 Twitter
 aliases: ['怀念逝去的 Twitter']
 created: 2026-02-10 07:31:17
-modified: 2026-02-10 07:37:57
+modified: 2026-04-11 18:50:18
 published: 2026-02-10 07:31:17
-tags: ['twitter', 'writing/thought', 'llm', 'public']
+tags: ['llm', 'public', 'twitter', 'writing/thought']
 draft: False
 description: 在马斯克收购 Twitter 之后不久，免费的 API 就被砍了，这影响了非常多的下游服务，其实，算得上是一个公共空间的坍塌，因为你再也没有办法检索过去那些日子的数据了，官方的搜索做的一塌糊涂，每次搜索都没有一致性，完全没法用，总的来说，跟 17 年 贴吧删帖没区别，这次只是把门被堵上了。 当时有一个免费服务 https//tweethunter.io ，可以查看当前这个人的最热推文，这是我最喜欢...
 ---
