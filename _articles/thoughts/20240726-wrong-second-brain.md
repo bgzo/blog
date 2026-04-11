@@ -121,7 +121,7 @@ Reddit 有很多人把 Life 和 Work 分开，我自己也觉得 Programming 可
 
 遵循这些令人生畏的观点，我也准备对自己的知识库进行大刀阔斧的改动，也许未来有一期我也可以交上比这个更加优秀的 homework.
 
-![](https://raw.githack.com/bGZo/assets/dev/2024/Screenshot%202024-07-26%20210740-or8.png)
+![](https://img.bgzo.cc/2024/Screenshot%202024-07-26%20210740-or8.png)
 
 (2943 个页面，这已经是一个优化过的版本了，取消了 `alias`，也隐藏了大量的属性和基础页面)
 

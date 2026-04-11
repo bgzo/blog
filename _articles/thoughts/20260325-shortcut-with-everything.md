@@ -33,7 +33,7 @@ description: 我一直认为，人生中的每件事情都是有捷径的。 比
 
 早点睡吧。
 
-![](https://raw.githack.com/bGZo/assets/dev/2026/20260307191144642.webp)
+![](https://img.bgzo.cc/2026/20260307191144642.webp)
 
 ---
 
