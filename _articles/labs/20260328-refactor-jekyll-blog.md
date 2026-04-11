@@ -2,9 +2,9 @@
 title: 重构 Jekyll 博客
 aliases: ['重构 Jekyll 博客']
 created: 2026-03-28 13:57:04
-modified: 2026-03-30 22:09:20
+modified: 2026-04-11 18:50:18
 published: 2026-03-28 13:57:04
-tags: ['blog', 'callout', 'jekyll', 'rss', 'writing/lab', 'public']
+tags: ['blog', 'callout', 'jekyll', 'public', 'rss', 'writing/lab']
 draft: False
 description: 因为种种原因，我需要统一： https//note.bgzo.cc https//blog.bgzo.cc https//bgzo.cc 这几个网站的定位，考虑到自己的 blog.bgzo.cc 已经存在很长一段时间了，并且已被 V2EX 收录，最终考虑依然将自己的大部分文章放在这里，note.bgzo.cc 专注零碎的思考，bgzo.cc 只是个人探索的项目。 Jekyll 兼容自定义类型的 M...
 ---

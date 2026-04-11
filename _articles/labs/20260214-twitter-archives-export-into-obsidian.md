@@ -2,9 +2,9 @@
 title: Twitter 数据导出
 aliases: ['Twitter 数据导出']
 created: 2026-02-14 18:39:04
-modified: 2026-02-16 11:05:18
+modified: 2026-04-11 18:50:18
 published: 2026-02-14 18:39:04
-tags: ['writing/lab', 'twitter', 'export-to-obsidian', 'public']
+tags: ['export-to-obsidian', 'public', 'twitter', 'writing/lab']
 draft: False
 description: 本文为 黑曜石导入计划 的一部分，理由自不必多说。 我们来看看怎么做？ 1. 官方存档； 2. API 爬取； 官方存档 官方从 Twitter 就一直有这个功能，支持下载自己的全部推文，还有账号的一些其他数据，如果里面的 README 文件所述不假，那么这个存档文件可能会超过 50GB。Of course, 一切都需要在你账号没有被彻底封禁之前请求，封掉就什么都没有了😊。 这也是一个偷懒的方法，...
 ---
