@@ -33,3 +33,10 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# Fix for Ruby 3.4+ (csv, base64 等不再是默认标准库)
+gem "csv"
+gem "base64"
+# Fix bigdecimal 或 logger
+# gem "bigdecimal"
+# gem "logger"
