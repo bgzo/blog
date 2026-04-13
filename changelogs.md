@@ -5,6 +5,15 @@ title: Changelogs
 
 # Changelogs
 
+## 20260414
+
+Cloudflare Workers pages building support, now we have those sites:
+
+1. https://blog.bgzo.cc/
+2. https://bgzo.github.io/blog/
+3. https://blog.lfh010618.workers.dev/
+4. https://blog-bgzo.vercel.app/
+
 ## 20260327
 
 No more issue blog, all blogs are pushed by github action automatically.
