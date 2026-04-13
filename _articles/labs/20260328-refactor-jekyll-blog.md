@@ -2,13 +2,12 @@
 title: 重构 Jekyll 博客
 aliases: ['重构 Jekyll 博客']
 created: 2026-03-28 13:57:04
-modified: 2026-03-30 22:09:20
-comments: True
+modified: 2026-04-11 18:50:18
+published: 2026-03-28 13:57:04
+tags: ['blog', 'callout', 'jekyll', 'public', 'rss', 'writing/lab']
 draft: False
-tags: ['blog', 'callout', 'jekyll', 'rss', 'writing/lab']
 description: 因为种种原因，我需要统一： https//note.bgzo.cc https//blog.bgzo.cc https//bgzo.cc 这几个网站的定位，考虑到自己的 blog.bgzo.cc 已经存在很长一段时间了，并且已被 V2EX 收录，最终考虑依然将自己的大部分文章放在这里，note.bgzo.cc 专注零碎的思考，bgzo.cc 只是个人探索的项目。 Jekyll 兼容自定义类型的 M...
 ---
-
 
 因为种种原因，我需要统一：
 
@@ -36,8 +35,6 @@ aliases:
   - xxx
 created: 2026-03-28T13:57:04
 modified: 2026-03-28T16:52:30
-comments: true
-draft: true
 tags:
   - writing/lab
 ```
@@ -50,12 +47,12 @@ tags:
 > [!TIP]
 > 关于为什么第二方案必须重新定义一套规则，因为 `site.posts` 在 Jekyll 里面是**硬编码**，不可配置的。比如不按人家的命名规则走， `site.posts` 永远为空。
 
-| 比较                | `site.posts`          | 自定义 collection                       |     |
-| ----------------- | --------------------- | ------------------------------------ | --- |
-| 来源目录              | 只能是 `_posts`          | `_<name>/` 任意命名                      |     |
-| 文件名要求             | 必须 `YYYY-MM-DD-title` | 无限制                                  |     |
-| 内置 `date` 解析      | 自动从文件名提取              | 需自己在 front matter 写 `date`/`created` |     |
-| `output: true` 默认 | 是                     | 显式配置                                 |     |
+| 比较                | `site.posts`            | 自定义 collection                         |     |
+| ------------------- | ----------------------- | ----------------------------------------- | --- |
+| 来源目录            | 只能是 `_posts`         | `_<name>/` 任意命名                       |     |
+| 文件名要求          | 必须 `YYYY-MM-DD-title` | 无限制                                    |     |
+| 内置 `date` 解析    | 自动从文件名提取        | 需自己在 front matter 写 `date`/`created` |     |
+| `output: true` 默认 | 是                      | 显式配置                                  |     |
 
 考虑了一下，果断选择方案 2。
 
