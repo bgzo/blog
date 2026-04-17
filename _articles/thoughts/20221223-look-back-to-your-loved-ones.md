@@ -1,6 +1,6 @@
 ---
 title: Look back to your loved ones
-aliases: ['Look back to your loved ones', '还不是想有人爱']
+aliases: ['Look back to your loved ones']
 created: 2022-12-23 11:21:37
 modified: 2026-04-11 18:50:20
 published: 2022-12-23 11:21:37
