@@ -15,8 +15,11 @@ layout: none
     <name>{{ site.author | xml_escape }}</name>
   </author>
   {% endif %}
-  {% assign articles = site.articles | sort: "created" | reverse %}
-  {% for post in articles limit: 50 %}
+  {% assign rss_articles = site.articles
+    | where_exp: "item", "item.path contains '_articles/labs/' or item.path contains '_articles/thoughts/' or item.path contains '_articles/stories/'"
+    | sort: "created"
+    | reverse %}
+  {% for post in rss_articles limit: 50 %}
   <entry>
     <title type="html">{{ post.title | xml_escape }}</title>
     <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
