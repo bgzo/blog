@@ -6,11 +6,8 @@ modified: 2026-04-11 18:50:19
 published: 2024-06-08 12:00:00
 tags: ['public', 'writing/thought']
 draft: False
-description: via https//www.youtube.com/watch?v=2vjPBrBU-TM via https//www.bilibili.com/video/BV1rW411j7ND I'm gonna swing from the chandelier, from the chandelier. I'm gonna live like tomorrow doesn't exist, like...
+description: via https//www.bilibili.com/video/BV1rW411j7ND I'm gonna swing from the chandelier, from the chandelier. I'm gonna live like tomorrow doesn't exist, like it doesn't exist I'm gonna fly like a bird thr...
 ---
-
-<iframe src="https://www.youtube.com/embed/2vjPBrBU-TM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<center>via: <a href='https://www.youtube.com/watch?v=2vjPBrBU-TM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=2vjPBrBU-TM</a></center>
 
 <iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1rW411j7ND&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://www.bilibili.com/video/BV1rW411j7ND' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1rW411j7ND</a></center>
