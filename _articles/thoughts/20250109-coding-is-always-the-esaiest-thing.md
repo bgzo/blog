@@ -4,7 +4,7 @@ aliases: ['写代码总是最简单的']
 created: 2025-01-09 07:55:42
 modified: 2026-04-11 18:50:19
 published: 2025-01-09 07:55:42
-tags: ['public', 'writing/thought']
+tags: ['public', 'writing/thought', 'coding']
 draft: False
 description: 周三晚，兴冲冲的跑回家，简单清洗身体，瘫软在床上，打开 Mac，迫不及待地写下心心念念整个白天的代码，启动，调试，修改，再次启动。 「对，要的就是这个」 不出意外地，想了一白天的 Feature 很快就实现了，成就感拉爆！Push 代码，提 PR，等待仓库主的回复。 10 分钟过去，一个小时过去，半天过去，一天过去，一周过去，没有任何消息，没有任何动静。似乎没有人愿意 Review 你的代码，可能...
 ---

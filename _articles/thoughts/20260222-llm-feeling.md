@@ -4,7 +4,7 @@ aliases: ['蒸汽机后时代的人们']
 created: 2026-02-22 15:54:03
 modified: 2026-04-11 18:50:18
 published: 2026-02-22 15:54:03
-tags: ['llm', 'public', 'translate', 'writing/lab']
+tags: ['llm', 'public', 'translate', 'writing/thought']
 draft: False
 description: 现在最像历史上什么时候呢？ 蒸汽机发明之后的英国，人们以为生产力的提升可以解放人类，释放出来更多的空闲时间，但实际上不是这样的，就像人们以为 AI 出来不会干活了，是这样吗？ 没有失业就不错了，但这只是暂时的。 2025 年 LLM 为了打消自己的焦虑，这个假期折腾了一下过去一年比较热门的技术，切入点就是 Copilot 的配置，我从一个 TW 卖客的那里学到了基础的配置 https//githu...
 ---
