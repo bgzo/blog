@@ -5,6 +5,7 @@ created: 2024-06-08 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-06-08 12:00:00
 tags: ['public', 'writing/thought']
+comment: True
 draft: False
 description: via https//www.bilibili.com/video/BV1rW411j7ND I'm gonna swing from the chandelier, from the chandelier. I'm gonna live like tomorrow doesn't exist, like it doesn't exist I'm gonna fly like a bird thr...
 ---
