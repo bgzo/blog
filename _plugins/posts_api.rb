@@ -1,4 +1,5 @@
 require 'json'
+require 'fileutils'
 
 # Generates /api/posts/N.json — paginated post index files (archives excluded).
 # Each file is ~13KB regardless of total article count, solving linear growth.
@@ -11,6 +12,18 @@ module PostsApiGenerator
 end
 
 Jekyll::Hooks.register :site, :post_write do |site|
+  # Copy favicon.ico to the root directory
+  source_favicon = File.join(site.source, 'assets', 'favicons', 'favicon.ico')
+  target_favicon = File.join(site.dest, 'favicon.ico')
+
+  if File.exist?(source_favicon)
+    FileUtils.cp(source_favicon, target_favicon)
+    Jekyll.logger.info 'Favicon:', 'Copied /assets/favicons/favicon.ico -> /favicon.ico'
+  else
+    Jekyll.logger.warn 'Favicon:', "Source file not found: #{source_favicon}"
+  end
+
+  # Generate paginated posts API
   per_page = 5
 
   all_docs = site.collections['articles']&.docs
