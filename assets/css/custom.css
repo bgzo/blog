@@ -535,7 +535,8 @@ sup {
 .footer {
   font-size: 14px;
   color: var(--ls-teryiary-font-color);
-  margin-top: 20px;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 /* ── Year-grouped post lists ── */
