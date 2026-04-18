@@ -3,7 +3,9 @@ layout: default
 title: Labs
 ---
 
-## Labs
+<div class="preface">
+First, I don't know whether it's useful or not, but I still will try it anyway, so I could figure out, finally I would write it here.
+</div>
 
 {% assign labs_posts = site.articles | where_exp: "item", "item.path contains '_articles/labs/'" | sort: "created" | reverse %}
 {% assign current_year = "" %}

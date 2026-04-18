@@ -3,7 +3,9 @@ layout: default
 title: Home
 ---
 
-## Recently
+<div class="preface">
+They tried to bury us, but they didn't realise we were seeds. 
+</div>
 
 <ul class="posts">
   {% assign all_posts = site.articles %}

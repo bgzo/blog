@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: README
 ---
 
 # 见字如面

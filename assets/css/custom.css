@@ -130,6 +130,35 @@ nav ul li:not(:last-of-type) {
   margin-right: 1rem;
 }
 
+.preface {
+  position: relative;
+  margin: 0 0 2rem;
+  padding: 0.1rem 0 0.1rem 1.25rem;
+  border-left: 1px solid var(--ls-teryiary-font-color);
+  opacity: 0.72;
+  color: var(--ls-teryiary-font-color);
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  letter-spacing: 0.03em;
+  animation: preface-reveal 1.2s ease-out both;
+}
+
+@keyframes preface-reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.72;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .preface {
+    animation: none;
+  }
+}
+
 .posts {
   list-style: none;
   padding-left: 1.25rem;

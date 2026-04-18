@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Thoughts
+title: Stories
 ---
 
 <div class="preface">
-45公斤水，3公斤碳水化合物，7公斤脂肪，12公斤蛋白质，639块肌肉，97隆克孤独和一些思想将长眠于此。
+Those things might be not real, but it it.
 </div>
 
-{% assign thoughts_posts = site.articles | where_exp: "item", "item.path contains '_articles/thoughts/'" | sort: "created" | reverse %}
+{% assign stories_posts = site.articles | where_exp: "item", "item.path contains '_articles/stories/'" | sort: "created" | reverse %}
 {% assign current_year = "" %}
-{% for post in thoughts_posts %}
+{% for post in stories_posts %}
   {% assign post_year = post.created | date: "%Y" %}
   {% if post_year != current_year %}
     {% unless forloop.first %}</ul></div>{% endunless %}
@@ -23,4 +23,7 @@ title: Thoughts
     </time>
   </li>
 {% endfor %}
-{% if thoughts_posts.size > 0 %}</ul></div>{% endif %}
+{% if labs_posts.size > 0 %}</ul></div>{% endif %}
+
+
+
