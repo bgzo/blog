@@ -5,7 +5,7 @@ created: 2024-05-18 12:00:00
 modified: 2026-04-11 18:50:20
 published: 2024-05-18 12:00:00
 tags: ['life', 'public', 'weekly/1188', 'writing/seed']
-comment: True
+comments: True
 draft: False
 description: via https//www.youtube.com/watch?v=UtF6Jej8yb4 [!note] When I was sixteen, my father said "You can do anything you want with your life, you just need the will to work hard and get it." ==That's when I...
 ---

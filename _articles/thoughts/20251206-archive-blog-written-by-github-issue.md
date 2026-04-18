@@ -5,7 +5,7 @@ created: 2025-12-06 11:15:36
 modified: 2026-04-11 18:50:20
 published: 2025-12-06 11:15:36
 tags: ['public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: 这曾经是一个比火热的写作方式，至少在 2020 年是如此，我也是听、看 laike9m 和 yihong618 的项目慢慢摸索的，它有很多优点，比如至少解决了如下的问题： 1. 文章托管：所有文件放在 GitHub，他的稳定性至少要比你电脑的寿命要长； 2. 图片引用：所有本地写过博客的人一定头疼过如何上传图片，这方面不赘述了； 3. SEO 索引：GitHub issue 自带 SEO 索引，会...
 ---

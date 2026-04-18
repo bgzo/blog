@@ -5,7 +5,7 @@ created: 2026-03-22 15:31:22
 modified: 2026-04-11 18:50:18
 published: 2026-03-22 15:31:22
 tags: ['game/switch', 'mint', 'public', 'streaming', 'writing/lab']
-comment: True
+comments: True
 draft: False
 description: 最近我发现自己根本不需要什么 Win/Android/毫米波 掌机，也不需要折腾 如何在安卓模拟器上玩游戏，我有硬破的 Switch，里面就有 Moonlight，我可以直接串流到服务器上去玩游戏！ 突然感觉香起来了。 准备什么 1. 一台 24h 开机的服务器 2. 已经安装 Steam 3. https//github.com/LizardByte/Sunshine 1. https//git...
 ---
