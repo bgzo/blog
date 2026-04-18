@@ -19,5 +19,9 @@
     %} {% include callout.html %} {% include top.html %} {% if page.comments ==
     true or page.comments == "True" %} {% include giscus.html %} {% endif %} {%
     include source.html %}
+    <script
+      src="{{ '/assets/js/code-blocks.js' | relative_url }}"
+      defer
+    ></script>
   </body>
 </html>

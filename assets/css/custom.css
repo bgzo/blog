@@ -19,6 +19,8 @@
   --magenta: #d33682;
   --violet: #6c71c4;
   --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
   --sakura: #fedfe1;
   --cache: #ddd6c1;
   --shironeri: #fcfaf2;
@@ -95,9 +97,91 @@ body {
   margin-bottom: 2rem;
 }
 
-.highlight {
-  overflow-x: auto;
+/* ===== Code Blocks ===== */
+
+/* Reset word-break so long lines scroll, not wrap */
+pre, code, kbd, samp {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+/* Inline code */
+:not(pre) > code {
+  font-size: 0.875em;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  background-color: var(--ls-secondary-background-color);
+}
+
+/* Outermost Rouge wrapper */
+div.highlighter-rouge {
+  margin: 1.5rem 0;
   border-radius: var(--border-radius);
+  border: 1px solid var(--ls-tertiary-background-color);
+  overflow: hidden;
+}
+
+div.highlighter-rouge .highlight {
+  background-color: var(--ls-secondary-background-color);
+  overflow: hidden;
+}
+
+div.highlighter-rouge pre.highlight {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  white-space: pre;
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+
+/* Code header bar (injected by JS) */
+.code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0.75rem;
+  /* background-color: var(--ls-tertiary-background-color); */
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--ls-tertiary-background-color);
+  user-select: none;
+}
+
+.code-lang {
+  font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ls-secondary-font-color);
+  opacity: 0.8;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-family: inherit;
+  padding: 0.18rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  color: var(--ls-secondary-font-color);
+  opacity: 0.65;
+  transition: opacity 0.15s, border-color 0.15s;
+  line-height: 1;
+}
+
+.copy-btn:hover {
+  opacity: 1;
+  border-color: var(--ls-secondary-font-color);
+}
+
+.copy-btn.copied {
+  opacity: 1;
+  color: var(--green);
+  border-color: var(--green);
 }
 
 main img {

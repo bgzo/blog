@@ -1,0 +1,101 @@
+/*
+ * Solarized syntax highlighting for Rouge
+ * Adapts to light/dark mode via CSS variables defined in custom.css
+ */
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+
+/* Comments */
+.highlight .c,
+.highlight .cd,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs { color: var(--base01); font-style: italic; }
+
+/* Preprocessor */
+.highlight .cp { color: var(--orange); }
+
+/* Error */
+.highlight .err { color: var(--red); }
+
+/* Generic diff */
+.highlight .gd { color: var(--red); }
+.highlight .ge { font-style: italic; }
+.highlight .gr { color: var(--red); }
+.highlight .gh { color: var(--orange); font-weight: bold; }
+.highlight .gi { color: var(--green); }
+.highlight .go { color: var(--base0); }
+.highlight .gp { color: var(--base01); font-weight: bold; }
+.highlight .gs { font-weight: bold; }
+.highlight .gu { color: var(--violet); font-weight: bold; }
+.highlight .gt { color: var(--red); }
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kv { color: var(--green); }
+.highlight .kt { color: var(--yellow); }
+
+/* Numbers */
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .il,
+.highlight .mo,
+.highlight .mx { color: var(--cyan); }
+
+/* Strings */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1,
+.highlight .ss { color: var(--cyan); }
+
+/* Regex */
+.highlight .sr { color: var(--red); }
+
+/* Names */
+.highlight .na { color: var(--blue); }
+.highlight .nb { color: var(--blue); }
+.highlight .nc { color: var(--yellow); font-weight: bold; }
+.highlight .no { color: var(--yellow); }
+.highlight .nd { color: var(--blue); }
+.highlight .ni { color: var(--orange); }
+.highlight .ne { color: var(--red); font-weight: bold; }
+.highlight .nf { color: var(--blue); }
+.highlight .nl { color: var(--base0); }
+.highlight .nn { color: var(--yellow); }
+.highlight .nt { color: var(--blue); }
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi { color: var(--blue); }
+.highlight .bp { color: var(--base0); }
+
+/* Operators */
+.highlight .o,
+.highlight .ow { color: var(--base0); }
+
+/* Whitespace */
+.highlight .w { color: var(--base0); }
+
+/* Punctuation */
+.highlight .p,
+.highlight .pi { color: var(--base0); }
+
+/* Background - uses secondary bg (base02 dark / base2 light) */
+/* .highlight { background-color: var(--ls-secondary-background-color); } */
+.highlight { background-color: transparent !important; }
