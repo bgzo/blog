@@ -3,7 +3,9 @@ layout: default
 title: Thoughts
 ---
 
-## Thoughts
+<div class="preface">
+45公斤水，3公斤碳水化合物，7公斤脂肪，12公斤蛋白质，639块肌肉，97隆克孤独和一些思想将长眠于此。
+</div>
 
 {% assign thoughts_posts = site.articles | where_exp: "item", "item.path contains '_articles/thoughts/'" | sort: "created" | reverse %}
 {% assign current_year = "" %}
