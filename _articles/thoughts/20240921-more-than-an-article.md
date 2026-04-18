@@ -5,7 +5,7 @@ created: 2024-09-21 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-09-21 12:00:00
 tags: ['public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: 我很喜欢记东西，用过非常多的工具，当然积累了非常大的比计量，就像 20240726-wrong-second-brain 里面提到的，笔记不应该是如此廉价的东西，要不然就会像现在的我一样，信息过载，淹没在自己的文字地狱中，更加难以回顾，加以输出利用。 一篇文章能做的事情，仅仅是把我当下做的事情，以日志的形式，记录下来，就像程序打 LOG，不知道你有没有翻过 .bashhistroy / Conso...
 ---

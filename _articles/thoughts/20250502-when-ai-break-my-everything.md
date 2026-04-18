@@ -5,7 +5,7 @@ created: 2025-05-02 10:35:57
 modified: 2026-04-11 18:50:19
 published: 2025-05-02 10:35:57
 tags: ['public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: via https//notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio 最近丧失一些表达欲，因为我意识到写出来也对我的生活无济于事，我可能耗费了整个下午的时间写一篇文章，但转头文章就喂给了 AI，甚至可能都不会喂给 AI，因为压根就没有人看，但这是我一开始写作的目的吗？ 所以当我开始不再强迫自己写作的...
 ---

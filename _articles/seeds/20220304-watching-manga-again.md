@@ -5,7 +5,7 @@ created: 2022-03-04 10:45:31
 modified: 2026-04-11 18:50:19
 published: 2022-03-04 10:45:31
 tags: ['bilibili', 'copyright', 'manga', 'public', 'writing/seed']
-comment: True
+comments: True
 draft: False
 description: 最近因为买了 三星 Tab S4，常常用它来看电子书，当然漫画也算电子书的一种，加上上了大学有了零用钱，终于可以开始支持正版漫画了，所以一直在用 bilibili 家的漫画客户端。 自（动漫之）家被抄家之后 ，就失去了能看漫画的地方，漫画柜又被墙，总是加载不出来，不再为大陆提供阅读服务，但真的是我们感觉的那样吗？真的不是 GFW 从中做梗吗？ 漫画柜并没有倒闭，人家无差别地提供服务，BAN 掉的只...
 ---
