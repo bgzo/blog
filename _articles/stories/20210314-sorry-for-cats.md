@@ -5,6 +5,7 @@ created: 2021-03-14 10:41:03
 modified: 2026-04-11 18:50:19
 published: 2021-03-14 10:41:03
 tags: ['cat', 'public', 'writing/story']
+comment: True
 draft: False
 description: 养猫这档事 猫 (Felis catus) 隶属动物界脊索动物门哺乳纲食肉目猫科猫属，而智人 (Homo sapiens) 隶属动物界脊索动物门哺乳纲灵长目人科人属，两个种族的动物，怎么就能产生人类一方甘愿为奴的羁绊? 我看过一篇这样的论文： 学生时代，教科书的某种病名跟你也是那样相似： 猫叫综合征（英语：Cri du chat syndrome），也称猫哭症、猫啼症、5 号染色体短臂缺失综合征（...
 ---

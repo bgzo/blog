@@ -5,6 +5,7 @@ created: 2025-10-26 22:00:04
 modified: 2026-04-11 18:50:19
 published: 2025-10-26 22:00:04
 tags: ['public', 'writing/thought']
+comment: True
 draft: False
 description: 来写写浏览器使用的心路历程吧，我没有能力开发出属于自己的浏览器，只能在这些产品中徘徊，最终我回到了原点，Firefox(下称 FF，火狐)。 最开始，我还不会用 Google 的时候，我用的是 FF 中国的服务，但总是磕磕绊绊有问题，最终我转到了 FF 国际的服务。 然后，在学习 Linux 的时候，我迷上了 Ubuntu，把电脑全部换成了这个操作系统，当时在 Ubuntu 上，语雀等网络工具在 ...
 ---

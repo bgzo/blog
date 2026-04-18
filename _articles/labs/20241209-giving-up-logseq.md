@@ -5,6 +5,7 @@ created: 2024-12-09 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-12-09 12:00:00
 tags: ['give-up', 'public', 'writing/lab']
+comment: True
 draft: False
 description: Okey, I know it's ridiculous and hard to say I give up ~logseq-logseq. I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released ve...
 ---

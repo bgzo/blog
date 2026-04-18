@@ -5,6 +5,7 @@ created: 2024-07-26 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-07-26 12:00:00
 tags: ['public', 'writing/thought', 'obsidian', 'writing/changelog']
+comment: True
 draft: False
 description: 这个概念，24 年才写也许已有明日黄花之嫌，但从我个人说起，Logseq 发布后，经 V2ex 推荐之后，就再也没有松手过，我爱这个 All in one 的东西，之前还在大学的时候，了解它的手段只是通过 changelog 一个版本一个版本地过日志，这是一个了解软件最近发生什么的潘多拉。因为它，我几乎没有看过官方的博客，也几乎没有点开文档中的其他细节。 至于为什么要比作潘多拉？因为软件的很多特性...
 ---

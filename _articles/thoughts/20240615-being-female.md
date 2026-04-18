@@ -5,6 +5,7 @@ created: 2024-06-15 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-06-15 12:00:00
 tags: ['feminism', 'public', 'writing/thought']
+comment: True
 draft: False
 description: via https//www.youtube.com/watch?v=wp43OdtAAk And if I only could, I'd make a deal with God, And I'd get him to swap our places, Be running up that road, Be running up that hill, Be running up that bu...
 ---

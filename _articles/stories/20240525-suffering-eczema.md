@@ -5,6 +5,7 @@ created: 2024-05-25 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-05-25 12:00:00
 tags: ['public', 'self-healing', 'writing/story']
+comment: True
 draft: False
 description: via https//www.youtube.com/watch?v=zABLecsR5UE I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I wan...
 ---

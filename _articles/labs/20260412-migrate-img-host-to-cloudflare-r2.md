@@ -4,6 +4,7 @@ aliases: ['图床迁移 Cloudflare R2']
 created: 2026-04-12 00:55:38
 modified: 2026-04-12 22:09:38
 tags: ['blog', 'cloudflare', 'public', 'writing/lab']
+comment: True
 draft: False
 published: 2026-04-12 16:23:58
 description: 不得不说 CF 是互联网界的活菩萨，免费提供的对象存储量大管饱，对我这种没人看的小透明足够了： 存储：10GB/月免费，每增加 1GB/月收取 0.015 美元 A 类操作：100 万次操作/月免费，每增加 100 万次操作收取 4.50 美元 B 类操作：1000 万次操作/月免费，每增加 100 万次操作收取 0.36 美元 出口流量费全免 [!TIP] 什么意思呢？只有访问次数计入账单（A ...

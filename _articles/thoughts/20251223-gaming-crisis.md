@@ -5,6 +5,7 @@ created: 2025-12-23 22:12:21
 modified: 2026-04-11 18:50:19
 published: 2025-12-23 22:12:21
 tags: ['public', 'writing/thought']
+comment: True
 draft: False
 description: 最近不是把 SD 都卖掉了吗？可我还是想要打游戏，所以不甘心，下意识就开始打起了其他掌机的主意。 我看 Ally X，Ally Xbox X，Switch OLED 这些，看了很久，但都没有下手。 首先，我卖掉 SD 是因为它没有办法很好的玩盗版游戏，很多游戏需要依赖 Proton 兼容层，如果只装这个就算了，但是你还是得装个 Steam，可以说，Linux 下一半都游戏体验都是 Steam 给的...
 ---

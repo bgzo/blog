@@ -5,6 +5,7 @@ created: 2025-10-12 00:39:37
 modified: 2026-04-11 18:50:19
 published: 2025-10-12 00:39:37
 tags: ['public', 'writing/lab']
+comment: True
 draft: False
 description: Astro 是什么 核心思想是群岛架构，不同与传统 VUE 的单页应用，而是对于不用页面按需加载，在网页加载速度和架构兼容性上来说是一流。 模板的注入类似 Jekyll，但是比前者更加灵活。 Bun 是什么 是用 Zig 语言实现的另一个 Javascript 运行时，目标是兼容 Node.js，提供更加快速的构建体验。 初始化一个 Astro 项目 添加 Vue / TailwindCSS 等依...
 ---
