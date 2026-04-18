@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: post
+created: 2022-03-17T00:00:00
+modified: 2026-04-18T00:00:00
 title: Changelogs
 ---
-
-# Changelogs
 
 ## 20260414
 
@@ -16,7 +16,9 @@ Cloudflare Workers pages building support, now we have those sites:
 
 ## 20260327
 
-No more issue blog, all blogs are pushed by github action automatically.
+No more issue blog, all blogs are pushed by github action automatically. 
+
+Refactor the whole blog. via: [Refactor the whole blog - bgzo's blog - GitHub](../20260328-refactor-jekyll-blog.html)
 
 ## 20250212
 
