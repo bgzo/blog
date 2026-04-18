@@ -5,7 +5,7 @@ created: 2025-11-22 09:14:46
 modified: 2026-04-11 18:50:20
 published: 2025-11-22 09:14:46
 tags: ['public', 'writing/story']
-comment: True
+comments: True
 draft: False
 description: 最早玩部落冲突（下称 COC）还是 2014、2015 年，那会儿最高的基地也就是 10 本，那个时候甚至还没有渠道服，虽然偶尔网会掉线，并且无法登录 Google 和 Supercell ID， 但是仍然可以裸连 Super Cell（下称 SC） 服务器，唯一缺点就是账号存在本地，换手机就意味着从头开始。 有个记忆深刻的点，那会儿有个朋友在我刚玩的时候就姗姗的笑笑，说自己早就满防不玩了，并甩给...
 ---

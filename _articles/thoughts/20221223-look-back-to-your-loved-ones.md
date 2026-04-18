@@ -5,7 +5,7 @@ created: 2022-12-23 11:21:37
 modified: 2026-04-11 18:50:20
 published: 2022-12-23 11:21:37
 tags: ['public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: Last tonight I read a tweet thread written by SahilBloom, which really sparked me. Since Covid-19, little by little, I realized the precious nature of time with people I care most deeply about. When I...
 ---

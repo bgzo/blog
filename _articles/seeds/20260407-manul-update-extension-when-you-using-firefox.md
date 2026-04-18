@@ -4,7 +4,7 @@ aliases: ['用火狐还得手动更新拓展']
 created: 2026-04-07 21:52:10
 modified: 2026-04-07 22:01:47
 tags: ['firefox', 'obsidian', 'writing/seed', 'public']
-comment: True
+comments: True
 draft: False
 published: 2026-04-17 14:52:49
 description: 前几周 X 上分享了这样一个 Obsidian WebClipper 的操作场景： 很好，对吧，但是我发现 Firefox 上的插件一直是旧版，完全没有更新 1.3.0，反观 Chrome 就不一样 https//addons.mozilla.org/zh-CN/firefox/addon/web-clipper-obsidian https//chromewebstore.google.com/...

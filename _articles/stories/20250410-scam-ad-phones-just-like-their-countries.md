@@ -5,7 +5,7 @@ created: 2025-04-10 21:04:39
 modified: 2026-04-11 18:50:20
 published: 2025-04-10 21:04:39
 tags: ['public', 'writing/story']
-comment: True
+comments: True
 draft: False
 description: 最近很累，因为我又换手机了。 主力机 iPhone SE3 最近一年我的主要用这一台出行，没有什么拍照需求，上下班通勤用哈啰，吃饭扫码用支付宝，上班摸鱼听播客用 Snipd，娱乐看书用 iPad，没有什么不适。但最近我有几个「被构建」起来的的欲望： 欲望一：TypeC 口 我的耳机是 Huawei 的 FreeLace，买它的原因就是少带一根充电线，并且可以蓝牙一拖二，快充二十分钟，还带点降噪。 ...
 ---

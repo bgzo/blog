@@ -5,7 +5,7 @@ created: 2024-07-06 12:00:00
 modified: 2026-04-11 18:50:19
 published: 2024-07-06 12:00:00
 tags: ['public', 'self-care', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: via https//www.youtube.com/watch?v=m5_dNOK7oN8 [!note] The fact that I don't feel like me no more Cause I'm not who I was before I'm sorry for messing up I get the mеssage Just give me a sеcond I'm ju...
 ---

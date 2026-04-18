@@ -5,7 +5,7 @@ created: 2026-03-21 20:12:10
 modified: 2026-04-11 18:50:18
 published: 2026-03-21 20:12:10
 tags: ['ai/slop', 'public', 'twitter', 'writing/lab', 'xiaohongshu']
-comment: True
+comments: True
 draft: False
 description: 最近 X 的时间线频繁春贤一个创作者： @jackwener，他有 5 个比较有代表性的作品： bilibili-cli twitter-cli discord-cli tg-cli xiaohongshu-cli 这些全都是客户端级别的工具，面向 CLI 用户，CLI 用户是哪部份人呢？ AI。 当然也不尽然，吸引我的是这些平台的 CLI 并不好做，我正好最近在全量导出自己的数据到 Obsidi...
 ---

@@ -5,7 +5,7 @@ created: 2025-12-14 20:13:07
 modified: 2026-04-11 18:50:19
 published: 2025-12-14 20:13:07
 tags: ['export-to-obsidian', 'public', 'writing/lab']
-comment: True
+comments: True
 draft: False
 description: 基于几点原因有这方面的需求： 1. 复盘；写自己的周报用，总结看看最近一周摸鱼的结果； 2. 备份：V2 是个人站点，账号有被封禁的可能，并且没有导出数据的功能，你的数据可能永远消失； 实现 尽管 V2 过去已经开放过一版 API，但是缺少个人的部分，因此具体实现上还需要结合传统的 Cookie 网页，解析收藏列表，然后才可以通过 API 调用获得主题详情。还是希望未来有一天能有相关的接口，具体官...
 ---
