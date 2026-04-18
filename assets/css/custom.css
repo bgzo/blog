@@ -756,11 +756,6 @@ iframe[src*="bilibili"] {
   flex-direction: column;
 }
 
-/* Suppress the dangling connector line below the last visible post */
-.home-stream .post.stream-last-visible::after {
-  display: none !important;
-}
-
 /* Post excerpt */
 .post-excerpt {
   font-size: 0.82rem;
