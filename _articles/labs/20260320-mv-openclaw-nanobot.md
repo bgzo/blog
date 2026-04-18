@@ -5,7 +5,7 @@ created: 2026-03-20 22:38:33
 modified: 2026-04-11 18:50:18
 published: 2026-03-20 22:38:33
 tags: ['copilot', 'llm', 'nanobot', 'public', 'writing/lab']
-comment: True
+comments: True
 draft: False
 description: 之前有使用 Openclaw 踩坑 的经历，用起来也还可以，但有几点问题： 1. 启动慢； 2. 配置复杂； 3. 性能； Openclaw 的代码十几万行是出了名的臭，大家都知道，所以爆火之后就接二连三出来了很多语言的平替版本，有： NonoBot (Python) PicoClaw (Golang) ZeroClaw (Rust) 考虑到我的模型是 CopilotPro，并且不想走弯路，所以最...
 ---

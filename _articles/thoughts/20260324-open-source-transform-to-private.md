@@ -5,7 +5,7 @@ created: 2026-03-24 22:18:39
 modified: 2026-04-11 18:50:18
 published: 2026-03-24 22:18:39
 tags: ['blog', 'opensource', 'public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: "我再也不用担心 Token 泄漏、版权、审查的问题，我似乎又重新获得了创作的自由"
 ---

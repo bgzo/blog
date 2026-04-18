@@ -5,7 +5,7 @@ created: 2025-08-17 23:03:28
 modified: 2026-04-11 18:50:19
 published: 2025-08-17 23:03:28
 tags: ['public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: 最近不是把大馒头退了吗，但物欲没有减退，我还想要买一个 Windows 掌机，即使我已经有了 Steam Deck，因为我在玩 Galgame 的时候，总是非常麻烦： 1. 打补丁，Steam 平台的 Galgame 有时候为了过审，翻译都是错的； 2. 第三方游戏导入很麻烦，平台没有的游戏，每次只能拷贝到 SD 卡，然后在切换桌面模式，才能导入启动程序； 总的来说，我感觉非常匹配，因为 Stea...
 ---

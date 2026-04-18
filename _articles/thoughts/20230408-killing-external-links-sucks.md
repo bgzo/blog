@@ -5,7 +5,7 @@ created: 2023-04-08 11:09:43
 modified: 2026-04-11 18:50:19
 published: 2023-04-08 11:09:43
 tags: ['public', 'writing/thought']
-comment: True
+comments: True
 draft: False
 description: External links been killed 这周用 https//steampy.com 低价购入了 Dead Cells 的 CDKey，虽然 Google Play 也买了，但论搓起来的手感那是不能比的，加上原本就早年就接触的，主打手机市场的元气骑士，Rogue 算是给我创造了很多美好的回忆，借此机缘，搜到了这篇文章 —— 触乐夜话：到底是“类Rogue”还是“轻度Rogue”. 文...
 ---
