@@ -12,12 +12,12 @@
         toc.html html=content %} {% endcapture %} {% assign toc_stripped =
         toc_output | strip %} {% if toc_stripped != "" %}
         <div class="contents">{{ toc_output }}</div>
-        {% endif %} {% include outdated-notice.html %} {{ content }} {% include
-        source.html %}
+        {% endif %} {% include outdated-notice.html %} {{ content }}
       </article>
     </main>
     {% include mathjax.html %} {% include embed.html %} {% include linkify.html
     %} {% include callout.html %} {% include top.html %} {% if page.comments ==
-    True %} {% include giscus.html %} {% endif %}
+    true or page.comments == "True" %} {% include giscus.html %} {% endif %} {%
+    include source.html %}
   </body>
 </html>
