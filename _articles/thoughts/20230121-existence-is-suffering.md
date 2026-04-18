@@ -6,7 +6,7 @@ modified: 2026-04-11 18:50:20
 published: 2023-01-21 11:06:46
 tags: ['fuck-reality', 'public', 'writing/thought']
 draft: False
-description: Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 Rick and Morty Presents Jerryboree[^JERRYBOREE] 中讲了杰瑞托管所的真相，我印象很深，在漫画中, X-198 号杰瑞吃了 GOD PILL, 成为 GOD 后做的第一件事，就是 NO MORE JERRYS, 结束了其他 Jerry 的一生。为什么呢? ...
+description: Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 Rick and Morty Presents Jerryboree 中讲了杰瑞托管所的真相，我印象很深，在漫画中, X-198 号杰瑞吃了 GOD PILL, 成为 GOD 后做的第一件事，就是 NO MORE JERRYS, 结束了其他 Jerry 的一生。为什么呢? "TO BE A JERR...
 ---
 
 Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 *Rick and Morty Presents: Jerryboree*[^JERRYBOREE] 中讲了杰瑞托管所的真相，我印象很深，在漫画中, `X-198` 号杰瑞吃了 *GOD PILL*, 成为 GOD 后做的第一件事，就是 *NO MORE JERRYS*, 结束了其他 Jerry 的一生。为什么呢?
