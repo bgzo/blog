@@ -113,21 +113,33 @@ video {
   max-width: 100%;
 }
 
+/* 基础样式 */
 nav ul {
-  align-items: flex-start;
-  flex-wrap: wrap;
   display: flex;
   list-style: none;
-  padding-left: 0;
-  margin-left: 0;
+  padding: 0;
+  gap: 20px;
 }
 
-nav ul li {
-  margin-bottom: 0.75rem;
+nav a {
+  text-decoration: none;
+  /* 未激活状态 */
+  color: #888; 
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
 }
 
-nav ul li:not(:last-of-type) {
-  margin-right: 1rem;
+nav a:before {
+  background-color: initial;
+}
+
+
+/* 激活状态 */
+nav li.active a {
+  /* 激活状态*/
+  color: var(--ls-primary-font-color);
+  font-weight: 600;
 }
 
 .preface {
@@ -216,37 +228,31 @@ nav ul li:not(:last-of-type) {
   text-decoration: none;
 }
 
-.post a::before {
+.post a:before {
   display: none;
 }
 
 a {
   color: var(--ls-color-font-color);
   position: relative;
-  text-decoration: underline;
-  text-decoration-style: dashed;
+  text-decoration: none;
 }
+
 a::before {
   content: "";
   display: block;
   position: absolute;
   height: 0.5rem;
-  bottom: 2px;
-  left: 4px;
+  bottom: -2px;
+  left: 6px;
   width: 100%;
   background-color: var(--sakura);
   opacity: 0.75;
   --bg-opacity: 0.75;
   transition: transform 0.3s ease;
-  transform: scaleX(0);
-  transform-origin: bottom right;
 }
 a:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-a:hover {
-  text-decoration: none;
+  background-color: var(--magenta);
 }
 
 p {
@@ -264,7 +270,7 @@ h6 {
 
 blockquote {
   color: var(--ls-teryiary-font-color);
-  background-color: var(--shironeri);
+  /* background-color: var(--shironeri); */
   margin: 1rem 0 1rem 0;
   border-radius: var(--border-radius);
   position: relative;
@@ -478,12 +484,27 @@ tr:nth-child(n):hover td {
   all: initial;
 }
 
+sup {
+  a::before{
+    background-color: transparent !important;
+  }
+  a:hover::before{
+    background-color: transparent !important;
+  }
+}
+
 .footnotes {
   all: initial;
   color: var(--ls-teryiary-font-color) !important;
   font-family: var(--ls-font-family);
   font-size: 0.8rem;
   margin: 2rem 0 0.5rem;
+  p {
+    margin: 0 0 5px;
+  }
+  a:before {
+    background-color: transparent !important;
+  } 
 }
 .footnotes::before {
   content: "Footnotes";
@@ -494,9 +515,7 @@ tr:nth-child(n):hover td {
   display: block;
   margin: 2rem 0 0.5rem;
 }
-.footnotes p {
-  margin: 0 0 5px;
-}
+
 
 #ikaros {
   position: fixed;
@@ -610,6 +629,7 @@ tr:nth-child(n):hover td {
 
 .iframe-radius,
 .references-blocks-item {
+  border: none;
   --tw-shadow:
     0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
   border-radius: 0.5rem !important;
