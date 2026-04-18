@@ -10,9 +10,9 @@ They tried to bury us, but they didn't realise we were seeds.
 <ul class="posts home-stream" id="post-stream"></ul>
 
 <nav class="stream-pagination" id="stream-pagination" style="display:none" aria-label="Post navigation">
-  <button class="stream-nav-btn" id="btn-prev" type="button">// &lt; prev</button>
+  <button class="stream-nav-btn" id="btn-prev" type="button">&lt; prev</button>
   <span class="stream-page-info" id="page-info"></span>
-  <button class="stream-nav-btn" id="btn-next" type="button">next &gt; //</button>
+  <button class="stream-nav-btn" id="btn-next" type="button">next &gt;</button>
 </nav>
 
 <script>
@@ -59,7 +59,7 @@ They tried to bury us, but they didn't realise we were seeds.
   function loadPage(page) {
     btnPrev.disabled = true;
     btnNext.disabled = true;
-    pageInfo.textContent = '// loading...';
+    pageInfo.textContent = 'loading...';
 
     fetch(API_BASE + page + '.json')
       .then(function (r) { return r.json(); })
@@ -76,7 +76,7 @@ They tried to bury us, but they didn't realise we were seeds.
 
         // Update controls
         pagination.style.display = '';
-        pageInfo.textContent = '// p.' + currentPage + ' of ' + totalPages;
+        pageInfo.textContent = 'p.' + currentPage + ' of ' + totalPages;
         btnPrev.disabled = currentPage <= 1;
         btnNext.disabled = currentPage >= totalPages;
 

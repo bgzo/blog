@@ -11,7 +11,7 @@ module PostsApiGenerator
 end
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  per_page = 10
+  per_page = 5
 
   all_docs = site.collections['articles']&.docs
   next unless all_docs
