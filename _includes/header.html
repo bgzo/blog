@@ -71,11 +71,11 @@
 </header>
 <nav>
   <ul>
-    <li><a href="{{ '/' | relative_url }}">HOME</a></li>
-    <li><a href="{{ '/labs.html' | relative_url }}">LABS</a></li>
-    <li><a href="{{ '/thoughts.html' | relative_url }}">THOUGHTS</a></li>
-    <li><a href="{{ '/stories.html' | relative_url }}">STORIES</a></li>
-    <li><a href="{{ '/README.html' | relative_url }}">README</a></li>
+    <li{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}><a href="{{ '/' | relative_url }}">HOME</a></li>
+    <li{% if page.url == '/labs.html' or page.url == '/labs' or page.path contains '_articles/labs' %} class="active"{% endif %}><a href="{{ '/labs.html' | relative_url }}">LABS</a></li>
+    <li{% if page.url == '/thoughts.html' or page.url == '/thoughts' or page.path contains '_articles/thoughts' %} class="active"{% endif %}><a href="{{ '/thoughts.html' | relative_url }}">THOUGHTS</a></li>
+    <li{% if page.url == '/stories.html' or page.url == '/stories' or page.path contains '_articles/stories' %} class="active"{% endif %}><a href="{{ '/stories.html' | relative_url }}">STORIES</a></li>
+    <li{% if page.url == '/README.html' or page.url == '/README' %} class="active"{% endif %}><a href="{{ '/README.html' | relative_url }}">README</a></li>
   </ul>
 </nav>
 <script>
