@@ -2,7 +2,7 @@
 title: Giving up Logseq
 aliases: ['Giving up Logseq', '放弃 Logseq']
 created: 2024-12-09 12:00:00
-modified: 2026-04-11 18:50:19
+modified: 2026-04-19 00:24:48
 published: 2024-12-09 12:00:00
 tags: ['give-up', 'public', 'writing/lab']
 comments: True
@@ -239,6 +239,7 @@ Not support http embed.
 - Use spaces instead of tab: https://forum.obsidian.md/t/use-tabs-off-only-replaces-tabs-with-spaces-in-lists/3583
 - [Show location of currently open file - Feature requests - Obsidian Forum](https://forum.obsidian.md/t/show-location-of-currently-open-file/41903)
 - [Any way to disable line wrapping in code blocks? : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/zh0ih2/any_way_to_disable_line_wrapping_in_code_blocks/)
+- Migrate to Obsidian https://github.com/NishantTharani/LogSeqToObsidian
 
 [^earier-logseq]: in earlier version, they released fast, I used to learn feature via changelog. the hierachy is using via twitter, the macros via community discuss. and even someone analyze the logic of language, break it into pieces, and try explain it with Logseq.
 [^announced]:[Why the database version and how it's going? - Announcements - Logseq](https://discuss.logseq.com/t/why-the-database-version-and-how-its-going/26744/25)
