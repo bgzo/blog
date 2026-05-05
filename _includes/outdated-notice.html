@@ -1,5 +1,5 @@
 {% if page.path contains '/labs/' %}
-  {% assign ref_date = page.modified | default: page.created %}
+  {% assign ref_date = page.modified | default: page.published %}
   {% if ref_date %}
 <time id="article-updated" datetime="{{ ref_date | date: '%Y-%m-%dT%H:%M:%S' }}" hidden></time>
 <script>
