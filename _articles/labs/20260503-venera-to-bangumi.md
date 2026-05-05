@@ -1,8 +1,8 @@
 ---
-title: 同步 venera 进度到 Bangumi
-aliases: ['Sync venera data to Bangumi', '同步 venera 进度到 Bangumi']
+title: 同步 Venera 进度到 Bangumi
+aliases: ['Sync venera data to Bangumi', '同步 venera 进度到 Bangumi', '同步 Venera 进度到 Bangumi']
 created: 2026-05-03 09:59:37
-modified: 2026-05-06 00:23:56
+modified: 2026-05-06 00:41:53
 published: 2026-05-04 09:59:37
 tags: ['bangumi', 'flutter', 'gtd/todo', 'public', 'venera', 'writing/lab']
 comments: True
@@ -109,19 +109,24 @@ python3 src/parser.py dump 20575-2273.venera --include-rows --pretty -o venera_d
 },
 ```
 
-所以最大的一个问题其实变成了如何匹配 Bangumi 的数据，存在非常多情况
+所以最大的一个问题其实变成了如何匹配 Bangumi 的数据，存在非常多情况：
 
 1. 简繁体不匹配
 2. 符号差异
 3. 别名冲突
 4. 无关搜索
 
-这些一一解决之后，我的样本数据基本都跑完了，所以没有办法保证未来新增的数据依然有效，但是只能这样一点点迭代了。
+这些一一解决之后，我的样本数据基本也都跑完了，所以没有办法保证未来新增的数据依然有效，但是只能这样一点点迭代了。
 
 ## 如何使用
 
-1. 从源码 https://github.com/bgzo/playground/tree/2026/05/venera-parser-bangumi-sync
- 构建
+直接安装
+
+```shell
+pipx install venera-parser-bangumi
+```
+
+或者选择从源码 https://github.com/bgzo/playground/tree/2026/05/venera-parser-bangumi-sync 构建
 
 ```shell
 git clone --branch 2026/05/venera-parser-bangumi-sync https://github.com/bGZo/playground.git
@@ -129,8 +134,4 @@ cd playground
 pipx install .
 ```
 
-2. 直接安装
-
-```shell
-pipx install venera-parser-bangumi
-```
+然后按照 README 说明进行同步
