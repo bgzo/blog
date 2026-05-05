@@ -3,7 +3,7 @@ title: 穷鬼 Vibe Coding
 aliases: ['穷鬼 Vibe Coding']
 created: 2026-05-02 18:15:34
 modified: 2026-05-02 18:25:29
-published: 2026-04-17 14:52:49
+published: 2026-05-02 18:15:34
 tags: ['public', 'writing/seed', 'llm', 'copilot', 'vibe-coding', 'deepseek']
 comments: True
 draft: False
