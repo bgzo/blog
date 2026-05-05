@@ -46,17 +46,20 @@ description: 不得不说 CF 是互联网界的活菩萨，免费提供的对象
 pngquant --force --ext .png *.png
 ```
 
+
 就算图片有其他格式，也可以通过 magick 转换为 PNG，执行上述操作
 
 ```shell
 magick frieren.jpg frieren.png
 ```
 
+
 如果效果不理想，那么只能牺牲品质，进行有损压缩
 
 ```shell
 pngquant --force --ext .png --quality=60-80 frieren.png
 ```
+
 
 ## PicList 管理图片和上传图片配置
 
@@ -88,3 +91,5 @@ pngquant --force --ext .png --quality=60-80 frieren.png
 https://img.bgzo.cc
 https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev
 ```
+
+
