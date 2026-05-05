@@ -2,17 +2,17 @@
 title: 同步 Venera 进度到 Bangumi
 aliases: ['Sync venera data to Bangumi', '同步 venera 进度到 Bangumi', '同步 Venera 进度到 Bangumi']
 created: 2026-05-03 09:59:37
-modified: 2026-05-06 00:41:53
+modified: 2026-05-06 01:04:42
 published: 2026-05-04 09:59:37
 tags: ['bangumi', 'flutter', 'gtd/todo', 'public', 'venera', 'writing/lab']
 comments: True
 draft: False
-description: 其实我一直在 iPad 上用魔改的 venera (漫阅) 看漫画 ，他其实已经提供了追踪器跟踪的功能，只是不太好用（需要手动关联，总是失败），加上开发者长时间不修，也不看群，我感觉已经不再维护。 一致挺喜欢 venera 的，得益于 Flutter 跨平台，它提供了 ipa，可以在 iPad 上测载看漫画，体验上和 Mihon 非常接近，配合上 WebDev 同步，已经是一个不错的全平台解决方案...
+description: 其实我一直在 iPad 上用魔改的 venera (漫阅 ) 看漫画，他其实已经提供了追踪器跟踪的功能，只是不太好用（需要手动关联，总是失败），加上开发者长时间不修，也不看群，我感觉已经不再维护。 一致挺喜欢 venera 的，得益于 Flutter 跨平台，它提供了 ipa，可以在 iPad 上测载看漫画，体验上和 Mihon 非常接近，配合上 WebDev 同步，已经是一个不错的全平台解决方案...
 ---
 
-其实我一直在 iPad 上用魔改的 venera (漫阅) 看漫画 [^man-yue]，他其实已经提供了追踪器跟踪的功能，只是不太好用（需要手动关联，总是失败），加上开发者长时间不修，也不看群，我感觉已经不再维护。
+其实我一直在 iPad 上用魔改的 venera (漫阅 [^man-yue]) 看漫画，他其实已经提供了追踪器跟踪的功能，只是不太好用（需要手动关联，总是失败），加上开发者长时间不修，也不看群，我感觉已经不再维护。
 
-[^man-yue]: 一个魔改的 venera，违反 GPL-3.0 协议，直接闭源了，25 年末上架的时候卖 6 块，我就付费了，现在转为订阅了，永久买断 15 刀，比较离谱。这个作者手下也有一堆类似的软件（书阅、云映等等），只不过大部分已经在国区下架了，外区也是迟早的事情
+[^man-yue]: 一个魔改的 venera，违反 GPL-3.0 协议（直接闭源了），25 年末上架的时候卖 6 块永久买断，我当时还在 Mihon 的戒断期间，就付费了，只希望他能同步上游代码，就当付个 Apple 证书费用，现在转为订阅了，永久买断要 15 刀，比较离谱，我看作者也没同步上游代码，价格一些功能也不痛不痒，BUG 还一堆不休，现在已经停更好久了。这个作者手下也有一堆类似的软件（书阅、云映等等），只不过大部分已经在国区下架了，外区也是迟早的事情，真想举报他啊。
 
 ![](https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1777774637105.webp)
 
@@ -82,7 +82,7 @@ Future<File> exportAppData([bool sync = true]) async {
 2 directories, 43 files
 ```
 
-于是我们就能拿到 `local_favorite.db` 内部的数据，用于数据同步。接着我们就能进行数据解析，最终把这些数据全部转化为一个刻度的 JSON 包：
+于是我们就能拿到 `local_favorite.db` 内部的数据，用于数据同步。接着我们就能进行数据解析，最终查库把这些数据全部转化为一个可读的 JSON：
 
 ```shell
 python3 src/parser.py dump 20575-2273.venera --include-rows --pretty -o venera_dump.json
@@ -90,7 +90,7 @@ python3 src/parser.py dump 20575-2273.venera --include-rows --pretty -o venera_d
 
 ## 匹配 Bangumi
 
-一个比较大的问题是 venera 天然不与 bangumi 绑定：
+想要接入 Bangumi，一个比较大的问题是 Venera 天然不与 bangumi 绑定：
 
 ```json
 {
@@ -111,12 +111,12 @@ python3 src/parser.py dump 20575-2273.venera --include-rows --pretty -o venera_d
 
 所以最大的一个问题其实变成了如何匹配 Bangumi 的数据，存在非常多情况：
 
-1. 简繁体不匹配
-2. 符号差异
-3. 别名冲突
-4. 无关搜索
+1. 简繁体不匹配：全部转化为简体对比
+2. 符号差异：去掉一般符号
+3. 别名才是中文名：请求条目，拿到别名进行对比
+4. 无关搜索（最多）：调大分页数
 
-这些一一解决之后，我的样本数据基本也都跑完了，所以没有办法保证未来新增的数据依然有效，但是只能这样一点点迭代了。
+这些一一解决之后，我的样本数据基本也都跑完了，一共也才 70 多条，所以没有办法保证未来新增的数据依然有效，但是只能这样一点点迭代了。
 
 ## 如何使用
 
@@ -134,4 +134,4 @@ cd playground
 pipx install .
 ```
 
-然后按照 README 说明进行同步
+然后按照 README 说明进行同步。
