@@ -17,14 +17,14 @@ layout: none
   {% endif %}
   {% assign rss_articles = site.articles
     | where_exp: "item", "item.path contains '_articles/labs/' or item.path contains '_articles/thoughts/' or item.path contains '_articles/stories/'"
-    | sort: "created"
+    | sort: "published"
     | reverse %}
   {% for post in rss_articles limit: 50 %}
   <entry>
     <title type="html">{{ post.title | xml_escape }}</title>
     <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
-    <published>{{ post.created | default: post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</published>
-    <updated>{{ post.modified | default: post.created | default: post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</updated>
+    <published>{{ post.published | default: post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</published>
+    <updated>{{ post.modified | default: post.published | default: post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</updated>
     <id>{{ post.url | remove: '.html' | prepend: site.baseurl | prepend: site.url }}</id>
     <content type="html" xml:base="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
       {{ post.description | xml_escape }}&lt;p&gt;&lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}"&gt;Read More&lt;/a&gt;&lt;/p&gt;

@@ -31,7 +31,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
 
   posts = all_docs
     .reject { |doc| doc.data['archive'] }
-    .sort_by { |doc| doc.data['created'].to_s }
+    .sort_by { |doc| doc.data['published'].to_s }
     .reverse
 
   pages = posts.each_slice(per_page).to_a
@@ -51,8 +51,8 @@ Jekyll::Hooks.register :site, :post_write do |site|
         {
           'title'    => doc.data['title'].to_s,
           'url'      => doc.url,
-          'date'     => PostsApiGenerator.format_date(doc.data['created'], '%Y/%m/%d'),
-          'datetime' => PostsApiGenerator.format_date(doc.data['created'], '%F'),
+          'date'     => PostsApiGenerator.format_date(doc.data['published'], '%Y/%m/%d'),
+          'datetime' => PostsApiGenerator.format_date(doc.data['published'], '%F'),
           'desc'     => desc
         }
       end,
