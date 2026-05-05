@@ -6,7 +6,7 @@ modified: 2026-04-11 20:03:19
 tags: ['writing/seed', 'happiness', 'mindset', 'public']
 comments: True
 draft: False
-published: 2026-04-17 14:52:49
+published: 2024-06-12 20:01:53
 description: 最近看到最好的一句话： 你不可能恨自己恨到快乐。
 ---
 

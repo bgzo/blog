@@ -6,9 +6,11 @@ modified: 2026-04-11 18:50:18
 tags: ['agent', 'llm', 'writing/seed', 'public']
 comments: True
 draft: False
-published: 2026-04-17 14:52:49
-description: PicoClaw WebUI 一堆 BUG，没法直视，快速开发，估计贡献不上 自己的文档里写了支持 Copilot，但是 OAuth 的选项里面又找不到，原来是 LiteLLM 级别的支持。 ZeroClaw 昨天晚上组织、代码仓库直接消失了🫠 https//github.com/zeroclaw-labs https//github.com/openagen/zeroclaw More 路上还发...
+published: 2026-04-02 20:28:31
+description: 这周供应链投毒，升级 nanobot 导致 Copilot 无法使用了，正好试了试其他的 Agent。 PicoClaw WebUI 一堆 BUG，没法直视，快速开发，估计贡献不上 自己的文档里写了支持 Copilot，但是 OAuth 的选项里面又找不到，原来是 LiteLLM 级别的支持。 ZeroClaw 昨天晚上组织、代码仓库直接消失了🫠 https//github.com/zerocla...
 ---
+
+这周供应链投毒，升级 nanobot 导致 Copilot 无法使用了，正好试了试其他的 Agent。
 
 ## PicoClaw
 
