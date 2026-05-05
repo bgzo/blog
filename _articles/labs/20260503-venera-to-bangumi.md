@@ -1,8 +1,8 @@
 ---
-title: Sync venera data to Bangumi
-aliases: ['Sync venera data to Bangumi']
+title: 同步 venera 进度到 Bangumi
+aliases: ['Sync venera data to Bangumi', '同步 venera 进度到 Bangumi']
 created: 2026-05-03 09:59:37
-modified: 2026-05-06 00:18:45
+modified: 2026-05-06 00:23:56
 published: 2026-05-04 09:59:37
 tags: ['bangumi', 'flutter', 'gtd/todo', 'public', 'venera', 'writing/lab']
 comments: True
