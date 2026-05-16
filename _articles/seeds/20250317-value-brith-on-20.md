@@ -6,7 +6,7 @@ modified: 2026-04-11 19:54:09
 tags: ['writing/seed', 'value', 'labor', 'public']
 comments: True
 draft: False
-published: 2026-05-11 23:39:37
+published: 2025-03-17 19:53:18
 description: 今天看了自己高中，大学写的厚厚的日记后发现，原来「20 多岁是价值观成型的年纪」的意思是，20 多岁就要结束前半生的教育，开始从事社会性的工作，已经很少再有时间和精力哺育自己了。
 ---
 
