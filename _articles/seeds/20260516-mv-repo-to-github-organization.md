@@ -1,8 +1,8 @@
 ---
-title: GitHub 沙箱组织
-aliases: ['GitHub 沙箱组织']
+title: 迁移仓库到 GitHub 组织
+aliases: ['迁移仓库到 GitHub 组织']
 created: 2026-05-16 15:09:36
-modified: 2026-05-16 22:45:51
+modified: 2026-05-17 12:32:01
 tags: ['github', 'public', 'writing/seed']
 comments: True
 draft: False
