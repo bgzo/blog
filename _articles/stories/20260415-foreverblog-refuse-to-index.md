@@ -4,7 +4,7 @@ aliases: ['很遗憾，没能通过十年之约审核']
 created: 2026-04-15 20:53:41
 modified: 2026-04-15 22:36:54
 published: 2026-04-15 22:36:54
-tags: ['censor', 'china', 'foreverblog', 'public', 'writing/thought']
+tags: ['censor', 'china', 'foreverblog', 'public', 'writing/story']
 comments: True
 draft: False
 description: 上个月 重构 Jekyll 博客 之后，信心满满地去投稿十年之约，然后今天早上终于得到了回复： 最终决定是被拒绝啦，可以说毫不意外吗？因为点投递按钮的时候心里就有点「侥幸心理」，因为我的博客里确实存在一些对劳动法和当今社会体制不作为的吐槽。 就结果而言，我的「感觉」没有错。但这始终是一种感觉，没有白纸黑字的确定感，悬浮在空中，让人捉摸不定。我们来看看十年公约： 十年之约 我已经不记得从哪里了解到这...
