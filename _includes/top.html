@@ -4,7 +4,12 @@
   onclick="smoothscroll()"
 />
 <script>
+  var smoothScrollFrame = null;
   window.addEventListener("scroll", handleScroll);
+  // cancel smoothscroll when user scrolls or touches
+  window.addEventListener("wheel", cancelSmoothscroll, { passive: true });
+  window.addEventListener("touchstart", cancelSmoothscroll, { passive: true });
+
   function handleScroll() {
     // hide button
     var scrollTop =
@@ -17,14 +22,26 @@
       document.querySelector("#ikaros").style.display = "none";
     }
   }
+
+  function cancelSmoothscroll() {
+    if (smoothScrollFrame !== null) {
+      window.cancelAnimationFrame(smoothScrollFrame);
+      smoothScrollFrame = null;
+    }
+  }
+
   function smoothscroll() {
-    // back top
+    cancelSmoothscroll();
+
     var currentScrollTop =
       document.documentElement.scrollTop || document.body.scrollTop;
 
-    if (currentScrollTop > 0) {
-      window.requestAnimationFrame(smoothscroll);
-      window.scrollTo(0, currentScrollTop - currentScrollTop / 10);
+    if (currentScrollTop <= 1) {
+      window.scrollTo(0, 0);
+      return;
     }
+
+    window.scrollTo(0, Math.max(0, currentScrollTop - currentScrollTop / 10));
+    smoothScrollFrame = window.requestAnimationFrame(smoothscroll);
   }
 </script>
