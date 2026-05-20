@@ -22,3 +22,11 @@ title: README
 如今，这个项目存在的意义，可能就是减少互联网上的死链，还给读者一个仍然可持续访问的博客，未来这个博客将依然存在，但永远进入维护状态，我依然会用脚本把文章推送到这里。
 
 总之，谢谢你能看到这里。
+
+<!---
+Build this blog with
+
+```
+gem update --system && gem install bundler jekyll && gem install jekyll-feed && gem install jekyll-sitemap && jekyll build
+```
+-->
