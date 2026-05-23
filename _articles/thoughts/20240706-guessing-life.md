@@ -45,7 +45,7 @@ description: via https//www.youtube.com/watch?v=m5_dNOK7oN8 [!note] The fact tha
 >
 > https://t.me/twitter_translate/22748
 
-于是着手开发了一个辅助脚本，可以配合日常的工作流，批量地格式化周报，如果配合上 ~logseq-logseq 的批量折叠，与如下配置
+于是着手开发了一个辅助脚本，可以配合日常的工作流，批量地格式化周报，如果配合上 _logseq-logseq 的批量折叠，与如下配置
 
 ```edn
 
