@@ -5,7 +5,15 @@ modified: 2026-04-18T00:00:00
 title: Changelogs
 ---
 
-## 20260414
+## 20260526: New seeds timeline
+
+1. Update the home timeline's style to meet: time first, follow with the articels, just like other 
+2. Add the description to other archives pages, with hidden by default.
+3. Extract the images to list on blog timeline.
+4. Rename the home to seeds, which means all the posts are seeds, and some seeds are special, and will output RSS and more.
+5. Fix lots of problems, backto top button, css link style, and so on.
+
+## 20260414: Multi-platform support
 
 Cloudflare Workers pages building support, now we have those sites:
 
@@ -14,7 +22,7 @@ Cloudflare Workers pages building support, now we have those sites:
 3. https://blog.lfh010618.workers.dev/
 4. https://blog-bgzo.vercel.app/
 
-## 20260327
+## 20260327: Giving up issue blog
 
 No more issue blog, all blogs are pushed by github action automatically. 
 
