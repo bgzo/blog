@@ -318,8 +318,16 @@ nav li.active a {
   order: 2;
 }
 
-.post .post-excerpt {
+.post .post-cover {
   order: 3;
+}
+
+.post .post-cover-strip {
+  order: 3;
+}
+
+.post .post-excerpt {
+  order: 4;
 }
 
 .post a {
@@ -982,6 +990,48 @@ iframe[src*="bilibili"] {
   -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 78%, transparent 100%);
 }
 
+.home-stream .post-cover-strip {
+  width: min(100%, 36rem);
+  margin: 0.55rem 0 0.3rem;
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ls-tertiary-background-color) transparent;
+}
+
+.home-stream .post-cover {
+  flex: 0 0 min(100%, 30rem);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  background: var(--ls-secondary-background-color);
+  aspect-ratio: 16 / 9;
+  scroll-snap-align: start;
+}
+
+.home-stream .post-cover-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-stream .post-cover-strip::-webkit-scrollbar {
+  height: 0.35rem;
+}
+
+.home-stream .post-cover-strip::-webkit-scrollbar-thumb {
+  background: var(--ls-tertiary-background-color);
+  border-radius: 999px;
+}
+
+.home-stream .post-cover-strip::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .home-stream .post-excerpt table {
   display: block;
   overflow-x: auto;
@@ -1003,7 +1053,7 @@ iframe[src*="bilibili"] {
 }
 
 .posts-year-group .post:hover .post-excerpt,
-.posts-year-group .post .post-title:focus-visible + .post-excerpt,
+.posts-year-group .post .post-title:focus-visible+.post-excerpt,
 .posts-year-group .post:focus-within .post-excerpt {
   max-height: 14rem;
   opacity: 1;
