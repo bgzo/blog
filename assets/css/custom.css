@@ -270,7 +270,7 @@ nav li.active a {
 .post {
   align-items: flex-start;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   margin-bottom: 1.5rem;
   position: relative;
 }
@@ -311,6 +311,15 @@ nav li.active a {
 
 .post .publish-date {
   font-size: 0.75rem;
+  order: 1;
+}
+
+.post .post-title {
+  order: 2;
+}
+
+.post .post-excerpt {
+  order: 3;
 }
 
 .post a {
@@ -933,10 +942,75 @@ iframe[src*="bilibili"] {
   color: var(--ls-teryiary-font-color);
   margin: 0.2rem 0 0.1rem;
   line-height: 1.55;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  max-width: min(100%, 36rem);
   overflow: hidden;
+}
+
+.post-excerpt> :first-child {
+  margin-top: 0;
+}
+
+.post-excerpt> :last-child {
+  margin-bottom: 0;
+}
+
+.post-excerpt p,
+.post-excerpt ul,
+.post-excerpt ol,
+.post-excerpt blockquote,
+.post-excerpt pre {
+  margin: 0.2rem 0 0.45rem;
+}
+
+.post-excerpt ul,
+.post-excerpt ol {
+  padding-left: 1.2rem;
+}
+
+.post-excerpt a {
+  color: inherit;
+}
+
+.post-excerpt a::before {
+  display: none;
+}
+
+.home-stream .post-excerpt {
+  max-height: 11.5rem;
+  padding-right: 0.35rem;
+  mask-image: linear-gradient(180deg, #000 0%, #000 78%, transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 78%, transparent 100%);
+}
+
+.home-stream .post-excerpt table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.posts-year-group .post-excerpt {
+  max-height: 0;
+  opacity: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  pointer-events: none;
+  transform: translateY(-0.35rem);
+  transition:
+    max-height 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.3s ease,
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    margin 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.posts-year-group .post:hover .post-excerpt,
+.posts-year-group .post .post-title:focus-visible + .post-excerpt,
+.posts-year-group .post:focus-within .post-excerpt {
+  max-height: 14rem;
+  opacity: 1;
+  margin-top: 0.35rem;
+  margin-bottom: 0.1rem;
+  pointer-events: auto;
+  transform: translateY(0);
 }
 
 /* Fade-in animation for newly loaded posts */
