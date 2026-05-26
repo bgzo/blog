@@ -17,7 +17,11 @@ Those things might be not real, but it it.
 <div class="posts-year-group" data-year="{{ current_year }}"><ul class="posts">
   {% endif %}
   <li class="post">
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% assign post_desc = post.description | to_s | strip %}
+    {% if post_desc != "" %}
+    <div class="post-excerpt">{{ post_desc | truncate: 500, "..." | escape | newline_to_br }}</div>
+    {% endif %}
     <time class="publish-date" datetime="{{ post.created | date: '%F' }}">
       {{ post.created | date: "%Y/%m/%d" }}
     </time>
