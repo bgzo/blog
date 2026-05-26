@@ -1,0 +1,36 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}{{ site.baseurl }}/feed.xml</id>
+  <title type="html">{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  {% if site.author %}
+  <author>
+    <name>{{ site.author | xml_escape }}</name>
+  </author>
+  {% endif %}
+  {% assign rss_articles = site.articles
+    | sort: "published"
+    | reverse %}
+  {% for post in rss_articles limit: 50 %}
+  <entry>
+    <title type="html">{{ post.title | xml_escape }}</title>
+    <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+    <published>{{ post.published | default: post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</published>
+    <updated>{{ post.modified | default: post.published | default: post.date | date: "%Y-%m-%dT%H:%M:%S+00:00" }}</updated>
+    <id>{{ post.url | remove: '.html' | prepend: site.baseurl | prepend: site.url }}</id>
+    <content type="html" xml:base="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+      {{ post.description | xml_escape }}&lt;p&gt;&lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}"&gt;Read More&lt;/a&gt;&lt;/p&gt;
+    </content>
+    {% if post.description %}
+    <summary type="html">{{ post.description | xml_escape }}</summary>
+    {% endif %}
+  </entry>
+  {% endfor %}
+</feed>
