@@ -35,17 +35,17 @@ They tried to bury us, but they didn't realise we were seeds.
     li.className = 'post stream-entering';
     setTimeout(function () { li.classList.remove('stream-entering'); }, 500);
 
-    var a = document.createElement('a');
-    a.href = post.url;
-    a.textContent = post.title;
-    li.appendChild(a);
-
     if (post.desc) {
       var p = document.createElement('p');
       p.className = 'post-excerpt';
       p.textContent = post.desc;
       li.appendChild(p);
     }
+
+    var a = document.createElement('a');
+    a.href = post.url;
+    a.textContent = post.title;
+    li.appendChild(a);
 
     var time = document.createElement('time');
     time.className = 'publish-date';
