@@ -41,6 +41,27 @@ They tried to bury us, but they didn't realise we were seeds.
     a.textContent = post.title;
     li.appendChild(a);
 
+    if (post.image_urls && post.image_urls.length) {
+      var media = document.createElement('div');
+      media.className = 'post-cover-strip';
+
+      post.image_urls.forEach(function (imageUrl, index) {
+        var item = document.createElement('div');
+        item.className = 'post-cover';
+
+        var image = document.createElement('img');
+        image.className = 'post-cover-image';
+        image.src = imageUrl;
+        image.alt = post.title + ' image ' + (index + 1);
+        image.loading = 'lazy';
+
+        item.appendChild(image);
+        media.appendChild(item);
+      });
+
+      li.appendChild(media);
+    }
+
     if (post.desc_html || post.desc) {
       var desc = document.createElement('div');
       desc.className = 'post-excerpt';

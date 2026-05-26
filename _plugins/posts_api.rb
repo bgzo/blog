@@ -6,6 +6,15 @@ require 'cgi'
 # Each file is ~13KB regardless of total article count, solving linear growth.
 
 module PostsApiGenerator
+  IMAGE_HOST_DENYLIST = [
+    'img.shields.io',
+    'github-readme-stats.vercel.app',
+    'x.com',
+    'twitter.com'
+  ].freeze
+
+  IMAGE_URL_PATTERN = /\.(apng|avif|gif|jpe?g|png|svg|webp)(?:\?|$)/i
+
   def self.truncate_text(value, limit)
     text = value.to_s.strip
     return '' if text.empty?
@@ -45,6 +54,33 @@ module PostsApiGenerator
     rendered = markdown_converter.convert(text).strip
     excerpt_text = rendered_html_to_excerpt(rendered)
     plain_text_to_html(excerpt_text)
+  end
+
+  def self.extract_images(markdown_converter, doc)
+    rendered = markdown_converter.convert(doc.content.to_s)
+    images = []
+
+    rendered.scan(/<img\b[^>]*src=["']([^"']+)["'][^>]*>/i).flatten.each do |src|
+      next if src.to_s.strip.empty?
+      next if IMAGE_HOST_DENYLIST.any? { |host| src.include?(host) }
+      next if src.include?('{') || src.include?('}')
+      next unless image_like_url?(src)
+      next if src.downcase.end_with?('.svg')
+      next if images.include?(src)
+
+      images << src
+    end
+
+    images
+  end
+
+  def self.image_like_url?(src)
+    return true if src.match?(IMAGE_URL_PATTERN)
+    return true if src.include?('/assets/') && src.include?('github.com')
+    return true if src.include?('githubusercontent.com')
+    return true if src.include?('private-user-images.githubusercontent.com')
+
+    false
   end
 
   def self.format_date(val, fmt)
@@ -92,11 +128,14 @@ Jekyll::Hooks.register :site, :post_write do |site|
       'posts' => batch.map do |doc|
         full_desc = doc.data['description'].to_s.strip
         desc = PostsApiGenerator.truncate_text(full_desc, 500)
+        image_urls = PostsApiGenerator.extract_images(markdown_converter, doc)
         {
           'title'    => doc.data['title'].to_s,
           'url'      => doc.url,
           'date'     => PostsApiGenerator.format_date(doc.data['published'], '%Y/%m/%d'),
           'datetime' => PostsApiGenerator.format_date(doc.data['published'], '%F'),
+          'image_url'=> image_urls.first,
+          'image_urls'=> image_urls,
           'desc'     => desc,
           'desc_html'=> PostsApiGenerator.render_description_html(markdown_converter, full_desc)
         }
