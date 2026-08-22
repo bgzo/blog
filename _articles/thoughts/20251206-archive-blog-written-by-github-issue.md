@@ -1,8 +1,8 @@
 ---
 title: 用 GitHub issue 写博客很好，但我要放弃了
-aliases: ['用 GitHub issue 写博客很好，但我要放弃了']
+aliases: 用 GitHub issue 写博客很好，但我要放弃了
 created: 2025-12-06 11:15:36
-modified: 2026-04-11 18:50:20
+modified: 2026-08-22 15:00:09
 published: 2025-12-06 11:15:36
 tags: ['public', 'writing/thought']
 comments: True
@@ -19,7 +19,7 @@ description: 这曾经是一个比火热的写作方式，至少在 2020 年是�
 
 好处应该还有很多，比如全文搜索和标签管理，这里就不赘述了，让我讲讲为什么我要放弃它吧。
 
-## 「写作不流畅」
+## 原因 1：写作不流畅
 
 如果你要写一篇文章，你的第一步应该是什么？是不是像我一样打开 Obsidian、Logseq、或者苹果备忘录？甚至打开一个记事本就直接开始写了？
 
@@ -29,7 +29,7 @@ description: 这曾经是一个比火热的写作方式，至少在 2020 年是�
 
 反复的编辑和校对会把所有表达的欲望耗尽，最后什么也写不出来。
 
-## 「污染 GitHub 工作流」
+## 原因 2：污染 GitHub 工作流和公共空间
 
 首先，issue 的诞生就不是用来写博客的，写博客只是 issue 的一种用法，用于追踪定位问题，换种严肃的说法就是，这本来就是一种邪修的路子，早晚会出问题。
 
@@ -43,7 +43,12 @@ description: 这曾经是一个比火热的写作方式，至少在 2020 年是�
 
 总之，你没有选择，只要 GitHub 做更多相关的集成操作，那么对你来说就是更多的负担。
 
-## 还有更好的方式吗？
+> [!NOTE]
+> LLM 出现之后，一个更极端的案例是如下这种日报，对 ISSUE 完全没有任何帮助，但是却东指一下，西指一下，非常牛皮癣
+> https://github.com/96loveslife/big_model_radar
+> https://github.com/gsscsd/big_model_radar
+
+## 更好的方式
 
 想说的话说完了，这就是我的博客 https://blog.bgzo.cc 停更快一年的主要原因。至于未来在哪，很难说，因为 GitHub 已经实现了近乎博客需要的所有功能了，如果要放弃它，你不得不重新实现一遍我在开头说的那些功能。
 
@@ -57,22 +62,15 @@ Sounds hard really.
 
 首先我想说实现整个项目很蛮有趣的，我在 GitHub issue 上写博客，然后通过每日的 CI 定时的拉取数据到仓库博客目录，然后自动关联来源 issue，这样甚至可以无缝接入 https://utteranc.es/, 完美地把自己的 issue 内容和评论，用 Github Pages 展现出来。
 
-这对 4 年前，或者 5 年前的自己来说还挺酷的，那个时候还没有 AI ，因此完全是看着别人的项目代码，然后摸石头过河。
+这对 4 年前，或者 5 年前的自己来说还挺酷的，因为那个时候还没有 LLM ，所有的项目几乎完全是看着别人的项目代码，然后摸石头过河。我的这个博客也是这样：
 
-### 20220104 第一版发布
+### 出版发布
 
-https://github.com/bGZo/blog/commit/428035c7167ce2899e4db9fb5d1d006d60829cc3
-
-当然剩下的博客框架久随便选了，但是我已经用过了 hugo、hexo 和非常多在线工具，对 GitHub 自带的 jekyll 还不熟悉，所以自从看了这位老哥的博客，我就动手开始模仿了起来：
-
-<iframe src='https://dzhavat.github.io' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
-<center>via: <a href='https://dzhavat.github.io' target='_blank' class='external-link'>https://dzhavat.github.io</a></center>
-
-这是我模仿的结果：
+2022 年 1 月 4 日，[第一版](https://github.com/bGZo/blog/commit/428035c7167ce2899e4db9fb5d1d006d60829cc3) 发布，届时我已经用过了 hugo、hexo 在内，非常多博客工具，但对 GitHub 自带的 jekyll 还不熟悉，所以自从看了 [@dzhavat](https://dzhavat.github.io) 的博客，我就动手开始模仿了起来，这是我模仿的结果：
 
 ![](https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202507022230006.png)
 
-### 内容获取
+### 内容抓取
 
 设计有几点约定：
 
@@ -89,7 +87,7 @@ def output_label_articles(_repo, _name, _label):
                 state='open')
 ```
 
-### 自动化 CI 更新仓库
+### CI 自动化
 
 上面我们把脚本确定好，然后在 `.github` 内部创建好 yaml 文件，主要是制定运行日期，比如东八区 0 点，就是对应的 UTC+0 的 16 点， 核心代码有：
 
@@ -121,7 +119,7 @@ CI 的思路也简单粗暴：先删掉当前的缓存文章，再执行一遍�
 
 除了 CI，还能通过 GitHub 自己提供的 `ISSUE_TEMPLATE` 来简化 issue 的创建过程；
 
-### 博客评论:giscus
+### 评论插件
 
 因为 https://utteranc.es/ 天然就是用 issue 来做评论存储的，所以我们只需要在脚本构建中，加入博文和 issue 的绑定关系，并且嵌入如下代码，即可生效：
 
@@ -142,51 +140,18 @@ CI 的思路也简单粗暴：先删掉当前的缓存文章，再执行一遍�
 	- https://github.com/gitalk/gitalk.github.io/blob/master/index.html
 	- https://github.com/gitalk/gitalk/issues/1
 
-20230304
+### 美化历程
 
-### 博客美化
+框架搭好了，接下来就是漫长的修正时间了，自认为美化了好几版，就当看个乐呵吧。
 
-没啥用，但是确实自认为美化了好几版，就当看个乐呵吧。
-
-#### 20230128 字体换了好几波
-
-最开始喜欢用微软雅黑，但是雅黑不是衬线字体，后面就换成了 lxgw-wenkai-webfont，但楷体不符合中国人的阅读习惯，最终还是换回了宋体（[Noto Serif Simplified Chinese - Google Fonts](https://fonts.google.com/noto/specimen/Noto+Serif+SC/about)）。
-
-#### 20230131 自动替换半角符号
-
-因为之前敲代码的关系，标点符号全部设置的是半角，这让中文排版最终糊成一坨，所以最好在发布的时候替换为全角符号。
-
-- [x] `,` 替换
-- [x] `.` 替换
-- [x] 结尾空格替换
-- [x] 脚注替换
-- [x] | 替换
-- [x] 链接转义
-
-#### 20230228 增加黑暗模式
-
-抽空修整并优化了下博客的两个小功能（夜间模式和评论功能），夜间模式着重优化下图片遮罩，防止图片在夜晚环境过亮（Brightness of img is too dazzling in dark mode），当然一开始没想到加这些功能只需要几行代码😂，我果然还是很厉害的👍（欠下的技术债 -1）；
-
-via:
-
-- [Dark Mode: Reduce image brightness & contrast · Issue #618 · WordPress/twentytwentyone · GitHub](https://github.com/WordPress/twentytwentyone/issues/618)
-- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
-
-### 还可以优化的点：
-
-- [ ] 增加博客说明
-	- 最好支持键盘快捷键的支持，比如：
-		- https://player.fm with `?`
-		- https://github.com with `?`
-- [ ] 链接预览，支持社交媒体的预览
-	- [ ] Telegram
-	- [ ] Twitter
-- [ ] 分页显示
+1. 20230128 字体换了好几波：最开始喜欢用微软雅黑，但是雅黑不是衬线字体，后面就换成了 lxgw-wenkai-webfont，但楷体不符合中国人的阅读习惯，最终还是换回了宋体（[Noto Serif Simplified Chinese - Google Fonts](https://fonts.google.com/noto/specimen/Noto+Serif+SC/about)）。
+2. 20230131 自动替换半角符号：因为之前敲代码的关系，标点符号全部设置的是半角，这让中文排版最终糊成一坨，所以最好在发布的时候替换为全角符号，包括 `,` / `.` / 结尾空格 / 脚注 / `|`
+3. 20230228 增加黑暗模式：抽空修整并优化了下博客的两个小功能（夜间模式和评论功能），夜间模式着重优化下图片遮罩，防止图片在夜晚环境过亮（Brightness of img is too dazzling in dark mode），当然一开始没想到加这些功能只需要几行代码，我果然还是很厉害的；
+	- [Dark Mode: Reduce image brightness & contrast · Issue #618 · WordPress/twentytwentyone · GitHub](https://github.com/WordPress/twentytwentyone/issues/618)
+	- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
 
 ## 未来
 
-前面两节已经写清楚了，未来不会再在 issue 里面写博客了，但这里应该也不会闲着，我会从上游 (https://github.com/bGZo/vault) 把我一些折腾的文章拉取过来。然后再在这里进行展示。
-
-当然，这个分支我会保留，感兴趣的人可以来这个分支抄抄作业：
+前面两节已经写清楚了，未来不会再在 issue 里面写博客了，但这里应该也不会闲着，我会从上游 (https://github.com/bGZo/vault) 把我一些折腾的文章拉取过来。然后再在这里进行对外展示。
 
 而且如果你不在意我开头说的两个我认为缺点的话，GitHub issue 写博客还是最好使的，不仅仅是背靠巨硬，你懂的。
