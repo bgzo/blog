@@ -5,9 +5,10 @@ import Default from '../layouts/Default.astro';
 const entry = await getEntry('pages', 'readme');
 if (!entry) throw new Error('Missing README page entry');
 const { Content } = await render(entry);
+const title = 'README';
 ---
 
-<Default title={entry.data.title} pagePath="/README.html">
+<Default title={title} pagePath="/README.html">
   <article>
     <Content />
   </article>
