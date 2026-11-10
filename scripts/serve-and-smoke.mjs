@@ -6,9 +6,13 @@ const ROOT = 'dist';
 const PATHS = [
   '/',
   '/README.html',
+  '/README/',
   '/labs.html',
+  '/labs/',
   '/20260522-want-a-windows-pad.html',
+  '/20260522-want-a-windows-pad/',
   '/look-back-to-your-loved-ones.html',
+  '/look-back-to-your-loved-ones/',
   '/20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html',
   '/wnen-u-want-to-use-proxies-on-cybercafé.html',
   '/wnen-u-want-to-use-proxies-on-cybercaf%C3%A9.html',
