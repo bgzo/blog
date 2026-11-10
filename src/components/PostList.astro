@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { articlePath } from '../lib/url';
+import { articlePath, withBase } from '../lib/url';
 import { byCreatedDesc } from '../lib/articles';
 import { formatYmd, formatSlashYmd } from '../lib/dates';
 
@@ -40,7 +40,7 @@ const excerpt = (value) => {
   <div class="posts-year-group" data-year={group.year}><ul class="posts">
     {group.posts.map((entry) => (
       <li class="post">
-        <a class="post-title" href={articlePath(entry.id)}>{entry.data.title}</a>
+        <a class="post-title" href={withBase(articlePath(entry.id))}>{entry.data.title}</a>
         {String(entry.data.description ?? '').trim() !== '' && (
           <div class="post-excerpt" set:html={excerpt(entry.data.description)} />
         )}

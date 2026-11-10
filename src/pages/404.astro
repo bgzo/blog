@@ -1,6 +1,7 @@
 ---
 import { getEntry, render } from 'astro:content';
 import Default from '../layouts/Default.astro';
+import { withBase } from '../lib/url';
 
 const entry = await getEntry('pages', '404');
 if (!entry) throw new Error('Missing 404 page entry');
@@ -8,5 +9,10 @@ const { Content } = await render(entry);
 ---
 
 <Default title="404 Not Found" pagePath="/404.html">
-  <Content />
+  <Fragment
+    set:html={entry.rendered.html.replaceAll(
+      'href="/"',
+      `href="${withBase('/')}"`,
+    )}
+  />
 </Default>

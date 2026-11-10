@@ -1,8 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');*/
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --base03: #002b36;
@@ -1124,4 +1121,27 @@ iframe[src*="bilibili"] {
   color: var(--ls-teryiary-font-color);
   opacity: 0.45;
   letter-spacing: 0.01em;
+}
+pre.astro-code {
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  overflow-x: auto;
+}
+
+pre.astro-code code {
+  display: block;
+}
+
+pre.astro-code,
+pre.astro-code span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  pre.astro-code,
+  pre.astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+  }
 }

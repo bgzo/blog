@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/generate-aliases.mjs",
     "preview": "astro preview",
     "verify": "node scripts/verify-urls.mjs && node scripts/verify-data.mjs",
     "verify:dom": "node scripts/verify-dom.mjs",
