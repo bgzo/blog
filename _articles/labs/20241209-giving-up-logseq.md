@@ -115,19 +115,13 @@ https://forum.obsidian.md/t/how-do-you-dynamically-embed-a-picture-tied-to-a-met
 
 ### Plugins
 
-#### Web Cliper template
-
-#### Reminder
-
-#### Chinese Tools
-
-#### Turn to page
-
-#### Agenda
-
-#### Markmap
-
-#### Web parser
+1.  Web Cliper template
+2. Reminder
+3. Chinese Tools
+4. Turn to page
+5. Agenda
+6. Markmap
+7. Web parser
 
 ### Hotkey
 
