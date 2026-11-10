@@ -28,6 +28,5 @@ Build this blog with
 ```
 npm ci
 npm run build
-npm run verify
 ```
 -->

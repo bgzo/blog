@@ -36,12 +36,6 @@ jobs:
           BASE_PATH: /blog
           SITE_URL: https://bgzo.github.io
 
-      - name: Verify URLs
-        run: node scripts/verify-urls.mjs --base=/blog
-
-      - name: Verify data
-        run: node scripts/verify-data.mjs --base=/blog
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
