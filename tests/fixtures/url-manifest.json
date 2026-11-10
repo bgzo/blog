@@ -1,0 +1,2387 @@
+{
+  "files": [
+    "20200715-escape.html",
+    "20210118-the-past-of-acgn-on-china-had-passed.html",
+    "20210314-sorry-for-cats.html",
+    "20220101-why-blog.html",
+    "20220304-watching-manga-again.html",
+    "20221223-look-back-to-your-loved-ones.html",
+    "20230121-existence-is-suffering.html",
+    "20230408-killing-external-links-sucks.html",
+    "20230708-games-never-played-until-died.html",
+    "20231110-a-sell-toll-boy.html",
+    "20240105-losing-a-friend-seems-like-a-breakup.html",
+    "20240316-8258-nights.html",
+    "20240518-choose-life-rather-working-hard.html",
+    "20240525-suffering-eczema.html",
+    "20240601-saving-yourselves.html",
+    "20240608-more-than-system.html",
+    "20240612-you-can-not-happy-with-hate-self.html",
+    "20240615-being-female.html",
+    "20240706-guessing-life.html",
+    "20240720-fix-depression-towards-gaming.html",
+    "20240726-wrong-second-brain.html",
+    "20240831-money-to-waste.html",
+    "20240907-selfish-chinese.html",
+    "20240921-more-than-an-article.html",
+    "20241013-marry-with-blog.html",
+    "20241102-naming-conventions.html",
+    "20241109-buy-or-not.html",
+    "20241116-warm-house.html",
+    "20241207-everything-you-give-would-be-come-back.html",
+    "20241209-giving-up-logseq.html",
+    "20241215-apocalypse-prepare.html",
+    "20241228-forced-labor.html",
+    "20250109-coding-is-always-the-esaiest-thing.html",
+    "20250120-fat-but-sad.html",
+    "20250208-going-home.html",
+    "20250215-featurn-is-never-coming.html",
+    "20250218-life-needs-brainwashing.html",
+    "20250315-self-destruction.html",
+    "20250317-value-brith-on-20.html",
+    "20250410-scam-ad-phones-just-like-their-countries.html",
+    "20250502-when-ai-break-my-everything.html",
+    "20250511-parents-living-in-the-past.html",
+    "20250606-force-labor-until-die.html",
+    "20250607-when-death-is-near.html",
+    "20250608-at-least-I-still-have-the-freedom-to-write.html",
+    "20250622-talk-about-coser.html",
+    "20250624-desc-your-job-every-quarter.html",
+    "20250705-regret-the-past-is-fucking-yourself.html",
+    "20250712-birthday-in-2025.html",
+    "20250802-internet-illusion.html",
+    "20250817-consume-is-not-answer-but-disenchantment.html",
+    "20251012-make-a-blog-again-with-astro.html",
+    "20251017-content-flow-and-platform.html",
+    "20251025-beautify-boardcast.html",
+    "20251026-familiar-is-king.html",
+    "20251115-everything-chnaged-after-coming-here.html",
+    "20251122-sc-ban-my-coc-account.html",
+    "20251122-what-is-yours.html",
+    "20251206-archive-blog-written-by-github-issue.html",
+    "20251206-export-qi-reader-read-latter.html",
+    "20251214-export-v2ex-collection.html",
+    "20251214-export-zhihu-collection.html",
+    "20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html",
+    "20251223-gaming-crisis.html",
+    "20251228-export-weibo-like-list.html",
+    "20260102-review-2025.html",
+    "20260201-always-disagree-with-others.html",
+    "20260210-missing-lost-twitter.html",
+    "20260214-twitter-archives-export-into-obsidian.html",
+    "20260217-refactor-social-media-sync-program.html",
+    "20260222-163-bmh-cannot-keep-free-forever.html",
+    "20260222-install-openclaw.html",
+    "20260222-llm-feeling.html",
+    "20260225-ai-anxiety.html",
+    "20260303-expired-love.html",
+    "20260309-if-love-have-a-belif.html",
+    "20260311-people-say-nothing-outside-towards-them.html",
+    "20260312-flush-redmi-ax6000.html",
+    "20260320-mv-openclaw-nanobot.html",
+    "20260321-explore-opencli-and-others-cli-for-social-media.html",
+    "20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html",
+    "20260322-steam-and-mint.html",
+    "20260324-open-source-transform-to-private.html",
+    "20260325-shortcut-with-everything.html",
+    "20260328-refactor-jekyll-blog.html",
+    "20260329-give-up-qi-reader.html",
+    "20260402-try-another-agent.html",
+    "20260407-manul-update-extension-when-you-using-firefox.html",
+    "20260412-migrate-img-host-to-cloudflare-r2.html",
+    "20260412-moto-x70-air.html",
+    "20260413-update-system-is-not-always-good.html",
+    "20260415-foreverblog-refuse-to-index.html",
+    "20260419-resideload-on-ios-with-iloader.html",
+    "20260422-gfw-more-and-more-tall-in-april-2026.html",
+    "20260422-kazumi-sync-with-bangumi.html",
+    "20260428-github-copilot-charge-changed.html",
+    "20260429-eye-health.html",
+    "20260429-xiaomi-token-request-failed.html",
+    "20260501-when-to-eat.html",
+    "20260502-know-@liulifox233.html",
+    "20260502-poor-with-vibe-coding.html",
+    "20260503-dnshe-free-domain.html",
+    "20260503-venera-to-bangumi.html",
+    "20260504-bangumi-apis.html",
+    "20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html",
+    "20260508-poor-young.html",
+    "20260510-fuck-meta.html",
+    "20260516-asmr-todo-list.html",
+    "20260516-fix-venera-export-name.html",
+    "20260516-mv-repo-to-github-organization.html",
+    "20260521-mount-s3.html",
+    "20260522-want-a-windows-pad.html",
+    "404.html",
+    "8258-nights.html",
+    "README.html",
+    "api/posts/1.json",
+    "api/posts/10.json",
+    "api/posts/11.json",
+    "api/posts/12.json",
+    "api/posts/13.json",
+    "api/posts/14.json",
+    "api/posts/15.json",
+    "api/posts/16.json",
+    "api/posts/17.json",
+    "api/posts/18.json",
+    "api/posts/19.json",
+    "api/posts/2.json",
+    "api/posts/20.json",
+    "api/posts/21.json",
+    "api/posts/22.json",
+    "api/posts/23.json",
+    "api/posts/3.json",
+    "api/posts/4.json",
+    "api/posts/5.json",
+    "api/posts/6.json",
+    "api/posts/7.json",
+    "api/posts/8.json",
+    "api/posts/9.json",
+    "assets/css/custom.css",
+    "assets/css/rouge-github.css",
+    "assets/css/rouge-solarized.css",
+    "assets/favicons/android-chrome-192x192.png",
+    "assets/favicons/android-chrome-512x512.png",
+    "assets/favicons/apple-touch-icon.png",
+    "assets/favicons/browserconfig.xml",
+    "assets/favicons/favicon-16x16.png",
+    "assets/favicons/favicon-32x32.png",
+    "assets/favicons/favicon.ico",
+    "assets/favicons/mstile-150x150.png",
+    "assets/favicons/safari-pinned-tab.svg",
+    "assets/favicons/site.webmanifest",
+    "assets/imgs/pngegg.png",
+    "assets/imgs/texture.png",
+    "assets/js/code-blocks.js",
+    "changelogs.html",
+    "compound.html",
+    "existence-is-suffering.html",
+    "favicon.ico",
+    "feed.xml",
+    "games-never-played-until-died.html",
+    "hello-world.html",
+    "hentai-reader.html",
+    "idk-how-to-deal-relationship-with-my-parents.html",
+    "index.html",
+    "is-being-a-soldier-something-that-matters.html",
+    "jark-off-ai.html",
+    "killing-external-links-sucks.html",
+    "labs.html",
+    "letters-about-affirmations-1.html",
+    "look-back-to-your-loved-ones.html",
+    "losing-a-friend-seems-like-a-breakup.html",
+    "many-articles-had-killed-by-chatgpt.html",
+    "my-soulmate.html",
+    "my-university.html",
+    "one-wisdom-sentence-released.html",
+    "one-wisdom.html",
+    "robots.txt",
+    "seed.xml",
+    "sitemap.xml",
+    "snipd-format-for-obsidian.html",
+    "sorry-for-cats-in-my-first-half-of-life.html",
+    "steampy-on-steam.html",
+    "stories.html",
+    "telegram-message-sync-bot.html",
+    "thank-you-guys.html",
+    "the-8509-days-of-confusion.html",
+    "thoughts.html",
+    "ttrss-on-wsl2.html",
+    "vercel.json",
+    "wnen-u-want-to-use-proxies-on-cybercafé.html",
+    "wrangler.jsonc",
+    "your-next-computer-is-never-ever-an-ipad-pro.html"
+  ],
+  "html": [
+    {
+      "path": "20200715-escape.html",
+      "title": "逃离 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20200715-escape.html"
+    },
+    {
+      "path": "20210118-the-past-of-acgn-on-china-had-passed.html",
+      "title": "简中二次元圈已死 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20210118-the-past-of-acgn-on-china-had-passed.html"
+    },
+    {
+      "path": "20210314-sorry-for-cats.html",
+      "title": "猫猫能有什么坏心思呢？ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20210314-sorry-for-cats.html"
+    },
+    {
+      "path": "20220101-why-blog.html",
+      "title": "Why blog today - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20220101-why-blog.html"
+    },
+    {
+      "path": "20220304-watching-manga-again.html",
+      "title": "重新开始看漫画 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20220304-watching-manga-again.html"
+    },
+    {
+      "path": "20221223-look-back-to-your-loved-ones.html",
+      "title": "Look back to your loved ones - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20221223-look-back-to-your-loved-ones.html"
+    },
+    {
+      "path": "20230121-existence-is-suffering.html",
+      "title": "存在即痛苦 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20230121-existence-is-suffering.html"
+    },
+    {
+      "path": "20230408-killing-external-links-sucks.html",
+      "title": "外链之死 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20230408-killing-external-links-sucks.html"
+    },
+    {
+      "path": "20230708-games-never-played-until-died.html",
+      "title": "我都花了时间玩游戏，为什么还要花钱买它？ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20230708-games-never-played-until-died.html"
+    },
+    {
+      "path": "20231110-a-sell-toll-boy.html",
+      "title": "少年游 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20231110-a-sell-toll-boy.html"
+    },
+    {
+      "path": "20240105-losing-a-friend-seems-like-a-breakup.html",
+      "title": "严重似情侣讲分手 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240105-losing-a-friend-seems-like-a-breakup.html"
+    },
+    {
+      "path": "20240316-8258-nights.html",
+      "title": "第八千二百五十八夜 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240316-8258-nights.html"
+    },
+    {
+      "path": "20240518-choose-life-rather-working-hard.html",
+      "title": "生活大于工作 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240518-choose-life-rather-working-hard.html"
+    },
+    {
+      "path": "20240525-suffering-eczema.html",
+      "title": "湿疹复发 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240525-suffering-eczema.html"
+    },
+    {
+      "path": "20240601-saving-yourselves.html",
+      "title": "自救之职业焦虑 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240601-saving-yourselves.html"
+    },
+    {
+      "path": "20240608-more-than-system.html",
+      "title": "超越系统 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240608-more-than-system.html"
+    },
+    {
+      "path": "20240612-you-can-not-happy-with-hate-self.html",
+      "title": "你不可能恨自己恨到快乐 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240612-you-can-not-happy-with-hate-self.html"
+    },
+    {
+      "path": "20240615-being-female.html",
+      "title": "成为女性 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240615-being-female.html"
+    },
+    {
+      "path": "20240706-guessing-life.html",
+      "title": "摸索人生 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240706-guessing-life.html"
+    },
+    {
+      "path": "20240720-fix-depression-towards-gaming.html",
+      "title": "电子阳痿治疗指南 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240720-fix-depression-towards-gaming.html"
+    },
+    {
+      "path": "20240726-wrong-second-brain.html",
+      "title": "错误的第二大脑 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240726-wrong-second-brain.html"
+    },
+    {
+      "path": "20240831-money-to-waste.html",
+      "title": "预算中应该留有被浪费的钱 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240831-money-to-waste.html"
+    },
+    {
+      "path": "20240907-selfish-chinese.html",
+      "title": "自私的中国人 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240907-selfish-chinese.html"
+    },
+    {
+      "path": "20240921-more-than-an-article.html",
+      "title": "比文章更远 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20240921-more-than-an-article.html"
+    },
+    {
+      "path": "20241013-marry-with-blog.html",
+      "title": "写信吧爱人 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241013-marry-with-blog.html"
+    },
+    {
+      "path": "20241102-naming-conventions.html",
+      "title": "每个人都应该知道的命名约束 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241102-naming-conventions.html"
+    },
+    {
+      "path": "20241109-buy-or-not.html",
+      "title": "消费补贴与二手市场：买不买，这是个问题 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241109-buy-or-not.html"
+    },
+    {
+      "path": "20241116-warm-house.html",
+      "title": "采暖 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241116-warm-house.html"
+    },
+    {
+      "path": "20241207-everything-you-give-would-be-come-back.html",
+      "title": "让爱自己的人产生的愧疚终将回到自己身上 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241207-everything-you-give-would-be-come-back.html"
+    },
+    {
+      "path": "20241209-giving-up-logseq.html",
+      "title": "Giving up Logseq - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241209-giving-up-logseq.html"
+    },
+    {
+      "path": "20241215-apocalypse-prepare.html",
+      "title": "默示启示录 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241215-apocalypse-prepare.html"
+    },
+    {
+      "path": "20241228-forced-labor.html",
+      "title": "强迫劳动 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20241228-forced-labor.html"
+    },
+    {
+      "path": "20250109-coding-is-always-the-esaiest-thing.html",
+      "title": "写代码总是最简单的 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250109-coding-is-always-the-esaiest-thing.html"
+    },
+    {
+      "path": "20250120-fat-but-sad.html",
+      "title": "肥宅真的很难快乐 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250120-fat-but-sad.html"
+    },
+    {
+      "path": "20250208-going-home.html",
+      "title": "最想考公的时刻 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250208-going-home.html"
+    },
+    {
+      "path": "20250215-featurn-is-never-coming.html",
+      "title": "未来永远不会到来 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250215-featurn-is-never-coming.html"
+    },
+    {
+      "path": "20250218-life-needs-brainwashing.html",
+      "title": "人是需要洗脑的 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250218-life-needs-brainwashing.html"
+    },
+    {
+      "path": "20250315-self-destruction.html",
+      "title": "求救信号之「自我毁灭」 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250315-self-destruction.html"
+    },
+    {
+      "path": "20250317-value-brith-on-20.html",
+      "title": "价值观成型 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250317-value-brith-on-20.html"
+    },
+    {
+      "path": "20250410-scam-ad-phones-just-like-their-countries.html",
+      "title": "诈骗广告机 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250410-scam-ad-phones-just-like-their-countries.html"
+    },
+    {
+      "path": "20250502-when-ai-break-my-everything.html",
+      "title": "当 AI 破坏了我的一切 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250502-when-ai-break-my-everything.html"
+    },
+    {
+      "path": "20250511-parents-living-in-the-past.html",
+      "title": "活在时光里的父母 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250511-parents-living-in-the-past.html"
+    },
+    {
+      "path": "20250606-force-labor-until-die.html",
+      "title": "吃人是会上瘾的 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250606-force-labor-until-die.html"
+    },
+    {
+      "path": "20250607-when-death-is-near.html",
+      "title": "最近离死亡最近的瞬间 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250607-when-death-is-near.html"
+    },
+    {
+      "path": "20250608-at-least-I-still-have-the-freedom-to-write.html",
+      "title": "至少我还有写作的自由 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250608-at-least-I-still-have-the-freedom-to-write.html"
+    },
+    {
+      "path": "20250622-talk-about-coser.html",
+      "title": "长大后再谈 COSER - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250622-talk-about-coser.html"
+    },
+    {
+      "path": "20250624-desc-your-job-every-quarter.html",
+      "title": "述职 PTSD - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250624-desc-your-job-every-quarter.html"
+    },
+    {
+      "path": "20250705-regret-the-past-is-fucking-yourself.html",
+      "title": "遗憾是对自己的暴政 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250705-regret-the-past-is-fucking-yourself.html"
+    },
+    {
+      "path": "20250712-birthday-in-2025.html",
+      "title": "生日这一天 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250712-birthday-in-2025.html"
+    },
+    {
+      "path": "20250802-internet-illusion.html",
+      "title": "互联网幻觉 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250802-internet-illusion.html"
+    },
+    {
+      "path": "20250817-consume-is-not-answer-but-disenchantment.html",
+      "title": "消费不是答案，但祛魅得先消费 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20250817-consume-is-not-answer-but-disenchantment.html"
+    },
+    {
+      "path": "20251012-make-a-blog-again-with-astro.html",
+      "title": "用 Astro 重做网站这件事 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251012-make-a-blog-again-with-astro.html"
+    },
+    {
+      "path": "20251017-content-flow-and-platform.html",
+      "title": "平台问我，你真的有命可以晒吗？ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251017-content-flow-and-platform.html"
+    },
+    {
+      "path": "20251025-beautify-boardcast.html",
+      "title": "美化 BroadcastChannel - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251025-beautify-boardcast.html"
+    },
+    {
+      "path": "20251026-familiar-is-king.html",
+      "title": "ChatGPT Atlas 发布了，但你真的需要吗？ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251026-familiar-is-king.html"
+    },
+    {
+      "path": "20251115-everything-chnaged-after-coming-here.html",
+      "title": "到这后，一切都变味了 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251115-everything-chnaged-after-coming-here.html"
+    },
+    {
+      "path": "20251122-sc-ban-my-coc-account.html",
+      "title": "SC 永久封禁了我的 COC 账号 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251122-sc-ban-my-coc-account.html"
+    },
+    {
+      "path": "20251122-what-is-yours.html",
+      "title": "聊聊封号：什么是你的 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251122-what-is-yours.html"
+    },
+    {
+      "path": "20251206-archive-blog-written-by-github-issue.html",
+      "title": "用 GitHub issue 写博客很好，但我要放弃了 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251206-archive-blog-written-by-github-issue.html"
+    },
+    {
+      "path": "20251206-export-qi-reader-read-latter.html",
+      "title": "导出 Qi Reader 的 Read latter - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251206-export-qi-reader-read-latter.html"
+    },
+    {
+      "path": "20251214-export-v2ex-collection.html",
+      "title": "导出 V2ex 的收藏主题 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251214-export-v2ex-collection.html"
+    },
+    {
+      "path": "20251214-export-zhihu-collection.html",
+      "title": "导出知乎收藏夹 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251214-export-zhihu-collection.html"
+    },
+    {
+      "path": "20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html",
+      "title": "绕过 15 岁的高墙 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html"
+    },
+    {
+      "path": "20251223-gaming-crisis.html",
+      "title": "游戏危机 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251223-gaming-crisis.html"
+    },
+    {
+      "path": "20251228-export-weibo-like-list.html",
+      "title": "导出微博喜欢列表 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20251228-export-weibo-like-list.html"
+    },
+    {
+      "path": "20260102-review-2025.html",
+      "title": "回看 2025 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260102-review-2025.html"
+    },
+    {
+      "path": "20260201-always-disagree-with-others.html",
+      "title": "抬杠 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260201-always-disagree-with-others.html"
+    },
+    {
+      "path": "20260210-missing-lost-twitter.html",
+      "title": "怀念逝去的 Twitter - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260210-missing-lost-twitter.html"
+    },
+    {
+      "path": "20260214-twitter-archives-export-into-obsidian.html",
+      "title": "Twitter 数据导出 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260214-twitter-archives-export-into-obsidian.html"
+    },
+    {
+      "path": "20260217-refactor-social-media-sync-program.html",
+      "title": "重构 TG 机器人 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260217-refactor-social-media-sync-program.html"
+    },
+    {
+      "path": "20260222-163-bmh-cannot-keep-free-forever.html",
+      "title": "爆米花不可能一直免费 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260222-163-bmh-cannot-keep-free-forever.html"
+    },
+    {
+      "path": "20260222-install-openclaw.html",
+      "title": "Openclaw 踩坑 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260222-install-openclaw.html"
+    },
+    {
+      "path": "20260222-llm-feeling.html",
+      "title": "蒸汽机后时代的人们 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260222-llm-feeling.html"
+    },
+    {
+      "path": "20260225-ai-anxiety.html",
+      "title": "AI 焦虑 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260225-ai-anxiety.html"
+    },
+    {
+      "path": "20260303-expired-love.html",
+      "title": "变质爱情 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260303-expired-love.html"
+    },
+    {
+      "path": "20260309-if-love-have-a-belif.html",
+      "title": "如果爱情得有信仰 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260309-if-love-have-a-belif.html"
+    },
+    {
+      "path": "20260311-people-say-nothing-outside-towards-them.html",
+      "title": "我朋友说外面也就那样 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260311-people-say-nothing-outside-towards-them.html"
+    },
+    {
+      "path": "20260312-flush-redmi-ax6000.html",
+      "title": "READMI AX6000 刷机 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260312-flush-redmi-ax6000.html"
+    },
+    {
+      "path": "20260320-mv-openclaw-nanobot.html",
+      "title": "Nanobot 踩坑 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260320-mv-openclaw-nanobot.html"
+    },
+    {
+      "path": "20260321-explore-opencli-and-others-cli-for-social-media.html",
+      "title": "探索现有社交媒体 CLI 对导入 Obsidian 的可能性 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260321-explore-opencli-and-others-cli-for-social-media.html"
+    },
+    {
+      "path": "20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html",
+      "title": "重新设置 Sunshine 给 NS 串流用 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html"
+    },
+    {
+      "path": "20260322-steam-and-mint.html",
+      "title": "Steam 和 Mint - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260322-steam-and-mint.html"
+    },
+    {
+      "path": "20260324-open-source-transform-to-private.html",
+      "title": "开源是手段而不是目的 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260324-open-source-transform-to-private.html"
+    },
+    {
+      "path": "20260325-shortcut-with-everything.html",
+      "title": "人生的模板与捷径 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260325-shortcut-with-everything.html"
+    },
+    {
+      "path": "20260328-refactor-jekyll-blog.html",
+      "title": "重构 Jekyll 博客 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260328-refactor-jekyll-blog.html"
+    },
+    {
+      "path": "20260329-give-up-qi-reader.html",
+      "title": "放弃 QiReader - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260329-give-up-qi-reader.html"
+    },
+    {
+      "path": "20260402-try-another-agent.html",
+      "title": "试用其他 Agent - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260402-try-another-agent.html"
+    },
+    {
+      "path": "20260407-manul-update-extension-when-you-using-firefox.html",
+      "title": "用火狐还得手动更新拓展 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260407-manul-update-extension-when-you-using-firefox.html"
+    },
+    {
+      "path": "20260412-migrate-img-host-to-cloudflare-r2.html",
+      "title": "图床迁移 Cloudflare R2 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260412-migrate-img-host-to-cloudflare-r2.html"
+    },
+    {
+      "path": "20260412-moto-x70-air.html",
+      "title": "Moto X70 Air - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260412-moto-x70-air.html"
+    },
+    {
+      "path": "20260413-update-system-is-not-always-good.html",
+      "title": "系统升级变味了 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260413-update-system-is-not-always-good.html"
+    },
+    {
+      "path": "20260415-foreverblog-refuse-to-index.html",
+      "title": "很遗憾，没能通过十年之约审核 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260415-foreverblog-refuse-to-index.html"
+    },
+    {
+      "path": "20260419-resideload-on-ios-with-iloader.html",
+      "title": "iLoader 简化 iOS 测载 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260419-resideload-on-ios-with-iloader.html"
+    },
+    {
+      "path": "20260422-gfw-more-and-more-tall-in-april-2026.html",
+      "title": "越来越高的墙 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260422-gfw-more-and-more-tall-in-april-2026.html"
+    },
+    {
+      "path": "20260422-kazumi-sync-with-bangumi.html",
+      "title": "Kazumi 同步 Bangumi - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260422-kazumi-sync-with-bangumi.html"
+    },
+    {
+      "path": "20260428-github-copilot-charge-changed.html",
+      "title": "GitHub Copilot 改变收费模式 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260428-github-copilot-charge-changed.html"
+    },
+    {
+      "path": "20260429-eye-health.html",
+      "title": "视力恢复 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260429-eye-health.html"
+    },
+    {
+      "path": "20260429-xiaomi-token-request-failed.html",
+      "title": "石沉大海的小米开发者计划申请 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260429-xiaomi-token-request-failed.html"
+    },
+    {
+      "path": "20260501-when-to-eat.html",
+      "title": "饭点就要吃饭吗？ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260501-when-to-eat.html"
+    },
+    {
+      "path": "20260502-know-@liulifox233.html",
+      "title": " - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260502-know-@liulifox233.html"
+    },
+    {
+      "path": "20260502-poor-with-vibe-coding.html",
+      "title": "穷鬼 Vibe Coding - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260502-poor-with-vibe-coding.html"
+    },
+    {
+      "path": "20260503-dnshe-free-domain.html",
+      "title": "DNSHE 免费域名 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260503-dnshe-free-domain.html"
+    },
+    {
+      "path": "20260503-venera-to-bangumi.html",
+      "title": "同步 Venera 进度到 Bangumi - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260503-venera-to-bangumi.html"
+    },
+    {
+      "path": "20260504-bangumi-apis.html",
+      "title": "Bangumi 两个 API 的区别 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260504-bangumi-apis.html"
+    },
+    {
+      "path": "20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html",
+      "title": "Venera 无法在 iOS/iPad OS 上保存图片 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html"
+    },
+    {
+      "path": "20260508-poor-young.html",
+      "title": "少年游 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260508-poor-young.html"
+    },
+    {
+      "path": "20260510-fuck-meta.html",
+      "title": "Fuck Meta - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260510-fuck-meta.html"
+    },
+    {
+      "path": "20260516-asmr-todo-list.html",
+      "title": "ASMR 真神 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260516-asmr-todo-list.html"
+    },
+    {
+      "path": "20260516-fix-venera-export-name.html",
+      "title": "修复 Venera 点击导出无反应，章节显示问题 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260516-fix-venera-export-name.html"
+    },
+    {
+      "path": "20260516-mv-repo-to-github-organization.html",
+      "title": "迁移仓库到 GitHub 组织 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260516-mv-repo-to-github-organization.html"
+    },
+    {
+      "path": "20260521-mount-s3.html",
+      "title": "挂载 S3 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260521-mount-s3.html"
+    },
+    {
+      "path": "20260522-want-a-windows-pad.html",
+      "title": "Windows 幻想 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/20260522-want-a-windows-pad.html"
+    },
+    {
+      "path": "404.html",
+      "title": "404 Not Found - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/404.html"
+    },
+    {
+      "path": "8258-nights.html",
+      "title": "八千二百五十八夜 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/8258-nights.html"
+    },
+    {
+      "path": "README.html",
+      "title": "README - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/README"
+    },
+    {
+      "path": "changelogs.html",
+      "title": "Changelogs - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/changelogs"
+    },
+    {
+      "path": "compound.html",
+      "title": "Compound - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/compound.html"
+    },
+    {
+      "path": "existence-is-suffering.html",
+      "title": "存在即痛苦 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/existence-is-suffering.html"
+    },
+    {
+      "path": "games-never-played-until-died.html",
+      "title": "「我都花了時間玩遊戲，爲什麼還要花錢買它？」 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/games-never-played-until-died.html"
+    },
+    {
+      "path": "hello-world.html",
+      "title": "Hello World - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/hello-world.html"
+    },
+    {
+      "path": "hentai-reader.html",
+      "title": "Hentai Reader - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/hentai-reader.html"
+    },
+    {
+      "path": "idk-how-to-deal-relationship-with-my-parents.html",
+      "title": "I don't know how to deal relationship with my parents - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/idk-how-to-deal-relationship-with-my-parents.html"
+    },
+    {
+      "path": "index.html",
+      "title": "Seeds - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/"
+    },
+    {
+      "path": "is-being-a-soldier-something-that-matters.html",
+      "title": "Is being a soldier something that matters? - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/is-being-a-soldier-something-that-matters.html"
+    },
+    {
+      "path": "jark-off-ai.html",
+      "title": "自慰 AI - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/jark-off-ai.html"
+    },
+    {
+      "path": "killing-external-links-sucks.html",
+      "title": "Killing external links sucks - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/killing-external-links-sucks.html"
+    },
+    {
+      "path": "labs.html",
+      "title": "Labs - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/labs"
+    },
+    {
+      "path": "letters-about-affirmations-1.html",
+      "title": "誇誇月報 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/letters-about-affirmations-1.html"
+    },
+    {
+      "path": "look-back-to-your-loved-ones.html",
+      "title": "Look back to your loved ones - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/look-back-to-your-loved-ones.html"
+    },
+    {
+      "path": "losing-a-friend-seems-like-a-breakup.html",
+      "title": "失去朋友的滋味堪比失戀 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/losing-a-friend-seems-like-a-breakup.html"
+    },
+    {
+      "path": "many-articles-had-killed-by-chatgpt.html",
+      "title": "被 ChatGPT 消解的文章 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/many-articles-had-killed-by-chatgpt.html"
+    },
+    {
+      "path": "my-soulmate.html",
+      "title": "睡不着的夜和忘不掉的夢 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/my-soulmate.html"
+    },
+    {
+      "path": "my-university.html",
+      "title": "我的大學 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/my-university.html"
+    },
+    {
+      "path": "one-wisdom-sentence-released.html",
+      "title": "One wisdom sentence released - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/one-wisdom-sentence-released.html"
+    },
+    {
+      "path": "one-wisdom.html",
+      "title": "One wisdom - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/one-wisdom.html"
+    },
+    {
+      "path": "snipd-format-for-obsidian.html",
+      "title": "Snipd format for Obsidian - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/snipd-format-for-obsidian.html"
+    },
+    {
+      "path": "sorry-for-cats-in-my-first-half-of-life.html",
+      "title": "貓貓能有什麼壞心思呢？ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/sorry-for-cats-in-my-first-half-of-life.html"
+    },
+    {
+      "path": "steampy-on-steam.html",
+      "title": "SteamPY on Steam - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/steampy-on-steam.html"
+    },
+    {
+      "path": "stories.html",
+      "title": "Stories - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/stories"
+    },
+    {
+      "path": "telegram-message-sync-bot.html",
+      "title": "Telegram message sync bot - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/telegram-message-sync-bot.html"
+    },
+    {
+      "path": "thank-you-guys.html",
+      "title": "我的舊友，我愛你們 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/thank-you-guys.html"
+    },
+    {
+      "path": "the-8509-days-of-confusion.html",
+      "title": "來信 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/the-8509-days-of-confusion.html"
+    },
+    {
+      "path": "thoughts.html",
+      "title": "Thoughts - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/thoughts"
+    },
+    {
+      "path": "ttrss-on-wsl2.html",
+      "title": "TTRSS on WSL2 - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/ttrss-on-wsl2.html"
+    },
+    {
+      "path": "wnen-u-want-to-use-proxies-on-cybercafé.html",
+      "title": "WNEN U WANT TO USE PROXIES on CYBERCAFÉ - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/wnen-u-want-to-use-proxies-on-cybercaf%C3%A9.html"
+    },
+    {
+      "path": "your-next-computer-is-never-ever-an-ipad-pro.html",
+      "title": "你的下一臺電腦，不可能會是 iPad Pro - bGZo's blog",
+      "canonical": "https://blog.bgzo.cc/your-next-computer-is-never-ever-an-ipad-pro.html"
+    }
+  ],
+  "api": {
+    "1.json": {
+      "posts": [
+        {
+          "title": "Windows 幻想",
+          "url": "/20260522-want-a-windows-pad.html",
+          "date": "2026/05/23",
+          "datetime": "2026-05-23",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "好想要一个 Windows 平板，但是： 二合一平板看着很美好，实际用起来就是一坨 Shit ，散热散热不行续航也不行，糟糕的键盘手感，更不用说整体重量也没啥优势。Surface 的品控是一个非常严重的问题，强烈建议购买传统形态的 Windows 轻薄本即可。其实幻 13 也不错，或者新一代 CPU 马上就要铺货上市了，你的预算又都是高端路线很快就有相关产品可以购买了 https//www.v2e...",
+          "desc_html": "<p>好想要一个 Windows 平板，但是： 二合一平板看着很美好，实际用起来就是一坨 Shit ，散热散热不行续航也不行，糟糕的键盘手感，更不用说整体重量也没啥优势。Surface 的品控是一个非常严重的问题，强烈建议购买传统形态的 Windows 轻薄本即可。其实幻 13 也不错，或者新一代 CPU 马上就要铺货上市了，你的预算又都是高端路线很快就有相关产品可以购买了 https//www.v2e…</p>"
+        },
+        {
+          "title": "挂载 S3",
+          "url": "/20260521-mount-s3.html",
+          "date": "2026/05/23",
+          "datetime": "2026-05-23",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "找了一些，不满意，要么收费，要么闭源，要么不满足需求，如： 1. https//www.raidrive.com/zh-hant/pricing 2. https//anystorage.dev/pricing 3. https//www.v2ex.com/t/1211005 4. PixelFS https//v2ex.com/t/1112571 5. https//github.com/lus...",
+          "desc_html": "<p>找了一些，不满意，要么收费，要么闭源，要么不满足需求，如： 1. https//www.raidrive.com/zh-hant/pricing 2. https//anystorage.dev/pricing 3. https//www.v2ex.com/t/1211005 4. PixelFS https//v2ex.com/t/1112571 5. https//github.com/lus…</p>"
+        },
+        {
+          "title": "系统升级变味了",
+          "url": "/20260413-update-system-is-not-always-good.html",
+          "date": "2026/05/17",
+          "datetime": "2026-05-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "不知道从什么时候开始，升级系统变得听起来不那么美好了，十多年前，我还在用红米 1s 的时候，就一直期待系统升级，那么时候我还以为这个手机可以一直得到升级维护。 直到几年后的某天，我发现自己再也安装不了新的应用，安装的时候提醒一句：安卓版本过低的时候，我才发现，原来红米早就终止了这台手机的维护。 后来，我慢慢发现这其实是机海战术的必然，没有哪家手机公司还想再为一台三年前的手机做适配，因为这其实是某种...",
+          "desc_html": "<p>不知道从什么时候开始，升级系统变得听起来不那么美好了，十多年前，我还在用红米 1s 的时候，就一直期待系统升级，那么时候我还以为这个手机可以一直得到升级维护。 直到几年后的某天，我发现自己再也安装不了新的应用，安装的时候提醒一句：安卓版本过低的时候，我才发现，原来红米早就终止了这台手机的维护。 后来，我慢慢发现这其实是机海战术的必然，没有哪家手机公司还想再为一台三年前的手机做适配，因为这其实是某种…</p>"
+        },
+        {
+          "title": "少年游",
+          "url": "/20260508-poor-young.html",
+          "date": "2026/05/17",
+          "datetime": "2026-05-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "我总觉得不幸，因为我 10 岁那年没玩到遥控车，14 岁那年没追到喜欢的女生，16 岁那年买不起名牌的鞋子，18 岁那年买不起苹果电脑，20 岁那年又不敢买 iPhone、iPad、Switch 等等，那些碰壁的当下，我都觉得自己不幸。 甚至现在也是一样，即时我可以在 25 岁的时候，买到过去 20 年间所渴求的一切，但每当我想到如此唾手可得的东西，却是我小时候如何呼唤都要不来的东西，我就更加难过...",
+          "desc_html": "<p>我总觉得不幸，因为我 10 岁那年没玩到遥控车，14 岁那年没追到喜欢的女生，16 岁那年买不起名牌的鞋子，18 岁那年买不起苹果电脑，20 岁那年又不敢买 iPhone、iPad、Switch 等等，那些碰壁的当下，我都觉得自己不幸。 甚至现在也是一样，即时我可以在 25 岁的时候，买到过去 20 年间所渴求的一切，但每当我想到如此唾手可得的东西，却是我小时候如何呼唤都要不来的东西，我就更加难过…</p>"
+        },
+        {
+          "title": "视力恢复",
+          "url": "/20260429-eye-health.html",
+          "date": "2026/05/17",
+          "datetime": "2026-05-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "下半年的目标：希望视力得到恢复 至少能够恢复看得清电脑屏幕",
+          "desc_html": "<p>下半年的目标：希望视力得到恢复 至少能够恢复看得清电脑屏幕</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 1,
+      "next_page": 2
+    },
+    "10.json": {
+      "posts": [
+        {
+          "title": "回看 2025",
+          "url": "/20260102-review-2025.html",
+          "date": "2026/01/02",
+          "datetime": "2026-01-02",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "写下这些文字的时候，已经是 2026 年的第 3 天了。 新年第 1 天，我在疯狂地回迁我的音乐歌单，但精力有限，只弄完了关注歌手和 AM、Spotify、YTB 喜欢的歌单，当然，还有非常多数据不知道要怎么弄。 新年第 2 天，我在公司加班，只能换来额外一天的调休，工作煎熬不说，也无法带给自己任何长进（CRUD），屁股如坐针毡，甚至读不进去一篇文章。 这样的两天极具代表性，因为这几乎是我 202...",
+          "desc_html": "<p>写下这些文字的时候，已经是 2026 年的第 3 天了。 新年第 1 天，我在疯狂地回迁我的音乐歌单，但精力有限，只弄完了关注歌手和 AM、Spotify、YTB 喜欢的歌单，当然，还有非常多数据不知道要怎么弄。 新年第 2 天，我在公司加班，只能换来额外一天的调休，工作煎熬不说，也无法带给自己任何长进（CRUD），屁股如坐针毡，甚至读不进去一篇文章。 这样的两天极具代表性，因为这几乎是我 202…</p>"
+        },
+        {
+          "title": "导出微博喜欢列表",
+          "url": "/20251228-export-weibo-like-list.html",
+          "date": "2025/12/28",
+          "datetime": "2025-12-28",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "与 导出 V2ex 的收藏主题 和 导出知乎收藏夹 的理由相似，一来为了做复盘，而来为了备份自己账号的数据，玩意哪天账号被封禁了，或者不想要了，直接可以抛弃，做到没有成本。 实现 接口比较简单，没有加密，核心逻辑如下： 不用你说我都知道代码套了这么多层有点恶心，但是请允许我先吐槽一下微博为的报文， 因为好多之前的微博被删了，或者博主不展示了，所以列表里面就会展示一些不规范的报文： 加上我也懒得适配...",
+          "desc_html": "<p>与 导出 V2ex 的收藏主题 和 导出知乎收藏夹 的理由相似，一来为了做复盘，而来为了备份自己账号的数据，玩意哪天账号被封禁了，或者不想要了，直接可以抛弃，做到没有成本。 实现 接口比较简单，没有加密，核心逻辑如下： 不用你说我都知道代码套了这么多层有点恶心，但是请允许我先吐槽一下微博为的报文， 因为好多之前的微博被删了，或者博主不展示了，所以列表里面就会展示一些不规范的报文： 加上我也懒得适配…</p>"
+        },
+        {
+          "title": "游戏危机",
+          "url": "/20251223-gaming-crisis.html",
+          "date": "2025/12/23",
+          "datetime": "2025-12-23",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近不是把 SD 都卖掉了吗？可我还是想要打游戏，所以不甘心，下意识就开始打起了其他掌机的主意。 我看 Ally X，Ally Xbox X，Switch OLED 这些，看了很久，但都没有下手。 首先，我卖掉 SD 是因为它没有办法很好的玩盗版游戏，很多游戏需要依赖 Proton 兼容层，如果只装这个就算了，但是你还是得装个 Steam，可以说，Linux 下一半都游戏体验都是 Steam 给的...",
+          "desc_html": "<p>最近不是把 SD 都卖掉了吗？可我还是想要打游戏，所以不甘心，下意识就开始打起了其他掌机的主意。 我看 Ally X，Ally Xbox X，Switch OLED 这些，看了很久，但都没有下手。 首先，我卖掉 SD 是因为它没有办法很好的玩盗版游戏，很多游戏需要依赖 Proton 兼容层，如果只装这个就算了，但是你还是得装个 Steam，可以说，Linux 下一半都游戏体验都是 Steam 给的…</p>"
+        },
+        {
+          "title": "绕过 15 岁的高墙",
+          "url": "/20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html",
+          "date": "2025/12/15",
+          "datetime": "2025-12-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "15 岁对于中国孩子是一个特殊的时期，大多数少年这个时候正在读初中，第二性征开始发育，也是绝大多数人情窦初开，认识自己，他人和集体关系的年纪。 当然我也不例外，只是对我而言，那段时期更像是我的空窗期，完全没有什么值得回忆的东西，直到我整理相册，看到一些 13 年到 16 年的老照片，反反复复找寻别人照片中自己的模样，努力拼凑出当时的心情，我才有点后知后觉，哪是忘记了，自己身上发生的这么多事，只是太...",
+          "desc_html": "<p>15 岁对于中国孩子是一个特殊的时期，大多数少年这个时候正在读初中，第二性征开始发育，也是绝大多数人情窦初开，认识自己，他人和集体关系的年纪。 当然我也不例外，只是对我而言，那段时期更像是我的空窗期，完全没有什么值得回忆的东西，直到我整理相册，看到一些 13 年到 16 年的老照片，反反复复找寻别人照片中自己的模样，努力拼凑出当时的心情，我才有点后知后觉，哪是忘记了，自己身上发生的这么多事，只是太…</p>"
+        },
+        {
+          "title": "导出 V2ex 的收藏主题",
+          "url": "/20251214-export-v2ex-collection.html",
+          "date": "2025/12/14",
+          "datetime": "2025-12-14",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "基于几点原因有这方面的需求： 1. 复盘；写自己的周报用，总结看看最近一周摸鱼的结果； 2. 备份：V2 是个人站点，账号有被封禁的可能，并且没有导出数据的功能，你的数据可能永远消失； 实现 尽管 V2 过去已经开放过一版 API，但是缺少个人的部分，因此具体实现上还需要结合传统的 Cookie 网页，解析收藏列表，然后才可以通过 API 调用获得主题详情。还是希望未来有一天能有相关的接口，具体官...",
+          "desc_html": "<p>基于几点原因有这方面的需求： 1. 复盘；写自己的周报用，总结看看最近一周摸鱼的结果； 2. 备份：V2 是个人站点，账号有被封禁的可能，并且没有导出数据的功能，你的数据可能永远消失； 实现 尽管 V2 过去已经开放过一版 API，但是缺少个人的部分，因此具体实现上还需要结合传统的 Cookie 网页，解析收藏列表，然后才可以通过 API 调用获得主题详情。还是希望未来有一天能有相关的接口，具体官…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 10,
+      "next_page": 11
+    },
+    "11.json": {
+      "posts": [
+        {
+          "title": "导出知乎收藏夹",
+          "url": "/20251214-export-zhihu-collection.html",
+          "date": "2025/12/14",
+          "datetime": "2025-12-14",
+          "image_url": "https://picx.zhimg.com/100/v2-ceda296948cfd37873cb151e0eeb4953_r.jpg",
+          "image_urls": [
+            "https://picx.zhimg.com/100/v2-ceda296948cfd37873cb151e0eeb4953_r.jpg"
+          ],
+          "desc": "基于几点原因，建议你定期备份知乎收藏夹： 1. 复盘：工作日有的时候会看这个网站，会存一些收藏的技术文章； 2. 审查：有些答案会被隐藏，甚至删除，比如下面收藏夹就有这种情况，页面显示有 4 个内容，接口返回的 total 也是 4，但是实际查询到的内容一个都没有，怎么办，好难猜啊，你懂的； 所以是不是得及时做备份？ 实现 通过网页抓包如下接口： https//github.com/bGZo/en...",
+          "desc_html": "<p>基于几点原因，建议你定期备份知乎收藏夹： 1. 复盘：工作日有的时候会看这个网站，会存一些收藏的技术文章； 2. 审查：有些答案会被隐藏，甚至删除，比如下面收藏夹就有这种情况，页面显示有 4 个内容，接口返回的 total 也是 4，但是实际查询到的内容一个都没有，怎么办，好难猜啊，你懂的； 所以是不是得及时做备份？ 实现 通过网页抓包如下接口： https//github.com/bGZo/en…</p>"
+        },
+        {
+          "title": "导出 Qi Reader 的 Read latter",
+          "url": "/20251206-export-qi-reader-read-latter.html",
+          "date": "2025/12/06",
+          "datetime": "2025-12-06",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "上一次写这个我记得还是给 https//rss.anyant.com/ 写的，源码在 https//github.com/bGZo/playground/tree/2022/01/rssant-backup 已经做的比较完善了，当然这种事情不太好，就没有引流，自然也没有多少人用，当时第一次抓包，写的还比较费劲哈哈哈。 官方当然有计划，但是已经快 2 年了，猜测是有什么顾虑，因为我比较急，就不等了，...",
+          "desc_html": "<p>上一次写这个我记得还是给 https//rss.anyant.com/ 写的，源码在 https//github.com/bGZo/playground/tree/2022/01/rssant-backup 已经做的比较完善了，当然这种事情不太好，就没有引流，自然也没有多少人用，当时第一次抓包，写的还比较费劲哈哈哈。 官方当然有计划，但是已经快 2 年了，猜测是有什么顾虑，因为我比较急，就不等了，…</p>"
+        },
+        {
+          "title": "用 GitHub issue 写博客很好，但我要放弃了",
+          "url": "/20251206-archive-blog-written-by-github-issue.html",
+          "date": "2025/12/06",
+          "datetime": "2025-12-06",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202507022230006.png",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202507022230006.png"
+          ],
+          "desc": "这曾经是一个比火热的写作方式，至少在 2020 年是如此，我也是听、看 laike9m 和 yihong618 的项目慢慢摸索的，它有很多优点，比如至少解决了如下的问题： 1. 文章托管：所有文件放在 GitHub，他的稳定性至少要比你电脑的寿命要长； 2. 图片引用：所有本地写过博客的人一定头疼过如何上传图片，这方面不赘述了； 3. SEO 索引：GitHub issue 自带 SEO 索引，会...",
+          "desc_html": "<p>这曾经是一个比火热的写作方式，至少在 2020 年是如此，我也是听、看 laike9m 和 yihong618 的项目慢慢摸索的，它有很多优点，比如至少解决了如下的问题： 1. 文章托管：所有文件放在 GitHub，他的稳定性至少要比你电脑的寿命要长； 2. 图片引用：所有本地写过博客的人一定头疼过如何上传图片，这方面不赘述了； 3. SEO 索引：GitHub issue 自带 SEO 索引，会…</p>"
+        },
+        {
+          "title": "聊聊封号：什么是你的",
+          "url": "/20251122-what-is-yours.html",
+          "date": "2025/11/22",
+          "datetime": "2025-11-22",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "由于 SC 永久封禁了我的 COC 账号，我发现一个非常严重的问题：我没有自由支配我账号的权利。我非常不认同的 SC 的用户规则就是无法共享、买卖账号，如果有一天我真心想要把账号给某个人，有可能是我最亲近的朋友，甚至是伴侣，那么我的账号仍然面临永久封禁的可能？这太可笑了。 另一个方面来源我朋友的吐槽：「如果当初知道这个号会出问题，不如直接花钱买个带邮箱的老成品号，不用肝，而且还可能更安全，而且还可...",
+          "desc_html": "<p>由于 SC 永久封禁了我的 COC 账号，我发现一个非常严重的问题：我没有自由支配我账号的权利。我非常不认同的 SC 的用户规则就是无法共享、买卖账号，如果有一天我真心想要把账号给某个人，有可能是我最亲近的朋友，甚至是伴侣，那么我的账号仍然面临永久封禁的可能？这太可笑了。 另一个方面来源我朋友的吐槽：「如果当初知道这个号会出问题，不如直接花钱买个带邮箱的老成品号，不用肝，而且还可能更安全，而且还可…</p>"
+        },
+        {
+          "title": "SC 永久封禁了我的 COC 账号",
+          "url": "/20251122-sc-ban-my-coc-account.html",
+          "date": "2025/11/22",
+          "datetime": "2025-11-22",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/1763789531491.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/1763789531491.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/20251122154638848.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/1763789068303.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/1763789256261.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/1763783545886.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/20251122155418016.webp"
+          ],
+          "desc": "最早玩部落冲突（下称 COC）还是 2014、2015 年，那会儿最高的基地也就是 10 本，那个时候甚至还没有渠道服，虽然偶尔网会掉线，并且无法登录 Google 和 Supercell ID， 但是仍然可以裸连 Super Cell（下称 SC） 服务器，唯一缺点就是账号存在本地，换手机就意味着从头开始。 有个记忆深刻的点，那会儿有个朋友在我刚玩的时候就姗姗的笑笑，说自己早就满防不玩了，并甩给...",
+          "desc_html": "<p>最早玩部落冲突（下称 COC）还是 2014、2015 年，那会儿最高的基地也就是 10 本，那个时候甚至还没有渠道服，虽然偶尔网会掉线，并且无法登录 Google 和 Supercell ID， 但是仍然可以裸连 Super Cell（下称 SC） 服务器，唯一缺点就是账号存在本地，换手机就意味着从头开始。 有个记忆深刻的点，那会儿有个朋友在我刚玩的时候就姗姗的笑笑，说自己早就满防不玩了，并甩给…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 11,
+      "next_page": 12
+    },
+    "12.json": {
+      "posts": [
+        {
+          "title": "到这后，一切都变味了",
+          "url": "/20251115-everything-chnaged-after-coming-here.html",
+          "date": "2025/11/15",
+          "datetime": "2025-11-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "很多东西来了这里都变了，VPN、eSIM、Apple、Google、Harmony 这些是你可能已经知道的产品或公司，如果你在国内工作，也应该能感受到这种变化，就我所在的软件行业，底层大量的国产化之后，你的技术栈也会大量国产化： 这两年中美脱钩，我从业的公司，也正在把大量的依赖迁移到国产，这是大趋势。我们知道，所谓的国产，可能就是 Fork -> Replace -> Rebuild -> Com...",
+          "desc_html": "<p>很多东西来了这里都变了，VPN、eSIM、Apple、Google、Harmony 这些是你可能已经知道的产品或公司，如果你在国内工作，也应该能感受到这种变化，就我所在的软件行业，底层大量的国产化之后，你的技术栈也会大量国产化： 这两年中美脱钩，我从业的公司，也正在把大量的依赖迁移到国产，这是大趋势。我们知道，所谓的国产，可能就是 Fork -&gt; Replace -&gt; Rebuild -&gt; Com…</p>"
+        },
+        {
+          "title": "ChatGPT Atlas 发布了，但你真的需要吗？",
+          "url": "/20251026-familiar-is-king.html",
+          "date": "2025/10/26",
+          "datetime": "2025-10-26",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "来写写浏览器使用的心路历程吧，我没有能力开发出属于自己的浏览器，只能在这些产品中徘徊，最终我回到了原点，Firefox(下称 FF，火狐)。 最开始，我还不会用 Google 的时候，我用的是 FF 中国的服务，但总是磕磕绊绊有问题，最终我转到了 FF 国际的服务。 然后，在学习 Linux 的时候，我迷上了 Ubuntu，把电脑全部换成了这个操作系统，当时在 Ubuntu 上，语雀等网络工具在 ...",
+          "desc_html": "<p>来写写浏览器使用的心路历程吧，我没有能力开发出属于自己的浏览器，只能在这些产品中徘徊，最终我回到了原点，Firefox(下称 FF，火狐)。 最开始，我还不会用 Google 的时候，我用的是 FF 中国的服务，但总是磕磕绊绊有问题，最终我转到了 FF 国际的服务。 然后，在学习 Linux 的时候，我迷上了 Ubuntu，把电脑全部换成了这个操作系统，当时在 Ubuntu 上，语雀等网络工具在 …</p>"
+        },
+        {
+          "title": "美化 BroadcastChannel",
+          "url": "/20251025-beautify-boardcast.html",
+          "date": "2025/10/25",
+          "datetime": "2025-10-25",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202510251122073.png",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202510251122073.png",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202510251124670.png"
+          ],
+          "desc": "原项目设计很新颖，用 Cloudflare / Netlify / Vercel 等平台天然支持 SSR 特性，完成了原网页 https//t.me/s/ 的代理工作。最重要的是，这些平台作为中间转发（代理），可以直接让国内访问到这部分内容（受众 ++）。 原理 之前一直以为是从 Telegram 网页端拉取数据，然后再生成动态站点，但运行一段时间之后发现不是，博文同步更新的很快，部署一次之后，没...",
+          "desc_html": "<p>原项目设计很新颖，用 Cloudflare / Netlify / Vercel 等平台天然支持 SSR 特性，完成了原网页 https//t.me/s/ 的代理工作。最重要的是，这些平台作为中间转发（代理），可以直接让国内访问到这部分内容（受众 ++）。 原理 之前一直以为是从 Telegram 网页端拉取数据，然后再生成动态站点，但运行一段时间之后发现不是，博文同步更新的很快，部署一次之后，没…</p>"
+        },
+        {
+          "title": "平台问我，你真的有命可以晒吗？",
+          "url": "/20251017-content-flow-and-platform.html",
+          "date": "2025/10/17",
+          "datetime": "2025-10-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "小学毕业那会儿没事情做，整天抱着个手机玩，总是等待别人的消息，等待聊天铃声响起的瞬间。那个时候不会书写生活，也不会发说说，反倒是都在转发别人空间里的东西，什么样的都有，我也加过几个这样的号，甚至 1 比 1 拷贝过来当自己的东西发，鲜少有人转发就算了，这件事情我做了小大半年，之后因为手机被没收等原因，这件事情就不做了，若干年后，这些事情成了同学嘲弄我的黑历史，索性一晚上都删完了。 我不知道，这个东...",
+          "desc_html": "<p>小学毕业那会儿没事情做，整天抱着个手机玩，总是等待别人的消息，等待聊天铃声响起的瞬间。那个时候不会书写生活，也不会发说说，反倒是都在转发别人空间里的东西，什么样的都有，我也加过几个这样的号，甚至 1 比 1 拷贝过来当自己的东西发，鲜少有人转发就算了，这件事情我做了小大半年，之后因为手机被没收等原因，这件事情就不做了，若干年后，这些事情成了同学嘲弄我的黑历史，索性一晚上都删完了。 我不知道，这个东…</p>"
+        },
+        {
+          "title": "用 Astro 重做网站这件事",
+          "url": "/20251012-make-a-blog-again-with-astro.html",
+          "date": "2025/10/12",
+          "datetime": "2025-10-12",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "Astro 是什么 核心思想是群岛架构，不同与传统 VUE 的单页应用，而是对于不用页面按需加载，在网页加载速度和架构兼容性上来说是一流。 模板的注入类似 Jekyll，但是比前者更加灵活。 Bun 是什么 是用 Zig 语言实现的另一个 Javascript 运行时，目标是兼容 Node.js，提供更加快速的构建体验。 初始化一个 Astro 项目 添加 Vue / TailwindCSS 等依...",
+          "desc_html": "<p>Astro 是什么 核心思想是群岛架构，不同与传统 VUE 的单页应用，而是对于不用页面按需加载，在网页加载速度和架构兼容性上来说是一流。 模板的注入类似 Jekyll，但是比前者更加灵活。 Bun 是什么 是用 Zig 语言实现的另一个 Javascript 运行时，目标是兼容 Node.js，提供更加快速的构建体验。 初始化一个 Astro 项目 添加 Vue / TailwindCSS 等依…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 12,
+      "next_page": 13
+    },
+    "13.json": {
+      "posts": [
+        {
+          "title": "消费不是答案，但祛魅得先消费",
+          "url": "/20250817-consume-is-not-answer-but-disenchantment.html",
+          "date": "2025/08/17",
+          "datetime": "2025-08-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近不是把大馒头退了吗，但物欲没有减退，我还想要买一个 Windows 掌机，即使我已经有了 Steam Deck，因为我在玩 Galgame 的时候，总是非常麻烦： 1. 打补丁，Steam 平台的 Galgame 有时候为了过审，翻译都是错的； 2. 第三方游戏导入很麻烦，平台没有的游戏，每次只能拷贝到 SD 卡，然后在切换桌面模式，才能导入启动程序； 总的来说，我感觉非常匹配，因为 Stea...",
+          "desc_html": "<p>最近不是把大馒头退了吗，但物欲没有减退，我还想要买一个 Windows 掌机，即使我已经有了 Steam Deck，因为我在玩 Galgame 的时候，总是非常麻烦： 1. 打补丁，Steam 平台的 Galgame 有时候为了过审，翻译都是错的； 2. 第三方游戏导入很麻烦，平台没有的游戏，每次只能拷贝到 SD 卡，然后在切换桌面模式，才能导入启动程序； 总的来说，我感觉非常匹配，因为 Stea…</p>"
+        },
+        {
+          "title": "互联网幻觉",
+          "url": "/20250802-internet-illusion.html",
+          "date": "2025/08/02",
+          "datetime": "2025-08-02",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "前几年看过一句话，具体讲什么忘记了，大致意思就是如果不是互联网，很多人一辈子也不可能认识，也不可能说上话。 原话当然是一句骂人的话，但我最近发现，我非常像那个不解风情的人，为什么呢？ 这周我本来要做一个 黑曜石导入计划 的项目，就涉及了 ACGN 的内容，这部分内容之前几年我一直都是间断地用 班固米 管理的，比较难受的是，2020 年因为 隐私 保护，数据都清空了，所以我不得不扭头开始做数据恢复。...",
+          "desc_html": "<p>前几年看过一句话，具体讲什么忘记了，大致意思就是如果不是互联网，很多人一辈子也不可能认识，也不可能说上话。 原话当然是一句骂人的话，但我最近发现，我非常像那个不解风情的人，为什么呢？ 这周我本来要做一个 黑曜石导入计划 的项目，就涉及了 ACGN 的内容，这部分内容之前几年我一直都是间断地用 班固米 管理的，比较难受的是，2020 年因为 隐私 保护，数据都清空了，所以我不得不扭头开始做数据恢复。…</p>"
+        },
+        {
+          "title": "生日这一天",
+          "url": "/20250712-birthday-in-2025.html",
+          "date": "2025/07/12",
+          "datetime": "2025-07-12",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202507121712702.jpg",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202507121712702.jpg",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2025/202507121713654.jpg"
+          ],
+          "desc": "这两天是我 25 岁的生日，去看了人生第一场线下 脱口秀。 其实昨天，也就是周五， Outlook 日历就弹出了提醒，说明天是我的生日。好开心，又能胡吃海喝好好犒劳一下自己了，而且还赶上了周末。 但我突然想起来去年陪我过生日的人，今年并没有邀请我过生，就有点失落和疑惑。我今年还可以继续邀请他吗？我不知道。其实也没什么，一直以来都不太习惯别人陪着一起过生日。也就这样持续 25 年了。 想的有点多了，...",
+          "desc_html": "<p>这两天是我 25 岁的生日，去看了人生第一场线下 脱口秀。 其实昨天，也就是周五， Outlook 日历就弹出了提醒，说明天是我的生日。好开心，又能胡吃海喝好好犒劳一下自己了，而且还赶上了周末。 但我突然想起来去年陪我过生日的人，今年并没有邀请我过生，就有点失落和疑惑。我今年还可以继续邀请他吗？我不知道。其实也没什么，一直以来都不太习惯别人陪着一起过生日。也就这样持续 25 年了。 想的有点多了，…</p>"
+        },
+        {
+          "title": "遗憾是对自己的暴政",
+          "url": "/20250705-regret-the-past-is-fucking-yourself.html",
+          "date": "2025/07/05",
+          "datetime": "2025-07-05",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "人都有遗憾，对吧？ 「如果当时的那句话这样说，是不是就好了？」 「如果当时没有选择 XXX，是不是现在就不用 XXX 了？」 「如果当时好好赔礼道歉的话，我们的关系是不是也不会这样？」 「如果当时好好地付出的话，我们还会有以后吗？」 .... 对我来说，这些话就像是某个开关一样，可以一瞬间串联起来记忆哪些深深浅浅的沟壑。我写了很多人际关系的随笔，其中感受到的很多痛苦应证了阿德勒那句「人际关系是一切...",
+          "desc_html": "<p>人都有遗憾，对吧？ 「如果当时的那句话这样说，是不是就好了？」 「如果当时没有选择 XXX，是不是现在就不用 XXX 了？」 「如果当时好好赔礼道歉的话，我们的关系是不是也不会这样？」 「如果当时好好地付出的话，我们还会有以后吗？」 …. 对我来说，这些话就像是某个开关一样，可以一瞬间串联起来记忆哪些深深浅浅的沟壑。我写了很多人际关系的随笔，其中感受到的很多痛苦应证了阿德勒那句「人际关系是一切…</p>"
+        },
+        {
+          "title": "述职 PTSD",
+          "url": "/20250624-desc-your-job-every-quarter.html",
+          "date": "2025/06/24",
+          "datetime": "2025-06-24",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "每次述职都是能剥层皮的事情。 每个季度领导都会定这次汇报的「方向」，还不忘抛出一段怎么读都不通顺的「材料」，最后还会轻飘飘地通知一句，明晚 7 点预留下时间，一切都不容商量。 没有办法，只能加班，盯着屏幕里的像素，一字一字地揣摩，再从平日积攒的日报里面挑挑拣拣，排列组合，想办法凑出来一张 PPT 的长度。 最痛苦的环节是，总有一页是要写为公司带来的「价值」，这总能让人想到怀疑人生。 评比，打分，排...",
+          "desc_html": "<p>每次述职都是能剥层皮的事情。 每个季度领导都会定这次汇报的「方向」，还不忘抛出一段怎么读都不通顺的「材料」，最后还会轻飘飘地通知一句，明晚 7 点预留下时间，一切都不容商量。 没有办法，只能加班，盯着屏幕里的像素，一字一字地揣摩，再从平日积攒的日报里面挑挑拣拣，排列组合，想办法凑出来一张 PPT 的长度。 最痛苦的环节是，总有一页是要写为公司带来的「价值」，这总能让人想到怀疑人生。 评比，打分，排…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 13,
+      "next_page": 14
+    },
+    "14.json": {
+      "posts": [
+        {
+          "title": "长大后再谈 COSER",
+          "url": "/20250622-talk-about-coser.html",
+          "date": "2025/06/22",
+          "datetime": "2025-06-22",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "一次闲聊，我和同事聊起了漫展，我很怀念，因为即使在内蒙小城，每年还是有好几次漫展，如果你不出 COSER，那么唯一困住你的事情就是，是否有一个二次元的同好随行。 我仍然忘不掉 15 岁那边被朋友叫去一起逛漫展的时刻，即使没有几个好看的 COSER，商铺的东西也贵的要命。但穷有穷的玩法，我们并排逛啊逛，会比谁先猜出来对面前的 COSER 是哪位角色。我们不记得是否玩得很开心，15 岁的高光时刻永远定...",
+          "desc_html": "<p>一次闲聊，我和同事聊起了漫展，我很怀念，因为即使在内蒙小城，每年还是有好几次漫展，如果你不出 COSER，那么唯一困住你的事情就是，是否有一个二次元的同好随行。 我仍然忘不掉 15 岁那边被朋友叫去一起逛漫展的时刻，即使没有几个好看的 COSER，商铺的东西也贵的要命。但穷有穷的玩法，我们并排逛啊逛，会比谁先猜出来对面前的 COSER 是哪位角色。我们不记得是否玩得很开心，15 岁的高光时刻永远定…</p>"
+        },
+        {
+          "title": "至少我还有写作的自由",
+          "url": "/20250608-at-least-I-still-have-the-freedom-to-write.html",
+          "date": "2025/06/08",
+          "datetime": "2025-06-08",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "上个月听了 凡之昂和魏小河的对谈，跟着推荐买了《不再踏入流量的河》，读了一部分文章，有强烈的离职冲动。 不仅仅再是对这份工作的不满，而是更加深层、抽象的委屈。我意识到我日复一日的工作不再会为我的简历加分，我做的事情、我的付出不会被人感谢，我写的 PPT 没有任何意义，我做的东西完全可被当今 AI Agent 取代。甚至是，换谁来都一样。 我也意识到，工作的本质就是让度一种自由，任由公司这个集体去异...",
+          "desc_html": "<p>上个月听了 凡之昂和魏小河的对谈，跟着推荐买了《不再踏入流量的河》，读了一部分文章，有强烈的离职冲动。 不仅仅再是对这份工作的不满，而是更加深层、抽象的委屈。我意识到我日复一日的工作不再会为我的简历加分，我做的事情、我的付出不会被人感谢，我写的 PPT 没有任何意义，我做的东西完全可被当今 AI Agent 取代。甚至是，换谁来都一样。 我也意识到，工作的本质就是让度一种自由，任由公司这个集体去异…</p>"
+        },
+        {
+          "title": "最近离死亡最近的瞬间",
+          "url": "/20250607-when-death-is-near.html",
+          "date": "2025/06/07",
+          "datetime": "2025-06-07",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "人生有很多次距离死亡最近的时刻，而我最近有一次。 这周突然被安全部门的会议拉上来，指着屏幕上面从我入职到现在两年时间间，零零散散的二十多条日志，问我解释为什么 Push，Push 了什么内容。我只能打开那些文件，并解释说只是个人的工作日志，周报之类的东西。并不涉及公司项目具体内容。 这种事情可大可小，毕竟笔记这玩意根本没有办法证明和项目完全无关，我在工作上面遇到一个 场景/BUG，遇到一个代码、问...",
+          "desc_html": "<p>人生有很多次距离死亡最近的时刻，而我最近有一次。 这周突然被安全部门的会议拉上来，指着屏幕上面从我入职到现在两年时间间，零零散散的二十多条日志，问我解释为什么 Push，Push 了什么内容。我只能打开那些文件，并解释说只是个人的工作日志，周报之类的东西。并不涉及公司项目具体内容。 这种事情可大可小，毕竟笔记这玩意根本没有办法证明和项目完全无关，我在工作上面遇到一个 场景/BUG，遇到一个代码、问…</p>"
+        },
+        {
+          "title": "吃人是会上瘾的",
+          "url": "/20250606-force-labor-until-die.html",
+          "date": "2025/06/06",
+          "datetime": "2025-06-06",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "又是一年高考周，小区楼对面的路口又会被警察封锁起来吧。去年也是这样，中午、下午吃饭的时候就能看到熙熙攘攘的家长等待孩子的身影。 但今年有点不同，今年是第一年不分文理的考试，6 选 3，但考试延长一天。 但看着每年一批批新的人迎来高考，思绪总会飘回多年前迈着同样步伐走入考场的自己。 今年是考后第几年呢？时间感已经有点麻木了，因为高考后的生活更像是被时间推着走。每次想，我们这些读书人被送上这样的考场，...",
+          "desc_html": "<p>又是一年高考周，小区楼对面的路口又会被警察封锁起来吧。去年也是这样，中午、下午吃饭的时候就能看到熙熙攘攘的家长等待孩子的身影。 但今年有点不同，今年是第一年不分文理的考试，6 选 3，但考试延长一天。 但看着每年一批批新的人迎来高考，思绪总会飘回多年前迈着同样步伐走入考场的自己。 今年是考后第几年呢？时间感已经有点麻木了，因为高考后的生活更像是被时间推着走。每次想，我们这些读书人被送上这样的考场，…</p>"
+        },
+        {
+          "title": "活在时光里的父母",
+          "url": "/20250511-parents-living-in-the-past.html",
+          "date": "2025/05/11",
+          "datetime": "2025-05-11",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近我发现，自己和父母电话的时间越来越短了，我们聊不到一块去了，我这边除了日常吃喝、天气情况没什么好分享的，大部分是听家里面发生了什么，最近遇到了什么顾客之类的， 每次听到父母跟我讲网络上的营销号我就烦，因为你一听就知道，这些消息虚假、炒作，没什么营养，并不会对未来有什么帮助，听一听就有点烦躁。 随之而来的便是两边的沉默，我知道我选择了一种让我们都不好受的方式，大多数时候我会匆匆挂掉电话，继续去打...",
+          "desc_html": "<p>最近我发现，自己和父母电话的时间越来越短了，我们聊不到一块去了，我这边除了日常吃喝、天气情况没什么好分享的，大部分是听家里面发生了什么，最近遇到了什么顾客之类的， 每次听到父母跟我讲网络上的营销号我就烦，因为你一听就知道，这些消息虚假、炒作，没什么营养，并不会对未来有什么帮助，听一听就有点烦躁。 随之而来的便是两边的沉默，我知道我选择了一种让我们都不好受的方式，大多数时候我会匆匆挂掉电话，继续去打…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 14,
+      "next_page": 15
+    },
+    "15.json": {
+      "posts": [
+        {
+          "title": "当 AI 破坏了我的一切",
+          "url": "/20250502-when-ai-break-my-everything.html",
+          "date": "2025/05/02",
+          "datetime": "2025-05-02",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio 最近丧失一些表达欲，因为我意识到写出来也对我的生活无济于事，我可能耗费了整个下午的时间写一篇文章，但转头文章就喂给了 AI，甚至可能都不会喂给 AI，因为压根就没有人看，但这是我一开始写作的目的吗？ 所以当我开始不再强迫自己写作的...",
+          "desc_html": "<p>via https//notebooklm.google.com/notebook/2e8e1a28-c300-482d-ab8f-f4e521658ab9/audio 最近丧失一些表达欲，因为我意识到写出来也对我的生活无济于事，我可能耗费了整个下午的时间写一篇文章，但转头文章就喂给了 AI，甚至可能都不会喂给 AI，因为压根就没有人看，但这是我一开始写作的目的吗？ 所以当我开始不再强迫自己写作的…</p>"
+        },
+        {
+          "title": "诈骗广告机",
+          "url": "/20250410-scam-ad-phones-just-like-their-countries.html",
+          "date": "2025/04/10",
+          "datetime": "2025-04-10",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近很累，因为我又换手机了。 主力机 iPhone SE3 最近一年我的主要用这一台出行，没有什么拍照需求，上下班通勤用哈啰，吃饭扫码用支付宝，上班摸鱼听播客用 Snipd，娱乐看书用 iPad，没有什么不适。但最近我有几个「被构建」起来的的欲望： 欲望一：TypeC 口 我的耳机是 Huawei 的 FreeLace，买它的原因就是少带一根充电线，并且可以蓝牙一拖二，快充二十分钟，还带点降噪。 ...",
+          "desc_html": "<p>最近很累，因为我又换手机了。 主力机 iPhone SE3 最近一年我的主要用这一台出行，没有什么拍照需求，上下班通勤用哈啰，吃饭扫码用支付宝，上班摸鱼听播客用 Snipd，娱乐看书用 iPad，没有什么不适。但最近我有几个「被构建」起来的的欲望： 欲望一：TypeC 口 我的耳机是 Huawei 的 FreeLace，买它的原因就是少带一根充电线，并且可以蓝牙一拖二，快充二十分钟，还带点降噪。 …</p>"
+        },
+        {
+          "title": "价值观成型",
+          "url": "/20250317-value-brith-on-20.html",
+          "date": "2025/03/17",
+          "datetime": "2025-03-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "今天看了自己高中，大学写的厚厚的日记后发现，原来「20 多岁是价值观成型的年纪」的意思是，20 多岁就要结束前半生的教育，开始从事社会性的工作，已经很少再有时间和精力哺育自己了。",
+          "desc_html": "<p>今天看了自己高中，大学写的厚厚的日记后发现，原来「20 多岁是价值观成型的年纪」的意思是，20 多岁就要结束前半生的教育，开始从事社会性的工作，已经很少再有时间和精力哺育自己了。</p>"
+        },
+        {
+          "title": "求救信号之「自我毁灭」",
+          "url": "/20250315-self-destruction.html",
+          "date": "2025/03/15",
+          "datetime": "2025-03-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "来信 你好，我今年 23 岁，是一名已经工作两年的社畜，我一个人在外面漂泊，很少有朋友倾诉。 大家都说人生的每个阶段都有每个阶段的朋友，但我的很多朋友，并不是在强大的洪流中消失的，是我单方面经营的问题。往往是还没等到告别，关系就已经趋于崩解了。 每当身边同事回家说要去见一见年多的老友的时候，我就会无形中产生挫败感，能留在我身边的朋友真的太少了。为了避免陷入到往事的内耗中，我大多数都是做点别的事情转...",
+          "desc_html": "<p>来信 你好，我今年 23 岁，是一名已经工作两年的社畜，我一个人在外面漂泊，很少有朋友倾诉。 大家都说人生的每个阶段都有每个阶段的朋友，但我的很多朋友，并不是在强大的洪流中消失的，是我单方面经营的问题。往往是还没等到告别，关系就已经趋于崩解了。 每当身边同事回家说要去见一见年多的老友的时候，我就会无形中产生挫败感，能留在我身边的朋友真的太少了。为了避免陷入到往事的内耗中，我大多数都是做点别的事情转…</p>"
+        },
+        {
+          "title": "人是需要洗脑的",
+          "url": "/20250218-life-needs-brainwashing.html",
+          "date": "2025/02/18",
+          "datetime": "2025-02-18",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "作为一名身在洼地的社畜，加班是无论如何都避免不了的职场情况。但至少请你相信我，中国人不是傻子，没有任何一位一线工人喜欢每天敲 12 个小时的锣丝，老了被迫滚出城市。 如果我大胆一点，到点下班，放弃 8 小时之外的工作，那么每天我能自由支配的时间也就 4 个小时。如果我希望摆脱现在的工作，那么我就必须有效利用这 4 小时的时间，提升自我。 但这太难了。 「1」 周一晚上，我可能因为周六日的熬夜补偿而...",
+          "desc_html": "<p>作为一名身在洼地的社畜，加班是无论如何都避免不了的职场情况。但至少请你相信我，中国人不是傻子，没有任何一位一线工人喜欢每天敲 12 个小时的锣丝，老了被迫滚出城市。 如果我大胆一点，到点下班，放弃 8 小时之外的工作，那么每天我能自由支配的时间也就 4 个小时。如果我希望摆脱现在的工作，那么我就必须有效利用这 4 小时的时间，提升自我。 但这太难了。 「1」 周一晚上，我可能因为周六日的熬夜补偿而…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 15,
+      "next_page": 16
+    },
+    "16.json": {
+      "posts": [
+        {
+          "title": "未来永远不会到来",
+          "url": "/20250215-featurn-is-never-coming.html",
+          "date": "2025/02/15",
+          "datetime": "2025-02-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "上个月，我卖掉了身上最后一部 Android 手机 —— samsung-tab-s8，反而让我更加想再买一台手机。 这段时间赶上春运，价格居高不下，因为像我这样犹豫的人，在春节最多，像我这样的人，注定被充满恶意的市场裹挟，困在其中无法动弹。 也许没有完全准备好就出手了，也许只是想写 Android，或者只是想用家人守护，总之，我仍然想双持 Android 和 iPhone，买一部一加手机。 总之...",
+          "desc_html": "<p>上个月，我卖掉了身上最后一部 Android 手机 —— samsung-tab-s8，反而让我更加想再买一台手机。 这段时间赶上春运，价格居高不下，因为像我这样犹豫的人，在春节最多，像我这样的人，注定被充满恶意的市场裹挟，困在其中无法动弹。 也许没有完全准备好就出手了，也许只是想写 Android，或者只是想用家人守护，总之，我仍然想双持 Android 和 iPhone，买一部一加手机。 总之…</p>"
+        },
+        {
+          "title": "最想考公的时刻",
+          "url": "/20250208-going-home.html",
+          "date": "2025/02/08",
+          "datetime": "2025-02-08",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "每次坐火车回家，在最后一天临走时总是不舍，那一天，我是不能听赵雷的「我记得」的。 唯有这段时间，我很想留在内蒙，不明白为何当初铁了心要出蒙。这种想法在和家乡体制里的同学见面后尤其明显，体制外的就业环境太恶劣了。我有时候和我的同事抱怨：就像在阿中找个合理点的工作，就不得不献忠，不得不唱赞歌，实在是太抽象了。 我想我是个浮萍，或者「时代的炮灰」，随时保持一种拿起包就走的机动状态，为此我不舍不得买任何提...",
+          "desc_html": "<p>每次坐火车回家，在最后一天临走时总是不舍，那一天，我是不能听赵雷的「我记得」的。 唯有这段时间，我很想留在内蒙，不明白为何当初铁了心要出蒙。这种想法在和家乡体制里的同学见面后尤其明显，体制外的就业环境太恶劣了。我有时候和我的同事抱怨：就像在阿中找个合理点的工作，就不得不献忠，不得不唱赞歌，实在是太抽象了。 我想我是个浮萍，或者「时代的炮灰」，随时保持一种拿起包就走的机动状态，为此我不舍不得买任何提…</p>"
+        },
+        {
+          "title": "肥宅真的很难快乐",
+          "url": "/20250120-fat-but-sad.html",
+          "date": "2025/01/20",
+          "datetime": "2025-01-20",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "「1」 因为吃不起商圈门店的饭菜，所以我常光顾楼下的小吃摊，老板人好，臊子给的比别家的多，所以大部分时候就是花 10 块点一碗汇通面，要一碗面汤。 冬天的时候，有时会把自己关在家里，憋了一天没怎么好好吃饭，犹豫再三后，还是下了楼，但每次坐下来没过多久，寒气就从屁股传遍全身，有点受不了了。 有时候比较饿，付钱的时候也会犹豫，有时候心一横，「老板要个大碗」，多付一块心里都美滋滋，我知道这顿一定能吃饱。...",
+          "desc_html": "<p>「1」 因为吃不起商圈门店的饭菜，所以我常光顾楼下的小吃摊，老板人好，臊子给的比别家的多，所以大部分时候就是花 10 块点一碗汇通面，要一碗面汤。 冬天的时候，有时会把自己关在家里，憋了一天没怎么好好吃饭，犹豫再三后，还是下了楼，但每次坐下来没过多久，寒气就从屁股传遍全身，有点受不了了。 有时候比较饿，付钱的时候也会犹豫，有时候心一横，「老板要个大碗」，多付一块心里都美滋滋，我知道这顿一定能吃饱。…</p>"
+        },
+        {
+          "title": "写代码总是最简单的",
+          "url": "/20250109-coding-is-always-the-esaiest-thing.html",
+          "date": "2025/01/09",
+          "datetime": "2025-01-09",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "周三晚，兴冲冲的跑回家，简单清洗身体，瘫软在床上，打开 Mac，迫不及待地写下心心念念整个白天的代码，启动，调试，修改，再次启动。 「对，要的就是这个」 不出意外地，想了一白天的 Feature 很快就实现了，成就感拉爆！Push 代码，提 PR，等待仓库主的回复。 10 分钟过去，一个小时过去，半天过去，一天过去，一周过去，没有任何消息，没有任何动静。似乎没有人愿意 Review 你的代码，可能...",
+          "desc_html": "<p>周三晚，兴冲冲的跑回家，简单清洗身体，瘫软在床上，打开 Mac，迫不及待地写下心心念念整个白天的代码，启动，调试，修改，再次启动。 「对，要的就是这个」 不出意外地，想了一白天的 Feature 很快就实现了，成就感拉爆！Push 代码，提 PR，等待仓库主的回复。 10 分钟过去，一个小时过去，半天过去，一天过去，一周过去，没有任何消息，没有任何动静。似乎没有人愿意 Review 你的代码，可能…</p>"
+        },
+        {
+          "title": "强迫劳动",
+          "url": "/20241228-forced-labor.html",
+          "date": "2024/12/28",
+          "datetime": "2024-12-28",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "违反劳动法，就是强迫劳动。 「1」 本周是今年最后一个星期，下个星期过后，2024 年就会翻篇，纪年也会从 2025 年开始。本周是我人生的第 1220 周，我想谈谈最近对一个词汇的理解 —— 「强迫劳动」 。 最早接触这个词是大学，我第一次有时间在墙外（GFW）的世界闲逛，那时候就传闻中国对新疆等维吾尔族同化的政策比较激进，因为那边时常引起暴力冲突，离得也比较远，具体的情况我并不在意。 最近重新...",
+          "desc_html": "<p>违反劳动法，就是强迫劳动。 「1」 本周是今年最后一个星期，下个星期过后，2024 年就会翻篇，纪年也会从 2025 年开始。本周是我人生的第 1220 周，我想谈谈最近对一个词汇的理解 —— 「强迫劳动」 。 最早接触这个词是大学，我第一次有时间在墙外（GFW）的世界闲逛，那时候就传闻中国对新疆等维吾尔族同化的政策比较激进，因为那边时常引起暴力冲突，离得也比较远，具体的情况我并不在意。 最近重新…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 16,
+      "next_page": 17
+    },
+    "17.json": {
+      "posts": [
+        {
+          "title": "默示启示录",
+          "url": "/20241215-apocalypse-prepare.html",
+          "date": "2024/12/15",
+          "datetime": "2024-12-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "国外经常有末日的想象，比如废土、丧尸，但现实不会如此极端，疫情当道的当下，我们能做些什么呢？我们应该囤积些什么呢？ 嗜好品 咖啡 1 年量 食物 主食 [常温] 米, 面, 杂粮, 干燥意面, 土豆 [冷藏] 意面/挂面 [冷冻] 冷冻面团，冷冻面 (生)，切片面包（可常温，冷冻久了不会变质但影响口感） [即食] 方便面/自热锅, 速冻饺子, 批萨 肉类蛋白 [常温] 鱼/肉/汤/炖菜/豆子/午餐...",
+          "desc_html": "<p>国外经常有末日的想象，比如废土、丧尸，但现实不会如此极端，疫情当道的当下，我们能做些什么呢？我们应该囤积些什么呢？ 嗜好品 咖啡 1 年量 食物 主食 [常温] 米, 面, 杂粮, 干燥意面, 土豆 [冷藏] 意面/挂面 [冷冻] 冷冻面团，冷冻面 (生)，切片面包（可常温，冷冻久了不会变质但影响口感） [即食] 方便面/自热锅, 速冻饺子, 批萨 肉类蛋白 [常温] 鱼/肉/汤/炖菜/豆子/午餐…</p>"
+        },
+        {
+          "title": "Giving up Logseq",
+          "url": "/20241209-giving-up-logseq.html",
+          "date": "2024/12/09",
+          "datetime": "2024-12-09",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "Okey, I know it's ridiculous and hard to say I give up _logseq-logseq. I've used it 3 years, and make 1400 pages. Honestly, I'm not a good one using it, especially in earlier version, they released ve...",
+          "desc_html": "<p>Okey, I know it’s ridiculous and hard to say I give up _logseq-logseq. I’ve used it 3 years, and make 1400 pages. Honestly, I’m not a good one using it, especially in earlier version, they released ve…</p>"
+        },
+        {
+          "title": "让爱自己的人产生的愧疚终将回到自己身上",
+          "url": "/20241207-everything-you-give-would-be-come-back.html",
+          "date": "2024/12/07",
+          "datetime": "2024-12-07",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "这周例行和父母打电话，除去吃饭、生意、宠物之外，已没有别的话题，开始闲扯八卦的时候，聊到他们看到自媒体的假新闻，无论多么扯的，一本正经地讲出来，网上说什么好像都相信。我觉得他们一点判断能力都没有，很愤怒，但我不知道怎么把好的信息传达给她，或者我知道，就算我传达了，也无济于事，他们根本没养成这样的习惯。当然说教也觉得对方敷衍，索性放弃交流，自暴自弃地说，自生自灭吧，我管不到你，你也管不到我，挂了电话...",
+          "desc_html": "<p>这周例行和父母打电话，除去吃饭、生意、宠物之外，已没有别的话题，开始闲扯八卦的时候，聊到他们看到自媒体的假新闻，无论多么扯的，一本正经地讲出来，网上说什么好像都相信。我觉得他们一点判断能力都没有，很愤怒，但我不知道怎么把好的信息传达给她，或者我知道，就算我传达了，也无济于事，他们根本没养成这样的习惯。当然说教也觉得对方敷衍，索性放弃交流，自暴自弃地说，自生自灭吧，我管不到你，你也管不到我，挂了电话…</p>"
+        },
+        {
+          "title": "采暖",
+          "url": "/20241116-warm-house.html",
+          "date": "2024/11/16",
+          "datetime": "2024-11-16",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "虽然没有交暖气费，但靠着楼上楼下的采暖，屋子还是上升了 5 度",
+          "desc_html": "<p>虽然没有交暖气费，但靠着楼上楼下的采暖，屋子还是上升了 5 度</p>"
+        },
+        {
+          "title": "消费补贴与二手市场：买不买，这是个问题",
+          "url": "/20241109-buy-or-not.html",
+          "date": "2024/11/09",
+          "datetime": "2024-11-09",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "跟很多精打细算的人一样，我在买东西之前，会先看二手价格，如果价格崩盘的太过厉害，我会直接在闲鱼上购买。但是现在有一种情况，是在政府补贴家电打 8 折后，凑上双 11 的跨店满减活动，实际你通过平台到手的价格，是要比二手市场更便宜的。 这很有意思，不禁让我对未来市场的价格走向产生疑惑，市场的价格是会被大量低价购入的用户拉低，还是会保持原有的价格不变呢？两种预期将影响我的消费决策，如果保持乐观，我可能...",
+          "desc_html": "<p>跟很多精打细算的人一样，我在买东西之前，会先看二手价格，如果价格崩盘的太过厉害，我会直接在闲鱼上购买。但是现在有一种情况，是在政府补贴家电打 8 折后，凑上双 11 的跨店满减活动，实际你通过平台到手的价格，是要比二手市场更便宜的。 这很有意思，不禁让我对未来市场的价格走向产生疑惑，市场的价格是会被大量低价购入的用户拉低，还是会保持原有的价格不变呢？两种预期将影响我的消费决策，如果保持乐观，我可能…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 17,
+      "next_page": 18
+    },
+    "18.json": {
+      "posts": [
+        {
+          "title": "每个人都应该知道的命名约束",
+          "url": "/20241102-naming-conventions.html",
+          "date": "2024/11/02",
+          "datetime": "2024-11-02",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2024/20241102201058.png",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2024/20241102201058.png"
+          ],
+          "desc": "不知不觉，传到 OneDrive 的数据已经有 324G。加上大学四年乱八七糟的课业，网络随处搜集来的二手文档，他们虽然看似错综复杂，但极细斟酌的话，你又会发现，其实其实仍然存在着某种顺序，但这无益，只会让他们显得更加杂乱无章。 从某种意义上来说，这就是屎山。 很早就看到过牛津大学的一篇文章 https//datamanagement.hms.harvard.edu/plan-design/fil...",
+          "desc_html": "<p>不知不觉，传到 OneDrive 的数据已经有 324G。加上大学四年乱八七糟的课业，网络随处搜集来的二手文档，他们虽然看似错综复杂，但极细斟酌的话，你又会发现，其实其实仍然存在着某种顺序，但这无益，只会让他们显得更加杂乱无章。 从某种意义上来说，这就是屎山。 很早就看到过牛津大学的一篇文章 https//datamanagement.hms.harvard.edu/plan-design/fil…</p>"
+        },
+        {
+          "title": "写信吧爱人",
+          "url": "/20241013-marry-with-blog.html",
+          "date": "2024/10/13",
+          "datetime": "2024-10-13",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近 V 站有很多吐槽婚姻生活的帖子 ，有讲两个人同甘共苦的，也有讲大难临头撇清关系，各自飞的。 有一位印象里比较深刻的朋友分享说，一直以为娶到了爱情，但是妻子的一句惊醒梦中人： 如果你以后无法维持住这个家的生活水平，那我就和你离婚，孩子你来养，我这边你不用给钱 https//www.v2ex.com/t/1081477 不知道你怎么想，但我对男女双方的距离感到错愕，生活了如此多年的两人为何如此陌...",
+          "desc_html": "<p>最近 V 站有很多吐槽婚姻生活的帖子 ，有讲两个人同甘共苦的，也有讲大难临头撇清关系，各自飞的。 有一位印象里比较深刻的朋友分享说，一直以为娶到了爱情，但是妻子的一句惊醒梦中人： 如果你以后无法维持住这个家的生活水平，那我就和你离婚，孩子你来养，我这边你不用给钱 https//www.v2ex.com/t/1081477 不知道你怎么想，但我对男女双方的距离感到错愕，生活了如此多年的两人为何如此陌…</p>"
+        },
+        {
+          "title": "比文章更远",
+          "url": "/20240921-more-than-an-article.html",
+          "date": "2024/09/21",
+          "datetime": "2024-09-21",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "我很喜欢记东西，用过非常多的工具，当然积累了非常大的比计量，就像 20240726-wrong-second-brain 里面提到的，笔记不应该是如此廉价的东西，要不然就会像现在的我一样，信息过载，淹没在自己的文字地狱中，更加难以回顾，加以输出利用。 一篇文章能做的事情，仅仅是把我当下做的事情，以日志的形式，记录下来，就像程序打 LOG，不知道你有没有翻过 .bashhistroy / Conso...",
+          "desc_html": "<p>我很喜欢记东西，用过非常多的工具，当然积累了非常大的比计量，就像 20240726-wrong-second-brain 里面提到的，笔记不应该是如此廉价的东西，要不然就会像现在的我一样，信息过载，淹没在自己的文字地狱中，更加难以回顾，加以输出利用。 一篇文章能做的事情，仅仅是把我当下做的事情，以日志的形式，记录下来，就像程序打 LOG，不知道你有没有翻过 .bashhistroy / Conso…</p>"
+        },
+        {
+          "title": "自私的中国人",
+          "url": "/20240907-selfish-chinese.html",
+          "date": "2024/09/07",
+          "datetime": "2024-09-07",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "我们的一些大学，包括北京大学，正在培养一些‘精致的利己主义者 (wikipedia)’，他们高智商，世俗，老到，善于表演，懂得配合，更善于利用体制达到自己的目的。这种人一旦掌握权力，比一般的贪官污吏危害更大。 图书馆占座 这是我第二次来高新分馆，印象非常不好。第一次因为错峰，没有遇到过高峰时期的人头攒动。我早该料到，因为资源有限，人不断地如潮水涌来，就必然导致后来者几乎疯狂式对资源的霸占。 占座行...",
+          "desc_html": "<p>我们的一些大学，包括北京大学，正在培养一些‘精致的利己主义者 (wikipedia)’，他们高智商，世俗，老到，善于表演，懂得配合，更善于利用体制达到自己的目的。这种人一旦掌握权力，比一般的贪官污吏危害更大。 图书馆占座 这是我第二次来高新分馆，印象非常不好。第一次因为错峰，没有遇到过高峰时期的人头攒动。我早该料到，因为资源有限，人不断地如潮水涌来，就必然导致后来者几乎疯狂式对资源的霸占。 占座行…</p>"
+        },
+        {
+          "title": "预算中应该留有被浪费的钱",
+          "url": "/20240831-money-to-waste.html",
+          "date": "2024/08/31",
+          "datetime": "2024-08-31",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "工作以来，我就从学生时代时会在蹲在整点抢券的角色中，解放了出来，只有在每日工作的闲暇时刻，刻意去在线上填补生活中的必需品，牛奶、燕麦、坚果，如是而已。因为商家打折频繁，总难免遇到高位入手的情况，损失也充其量是一顿饭而已，但还是会很在意。 仅 7 天价保，百亿补贴不支持价保... 得到的回应也只是活动下面的小字，究竟是谁会有空看他们呢？这些是一手渠道，二手渠道就更加鱼龙混杂，如果买回来，发现成色欠佳...",
+          "desc_html": "<p>工作以来，我就从学生时代时会在蹲在整点抢券的角色中，解放了出来，只有在每日工作的闲暇时刻，刻意去在线上填补生活中的必需品，牛奶、燕麦、坚果，如是而已。因为商家打折频繁，总难免遇到高位入手的情况，损失也充其量是一顿饭而已，但还是会很在意。 仅 7 天价保，百亿补贴不支持价保… 得到的回应也只是活动下面的小字，究竟是谁会有空看他们呢？这些是一手渠道，二手渠道就更加鱼龙混杂，如果买回来，发现成色欠佳…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 18,
+      "next_page": 19
+    },
+    "19.json": {
+      "posts": [
+        {
+          "title": "错误的第二大脑",
+          "url": "/20240726-wrong-second-brain.html",
+          "date": "2024/07/26",
+          "datetime": "2024-07-26",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2024/Screenshot%202024-07-26%20210740-or8.png",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2024/Screenshot%202024-07-26%20210740-or8.png"
+          ],
+          "desc": "这个概念，24 年才写也许已有明日黄花之嫌，但从我个人说起，Logseq 发布后，经 V2ex 推荐之后，就再也没有松手过，我爱这个 All in one 的东西，之前还在大学的时候，了解它的手段只是通过 changelog 一个版本一个版本地过日志，这是一个了解软件最近发生什么的潘多拉。因为它，我几乎没有看过官方的博客，也几乎没有点开文档中的其他细节。 至于为什么要比作潘多拉？因为软件的很多特性...",
+          "desc_html": "<p>这个概念，24 年才写也许已有明日黄花之嫌，但从我个人说起，Logseq 发布后，经 V2ex 推荐之后，就再也没有松手过，我爱这个 All in one 的东西，之前还在大学的时候，了解它的手段只是通过 changelog 一个版本一个版本地过日志，这是一个了解软件最近发生什么的潘多拉。因为它，我几乎没有看过官方的博客，也几乎没有点开文档中的其他细节。 至于为什么要比作潘多拉？因为软件的很多特性…</p>"
+        },
+        {
+          "title": "电子阳痿治疗指南",
+          "url": "/20240720-fix-depression-towards-gaming.html",
+          "date": "2024/07/20",
+          "datetime": "2024-07-20",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "G 胖杀死阿区和土区后，更不想买游戏了 。 但年初过年的时候，我买了 Steam Deck，它对我意义非凡，是我人生中第一台掌机。为什么买它呢？ 一开始我希望用它来度过漫长的火车时间，后来我落空了，因为每次在车上都是夜晚，我只想睡觉，如果我贸然把电子产品掏出来，也许还有被盗窃的风险，于是我就更不敢在大庭广众之下掏出来了。 但是放在床头做被窝机还是很合适的，多亏了他，最近一年启动游戏的频率大大增加，...",
+          "desc_html": "<p>G 胖杀死阿区和土区后，更不想买游戏了 。 但年初过年的时候，我买了 Steam Deck，它对我意义非凡，是我人生中第一台掌机。为什么买它呢？ 一开始我希望用它来度过漫长的火车时间，后来我落空了，因为每次在车上都是夜晚，我只想睡觉，如果我贸然把电子产品掏出来，也许还有被盗窃的风险，于是我就更不敢在大庭广众之下掏出来了。 但是放在床头做被窝机还是很合适的，多亏了他，最近一年启动游戏的频率大大增加，…</p>"
+        },
+        {
+          "title": "摸索人生",
+          "url": "/20240706-guessing-life.html",
+          "date": "2024/07/06",
+          "datetime": "2024-07-06",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//www.youtube.com/watch?v=m5_dNOK7oN8 [!note] The fact that I don't feel like me no more Cause I'm not who I was before I'm sorry for messing up I get the mеssage Just give me a sеcond I'm ju...",
+          "desc_html": "<p>via https//www.youtube.com/watch?v=m5_dNOK7oN8 [!note] The fact that I don’t feel like me no more Cause I’m not who I was before I’m sorry for messing up I get the mеssage Just give me a sеcond I’m ju…</p>"
+        },
+        {
+          "title": "成为女性",
+          "url": "/20240615-being-female.html",
+          "date": "2024/06/15",
+          "datetime": "2024-06-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//www.youtube.com/watch?v=wp43OdtAAk And if I only could, I'd make a deal with God, And I'd get him to swap our places, Be running up that road, Be running up that hill, Be running up that bu...",
+          "desc_html": "<p>via https//www.youtube.com/watch?v=wp43OdtAAk And if I only could, I’d make a deal with God, And I’d get him to swap our places, Be running up that road, Be running up that hill, Be running up that bu…</p>"
+        },
+        {
+          "title": "你不可能恨自己恨到快乐",
+          "url": "/20240612-you-can-not-happy-with-hate-self.html",
+          "date": "2024/06/12",
+          "datetime": "2024-06-12",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近看到最好的一句话： 你不可能恨自己恨到快乐。",
+          "desc_html": "<p>最近看到最好的一句话： 你不可能恨自己恨到快乐。</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 19,
+      "next_page": 20
+    },
+    "2.json": {
+      "posts": [
+        {
+          "title": "Moto X70 Air",
+          "url": "/20260412-moto-x70-air.html",
+          "date": "2026/05/17",
+          "datetime": "2026-05-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "20260410 原本是本来想考虑一下红魔等一些游戏手机的，最恐怖才发现解锁难如登天，闲鱼价居然要 1500。 为了满血 GMS 买了 Moto Air75，芯片不强，但是轻 + 可以解锁，其实是为了找 Pixel 的替代物，CPU 规则如下： |项目|Moto X70 Air 芯片|Google Pixel 10 芯片|主要区别说明| |---|---|---|---| |芯片名称|Qualco...",
+          "desc_html": "<p>20260410 原本是本来想考虑一下红魔等一些游戏手机的，最恐怖才发现解锁难如登天，闲鱼价居然要 1500。 为了满血 GMS 买了 Moto Air75，芯片不强，但是轻 + 可以解锁，其实是为了找 Pixel 的替代物，CPU 规则如下：<br>项目<br>Moto X70 Air 芯片<br>Google Pixel 10 芯片<br>主要区别说明<br> <br>—<br>—<br>—<br>—<br> <br>芯片名称<br>Qualco…</p>"
+        },
+        {
+          "title": "迁移仓库到 GitHub 组织",
+          "url": "/20260516-mv-repo-to-github-organization.html",
+          "date": "2026/05/17",
+          "datetime": "2026-05-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近把几乎所有的仓库都转移到 bgzo-sandbox 里面了，这个组织其实就是我的沙箱，其实我一直都想整个小号的，但是 GitHub 一直不让整小号，要不然大小号全给你撸了。 一个人或一个法律实体最多可以拥有一个免费帐户（如果您选择同时控制一个机器帐户，可以，但是它只能用于运行机器）。 https//docs.github.com/zh/site-policy/github-terms/gith...",
+          "desc_html": "<p>最近把几乎所有的仓库都转移到 bgzo-sandbox 里面了，这个组织其实就是我的沙箱，其实我一直都想整个小号的，但是 GitHub 一直不让整小号，要不然大小号全给你撸了。 一个人或一个法律实体最多可以拥有一个免费帐户（如果您选择同时控制一个机器帐户，可以，但是它只能用于运行机器）。 https//docs.github.com/zh/site-policy/github-terms/gith…</p>"
+        },
+        {
+          "title": "ASMR 真神",
+          "url": "/20260516-asmr-todo-list.html",
+          "date": "2026/05/17",
+          "datetime": "2026-05-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "转载一个 ASMR 的待办列表： 分倍河原シホ：熟女、战吼特化 陽向葵ゅか：劳模，目前音声界最高的山，超广的戏路和表现力以及敬业程度，你可以在任何地方看到葵姐，基本上葵姐就是佳作 御崎ひより：白月光，主打魅魔和姐系，音色很舒服，冷淡姐姐和小恶魔顶中顶 逢坂成美：老资历之一，产量和质量都属于中规中矩，作品水平取决于社团，不容易踩雷 涼花みなせ：劳模，基本功（耳）很好，姐系妹系都拿捏的住，目前戏路有特...",
+          "desc_html": "<p>转载一个 ASMR 的待办列表： 分倍河原シホ：熟女、战吼特化 陽向葵ゅか：劳模，目前音声界最高的山，超广的戏路和表现力以及敬业程度，你可以在任何地方看到葵姐，基本上葵姐就是佳作 御崎ひより：白月光，主打魅魔和姐系，音色很舒服，冷淡姐姐和小恶魔顶中顶 逢坂成美：老资历之一，产量和质量都属于中规中矩，作品水平取决于社团，不容易踩雷 涼花みなせ：劳模，基本功（耳）很好，姐系妹系都拿捏的住，目前戏路有特…</p>"
+        },
+        {
+          "title": "修复 Venera 点击导出无反应，章节显示问题",
+          "url": "/20260516-fix-venera-export-name.html",
+          "date": "2026/05/16",
+          "datetime": "2026-05-16",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260505230857427.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260505230857427.webp",
+            "https://github.com/user-attachments/assets/59f879bc-b4ee-4bd5-8879-c6858c790c82",
+            "https://github.com/user-attachments/assets/9c29fb48-98ad-4e15-9f5c-bfd768bf49b0"
+          ],
+          "desc": "上次修复 Venera 无法在 iOS/iPad OS 上保存图片 的问题，很可能是 iOS 的一个 BUG，因为这周升级 iOS 26.5 之后，这个奇怪的问题就消失了。 除了这个问题，上次修复还有一个遗留问题是 iOS 会自动处理超长文件名，导致如： 最终会被 iOS 系统直接截断为： 很奇怪啊，之前一直没有发现这个问题，检测文件是否存在的时候用的原始原标题，而不是截断后的，最终导致保存逻辑非...",
+          "desc_html": "<p>上次修复 Venera 无法在 iOS/iPad OS 上保存图片 的问题，很可能是 iOS 的一个 BUG，因为这周升级 iOS 26.5 之后，这个奇怪的问题就消失了。 除了这个问题，上次修复还有一个遗留问题是 iOS 会自动处理超长文件名，导致如： 最终会被 iOS 系统直接截断为： 很奇怪啊，之前一直没有发现这个问题，检测文件是否存在的时候用的原始原标题，而不是截断后的，最终导致保存逻辑非…</p>"
+        },
+        {
+          "title": "Fuck Meta",
+          "url": "/20260510-fuck-meta.html",
+          "date": "2026/05/10",
+          "datetime": "2026-05-10",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1778677290710.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1778677290710.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1778677290461.webp"
+          ],
+          "desc": "去年 20251116 就尝试注册过 Meta 的开发者，但是死活都过不去开发者认证的接收短信这一步， Google Voice 和 gifffgaff 都收不到验证码，去年得出的结论是无解： ip 被 meta 送中了，meta/facebook 系的 ip 规则十分严格，甚至可以说严格到变态。而且最致命的是无解 https//www.v2ex.com/t/1154689 今天不死心，还是想要把...",
+          "desc_html": "<p>去年 20251116 就尝试注册过 Meta 的开发者，但是死活都过不去开发者认证的接收短信这一步， Google Voice 和 gifffgaff 都收不到验证码，去年得出的结论是无解： ip 被 meta 送中了，meta/facebook 系的 ip 规则十分严格，甚至可以说严格到变态。而且最致命的是无解 https//www.v2ex.com/t/1154689 今天不死心，还是想要把…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 2,
+      "next_page": 3
+    },
+    "20.json": {
+      "posts": [
+        {
+          "title": "超越系统",
+          "url": "/20240608-more-than-system.html",
+          "date": "2024/06/08",
+          "datetime": "2024-06-08",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//www.bilibili.com/video/BV1rW411j7ND I'm gonna swing from the chandelier, from the chandelier. I'm gonna live like tomorrow doesn't exist, like it doesn't exist I'm gonna fly like a bird thr...",
+          "desc_html": "<p>via https//www.bilibili.com/video/BV1rW411j7ND I’m gonna swing from the chandelier, from the chandelier. I’m gonna live like tomorrow doesn’t exist, like it doesn’t exist I’m gonna fly like a bird thr…</p>"
+        },
+        {
+          "title": "自救之职业焦虑",
+          "url": "/20240601-saving-yourselves.html",
+          "date": "2024/06/01",
+          "datetime": "2024-06-01",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//www.youtube.com/watch?v=YJkOxWVn0SU [!note] Could someone save my life? 写给 22 岁：如果你没能进入头部或是外企，你需要做好心里准备 在能力范围内，不用国货，就不用国货，这是我在上班之前的行为准则。我已经不记得自己真正对国产绝望是什么时候了。但他在我心目中的形象，从来都不算正派。三聚氰胺、科技与狠活，用...",
+          "desc_html": "<p>via https//www.youtube.com/watch?v=YJkOxWVn0SU [!note] Could someone save my life? 写给 22 岁：如果你没能进入头部或是外企，你需要做好心里准备 在能力范围内，不用国货，就不用国货，这是我在上班之前的行为准则。我已经不记得自己真正对国产绝望是什么时候了。但他在我心目中的形象，从来都不算正派。三聚氰胺、科技与狠活，用…</p>"
+        },
+        {
+          "title": "湿疹复发",
+          "url": "/20240525-suffering-eczema.html",
+          "date": "2024/05/25",
+          "datetime": "2024-05-25",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//www.youtube.com/watch?v=zABLecsR5UE I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I wan...",
+          "desc_html": "<p>via https//www.youtube.com/watch?v=zABLecsR5UE I don’t want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I’m at work. I wan…</p>"
+        },
+        {
+          "title": "生活大于工作",
+          "url": "/20240518-choose-life-rather-working-hard.html",
+          "date": "2024/05/18",
+          "datetime": "2024-05-18",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "via https//www.youtube.com/watch?v=UtF6Jej8yb4 [!note] When I was sixteen, my father said \"You can do anything you want with your life, you just need the will to work hard and get it.\" ==That's when I...",
+          "desc_html": "<p>via https//www.youtube.com/watch?v=UtF6Jej8yb4 [!note] When I was sixteen, my father said “You can do anything you want with your life, you just need the will to work hard and get it.” ==That’s when I…</p>"
+        },
+        {
+          "title": "第八千二百五十八夜",
+          "url": "/20240316-8258-nights.html",
+          "date": "2024/03/16",
+          "datetime": "2024-03-16",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "好久不见，见字如面。 这个星期，表达欲濒临失控，脑袋不停闪回种种念头，它们清晰或模糊，甚至只是一种感觉，因为我已经忘记具体是什么了，像是一个又一个失孤，我已经找它不回了。 我回想年后复工、庸碌的生活： 早上 7 点半起床。打理自己的仪表，50 出门，等电梯的期间点开 Podcast / 微信读书 挂后台，楼下开一辆共享单车，骑到门口排队买煎饼，8 点 10 分到公司门口，15 到自己的工位，打卡，...",
+          "desc_html": "<p>好久不见，见字如面。 这个星期，表达欲濒临失控，脑袋不停闪回种种念头，它们清晰或模糊，甚至只是一种感觉，因为我已经忘记具体是什么了，像是一个又一个失孤，我已经找它不回了。 我回想年后复工、庸碌的生活： 早上 7 点半起床。打理自己的仪表，50 出门，等电梯的期间点开 Podcast / 微信读书 挂后台，楼下开一辆共享单车，骑到门口排队买煎饼，8 点 10 分到公司门口，15 到自己的工位，打卡，…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 20,
+      "next_page": 21
+    },
+    "21.json": {
+      "posts": [
+        {
+          "title": "严重似情侣讲分手",
+          "url": "/20240105-losing-a-friend-seems-like-a-breakup.html",
+          "date": "2024/01/05",
+          "datetime": "2024-01-05",
+          "image_url": "https://github.com/bGZo/blog/assets/57313137/edbdced1-d701-45be-9215-16200541cd40",
+          "image_urls": [
+            "https://github.com/bGZo/blog/assets/57313137/edbdced1-d701-45be-9215-16200541cd40"
+          ],
+          "desc": "我弄丢了很多朋友。 直至今日，我还是没能摸到建立强关系的门道，在人生的每一个阶段，小学，初中，高中，大学，我都有完全不一样的朋友，但最后尽如缝隙中流走的沙石，惟见痕迹，不见踪影。 我们曾是最好的朋友，人生中最懵懂无知的年纪我们一起挨过，我不知道我自己作为别人的朋友是否及格，我只知道自己并不完美，尤其是在和优渥家境的人站在一起时，缺少几分开诚布公的真诚，我真的缺少姊妹身上的坦诚，就像我一直羡慕多年来...",
+          "desc_html": "<p>我弄丢了很多朋友。 直至今日，我还是没能摸到建立强关系的门道，在人生的每一个阶段，小学，初中，高中，大学，我都有完全不一样的朋友，但最后尽如缝隙中流走的沙石，惟见痕迹，不见踪影。 我们曾是最好的朋友，人生中最懵懂无知的年纪我们一起挨过，我不知道我自己作为别人的朋友是否及格，我只知道自己并不完美，尤其是在和优渥家境的人站在一起时，缺少几分开诚布公的真诚，我真的缺少姊妹身上的坦诚，就像我一直羡慕多年来…</p>"
+        },
+        {
+          "title": "少年游",
+          "url": "/20231110-a-sell-toll-boy.html",
+          "date": "2023/11/10",
+          "datetime": "2023-11-10",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "楼下遇到一个娃，很礼貌，看见我就喊叔叔，叔叔 我问他干嘛 ，他说他手里的这套玩具卡很有价值，网络上的博主和网红都玩这个，我拿上之后一定能⋯ （忘记说啥了，但确实是很大很大的饼..） 我说我对这些不感兴趣，我问他今年几岁？他回答说 9 岁。 我问他这么大就出来卖东西啦？他解释说自己急需卖掉这个东西，妈妈让他把买多的玩具的钱退回来，但老板说拆开后就不退了。 然后双手合十求我买下这个我觉得无甚用处的卡片...",
+          "desc_html": "<p>楼下遇到一个娃，很礼貌，看见我就喊叔叔，叔叔 我问他干嘛 ，他说他手里的这套玩具卡很有价值，网络上的博主和网红都玩这个，我拿上之后一定能⋯ （忘记说啥了，但确实是很大很大的饼..） 我说我对这些不感兴趣，我问他今年几岁？他回答说 9 岁。 我问他这么大就出来卖东西啦？他解释说自己急需卖掉这个东西，妈妈让他把买多的玩具的钱退回来，但老板说拆开后就不退了。 然后双手合十求我买下这个我觉得无甚用处的卡片…</p>"
+        },
+        {
+          "title": "我都花了时间玩游戏，为什么还要花钱买它？",
+          "url": "/20230708-games-never-played-until-died.html",
+          "date": "2023/07/08",
+          "datetime": "2023-07-08",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "好的，我承认这不是一个好的标题，当然本文没有为「白嫖」正名的意思，单纯玩梗儿罢了 ，只是后疫情时代，我建议你停下来再想一想，理性消费。 虽然 Gabe Logan Newell 已经撤销了两个知名的低价区，但是我还是没忍住为 2023 Summer Sales 充了一份钱，数额不多不少，肉疼到把我准备买的游戏悉数拔草： 最开始是抱着拣便宜的心态买游戏，毕竟 50TL，铜板价的游戏当个喜加一也不是不...",
+          "desc_html": "<p>好的，我承认这不是一个好的标题，当然本文没有为「白嫖」正名的意思，单纯玩梗儿罢了 ，只是后疫情时代，我建议你停下来再想一想，理性消费。 虽然 Gabe Logan Newell 已经撤销了两个知名的低价区，但是我还是没忍住为 2023 Summer Sales 充了一份钱，数额不多不少，肉疼到把我准备买的游戏悉数拔草： 最开始是抱着拣便宜的心态买游戏，毕竟 50TL，铜板价的游戏当个喜加一也不是不…</p>"
+        },
+        {
+          "title": "外链之死",
+          "url": "/20230408-killing-external-links-sucks.html",
+          "date": "2023/04/08",
+          "datetime": "2023-04-08",
+          "image_url": "https://user-images.githubusercontent.com/57313137/213840972-e2cfad77-33ee-448d-b93f-a1abc942d025.png",
+          "image_urls": [
+            "https://user-images.githubusercontent.com/57313137/213840972-e2cfad77-33ee-448d-b93f-a1abc942d025.png",
+            "https://user-images.githubusercontent.com/57313137/213843688-39df4580-d21a-48c0-a181-cbb7f27a4eaa.jpg",
+            "https://user-images.githubusercontent.com/57313137/213840421-c7c4cc78-afc3-4608-a221-564c4365fa15.jpeg"
+          ],
+          "desc": "External links been killed 这周用 https//steampy.com 低价购入了 Dead Cells 的 CDKey，虽然 Google Play 也买了，但论搓起来的手感那是不能比的，加上原本就早年就接触的，主打手机市场的元气骑士，Rogue 算是给我创造了很多美好的回忆，借此机缘，搜到了这篇文章 —— 触乐夜话：到底是“类Rogue”还是“轻度Rogue”. 文...",
+          "desc_html": "<p>External links been killed 这周用 https//steampy.com 低价购入了 Dead Cells 的 CDKey，虽然 Google Play 也买了，但论搓起来的手感那是不能比的，加上原本就早年就接触的，主打手机市场的元气骑士，Rogue 算是给我创造了很多美好的回忆，借此机缘，搜到了这篇文章 —— 触乐夜话：到底是“类Rogue”还是“轻度Rogue”. 文…</p>"
+        },
+        {
+          "title": "存在即痛苦",
+          "url": "/20230121-existence-is-suffering.html",
+          "date": "2023/01/21",
+          "datetime": "2023-01-21",
+          "image_url": "https://user-images.githubusercontent.com/57313137/213860187-c48a0cf0-873b-4162-a80d-128c2757b89e.jpg",
+          "image_urls": [
+            "https://user-images.githubusercontent.com/57313137/213860187-c48a0cf0-873b-4162-a80d-128c2757b89e.jpg",
+            "https://user-images.githubusercontent.com/57313137/213860191-42ec8b0c-3fe4-4ece-8523-c1a0ace70c75.jpg",
+            "https://user-images.githubusercontent.com/57313137/213860248-d3a85ce2-84f4-41e9-a850-672f97abcc3c.png",
+            "https://user-images.githubusercontent.com/57313137/213860278-96782427-0598-4c85-a6be-9c3ee4b32865.jpg",
+            "https://user-images.githubusercontent.com/57313137/213860438-f6ae4b6e-af2a-4fc0-b1bf-a784a2e1212c.jpeg"
+          ],
+          "desc": "Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 Rick and Morty Presents Jerryboree 中讲了杰瑞托管所的真相，我印象很深，在漫画中, X-198 号杰瑞吃了 GOD PILL, 成为 GOD 后做的第一件事，就是 NO MORE JERRYS, 结束了其他 Jerry 的一生。为什么呢? \"TO BE A JERR...",
+          "desc_html": "<p>Rick and Morty (rick-and-morty) 衍生漫画 20210303 的一期 Rick and Morty Presents Jerryboree 中讲了杰瑞托管所的真相，我印象很深，在漫画中, X-198 号杰瑞吃了 GOD PILL, 成为 GOD 后做的第一件事，就是 NO MORE JERRYS, 结束了其他 Jerry 的一生。为什么呢? “TO BE A JERR…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 21,
+      "next_page": 22
+    },
+    "22.json": {
+      "posts": [
+        {
+          "title": "Look back to your loved ones",
+          "url": "/20221223-look-back-to-your-loved-ones.html",
+          "date": "2022/12/23",
+          "datetime": "2022-12-23",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "Last tonight I read a tweet thread written by SahilBloom, which really sparked me. Since Covid-19, little by little, I realized the precious nature of time with people I care most deeply about. When I...",
+          "desc_html": "<p>Last tonight I read a tweet thread written by SahilBloom, which really sparked me. Since Covid-19, little by little, I realized the precious nature of time with people I care most deeply about. When I…</p>"
+        },
+        {
+          "title": "重新开始看漫画",
+          "url": "/20220304-watching-manga-again.html",
+          "date": "2022/03/04",
+          "datetime": "2022-03-04",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近因为买了 三星 Tab S4，常常用它来看电子书，当然漫画也算电子书的一种，加上上了大学有了零用钱，终于可以开始支持正版漫画了，所以一直在用 bilibili 家的漫画客户端。 自（动漫之）家被抄家之后 ，就失去了能看漫画的地方，漫画柜又被墙，总是加载不出来，不再为大陆提供阅读服务，但真的是我们感觉的那样吗？真的不是 GFW 从中做梗吗？ 漫画柜并没有倒闭，人家无差别地提供服务，BAN 掉的只...",
+          "desc_html": "<p>最近因为买了 三星 Tab S4，常常用它来看电子书，当然漫画也算电子书的一种，加上上了大学有了零用钱，终于可以开始支持正版漫画了，所以一直在用 bilibili 家的漫画客户端。 自（动漫之）家被抄家之后 ，就失去了能看漫画的地方，漫画柜又被墙，总是加载不出来，不再为大陆提供阅读服务，但真的是我们感觉的那样吗？真的不是 GFW 从中做梗吗？ 漫画柜并没有倒闭，人家无差别地提供服务，BAN 掉的只…</p>"
+        },
+        {
+          "title": "Why blog today",
+          "url": "/20220101-why-blog.html",
+          "date": "2022/01/01",
+          "datetime": "2022-01-01",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2024/image_1653621462242_0.png",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2024/image_1653621462242_0.png"
+          ],
+          "desc": "Remember After I read The Little Prince, I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other. Seem thing happe...",
+          "desc_html": "<p>Remember After I read The Little Prince, I relieved I’ve forgotten for a long time about rite. But it’s seem like when yesterday I talked about taming, rite, child or something other. Seem thing happe…</p>"
+        },
+        {
+          "title": "猫猫能有什么坏心思呢？",
+          "url": "/20210314-sorry-for-cats.html",
+          "date": "2021/03/14",
+          "datetime": "2021-03-14",
+          "image_url": "https://user-images.githubusercontent.com/57313137/150110893-f6194cb0-a601-4128-920d-71938e907cc3.jpg",
+          "image_urls": [
+            "https://user-images.githubusercontent.com/57313137/150110893-f6194cb0-a601-4128-920d-71938e907cc3.jpg",
+            "https://user-images.githubusercontent.com/57313137/194496339-7cc4d621-01e9-4029-a807-e32ad071b1e5.png",
+            "https://user-images.githubusercontent.com/57313137/150112384-ea3d4df0-449c-4ade-9421-117c45c879f2.jpg",
+            "https://user-images.githubusercontent.com/57313137/182275216-868ac09f-aa43-4433-964a-85142b902101.jpg"
+          ],
+          "desc": "养猫这档事 猫 (Felis catus) 隶属动物界脊索动物门哺乳纲食肉目猫科猫属，而智人 (Homo sapiens) 隶属动物界脊索动物门哺乳纲灵长目人科人属，两个种族的动物，怎么就能产生人类一方甘愿为奴的羁绊? 我看过一篇这样的论文： 学生时代，教科书的某种病名跟你也是那样相似： 猫叫综合征（英语：Cri du chat syndrome），也称猫哭症、猫啼症、5 号染色体短臂缺失综合征（...",
+          "desc_html": "<p>养猫这档事 猫 (Felis catus) 隶属动物界脊索动物门哺乳纲食肉目猫科猫属，而智人 (Homo sapiens) 隶属动物界脊索动物门哺乳纲灵长目人科人属，两个种族的动物，怎么就能产生人类一方甘愿为奴的羁绊? 我看过一篇这样的论文： 学生时代，教科书的某种病名跟你也是那样相似： 猫叫综合征（英语：Cri du chat syndrome），也称猫哭症、猫啼症、5 号染色体短臂缺失综合征（…</p>"
+        },
+        {
+          "title": "简中二次元圈已死",
+          "url": "/20210118-the-past-of-acgn-on-china-had-passed.html",
+          "date": "2021/01/18",
+          "datetime": "2021-01-18",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "网络清扫，我痛恨这个词语，网盘不断的炸链，反复提醒您浏览的内容不存在，就像是去年的疫情，发出来的文章像喂了狗，用户一个个被封，我真的怀疑，明天会更好吗？ 我发现自己什么都做不了，我本身，其实并不具有话语权，我能做的，就是像现在这样，写下这些气愤的话。 我对暴露自己是「二次元」这件事一致很抵触，因为我看二次元那会儿，这还是一个比较小众的爱好，更不要说我还非常喜欢 「Galgame」这种事了，写下这些...",
+          "desc_html": "<p>网络清扫，我痛恨这个词语，网盘不断的炸链，反复提醒您浏览的内容不存在，就像是去年的疫情，发出来的文章像喂了狗，用户一个个被封，我真的怀疑，明天会更好吗？ 我发现自己什么都做不了，我本身，其实并不具有话语权，我能做的，就是像现在这样，写下这些气愤的话。 我对暴露自己是「二次元」这件事一致很抵触，因为我看二次元那会儿，这还是一个比较小众的爱好，更不要说我还非常喜欢 「Galgame」这种事了，写下这些…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 22,
+      "next_page": 23
+    },
+    "23.json": {
+      "posts": [
+        {
+          "title": "逃离",
+          "url": "/20200715-escape.html",
+          "date": "2020/07/15",
+          "datetime": "2020-07-15",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "夜色正浓，他再一次被热醒，有点迷糊，侧过身子，他看向周围的一切，远处灯光平静地打在课桌上，书本试卷被卷在他的身后，褶皱书本已被汗渍浸湿，那些断断续续失色的黑字让他感到厌倦，起身，他静静地注视着周遭的一切，书本像行星围绕在他周围，他自己仿佛就是一个巨大的黑洞，会吸引吞噬并摧毁周围的一切。一只蚊子飞过，起飞，着陆，起飞，再着陆，他感到厌烦，用拳头握住头顶的蚊子，草草结束了蚊子的一生。 顿时间房间里没了...",
+          "desc_html": "<p>夜色正浓，他再一次被热醒，有点迷糊，侧过身子，他看向周围的一切，远处灯光平静地打在课桌上，书本试卷被卷在他的身后，褶皱书本已被汗渍浸湿，那些断断续续失色的黑字让他感到厌倦，起身，他静静地注视着周遭的一切，书本像行星围绕在他周围，他自己仿佛就是一个巨大的黑洞，会吸引吞噬并摧毁周围的一切。一只蚊子飞过，起飞，着陆，起飞，再着陆，他感到厌烦，用拳头握住头顶的蚊子，草草结束了蚊子的一生。 顿时间房间里没了…</p>"
+        },
+        {
+          "title": "",
+          "url": "/20260502-know-@liulifox233.html",
+          "date": "",
+          "datetime": "",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "",
+          "desc_html": ""
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 23,
+      "next_page": null
+    },
+    "3.json": {
+      "posts": [
+        {
+          "title": "Venera 无法在 iOS/iPad OS 上保存图片",
+          "url": "/20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html",
+          "date": "2026/05/05",
+          "datetime": "2026-05-05",
+          "image_url": "https://github.com/user-attachments/assets/8ac0d719-e6c9-42d4-a969-f502b8844c13",
+          "image_urls": [
+            "https://github.com/user-attachments/assets/8ac0d719-e6c9-42d4-a969-f502b8844c13",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260505230857427.webp"
+          ],
+          "desc": "我之前不是说用魔改的 venera 客户端「漫阅」吗？它和官方都有一个问题，在漫画名特别长的时候，下载图片会不显示保存按钮，也就是置灰状态： 很头疼啊，我的一个坏毛病就是看到好看的章节直接下载到本地，不用官方自带的图片收藏，漫阅这个东西已经发布至少半年了，就没有一个人发现这玩意有问题吗？？？ 还好 Venera 是开源的，可以直接调试，过程比较痛苦，因为这个问题只存在 iOS 和 iPad 上面，...",
+          "desc_html": "<p>我之前不是说用魔改的 venera 客户端「漫阅」吗？它和官方都有一个问题，在漫画名特别长的时候，下载图片会不显示保存按钮，也就是置灰状态： 很头疼啊，我的一个坏毛病就是看到好看的章节直接下载到本地，不用官方自带的图片收藏，漫阅这个东西已经发布至少半年了，就没有一个人发现这玩意有问题吗？？？ 还好 Venera 是开源的，可以直接调试，过程比较痛苦，因为这个问题只存在 iOS 和 iPad 上面，…</p>"
+        },
+        {
+          "title": "同步 Venera 进度到 Bangumi",
+          "url": "/20260503-venera-to-bangumi.html",
+          "date": "2026/05/04",
+          "datetime": "2026-05-04",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1777774637105.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1777774637105.webp"
+          ],
+          "desc": "其实我一直在 iPad 上用魔改的 venera (漫阅 ) 看漫画，他其实已经提供了追踪器跟踪的功能，只是不太好用（需要手动关联，总是失败），加上开发者长时间不修，也不看群，我感觉已经不再维护。 一致挺喜欢 venera 的，得益于 Flutter 跨平台，它提供了 ipa，可以在 iPad 上测载看漫画，体验上和 Mihon 非常接近，配合上 WebDev 同步，已经是一个不错的全平台解决方案...",
+          "desc_html": "<p>其实我一直在 iPad 上用魔改的 venera (漫阅 ) 看漫画，他其实已经提供了追踪器跟踪的功能，只是不太好用（需要手动关联，总是失败），加上开发者长时间不修，也不看群，我感觉已经不再维护。 一致挺喜欢 venera 的，得益于 Flutter 跨平台，它提供了 ipa，可以在 iPad 上测载看漫画，体验上和 Mihon 非常接近，配合上 WebDev 同步，已经是一个不错的全平台解决方案…</p>"
+        },
+        {
+          "title": "Bangumi 两个 API 的区别",
+          "url": "/20260504-bangumi-apis.html",
+          "date": "2026/05/04",
+          "datetime": "2026-05-04",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "这周终于把这两个 API 文档搞明白了 1. https//bangumi.github.io/api/ 2. https//next.bgm.tv/p1/#/blog 因为这周研究时间线同步的问题，一直找不到的时间线 API 在 第二个里面有两个可以访问的查询接口，但是提交接口 需要过 cloudflare 的 turnstileToken，这对于我的脚本几乎不可能，所以接入 Bangumi 时...",
+          "desc_html": "<p>这周终于把这两个 API 文档搞明白了 1. https//bangumi.github.io/api/ 2. https//next.bgm.tv/p1/#/blog 因为这周研究时间线同步的问题，一直找不到的时间线 API 在 第二个里面有两个可以访问的查询接口，但是提交接口 需要过 cloudflare 的 turnstileToken，这对于我的脚本几乎不可能，所以接入 Bangumi 时…</p>"
+        },
+        {
+          "title": "穷鬼 Vibe Coding",
+          "url": "/20260502-poor-with-vibe-coding.html",
+          "date": "2026/05/02",
+          "datetime": "2026-05-02",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "上周 Copilot 发布收费新标准，挺失望的，因为又需要寻找替代。 今天看到有人问 https//www.v2ex.com/t/1209933 ， 研究了下穷鬼 Vibe Code 套餐 https//github.com/mahonzhan/awesome-coding-plan 发现其实还是有很多门路可以走的： 1. 按量付费优先 DS 2. 订阅可以考虑 OpenCode",
+          "desc_html": "<p>上周 Copilot 发布收费新标准，挺失望的，因为又需要寻找替代。 今天看到有人问 https//www.v2ex.com/t/1209933 ， 研究了下穷鬼 Vibe Code 套餐 https//github.com/mahonzhan/awesome-coding-plan 发现其实还是有很多门路可以走的： 1. 按量付费优先 DS 2. 订阅可以考虑 OpenCode</p>"
+        },
+        {
+          "title": "Kazumi 同步 Bangumi",
+          "url": "/20260422-kazumi-sync-with-bangumi.html",
+          "date": "2026/05/01",
+          "datetime": "2026-05-01",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "距离提 PR，到最终合并进主分支，一共耗时半个月吧，前一个星期把大部分功能修了下，后一个星期则在 反反复复进行修改，其实没有那么轻松。 一开始是想找一个追番软件去补旧番，我的需求比较简单： 1. 集成 Bangumi 2. 支持截图 3. 支持测载 iOS 所以压根没得选，只有 animeko 满足这些条件，实际测试中，在我的 iPad 上表现的也不如 Android/Mac（比较慢），也没事，我...",
+          "desc_html": "<p>距离提 PR，到最终合并进主分支，一共耗时半个月吧，前一个星期把大部分功能修了下，后一个星期则在 反反复复进行修改，其实没有那么轻松。 一开始是想找一个追番软件去补旧番，我的需求比较简单： 1. 集成 Bangumi 2. 支持截图 3. 支持测载 iOS 所以压根没得选，只有 animeko 满足这些条件，实际测试中，在我的 iPad 上表现的也不如 Android/Mac（比较慢），也没事，我…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 3,
+      "next_page": 4
+    },
+    "4.json": {
+      "posts": [
+        {
+          "title": "饭点就要吃饭吗？",
+          "url": "/20260501-when-to-eat.html",
+          "date": "2026/05/01",
+          "datetime": "2026-05-01",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "一到饭点就像吃饭，我感觉这是不对的，就算吃一点点，还是觉得饱腹，然后躺在床上消化半个小时，就像我现在这样，最有可能的是，过几小时，等我睡眠之前，我又感觉到饿。 所以我觉得是不对的。正确的应该是什么呢？饿了再吃，让自己的进食时间延后几个小时，至少还能专心自己的工作，也能避免每次入眠前肚子咕咕叫的问题。",
+          "desc_html": "<p>一到饭点就像吃饭，我感觉这是不对的，就算吃一点点，还是觉得饱腹，然后躺在床上消化半个小时，就像我现在这样，最有可能的是，过几小时，等我睡眠之前，我又感觉到饿。 所以我觉得是不对的。正确的应该是什么呢？饿了再吃，让自己的进食时间延后几个小时，至少还能专心自己的工作，也能避免每次入眠前肚子咕咕叫的问题。</p>"
+        },
+        {
+          "title": "石沉大海的小米开发者计划申请",
+          "url": "/20260429-xiaomi-token-request-failed.html",
+          "date": "2026/04/29",
+          "datetime": "2026-04-29",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "前后投了两次，全部石沉大海 已经无所谓了🫤",
+          "desc_html": "<p>前后投了两次，全部石沉大海 已经无所谓了🫤</p>"
+        },
+        {
+          "title": "GitHub Copilot 改变收费模式",
+          "url": "/20260428-github-copilot-charge-changed.html",
+          "date": "2026/04/28",
+          "datetime": "2026-04-28",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "今天最糟的消息差不多就是 copilot 订阅变了，然后我过去几个月构建的工作流，就这么崩了，是的，我感觉如果按他们这样的计费调整下去，一个月 10 刀都不够我使用的。 焦虑，疲惫，然后我觉得自己过去基于 Copilot 构建的那些 vibing 模版像是个笑话，我可以轻而易举的推翻他们。最疲惫的是，我最近一个星期都在改 kazumi，甚至超越了我看番的时间。",
+          "desc_html": "<p>今天最糟的消息差不多就是 copilot 订阅变了，然后我过去几个月构建的工作流，就这么崩了，是的，我感觉如果按他们这样的计费调整下去，一个月 10 刀都不够我使用的。 焦虑，疲惫，然后我觉得自己过去基于 Copilot 构建的那些 vibing 模版像是个笑话，我可以轻而易举的推翻他们。最疲惫的是，我最近一个星期都在改 kazumi，甚至超越了我看番的时间。</p>"
+        },
+        {
+          "title": "iLoader 简化 iOS 测载",
+          "url": "/20260419-resideload-on-ios-with-iloader.html",
+          "date": "2026/04/19",
+          "datetime": "2026-04-19",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260419121650140.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260419121650140.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260419122447876.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260419123647702.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260419135721322.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260419140100260.webp"
+          ],
+          "desc": "最近看番想重新把 iPad 用起来，所以想要测载 Animeko，因为总是忘记刷新， iPad 上面的 Sideloader 早就过期了。这周发现去年社区新出现的一个工具， https//github.com/nab138/iloader 可以大大减少操作步骤。 过程中遇到的问题 一开始，我还是新车熟路，准备用 Altserver 那一套，于是连接 USB 重新安装一遍 altserver，并卸载...",
+          "desc_html": "<p>最近看番想重新把 iPad 用起来，所以想要测载 Animeko，因为总是忘记刷新， iPad 上面的 Sideloader 早就过期了。这周发现去年社区新出现的一个工具， https//github.com/nab138/iloader 可以大大减少操作步骤。 过程中遇到的问题 一开始，我还是新车熟路，准备用 Altserver 那一套，于是连接 USB 重新安装一遍 altserver，并卸载…</p>"
+        },
+        {
+          "title": "DNSHE 免费域名",
+          "url": "/20260503-dnshe-free-domain.html",
+          "date": "2026/04/17",
+          "datetime": "2026-04-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "看到 V 的帖子 https//www.v2ex.com/t/1210050, 说 https//my.dnshe.com/index.php 支持永久域名，一开始看不上，最终想试试，才发现老费劲了： 1. 首页 提供了一些域名的选择，.de5.net/ .us.ci，进去其实是没货的，取而代之的却是 cc.cd / cn.mt/ccwu.cc/bbroot.com 这几个； 2. 没有限制二级域...",
+          "desc_html": "<p>看到 V 的帖子 https//www.v2ex.com/t/1210050, 说 https//my.dnshe.com/index.php 支持永久域名，一开始看不上，最终想试试，才发现老费劲了： 1. 首页 提供了一些域名的选择，.de5.net/ .us.ci，进去其实是没货的，取而代之的却是 cc.cd / cn.mt/ccwu.cc/bbroot.com 这几个； 2. 没有限制二级域…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 4,
+      "next_page": 5
+    },
+    "5.json": {
+      "posts": [
+        {
+          "title": "越来越高的墙",
+          "url": "/20260422-gfw-more-and-more-tall-in-april-2026.html",
+          "date": "2026/04/17",
+          "datetime": "2026-04-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近一个月大陆不是严打 VPN 吗？尤其 IPLC/IPLE 专线线路，正常用一会儿就红了，等几分钟才好。 我原本以为没什么，又是周期性抽风，但今天看了一个视频，发现好像没有那么简单，因为如果你把最近一两年发生的事情放在一起 https//www.v2ex.com/t/1189908 https//x.com/jichangtj/status/2038215910910316779 https//...",
+          "desc_html": "<p>最近一个月大陆不是严打 VPN 吗？尤其 IPLC/IPLE 专线线路，正常用一会儿就红了，等几分钟才好。 我原本以为没什么，又是周期性抽风，但今天看了一个视频，发现好像没有那么简单，因为如果你把最近一两年发生的事情放在一起 https//www.v2ex.com/t/1189908 https//x.com/jichangtj/status/2038215910910316779 https//…</p>"
+        },
+        {
+          "title": "很遗憾，没能通过十年之约审核",
+          "url": "/20260415-foreverblog-refuse-to-index.html",
+          "date": "2026/04/15",
+          "datetime": "2026-04-15",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260415210049927.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260415210049927.webp",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260415221643214.webp"
+          ],
+          "desc": "上个月 重构 Jekyll 博客 之后，信心满满地去投稿十年之约，然后今天早上终于得到了回复： 最终决定是被拒绝啦，可以说毫不意外吗？因为点投递按钮的时候心里就有点「侥幸心理」，因为我的博客里确实存在一些对劳动法和当今社会体制不作为的吐槽。 就结果而言，我的「感觉」没有错。但这始终是一种感觉，没有白纸黑字的确定感，悬浮在空中，让人捉摸不定。我们来看看十年公约： 十年之约 我已经不记得从哪里了解到这...",
+          "desc_html": "<p>上个月 重构 Jekyll 博客 之后，信心满满地去投稿十年之约，然后今天早上终于得到了回复： 最终决定是被拒绝啦，可以说毫不意外吗？因为点投递按钮的时候心里就有点「侥幸心理」，因为我的博客里确实存在一些对劳动法和当今社会体制不作为的吐槽。 就结果而言，我的「感觉」没有错。但这始终是一种感觉，没有白纸黑字的确定感，悬浮在空中，让人捉摸不定。我们来看看十年公约： 十年之约 我已经不记得从哪里了解到这…</p>"
+        },
+        {
+          "title": "图床迁移 Cloudflare R2",
+          "url": "/20260412-migrate-img-host-to-cloudflare-r2.html",
+          "date": "2026/04/12",
+          "datetime": "2026-04-12",
+          "image_url": "https://private-user-images.githubusercontent.com/96409857/543530856-82f1df17-83b4-49b8-9ec5-36d37b7eac54.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzYwMDI2NTIsIm5iZiI6MTc3NjAwMjM1MiwicGF0aCI6Ii85NjQwOTg1Ny81NDM1MzA4NTYtODJmMWRmMTctODNiNC00OWI4LTllYzUtMzZkMzdiN2VhYzU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDEyVDEzNTkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFiZDMzYTliYjc0ZmI3ODE0NWQxODQxYjUwOWJhMjJjNzYzMDE4ZjRkMTIzNmQ2ZjlkNjQ1MTFkYTlhOWE0ZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.y_8O3NFJ4CmSedqDXJ0d85yC6y-2LTMynfcqn_wC0Lc",
+          "image_urls": [
+            "https://private-user-images.githubusercontent.com/96409857/543530856-82f1df17-83b4-49b8-9ec5-36d37b7eac54.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzYwMDI2NTIsIm5iZiI6MTc3NjAwMjM1MiwicGF0aCI6Ii85NjQwOTg1Ny81NDM1MzA4NTYtODJmMWRmMTctODNiNC00OWI4LTllYzUtMzZkMzdiN2VhYzU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDEyVDEzNTkxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFiZDMzYTliYjc0ZmI3ODE0NWQxODQxYjUwOWJhMjJjNzYzMDE4ZjRkMTIzNmQ2ZjlkNjQ1MTFkYTlhOWE0ZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.y_8O3NFJ4CmSedqDXJ0d85yC6y-2LTMynfcqn_wC0Lc",
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260412220459533.webp"
+          ],
+          "desc": "不得不说 CF 是互联网界的活菩萨，免费提供的对象存储量大管饱，对我这种没人看的小透明足够了： 存储：10GB/月免费，每增加 1GB/月收取 0.015 美元 A 类操作：100 万次操作/月免费，每增加 100 万次操作收取 4.50 美元 B 类操作：1000 万次操作/月免费，每增加 100 万次操作收取 0.36 美元 出口流量费全免 [!TIP] 什么意思呢？只有访问次数计入账单（A ...",
+          "desc_html": "<p>不得不说 CF 是互联网界的活菩萨，免费提供的对象存储量大管饱，对我这种没人看的小透明足够了： 存储：10GB/月免费，每增加 1GB/月收取 0.015 美元 A 类操作：100 万次操作/月免费，每增加 100 万次操作收取 4.50 美元 B 类操作：1000 万次操作/月免费，每增加 100 万次操作收取 0.36 美元 出口流量费全免 [!TIP] 什么意思呢？只有访问次数计入账单（A …</p>"
+        },
+        {
+          "title": "用火狐还得手动更新拓展",
+          "url": "/20260407-manul-update-extension-when-you-using-firefox.html",
+          "date": "2026/04/07",
+          "datetime": "2026-04-07",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "前几周 X 上分享了这样一个 Obsidian WebClipper 的操作场景： 很好，对吧，但是我发现 Firefox 上的插件一直是旧版，完全没有更新 1.3.0，反观 Chrome 就不一样 https//addons.mozilla.org/zh-CN/firefox/addon/web-clipper-obsidian https//chromewebstore.google.com/...",
+          "desc_html": "<p>前几周 X 上分享了这样一个 Obsidian WebClipper 的操作场景： 很好，对吧，但是我发现 Firefox 上的插件一直是旧版，完全没有更新 1.3.0，反观 Chrome 就不一样 https//addons.mozilla.org/zh-CN/firefox/addon/web-clipper-obsidian https//chromewebstore.google.com/…</p>"
+        },
+        {
+          "title": "试用其他 Agent",
+          "url": "/20260402-try-another-agent.html",
+          "date": "2026/04/02",
+          "datetime": "2026-04-02",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "这周供应链投毒，升级 nanobot 导致 Copilot 无法使用了，正好试了试其他的 Agent。 PicoClaw WebUI 一堆 BUG，没法直视，快速开发，估计贡献不上 自己的文档里写了支持 Copilot，但是 OAuth 的选项里面又找不到，原来是 LiteLLM 级别的支持。 ZeroClaw 昨天晚上组织、代码仓库直接消失了🫠 https//github.com/zerocla...",
+          "desc_html": "<p>这周供应链投毒，升级 nanobot 导致 Copilot 无法使用了，正好试了试其他的 Agent。 PicoClaw WebUI 一堆 BUG，没法直视，快速开发，估计贡献不上 自己的文档里写了支持 Copilot，但是 OAuth 的选项里面又找不到，原来是 LiteLLM 级别的支持。 ZeroClaw 昨天晚上组织、代码仓库直接消失了🫠 https//github.com/zerocla…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 5,
+      "next_page": 6
+    },
+    "6.json": {
+      "posts": [
+        {
+          "title": "放弃 QiReader",
+          "url": "/20260329-give-up-qi-reader.html",
+          "date": "2026/03/29",
+          "datetime": "2026-03-29",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近 重构 Jekyll 博客，停更一年的 https//blog.bgzo.cc 重新开始了更新，但是源拉取还是有问题，用另一个博客源排查了一下： 首先新增一篇测试文章，保证 Feed 里面有输出了，点击「Refresh」，发现没有拿到刚刚的测试文章，这才发现，原来立刻刷新的按钮不是立刻拉取源的意思。 接着观察 QiReader 多久会刷新这篇测试文章，大概有 2h 之后，这篇文章才出来。纠结了...",
+          "desc_html": "<p>最近 重构 Jekyll 博客，停更一年的 https//blog.bgzo.cc 重新开始了更新，但是源拉取还是有问题，用另一个博客源排查了一下： 首先新增一篇测试文章，保证 Feed 里面有输出了，点击「Refresh」，发现没有拿到刚刚的测试文章，这才发现，原来立刻刷新的按钮不是立刻拉取源的意思。 接着观察 QiReader 多久会刷新这篇测试文章，大概有 2h 之后，这篇文章才出来。纠结了…</p>"
+        },
+        {
+          "title": "重构 Jekyll 博客",
+          "url": "/20260328-refactor-jekyll-blog.html",
+          "date": "2026/03/28",
+          "datetime": "2026-03-28",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "因为种种原因，我需要统一： https//note.bgzo.cc https//blog.bgzo.cc https//bgzo.cc 这几个网站的定位，考虑到自己的 blog.bgzo.cc 已经存在很长一段时间了，并且已被 V2EX 收录，最终考虑依然将自己的大部分文章放在这里，note.bgzo.cc 专注零碎的思考，bgzo.cc 只是个人探索的项目。 Jekyll 兼容自定义类型的 M...",
+          "desc_html": "<p>因为种种原因，我需要统一： https//note.bgzo.cc https//blog.bgzo.cc https//bgzo.cc 这几个网站的定位，考虑到自己的 blog.bgzo.cc 已经存在很长一段时间了，并且已被 V2EX 收录，最终考虑依然将自己的大部分文章放在这里，note.bgzo.cc 专注零碎的思考，bgzo.cc 只是个人探索的项目。 Jekyll 兼容自定义类型的 M…</p>"
+        },
+        {
+          "title": "人生的模板与捷径",
+          "url": "/20260325-shortcut-with-everything.html",
+          "date": "2026/03/25",
+          "datetime": "2026-03-25",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260307191144642.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260307191144642.webp"
+          ],
+          "desc": "我一直认为，人生中的每件事情都是有捷径的。 比如数学有二级公式，做题有答题模板，在一切都可以理性分析的前提下，一定存在比直来直去更加取巧的办法。 就拿数学的二级公式举例，两位身心素质完全相同的孩子，唯一区别就是是否知道一些应试教育的二级公式，他们同时去解一道高中的圆锥曲线的题，不会的孩子往往得靠草稿纸手算七八分钟，还不一定准，知道二级公式的孩子只需要带入参数算一下，一分钟内就出来了，这在应试教育里...",
+          "desc_html": "<p>我一直认为，人生中的每件事情都是有捷径的。 比如数学有二级公式，做题有答题模板，在一切都可以理性分析的前提下，一定存在比直来直去更加取巧的办法。 就拿数学的二级公式举例，两位身心素质完全相同的孩子，唯一区别就是是否知道一些应试教育的二级公式，他们同时去解一道高中的圆锥曲线的题，不会的孩子往往得靠草稿纸手算七八分钟，还不一定准，知道二级公式的孩子只需要带入参数算一下，一分钟内就出来了，这在应试教育里…</p>"
+        },
+        {
+          "title": "开源是手段而不是目的",
+          "url": "/20260324-open-source-transform-to-private.html",
+          "date": "2026/03/24",
+          "datetime": "2026-03-24",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260324232039229.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/20260324232039229.webp"
+          ],
+          "desc": "我再也不用担心 Token 泄漏、版权、审查的问题，我似乎又重新获得了创作的自由",
+          "desc_html": "<p>我再也不用担心 Token 泄漏、版权、审查的问题，我似乎又重新获得了创作的自由</p>"
+        },
+        {
+          "title": "Steam 和 Mint",
+          "url": "/20260322-steam-and-mint.html",
+          "date": "2026/03/22",
+          "datetime": "2026-03-22",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "翻看书签，看到了前半个月在 Mint 服务器上安装 Steam 的经历，想起来几个操蛋的事情： Steam 开启之后会自动进行更新，然后从更新到显示这部分时间，是什么都没有的，没有标签栏图标，后台进程没有真正启动，所以如果你的网络环境不行，实际效果就是：点和没点没区别。 很苦恼啊，怎么都打不开，难道说 Steam 依赖跟其他乱八七糟的软件冲突了？Steam 又没有提供 AppImage 的包，怎么...",
+          "desc_html": "<p>翻看书签，看到了前半个月在 Mint 服务器上安装 Steam 的经历，想起来几个操蛋的事情： Steam 开启之后会自动进行更新，然后从更新到显示这部分时间，是什么都没有的，没有标签栏图标，后台进程没有真正启动，所以如果你的网络环境不行，实际效果就是：点和没点没区别。 很苦恼啊，怎么都打不开，难道说 Steam 依赖跟其他乱八七糟的软件冲突了？Steam 又没有提供 AppImage 的包，怎么…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 6,
+      "next_page": 7
+    },
+    "7.json": {
+      "posts": [
+        {
+          "title": "重新设置 Sunshine 给 NS 串流用",
+          "url": "/20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html",
+          "date": "2026/03/22",
+          "datetime": "2026-03-22",
+          "image_url": "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1774750031826.webp",
+          "image_urls": [
+            "https://pub-89c11651a8434f18a530bd6f93e399da.r2.dev/2026/1774750031826.webp"
+          ],
+          "desc": "最近我发现自己根本不需要什么 Win/Android/毫米波 掌机，也不需要折腾 如何在安卓模拟器上玩游戏，我有硬破的 Switch，里面就有 Moonlight，我可以直接串流到服务器上去玩游戏！ 突然感觉香起来了。 准备什么 1. 一台 24h 开机的服务器 2. 已经安装 Steam 3. https//github.com/LizardByte/Sunshine 1. https//git...",
+          "desc_html": "<p>最近我发现自己根本不需要什么 Win/Android/毫米波 掌机，也不需要折腾 如何在安卓模拟器上玩游戏，我有硬破的 Switch，里面就有 Moonlight，我可以直接串流到服务器上去玩游戏！ 突然感觉香起来了。 准备什么 1. 一台 24h 开机的服务器 2. 已经安装 Steam 3. https//github.com/LizardByte/Sunshine 1. https//git…</p>"
+        },
+        {
+          "title": "探索现有社交媒体 CLI 对导入 Obsidian 的可能性",
+          "url": "/20260321-explore-opencli-and-others-cli-for-social-media.html",
+          "date": "2026/03/21",
+          "datetime": "2026-03-21",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "最近 X 的时间线频繁春贤一个创作者： @jackwener，他有 5 个比较有代表性的作品： bilibili-cli twitter-cli discord-cli tg-cli xiaohongshu-cli 这些全都是客户端级别的工具，面向 CLI 用户，CLI 用户是哪部份人呢？ AI。 当然也不尽然，吸引我的是这些平台的 CLI 并不好做，我正好最近在全量导出自己的数据到 Obsidi...",
+          "desc_html": "<p>最近 X 的时间线频繁春贤一个创作者： @jackwener，他有 5 个比较有代表性的作品： bilibili-cli twitter-cli discord-cli tg-cli xiaohongshu-cli 这些全都是客户端级别的工具，面向 CLI 用户，CLI 用户是哪部份人呢？ AI。 当然也不尽然，吸引我的是这些平台的 CLI 并不好做，我正好最近在全量导出自己的数据到 Obsidi…</p>"
+        },
+        {
+          "title": "Nanobot 踩坑",
+          "url": "/20260320-mv-openclaw-nanobot.html",
+          "date": "2026/03/20",
+          "datetime": "2026-03-20",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "之前有使用 Openclaw 踩坑 的经历，用起来也还可以，但有几点问题： 1. 启动慢； 2. 配置复杂； 3. 性能； Openclaw 的代码十几万行是出了名的臭，大家都知道，所以爆火之后就接二连三出来了很多语言的平替版本，有： NonoBot (Python) PicoClaw (Golang) ZeroClaw (Rust) 考虑到我的模型是 CopilotPro，并且不想走弯路，所以最...",
+          "desc_html": "<p>之前有使用 Openclaw 踩坑 的经历，用起来也还可以，但有几点问题： 1. 启动慢； 2. 配置复杂； 3. 性能； Openclaw 的代码十几万行是出了名的臭，大家都知道，所以爆火之后就接二连三出来了很多语言的平替版本，有： NonoBot (Python) PicoClaw (Golang) ZeroClaw (Rust) 考虑到我的模型是 CopilotPro，并且不想走弯路，所以最…</p>"
+        },
+        {
+          "title": "READMI AX6000 刷机",
+          "url": "/20260312-flush-redmi-ax6000.html",
+          "date": "2026/03/12",
+          "datetime": "2026-03-12",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "当初买这个路由的原因就是想刷机，不能刷机的路由器压根不想买，刚刚看了下，已经一年多了，早过了质保，所以刷机势在必然。 当前版本：MiWiFi 稳定版 1.0.67 前置扫盲 SSH 是一种加密的网络协议，用于安全地访问和控制远程计算机或设备； Telnet 是一种较旧的网络协议，用于远程登录到服务器，但安全性低，通常不推荐使用。 Linux dd 命令用于读取、转换并输出数据。 dd 可从标准输入...",
+          "desc_html": "<p>当初买这个路由的原因就是想刷机，不能刷机的路由器压根不想买，刚刚看了下，已经一年多了，早过了质保，所以刷机势在必然。 当前版本：MiWiFi 稳定版 1.0.67 前置扫盲 SSH 是一种加密的网络协议，用于安全地访问和控制远程计算机或设备； Telnet 是一种较旧的网络协议，用于远程登录到服务器，但安全性低，通常不推荐使用。 Linux dd 命令用于读取、转换并输出数据。 dd 可从标准输入…</p>"
+        },
+        {
+          "title": "我朋友说外面也就那样",
+          "url": "/20260311-people-say-nothing-outside-towards-them.html",
+          "date": "2026/03/11",
+          "datetime": "2026-03-11",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "我的一个前同事，从业将近十年，从来没有用过 Google 搜索，我想你懂我什么意思，然后知道我用之后，兴致勃勃地让我叫他，然后他高高兴兴地抱着手机回去了。之后隔了一段时间，大概几个月吧，他跟我说外面没什么好看的，大部分都讲狗屁政治，而他对这些东西一点意思都没有，一些搞笑视频陆内还都有，所以这几天都不看了。 我没法反驳，因为的确如此，我说你就没有对台湾人、新加坡人，或者生活在某个地方的华人感兴趣？他...",
+          "desc_html": "<p>我的一个前同事，从业将近十年，从来没有用过 Google 搜索，我想你懂我什么意思，然后知道我用之后，兴致勃勃地让我叫他，然后他高高兴兴地抱着手机回去了。之后隔了一段时间，大概几个月吧，他跟我说外面没什么好看的，大部分都讲狗屁政治，而他对这些东西一点意思都没有，一些搞笑视频陆内还都有，所以这几天都不看了。 我没法反驳，因为的确如此，我说你就没有对台湾人、新加坡人，或者生活在某个地方的华人感兴趣？他…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 7,
+      "next_page": 8
+    },
+    "8.json": {
+      "posts": [
+        {
+          "title": "如果爱情得有信仰",
+          "url": "/20260309-if-love-have-a-belif.html",
+          "date": "2026/03/09",
+          "datetime": "2026-03-09",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "自从看了李新野的 人妻约会指南，我的爱情树苗还没开花结果，就被连根拔起。 能做什么呢？在这样万事万物都不确定的时代，爱情亦是如此，李说礼乐崩坏，但换句话说就是前所未有的自由，你的身体属于自己，男的可以出轨，女的当然也可以。 李后来给出了一种出路 —— 就是清教徒的生活： 这种生活，不需要男女优秀、高薪。普通人也能达到。唯一的要求，是男女都要有清教徒思想。男的工作 + 负责家庭所有劳动：修车、修水管...",
+          "desc_html": "<p>自从看了李新野的 人妻约会指南，我的爱情树苗还没开花结果，就被连根拔起。 能做什么呢？在这样万事万物都不确定的时代，爱情亦是如此，李说礼乐崩坏，但换句话说就是前所未有的自由，你的身体属于自己，男的可以出轨，女的当然也可以。 李后来给出了一种出路 —— 就是清教徒的生活： 这种生活，不需要男女优秀、高薪。普通人也能达到。唯一的要求，是男女都要有清教徒思想。男的工作 + 负责家庭所有劳动：修车、修水管…</p>"
+        },
+        {
+          "title": "变质爱情",
+          "url": "/20260303-expired-love.html",
+          "date": "2026/03/03",
+          "datetime": "2026-03-03",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "在我年纪还小的时候，我以为爱情就是全心全意地贪恋某个人。 长大之后，尝多了爱而不得的苦之后发现，我的爱情在对方眼里可能只是一次又一次的比较，权衡，得失。 在他们眼里，我只是一个渴望被她翻牌的某某，仅此而已。 自此，爱情已经变质，已经沦为双方博弈的一种筹码。 根本原因是什么呢？峰哥亡命天涯有一个切片很有意思： 还不是因为你丑",
+          "desc_html": "<p>在我年纪还小的时候，我以为爱情就是全心全意地贪恋某个人。 长大之后，尝多了爱而不得的苦之后发现，我的爱情在对方眼里可能只是一次又一次的比较，权衡，得失。 在他们眼里，我只是一个渴望被她翻牌的某某，仅此而已。 自此，爱情已经变质，已经沦为双方博弈的一种筹码。 根本原因是什么呢？峰哥亡命天涯有一个切片很有意思： 还不是因为你丑</p>"
+        },
+        {
+          "title": "AI 焦虑",
+          "url": "/20260225-ai-anxiety.html",
+          "date": "2026/02/25",
+          "datetime": "2026-02-25",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "整个时代，都开始变得急功近利，越来越不注重过程，只看结果，就比如所有的事情都交给 LLM，是把人类（工程师）解放出来了，但是这种解放是一种偷懒，比如很多人说自己花了 1 个小时 vibe 出来了 XXX，但是未来这个东西真的可维护吗？他的设计文档呢？可能很多人都偷懒了。 这个节点实在是人心惶惶，无论有没有计算机背景的人过来用几分钟就唱衰计算机，那么 AI 的未来到底在哪呢？这些穷尽了整个互联网训练...",
+          "desc_html": "<p>整个时代，都开始变得急功近利，越来越不注重过程，只看结果，就比如所有的事情都交给 LLM，是把人类（工程师）解放出来了，但是这种解放是一种偷懒，比如很多人说自己花了 1 个小时 vibe 出来了 XXX，但是未来这个东西真的可维护吗？他的设计文档呢？可能很多人都偷懒了。 这个节点实在是人心惶惶，无论有没有计算机背景的人过来用几分钟就唱衰计算机，那么 AI 的未来到底在哪呢？这些穷尽了整个互联网训练…</p>"
+        },
+        {
+          "title": "蒸汽机后时代的人们",
+          "url": "/20260222-llm-feeling.html",
+          "date": "2026/02/22",
+          "datetime": "2026-02-22",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "现在最像历史上什么时候呢？ 蒸汽机发明之后的英国，人们以为生产力的提升可以解放人类，释放出来更多的空闲时间，但实际上不是这样的，就像人们以为 AI 出来不会干活了，是这样吗？ 没有失业就不错了，但这只是暂时的。 2025 年 LLM 为了打消自己的焦虑，这个假期折腾了一下过去一年比较热门的技术，切入点就是 Copilot 的配置，我从一个 TW 卖客的那里学到了基础的配置 https//githu...",
+          "desc_html": "<p>现在最像历史上什么时候呢？ 蒸汽机发明之后的英国，人们以为生产力的提升可以解放人类，释放出来更多的空闲时间，但实际上不是这样的，就像人们以为 AI 出来不会干活了，是这样吗？ 没有失业就不错了，但这只是暂时的。 2025 年 LLM 为了打消自己的焦虑，这个假期折腾了一下过去一年比较热门的技术，切入点就是 Copilot 的配置，我从一个 TW 卖客的那里学到了基础的配置 https//githu…</p>"
+        },
+        {
+          "title": "爆米花不可能一直免费",
+          "url": "/20260222-163-bmh-cannot-keep-free-forever.html",
+          "date": "2026/02/22",
+          "datetime": "2026-02-22",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "其实我对这个软件是没有什么使用需求的，但是家里面有什么都不知道的小白父母、家人，我也不可能一直陪在他们身边，所以一个面向低操作力人群的需求就诞生了：屏蔽那些不同网盘的设计细节，抽取那些公共逻辑。最终，这个产品足够简单，没有广告，免费好用，这就是现阶段的爆米花。 我对爆米花不可能免费这点从一开始就持怀疑态度，因为： 1. 商业公司逐利，如果你细心，看到产品的关于那页，你能了解到他刮削用的数据都是经豆...",
+          "desc_html": "<p>其实我对这个软件是没有什么使用需求的，但是家里面有什么都不知道的小白父母、家人，我也不可能一直陪在他们身边，所以一个面向低操作力人群的需求就诞生了：屏蔽那些不同网盘的设计细节，抽取那些公共逻辑。最终，这个产品足够简单，没有广告，免费好用，这就是现阶段的爆米花。 我对爆米花不可能免费这点从一开始就持怀疑态度，因为： 1. 商业公司逐利，如果你细心，看到产品的关于那页，你能了解到他刮削用的数据都是经豆…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 8,
+      "next_page": 9
+    },
+    "9.json": {
+      "posts": [
+        {
+          "title": "Openclaw 踩坑",
+          "url": "/20260222-install-openclaw.html",
+          "date": "2026/02/22",
+          "datetime": "2026-02-22",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "我对 OpenClaw 带给我的惊喜，恰如一开始读他的提示词那样惊艳： You're not a chatbot. You're becoming someone 我完全被这句话震住了。 无法使用 openclaw devices list 修改 ~/.openclaw/devices/pending.json，从 \"silent\" false 到 \"silent\" true via https/...",
+          "desc_html": "<p>我对 OpenClaw 带给我的惊喜，恰如一开始读他的提示词那样惊艳： You’re not a chatbot. You’re becoming someone 我完全被这句话震住了。 无法使用 openclaw devices list 修改 ~/.openclaw/devices/pending.json，从 “silent” false 到 “silent” true via https/…</p>"
+        },
+        {
+          "title": "重构 TG 机器人",
+          "url": "/20260217-refactor-social-media-sync-program.html",
+          "date": "2026/02/17",
+          "datetime": "2026-02-17",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "不懂的点（学习笔记） Golang 跑测试 为啥可以直接测试？测试在另一个文件里面 service_test.go？ ==猜测是按文件夹测试== Golang 的接口实现 比较变态，没有显示声明，差点没看出来是 Provider 是 Service 的接口实现。 如果想实现一个接口，能否快速生成这个接口的全部方法？要不然还得反过头来反复查找，感觉如果没有这个语法糖有点坐牢，而且没有显示声明，也不容...",
+          "desc_html": "<p>不懂的点（学习笔记） Golang 跑测试 为啥可以直接测试？测试在另一个文件里面 service_test.go？ ==猜测是按文件夹测试== Golang 的接口实现 比较变态，没有显示声明，差点没看出来是 Provider 是 Service 的接口实现。 如果想实现一个接口，能否快速生成这个接口的全部方法？要不然还得反过头来反复查找，感觉如果没有这个语法糖有点坐牢，而且没有显示声明，也不容…</p>"
+        },
+        {
+          "title": "Twitter 数据导出",
+          "url": "/20260214-twitter-archives-export-into-obsidian.html",
+          "date": "2026/02/14",
+          "datetime": "2026-02-14",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "本文为 黑曜石导入计划 的一部分，理由自不必多说。 我们来看看怎么做？ 1. 官方存档； 2. API 爬取； 官方存档 官方从 Twitter 就一直有这个功能，支持下载自己的全部推文，还有账号的一些其他数据，如果里面的 README 文件所述不假，那么这个存档文件可能会超过 50GB。Of course, 一切都需要在你账号没有被彻底封禁之前请求，封掉就什么都没有了😊。 这也是一个偷懒的方法，...",
+          "desc_html": "<p>本文为 黑曜石导入计划 的一部分，理由自不必多说。 我们来看看怎么做？ 1. 官方存档； 2. API 爬取； 官方存档 官方从 Twitter 就一直有这个功能，支持下载自己的全部推文，还有账号的一些其他数据，如果里面的 README 文件所述不假，那么这个存档文件可能会超过 50GB。Of course, 一切都需要在你账号没有被彻底封禁之前请求，封掉就什么都没有了😊。 这也是一个偷懒的方法，…</p>"
+        },
+        {
+          "title": "怀念逝去的 Twitter",
+          "url": "/20260210-missing-lost-twitter.html",
+          "date": "2026/02/10",
+          "datetime": "2026-02-10",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "在马斯克收购 Twitter 之后不久，免费的 API 就被砍了，这影响了非常多的下游服务，其实，算得上是一个公共空间的坍塌，因为你再也没有办法检索过去那些日子的数据了，官方的搜索做的一塌糊涂，每次搜索都没有一致性，完全没法用，总的来说，跟 17 年 贴吧删帖没区别，这次只是把门被堵上了。 当时有一个免费服务 https//tweethunter.io ，可以查看当前这个人的最热推文，这是我最喜欢...",
+          "desc_html": "<p>在马斯克收购 Twitter 之后不久，免费的 API 就被砍了，这影响了非常多的下游服务，其实，算得上是一个公共空间的坍塌，因为你再也没有办法检索过去那些日子的数据了，官方的搜索做的一塌糊涂，每次搜索都没有一致性，完全没法用，总的来说，跟 17 年 贴吧删帖没区别，这次只是把门被堵上了。 当时有一个免费服务 https//tweethunter.io ，可以查看当前这个人的最热推文，这是我最喜欢…</p>"
+        },
+        {
+          "title": "抬杠",
+          "url": "/20260201-always-disagree-with-others.html",
+          "date": "2026/02/01",
+          "datetime": "2026-02-01",
+          "image_url": null,
+          "image_urls": [],
+          "desc": "我不知道是不是自己内心刻意标榜独立性，我最近几年总是对接受到的各种东西进行抬杠，大致是这样 我不觉得这样，有没有可能 xxx，我觉得 xxx 这种想法我认为是好的，至少我提出了一种和你不一样的观点，我在思考另一种可能，但他会让事情变得糟糕起来，因为话不投机就容易爆发矛盾。 其实，一种更好的对话方式是： 我认为你是对的，但 xxx 是不是也有道理？ --- 可惜就是有一些事情无法苟同，比如最近爱博斯...",
+          "desc_html": "<p>我不知道是不是自己内心刻意标榜独立性，我最近几年总是对接受到的各种东西进行抬杠，大致是这样 我不觉得这样，有没有可能 xxx，我觉得 xxx 这种想法我认为是好的，至少我提出了一种和你不一样的观点，我在思考另一种可能，但他会让事情变得糟糕起来，因为话不投机就容易爆发矛盾。 其实，一种更好的对话方式是： 我认为你是对的，但 xxx 是不是也有道理？ — 可惜就是有一些事情无法苟同，比如最近爱博斯…</p>"
+        }
+      ],
+      "total_pages": 23,
+      "current_page": 9,
+      "next_page": 10
+    }
+  },
+  "feeds": {
+    "feed.xml": [
+      "/20260413-update-system-is-not-always-good.html",
+      "/20260516-fix-venera-export-name.html",
+      "/20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html",
+      "/20260503-venera-to-bangumi.html",
+      "/20260422-kazumi-sync-with-bangumi.html",
+      "/20260415-foreverblog-refuse-to-index.html",
+      "/20260412-migrate-img-host-to-cloudflare-r2.html",
+      "/20260328-refactor-jekyll-blog.html",
+      "/20260325-shortcut-with-everything.html",
+      "/20260324-open-source-transform-to-private.html",
+      "/20260322-steam-and-mint.html",
+      "/20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html",
+      "/20260321-explore-opencli-and-others-cli-for-social-media.html",
+      "/20260320-mv-openclaw-nanobot.html",
+      "/20260312-flush-redmi-ax6000.html",
+      "/20260311-people-say-nothing-outside-towards-them.html",
+      "/20260309-if-love-have-a-belif.html",
+      "/20260303-expired-love.html",
+      "/20260225-ai-anxiety.html",
+      "/20260222-llm-feeling.html",
+      "/20260222-163-bmh-cannot-keep-free-forever.html",
+      "/20260222-install-openclaw.html",
+      "/20260217-refactor-social-media-sync-program.html",
+      "/20260214-twitter-archives-export-into-obsidian.html",
+      "/20260201-always-disagree-with-others.html",
+      "/20260102-review-2025.html",
+      "/20251228-export-weibo-like-list.html",
+      "/20251223-gaming-crisis.html",
+      "/20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html",
+      "/20251214-export-v2ex-collection.html",
+      "/20251214-export-zhihu-collection.html",
+      "/20251206-export-qi-reader-read-latter.html",
+      "/20251206-archive-blog-written-by-github-issue.html",
+      "/20251122-what-is-yours.html",
+      "/20251122-sc-ban-my-coc-account.html",
+      "/20251115-everything-chnaged-after-coming-here.html",
+      "/20251026-familiar-is-king.html",
+      "/20251025-beautify-boardcast.html",
+      "/20251017-content-flow-and-platform.html",
+      "/20251012-make-a-blog-again-with-astro.html",
+      "/20250817-consume-is-not-answer-but-disenchantment.html",
+      "/20250802-internet-illusion.html",
+      "/20250712-birthday-in-2025.html",
+      "/20250705-regret-the-past-is-fucking-yourself.html",
+      "/20250608-at-least-I-still-have-the-freedom-to-write.html",
+      "/20250607-when-death-is-near.html",
+      "/20250606-force-labor-until-die.html",
+      "/20250511-parents-living-in-the-past.html",
+      "/20250502-when-ai-break-my-everything.html",
+      "/20250410-scam-ad-phones-just-like-their-countries.html"
+    ],
+    "seed.xml": [
+      "/20260522-want-a-windows-pad.html",
+      "/20260521-mount-s3.html",
+      "/20260413-update-system-is-not-always-good.html",
+      "/20260508-poor-young.html",
+      "/20260429-eye-health.html",
+      "/20260412-moto-x70-air.html",
+      "/20260516-mv-repo-to-github-organization.html",
+      "/20260516-asmr-todo-list.html",
+      "/20260516-fix-venera-export-name.html",
+      "/20260510-fuck-meta.html",
+      "/20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html",
+      "/20260503-venera-to-bangumi.html",
+      "/20260504-bangumi-apis.html",
+      "/20260502-poor-with-vibe-coding.html",
+      "/20260422-kazumi-sync-with-bangumi.html",
+      "/20260501-when-to-eat.html",
+      "/20260429-xiaomi-token-request-failed.html",
+      "/20260428-github-copilot-charge-changed.html",
+      "/20260419-resideload-on-ios-with-iloader.html",
+      "/20260503-dnshe-free-domain.html",
+      "/20260422-gfw-more-and-more-tall-in-april-2026.html",
+      "/20260415-foreverblog-refuse-to-index.html",
+      "/20260412-migrate-img-host-to-cloudflare-r2.html",
+      "/20260407-manul-update-extension-when-you-using-firefox.html",
+      "/20260402-try-another-agent.html",
+      "/20260329-give-up-qi-reader.html",
+      "/20260328-refactor-jekyll-blog.html",
+      "/20260325-shortcut-with-everything.html",
+      "/20260324-open-source-transform-to-private.html",
+      "/20260322-steam-and-mint.html",
+      "/20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html",
+      "/20260321-explore-opencli-and-others-cli-for-social-media.html",
+      "/20260320-mv-openclaw-nanobot.html",
+      "/20260312-flush-redmi-ax6000.html",
+      "/20260311-people-say-nothing-outside-towards-them.html",
+      "/20260309-if-love-have-a-belif.html",
+      "/20260303-expired-love.html",
+      "/20260225-ai-anxiety.html",
+      "/20260222-llm-feeling.html",
+      "/20260222-163-bmh-cannot-keep-free-forever.html",
+      "/20260222-install-openclaw.html",
+      "/20260217-refactor-social-media-sync-program.html",
+      "/20260214-twitter-archives-export-into-obsidian.html",
+      "/20260210-missing-lost-twitter.html",
+      "/20260201-always-disagree-with-others.html",
+      "/20260102-review-2025.html",
+      "/20251228-export-weibo-like-list.html",
+      "/20251223-gaming-crisis.html",
+      "/20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html",
+      "/20251214-export-v2ex-collection.html"
+    ]
+  }
+}
