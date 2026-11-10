@@ -1,8 +1,8 @@
 # URL Contract
 
 The old Jekyll site at `https://blog.bgzo.cc` is the source of truth. The Astro
-migration must publish the same public paths and must serve both the canonical
-`.html` path and its extensionless alias.
+site publishes the same public paths. Canonical URLs keep the `.html` extension;
+no extensionless alias pages are generated.
 
 ## Article URL rule
 
