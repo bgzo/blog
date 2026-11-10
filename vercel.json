@@ -1,4 +1,4 @@
 {
-  "cleanUrls": true,
-  "buildCommand": "bash scripts/vercel-build.sh"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
