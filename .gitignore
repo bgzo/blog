@@ -5,6 +5,10 @@ dist/
 node_modules/
 .idea/
 
+# Generated from README.md and changelogs.md at build/dev start
+src/content/pages/README.md
+src/content/pages/changelogs.md
+
 
 Pipfile
 Pipfile.lock

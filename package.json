@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "predev": "node scripts/sync-pages.mjs",
     "dev": "astro dev",
+    "prebuild": "node scripts/sync-pages.mjs",
     "build": "astro build && node scripts/generate-aliases.mjs",
     "preview": "astro preview"
   },
