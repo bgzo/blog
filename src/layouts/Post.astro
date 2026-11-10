@@ -1,0 +1,66 @@
+---
+import Head from '../components/Head.astro';
+import Header from '../components/Header.astro';
+import PostMeta from '../components/PostMeta.astro';
+import Toc from '../components/Toc.astro';
+import OutdatedNotice from '../components/OutdatedNotice.astro';
+import MathJax from '../components/MathJax.astro';
+import Giscus from '../components/Giscus.astro';
+import SourceFooter from '../components/SourceFooter.astro';
+import BackToTop from '../components/BackToTop.astro';
+
+const { entry, headings, contentHtml } = Astro.props;
+const { title, published, modified, description, comments } = entry.data;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={title}
+      description={description}
+      pagePath={entry.url}
+      type="article"
+      published={published}
+    />
+  </head>
+  <body class="single-post">
+    <Header section={entry.section} pagePath={entry.url} />
+    <main>
+      <article>
+        <h2>{title}</h2>
+        <PostMeta
+          published={published ?? entry.data.created}
+          modified={modified}
+          contentHtml={contentHtml}
+        />
+        <Toc headings={headings} contentHtml={contentHtml} />
+        {entry.section === 'labs' && (
+          <OutdatedNotice date={modified ?? published} />
+        )}
+        <slot />
+      </article>
+    </main>
+    <MathJax />
+    <script>
+      import '../scripts/embed.js';
+    </script>
+    <!-- Add linkify script to enhance URLs in the content -->
+    <script>
+      import '../scripts/linkify.js';
+    </script>
+    <!-- Transform GFM-style callouts: > [!NOTE], > [!TIP], > [!WARNING], > [!IMPORTANT], > [!CAUTION] -->
+    <script>
+      import '../scripts/callout.js';
+    </script>
+    <script>
+      import '../scripts/back-to-top.js';
+    </script>
+    <BackToTop />
+    {(comments === true || comments === 'True') && <Giscus />}
+    <SourceFooter />
+    <script>
+      import '../scripts/code-blocks.js';
+    </script>
+  </body>
+</html>

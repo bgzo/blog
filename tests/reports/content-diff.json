@@ -1,0 +1,878 @@
+[
+  {
+    "path": "20200715-escape.html",
+    "oldTextLength": 1744,
+    "newTextLength": 1725,
+    "identical": false
+  },
+  {
+    "path": "20210118-the-past-of-acgn-on-china-had-passed.html",
+    "oldTextLength": 1243,
+    "newTextLength": 1219,
+    "identical": false
+  },
+  {
+    "path": "20210314-sorry-for-cats.html",
+    "oldTextLength": 4858,
+    "newTextLength": 4831,
+    "identical": false
+  },
+  {
+    "path": "20220101-why-blog.html",
+    "oldTextLength": 1873,
+    "newTextLength": 1846,
+    "identical": false
+  },
+  {
+    "path": "20220304-watching-manga-again.html",
+    "oldTextLength": 1603,
+    "newTextLength": 1584,
+    "identical": false
+  },
+  {
+    "path": "20221223-look-back-to-your-loved-ones.html",
+    "oldTextLength": 3957,
+    "newTextLength": 3905,
+    "identical": false
+  },
+  {
+    "path": "20230121-existence-is-suffering.html",
+    "oldTextLength": 6181,
+    "newTextLength": 6122,
+    "identical": false
+  },
+  {
+    "path": "20230408-killing-external-links-sucks.html",
+    "oldTextLength": 5754,
+    "newTextLength": 5671,
+    "identical": false
+  },
+  {
+    "path": "20230708-games-never-played-until-died.html",
+    "oldTextLength": 3047,
+    "newTextLength": 3011,
+    "identical": false
+  },
+  {
+    "path": "20231110-a-sell-toll-boy.html",
+    "oldTextLength": 671,
+    "newTextLength": 652,
+    "identical": false
+  },
+  {
+    "path": "20240105-losing-a-friend-seems-like-a-breakup.html",
+    "oldTextLength": 1402,
+    "newTextLength": 1378,
+    "identical": false
+  },
+  {
+    "path": "20240316-8258-nights.html",
+    "oldTextLength": 5620,
+    "newTextLength": 5583,
+    "identical": false
+  },
+  {
+    "path": "20240518-choose-life-rather-working-hard.html",
+    "oldTextLength": 763,
+    "newTextLength": 741,
+    "identical": false
+  },
+  {
+    "path": "20240525-suffering-eczema.html",
+    "oldTextLength": 1219,
+    "newTextLength": 1199,
+    "identical": false
+  },
+  {
+    "path": "20240601-saving-yourselves.html",
+    "oldTextLength": 988,
+    "newTextLength": 965,
+    "identical": false
+  },
+  {
+    "path": "20240608-more-than-system.html",
+    "oldTextLength": 1488,
+    "newTextLength": 1470,
+    "identical": false
+  },
+  {
+    "path": "20240612-you-can-not-happy-with-hate-self.html",
+    "oldTextLength": 380,
+    "newTextLength": 353,
+    "identical": false
+  },
+  {
+    "path": "20240615-being-female.html",
+    "oldTextLength": 1726,
+    "newTextLength": 1706,
+    "identical": false
+  },
+  {
+    "path": "20240706-guessing-life.html",
+    "oldTextLength": 2137,
+    "newTextLength": 2131,
+    "identical": false
+  },
+  {
+    "path": "20240720-fix-depression-towards-gaming.html",
+    "oldTextLength": 2071,
+    "newTextLength": 2051,
+    "identical": false
+  },
+  {
+    "path": "20240726-wrong-second-brain.html",
+    "oldTextLength": 4712,
+    "newTextLength": 4671,
+    "identical": false
+  },
+  {
+    "path": "20240831-money-to-waste.html",
+    "oldTextLength": 1365,
+    "newTextLength": 1337,
+    "identical": false
+  },
+  {
+    "path": "20240907-selfish-chinese.html",
+    "oldTextLength": 1227,
+    "newTextLength": 1207,
+    "identical": false
+  },
+  {
+    "path": "20240921-more-than-an-article.html",
+    "oldTextLength": 1011,
+    "newTextLength": 990,
+    "identical": false
+  },
+  {
+    "path": "20241013-marry-with-blog.html",
+    "oldTextLength": 2233,
+    "newTextLength": 2216,
+    "identical": false
+  },
+  {
+    "path": "20241102-naming-conventions.html",
+    "oldTextLength": 988,
+    "newTextLength": 959,
+    "identical": false
+  },
+  {
+    "path": "20241109-buy-or-not.html",
+    "oldTextLength": 951,
+    "newTextLength": 916,
+    "identical": false
+  },
+  {
+    "path": "20241116-warm-house.html",
+    "oldTextLength": 360,
+    "newTextLength": 342,
+    "identical": false
+  },
+  {
+    "path": "20241207-everything-you-give-would-be-come-back.html",
+    "oldTextLength": 582,
+    "newTextLength": 547,
+    "identical": false
+  },
+  {
+    "path": "20241209-giving-up-logseq.html",
+    "oldTextLength": 7217,
+    "newTextLength": 7165,
+    "identical": false
+  },
+  {
+    "path": "20241215-apocalypse-prepare.html",
+    "oldTextLength": 1748,
+    "newTextLength": 1727,
+    "identical": false
+  },
+  {
+    "path": "20241228-forced-labor.html",
+    "oldTextLength": 1961,
+    "newTextLength": 1939,
+    "identical": false
+  },
+  {
+    "path": "20250109-coding-is-always-the-esaiest-thing.html",
+    "oldTextLength": 997,
+    "newTextLength": 972,
+    "identical": false
+  },
+  {
+    "path": "20250120-fat-but-sad.html",
+    "oldTextLength": 1141,
+    "newTextLength": 1117,
+    "identical": false
+  },
+  {
+    "path": "20250208-going-home.html",
+    "oldTextLength": 843,
+    "newTextLength": 824,
+    "identical": false
+  },
+  {
+    "path": "20250215-featurn-is-never-coming.html",
+    "oldTextLength": 1940,
+    "newTextLength": 1921,
+    "identical": false
+  },
+  {
+    "path": "20250218-life-needs-brainwashing.html",
+    "oldTextLength": 2306,
+    "newTextLength": 2283,
+    "identical": false
+  },
+  {
+    "path": "20250315-self-destruction.html",
+    "oldTextLength": 3381,
+    "newTextLength": 3354,
+    "identical": false
+  },
+  {
+    "path": "20250317-value-brith-on-20.html",
+    "oldTextLength": 427,
+    "newTextLength": 406,
+    "identical": false
+  },
+  {
+    "path": "20250410-scam-ad-phones-just-like-their-countries.html",
+    "oldTextLength": 3293,
+    "newTextLength": 3257,
+    "identical": false
+  },
+  {
+    "path": "20250502-when-ai-break-my-everything.html",
+    "oldTextLength": 2250,
+    "newTextLength": 2222,
+    "identical": false
+  },
+  {
+    "path": "20250511-parents-living-in-the-past.html",
+    "oldTextLength": 1358,
+    "newTextLength": 1334,
+    "identical": false
+  },
+  {
+    "path": "20250606-force-labor-until-die.html",
+    "oldTextLength": 1865,
+    "newTextLength": 1842,
+    "identical": false
+  },
+  {
+    "path": "20250607-when-death-is-near.html",
+    "oldTextLength": 1490,
+    "newTextLength": 1468,
+    "identical": false
+  },
+  {
+    "path": "20250608-at-least-I-still-have-the-freedom-to-write.html",
+    "oldTextLength": 1236,
+    "newTextLength": 1210,
+    "identical": false
+  },
+  {
+    "path": "20250622-talk-about-coser.html",
+    "oldTextLength": 1249,
+    "newTextLength": 1222,
+    "identical": false
+  },
+  {
+    "path": "20250624-desc-your-job-every-quarter.html",
+    "oldTextLength": 588,
+    "newTextLength": 565,
+    "identical": false
+  },
+  {
+    "path": "20250705-regret-the-past-is-fucking-yourself.html",
+    "oldTextLength": 2024,
+    "newTextLength": 1998,
+    "identical": false
+  },
+  {
+    "path": "20250712-birthday-in-2025.html",
+    "oldTextLength": 2649,
+    "newTextLength": 2628,
+    "identical": false
+  },
+  {
+    "path": "20250802-internet-illusion.html",
+    "oldTextLength": 1773,
+    "newTextLength": 1750,
+    "identical": false
+  },
+  {
+    "path": "20250817-consume-is-not-answer-but-disenchantment.html",
+    "oldTextLength": 1324,
+    "newTextLength": 1294,
+    "identical": false
+  },
+  {
+    "path": "20251012-make-a-blog-again-with-astro.html",
+    "oldTextLength": 11563,
+    "newTextLength": 11392,
+    "identical": false
+  },
+  {
+    "path": "20251017-content-flow-and-platform.html",
+    "oldTextLength": 1410,
+    "newTextLength": 1383,
+    "identical": false
+  },
+  {
+    "path": "20251025-beautify-boardcast.html",
+    "oldTextLength": 8584,
+    "newTextLength": 8477,
+    "identical": false
+  },
+  {
+    "path": "20251026-familiar-is-king.html",
+    "oldTextLength": 1358,
+    "newTextLength": 1316,
+    "identical": false
+  },
+  {
+    "path": "20251115-everything-chnaged-after-coming-here.html",
+    "oldTextLength": 1255,
+    "newTextLength": 1311,
+    "identical": false
+  },
+  {
+    "path": "20251122-sc-ban-my-coc-account.html",
+    "oldTextLength": 4461,
+    "newTextLength": 4417,
+    "identical": false
+  },
+  {
+    "path": "20251122-what-is-yours.html",
+    "oldTextLength": 3650,
+    "newTextLength": 3605,
+    "identical": false
+  },
+  {
+    "path": "20251206-archive-blog-written-by-github-issue.html",
+    "oldTextLength": 4914,
+    "newTextLength": 4854,
+    "identical": false
+  },
+  {
+    "path": "20251206-export-qi-reader-read-latter.html",
+    "oldTextLength": 1539,
+    "newTextLength": 1498,
+    "identical": false
+  },
+  {
+    "path": "20251214-export-v2ex-collection.html",
+    "oldTextLength": 1062,
+    "newTextLength": 1034,
+    "identical": false
+  },
+  {
+    "path": "20251214-export-zhihu-collection.html",
+    "oldTextLength": 914,
+    "newTextLength": 891,
+    "identical": false
+  },
+  {
+    "path": "20251215-i-cannot-over-that-mountain-except-far-away-and-forget-it.html",
+    "oldTextLength": 3748,
+    "newTextLength": 3726,
+    "identical": false
+  },
+  {
+    "path": "20251223-gaming-crisis.html",
+    "oldTextLength": 2118,
+    "newTextLength": 2098,
+    "identical": false
+  },
+  {
+    "path": "20251228-export-weibo-like-list.html",
+    "oldTextLength": 3934,
+    "newTextLength": 3774,
+    "identical": false
+  },
+  {
+    "path": "20260102-review-2025.html",
+    "oldTextLength": 3300,
+    "newTextLength": 3277,
+    "identical": false
+  },
+  {
+    "path": "20260201-always-disagree-with-others.html",
+    "oldTextLength": 699,
+    "newTextLength": 681,
+    "identical": false
+  },
+  {
+    "path": "20260210-missing-lost-twitter.html",
+    "oldTextLength": 648,
+    "newTextLength": 619,
+    "identical": false
+  },
+  {
+    "path": "20260214-twitter-archives-export-into-obsidian.html",
+    "oldTextLength": 1424,
+    "newTextLength": 1396,
+    "identical": false
+  },
+  {
+    "path": "20260217-refactor-social-media-sync-program.html",
+    "oldTextLength": 2503,
+    "newTextLength": 2491,
+    "identical": false
+  },
+  {
+    "path": "20260222-163-bmh-cannot-keep-free-forever.html",
+    "oldTextLength": 886,
+    "newTextLength": 860,
+    "identical": false
+  },
+  {
+    "path": "20260222-install-openclaw.html",
+    "oldTextLength": 4148,
+    "newTextLength": 4118,
+    "identical": false
+  },
+  {
+    "path": "20260222-llm-feeling.html",
+    "oldTextLength": 1492,
+    "newTextLength": 1467,
+    "identical": false
+  },
+  {
+    "path": "20260225-ai-anxiety.html",
+    "oldTextLength": 559,
+    "newTextLength": 538,
+    "identical": false
+  },
+  {
+    "path": "20260303-expired-love.html",
+    "oldTextLength": 498,
+    "newTextLength": 478,
+    "identical": false
+  },
+  {
+    "path": "20260309-if-love-have-a-belif.html",
+    "oldTextLength": 1230,
+    "newTextLength": 1204,
+    "identical": false
+  },
+  {
+    "path": "20260311-people-say-nothing-outside-towards-them.html",
+    "oldTextLength": 750,
+    "newTextLength": 724,
+    "identical": false
+  },
+  {
+    "path": "20260312-flush-redmi-ax6000.html",
+    "oldTextLength": 10355,
+    "newTextLength": 10225,
+    "identical": false
+  },
+  {
+    "path": "20260320-mv-openclaw-nanobot.html",
+    "oldTextLength": 2406,
+    "newTextLength": 2374,
+    "identical": false
+  },
+  {
+    "path": "20260321-explore-opencli-and-others-cli-for-social-media.html",
+    "oldTextLength": 2676,
+    "newTextLength": 2623,
+    "identical": false
+  },
+  {
+    "path": "20260322-resetup-sunshine-on-mint-for-monlight-on-switch.html",
+    "oldTextLength": 1458,
+    "newTextLength": 1415,
+    "identical": false
+  },
+  {
+    "path": "20260322-steam-and-mint.html",
+    "oldTextLength": 1264,
+    "newTextLength": 1234,
+    "identical": false
+  },
+  {
+    "path": "20260324-open-source-transform-to-private.html",
+    "oldTextLength": 1328,
+    "newTextLength": 1300,
+    "identical": false
+  },
+  {
+    "path": "20260325-shortcut-with-everything.html",
+    "oldTextLength": 1359,
+    "newTextLength": 1335,
+    "identical": false
+  },
+  {
+    "path": "20260328-refactor-jekyll-blog.html",
+    "oldTextLength": 18289,
+    "newTextLength": 17949,
+    "identical": false
+  },
+  {
+    "path": "20260329-give-up-qi-reader.html",
+    "oldTextLength": 650,
+    "newTextLength": 623,
+    "identical": false
+  },
+  {
+    "path": "20260402-try-another-agent.html",
+    "oldTextLength": 821,
+    "newTextLength": 799,
+    "identical": false
+  },
+  {
+    "path": "20260407-manul-update-extension-when-you-using-firefox.html",
+    "oldTextLength": 949,
+    "newTextLength": 922,
+    "identical": false
+  },
+  {
+    "path": "20260412-migrate-img-host-to-cloudflare-r2.html",
+    "oldTextLength": 1889,
+    "newTextLength": 1857,
+    "identical": false
+  },
+  {
+    "path": "20260412-moto-x70-air.html",
+    "oldTextLength": 4142,
+    "newTextLength": 4503,
+    "identical": false
+  },
+  {
+    "path": "20260413-update-system-is-not-always-good.html",
+    "oldTextLength": 1325,
+    "newTextLength": 1302,
+    "identical": false
+  },
+  {
+    "path": "20260415-foreverblog-refuse-to-index.html",
+    "oldTextLength": 2787,
+    "newTextLength": 2735,
+    "identical": false
+  },
+  {
+    "path": "20260419-resideload-on-ios-with-iloader.html",
+    "oldTextLength": 1901,
+    "newTextLength": 1867,
+    "identical": false
+  },
+  {
+    "path": "20260422-gfw-more-and-more-tall-in-april-2026.html",
+    "oldTextLength": 730,
+    "newTextLength": 708,
+    "identical": false
+  },
+  {
+    "path": "20260422-kazumi-sync-with-bangumi.html",
+    "oldTextLength": 1280,
+    "newTextLength": 1247,
+    "identical": false
+  },
+  {
+    "path": "20260428-github-copilot-charge-changed.html",
+    "oldTextLength": 568,
+    "newTextLength": 531,
+    "identical": false
+  },
+  {
+    "path": "20260429-eye-health.html",
+    "oldTextLength": 364,
+    "newTextLength": 344,
+    "identical": false
+  },
+  {
+    "path": "20260429-xiaomi-token-request-failed.html",
+    "oldTextLength": 1018,
+    "newTextLength": 988,
+    "identical": false
+  },
+  {
+    "path": "20260501-when-to-eat.html",
+    "oldTextLength": 498,
+    "newTextLength": 474,
+    "identical": false
+  },
+  {
+    "path": "20260502-know-@liulifox233.html",
+    "oldTextLength": 871,
+    "newTextLength": 889,
+    "identical": false
+  },
+  {
+    "path": "20260502-poor-with-vibe-coding.html",
+    "oldTextLength": 553,
+    "newTextLength": 523,
+    "identical": false
+  },
+  {
+    "path": "20260503-dnshe-free-domain.html",
+    "oldTextLength": 949,
+    "newTextLength": 924,
+    "identical": false
+  },
+  {
+    "path": "20260503-venera-to-bangumi.html",
+    "oldTextLength": 3825,
+    "newTextLength": 3746,
+    "identical": false
+  },
+  {
+    "path": "20260504-bangumi-apis.html",
+    "oldTextLength": 744,
+    "newTextLength": 710,
+    "identical": false
+  },
+  {
+    "path": "20260505-fix-venera-download-long-photos-on-iOS-iPadOS.html",
+    "oldTextLength": 35163,
+    "newTextLength": 34594,
+    "identical": false
+  },
+  {
+    "path": "20260508-poor-young.html",
+    "oldTextLength": 854,
+    "newTextLength": 835,
+    "identical": false
+  },
+  {
+    "path": "20260510-fuck-meta.html",
+    "oldTextLength": 1438,
+    "newTextLength": 1417,
+    "identical": false
+  },
+  {
+    "path": "20260516-asmr-todo-list.html",
+    "oldTextLength": 2454,
+    "newTextLength": 2431,
+    "identical": false
+  },
+  {
+    "path": "20260516-fix-venera-export-name.html",
+    "oldTextLength": 4866,
+    "newTextLength": 4733,
+    "identical": false
+  },
+  {
+    "path": "20260516-mv-repo-to-github-organization.html",
+    "oldTextLength": 1016,
+    "newTextLength": 985,
+    "identical": false
+  },
+  {
+    "path": "20260521-mount-s3.html",
+    "oldTextLength": 4465,
+    "newTextLength": 4399,
+    "identical": false
+  },
+  {
+    "path": "20260522-want-a-windows-pad.html",
+    "oldTextLength": 704,
+    "newTextLength": 678,
+    "identical": false
+  },
+  {
+    "path": "404.html",
+    "oldTextLength": 299,
+    "newTextLength": 271,
+    "identical": false
+  },
+  {
+    "path": "8258-nights.html",
+    "oldTextLength": 4864,
+    "newTextLength": 4812,
+    "identical": false
+  },
+  {
+    "path": "README.html",
+    "oldTextLength": 832,
+    "newTextLength": 933,
+    "identical": false
+  },
+  {
+    "path": "changelogs.html",
+    "oldTextLength": 3344,
+    "newTextLength": 3333,
+    "identical": false
+  },
+  {
+    "path": "compound.html",
+    "oldTextLength": 2455,
+    "newTextLength": 2408,
+    "identical": false
+  },
+  {
+    "path": "existence-is-suffering.html",
+    "oldTextLength": 6464,
+    "newTextLength": 6377,
+    "identical": false
+  },
+  {
+    "path": "games-never-played-until-died.html",
+    "oldTextLength": 3317,
+    "newTextLength": 3261,
+    "identical": false
+  },
+  {
+    "path": "hello-world.html",
+    "oldTextLength": 3152,
+    "newTextLength": 3111,
+    "identical": false
+  },
+  {
+    "path": "hentai-reader.html",
+    "oldTextLength": 2849,
+    "newTextLength": 2798,
+    "identical": false
+  },
+  {
+    "path": "idk-how-to-deal-relationship-with-my-parents.html",
+    "oldTextLength": 3465,
+    "newTextLength": 3377,
+    "identical": false
+  },
+  {
+    "path": "index.html",
+    "oldTextLength": 188,
+    "newTextLength": 290,
+    "identical": false
+  },
+  {
+    "path": "is-being-a-soldier-something-that-matters.html",
+    "oldTextLength": 1799,
+    "newTextLength": 1719,
+    "identical": false
+  },
+  {
+    "path": "jark-off-ai.html",
+    "oldTextLength": 5412,
+    "newTextLength": 5355,
+    "identical": false
+  },
+  {
+    "path": "killing-external-links-sucks.html",
+    "oldTextLength": 6102,
+    "newTextLength": 5949,
+    "identical": false
+  },
+  {
+    "path": "labs.html",
+    "oldTextLength": 5390,
+    "newTextLength": 5493,
+    "identical": false
+  },
+  {
+    "path": "letters-about-affirmations-1.html",
+    "oldTextLength": 6769,
+    "newTextLength": 6729,
+    "identical": false
+  },
+  {
+    "path": "look-back-to-your-loved-ones.html",
+    "oldTextLength": 4441,
+    "newTextLength": 4361,
+    "identical": false
+  },
+  {
+    "path": "losing-a-friend-seems-like-a-breakup.html",
+    "oldTextLength": 1725,
+    "newTextLength": 1676,
+    "identical": false
+  },
+  {
+    "path": "many-articles-had-killed-by-chatgpt.html",
+    "oldTextLength": 1356,
+    "newTextLength": 1303,
+    "identical": false
+  },
+  {
+    "path": "my-soulmate.html",
+    "oldTextLength": 5788,
+    "newTextLength": 5739,
+    "identical": false
+  },
+  {
+    "path": "my-university.html",
+    "oldTextLength": 8227,
+    "newTextLength": 8199,
+    "identical": false
+  },
+  {
+    "path": "one-wisdom-sentence-released.html",
+    "oldTextLength": 1504,
+    "newTextLength": 1430,
+    "identical": false
+  },
+  {
+    "path": "one-wisdom.html",
+    "oldTextLength": 1470,
+    "newTextLength": 1414,
+    "identical": false
+  },
+  {
+    "path": "snipd-format-for-obsidian.html",
+    "oldTextLength": 1898,
+    "newTextLength": 1835,
+    "identical": false
+  },
+  {
+    "path": "sorry-for-cats-in-my-first-half-of-life.html",
+    "oldTextLength": 6397,
+    "newTextLength": 6338,
+    "identical": false
+  },
+  {
+    "path": "steampy-on-steam.html",
+    "oldTextLength": 962,
+    "newTextLength": 908,
+    "identical": false
+  },
+  {
+    "path": "stories.html",
+    "oldTextLength": 3304,
+    "newTextLength": 3404,
+    "identical": false
+  },
+  {
+    "path": "telegram-message-sync-bot.html",
+    "oldTextLength": 2357,
+    "newTextLength": 2291,
+    "identical": false
+  },
+  {
+    "path": "thank-you-guys.html",
+    "oldTextLength": 2675,
+    "newTextLength": 2650,
+    "identical": false
+  },
+  {
+    "path": "the-8509-days-of-confusion.html",
+    "oldTextLength": 2346,
+    "newTextLength": 2299,
+    "identical": false
+  },
+  {
+    "path": "thoughts.html",
+    "oldTextLength": 10631,
+    "newTextLength": 10730,
+    "identical": false
+  },
+  {
+    "path": "ttrss-on-wsl2.html",
+    "oldTextLength": 5662,
+    "newTextLength": 5664,
+    "identical": false
+  },
+  {
+    "path": "wnen-u-want-to-use-proxies-on-cybercafé.html",
+    "oldTextLength": 3647,
+    "newTextLength": 3569,
+    "identical": false
+  },
+  {
+    "path": "your-next-computer-is-never-ever-an-ipad-pro.html",
+    "oldTextLength": 3020,
+    "newTextLength": 2958,
+    "identical": false
+  }
+]

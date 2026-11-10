@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
-import Base from '../layouts/Base.astro';
+import Post from '../layouts/Post.astro';
+import ArchivedPost from '../layouts/ArchivedPost.astro';
 import { getArticles } from '../lib/articles';
 
 export async function getStaticPaths() {
@@ -11,13 +12,11 @@ export async function getStaticPaths() {
   }));
 }
 
-const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { entry, isArchive } = Astro.props;
+const { Content, headings } = await render(entry);
+const Layout = isArchive ? ArchivedPost : Post;
 ---
 
-<Base title={entry.data.title}>
-  <article>
-    <h1>{entry.data.title}</h1>
-    <Content />
-  </article>
-</Base>
+<Layout entry={entry} headings={headings} contentHtml={entry.rendered.html}>
+  <Content />
+</Layout>

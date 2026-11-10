@@ -1,15 +1,26 @@
 ---
-const { title, bodyClass } = Astro.props;
+import Head from '../components/Head.astro';
+import Header from '../components/Header.astro';
+import SourceFooter from '../components/SourceFooter.astro';
+
+const { title, bodyClass, description, pagePath, section, type, published } =
+  Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title} - bGZo's blog</title>
+    <Head
+      title={title}
+      description={description}
+      pagePath={pagePath}
+      type={type}
+      published={published}
+    />
   </head>
   <body class={bodyClass}>
+    <Header section={section} pagePath={pagePath} />
     <slot />
+    <SourceFooter />
   </body>
 </html>

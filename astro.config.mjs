@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import { unified } from '@astrojs/markdown-remark';
 import remarkBreaks from 'remark-breaks';
+import { rehypeFootnoteHeadingIds } from './src/lib/rehype-footnote-heading-ids.mjs';
 
 export default defineConfig({
   output: 'static',
@@ -15,6 +16,7 @@ export default defineConfig({
       gfm: true,
       smartypants: true,
       remarkPlugins: [remarkBreaks],
+      rehypePlugins: [rehypeFootnoteHeadingIds],
     }),
     shikiConfig: {
       themes: { light: 'solarized-light', dark: 'solarized-dark' },
