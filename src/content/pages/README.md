@@ -26,6 +26,8 @@ title: README
 Build this blog with
 
 ```
-gem update --system && gem install bundler jekyll && gem install jekyll-feed && gem install jekyll-sitemap && jekyll build
+npm ci
+npm run build
+npm run verify
 ```
 -->

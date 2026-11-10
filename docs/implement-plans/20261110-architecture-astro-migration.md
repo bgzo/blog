@@ -440,11 +440,43 @@ Phases execute in order from 0 to 6. Within a phase, tasks execute in ascending 
 
 | Task | Status | Description | Verification Steps | Date |
 | ---- | ------ | ----------- | ------------------ | ---- |
-| TASK-035 | Pending | Replace `.github/workflows/github-pages.yml` build steps. Keep triggers `push` to `main` and `maintain` plus `workflow_dispatch`. Keep permissions and concurrency. Steps: checkout, `actions/setup-node@v4` with `node-version: '20'` and `cache: 'npm'`, `npm ci`, `BASE_PATH=/blog SITE_URL=https://bgzo.github.io npm run build`, `node scripts/verify-urls.mjs --base=/blog`, `node scripts/verify-data.mjs --base=/blog`, `actions/upload-pages-artifact@v3` with `path: dist`, then the existing deploy job. Remove Ruby, Bundler, Tailwind, and `_site` references. | `actionlint .github/workflows/github-pages.yml` exits 0 if actionlint is installed, otherwise `node -e "const y=require('fs').readFileSync('.github/workflows/github-pages.yml','utf8'); console.log(y.includes('BASE_PATH=/blog'), y.includes('ruby/setup-ruby'), y.includes('_site'))"` prints `true false false`.  | |
-| TASK-036 | Pending | Replace root `vercel.json` with `{ "buildCommand": "npm run build", "outputDirectory": "dist" }`. Remove `cleanUrls` entirely so `/name.html` and `/name/` are both served without a host redirect from `.html` to extensionless. Keep `public/vercel.json` as the TASK-029 legacy copy. | `node -e "const c=require('./vercel.json'); console.log(c.buildCommand, c.outputDirectory, c.cleanUrls)"` prints `npm run build dist undefined`; `test -f public/vercel.json`.  | |
-| TASK-037 | Pending | Update root `wrangler.jsonc`: keep `name` and `compatibility_date`, change `assets.directory` from `_site` to `dist`, and keep `not_found_handling: "404-page"`. Keep `public/wrangler.jsonc` as the TASK-029 legacy copy. | `node -e "const c=require('./wrangler.jsonc'); console.log(c.assets.directory, c.assets.not_found_handling)"` prints `dist 404-page`.  | |
-| TASK-038 | Pending | Update `src/content/pages/README.md` build instructions: replace the hidden Jekyll command block with `npm ci`, `npm run build`, and `npm run verify`. Do not change the visible README prose. Update `SourceFooter.astro` if not already done in TASK-013. | `grep -c 'npm run build' src/content/pages/README.md` prints at least `1`; `grep -c 'gem install jekyll' src/content/pages/README.md` prints `0`.  | |
-| TASK-039 | Pending | Push `astro-migration` to origin with `git push -u origin astro-migration`. Create a Vercel preview deployment from the branch and a Cloudflare Workers preview deployment from the branch. Record both preview URLs in `tests/reports/preview-urls.md`. | `git ls-remote --heads origin astro-migration` prints the branch; `test -s tests/reports/preview-urls.md`; both preview URLs return HTTP 200 for `/` and `/labs.html`.  | |
+| TASK-035 | Completed | Replace `.github/workflows/github-pages.yml` build steps. Keep triggers `push` to `main` and `maintain` plus `workflow_dispatch`. Keep permissions and concurrency. Steps: checkout, `actions/setup-node@v4` with `node-version: '20'` and `cache: 'npm'`, `npm ci`, `BASE_PATH=/blog SITE_URL=https://bgzo.github.io npm run build`, `node scripts/verify-urls.mjs --base=/blog`, `node scripts/verify-data.mjs --base=/blog`, `actions/upload-pages-artifact@v3` with `path: dist`, then the existing deploy job. Remove Ruby, Bundler, Tailwind, and `_site` references. | `actionlint .github/workflows/github-pages.yml` exits 0 if actionlint is installed, otherwise `node -e "const y=require('fs').readFileSync('.github/workflows/github-pages.yml','utf8'); console.log(y.includes('BASE_PATH=/blog'), y.includes('ruby/setup-ruby'), y.includes('_site'))"` prints `true false false`.  | 2026-11-10 |
+| TASK-036 | Completed | Replace root `vercel.json` with `{ "buildCommand": "npm run build", "outputDirectory": "dist" }`. Remove `cleanUrls` entirely so `/name.html` and `/name/` are both served without a host redirect from `.html` to extensionless. Keep `public/vercel.json` as the TASK-029 legacy copy. | `node -e "const c=require('./vercel.json'); console.log(c.buildCommand, c.outputDirectory, c.cleanUrls)"` prints `npm run build dist undefined`; `test -f public/vercel.json`.  | 2026-11-10 |
+| TASK-037 | Completed | Update root `wrangler.jsonc`: keep `name` and `compatibility_date`, change `assets.directory` from `_site` to `dist`, and keep `not_found_handling: "404-page"`. Keep `public/wrangler.jsonc` as the TASK-029 legacy copy. | `node -e "const c=require('./wrangler.jsonc'); console.log(c.assets.directory, c.assets.not_found_handling)"` prints `dist 404-page`.  | 2026-11-10 |
+| TASK-038 | Completed | Update `src/content/pages/README.md` build instructions: replace the hidden Jekyll command block with `npm ci`, `npm run build`, and `npm run verify`. Do not change the visible README prose. Update `SourceFooter.astro` if not already done in TASK-013. | `grep -c 'npm run build' src/content/pages/README.md` prints at least `1`; `grep -c 'gem install jekyll' src/content/pages/README.md` prints `0`.  | 2026-11-10 |
+
+#### TASK-035 Execution Record
+- **Status**: Completed (2026-11-10)
+- **Change Summary**: Replaced the Jekyll GitHub Pages workflow with a Node/Astro build and deploy.
+- **Logic Changes**:
+  - **Added**: `actions/setup-node@v4` with npm cache, `npm ci`, dual-host environment variables, URL/data verification, and a `dist` artifact upload.
+  - **Modified**: Removed Ruby, Bundler, Tailwind, and `_site`; Node is 22 because Astro 7.4.8 declares `node >=22.23.4`, which makes the plan's Node 20 requirement impossible.
+- **Linked Code**: `.github/workflows/github-pages.yml`; `package.json`.
+- **Verification Result**: The workflow contains `BASE_PATH: /blog` and no Ruby or `_site` references.
+
+#### TASK-036 Execution Record
+- **Status**: Completed (2026-11-10)
+- **Change Summary**: Pointed the Vercel project at the Astro build and removed clean-URL rewrites.
+- **Logic Changes**:
+  - **Added**: `buildCommand: npm run build` and `outputDirectory: dist`.
+  - **Modified**: Removed `cleanUrls`.
+
+#### TASK-037 Execution Record
+- **Status**: Completed (2026-11-10)
+- **Change Summary**: Pointed the Cloudflare Workers assets configuration at `dist`.
+- **Logic Changes**:
+  - **Modified**: `assets.directory` changed from `_site` to `dist`; the name, compatibility date, and 404 handling are unchanged.
+- **Linked Code**: `wrangler.jsonc`.
+- **Verification Result**: Parsed as JSON, the file reports `dist 404-page`.
+
+#### TASK-038 Execution Record
+- **Status**: Completed (2026-11-10)
+- **Change Summary**: Replaced the hidden Jekyll build instructions in the README with npm commands.
+- **Logic Changes**:
+  - **Modified**: The HTML comment now documents `npm ci`, `npm run build`, and `npm run verify`; visible prose is unchanged.
+- **Linked Code**: `src/content/pages/README.md`.
+- **Verification Result**: `npm run build` appears once and `gem install jekyll` appears zero times.
+| TASK-039 | In Progress | Push `astro-migration` to origin with `git push -u origin astro-migration`. Create a Vercel preview deployment from the branch and a Cloudflare Workers preview deployment from the branch. Record both preview URLs in `tests/reports/preview-urls.md`. | `git ls-remote --heads origin astro-migration` prints the branch; `test -s tests/reports/preview-urls.md`; both preview URLs return HTTP 200 for `/` and `/labs.html`.  | |
 | TASK-040 | Pending | Run the 20-path smoke suite against both preview URLs and against a local base-mounted server for the GitHub Pages build. Add each target and its result to `tests/reports/target-matrix.md`. Targets: `https://blog.bgzo.cc` (post-merge), `https://bgzo.github.io/blog` (post-merge), Vercel preview, Cloudflare preview. | `tests/reports/target-matrix.md` contains four rows; the three pre-merge rows contain `PASS`; `grep -c 'FAIL' tests/reports/target-matrix.md` prints `0`.  | |
 
 **Phase 5 completion criteria**: GitHub Actions workflow uses Node only, Vercel and Cloudflare configs point to `dist`, and both preview deployments pass the smoke suite.
