@@ -19,7 +19,8 @@ const stripBase = (pathname) => {
 const failures = [];
 let apiMatched = 0;
 
-for (let page = 1; page <= 23; page += 1) {
+const apiPageCount = Object.keys(manifest.api).length;
+for (let page = 1; page <= apiPageCount; page += 1) {
   const actual = JSON.parse(
     readFileSync(`dist/api/posts/${page}.json`, 'utf8'),
   );
@@ -86,7 +87,7 @@ const sitemapMatches =
 if (!sitemapMatches) failures.push('sitemap paths');
 
 console.log(
-  `api=${apiMatched}/23 feed=${feedLinksActual.length}/50 seed=${seedLinksActual.length}/50 sitemap=${sitemapPaths.size}/145`,
+  `api=${apiMatched}/${apiPageCount} feed=${feedLinksActual.length}/50 seed=${seedLinksActual.length}/50 sitemap=${sitemapPaths.size}/${expectedSitemap.size}`,
 );
 if (!feedMatches) console.log('feed mismatch');
 if (!seedMatches) console.log('seed mismatch');

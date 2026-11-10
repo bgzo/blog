@@ -94,7 +94,7 @@ writeFileSync(
 );
 
 console.log(
-  `files=${files.length}/${expectedFiles.length} html=${canonicalHtml.length}/${manifest.html.length} aliases=${aliases}/144 titles=${titles}/${manifest.html.length} canonicals=${canonicals}/${manifest.html.length} failures=${failures.length}`,
+  `files=${files.length}/${expectedFiles.length} html=${canonicalHtml.length}/${manifest.html.length} aliases=${aliases}/${manifest.html.length - 2} titles=${titles}/${manifest.html.length} canonicals=${canonicals}/${manifest.html.length} failures=${failures.length}`,
 );
 if (base) console.log(`baseLinks=${baseLinks} failures=${failures.length}`);
 if (failures.length) {

@@ -175,8 +175,8 @@
   },
   {
     "path": "20241209-giving-up-logseq.html",
-    "oldTextLength": 7217,
-    "newTextLength": 7165,
+    "oldTextLength": 7135,
+    "newTextLength": 7083,
     "identical": false
   },
   {
@@ -349,8 +349,8 @@
   },
   {
     "path": "20251206-archive-blog-written-by-github-issue.html",
-    "oldTextLength": 4914,
-    "newTextLength": 4854,
+    "oldTextLength": 4733,
+    "newTextLength": 4675,
     "identical": false
   },
   {
@@ -522,6 +522,12 @@
     "identical": false
   },
   {
+    "path": "20260407-logseq-problem-toc.html",
+    "oldTextLength": 453,
+    "newTextLength": 425,
+    "identical": false
+  },
+  {
     "path": "20260407-manul-update-extension-when-you-using-firefox.html",
     "oldTextLength": 949,
     "newTextLength": 922,
@@ -601,8 +607,8 @@
   },
   {
     "path": "20260502-poor-with-vibe-coding.html",
-    "oldTextLength": 553,
-    "newTextLength": 523,
+    "oldTextLength": 609,
+    "newTextLength": 579,
     "identical": false
   },
   {
@@ -667,8 +673,50 @@
   },
   {
     "path": "20260522-want-a-windows-pad.html",
-    "oldTextLength": 704,
-    "newTextLength": 678,
+    "oldTextLength": 1443,
+    "newTextLength": 1414,
+    "identical": false
+  },
+  {
+    "path": "20260524-reuse-logseq.html",
+    "oldTextLength": 2918,
+    "newTextLength": 2886,
+    "identical": false
+  },
+  {
+    "path": "20260525-realme-gt6-downgrade-14.html",
+    "oldTextLength": 2026,
+    "newTextLength": 1994,
+    "identical": false
+  },
+  {
+    "path": "20260531-anti-hotlinking-bypass-with-cloudflare-worker.html",
+    "oldTextLength": 2055,
+    "newTextLength": 1985,
+    "identical": false
+  },
+  {
+    "path": "20260712-where-we-go.html",
+    "oldTextLength": 6824,
+    "newTextLength": 6543,
+    "identical": false
+  },
+  {
+    "path": "20260801-habit-without-consist-is-bullshit.html",
+    "oldTextLength": 1482,
+    "newTextLength": 1453,
+    "identical": false
+  },
+  {
+    "path": "20260811-fix-h5player-bahamut-fix-width.html",
+    "oldTextLength": 12962,
+    "newTextLength": 12672,
+    "identical": false
+  },
+  {
+    "path": "20260829-workflow-opencode-on-github-pr.html",
+    "oldTextLength": 9040,
+    "newTextLength": 8957,
     "identical": false
   },
   {
@@ -757,8 +805,8 @@
   },
   {
     "path": "labs.html",
-    "oldTextLength": 5390,
-    "newTextLength": 5493,
+    "oldTextLength": 5633,
+    "newTextLength": 5736,
     "identical": false
   },
   {
