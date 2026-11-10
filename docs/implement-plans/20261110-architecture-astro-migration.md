@@ -3,7 +3,7 @@ goal: Migrate the Jekyll blog to Astro while preserving the complete public URL 
 version: 1.0
 created: 2026-11-10
 modified: 2026-11-10
-status: 'In Progress'
+status: 'On Hold'
 tags: [architecture, migration, astro, url-compatibility, refactor]
 ---
 
@@ -444,6 +444,16 @@ Phases execute in order from 0 to 6. Within a phase, tasks execute in ascending 
 | TASK-036 | Completed | Replace root `vercel.json` with `{ "buildCommand": "npm run build", "outputDirectory": "dist" }`. Remove `cleanUrls` entirely so `/name.html` and `/name/` are both served without a host redirect from `.html` to extensionless. Keep `public/vercel.json` as the TASK-029 legacy copy. | `node -e "const c=require('./vercel.json'); console.log(c.buildCommand, c.outputDirectory, c.cleanUrls)"` prints `npm run build dist undefined`; `test -f public/vercel.json`.  | 2026-11-10 |
 | TASK-037 | Completed | Update root `wrangler.jsonc`: keep `name` and `compatibility_date`, change `assets.directory` from `_site` to `dist`, and keep `not_found_handling: "404-page"`. Keep `public/wrangler.jsonc` as the TASK-029 legacy copy. | `node -e "const c=require('./wrangler.jsonc'); console.log(c.assets.directory, c.assets.not_found_handling)"` prints `dist 404-page`.  | 2026-11-10 |
 | TASK-038 | Completed | Update `src/content/pages/README.md` build instructions: replace the hidden Jekyll command block with `npm ci`, `npm run build`, and `npm run verify`. Do not change the visible README prose. Update `SourceFooter.astro` if not already done in TASK-013. | `grep -c 'npm run build' src/content/pages/README.md` prints at least `1`; `grep -c 'gem install jekyll' src/content/pages/README.md` prints `0`.  | 2026-11-10 |
+
+#### TASK-039 Execution Record
+- **Status**: In Progress (Blocked, 2026-11-10)
+- **Change Summary**: Pushed `astro-migration` and obtained a successful Vercel preview; the Cloudflare preview cannot be created from this environment.
+- **Logic Changes**:
+  - **Added**: `tests/reports/preview-urls.md` and a partial `tests/reports/target-matrix.md`.
+  - **Modified**: Restored the correct root `vercel.json` after a branch-switch accidentally reverted it to the legacy `cleanUrls` file.
+- **Linked Code**: `vercel.json`; `tests/reports/preview-urls.md`; `tests/reports/target-matrix.md`.
+- **Verification Result**: `git ls-remote --heads origin astro-migration` prints the branch. Vercel preview `https://blog-bjuverh46-bgzos-projects.vercel.app` returns HTTP 200 for all 20 smoke paths. Cloudflare is blocked because neither `CLOUDFLARE_API_TOKEN` nor a Wrangler login session exists.
+- **Blocker**: A Cloudflare Workers preview URL and deployment credentials are required to complete TASK-039 and TASK-040. Production merge in TASK-043 must not proceed until that preview passes.
 
 #### TASK-035 Execution Record
 - **Status**: Completed (2026-11-10)
