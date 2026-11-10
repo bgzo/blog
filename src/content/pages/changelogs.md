@@ -1,5 +1,4 @@
 ---
-layout: post
 created: 2022-03-17T00:00:00
 modified: 2026-04-18T00:00:00
 title: Changelogs

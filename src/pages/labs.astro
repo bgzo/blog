@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { articlePath } from '../lib/url';
+import { byCreatedDesc } from '../lib/articles';
+import { formatYmd, formatSlashYmd } from '../lib/dates';
+
+const entries = (await getCollection('articles'))
+  .filter((entry) => entry.id.startsWith('labs/'))
+  .sort(byCreatedDesc);
+
+const groups = [];
+for (const entry of entries) {
+  const year = formatYmd(entry.data.created).slice(0, 4);
+  if (!groups.length || groups[groups.length - 1].year !== year) {
+    groups.push({ year, posts: [] });
+  }
+  groups[groups.length - 1].posts.push(entry);
+}
+
+const escapeHtml = (value) =>
+  String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+
+const excerpt = (value) => {
+  const text = String(value ?? '').trim();
+  const chars = Array.from(text);
+  const truncated =
+    chars.length > 500 ? `${chars.slice(0, 497).join('')}...` : text;
+  return escapeHtml(truncated).replace(/\n/g, '<br />\n');
+};
+---
+
+<Base title="Labs">
+  <div class="preface">
+  First, I don't know whether it's useful or not, but I still will try it anyway, so I could figure out, finally I would write it here.
+  </div>
+
+  {groups.map((group) => (
+    <div class="posts-year-group" data-year={group.year}><ul class="posts">
+      {group.posts.map((entry) => (
+        <li class="post">
+          <a class="post-title" href={articlePath(entry.id)}>{entry.data.title}</a>
+          {String(entry.data.description ?? '').trim() !== '' && (
+            <div class="post-excerpt" set:html={excerpt(entry.data.description)} />
+          )}
+          <time class="publish-date" datetime={formatYmd(entry.data.created)}>
+            {formatSlashYmd(entry.data.created)}
+          </time>
+        </li>
+      ))}
+    </ul></div>
+  ))}
+</Base>

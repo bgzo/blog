@@ -1,0 +1,15 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const entry = await getEntry('pages', 'changelogs');
+if (!entry) throw new Error('Missing changelogs page entry');
+const { Content } = await render(entry);
+---
+
+<Base title="Changelogs">
+  <article>
+    <h2>Changelogs</h2>
+    <Content />
+  </article>
+</Base>
