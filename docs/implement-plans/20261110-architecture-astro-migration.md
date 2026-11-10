@@ -3,7 +3,7 @@ goal: Migrate the Jekyll blog to Astro while preserving the complete public URL 
 version: 1.0
 created: 2026-11-10
 modified: 2026-11-10
-status: 'On Hold'
+status: 'In Progress'
 tags: [architecture, migration, astro, url-compatibility, refactor]
 ---
 
@@ -446,48 +446,22 @@ Phases execute in order from 0 to 6. Within a phase, tasks execute in ascending 
 | TASK-038 | Completed | Update `src/content/pages/README.md` build instructions: replace the hidden Jekyll command block with `npm ci`, `npm run build`, and `npm run verify`. Do not change the visible README prose. Update `SourceFooter.astro` if not already done in TASK-013. | `grep -c 'npm run build' src/content/pages/README.md` prints at least `1`; `grep -c 'gem install jekyll' src/content/pages/README.md` prints `0`.  | 2026-11-10 |
 
 #### TASK-039 Execution Record
-- **Status**: In Progress (Blocked, 2026-11-10)
-- **Change Summary**: Pushed `astro-migration` and obtained a successful Vercel preview; the Cloudflare preview cannot be created from this environment.
-- **Logic Changes**:
-  - **Added**: `tests/reports/preview-urls.md` and a partial `tests/reports/target-matrix.md`.
-  - **Modified**: Restored the correct root `vercel.json` after a branch-switch accidentally reverted it to the legacy `cleanUrls` file.
-- **Linked Code**: `vercel.json`; `tests/reports/preview-urls.md`; `tests/reports/target-matrix.md`.
-- **Verification Result**: `git ls-remote --heads origin astro-migration` prints the branch. Vercel preview `https://blog-bjuverh46-bgzos-projects.vercel.app` returns HTTP 200 for all 20 smoke paths. Cloudflare is blocked because neither `CLOUDFLARE_API_TOKEN` nor a Wrangler login session exists.
-- **Blocker**: A Cloudflare Workers preview URL and deployment credentials are required to complete TASK-039 and TASK-040. Production merge in TASK-043 must not proceed until that preview passes.
-
-#### TASK-035 Execution Record
 - **Status**: Completed (2026-11-10)
-- **Change Summary**: Replaced the Jekyll GitHub Pages workflow with a Node/Astro build and deploy.
+- **Change Summary**: Pushed the branch and produced working Vercel and Cloudflare preview deployments.
 - **Logic Changes**:
-  - **Added**: `actions/setup-node@v4` with npm cache, `npm ci`, dual-host environment variables, URL/data verification, and a `dist` artifact upload.
-  - **Modified**: Removed Ruby, Bundler, Tailwind, and `_site`; Node is 22 because Astro 7.4.8 declares `node >=22.23.4`, which makes the plan's Node 20 requirement impossible.
-- **Linked Code**: `.github/workflows/github-pages.yml`; `package.json`.
-- **Verification Result**: The workflow contains `BASE_PATH: /blog` and no Ruby or `_site` references.
+  - **Added**: `tests/reports/preview-urls.md`.
+  - **Modified**: Restored the correct root `vercel.json` after a branch switch accidentally reverted it; updated the two Cloudflare build triggers from the retired Jekyll/Tailwind commands to `npm ci && npm run build` with `wrangler versions upload` / `wrangler deploy`.
+- **Linked Code**: `vercel.json`; `wrangler.jsonc`; Cloudflare triggers `8c6e29f2-ace2-49fb-ab62-941f50975773` and `17b1328d-8f2d-461b-ae56-6dc5110466b7`.
+- **Verification Result**: Vercel preview `https://blog-9s1femahj-bgzos-projects.vercel.app` and Cloudflare preview `https://astro-migration-blog.lfh010618.workers.dev` both return HTTP 200 for `/` and `/labs.html` (Cloudflare redirects `.html` to the extensionless alias, which resolves 200).
 
-#### TASK-036 Execution Record
+#### TASK-040 Execution Record
 - **Status**: Completed (2026-11-10)
-- **Change Summary**: Pointed the Vercel project at the Astro build and removed clean-URL rewrites.
+- **Change Summary**: Ran the smoke suite against both previews and the local dual-mount server.
 - **Logic Changes**:
-  - **Added**: `buildCommand: npm run build` and `outputDirectory: dist`.
-  - **Modified**: Removed `cleanUrls`.
-
-#### TASK-037 Execution Record
-- **Status**: Completed (2026-11-10)
-- **Change Summary**: Pointed the Cloudflare Workers assets configuration at `dist`.
-- **Logic Changes**:
-  - **Modified**: `assets.directory` changed from `_site` to `dist`; the name, compatibility date, and 404 handling are unchanged.
-- **Linked Code**: `wrangler.jsonc`.
-- **Verification Result**: Parsed as JSON, the file reports `dist 404-page`.
-
-#### TASK-038 Execution Record
-- **Status**: Completed (2026-11-10)
-- **Change Summary**: Replaced the hidden Jekyll build instructions in the README with npm commands.
-- **Logic Changes**:
-  - **Modified**: The HTML comment now documents `npm ci`, `npm run build`, and `npm run verify`; visible prose is unchanged.
-- **Linked Code**: `src/content/pages/README.md`.
-- **Verification Result**: `npm run build` appears once and `gem install jekyll` appears zero times.
-| TASK-039 | In Progress | Push `astro-migration` to origin with `git push -u origin astro-migration`. Create a Vercel preview deployment from the branch and a Cloudflare Workers preview deployment from the branch. Record both preview URLs in `tests/reports/preview-urls.md`. | `git ls-remote --heads origin astro-migration` prints the branch; `test -s tests/reports/preview-urls.md`; both preview URLs return HTTP 200 for `/` and `/labs.html`.  | |
-| TASK-040 | Pending | Run the 20-path smoke suite against both preview URLs and against a local base-mounted server for the GitHub Pages build. Add each target and its result to `tests/reports/target-matrix.md`. Targets: `https://blog.bgzo.cc` (post-merge), `https://bgzo.github.io/blog` (post-merge), Vercel preview, Cloudflare preview. | `tests/reports/target-matrix.md` contains four rows; the three pre-merge rows contain `PASS`; `grep -c 'FAIL' tests/reports/target-matrix.md` prints `0`.  | |
+  - **Added**: `tests/reports/target-matrix.md`.
+  - **Modified**: None.
+- **Linked Code**: `tests/reports/target-matrix.md`.
+- **Verification Result**: Local `passed=40 failed=0`; Vercel `20/20`; Cloudflare `20/20`; the three pre-merge rows are PASS and there are zero FAIL entries.
 
 **Phase 5 completion criteria**: GitHub Actions workflow uses Node only, Vercel and Cloudflare configs point to `dist`, and both preview deployments pass the smoke suite.
 

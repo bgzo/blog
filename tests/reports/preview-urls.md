@@ -2,12 +2,11 @@
 
 | Target | Branch | URL | Status |
 | ------ | ------ | --- | ------ |
-| Vercel | `astro-migration` | https://blog-bjuverh46-bgzos-projects.vercel.app | PASS |
-| Cloudflare Workers | `astro-migration` | — | BLOCKED: no Cloudflare credentials or Wrangler CLI session is available in this environment |
+| Vercel | `astro-migration` | https://blog-9s1femahj-bgzos-projects.vercel.app | PASS |
+| Cloudflare Workers | `astro-migration` | https://astro-migration-blog.lfh010618.workers.dev | PASS |
+| Cloudflare version | `astro-migration` | https://cf62b653-blog.lfh010618.workers.dev | PASS (previous version) |
 
-The Vercel preview was created automatically from commit `3eee895960404dab05f93bcad4d6c561b7f87c20`.
-All 20 smoke paths return HTTP 200, including `.html`, extensionless, non-ASCII,
-archive, API, feed, sitemap, and asset paths.
-
-The Cloudflare preview requires `CLOUDFLARE_API_TOKEN` or an interactive
-`wrangler login`; neither is available here.
+Both previews were built from commit `65a6006541423a4840a688e1bea36956a713c796`.
+All 20 smoke paths return HTTP 200 after redirects, including `.html`,
+extensionless, non-ASCII, archive, API, feed, sitemap, and asset paths. Both
+previews contain the Astro source footer.
