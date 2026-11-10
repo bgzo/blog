@@ -1,0 +1,20 @@
+---
+import { formatYmd, formatSlashYmd } from '../lib/dates';
+
+const { published, modified, contentHtml } = Astro.props;
+const count = String(contentHtml)
+  .replace(/<[^>]*>/g, '')
+  .replace(/\n/g, '')
+  .replace(/ /g, '').length;
+const minutes = Math.max(1, Math.floor(count / 400));
+---
+
+<p class="post-meta">
+  {published && (
+    <span>Published: <time class="publish-date" datetime={formatYmd(published)}>{formatSlashYmd(published)}</time></span>
+  )}
+  {modified && (
+    <span>Updated: <time class="update-date" datetime={formatYmd(modified)}>{formatSlashYmd(modified)}</time></span>
+  )}
+  <span>{count} 字 · {minutes} min</span>
+</p>

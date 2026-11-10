@@ -1,0 +1,26 @@
+---
+import Head from '../components/Head.astro';
+import Header from '../components/Header.astro';
+import SourceFooter from '../components/SourceFooter.astro';
+
+const { title, bodyClass, description, pagePath, section, type, published } =
+  Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={title}
+      description={description}
+      pagePath={pagePath}
+      type={type}
+      published={published}
+    />
+  </head>
+  <body class={bodyClass}>
+    <Header section={section} pagePath={pagePath} />
+    <slot />
+    <SourceFooter />
+  </body>
+</html>

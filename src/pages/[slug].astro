@@ -1,0 +1,22 @@
+---
+import { render } from 'astro:content';
+import Post from '../layouts/Post.astro';
+import ArchivedPost from '../layouts/ArchivedPost.astro';
+import { getArticles } from '../lib/articles';
+
+export async function getStaticPaths() {
+  const entries = await getArticles();
+  return entries.map((entry) => ({
+    params: { slug: entry.routeSlug },
+    props: { entry, isArchive: entry.isArchive },
+  }));
+}
+
+const { entry, isArchive } = Astro.props;
+const { Content, headings } = await render(entry);
+const Layout = isArchive ? ArchivedPost : Post;
+---
+
+<Layout entry={entry} headings={headings} contentHtml={entry.rendered.html}>
+  <Content />
+</Layout>

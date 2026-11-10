@@ -1,0 +1,15 @@
+---
+import { getEntry, render } from 'astro:content';
+import Default from '../layouts/Default.astro';
+
+const entry = await getEntry('pages', 'readme');
+if (!entry) throw new Error('Missing README page entry');
+const { Content } = await render(entry);
+const title = 'README';
+---
+
+<Default title={title} pagePath="/README.html">
+  <article>
+    <Content />
+  </article>
+</Default>

@@ -1,12 +1,11 @@
-.jekyll-cache/
-_site/
+dist/
+.astro/
 node_modules/
 .idea/
 
-
-Pipfile
-Pipfile.lock
-Gemfile.lock
+# Generated from README.md and changelogs.md at build/dev start
+src/content/pages/README.md
+src/content/pages/changelogs.md
 
 debug/
 telegram-iv-template.txt

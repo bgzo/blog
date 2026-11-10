@@ -1,9 +1,14 @@
 ---
-layout: post
 created: 2022-03-17T00:00:00
-modified: 2026-04-18T00:00:00
+modified: 2026-11-10T00:00:00
 title: Changelogs
 ---
+
+## 20261110: Astro migration
+
+- Rebuilt the site with Astro as static HTML; no Vue/React/Svelte.
+- Kept the original `.html` URLs, Atom feeds, JSON API, sitemap, and giscus comments, and added extensionless alias pages for old links.
+- Root `README.md` and `changelogs.md` are now the sources for their pages and are copied in at build time.
 
 ## 20260526: New seeds timeline
 

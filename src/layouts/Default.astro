@@ -1,0 +1,31 @@
+---
+import Head from '../components/Head.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SourceFooter from '../components/SourceFooter.astro';
+
+const { title, description, pagePath, section, type, published } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <Head
+      title={title}
+      description={description}
+      pagePath={pagePath}
+      type={type}
+      published={published}
+    />
+  </head>
+  <body>
+    <Header section={section} pagePath={pagePath} />
+    <div class="container">
+      <main>
+        <slot />
+      </main>
+    </div>
+    <Footer />
+    {pagePath !== '/404.html' && <SourceFooter />}
+  </body>
+</html>

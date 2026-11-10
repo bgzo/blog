@@ -21,35 +21,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-          bundler-cache: true
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
-      - name: Install Node dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build Tailwind CSS
-        run: |
-          npx tailwindcss -i ./assets/css/custom.css -o ./assets/css/custom.build.css --minify
-          cp ./assets/css/custom.build.css ./assets/css/custom.css
-
-      - name: Build Jekyll (with GitHub Pages baseurl)
-        run: bundle exec jekyll build --config _config.yml,_config_github.yml
+      - name: Build Astro (with GitHub Pages base path)
+        run: npm run build
         env:
-          JEKYLL_ENV: production
+          BASE_PATH: /blog
+          SITE_URL: https://bgzo.github.io
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_site"
+          path: dist
 
   deploy:
     environment:

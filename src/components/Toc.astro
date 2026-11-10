@@ -1,0 +1,52 @@
+---
+const { headings, contentHtml } = Astro.props;
+
+const source = String(contentHtml ?? '');
+const matches = [
+  ...source.matchAll(/<h([2-6])\b([^>]*)>([\s\S]*?)<\/h\1>/g),
+];
+const items = matches
+  .map((match) => {
+    const depth = Number(match[1]);
+    const attributes = match[2];
+    const id = attributes.match(/\bid="([^"]*)"/)?.[1] ?? '';
+    const className = attributes.match(/\bclass="([^"]*)"/)?.[1] ?? '';
+    return { depth, id, text: match[3], className };
+  })
+  .filter(
+    (item) =>
+      item.id &&
+      !item.className.split(/\s+/).includes('no_toc') &&
+      !item.className.split(/\s+/).includes('sr-only') &&
+      headings.some((heading) => heading.slug === item.id),
+  );
+
+let html = '';
+const stack = [];
+for (const heading of items) {
+  if (stack.length === 0) {
+    html += '<ul>';
+    stack.push(heading.depth);
+  } else if (heading.depth > stack[stack.length - 1]) {
+    html += '<ul>';
+    stack.push(heading.depth);
+  } else {
+    html += '</li>';
+    while (stack.length > 1 && heading.depth < stack[stack.length - 1]) {
+      html += '</ul></li>';
+      stack.pop();
+    }
+  }
+  html += `<li><a href="#${heading.id}">${heading.text}</a>`;
+}
+if (stack.length) {
+  html += '</li>';
+  while (stack.length > 1) {
+    html += '</ul></li>';
+    stack.pop();
+  }
+  html += '</ul>';
+}
+---
+
+{items.length > 0 && <div class="contents"> <Fragment set:html={html} /></div>}

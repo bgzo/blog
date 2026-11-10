@@ -1,0 +1,10 @@
+---
+import { formatIsoLocal } from '../lib/dates';
+
+const { date } = Astro.props;
+---
+
+<time id="article-updated" datetime={formatIsoLocal(date)} hidden></time>
+<script>
+  import '../scripts/outdated-notice.js';
+</script>
