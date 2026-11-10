@@ -8,7 +8,7 @@ const PAGES = [
   { path: '/labs.html', lastmod: null },
   { path: '/thoughts.html', lastmod: null },
   { path: '/stories.html', lastmod: null },
-  { path: '/changelogs.html', lastmod: '2026-04-18T00:00:00' },
+  { path: '/changelogs.html', lastmod: '2026-11-10T00:00:00' },
 ];
 
 function escapeXml(value) {
