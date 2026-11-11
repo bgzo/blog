@@ -4,7 +4,7 @@
 
 2021年末，那时候我还没有搞清楚 GitHub Action、Jekyll 和 GitHub Pages，却偶然看到 [@dzhavat](https://github.com/dzhavat) 的博客和源码，觉得很神奇，就一点点模仿，加入自己觉得不错的元素点缀，一点点打磨，最后就成了现在这个样子。
 
-最开始我使用 ISSUE 进行写作，就跟业界很多人一样，但后来因为种种原因放弃了，GitHub CI 也是当时照着 [yihong0618/2022](https://github.com/yihong0618/2022) 一点点改的，甚至连用 Issue 写博客这个 idae 也是听 [捕蛇者说](https://pythonhunter.org/) 某期博客时被启发到的，觉得很有意思，就想试试。具体的前因后果我在[一篇文章](https://note.bgzo.cc/weekly/1269-archive-blog-written-by-github-issue)里面也总结过，不赘述了。
+最开始我使用 ISSUE 进行写作，就跟业界很多人一样，但后来因为种种原因放弃了，GitHub CI 也是当时照着 [yihong0618/2022](https://github.com/yihong0618/2022) 一点点改的，甚至连用 Issue 写博客这个 idae 也是听 [捕蛇者说](https://pythonhunter.org/) 某期博客时被启发到的，觉得很有意思，就想试试。具体的前因后果我在[一篇文章](https://blog.bgzo.cc/20251206-archive-blog-written-by-github-issue)里面也总结过，不赘述了。
 
 总之，[这些年兜兜转转，想法千奇百怪，走过不少弯路](./../changelogs.html)，不过那些都过去了，我写下的文字、用过的工具也如流水一般，是是流动的，我们应当拥抱、适应这种变化，比如把这变化的一切都写下来，记录下来，分享出来，兴许能给后来者一些启发和帮助。
 
